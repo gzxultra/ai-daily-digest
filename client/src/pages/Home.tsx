@@ -1,10 +1,9 @@
 /*
- * Design: Editorial Magazine Style — Home Page
- * - Hero section with generated AI background
- * - Date navigation for daily updates
- * - Category filter pills
- * - Magazine-style grid: featured card + smaller cards
- * - Data loaded from JSON files (updated daily by GitHub Actions)
+ * UI: Editorial magazine home page
+ * - Clean section structure with proper spacing
+ * - Featured card spans full width
+ * - 2-column grid for remaining cards (3-col on xl)
+ * - Subtle section dividers
  */
 import { useState, useMemo, useEffect } from "react";
 import Header from "@/components/Header";
@@ -86,7 +85,12 @@ export default function Home() {
       <div className="min-h-screen flex flex-col bg-background">
         <Header />
         <div className="flex-1 flex items-center justify-center">
-          <Loader2 className="w-8 h-8 animate-spin text-primary" />
+          <div className="flex flex-col items-center gap-3">
+            <Loader2 className="w-6 h-6 animate-spin text-primary" />
+            <span className="text-xs text-muted-foreground font-medium">
+              {lang === "zh" ? "加载中..." : "Loading..."}
+            </span>
+          </div>
         </div>
       </div>
     );
@@ -108,29 +112,41 @@ export default function Home() {
       />
 
       <main className="flex-1">
-        <div className="container py-8 space-y-6">
-          {/* Date Navigation */}
-          <DateNav
-            digests={dateDigests}
-            activeDate={activeDate}
-            onDateChange={setActiveDate}
-          />
+        <div className="container pt-8 pb-4">
+          {/* Controls section */}
+          <div className="space-y-3 mb-8">
+            <DateNav
+              digests={dateDigests}
+              activeDate={activeDate}
+              onDateChange={setActiveDate}
+            />
+            <div className="h-px bg-border" />
+            <CategoryFilter
+              categories={categories}
+              activeCategory={activeCategory}
+              onCategoryChange={setActiveCategory}
+            />
+          </div>
 
-          {/* Category Filter */}
-          <CategoryFilter
-            categories={categories}
-            activeCategory={activeCategory}
-            onCategoryChange={setActiveCategory}
-          />
-
-          {/* News Grid */}
-          <div className="space-y-6">
+          {/* News section */}
+          <div className="space-y-5">
             {/* Featured Card */}
             {featured && <NewsCard item={featured} index={0} featured />}
 
+            {/* Divider between featured and grid */}
+            {featured && rest.length > 0 && (
+              <div className="flex items-center gap-3 py-2">
+                <div className="h-px flex-1 bg-border" />
+                <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-widest">
+                  {lang === "zh" ? "更多资讯" : "More Stories"}
+                </span>
+                <div className="h-px flex-1 bg-border" />
+              </div>
+            )}
+
             {/* Grid of remaining cards */}
             {rest.length > 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                 {rest.map((item: NewsItem, i: number) => (
                   <NewsCard key={item.id} item={item} index={i + 1} />
                 ))}
@@ -139,11 +155,11 @@ export default function Home() {
 
             {/* Empty state */}
             {filteredNews.length === 0 && (
-              <div className="text-center py-16">
-                <p className="text-muted-foreground text-sm">
+              <div className="text-center py-20">
+                <p className="text-sm text-muted-foreground">
                   {lang === "zh"
                     ? "该分类下暂无新闻"
-                    : "No news in this category"}
+                    : "No stories in this category"}
                 </p>
               </div>
             )}

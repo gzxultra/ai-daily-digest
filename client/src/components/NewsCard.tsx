@@ -1,13 +1,14 @@
 /*
- * Design: Editorial Magazine Style
- * - Left color accent bar per category
- * - "via Source" label for attribution
- * - Hover lift animation
- * - Space Grotesk for titles, Inter for body
+ * UI: Premium editorial news card
+ * - Featured: full-width with large type, left color accent
+ * - Regular: clean card with top color line, clear hierarchy
+ * - Expanded summaries (3-5 sentences) shown with proper line clamping
+ * - "via Source" shown as inline label
+ * - Hover: subtle lift + border color shift
  */
 import { useLanguage } from "@/contexts/LanguageContext";
 import type { NewsItem } from "@/data/news";
-import { ExternalLink } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface NewsCardProps {
@@ -22,44 +23,61 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
   if (featured) {
     return (
       <motion.article
-        initial={{ opacity: 0, y: 30 }}
+        initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.1 }}
-        className="group relative overflow-hidden rounded-2xl bg-card border border-border
-                   hover:shadow-xl hover:shadow-primary/5 transition-all duration-500"
+        transition={{ duration: 0.5, delay: 0.1 }}
+        className="group relative bg-card rounded-lg border border-border overflow-hidden
+                   hover:border-border/80 hover:shadow-lg hover:shadow-black/[0.03] dark:hover:shadow-black/20
+                   transition-all duration-300"
       >
-        <div className="h-1.5 w-full" style={{ backgroundColor: item.category.color }} />
-        <div className="p-6 sm:p-8">
-          <div className="flex items-center gap-3 mb-4">
+        {/* Top color accent */}
+        <div className="h-1 w-full" style={{ backgroundColor: item.category.color }} />
+
+        <div className="p-6 sm:p-8 lg:p-10">
+          {/* Meta row */}
+          <div className="flex items-center gap-3 mb-5">
             <span
-              className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold text-white"
-              style={{ backgroundColor: item.category.color }}
+              className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-[11px] font-bold uppercase tracking-wider"
+              style={{
+                color: item.category.color,
+                backgroundColor: `${item.category.color}12`,
+              }}
             >
+              <span
+                className="w-1.5 h-1.5 rounded-full"
+                style={{ backgroundColor: item.category.color }}
+              />
               {t(item.category)}
             </span>
-            <span className="text-xs text-muted-foreground font-medium">
-              via <span className="text-foreground/70">{item.source}</span>
+            <span className="text-xs text-muted-foreground">
+              via <span className="font-semibold text-foreground/60">{item.source}</span>
             </span>
           </div>
+
+          {/* Title */}
           <h2
-            className="text-xl sm:text-2xl font-bold text-card-foreground leading-tight mb-4
+            className="text-xl sm:text-2xl lg:text-[1.65rem] font-extrabold text-card-foreground leading-tight mb-4
                        group-hover:text-primary transition-colors duration-300"
             style={{ fontFamily: "'Space Grotesk', 'Noto Sans SC', sans-serif" }}
           >
             {t(item.title)}
           </h2>
-          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-6">
+
+          {/* Summary - show full for featured */}
+          <p className="text-[15px] text-muted-foreground leading-[1.75] mb-6 max-w-3xl">
             {t(item.summary)}
           </p>
+
+          {/* Read more link */}
           <a
             href={item.sourceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary
-                       hover:underline underline-offset-4 transition-all duration-200"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary
+                       hover:gap-2.5 transition-all duration-200"
           >
-            {lang === "zh" ? "阅读原文" : "Read More"}
-            <ExternalLink className="w-3.5 h-3.5" />
+            {lang === "zh" ? "阅读原文" : "Read Article"}
+            <ArrowUpRight className="w-4 h-4" />
           </a>
         </div>
       </motion.article>
@@ -68,48 +86,61 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
 
   return (
     <motion.article
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.1 + index * 0.06 }}
-      className="group relative overflow-hidden rounded-xl bg-card border border-border
-                 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5
-                 transition-all duration-400"
+      transition={{ duration: 0.4, delay: 0.08 + index * 0.04 }}
+      className="group relative bg-card rounded-lg border border-border overflow-hidden
+                 hover:border-border/80 hover:shadow-md hover:shadow-black/[0.03] dark:hover:shadow-black/20
+                 hover:-translate-y-px transition-all duration-300"
     >
-      <div
-        className="absolute left-0 top-0 bottom-0 w-1 rounded-l-xl"
-        style={{ backgroundColor: item.category.color }}
-      />
-      <div className="p-5 pl-6">
-        <div className="flex items-center gap-2 mb-3">
+      {/* Top color line */}
+      <div className="h-0.5 w-full" style={{ backgroundColor: item.category.color }} />
+
+      <div className="p-5 sm:p-6 flex flex-col h-full">
+        {/* Meta row */}
+        <div className="flex items-center gap-2.5 mb-3.5">
           <span
-            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-semibold text-white"
-            style={{ backgroundColor: item.category.color }}
+            className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider"
+            style={{
+              color: item.category.color,
+              backgroundColor: `${item.category.color}10`,
+            }}
           >
+            <span
+              className="w-1.5 h-1.5 rounded-full"
+              style={{ backgroundColor: item.category.color }}
+            />
             {t(item.category)}
           </span>
-          <span className="text-[11px] text-muted-foreground font-medium">
-            via <span className="text-foreground/70">{item.source}</span>
+          <span className="text-[11px] text-muted-foreground">
+            via <span className="font-semibold text-foreground/55">{item.source}</span>
           </span>
         </div>
+
+        {/* Title */}
         <h3
-          className="text-base font-bold text-card-foreground leading-snug mb-2.5
+          className="text-[15px] sm:text-base font-bold text-card-foreground leading-snug mb-3
                      group-hover:text-primary transition-colors duration-300"
           style={{ fontFamily: "'Space Grotesk', 'Noto Sans SC', sans-serif" }}
         >
           {t(item.title)}
         </h3>
-        <p className="text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
+
+        {/* Summary - clamped to 4 lines for regular cards */}
+        <p className="text-[13px] text-muted-foreground leading-[1.7] mb-4 flex-1 line-clamp-4">
           {t(item.summary)}
         </p>
+
+        {/* Read more link */}
         <a
           href={item.sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-xs font-medium text-primary
-                     hover:underline underline-offset-4 transition-all duration-200"
+          className="inline-flex items-center gap-1 text-xs font-semibold text-primary
+                     hover:gap-2 transition-all duration-200 mt-auto"
         >
-          {lang === "zh" ? "阅读原文" : "Read More"}
-          <ExternalLink className="w-3 h-3" />
+          {lang === "zh" ? "阅读原文" : "Read Article"}
+          <ArrowUpRight className="w-3.5 h-3.5" />
         </a>
       </div>
     </motion.article>

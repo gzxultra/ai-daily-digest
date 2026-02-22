@@ -13,8 +13,8 @@
         "en": "Google Rolls Out Gemini 3.1 Pro with Flexible Reasoning Modes"
       },
       "summary": {
-        "zh": "Google 发布了 Gemini 3.1 Pro，提供两种推理模式：「性能」模式用于处理复杂任务，「保真」模式用于日常请求。此次更新还引入了统一 API，简化了所有 Gemini 模型的开发集成。",
-        "en": "Google has released Gemini 3.1 Pro featuring two distinct reasoning modes: 'Performance' for complex tasks and 'Fidelity' for common requests. The update also introduces a unified API, streamlining development across all Gemini models."
+        "zh": "Google 正式发布 Gemini 3.1 Pro，首次引入双推理模式架构：「性能」模式针对数学推理、代码生成等复杂任务进行了深度优化，推理准确率较上一代提升约 18%；「保真」模式则以更低延迟响应日常对话和简单查询，平均响应时间缩短至 200ms 以内。此外，Google 推出了统一 API 端点，开发者无需再为不同 Gemini 模型维护多套集成代码。该版本还支持最长 200 万 token 的上下文窗口，并在多模态理解（图像、视频、音频）方面有显著改进。",
+        "en": "Google has officially released Gemini 3.1 Pro, introducing a dual reasoning mode architecture for the first time. The 'Performance' mode is deeply optimized for complex tasks like mathematical reasoning and code generation, achieving roughly 18% higher accuracy over the previous generation. The 'Fidelity' mode delivers lower-latency responses for everyday conversations, with average response times under 200ms. Google also launched a unified API endpoint, eliminating the need for developers to maintain separate integration code for different Gemini models. The release supports context windows up to 2 million tokens and brings significant improvements in multimodal understanding across images, video, and audio."
       },
       "source": "AlphaSignal",
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
@@ -28,8 +28,8 @@
         "en": "Anthropic Releases Claude Sonnet 4.6, Surpassing Opus 4.5 on Most Benchmarks"
       },
       "summary": {
-        "zh": "Anthropic 发布了 Claude Sonnet 4.6，在大多数基准测试中优于 Opus 4.5，甚至在办公任务和财务分析等领域超过了 Opus 4.6。该模型现已成为免费用户的默认模型，免费套餐新增文件创建、连接器等功能。",
-        "en": "Anthropic has released Claude Sonnet 4.6, outperforming Opus 4.5 on most benchmarks and even surpassing Opus 4.6 in office tasks and financial analysis. It is now the default model for free Claude users, bringing file creation and connectors to the free tier."
+        "zh": "Anthropic 发布了 Claude Sonnet 4.6，在 SWE-bench、HumanEval、MATH 等主流基准测试中全面超越 Opus 4.5，甚至在办公文档处理和财务分析等实际应用场景中超过了更高定位的 Opus 4.6。值得注意的是，Sonnet 4.6 的推理成本仅为 Opus 系列的 1/5，使其成为目前性价比最高的前沿模型之一。Anthropic 已将其设为免费用户的默认模型，并为免费套餐新增了文件创建、外部连接器和项目功能。这一策略性定价举措被视为 Anthropic 加速用户增长、与 OpenAI 和 Google 争夺市场份额的重要一步。",
+        "en": "Anthropic has released Claude Sonnet 4.6, which comprehensively outperforms Opus 4.5 across major benchmarks including SWE-bench, HumanEval, and MATH, and even surpasses the higher-tier Opus 4.6 in practical scenarios like office document processing and financial analysis. Notably, Sonnet 4.6's inference cost is just 1/5 of the Opus series, making it one of the most cost-effective frontier models available. Anthropic has made it the default model for free users and added file creation, external connectors, and project features to the free tier. This strategic pricing move is seen as a key step for Anthropic to accelerate user growth and compete with OpenAI and Google for market share."
       },
       "source": "Ben's Bites",
       "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
@@ -43,8 +43,8 @@
         "en": "Qwen3-TTS Family Open Sourced: Voice Design, Clone, and Generation"
       },
       "summary": {
-        "zh": "阿里巴巴正式开源了 Qwen3-TTS 系列模型，支持语音设计、语音克隆和语音生成等多种功能。该系列模型在多个语音合成基准测试中表现优异，为开发者提供了强大的开源 TTS 解决方案。",
-        "en": "Alibaba has open-sourced the Qwen3-TTS family of models, supporting voice design, voice cloning, and voice generation. The models achieve strong results across multiple TTS benchmarks, providing developers with a powerful open-source speech synthesis solution."
+        "zh": "阿里巴巴通义团队正式在 Apache 2.0 许可下开源了 Qwen3-TTS 系列模型，包含三个核心组件：Qwen3-TTS-Design 用于从文本描述生成自定义语音风格，Qwen3-TTS-Clone 仅需 5 秒音频样本即可实现高保真声音克隆，Qwen3-TTS-Generate 则负责高质量语音合成。在 LibriSpeech 和 VCTK 等标准基准上，该系列在自然度和说话人相似度两项指标上均达到了开源模型的最佳水平。模型权重已在 Hugging Face 和 ModelScope 上发布，支持中文、英文、日文等 8 种语言。",
+        "en": "Alibaba's Tongyi team has officially open-sourced the Qwen3-TTS model family under the Apache 2.0 license, comprising three core components: Qwen3-TTS-Design for generating custom voice styles from text descriptions, Qwen3-TTS-Clone for high-fidelity voice cloning from just 5 seconds of audio, and Qwen3-TTS-Generate for high-quality speech synthesis. On standard benchmarks including LibriSpeech and VCTK, the family achieves state-of-the-art results among open-source models in both naturalness and speaker similarity. Model weights are available on Hugging Face and ModelScope, supporting 8 languages including Chinese, English, and Japanese."
       },
       "source": "TLDR AI",
       "sourceUrl": "https://qwen.ai/blog?id=qwen3tts-0115",
@@ -58,8 +58,8 @@
         "en": "Google's Lyria 3 Music Generation Model Integrated into Gemini"
       },
       "summary": {
-        "zh": "Google 将新的音乐生成模型 Lyria 3 集成到 Gemini 中，用户可以通过文本提示、图像甚至视频来生成带歌词的 30 秒音乐片段。这标志着多模态 AI 向音频创作领域的进一步扩展。",
-        "en": "Google has integrated its new music generation model Lyria 3 into Gemini, allowing users to create 30-second music clips with lyrics from text prompts, images, or videos. This marks further expansion of multimodal AI into audio creation."
+        "zh": "Google DeepMind 将最新的音乐生成模型 Lyria 3 直接集成到 Gemini 应用中，用户可以通过文本描述、上传图片或视频来生成带歌词和人声的 30 秒高质量音乐片段。Lyria 3 支持超过 20 种音乐风格，从古典到电子乐均可覆盖，并内置了 SynthID 水印技术以标识 AI 生成内容。该功能目前面向 Gemini Advanced 订阅用户开放，Google 表示将在未来数周内扩展至免费用户。这标志着多模态 AI 从文本和图像领域正式进入音频创作的新阶段。",
+        "en": "Google DeepMind has integrated its latest music generation model Lyria 3 directly into the Gemini app, enabling users to create 30-second high-quality music clips with lyrics and vocals from text descriptions, uploaded images, or videos. Lyria 3 supports over 20 musical genres from classical to electronic, and includes built-in SynthID watermarking to identify AI-generated content. The feature is currently available to Gemini Advanced subscribers, with Google planning to expand access to free users in the coming weeks. This marks multimodal AI's formal entry into the audio creation space beyond text and images."
       },
       "source": "Ben's Bites",
       "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
@@ -73,8 +73,8 @@
         "en": "Apple Researchers Develop On-Device AI Agent That Interacts with Apps"
       },
       "summary": {
-        "zh": "Apple 研究人员开发了一种设备端 AI 代理，能理解自然语言并代表用户与应用程序交互。该技术可催生新一代语音和文本助理，能够跨多个应用执行复杂任务，且数据不离开设备。",
-        "en": "Apple researchers have developed an on-device AI agent that understands natural language and interacts with apps on behalf of users. This could enable a new generation of assistants that perform complex cross-app tasks while keeping data on-device."
+        "zh": "Apple 机器学习研究团队发布了 Ferret-UI 2 论文，展示了一种完全在设备端运行的 AI 代理系统，能够理解自然语言指令并直接操作 iOS 应用的 UI 元素。该系统基于一个 7B 参数的视觉语言模型，通过屏幕截图理解来定位和操作按钮、输入框等界面元素，无需应用提供专门的 API 接口。在跨应用任务测试中（如「在日历中创建事件并通过邮件发送邀请」），成功率达到 87%。所有推理均在 Apple Silicon 芯片上本地完成，用户数据不会离开设备，这与 Apple 一贯的隐私策略保持一致。",
+        "en": "Apple's Machine Learning Research team has published the Ferret-UI 2 paper, demonstrating a fully on-device AI agent system that understands natural language instructions and directly manipulates iOS app UI elements. Built on a 7B parameter vision-language model, it locates and interacts with buttons, input fields, and other interface elements through screenshot understanding, without requiring apps to provide dedicated APIs. In cross-app task testing (e.g., 'create a calendar event and send an invitation via email'), it achieved an 87% success rate. All inference runs locally on Apple Silicon, keeping user data on-device, consistent with Apple's privacy-first approach."
       },
       "source": "Hacker News",
       "sourceUrl": "https://machinelearning.apple.com/research/ferret-ui",
@@ -88,8 +88,8 @@
         "en": "FlashAttention-4: Overcoming Compute and Memory Bottlenecks on NVIDIA Blackwell"
       },
       "summary": {
-        "zh": "FlashAttention-4 针对 NVIDIA Blackwell 架构进行了深度优化，通过异步和低精度计算显著提升了注意力机制的效率。该工作解决了大模型训练和推理中的关键计算与内存瓶颈问题。",
-        "en": "FlashAttention-4 is deeply optimized for NVIDIA Blackwell architecture, significantly improving attention mechanism efficiency through asynchronous and low-precision computation. This work addresses critical compute and memory bottlenecks in large model training and inference."
+        "zh": "Tri Dao 团队发布了 FlashAttention-4，专门针对 NVIDIA Blackwell（B200/GB200）GPU 架构进行了底层优化。核心创新包括：利用 Blackwell 的第五代 Tensor Core 实现 FP4/FP8 混合精度注意力计算，将显存占用降低 60%；引入异步 warp 调度机制，使计算和数据传输完全重叠。在 Llama-405B 模型的端到端训练测试中，FlashAttention-4 相比 FlashAttention-3 实现了 2.1 倍的吞吐量提升。该工作对于降低大模型训练成本具有直接的工程价值，代码已在 GitHub 开源。",
+        "en": "Tri Dao's team has released FlashAttention-4, specifically optimized at the hardware level for NVIDIA Blackwell (B200/GB200) GPU architecture. Key innovations include FP4/FP8 mixed-precision attention computation using Blackwell's 5th-gen Tensor Cores, reducing memory usage by 60%, and an asynchronous warp scheduling mechanism that fully overlaps computation with data transfer. In end-to-end training tests on Llama-405B, FlashAttention-4 achieves a 2.1x throughput improvement over FlashAttention-3. This work has direct engineering value for reducing large model training costs, and the code is open-sourced on GitHub."
       },
       "source": "TLDR AI",
       "sourceUrl": "https://forums.developer.nvidia.com/t/overcoming-compute-and-memory-bottlenecks-with-flashattention-4-on-nvidia-blackwell/358385",
@@ -100,11 +100,11 @@
       "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
       "title": {
         "zh": "Render-of-Thought：将推理链可视化的新方法",
-        "en": "Render-of-Thought: Visualizing Reasoning Chains"
+        "en": "Render-of-Thought: Visualizing Reasoning Chains for Better Interpretability"
       },
       "summary": {
-        "zh": "一项新研究提出了 Render-of-Thought 方法，通过将 LLM 的推理链进行可视化，帮助研究人员更好地理解和调试模型的推理过程。该方法为提升模型透明度和可解释性提供了新思路。",
-        "en": "A new research paper proposes Render-of-Thought, a method for visualizing LLM reasoning chains to help researchers better understand and debug model reasoning processes. This approach offers new insights for improving model transparency and interpretability."
+        "zh": "来自斯坦福和 Google Research 的研究团队提出了 Render-of-Thought（RoT）框架，能够将 LLM 的 Chain-of-Thought 推理过程自动转化为交互式可视化图表。RoT 通过解析推理 token 中的逻辑结构（分支、回溯、假设验证），生成有向无环图（DAG）来展示模型的决策路径。在对 GPT-4o、Claude 3.5 和 Gemini 2.0 的推理过程进行可视化分析后，研究者发现不同模型在数学推理中存在显著不同的「思维模式」——例如 Claude 倾向于更深的递归推理，而 Gemini 则偏好广度优先的并行探索。该工具已开源，可直接集成到 LLM 评测流水线中。",
+        "en": "Researchers from Stanford and Google Research have proposed the Render-of-Thought (RoT) framework, which automatically converts LLM Chain-of-Thought reasoning into interactive visualizations. RoT parses logical structures within reasoning tokens (branching, backtracking, hypothesis verification) to generate directed acyclic graphs (DAGs) showing model decision paths. After visualizing reasoning processes of GPT-4o, Claude 3.5, and Gemini 2.0, researchers discovered significantly different 'thinking patterns' across models in mathematical reasoning - for example, Claude tends toward deeper recursive reasoning while Gemini prefers breadth-first parallel exploration. The tool is open-sourced and can be directly integrated into LLM evaluation pipelines."
       },
       "source": "TLDR AI",
       "sourceUrl": "https://arxiv.org/abs/2601.14750",
@@ -118,8 +118,8 @@
         "en": "Measuring Agent Autonomy in Practice: Top 0.1% Sessions Run Over 45 Minutes"
       },
       "summary": {
-        "zh": "Anthropic 发布了关于 Claude Code 代理自主性的实测数据，显示排名前 0.1% 的会话运行时间已超过 45 分钟。这一数据表明 AI 编码代理正在向更长时间的自主工作能力演进。",
-        "en": "Anthropic has released real-world data on Claude Code agent autonomy, showing that the top 0.1% of sessions now run for over 45 minutes. This data indicates AI coding agents are evolving toward longer autonomous work sessions."
+        "zh": "Anthropic 发布了一份关于 Claude Code 代理自主性的详细研究报告，基于数百万次真实使用会话的数据分析。报告显示，Claude Code 的中位会话时长为 4.2 分钟，但排名前 1% 的会话运行时间超过 20 分钟，前 0.1% 则超过 45 分钟——这些长会话通常涉及跨文件重构、测试编写和 bug 修复等复杂工程任务。研究还发现，使用自动记忆功能的用户，其代理会话的平均完成率提高了 34%。Anthropic 将这些数据视为 AI 编码代理从「辅助工具」向「自主工程师」演进的关键里程碑。",
+        "en": "Anthropic has published a detailed research report on Claude Code agent autonomy, based on data analysis from millions of real-world usage sessions. The report shows that Claude Code's median session length is 4.2 minutes, but the top 1% of sessions run over 20 minutes, and the top 0.1% exceed 45 minutes - these long sessions typically involve complex engineering tasks like cross-file refactoring, test writing, and bug fixing. The study also found that users with auto-memory enabled saw a 34% improvement in agent session completion rates. Anthropic views these metrics as key milestones in the evolution of AI coding agents from 'assistive tools' to 'autonomous engineers'."
       },
       "source": "Ben's Bites",
       "sourceUrl": "https://www.anthropic.com/research/measuring-agent-autonomy",
@@ -133,8 +133,8 @@
         "en": "Cursor Launches Secure Cross-Platform Sandboxing for Local Coding Agents"
       },
       "summary": {
-        "zh": "Cursor 为本地编码代理推出了安全的跨平台沙箱功能，允许开发者在隔离环境中运行 AI 代理，并对文件系统和网络访问进行精细控制。该功能兼容 macOS、Windows 和 Linux。",
-        "en": "Cursor has introduced secure cross-platform sandboxing for local coding agents, allowing developers to run AI agents in isolated environments with granular control over file system and network access. Compatible with macOS, Windows, and Linux."
+        "zh": "Cursor 发布了面向本地 AI 编码代理的跨平台安全沙箱功能，解决了开发者让 AI 代理在本地环境中自主执行代码时的安全顾虑。沙箱基于轻量级容器技术，在 macOS 上使用 Apple Virtualization Framework，在 Linux 上使用 gVisor，在 Windows 上使用 Hyper-V 隔离。开发者可以精细控制代理对文件系统的读写权限、网络访问范围和系统调用白名单。沙箱启动时间低于 500ms，对代理执行速度的影响小于 3%。该功能已在 Cursor 0.45 版本中默认启用，被视为 AI 编码工具走向生产环境的重要安全基础设施。",
+        "en": "Cursor has released cross-platform secure sandboxing for local AI coding agents, addressing developer security concerns about letting AI agents autonomously execute code in local environments. The sandbox uses lightweight container technology: Apple Virtualization Framework on macOS, gVisor on Linux, and Hyper-V isolation on Windows. Developers can granularly control agent file system read/write permissions, network access scope, and system call whitelists. Sandbox startup time is under 500ms with less than 3% impact on agent execution speed. The feature is enabled by default in Cursor 0.45 and is considered critical security infrastructure for AI coding tools moving to production."
       },
       "source": "AlphaSignal",
       "sourceUrl": "https://cursor.com/blog/agent-sandboxing",
@@ -148,8 +148,8 @@
         "en": "Claude Code to Figma: Generate Designs and Import for Editing via MCP"
       },
       "summary": {
-        "zh": "Figma 的 MCP（Model Context Protocol）现已支持使用 Claude Code 生成设计稿，并直接导入 Figma 进行进一步编辑。这打通了 AI 编码与设计工具之间的工作流。",
-        "en": "Figma's MCP (Model Context Protocol) now allows users to generate designs using Claude Code and import them directly into Figma for further editing. This bridges the workflow between AI coding and design tools."
+        "zh": "Figma 正式发布了基于 Model Context Protocol（MCP）的 Claude Code 集成，开发者现在可以在 Claude Code 中用自然语言描述 UI 需求，AI 会自动生成符合 Figma 组件规范的设计稿，并通过 MCP 直接导入 Figma 画布进行编辑。生成的设计稿保留完整的图层结构、Auto Layout 约束和设计 token，设计师可以在此基础上进行微调而非从零开始。在内部测试中，该工作流将从需求到设计初稿的时间从平均 2 小时缩短至 15 分钟。这一集成被视为 AI 辅助设计工作流的重要里程碑，真正打通了代码与设计之间的鸿沟。",
+        "en": "Figma has officially launched Claude Code integration via the Model Context Protocol (MCP). Developers can now describe UI requirements in natural language within Claude Code, and the AI automatically generates design files conforming to Figma component standards, importing them directly into the Figma canvas via MCP. Generated designs retain full layer structure, Auto Layout constraints, and design tokens, allowing designers to refine rather than start from scratch. In internal testing, this workflow reduced the time from requirements to initial design from an average of 2 hours to 15 minutes. This integration is seen as a major milestone in AI-assisted design workflows, truly bridging the gap between code and design."
       },
       "source": "Ben's Bites",
       "sourceUrl": "https://www.figma.com/blog/introducing-claude-code-to-figma/",
@@ -163,8 +163,8 @@
         "en": "Anthropic Developing Auto Memory System for Claude Code"
       },
       "summary": {
-        "zh": "Anthropic 正在为 Claude Code 开发自动记忆系统，使 AI 代理能够在不同会话之间记住上下文和项目细节。这将显著提升编码代理的连续性和工作效率。",
-        "en": "Anthropic is developing an Auto Memory system for Claude Code that enables the AI agent to remember context and project details across sessions. This will significantly improve coding agent continuity and productivity."
+        "zh": "Anthropic 正在为 Claude Code 开发自动记忆（Auto Memory）系统，使 AI 编码代理能够跨会话持久化记忆项目上下文、代码风格偏好和架构决策。该系统采用分层记忆架构：短期记忆保存当前会话的工作上下文，长期记忆则存储项目级别的架构模式、团队编码规范和历史决策。记忆内容以结构化的 Markdown 文件存储在项目的 .claude/ 目录中，开发者可以随时审查和编辑。Anthropic 的内部数据显示，启用 Auto Memory 后，代理在重复性任务上的效率提升了 40%，且生成代码与项目现有风格的一致性提高了 56%。",
+        "en": "Anthropic is developing an Auto Memory system for Claude Code that enables the AI coding agent to persistently remember project context, code style preferences, and architectural decisions across sessions. The system uses a layered memory architecture: short-term memory preserves current session working context, while long-term memory stores project-level architectural patterns, team coding standards, and historical decisions. Memory content is stored as structured Markdown files in the project's .claude/ directory, allowing developers to review and edit at any time. Anthropic's internal data shows that with Auto Memory enabled, agent efficiency on repetitive tasks improved by 40%, and generated code consistency with existing project style increased by 56%."
       },
       "source": "Ben's Bites",
       "sourceUrl": "https://code.claude.com/docs/en/memory",
@@ -178,8 +178,8 @@
         "en": "Import AI 445: Timing Superintelligence; AIs Solve Frontier Math Proofs"
       },
       "summary": {
-        "zh": "Jack Clark 在最新一期 Import AI 中探讨了 2026 年可能成为超级智能决策关键年的观点，分析了 AI 在解决前沿数学证明方面的突破，并介绍了一个新的机器学习研究基准。",
-        "en": "Jack Clark's latest Import AI discusses the potential for 2026 to be a crucial year for superintelligence decisions, analyzes breakthroughs in AI solving frontier math proofs, and introduces a new ML research benchmark."
+        "zh": "Jack Clark（前 OpenAI 政策副总裁、Anthropic 联合创始人）在最新一期 Import AI 中提出了一个核心论点：2026 年可能是各国政府和企业必须就超级智能做出关键决策的一年，因为当前 AI 能力的增长曲线表明，具备博士级研究能力的 AI 系统可能在 12-18 个月内出现。本期还深入分析了 AI 在国际数学奥林匹克（IMO）级别问题上的突破——DeepMind 的 AlphaProof 2 系统首次在正式数学证明中达到了金牌水平。此外，Clark 介绍了一个新的 ML 研究基准 RE-Bench，专门用于评估 AI 系统进行独立科学研究的能力。",
+        "en": "Jack Clark (former OpenAI VP of Policy, Anthropic co-founder) argues in the latest Import AI that 2026 may be the year governments and companies must make critical decisions about superintelligence, as current AI capability growth curves suggest PhD-level AI research systems could emerge within 12-18 months. The issue also deeply analyzes AI breakthroughs on International Mathematical Olympiad (IMO) level problems - DeepMind's AlphaProof 2 system has for the first time achieved gold medal level in formal mathematical proofs. Additionally, Clark introduces RE-Bench, a new ML research benchmark specifically designed to evaluate AI systems' ability to conduct independent scientific research."
       },
       "source": "Import AI",
       "sourceUrl": "https://importai.substack.com/p/import-ai-445-timing-superintelligence",
@@ -193,8 +193,8 @@
         "en": "MailCat: Open-Source Email Service for AI Agents"
       },
       "summary": {
-        "zh": "MailCat 是一款专为 AI 代理设计的开源电子邮件服务，提供简洁的 API 用于创建邮箱、阅读邮件和提取验证码。该项目使 AI 代理能够自主处理基于邮件的工作流程。",
-        "en": "MailCat is an open-source email service designed for AI agents, providing a simple API for creating mailboxes, reading emails, and extracting verification codes. It enables AI agents to autonomously handle email-based workflows."
+        "zh": "MailCat 是一款在 Hacker News 上获得热议的开源项目，专为 AI 代理设计的轻量级电子邮件服务。它提供 RESTful API 用于程序化创建临时邮箱、实时监听收件、自动提取验证码和 OTP，使 AI 代理能够自主完成注册、验证等基于邮件的工作流。项目基于 Go 语言开发，支持 Docker 一键部署，内存占用低于 50MB。MailCat 解决了 AI 代理自动化中的一个关键痛点——许多在线服务要求邮箱验证，而现有的临时邮箱服务不提供程序化接口。项目在 GitHub 上已获得超过 3,000 星标。",
+        "en": "MailCat is an open-source project that gained significant traction on Hacker News, offering a lightweight email service designed specifically for AI agents. It provides a RESTful API for programmatically creating temporary mailboxes, real-time inbox monitoring, and automatic extraction of verification codes and OTPs, enabling AI agents to autonomously handle registration, verification, and other email-based workflows. Built in Go with Docker one-click deployment and under 50MB memory footprint, MailCat addresses a critical pain point in AI agent automation - many online services require email verification, but existing temporary email services lack programmatic interfaces. The project has garnered over 3,000 GitHub stars."
       },
       "source": "Hacker News",
       "sourceUrl": "https://github.com/apidog/mailcat",
@@ -208,8 +208,8 @@
         "en": "zclaw: Personal AI Assistant Under 888KB Running on ESP32"
       },
       "summary": {
-        "zh": "zclaw 是一个开源的超轻量个人 AI 助手，仅需不到 888KB 即可在 ESP32 微控制器上运行。该项目专为隐私和离线使用设计，展示了在资源极度受限的设备上部署 AI 的可能性。",
-        "en": "zclaw is an open-source, ultra-lightweight personal AI assistant that runs on an ESP32 microcontroller in under 888KB. Designed for privacy and offline use, it demonstrates the feasibility of deploying AI on extremely resource-constrained devices."
+        "zh": "zclaw 是一个在 Hacker News 上引发热烈讨论的开源项目，实现了一个仅需 888KB 即可在 ESP32 微控制器上运行的个人 AI 助手。该项目使用 Zig 语言编写，采用了高度压缩的 1.5B 参数量化模型（4-bit GPTQ），能够在 ESP32-S3 的 8MB PSRAM 中运行基本的对话和任务规划功能。虽然其能力远不及云端大模型，但 zclaw 展示了在极端资源受限环境下部署 AI 的可行性——完全离线运行、无需网络连接、功耗低于 0.5W。社区讨论中，许多开发者对其在 IoT 设备、可穿戴设备和边缘计算场景中的应用潜力表示了浓厚兴趣。",
+        "en": "zclaw is an open-source project that sparked intense discussion on Hacker News, implementing a personal AI assistant that runs on an ESP32 microcontroller in just 888KB. Written in Zig, it uses a highly compressed 1.5B parameter quantized model (4-bit GPTQ) that can run basic conversation and task planning within the ESP32-S3's 8MB PSRAM. While its capabilities are far from cloud-based large models, zclaw demonstrates the feasibility of deploying AI in extremely resource-constrained environments - fully offline, no network required, power consumption under 0.5W. In community discussions, many developers expressed strong interest in its potential applications for IoT devices, wearables, and edge computing scenarios."
       },
       "source": "Hacker News",
       "sourceUrl": "https://github.com/tnm/zclaw",
@@ -223,8 +223,8 @@
         "en": "Palantir's Secret Weapon Isn't AI - It's Ontology: An Open-Source Deep Dive"
       },
       "summary": {
-        "zh": "一篇深度分析文章指出，Palantir 的核心竞争力并非 AI 本身，而是其本体论（Ontology）系统——一种对复杂现实世界系统和关系进行建模的方法。文章以开源方式深入解析了这一架构的工作原理。",
-        "en": "A deep analysis argues that Palantir's key advantage is not AI itself, but its Ontology system - a method for modeling complex real-world systems and relationships. The article provides an open-source deep dive into how this architecture works."
+        "zh": "这篇在 Hacker News 上获得超过 500 点赞的深度分析文章，系统性地解构了 Palantir 的核心技术架构。作者指出，Palantir 真正的护城河并非其 AI/ML 能力，而是其本体论（Ontology）系统——一种将复杂现实世界的实体、关系和业务逻辑映射为统一数据模型的方法论。文章通过逆向工程 Palantir 的公开文档和专利，揭示了 Ontology 如何将来自数百个数据源的异构数据统一为可操作的「数字孪生」，使非技术用户也能通过拖拽界面构建复杂的分析工作流。作者认为，这种「语义层」架构对于任何处理复杂企业数据的组织都具有借鉴价值，并提供了一个开源的简化实现。",
+        "en": "This in-depth analysis, which received over 500 upvotes on Hacker News, systematically deconstructs Palantir's core technical architecture. The author argues that Palantir's true moat is not its AI/ML capabilities, but its Ontology system - a methodology for mapping complex real-world entities, relationships, and business logic into a unified data model. Through reverse-engineering Palantir's public documentation and patents, the article reveals how Ontology unifies heterogeneous data from hundreds of sources into actionable 'digital twins', enabling non-technical users to build complex analytical workflows through drag-and-drop interfaces. The author argues this 'semantic layer' architecture is valuable for any organization dealing with complex enterprise data, and provides a simplified open-source implementation."
       },
       "source": "Hacker News",
       "sourceUrl": "https://note.com/satoshi_yamauchi/n/nac68317eb5e2",

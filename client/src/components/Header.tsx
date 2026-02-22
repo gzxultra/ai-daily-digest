@@ -1,12 +1,12 @@
 /*
- * Design: Editorial Magazine Style
- * - Space Grotesk for brand title
- * - Compact sticky header with blur backdrop
- * - Theme & language toggles as pill buttons
+ * UI: Refined editorial header
+ * - Thin top accent line
+ * - Clean brand mark with monospace feel
+ * - Minimal controls, generous spacing
  */
 import { useTheme } from "@/contexts/ThemeContext";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Sun, Moon, Globe, Zap } from "lucide-react";
+import { Sun, Moon, Globe } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Header() {
@@ -14,60 +14,68 @@ export default function Header() {
   const { lang, toggleLang } = useLanguage();
 
   return (
-    <motion.header
-      initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-      className="sticky top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl"
-    >
-      <div className="container flex items-center justify-between h-16">
-        {/* Logo / Brand */}
-        <div className="flex items-center gap-3">
-          <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-primary text-primary-foreground">
-            <Zap className="w-5 h-5" />
-          </div>
-          <div>
-            <h1
-              className="text-lg font-bold tracking-tight leading-none"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+    <>
+      {/* Thin accent bar */}
+      <div className="h-0.5 bg-gradient-to-r from-primary via-primary/60 to-transparent" />
+      <motion.header
+        initial={{ y: -10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
+        className="sticky top-0 z-50 border-b border-border/40 bg-background/90 backdrop-blur-2xl"
+      >
+        <div className="container flex items-center justify-between h-14">
+          {/* Logo / Brand */}
+          <a href="." className="flex items-center gap-2.5 group">
+            <div className="relative flex items-center justify-center w-8 h-8 rounded-md bg-foreground text-background
+                            group-hover:scale-105 transition-transform duration-200">
+              <span className="text-sm font-black" style={{ fontFamily: "'Space Grotesk', monospace" }}>AI</span>
+            </div>
+            <div className="flex flex-col">
+              <span
+                className="text-[15px] font-bold tracking-tight leading-none"
+                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+              >
+                Daily Digest
+              </span>
+              <span className="text-[10px] text-muted-foreground font-medium tracking-widest uppercase mt-0.5">
+                {lang === "zh" ? "每日 AI 情报" : "Intelligence Brief"}
+              </span>
+            </div>
+          </a>
+
+          {/* Controls */}
+          <div className="flex items-center gap-1.5">
+            {/* Language Toggle */}
+            <button
+              onClick={toggleLang}
+              className="flex items-center gap-1.5 h-8 px-3 rounded-md text-xs font-medium
+                         text-muted-foreground hover:text-foreground hover:bg-secondary
+                         transition-all duration-200"
             >
-              AI Daily Digest
-            </h1>
-            <p className="text-[11px] text-muted-foreground tracking-wide uppercase">
-              {lang === "zh" ? "每日 AI 情报简报" : "Daily Intelligence Briefing"}
-            </p>
+              <Globe className="w-3.5 h-3.5" />
+              {lang === "zh" ? "EN" : "中文"}
+            </button>
+
+            {/* Divider */}
+            <div className="w-px h-4 bg-border" />
+
+            {/* Theme Toggle */}
+            <button
+              onClick={toggleTheme}
+              className="flex items-center justify-center w-8 h-8 rounded-md
+                         text-muted-foreground hover:text-foreground hover:bg-secondary
+                         transition-all duration-200"
+              aria-label="Toggle theme"
+            >
+              {theme === "dark" ? (
+                <Sun className="w-4 h-4" />
+              ) : (
+                <Moon className="w-4 h-4" />
+              )}
+            </button>
           </div>
         </div>
-
-        {/* Controls */}
-        <div className="flex items-center gap-2">
-          {/* Language Toggle */}
-          <button
-            onClick={toggleLang}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium
-                       bg-secondary text-secondary-foreground hover:bg-accent
-                       transition-colors duration-200"
-          >
-            <Globe className="w-3.5 h-3.5" />
-            {lang === "zh" ? "EN" : "中文"}
-          </button>
-
-          {/* Theme Toggle */}
-          <button
-            onClick={toggleTheme}
-            className="flex items-center justify-center w-8 h-8 rounded-full
-                       bg-secondary text-secondary-foreground hover:bg-accent
-                       transition-colors duration-200"
-            aria-label="Toggle theme"
-          >
-            {theme === "dark" ? (
-              <Sun className="w-4 h-4" />
-            ) : (
-              <Moon className="w-4 h-4" />
-            )}
-          </button>
-        </div>
-      </div>
-    </motion.header>
+      </motion.header>
+    </>
   );
 }
