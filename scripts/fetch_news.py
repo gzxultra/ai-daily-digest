@@ -2,14 +2,29 @@
 """
 AI Daily Digest - Automated News Collector
 ==========================================
-Fetches today's top AI news from Google News RSS and multiple tech RSS feeds,
-then uses OpenAI API to generate bilingual (Chinese/English) summaries.
+Fetches today's top AI news from curated newsletter RSS feeds, Hacker News,
+and Reddit, then uses OpenAI-compatible LLM to generate bilingual (Chinese/English)
+summaries in a structured JSON format for the frontend.
+
+Adapted from giftedunicorn/ai-news-bot's crawler architecture with custom
+source list, deduplication, and bilingual output.
+
+Data sources:
+  - AlphaSignal (newsletter RSS)
+  - Ben's Bites (newsletter RSS)
+  - Import AI (newsletter RSS)
+  - TLDR AI (newsletter RSS)
+  - The Batch / deeplearning.ai (newsletter RSS)
+  - Hacker News (Algolia API - AI-filtered)
+  - Reddit: r/MachineLearning, r/LocalLLaMA (JSON API)
 
 Usage:
     python scripts/fetch_news.py
 
 Environment variables:
-    OPENAI_API_KEY - Required for generating summaries
+    OPENAI_API_KEY  - Required for generating summaries (OpenAI-compatible)
+    OPENAI_BASE_URL - Optional base URL override (default: https://api.openai.com/v1)
+    LLM_MODEL       - Optional model name (default: gpt-4.1-mini)
 """
 
 import json
@@ -17,75 +32,134 @@ import os
 import re
 import sys
 import hashlib
+import time
+import logging
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.request import urlopen, Request
-from urllib.error import URLError
-from urllib.parse import quote
+from urllib.error import URLError, HTTPError
+from urllib.parse import quote, urlencode
 import html
+
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    stream=sys.stdout,
+)
+log = logging.getLogger("fetch_news")
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 
-# RSS feeds to scrape for AI news
-RSS_FEEDS = [
-    # Google News - AI topic
-    "https://news.google.com/rss/search?q=artificial+intelligence+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=AI+startup+OR+AI+model+OR+AI+regulation+when:1d&hl=en-US&gl=US&ceid=US:en",
-    # TechCrunch AI
-    "https://techcrunch.com/category/artificial-intelligence/feed/",
-    # The Verge AI
-    "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-    # Ars Technica AI
-    "https://feeds.arstechnica.com/arstechnica/technology-lab",
-    # VentureBeat
-    "https://venturebeat.com/category/ai/feed/",
-    # MIT Technology Review
-    "https://www.technologyreview.com/feed/",
-]
-
-# Category color mapping
-CATEGORY_COLORS = {
-    "Global Governance": "#0066FF",
-    "Investment": "#F59E0B",
-    "AI Safety": "#10B981",
-    "Industry Views": "#06B6D4",
-    "Security Breach": "#EF4444",
-    "AI Ethics": "#8B5CF6",
-    "AI Agents": "#F97316",
-    "Policy & Regulation": "#3B82F6",
-    "Product Launch": "#22C55E",
-    "Research": "#A855F7",
-    "Business": "#EC4899",
-    "Technology": "#14B8A6",
-    "General": "#6B7280",
+# Fixed category palette (matches existing frontend data)
+CATEGORIES = {
+    "Models & APIs":       {"zh": "模型与 API",  "color": "#6366f1"},
+    "Research & Papers":   {"zh": "研究与论文",  "color": "#ec4899"},
+    "Engineering & Tools": {"zh": "工程与工具",  "color": "#10b981"},
+    "Industry & Policy":   {"zh": "行业与政策",  "color": "#8b5cf6"},
+    "Community Picks":     {"zh": "社区精选",    "color": "#f59e0b"},
 }
 
-MAX_NEWS = 9
+# Target: 10-15 high-quality stories per day
+MAX_NEWS = 15
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "client" / "public" / "data"
 
+# How many days of history to check for deduplication
+DEDUP_DAYS = 7
+
 # ---------------------------------------------------------------------------
-# RSS Fetching
+# RSS / Newsletter Feeds
 # ---------------------------------------------------------------------------
 
-def fetch_rss(url: str, timeout: int = 15) -> list[dict]:
-    """Fetch and parse an RSS feed, returning a list of article dicts."""
+NEWSLETTER_FEEDS = {
+    # AlphaSignal
+    "AlphaSignal": [
+        "https://alphasignal.ai/feed",
+        "https://alphasignalai.beehiiv.com/feed",
+    ],
+    # Ben's Bites
+    "Ben's Bites": [
+        "https://bensbites.beehiiv.com/feed",
+        "https://news.bensbites.com/feed",
+        "https://www.bensbites.com/feed",
+    ],
+    # Import AI
+    "Import AI": [
+        "https://importai.substack.com/feed",
+        "https://jack-clark.net/feed/",
+    ],
+    # TLDR AI
+    "TLDR AI": [
+        "https://tldr.tech/ai/rss",
+        "https://tldrai.beehiiv.com/feed",
+    ],
+    # The Batch (deeplearning.ai)
+    "The Batch": [
+        "https://www.deeplearning.ai/the-batch/feed/",
+        "https://www.deeplearning.ai/feed/",
+    ],
+}
+
+# Supplementary tech RSS feeds for broader coverage
+SUPPLEMENTARY_FEEDS = {
+    "TechCrunch AI": "https://techcrunch.com/tag/artificial-intelligence/feed/",
+    "The Verge AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "Ars Technica": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
+    "OpenAI Blog": "https://openai.com/blog/rss/",
+    "Google AI Blog": "https://blog.google/technology/ai/rss/",
+    "MIT Tech Review": "https://www.technologyreview.com/feed/",
+}
+
+# ---------------------------------------------------------------------------
+# HTTP helpers
+# ---------------------------------------------------------------------------
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; AIDailyDigest/2.0; +https://gzxultra.github.io/ai-daily-digest/)"
+}
+
+
+def http_get(url: str, timeout: int = 15, accept: str = "*/*") -> bytes:
+    """Fetch URL with retries."""
+    headers = {**HEADERS, "Accept": accept}
+    for attempt in range(3):
+        try:
+            req = Request(url, headers=headers)
+            with urlopen(req, timeout=timeout) as resp:
+                return resp.read()
+        except (URLError, HTTPError, TimeoutError) as e:
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+            else:
+                raise
+    return b""
+
+
+def http_get_json(url: str, timeout: int = 15) -> dict:
+    """Fetch URL and parse JSON."""
+    data = http_get(url, timeout=timeout, accept="application/json")
+    return json.loads(data)
+
+
+# ---------------------------------------------------------------------------
+# RSS Fetching (adapted from ai-news-bot/src/news/fetcher.py)
+# ---------------------------------------------------------------------------
+
+def parse_rss(raw_xml: bytes) -> list[dict]:
+    """Parse RSS 2.0 or Atom XML into article dicts."""
     articles = []
-    headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; AIDailyDigest/1.0)"
-    }
     try:
-        req = Request(url, headers=headers)
-        with urlopen(req, timeout=timeout) as resp:
-            data = resp.read()
-        root = ET.fromstring(data)
-    except Exception as e:
-        print(f"  [WARN] Failed to fetch {url}: {e}", file=sys.stderr)
+        root = ET.fromstring(raw_xml)
+    except ET.ParseError:
         return []
 
-    # Handle both RSS 2.0 and Atom feeds
     ns = {"atom": "http://www.w3.org/2005/Atom"}
 
     # RSS 2.0
@@ -96,20 +170,21 @@ def fetch_rss(url: str, timeout: int = 15) -> list[dict]:
         pub_el = item.find("pubDate")
         source_el = item.find("source")
 
-        title = title_el.text.strip() if title_el is not None and title_el.text else ""
-        link = link_el.text.strip() if link_el is not None and link_el.text else ""
-        desc = desc_el.text.strip() if desc_el is not None and desc_el.text else ""
-        source = source_el.text.strip() if source_el is not None and source_el.text else ""
+        title = (title_el.text or "").strip() if title_el is not None else ""
+        link = (link_el.text or "").strip() if link_el is not None else ""
+        desc = (desc_el.text or "").strip() if desc_el is not None else ""
+        source = (source_el.text or "").strip() if source_el is not None else ""
+        pub = (pub_el.text or "").strip() if pub_el is not None else ""
 
-        # Clean HTML from description
-        desc = re.sub(r"<[^>]+>", "", html.unescape(desc))[:500]
+        desc = re.sub(r"<[^>]+>", "", html.unescape(desc))[:600]
 
         if title and link:
             articles.append({
                 "title": title,
                 "link": link,
                 "description": desc,
-                "source": source,
+                "rss_source": source,
+                "published": pub,
             })
 
     # Atom
@@ -117,79 +192,283 @@ def fetch_rss(url: str, timeout: int = 15) -> list[dict]:
         title_el = entry.find("atom:title", ns)
         link_el = entry.find("atom:link", ns)
         summary_el = entry.find("atom:summary", ns) or entry.find("atom:content", ns)
+        updated_el = entry.find("atom:updated", ns)
 
-        title = title_el.text.strip() if title_el is not None and title_el.text else ""
-        link = link_el.get("href", "").strip() if link_el is not None else ""
-        desc = summary_el.text.strip() if summary_el is not None and summary_el.text else ""
-        desc = re.sub(r"<[^>]+>", "", html.unescape(desc))[:500]
+        title = (title_el.text or "").strip() if title_el is not None else ""
+        link = (link_el.get("href", "") if link_el is not None else "").strip()
+        desc = (summary_el.text or "").strip() if summary_el is not None else ""
+        pub = (updated_el.text or "").strip() if updated_el is not None else ""
+        desc = re.sub(r"<[^>]+>", "", html.unescape(desc))[:600]
 
         if title and link:
             articles.append({
                 "title": title,
                 "link": link,
                 "description": desc,
-                "source": "",
+                "rss_source": "",
+                "published": pub,
             })
 
     return articles
 
 
-def collect_articles() -> list[dict]:
-    """Collect articles from all RSS feeds and deduplicate."""
+def fetch_newsletter_feeds(max_per_source: int = 10) -> list[dict]:
+    """Fetch articles from all newsletter RSS feeds."""
     all_articles = []
-    seen_titles = set()
 
-    for feed_url in RSS_FEEDS:
-        print(f"  Fetching: {feed_url[:80]}...")
-        articles = fetch_rss(feed_url)
-        for a in articles:
-            # Simple dedup by normalized title
-            norm = re.sub(r"\s+", " ", a["title"].lower().strip())
-            if norm not in seen_titles:
-                seen_titles.add(norm)
-                all_articles.append(a)
+    for source_name, feed_urls in NEWSLETTER_FEEDS.items():
+        fetched = False
+        for feed_url in feed_urls:
+            try:
+                log.info(f"  Fetching {source_name}: {feed_url[:80]}...")
+                raw = http_get(feed_url)
+                articles = parse_rss(raw)
+                if articles:
+                    for a in articles[:max_per_source]:
+                        a["source"] = source_name
+                    all_articles.extend(articles[:max_per_source])
+                    log.info(f"    -> {len(articles[:max_per_source])} articles")
+                    fetched = True
+                    break  # Got articles from this source, skip alternates
+            except Exception as e:
+                log.warning(f"    -> Failed: {e}")
+                continue
 
-    print(f"  Total unique articles collected: {len(all_articles)}")
+        if not fetched:
+            log.warning(f"  Could not fetch any feed for {source_name}")
+
     return all_articles
 
 
-def filter_ai_articles(articles: list[dict]) -> list[dict]:
-    """Filter articles that are actually about AI."""
-    ai_keywords = [
-        "ai", "artificial intelligence", "machine learning", "deep learning",
-        "llm", "large language model", "chatgpt", "gpt", "openai", "anthropic",
-        "claude", "gemini", "deepmind", "neural", "generative", "transformer",
-        "ai agent", "ai safety", "ai regulation", "ai model", "ai startup",
-        "copilot", "midjourney", "stable diffusion", "nvidia", "gpu",
+def fetch_supplementary_feeds(max_per_source: int = 5) -> list[dict]:
+    """Fetch articles from supplementary tech RSS feeds."""
+    all_articles = []
+
+    for source_name, feed_url in SUPPLEMENTARY_FEEDS.items():
+        try:
+            log.info(f"  Fetching {source_name}: {feed_url[:80]}...")
+            raw = http_get(feed_url)
+            articles = parse_rss(raw)
+            for a in articles[:max_per_source]:
+                a["source"] = source_name
+            all_articles.extend(articles[:max_per_source])
+            log.info(f"    -> {len(articles[:max_per_source])} articles")
+        except Exception as e:
+            log.warning(f"    -> Failed: {e}")
+
+    return all_articles
+
+
+# ---------------------------------------------------------------------------
+# Hacker News (Algolia API)
+# ---------------------------------------------------------------------------
+
+def fetch_hacker_news(max_items: int = 15) -> list[dict]:
+    """Fetch top AI-related stories from Hacker News via Algolia API."""
+    articles = []
+    queries = [
+        "AI", "LLM", "GPT", "Claude", "machine learning",
+        "artificial intelligence", "deep learning",
     ]
-    filtered = []
+
+    seen_ids = set()
+    for query in queries:
+        try:
+            url = (
+                f"https://hn.algolia.com/api/v1/search?"
+                f"query={quote(query)}&tags=story&hitsPerPage=10"
+                f"&numericFilters=created_at_i>{int(time.time()) - 86400 * 2}"
+            )
+            log.info(f"  HN search: {query}")
+            data = http_get_json(url)
+            for hit in data.get("hits", []):
+                obj_id = hit.get("objectID", "")
+                if obj_id in seen_ids:
+                    continue
+                seen_ids.add(obj_id)
+
+                points = hit.get("points", 0) or 0
+                num_comments = hit.get("num_comments", 0) or 0
+
+                # Quality filter: require minimum engagement
+                if points < 20:
+                    continue
+
+                title = hit.get("title", "")
+                link = hit.get("url", "") or f"https://news.ycombinator.com/item?id={obj_id}"
+
+                articles.append({
+                    "title": title,
+                    "link": link,
+                    "description": f"[{points} points, {num_comments} comments on HN] {title}",
+                    "source": "Hacker News",
+                    "rss_source": "",
+                    "published": hit.get("created_at", ""),
+                    "hn_points": points,
+                })
+        except Exception as e:
+            log.warning(f"    -> HN search failed for '{query}': {e}")
+
+    # Sort by points descending, take top items
+    articles.sort(key=lambda x: x.get("hn_points", 0), reverse=True)
+    return articles[:max_items]
+
+
+# ---------------------------------------------------------------------------
+# Reddit
+# ---------------------------------------------------------------------------
+
+def fetch_reddit(subreddit: str, max_items: int = 10) -> list[dict]:
+    """Fetch top posts from a subreddit via RSS feed."""
+    articles = []
+    try:
+        url = f"https://www.reddit.com/r/{subreddit}/hot/.rss?limit={max_items}"
+        log.info(f"  Reddit r/{subreddit} (RSS)...")
+        raw = http_get(url)
+        parsed = parse_rss(raw)
+
+        for a in parsed[:max_items]:
+            a["source"] = "Reddit"
+            a["rss_source"] = f"r/{subreddit}"
+            if a.get("description"):
+                a["description"] = f"[r/{subreddit}] {a['description'][:400]}"
+            else:
+                a["description"] = f"[r/{subreddit}] {a['title']}"
+            articles.append(a)
+
+        log.info(f"    -> {len(articles)} posts")
+    except Exception as e:
+        log.warning(f"    -> Reddit r/{subreddit} failed: {e}")
+
+    return articles
+
+
+# ---------------------------------------------------------------------------
+# Deduplication
+# ---------------------------------------------------------------------------
+
+def normalize_title(title: str) -> str:
+    """Normalize a title for dedup comparison."""
+    t = title.lower().strip()
+    t = re.sub(r"[^\w\s]", "", t)
+    t = re.sub(r"\s+", " ", t)
+    return t
+
+
+def title_fingerprint(title: str) -> str:
+    """Create a short hash fingerprint of a normalized title."""
+    return hashlib.md5(normalize_title(title).encode()).hexdigest()[:12]
+
+
+def load_historical_titles(data_dir: Path, days: int = DEDUP_DAYS) -> set[str]:
+    """Load title fingerprints from the last N days of data."""
+    fingerprints = set()
+    today = datetime.now(timezone.utc).date()
+
+    for i in range(1, days + 1):
+        d = today - timedelta(days=i)
+        fpath = data_dir / f"{d.isoformat()}.json"
+        if fpath.exists():
+            try:
+                with open(fpath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                for item in data.get("news", []):
+                    # Fingerprint both EN and ZH titles
+                    en_title = item.get("title", {}).get("en", "")
+                    zh_title = item.get("title", {}).get("zh", "")
+                    if en_title:
+                        fingerprints.add(title_fingerprint(en_title))
+                    if zh_title:
+                        fingerprints.add(title_fingerprint(zh_title))
+                    # Also add source URLs for URL-based dedup
+                    url = item.get("sourceUrl", "")
+                    if url:
+                        fingerprints.add(hashlib.md5(url.encode()).hexdigest()[:12])
+            except Exception:
+                pass
+
+    log.info(f"  Loaded {len(fingerprints)} historical fingerprints from {days} days")
+    return fingerprints
+
+
+def deduplicate_articles(
+    articles: list[dict],
+    historical_fps: set[str],
+) -> list[dict]:
+    """Remove duplicate articles (within batch and against history)."""
+    seen = set()
+    result = []
+
     for a in articles:
-        text = (a["title"] + " " + a["description"]).lower()
-        if any(kw in text for kw in ai_keywords):
-            filtered.append(a)
-    print(f"  AI-related articles: {len(filtered)}")
-    return filtered
+        fp = title_fingerprint(a["title"])
+        url_fp = hashlib.md5(a["link"].encode()).hexdigest()[:12] if a["link"] else ""
+
+        # Skip if seen in this batch or in history
+        if fp in seen or fp in historical_fps:
+            continue
+        if url_fp and (url_fp in seen or url_fp in historical_fps):
+            continue
+
+        seen.add(fp)
+        if url_fp:
+            seen.add(url_fp)
+        result.append(a)
+
+    log.info(f"  Dedup: {len(articles)} -> {len(result)} articles")
+    return result
 
 
 # ---------------------------------------------------------------------------
-# OpenAI Integration
+# AI keyword filter
 # ---------------------------------------------------------------------------
 
-def call_openai(prompt: str, model: str = "gpt-4o-mini") -> str:
-    """Call OpenAI Chat Completions API."""
+AI_KEYWORDS = [
+    "ai", "artificial intelligence", "machine learning", "deep learning",
+    "llm", "large language model", "chatgpt", "gpt", "openai", "anthropic",
+    "claude", "gemini", "deepmind", "neural", "generative", "transformer",
+    "ai agent", "ai safety", "ai regulation", "ai model", "diffusion",
+    "copilot", "midjourney", "stable diffusion", "nvidia", "gpu",
+    "foundation model", "fine-tuning", "rag", "retrieval augmented",
+    "multimodal", "vision model", "language model", "reasoning",
+    "reinforcement learning", "rlhf", "alignment", "benchmark",
+    "open source model", "hugging face", "ollama", "llama", "mistral",
+    "deepseek", "qwen", "embedding", "vector database", "inference",
+]
+
+
+def is_ai_related(article: dict) -> bool:
+    """Check if an article is AI-related."""
+    text = (article["title"] + " " + article.get("description", "")).lower()
+    return any(kw in text for kw in AI_KEYWORDS)
+
+
+# ---------------------------------------------------------------------------
+# OpenAI / LLM Integration
+# ---------------------------------------------------------------------------
+
+def call_llm(prompt: str, system_prompt: str = "", max_tokens: int = 8000) -> str:
+    """Call OpenAI-compatible chat completions API."""
     api_key = os.environ.get("OPENAI_API_KEY", "")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY environment variable is not set")
 
+    base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
+    model = os.environ.get("LLM_MODEL", "gpt-4.1-mini")
+
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+    messages.append({"role": "user", "content": prompt})
+
     payload = json.dumps({
         "model": model,
-        "messages": [{"role": "user", "content": prompt}],
+        "messages": messages,
         "temperature": 0.3,
-        "max_tokens": 4096,
+        "max_tokens": max_tokens,
     }).encode()
 
     req = Request(
-        "https://api.openai.com/v1/chat/completions",
+        f"{base_url}/chat/completions",
         data=payload,
         headers={
             "Content-Type": "application/json",
@@ -198,81 +477,161 @@ def call_openai(prompt: str, model: str = "gpt-4o-mini") -> str:
         method="POST",
     )
 
-    with urlopen(req, timeout=60) as resp:
+    log.info(f"  Calling LLM ({model}) ...")
+    with urlopen(req, timeout=120) as resp:
         result = json.loads(resp.read())
 
-    return result["choices"][0]["message"]["content"]
+    content = result["choices"][0]["message"]["content"]
+    log.info(f"  LLM response: {len(content)} chars")
+    return content
+
+
+def build_article_list_text(articles: list[dict]) -> str:
+    """Format articles into a numbered text list for the LLM prompt."""
+    lines = []
+    for i, a in enumerate(articles, 1):
+        source = a.get("source", "Unknown")
+        lines.append(
+            f"{i}. [{source}] {a['title']}\n"
+            f"   URL: {a['link']}\n"
+            f"   {a.get('description', '')[:400]}"
+        )
+    return "\n\n".join(lines)
 
 
 def generate_digest(articles: list[dict], target_date: str) -> list[dict]:
-    """Use OpenAI to select top stories and generate bilingual summaries."""
+    """
+    Two-stage LLM pipeline (adapted from ai-news-bot):
+      Stage 1: Select 10-15 most important stories
+      Stage 2: Generate bilingual structured JSON output
+    """
 
-    # Prepare article list for the prompt
-    article_list = ""
-    for i, a in enumerate(articles[:30], 1):  # Send top 30 to OpenAI
-        article_list += f"\n{i}. Title: {a['title']}\n   Source: {a.get('source', 'Unknown')}\n   URL: {a['link']}\n   Description: {a['description'][:300]}\n"
+    article_text = build_article_list_text(articles)
 
-    prompt = f"""You are an AI news editor. Today is {target_date}.
+    # ── Stage 1: Selection ──────────────────────────────────────────────
+    stage1_prompt = f"""Below are {len(articles)} AI-related news articles collected today ({target_date}) from curated sources including AlphaSignal, Ben's Bites, Import AI, TLDR AI, The Batch, Hacker News, and Reddit.
 
-Below are today's AI-related news articles. Please:
+{article_text}
 
-1. Select the {MAX_NEWS} MOST IMPORTANT and DIVERSE stories (cover different topics/categories)
-2. For each selected story, provide:
-   - A category (choose from: Global Governance, Investment, AI Safety, Industry Views, Security Breach, AI Ethics, AI Agents, Policy & Regulation, Product Launch, Research, Business, Technology)
-   - The category name in Chinese
-   - An English title (concise, news-style)
-   - A Chinese title (concise, news-style)
-   - An English summary (2-3 sentences, informative)
-   - A Chinese summary (2-3 sentences, informative, natural Chinese writing)
-   - The source name
-   - The source URL
+## YOUR TASK — STAGE 1: NEWS SELECTION
 
-ARTICLES:
-{article_list}
+You are a senior AI industry analyst with extremely high standards. Select exactly 10-15 of the MOST IMPORTANT stories. Pursue a HIGH signal-to-noise ratio.
 
-Respond in valid JSON format ONLY (no markdown, no code fences). Use this exact structure:
-[
-  {{
-    "category_en": "Category Name",
-    "category_zh": "分类名称",
-    "title_en": "English Title",
-    "title_zh": "中文标题",
-    "summary_en": "English summary in 2-3 sentences.",
-    "summary_zh": "中文摘要，2-3句话。",
-    "source": "Source Name",
-    "sourceUrl": "https://..."
-  }}
-]
+### SELECTION CRITERIA (strict):
+- Groundbreaking research or technical breakthroughs (new models, new methods, SOTA results)
+- Major product launches or significant updates from leading AI companies
+- Important policy changes, regulations, or governance developments
+- Large funding rounds (>$50M) or significant M&A
+- Open-source releases with real impact
+- Balanced coverage across categories: Models, Research, Engineering, Industry, Community
 
-Important:
-- Select stories that represent the MOST significant AI developments today
-- Ensure diversity across categories
-- Chinese summaries should read naturally, not like translations
-- Do NOT use smart quotes (curly quotes) in any field - use only straight quotes or Chinese brackets 「」
-- Return EXACTLY {MAX_NEWS} items"""
+### REJECT:
+- Minor updates, routine announcements, or incremental improvements
+- Clickbait, opinion pieces without substance, or speculative articles
+- Duplicate coverage of the same story from different sources (keep the best one)
+- Multiple articles about the same event/announcement (pick ONE best article per topic)
+- Articles older than 2 days
+- Promotional content or company blog posts without real news value
 
-    print("  Calling OpenAI for digest generation...")
-    response = call_openai(prompt)
+### OUTPUT FORMAT:
+Return ONLY a JSON array of the article numbers you selected. Example:
+[1, 5, 8, 12, 15, 18, 22, 25, 30, 33, 36, 40]
 
-    # Parse JSON from response (handle potential markdown wrapping)
-    response = response.strip()
-    if response.startswith("```"):
-        response = re.sub(r"^```(?:json)?\s*", "", response)
-        response = re.sub(r"\s*```$", "", response)
+Select 10-15 items. Ensure DIVERSITY: no two items should cover the same topic/event. No explanations."""
 
-    items = json.loads(response)
+    stage1_response = call_llm(stage1_prompt)
 
-    # Convert to our format
+    # Parse selected indices
+    json_match = re.search(r'\[[\s\S]*?\]', stage1_response)
+    if json_match:
+        try:
+            selected_indices = json.loads(json_match.group(0))
+            selected_indices = [int(i) for i in selected_indices if isinstance(i, (int, float)) and 1 <= int(i) <= len(articles)]
+        except (json.JSONDecodeError, ValueError):
+            selected_indices = list(range(1, min(16, len(articles) + 1)))
+    else:
+        selected_indices = list(range(1, min(16, len(articles) + 1)))
+
+    # Clamp to 10-15
+    if len(selected_indices) < 10:
+        remaining = [i for i in range(1, len(articles) + 1) if i not in selected_indices]
+        selected_indices.extend(remaining[:15 - len(selected_indices)])
+    elif len(selected_indices) > 15:
+        selected_indices = selected_indices[:15]
+
+    selected_articles = [articles[i - 1] for i in selected_indices if i <= len(articles)]
+    log.info(f"  Stage 1: selected {len(selected_articles)} articles")
+
+    # ── Stage 2: Bilingual structured output ────────────────────────────
+    selected_text = build_article_list_text(selected_articles)
+
+    categories_desc = "\n".join(
+        f'  - "{en}" (Chinese: "{info["zh"]}", color: "{info["color"]}")'
+        for en, info in CATEGORIES.items()
+    )
+
+    stage2_prompt = f"""You are a senior AI industry analyst. Create a bilingual (English + Chinese) news digest for the {len(selected_articles)} pre-selected stories below.
+
+Today's date: {target_date}
+
+{selected_text}
+
+## OUTPUT FORMAT
+
+Return a JSON array. Each element must have this EXACT structure:
+
+{{
+  "id": "short-kebab-case-id",
+  "category_en": "Category Name",
+  "category_zh": "分类名称",
+  "category_color": "#hex",
+  "title_en": "Concise English headline",
+  "title_zh": "简洁中文标题",
+  "summary_en": "English analytical summary (4-6 sentences, ~500-700 chars). Self-contained: include all key facts, numbers, and context so the reader doesn't need to click through. Cover: what happened, technical details/metrics, why it matters, implications.",
+  "summary_zh": "中文分析摘要（4-6句，约200-300字）。必须自包含：包含所有关键事实、数据和背景，读者无需点击原文即可完整了解。涵盖：发生了什么、技术细节/指标、为什么重要、未来影响。",
+  "source": "Source Name",
+  "sourceUrl": "https://..."
+}}
+
+## AVAILABLE CATEGORIES (use ONLY these):
+{categories_desc}
+
+## QUALITY REQUIREMENTS:
+- id: short, descriptive, kebab-case (e.g., "gpt5-release", "eu-ai-act-update")
+- Summaries must be SELF-CONTAINED — reader should understand the full story without clicking
+- Chinese summaries should read naturally (not translations), use 「」for quotes
+- English summaries: professional, analytical, include specific numbers/metrics
+- Include ALL {len(selected_articles)} selected stories — do not skip any
+- source: use the newsletter/platform name (AlphaSignal, Ben's Bites, Import AI, TLDR AI, The Batch, Hacker News, Reddit)
+- sourceUrl: use the article's actual URL, not the newsletter URL
+
+## IMPORTANT:
+- Return ONLY the JSON array, no markdown fences, no explanations
+- Do NOT use smart/curly quotes — use only straight quotes
+- Ensure valid JSON"""
+
+    stage2_response = call_llm(stage2_prompt, max_tokens=12000)
+
+    # Parse JSON
+    stage2_response = stage2_response.strip()
+    if stage2_response.startswith("```"):
+        stage2_response = re.sub(r"^```(?:json)?\s*", "", stage2_response)
+        stage2_response = re.sub(r"\s*```$", "", stage2_response)
+
+    items = json.loads(stage2_response)
+
+    # Convert to frontend format
     news_items = []
-    for i, item in enumerate(items, 1):
-        cat_en = item.get("category_en", "General")
-        color = CATEGORY_COLORS.get(cat_en, "#6B7280")
+    for item in items:
+        cat_en = item.get("category_en", "Community Picks")
+        cat_info = CATEGORIES.get(cat_en, CATEGORIES["Community Picks"])
+
         news_items.append({
-            "id": str(i),
+            "id": item.get("id", f"news-{len(news_items)+1}"),
             "category": {
-                "zh": item.get("category_zh", "综合"),
+                "zh": item.get("category_zh", cat_info["zh"]),
                 "en": cat_en,
-                "color": color,
+                "color": item.get("category_color", cat_info["color"]),
             },
             "title": {
                 "zh": item.get("title_zh", ""),
@@ -291,47 +650,6 @@ Important:
 
 
 # ---------------------------------------------------------------------------
-# Fallback: Generate digest without OpenAI
-# ---------------------------------------------------------------------------
-
-def generate_digest_fallback(articles: list[dict], target_date: str) -> list[dict]:
-    """Generate a basic digest without OpenAI (fallback mode)."""
-    print("  [FALLBACK] Generating digest without OpenAI...")
-    news_items = []
-    for i, a in enumerate(articles[:MAX_NEWS], 1):
-        title = a["title"]
-        desc = a["description"][:200] if a["description"] else title
-        source = a.get("source", "") or "Web"
-        # Extract domain as source name if empty
-        if not source or source == "Web":
-            from urllib.parse import urlparse
-            parsed = urlparse(a["link"])
-            source = parsed.netloc.replace("www.", "")
-
-        news_items.append({
-            "id": str(i),
-            "category": {
-                "zh": "综合",
-                "en": "General",
-                "color": "#6B7280",
-            },
-            "title": {
-                "zh": title,  # English title as fallback
-                "en": title,
-            },
-            "summary": {
-                "zh": desc,
-                "en": desc,
-            },
-            "source": source,
-            "sourceUrl": a["link"],
-            "date": target_date,
-        })
-
-    return news_items
-
-
-# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -341,54 +659,82 @@ def main():
     if not target_date:
         target_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    print(f"=== AI Daily Digest: {target_date} ===")
+    log.info(f"{'=' * 60}")
+    log.info(f"AI Daily Digest: {target_date}")
+    log.info(f"{'=' * 60}")
 
-    # 1. Collect articles
-    print("\n[1/3] Collecting articles from RSS feeds...")
-    articles = collect_articles()
+    # ── Step 1: Collect articles from all sources ───────────────────────
+    log.info("\n[1/5] Collecting articles from newsletter feeds...")
+    newsletter_articles = fetch_newsletter_feeds(max_per_source=10)
 
-    # 2. Filter AI-related
-    print("\n[2/3] Filtering AI-related articles...")
-    ai_articles = filter_ai_articles(articles)
+    log.info("\n[2/5] Collecting from supplementary feeds...")
+    supplementary_articles = fetch_supplementary_feeds(max_per_source=5)
 
-    if len(ai_articles) < 3:
-        print("  [WARN] Very few AI articles found, using all articles")
-        ai_articles = articles[:30]
+    log.info("\n[3/5] Collecting from Hacker News...")
+    hn_articles = fetch_hacker_news(max_items=15)
 
-    # 3. Generate digest
-    print("\n[3/3] Generating bilingual digest...")
+    log.info("\n[3/5] Collecting from Reddit...")
+    reddit_articles = []
+    for sub in ["MachineLearning", "LocalLLaMA"]:
+        reddit_articles.extend(fetch_reddit(sub, max_items=10))
+
+    # Combine all
+    all_articles = newsletter_articles + hn_articles + reddit_articles + supplementary_articles
+    log.info(f"\nTotal raw articles: {len(all_articles)}")
+
+    # ── Step 2: Filter AI-related ───────────────────────────────────────
+    # Newsletter articles are assumed AI-related; filter supplementary
+    ai_articles = []
+    for a in all_articles:
+        if a.get("source") in NEWSLETTER_FEEDS or is_ai_related(a):
+            ai_articles.append(a)
+
+    log.info(f"AI-related articles: {len(ai_articles)}")
+
+    # ── Step 3: Deduplicate against history ─────────────────────────────
+    log.info("\n[4/5] Deduplicating...")
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    historical_fps = load_historical_titles(DATA_DIR, DEDUP_DAYS)
+    ai_articles = deduplicate_articles(ai_articles, historical_fps)
+
+    if len(ai_articles) < 5:
+        log.warning("Very few articles after dedup. Skipping update — no new content.")
+        print("SKIP_UPDATE=true")
+        sys.exit(0)
+
+    # ── Step 4: Generate digest via LLM ─────────────────────────────────
+    log.info(f"\n[5/5] Generating bilingual digest from {len(ai_articles)} articles...")
     try:
         news_items = generate_digest(ai_articles, target_date)
     except Exception as e:
-        print(f"  [ERROR] OpenAI failed: {e}", file=sys.stderr)
-        print("  Falling back to basic digest...")
-        news_items = generate_digest_fallback(ai_articles, target_date)
-
-    if not news_items:
-        print("[ERROR] No news items generated!", file=sys.stderr)
+        log.error(f"LLM generation failed: {e}", exc_info=True)
         sys.exit(1)
 
-    # 4. Build date label
+    if not news_items:
+        log.error("No news items generated!")
+        sys.exit(1)
+
+    log.info(f"Generated {len(news_items)} news items")
+
+    # ── Step 5: Write output ────────────────────────────────────────────
     dt = datetime.strptime(target_date, "%Y-%m-%d")
     date_label = {
         "zh": f"{dt.year}年{dt.month}月{dt.day}日",
         "en": dt.strftime("%B %d, %Y"),
     }
 
-    # 5. Write JSON
     digest = {
         "date": target_date,
         "dateLabel": date_label,
         "news": news_items,
     }
 
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
     output_path = DATA_DIR / f"{target_date}.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(digest, f, ensure_ascii=False, indent=2)
-    print(f"\n  Written: {output_path}")
+    log.info(f"Written: {output_path}")
 
-    # 6. Update index.json
+    # Update index.json
     index_path = DATA_DIR / "index.json"
     if index_path.exists():
         with open(index_path, "r", encoding="utf-8") as f:
@@ -406,9 +752,11 @@ def main():
 
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
-    print(f"  Updated: {index_path}")
+    log.info(f"Updated: {index_path}")
 
-    print(f"\n=== Done! {len(news_items)} stories for {target_date} ===")
+    log.info(f"\n{'=' * 60}")
+    log.info(f"Done! {len(news_items)} stories for {target_date}")
+    log.info(f"{'=' * 60}")
 
 
 if __name__ == "__main__":

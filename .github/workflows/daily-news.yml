@@ -1,0 +1,99 @@
+name: Daily AI News Digest
+
+on:
+  # Run daily at UTC 15:00 = Seattle 7:00 AM (PST) / 8:00 AM (PDT)
+  schedule:
+    - cron: "0 15 * * *"
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "Target date (YYYY-MM-DD), leave empty for today"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "daily-news"
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch and generate news digest
+        id: fetch_news
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+        run: |
+          set +e
+          output=$(python scripts/fetch_news.py 2>&1)
+          exit_code=$?
+          echo "$output"
+
+          # Check if script signaled to skip update
+          if echo "$output" | grep -q "SKIP_UPDATE=true"; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "No new content today — skipping update."
+            exit 0
+          fi
+
+          if [ $exit_code -ne 0 ]; then
+            echo "Script failed with exit code $exit_code"
+            exit $exit_code
+          fi
+
+          echo "skip=false" >> $GITHUB_OUTPUT
+
+      - name: Check for changes
+        if: steps.fetch_news.outputs.skip != 'true'
+        id: check_changes
+        run: |
+          git add client/public/data/
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No data changes detected."
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Data changes detected."
+          fi
+
+      - name: Commit and push data
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add client/public/data/
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "📰 Daily AI digest: ${DATE}"
+          git push
+
+      # After pushing, the existing deploy workflow (daily-update.yml)
+      # will automatically trigger and deploy to GitHub Pages.
+
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fetch-news-logs
+          path: |
+            *.log
+          retention-days: 7

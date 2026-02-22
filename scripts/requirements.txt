@@ -1,2 +1,3 @@
-# No external dependencies needed - uses only Python stdlib
-# OpenAI API is called via urllib (no openai package required)
+# AI Daily Digest - News Fetcher Dependencies
+# The script uses Python stdlib only (urllib, json, xml.etree, hashlib, etc.)
+# No external packages required.
