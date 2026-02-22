@@ -25,25 +25,6 @@
       "date": "2026-02-22"
     },
     {
-      "id": "openai-hires-openclaw-creator",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "OpenAI 招募 OpenClaw 创始人，加速个人智能体愿景",
-        "en": "OpenAI Recruits OpenClaw Creator to Accelerate Personal Agent Vision"
-      },
-      "summary": {
-        "zh": "OpenAI 已招募 OpenClaw（一个流行的开源自主智能体框架）的创始人，这标志着其正大力进军个人智能体领域。此举符合 OpenAI 向开发「操作员」式智能体转型的战略，这类智能体能够跨应用执行复杂任务。通过引入智能体社区的顶尖人才，OpenAI 旨在弥合静态大模型与主动式数字助理之间的差距。此次人才招募而非项目收购表明，OpenAI 正致力于内化智能体与环境交互的架构专业知识。预计这一人事变动将影响 OpenAI 即将发布的下一代个人助理功能。",
-        "en": "OpenAI has hired the creator of OpenClaw, a popular open-source framework for building autonomous agents, signaling a major push into the personal agent space. This move follows OpenAI's strategic shift toward developing 'Operator' style agents that can perform complex tasks across various applications. By bringing in top talent from the agentic community, OpenAI aims to bridge the gap between static LLMs and proactive digital assistants. The acquisition of talent rather than the project itself suggests OpenAI is focused on internalizing the architectural expertise of agent-environment interaction. This hire is expected to influence the upcoming release of OpenAI's next-generation personal assistant features."
-      },
-      "source": "Ben's Bites",
-      "sourceUrl": "https://www.bensbites.com/p/dreaming-up-personal-agents",
-      "date": "2026-02-22"
-    },
-    {
       "id": "claude-code-workflow-planning",
       "category": {
         "zh": "工程与工具",

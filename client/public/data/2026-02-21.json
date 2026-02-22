@@ -7,7 +7,11 @@
   "news": [
     {
       "id": "gemini-31-pro",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
       "title": {
         "zh": "Google 发布 Gemini 3.1 Pro，支持灵活推理模式",
         "en": "Google Rolls Out Gemini 3.1 Pro with Flexible Reasoning Modes"
@@ -22,7 +26,11 @@
     },
     {
       "id": "claude-sonnet-46",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
       "title": {
         "zh": "Anthropic 发布 Claude Sonnet 4.6，多项指标超越 Opus 4.5",
         "en": "Anthropic Releases Claude Sonnet 4.6, Surpassing Opus 4.5 on Most Benchmarks"
@@ -37,7 +45,11 @@
     },
     {
       "id": "qwen3-tts-opensource",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
       "title": {
         "zh": "Qwen3-TTS 系列正式开源：支持语音设计、克隆与生成",
         "en": "Qwen3-TTS Family Open Sourced: Voice Design, Clone, and Generation"
@@ -52,7 +64,11 @@
     },
     {
       "id": "gemini-lyria3-music",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
       "title": {
         "zh": "Google Lyria 3 音乐生成模型集成到 Gemini",
         "en": "Google's Lyria 3 Music Generation Model Integrated into Gemini"
@@ -66,23 +82,12 @@
       "date": "2026-02-21"
     },
     {
-      "id": "apple-on-device-agent",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
-      "title": {
-        "zh": "Apple 研究人员开发设备端 AI 代理，可跨应用执行复杂任务",
-        "en": "Apple Researchers Develop On-Device AI Agent That Interacts with Apps"
-      },
-      "summary": {
-        "zh": "Apple 机器学习研究团队发布了 Ferret-UI 2 论文，展示了一种完全在设备端运行的 AI 代理系统，能够理解自然语言指令并直接操作 iOS 应用的 UI 元素。该系统基于一个 7B 参数的视觉语言模型，通过屏幕截图理解来定位和操作按钮、输入框等界面元素，无需应用提供专门的 API 接口。在跨应用任务测试中（如「在日历中创建事件并通过邮件发送邀请」），成功率达到 87%。所有推理均在 Apple Silicon 芯片上本地完成，用户数据不会离开设备，这与 Apple 一贯的隐私策略保持一致。",
-        "en": "Apple's Machine Learning Research team has published the Ferret-UI 2 paper, demonstrating a fully on-device AI agent system that understands natural language instructions and directly manipulates iOS app UI elements. Built on a 7B parameter vision-language model, it locates and interacts with buttons, input fields, and other interface elements through screenshot understanding, without requiring apps to provide dedicated APIs. In cross-app task testing (e.g., 'create a calendar event and send an invitation via email'), it achieved an 87% success rate. All inference runs locally on Apple Silicon, keeping user data on-device, consistent with Apple's privacy-first approach."
-      },
-      "source": "Hacker News",
-      "sourceUrl": "https://machinelearning.apple.com/research/ferret-ui",
-      "date": "2026-02-21"
-    },
-    {
       "id": "flashattention-4-blackwell",
-      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
       "title": {
         "zh": "FlashAttention-4 发布：在 NVIDIA Blackwell 架构上突破计算和内存瓶颈",
         "en": "FlashAttention-4: Overcoming Compute and Memory Bottlenecks on NVIDIA Blackwell"
@@ -97,7 +102,11 @@
     },
     {
       "id": "render-of-thought",
-      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
       "title": {
         "zh": "Render-of-Thought：将推理链可视化的新方法",
         "en": "Render-of-Thought: Visualizing Reasoning Chains for Better Interpretability"
@@ -112,7 +121,11 @@
     },
     {
       "id": "agent-autonomy-measurement",
-      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
       "title": {
         "zh": "Anthropic 发布代理自主性实测数据：Top 0.1% 会话运行超 45 分钟",
         "en": "Measuring Agent Autonomy in Practice: Top 0.1% Sessions Run Over 45 Minutes"
@@ -127,7 +140,11 @@
     },
     {
       "id": "cursor-sandbox",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
         "zh": "Cursor 推出跨平台安全沙箱，为本地编码代理提供隔离环境",
         "en": "Cursor Launches Secure Cross-Platform Sandboxing for Local Coding Agents"
@@ -142,7 +159,11 @@
     },
     {
       "id": "claude-code-figma",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
         "zh": "Figma MCP 支持 Claude Code 生成设计稿并导入编辑",
         "en": "Claude Code to Figma: Generate Designs and Import for Editing via MCP"
@@ -157,7 +178,11 @@
     },
     {
       "id": "claude-code-auto-memory",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
         "zh": "Anthropic 为 Claude Code 开发自动记忆系统",
         "en": "Anthropic Developing Auto Memory System for Claude Code"
@@ -172,7 +197,11 @@
     },
     {
       "id": "import-ai-445-superintelligence",
-      "category": { "zh": "行业与政策", "en": "Industry & Policy", "color": "#8b5cf6" },
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
       "title": {
         "zh": "Import AI 445：为超级智能计时、AI 攻克前沿数学证明",
         "en": "Import AI 445: Timing Superintelligence; AIs Solve Frontier Math Proofs"
@@ -187,7 +216,11 @@
     },
     {
       "id": "mailcat-email-agents",
-      "category": { "zh": "社区精选", "en": "Community Picks", "color": "#f59e0b" },
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
       "title": {
         "zh": "MailCat：面向 AI 代理的开源电子邮件服务",
         "en": "MailCat: Open-Source Email Service for AI Agents"
@@ -202,7 +235,11 @@
     },
     {
       "id": "zclaw-esp32-ai",
-      "category": { "zh": "社区精选", "en": "Community Picks", "color": "#f59e0b" },
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
       "title": {
         "zh": "zclaw：在 ESP32 上运行的 888KB 超轻量 AI 助手",
         "en": "zclaw: Personal AI Assistant Under 888KB Running on ESP32"
@@ -217,7 +254,11 @@
     },
     {
       "id": "palantir-ontology-deep-dive",
-      "category": { "zh": "社区精选", "en": "Community Picks", "color": "#f59e0b" },
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
       "title": {
         "zh": "深度解析：Palantir 的秘密武器不是 AI，而是本体论",
         "en": "Palantir's Secret Weapon Isn't AI - It's Ontology: An Open-Source Deep Dive"

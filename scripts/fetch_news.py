@@ -212,8 +212,92 @@ def parse_rss(raw_xml: bytes) -> list[dict]:
     return articles
 
 
-def fetch_newsletter_feeds(max_per_source: int = 10) -> list[dict]:
-    """Fetch articles from all newsletter RSS feeds."""
+# ---------------------------------------------------------------------------
+# Date filtering
+# ---------------------------------------------------------------------------
+
+def parse_pub_date(pub_str: str) -> datetime | None:
+    """
+    Parse a publication date string from RSS/Atom into a timezone-aware datetime.
+    Supports RFC 2822 (RSS), ISO 8601 (Atom), and common variants.
+    Returns None if parsing fails.
+    """
+    if not pub_str or not pub_str.strip():
+        return None
+
+    s = pub_str.strip()
+
+    # Try common formats
+    formats = [
+        "%a, %d %b %Y %H:%M:%S %z",   # RFC 2822: Mon, 01 Jan 2026 12:00:00 +0000
+        "%a, %d %b %Y %H:%M:%S %Z",   # RFC 2822 with named TZ: Mon, 01 Jan 2026 12:00:00 GMT
+        "%Y-%m-%dT%H:%M:%S%z",         # ISO 8601: 2026-01-01T12:00:00+00:00
+        "%Y-%m-%dT%H:%M:%SZ",          # ISO 8601 UTC: 2026-01-01T12:00:00Z
+        "%Y-%m-%d %H:%M:%S",           # Simple: 2026-01-01 12:00:00
+        "%Y-%m-%d",                    # Date only: 2026-01-01
+    ]
+
+    # Normalize: replace 'Z' suffix with '+00:00' for %z
+    s_norm = re.sub(r'Z$', '+00:00', s)
+    # Normalize named TZ abbreviations that Python can't parse
+    s_norm = re.sub(r'\s+(GMT|UTC)$', ' +0000', s_norm)
+    s_norm = re.sub(r'\s+EST$', ' -0500', s_norm)
+    s_norm = re.sub(r'\s+PST$', ' -0800', s_norm)
+    s_norm = re.sub(r'\s+CST$', ' -0600', s_norm)
+
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(s_norm, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except ValueError:
+            continue
+
+    # Last resort: try to extract a YYYY-MM-DD from the string
+    m = re.search(r'(\d{4})-(\d{2})-(\d{2})', s)
+    if m:
+        try:
+            return datetime(
+                int(m.group(1)), int(m.group(2)), int(m.group(3)),
+                tzinfo=timezone.utc
+            )
+        except ValueError:
+            pass
+
+    return None
+
+
+def is_recent_article(article: dict, target_date: str, max_age_days: int = 2) -> bool:
+    """
+    Return True if the article was published within max_age_days of target_date.
+    If the article has no parseable date, return True (let LLM decide).
+    """
+    pub_str = article.get("published", "")
+    dt = parse_pub_date(pub_str)
+
+    if dt is None:
+        # No date available — mark it and let LLM filter
+        article["date_unknown"] = True
+        return True
+
+    try:
+        target_dt = datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return True
+
+    # Allow articles from up to max_age_days before target_date
+    # and up to 1 day after (to handle timezone edge cases)
+    delta = (target_dt.date() - dt.date()).days
+    if delta < -1 or delta > max_age_days:
+        return False
+
+    article["date_unknown"] = False
+    return True
+
+
+def fetch_newsletter_feeds(target_date: str, max_per_source: int = 10) -> list[dict]:
+    """Fetch articles from all newsletter RSS feeds, filtered to target_date ± 2 days."""
     all_articles = []
 
     for source_name, feed_urls in NEWSLETTER_FEEDS.items():
@@ -224,10 +308,14 @@ def fetch_newsletter_feeds(max_per_source: int = 10) -> list[dict]:
                 raw = http_get(feed_url)
                 articles = parse_rss(raw)
                 if articles:
-                    for a in articles[:max_per_source]:
+                    for a in articles:
                         a["source"] = source_name
-                    all_articles.extend(articles[:max_per_source])
-                    log.info(f"    -> {len(articles[:max_per_source])} articles")
+                    # Apply date filter: newsletters may have weekly digests, allow 2 days
+                    before = len(articles)
+                    articles = [a for a in articles if is_recent_article(a, target_date, max_age_days=2)]
+                    articles = articles[:max_per_source]
+                    log.info(f"    -> {len(articles)} articles (date-filtered from {before})")
+                    all_articles.extend(articles)
                     fetched = True
                     break  # Got articles from this source, skip alternates
             except Exception as e:
@@ -240,8 +328,8 @@ def fetch_newsletter_feeds(max_per_source: int = 10) -> list[dict]:
     return all_articles
 
 
-def fetch_supplementary_feeds(max_per_source: int = 5) -> list[dict]:
-    """Fetch articles from supplementary tech RSS feeds."""
+def fetch_supplementary_feeds(target_date: str, max_per_source: int = 5) -> list[dict]:
+    """Fetch articles from supplementary tech RSS feeds, filtered to target_date ± 1 day."""
     all_articles = []
 
     for source_name, feed_url in SUPPLEMENTARY_FEEDS.items():
@@ -249,10 +337,14 @@ def fetch_supplementary_feeds(max_per_source: int = 5) -> list[dict]:
             log.info(f"  Fetching {source_name}: {feed_url[:80]}...")
             raw = http_get(feed_url)
             articles = parse_rss(raw)
-            for a in articles[:max_per_source]:
+            for a in articles:
                 a["source"] = source_name
-            all_articles.extend(articles[:max_per_source])
-            log.info(f"    -> {len(articles[:max_per_source])} articles")
+            # Supplementary feeds: stricter — only today or yesterday
+            before = len(articles)
+            articles = [a for a in articles if is_recent_article(a, target_date, max_age_days=1)]
+            articles = articles[:max_per_source]
+            log.info(f"    -> {len(articles)} articles (date-filtered from {before})")
+            all_articles.extend(articles)
         except Exception as e:
             log.warning(f"    -> Failed: {e}")
 
@@ -263,21 +355,31 @@ def fetch_supplementary_feeds(max_per_source: int = 5) -> list[dict]:
 # Hacker News (Algolia API)
 # ---------------------------------------------------------------------------
 
-def fetch_hacker_news(max_items: int = 15) -> list[dict]:
-    """Fetch top AI-related stories from Hacker News via Algolia API."""
+def fetch_hacker_news(target_date: str, max_items: int = 15) -> list[dict]:
+    """Fetch top AI-related stories from Hacker News via Algolia API, filtered to target_date."""
     articles = []
     queries = [
         "AI", "LLM", "GPT", "Claude", "machine learning",
         "artificial intelligence", "deep learning",
     ]
 
+    # Compute the Unix timestamp window: target_date ± 1 day
+    try:
+        target_dt = datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        target_dt = datetime.now(timezone.utc)
+
+    # Allow articles from 1 day before target_date up to end of target_date
+    window_start = int((target_dt - timedelta(days=1)).timestamp())
+    window_end   = int((target_dt + timedelta(days=1)).timestamp())
+
     seen_ids = set()
     for query in queries:
         try:
             url = (
                 f"https://hn.algolia.com/api/v1/search?"
-                f"query={quote(query)}&tags=story&hitsPerPage=10"
-                f"&numericFilters=created_at_i>{int(time.time()) - 86400 * 2}"
+                f"query={quote(query)}&tags=story&hitsPerPage=15"
+                f"&numericFilters=created_at_i>{window_start},created_at_i<{window_end}"
             )
             log.info(f"  HN search: {query}")
             data = http_get_json(url)
@@ -296,6 +398,7 @@ def fetch_hacker_news(max_items: int = 15) -> list[dict]:
 
                 title = hit.get("title", "")
                 link = hit.get("url", "") or f"https://news.ycombinator.com/item?id={obj_id}"
+                created_at = hit.get("created_at", "")
 
                 articles.append({
                     "title": title,
@@ -303,7 +406,8 @@ def fetch_hacker_news(max_items: int = 15) -> list[dict]:
                     "description": f"[{points} points, {num_comments} comments on HN] {title}",
                     "source": "Hacker News",
                     "rss_source": "",
-                    "published": hit.get("created_at", ""),
+                    "published": created_at,
+                    "date_unknown": False,
                     "hn_points": points,
                 })
         except Exception as e:
@@ -311,6 +415,7 @@ def fetch_hacker_news(max_items: int = 15) -> list[dict]:
 
     # Sort by points descending, take top items
     articles.sort(key=lambda x: x.get("hn_points", 0), reverse=True)
+    log.info(f"  HN: {len(articles[:max_items])} articles in date window [{target_date} ±1d]")
     return articles[:max_items]
 
 
@@ -318,25 +423,30 @@ def fetch_hacker_news(max_items: int = 15) -> list[dict]:
 # Reddit
 # ---------------------------------------------------------------------------
 
-def fetch_reddit(subreddit: str, max_items: int = 10) -> list[dict]:
-    """Fetch top posts from a subreddit via RSS feed."""
+def fetch_reddit(subreddit: str, target_date: str, max_items: int = 10) -> list[dict]:
+    """Fetch top posts from a subreddit via RSS feed, filtered to target_date."""
     articles = []
     try:
-        url = f"https://www.reddit.com/r/{subreddit}/hot/.rss?limit={max_items}"
+        url = f"https://www.reddit.com/r/{subreddit}/hot/.rss?limit=25"
         log.info(f"  Reddit r/{subreddit} (RSS)...")
         raw = http_get(url)
         parsed = parse_rss(raw)
 
-        for a in parsed[:max_items]:
+        for a in parsed:
             a["source"] = "Reddit"
             a["rss_source"] = f"r/{subreddit}"
             if a.get("description"):
                 a["description"] = f"[r/{subreddit}] {a['description'][:400]}"
             else:
                 a["description"] = f"[r/{subreddit}] {a['title']}"
-            articles.append(a)
 
-        log.info(f"    -> {len(articles)} posts")
+        # Date filter: Reddit hot posts can be days old
+        before = len(parsed)
+        parsed = [a for a in parsed if is_recent_article(a, target_date, max_age_days=1)]
+        parsed = parsed[:max_items]
+        articles.extend(parsed)
+
+        log.info(f"    -> {len(articles)} posts (date-filtered from {before})")
     except Exception as e:
         log.warning(f"    -> Reddit r/{subreddit} failed: {e}")
 
@@ -530,8 +640,24 @@ def build_article_list_text(articles: list[dict]) -> str:
     lines = []
     for i, a in enumerate(articles, 1):
         source = a.get("source", "Unknown")
+        pub = a.get("published", "")
+        date_unknown = a.get("date_unknown", False)
+
+        # Format the publication date for display
+        if date_unknown:
+            date_tag = "[DATE UNKNOWN]"
+        elif pub:
+            # Try to show a clean date
+            dt = parse_pub_date(pub)
+            if dt:
+                date_tag = f"[Published: {dt.strftime('%Y-%m-%d')}]"
+            else:
+                date_tag = "[DATE UNKNOWN]"
+        else:
+            date_tag = "[DATE UNKNOWN]"
+
         lines.append(
-            f"{i}. [{source}] {a['title']}\n"
+            f"{i}. [{source}] {date_tag} {a['title']}\n"
             f"   URL: {a['link']}\n"
             f"   {a.get('description', '')[:400]}"
         )
@@ -548,7 +674,9 @@ def generate_digest(articles: list[dict], target_date: str) -> list[dict]:
     article_text = build_article_list_text(articles)
 
     # ── Stage 1: Selection ──────────────────────────────────────────────
-    stage1_prompt = f"""Below are {len(articles)} AI-related news articles collected today ({target_date}) from curated sources including AlphaSignal, Ben's Bites, Import AI, TLDR AI, The Batch, Hacker News, and Reddit.
+    stage1_prompt = f"""Below are {len(articles)} AI-related news articles collected for {target_date} from curated sources including AlphaSignal, Ben's Bites, Import AI, TLDR AI, The Batch, Hacker News, and Reddit.
+
+Some articles are marked [DATE UNKNOWN] — their publication date could not be parsed from the RSS feed. Treat these with extra skepticism: only include them if the content is clearly very recent and highly relevant.
 
 {article_text}
 
@@ -564,13 +692,23 @@ You are a senior AI industry analyst with extremely high standards. Select exact
 - Open-source releases with real impact
 - Balanced coverage across categories: Models, Research, Engineering, Industry, Community
 
-### REJECT:
+### REJECT — MANDATORY (these are hard rules, not suggestions):
+- **STALE ARTICLES**: Any article that appears to be older than 2 days before {target_date}. Check the URL for date patterns (e.g. /2026/01/ or /2025/12/ in the URL indicates an old article). If the URL contains a date that is more than 2 days before {target_date}, REJECT it.
+- **[DATE UNKNOWN] articles** that don't appear to be breaking news from {target_date} or {target_date} minus 1 day
 - Minor updates, routine announcements, or incremental improvements
 - Clickbait, opinion pieces without substance, or speculative articles
 - Duplicate coverage of the same story from different sources (keep the best one)
 - Multiple articles about the same event/announcement (pick ONE best article per topic)
-- Articles older than 2 days
 - Promotional content or company blog posts without real news value
+- Job postings, hiring announcements, or company culture articles
+- Articles about events that happened weeks or months ago, even if the analysis is new
+
+### DATE FRESHNESS CHECK:
+Before selecting any article, verify its URL does not contain an old date. For example:
+- URL containing "/2025/" → REJECT (last year)
+- URL containing "/2026/01/" → REJECT if target_date is in February 2026
+- URL containing "/2026/02/" with a day more than 2 days before {target_date} → REJECT
+- URL containing "/2026/02/" with a day within 2 days of {target_date} → OK
 
 ### OUTPUT FORMAT:
 Return ONLY a JSON array of the article numbers you selected. Example:
@@ -735,18 +873,18 @@ def main():
 
     # ── Step 1: Collect articles from all sources ───────────────────────
     log.info("\n[1/5] Collecting articles from newsletter feeds...")
-    newsletter_articles = fetch_newsletter_feeds(max_per_source=10)
+    newsletter_articles = fetch_newsletter_feeds(target_date, max_per_source=10)
 
     log.info("\n[2/5] Collecting from supplementary feeds...")
-    supplementary_articles = fetch_supplementary_feeds(max_per_source=5)
+    supplementary_articles = fetch_supplementary_feeds(target_date, max_per_source=5)
 
     log.info("\n[3/5] Collecting from Hacker News...")
-    hn_articles = fetch_hacker_news(max_items=15)
+    hn_articles = fetch_hacker_news(target_date, max_items=15)
 
-    log.info("\n[3/5] Collecting from Reddit...")
+    log.info("\n[4/5] Collecting from Reddit...")
     reddit_articles = []
     for sub in ["MachineLearning", "LocalLLaMA"]:
-        reddit_articles.extend(fetch_reddit(sub, max_items=10))
+        reddit_articles.extend(fetch_reddit(sub, target_date, max_items=10))
 
     # Combine all
     all_articles = newsletter_articles + hn_articles + reddit_articles + supplementary_articles
