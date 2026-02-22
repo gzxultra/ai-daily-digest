@@ -11,6 +11,11 @@ on:
         description: 'Target date (YYYY-MM-DD), leave empty for today'
         required: false
         default: ''
+      deploy_only:
+        description: 'Deploy only (skip news fetching)'
+        required: false
+        type: boolean
+        default: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -25,6 +30,7 @@ concurrency:
 
 jobs:
   fetch-news:
+    if: ${{ github.event.inputs.deploy_only != 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -51,6 +57,7 @@ jobs:
           git push
 
   build-and-deploy:
+    if: ${{ always() && !failure() && !cancelled() }}
     needs: fetch-news
     runs-on: ubuntu-latest
     environment:
@@ -60,7 +67,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: main  # Ensure we get the latest commit with new data
+          ref: main
 
       - name: Pull latest changes
         run: git pull origin main
