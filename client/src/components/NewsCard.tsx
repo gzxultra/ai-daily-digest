@@ -1,6 +1,7 @@
 /*
  * Design: Editorial Magazine Style
  * - Left color accent bar per category
+ * - "via Source" label for attribution
  * - Hover lift animation
  * - Space Grotesk for titles, Inter for body
  */
@@ -27,14 +28,8 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
         className="group relative overflow-hidden rounded-2xl bg-card border border-border
                    hover:shadow-xl hover:shadow-primary/5 transition-all duration-500"
       >
-        {/* Top color bar */}
-        <div
-          className="h-1.5 w-full"
-          style={{ backgroundColor: item.category.color }}
-        />
-
+        <div className="h-1.5 w-full" style={{ backgroundColor: item.category.color }} />
         <div className="p-6 sm:p-8">
-          {/* Category Badge */}
           <div className="flex items-center gap-3 mb-4">
             <span
               className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold text-white"
@@ -42,12 +37,10 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
             >
               {t(item.category)}
             </span>
-            <span className="text-xs text-muted-foreground">
-              {item.source}
+            <span className="text-xs text-muted-foreground font-medium">
+              via <span className="text-foreground/70">{item.source}</span>
             </span>
           </div>
-
-          {/* Title */}
           <h2
             className="text-xl sm:text-2xl font-bold text-card-foreground leading-tight mb-4
                        group-hover:text-primary transition-colors duration-300"
@@ -55,13 +48,9 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
           >
             {t(item.title)}
           </h2>
-
-          {/* Summary */}
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-6">
             {t(item.summary)}
           </p>
-
-          {/* Source Link */}
           <a
             href={item.sourceUrl}
             target="_blank"
@@ -86,14 +75,11 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
                  hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5
                  transition-all duration-400"
     >
-      {/* Left accent bar */}
       <div
         className="absolute left-0 top-0 bottom-0 w-1 rounded-l-xl"
         style={{ backgroundColor: item.category.color }}
       />
-
       <div className="p-5 pl-6">
-        {/* Category + Source Row */}
         <div className="flex items-center gap-2 mb-3">
           <span
             className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-semibold text-white"
@@ -102,11 +88,9 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
             {t(item.category)}
           </span>
           <span className="text-[11px] text-muted-foreground font-medium">
-            {item.source}
+            via <span className="text-foreground/70">{item.source}</span>
           </span>
         </div>
-
-        {/* Title */}
         <h3
           className="text-base font-bold text-card-foreground leading-snug mb-2.5
                      group-hover:text-primary transition-colors duration-300"
@@ -114,13 +98,9 @@ export default function NewsCard({ item, index, featured = false }: NewsCardProp
         >
           {t(item.title)}
         </h3>
-
-        {/* Summary */}
         <p className="text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
           {t(item.summary)}
         </p>
-
-        {/* Source Link */}
         <a
           href={item.sourceUrl}
           target="_blank"

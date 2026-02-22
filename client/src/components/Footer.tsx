@@ -1,6 +1,6 @@
 /*
  * Design: Editorial Magazine Style
- * - Minimal footer with subtle border top
+ * - Minimal footer with source attribution
  */
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Zap } from "lucide-react";
@@ -24,10 +24,10 @@ export default function Footer() {
             </span>
           </div>
 
-          <p className="text-xs text-muted-foreground text-center">
+          <p className="text-xs text-muted-foreground text-center max-w-md">
             {lang === "zh"
-              ? "由 AI 精选整理 · 所有新闻摘要均基于公开报道 · 仅供参考"
-              : "AI-curated news digest · Based on public reports · For reference only"}
+              ? "数据来源：AlphaSignal · Ben's Bites · Import AI · TLDR AI · The Batch · Hacker News"
+              : "Sources: AlphaSignal · Ben's Bites · Import AI · TLDR AI · The Batch · Hacker News"}
           </p>
 
           <p className="text-xs text-muted-foreground">
