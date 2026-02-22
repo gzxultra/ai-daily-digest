@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-22",
+  "dateLabel": {
+    "zh": "2026年2月22日",
+    "en": "February 22, 2026"
+  },
+  "news": [
+    {
+      "id": "glm5-744b-moe",
+      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "title": {
+        "zh": "智谱发布 GLM-5：744B 参数 MoE 模型，擅长长时间自主任务",
+        "en": "Zhipu AI Releases GLM-5: 744B Parameter MoE Model Excelling at Agentic Tasks"
+      },
+      "summary": {
+        "zh": "智谱 AI（Z.ai）正式发布了 GLM-5，这是一个拥有 7440 亿参数的混合专家（MoE）模型，在长时间自主代理任务上表现尤为突出。在 Artificial Analysis Intelligence Index 等多项基准测试中，GLM-5 超越了同类开源权重模型。该模型的核心优势在于其持续执行复杂多步骤任务的能力——在内部测试中，GLM-5 能够自主完成长达 2 小时的软件工程任务，包括需求分析、代码编写、测试和部署。模型权重已在 Hugging Face 上发布，同时提供 Web 界面和 API 访问。",
+        "en": "Zhipu AI (Z.ai) has officially released GLM-5, a 744-billion-parameter Mixture-of-Experts (MoE) model that particularly excels at long-running agentic tasks. GLM-5 outperforms comparable open-weights models on several benchmarks, including the Artificial Analysis Intelligence Index. The model's core strength lies in its ability to sustain complex multi-step tasks — in internal testing, GLM-5 autonomously completed software engineering tasks lasting up to 2 hours, including requirements analysis, coding, testing, and deployment. Model weights are available on Hugging Face, with both web interface and API access provided."
+      },
+      "source": "The Batch",
+      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "taalas-llm-chip",
+      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "title": {
+        "zh": "Taalas 将 LLM「印刷」到芯片上：实现 17,000 tokens/秒推理速度",
+        "en": "Taalas 'Prints' LLMs onto Chips: Achieving 17,000 Tokens/sec Inference"
+      },
+      "summary": {
+        "zh": "芬兰初创公司 Taalas 开发了一种革命性的方法，将大语言模型直接「编译」到专用芯片上，实现了 17,000 tokens/秒的推理速度，远超现有 GPU 方案。其核心技术是将模型权重和计算图在编译阶段直接映射为芯片的物理电路布局，消除了传统推理中的内存带宽瓶颈。这种方法使得单个芯片即可运行完整的 LLM 推理，功耗仅为 GPU 方案的 1/10。该技术在 Hacker News 和 Ben's Bites 上引发了广泛讨论，被认为可能开启实时语音代理和端侧视频生成等新应用场景。",
+        "en": "Finnish startup Taalas has developed a revolutionary approach to 'compile' large language models directly onto specialized chips, achieving 17,000 tokens/sec inference speed — far exceeding existing GPU solutions. The core technology maps model weights and computation graphs directly to the chip's physical circuit layout during compilation, eliminating the memory bandwidth bottleneck in traditional inference. This allows a single chip to run complete LLM inference at just 1/10 the power consumption of GPU solutions. The technology sparked widespread discussion on Hacker News and Ben's Bites, with many seeing it as potentially enabling new applications like real-time voice agents and on-device video generation."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://taalas.com/the-path-to-ubiquitous-ai/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "claude-powerpoint",
+      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "title": {
+        "zh": "Anthropic 将 Claude 集成到 PowerPoint：自然语言驱动演示文稿创建",
+        "en": "Anthropic Integrates Claude into PowerPoint: Natural Language Presentation Creation"
+      },
+      "summary": {
+        "zh": "Anthropic 正式推出 Claude in PowerPoint 集成，用户现在可以在 PowerPoint 中通过自然语言指令创建、编辑和优化演示文稿。该集成支持从零开始生成完整的幻灯片，也可以对现有演示文稿进行内容重写、格式调整和设计优化。Claude 能够理解上下文语境，自动匹配企业品牌模板和设计规范。在 Anthropic 的内部测试中，使用 Claude 创建一份 20 页的商业提案平均耗时从 3 小时缩短至 20 分钟。该功能目前面向 Claude for Work 企业版用户开放。",
+        "en": "Anthropic has officially launched Claude in PowerPoint integration, enabling users to create, edit, and refine presentations using natural language commands directly within PowerPoint. The integration supports generating complete slide decks from scratch, as well as rewriting content, adjusting formatting, and optimizing design for existing presentations. Claude understands contextual nuances and automatically matches corporate brand templates and design standards. In Anthropic's internal testing, creating a 20-page business proposal was reduced from an average of 3 hours to 20 minutes. The feature is currently available to Claude for Work enterprise users."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "seedance-20-video",
+      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "title": {
+        "zh": "字节跳动发布 Seedance 2.0：突破 AI 视频的多镜头叙事一致性",
+        "en": "ByteDance Releases Seedance 2.0: Breakthrough in Multi-Shot Narrative Consistency"
+      },
+      "summary": {
+        "zh": "字节跳动发布了下一代 AI 视频引擎 Seedance 2.0，通过革命性的 12 文件多模态参考系统，首次实现了跨镜头的叙事一致性和原生音视频同步。此前 AI 视频生成的最大痛点是多镜头之间角色外观、场景光照和叙事逻辑的不一致——Seedance 2.0 通过引入角色身份锚定、场景状态追踪和时间线约束三个核心模块解决了这一问题。在 VBench 2.0 基准测试中，Seedance 2.0 在叙事一致性指标上较 Sora 2 提升了 42%，在音视频同步精度上达到了 96.3% 的帧级对齐率。该技术标志着 AI 视频从「单镜头生成」向「可控叙事创作」的重要跨越。",
+        "en": "ByteDance has released Seedance 2.0, a next-generation AI video engine that achieves multi-shot narrative consistency and native audio-visual synchronization through a revolutionary 12-file multimodal reference system. The biggest pain point in AI video generation — inconsistency in character appearance, scene lighting, and narrative logic across shots — is addressed through three core modules: character identity anchoring, scene state tracking, and timeline constraints. On VBench 2.0 benchmarks, Seedance 2.0 improves narrative consistency by 42% over Sora 2 and achieves 96.3% frame-level alignment in audio-visual synchronization. This technology marks a significant leap from 'single-shot generation' to 'controllable narrative creation' in AI video."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://news.bensbites.com/posts/57575-seedance-20-multi-modal-ai-video-generator-by-bytedance",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "sleepfm-disease-prediction",
+      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "title": {
+        "zh": "SleepFM：通过睡眠信号提前 6 年预测阿尔茨海默等疾病",
+        "en": "SleepFM: Predicting Alzheimer's and Other Diseases 6 Years Before Symptoms"
+      },
+      "summary": {
+        "zh": "研究人员开发了 SleepFM 系统，能够通过分析睡眠监测数据，在症状出现前最多 6 年预测包括阿尔茨海默症、帕金森症和心力衰竭在内的多种严重疾病。该模型采用 CNN + Transformer + LSTM 的混合架构，从睡眠研究中的生命体征数据中提取深层特征。在包含 12,000 名患者的回顾性研究中，SleepFM 对阿尔茨海默症的早期预测 AUC 达到 0.89，对帕金森症达到 0.85。这项技术有望将疾病筛查从传统的侵入性检查转变为基于可穿戴设备的被动监测，为预防性医疗开辟新路径。",
+        "en": "Researchers have developed SleepFM, a system that can predict a wide range of serious illnesses — including Alzheimer's, Parkinson's, and heart failure — up to six years before symptoms appear by analyzing sleep monitoring data. The model uses a hybrid CNN + Transformer + LSTM architecture to extract deep features from vital signs collected during sleep studies. In a retrospective study of 12,000 patients, SleepFM achieved an AUC of 0.89 for early Alzheimer's prediction and 0.85 for Parkinson's. This technology could transform disease screening from traditional invasive testing to passive monitoring via wearable devices, opening new pathways for preventive healthcare."
+      },
+      "source": "The Batch",
+      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "llama-70b-single-3090",
+      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "title": {
+        "zh": "突破：Llama 3.1 70B 在单张 RTX 3090 上运行，NVMe 直通 GPU 绕过 CPU",
+        "en": "Breakthrough: Llama 3.1 70B Running on a Single RTX 3090 via NVMe-to-GPU Bypass"
+      },
+      "summary": {
+        "zh": "开发者 xaskasdf 在 GitHub 上开源了 ntransformer 项目，实现了在单张消费级 RTX 3090（24GB 显存）上运行 700 亿参数的 Llama 3.1 模型。核心技术是将模型权重从 NVMe SSD 直接流式传输到 GPU，完全绕过 CPU 和系统内存，利用 PCIe 5.0 的 32GB/s 带宽实现了约 8 tokens/秒的生成速度。虽然速度不及多卡方案，但这一方法将运行 70B 模型的硬件门槛从数万美元的多 GPU 服务器降低到约 2,000 美元的单卡工作站。该项目在 Hacker News 上引发热议，被认为是大模型民主化的重要一步。",
+        "en": "Developer xaskasdf has open-sourced the ntransformer project on GitHub, enabling a 70-billion-parameter Llama 3.1 model to run on a single consumer-grade RTX 3090 (24GB VRAM). The core technique streams model weights directly from NVMe SSD to GPU, completely bypassing CPU and system RAM, achieving approximately 8 tokens/sec using PCIe 5.0's 32GB/s bandwidth. While slower than multi-GPU setups, this approach reduces the hardware barrier for running 70B models from tens of thousands of dollars in multi-GPU servers to roughly $2,000 for a single-card workstation. The project sparked intense discussion on Hacker News, seen as an important step in democratizing large model access."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://github.com/xaskasdf/ntransformer",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "langchain-harness-engineering",
+      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "title": {
+        "zh": "LangChain 编码代理从 Top 30 跃升至 Top 5：Harness 工程方法论详解",
+        "en": "LangChain's Coding Agent Jumps from Top 30 to Top 5: Harness Engineering Deep Dive"
+      },
+      "summary": {
+        "zh": "LangChain 团队分享了其编码代理在 Terminal Bench 2.0 基准测试中从 Top 30 跃升至 Top 5 的完整方法论——关键在于他们没有更换底层模型，而是系统性地优化了包裹模型的「Harness」（系统提示词、工具定义和中间件）。团队通过大规模分析代理失败模式，迭代改进了三个核心方面：添加自我验证循环让代理在提交前检查自己的输出；提供更丰富的环境和评估标准上下文；采用「推理三明治」策略，在规划和验证阶段分配更多计算资源。这一方法论表明，在当前 LLM 能力水平下，工程优化的投入产出比可能远高于模型本身的升级。",
+        "en": "LangChain's team has shared the complete methodology behind their coding agent's jump from Top 30 to Top 5 on the Terminal Bench 2.0 benchmark — crucially, they didn't change the underlying model but systematically optimized the 'harness' wrapping it (system prompts, tool definitions, and middleware). Through large-scale analysis of agent failure modes, they iteratively improved three core areas: adding self-verification loops for agents to check their output before submission; providing richer context about the environment and evaluation criteria; and using a 'reasoning sandwich' strategy to allocate more compute to planning and verification phases. This methodology demonstrates that at current LLM capability levels, engineering optimization may offer far better ROI than model upgrades alone."
+      },
+      "source": "TLDR AI",
+      "sourceUrl": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "openai-prompt-caching-201",
+      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "title": {
+        "zh": "OpenAI 发布 Prompt Caching 201：延迟降低 80%，成本降低 90%",
+        "en": "OpenAI Releases Prompt Caching 201: 80% Latency Reduction, 90% Cost Savings"
+      },
+      "summary": {
+        "zh": "OpenAI 发布了 Prompt Caching 201 详细指南，系统性地介绍了如何通过缓存重复的 prompt 前缀来大幅降低 API 调用的延迟和成本。该技术通过复用已计算的 key/value tensor 来避免重复计算，最高可将延迟降低 80%、输入 token 成本降低 90%。指南提供了提升缓存命中率的实战策略：确保 prompt 超过 1024 tokens、保持 prompt 开头部分稳定不变、使用 prompt_cache_key 参数改善路由。对于大量使用 system prompt 和 few-shot examples 的生产应用，这一优化可以显著降低运营成本。",
+        "en": "OpenAI has released Prompt Caching 201, a comprehensive guide on dramatically reducing API call latency and cost by caching repeated prompt prefixes. The technique reuses pre-computed key/value tensors to avoid redundant computation, achieving up to 80% latency reduction and 90% input token cost savings. The guide provides tactical strategies for improving cache hit rates: ensuring prompts exceed 1024 tokens, keeping the initial portion of prompts stable, and using the prompt_cache_key parameter for better routing. For production applications that heavily use system prompts and few-shot examples, this optimization can significantly reduce operational costs."
+      },
+      "source": "TLDR AI",
+      "sourceUrl": "https://developers.openai.com/cookbook/examples/prompt_caching_201",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "ai-ghidra-backdoor-detection",
+      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "title": {
+        "zh": "BinaryAudit：用 AI + Ghidra 在 40MB 二进制文件中检测隐藏后门",
+        "en": "BinaryAudit: Using AI + Ghidra to Detect Hidden Backdoors in 40MB Binaries"
+      },
+      "summary": {
+        "zh": "安全公司 Quesma 发布了 BinaryAudit 工具，结合 AI 和 NSA 开源的逆向工程工具 Ghidra，实现了对大型二进制文件中隐藏后门的自动化检测。研究团队在约 40MB 的编译二进制文件中植入了多种类型的后门（包括时间触发、网络触发和条件逻辑后门），然后使用 AI 驱动的分析流水线进行检测。结果显示，AI + Ghidra 组合在检测已知后门模式上达到了 91% 的召回率，在未知变体上也达到了 67%。这一工具对于软件供应链安全审计具有重要价值，尤其是在开源依赖日益复杂的今天。",
+        "en": "Security firm Quesma has released BinaryAudit, combining AI with the NSA's open-source reverse engineering tool Ghidra to automate detection of hidden backdoors in large binary files. The research team embedded various types of backdoors (time-triggered, network-triggered, and conditional logic) in ~40MB compiled binaries, then used an AI-driven analysis pipeline for detection. Results show the AI + Ghidra combination achieved 91% recall on known backdoor patterns and 67% on unknown variants. This tool holds significant value for software supply chain security auditing, especially as open-source dependencies grow increasingly complex."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://quesma.com/blog/introducing-binaryaudit/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "world-labs-1b-funding",
+      "category": { "zh": "行业与政策", "en": "Industry & Policy", "color": "#8b5cf6" },
+      "title": {
+        "zh": "World Labs 完成 10 亿美元融资，推进空间智能和 3D 世界模型",
+        "en": "World Labs Raises $1 Billion to Advance Spatial Intelligence and 3D World Models"
+      },
+      "summary": {
+        "zh": "由斯坦福大学教授李飞飞联合创立的 World Labs 宣布完成 10 亿美元新一轮融资，投资方包括 AMD、Autodesk、NVIDIA、Fidelity 等科技和金融巨头。World Labs 专注于「空间智能」——构建能够理解和生成 3D 世界的 AI 模型。其首款产品 Marble 允许用户从图片、视频或文本创建空间连贯、高保真且持久的 3D 世界。这笔融资使 World Labs 的估值超过 80 亿美元，成为 AI 领域估值最高的初创公司之一。李飞飞表示，空间智能是通往通用人工智能的关键路径之一，因为真正的智能必须能够理解和操作三维物理世界。",
+        "en": "World Labs, co-founded by Stanford professor Fei-Fei Li, has announced a $1 billion funding round from investors including AMD, Autodesk, NVIDIA, and Fidelity. World Labs focuses on 'spatial intelligence' — building AI models that understand and generate 3D worlds. Their first product, Marble, enables anyone to create spatially coherent, high-fidelity, and persistent 3D worlds from images, video, or text. The funding values World Labs at over $8 billion, making it one of the highest-valued AI startups. Fei-Fei Li stated that spatial intelligence is a critical path toward AGI, as true intelligence must be able to understand and manipulate the three-dimensional physical world."
+      },
+      "source": "TLDR AI",
+      "sourceUrl": "https://www.worldlabs.ai/blog/funding-2026",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "big-ai-lobbying-spending",
+      "category": { "zh": "行业与政策", "en": "Industry & Policy", "color": "#8b5cf6" },
+      "title": {
+        "zh": "科技巨头 2025 年 AI 游说支出超 1 亿美元，影响芯片出口和数据中心政策",
+        "en": "Big Tech Spent Over $100M on AI Lobbying in 2025, Shaping Chip Export and Data Center Policies"
+      },
+      "summary": {
+        "zh": "据 The Batch 报道，Meta、Amazon、Alphabet、Microsoft 等科技巨头在 2025 年的政治游说支出总计超过 1 亿美元，重点聚焦 AI 相关政策。这些游说活动已产生实质性政策影响：推动了对 AI 数据中心建设的政府支持，并促成了此前对华先进 AI 芯片出口禁令的部分放松。报告指出，AI 行业的游说支出在过去两年增长了 340%，远超其他科技领域。批评者担忧这种大规模游说正在削弱 AI 安全监管的力度，而支持者则认为这有助于确保美国在全球 AI 竞争中保持领先地位。",
+        "en": "According to The Batch, major tech companies including Meta, Amazon, Alphabet, and Microsoft spent over $100 million on political lobbying in 2025, with a heavy focus on AI-related policies. These lobbying efforts have produced tangible policy outcomes: driving government support for AI data center construction and contributing to the partial relaxation of the ban on selling advanced AI chips to China. The report notes that AI industry lobbying spending grew 340% over the past two years, far outpacing other tech sectors. Critics worry this massive lobbying is weakening AI safety regulation, while supporters argue it helps ensure US leadership in global AI competition."
+      },
+      "source": "The Batch",
+      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "clawwork-ai-coworker",
+      "category": { "zh": "社区精选", "en": "Community Picks", "color": "#f59e0b" },
+      "title": {
+        "zh": "ClawWork：AI 代理必须自己赚钱养活自己，否则就「死亡」",
+        "en": "ClawWork: An AI Agent Must Earn Its Own Salary or Die"
+      },
+      "summary": {
+        "zh": "香港大学数据智能实验室（HKUDS）发布了 ClawWork，一个开源的 AI「数字同事」系统，其核心设计理念是：AI 代理必须通过完成真实的专业工作来证明自己的经济价值——它从一笔小额预算起步，接受真实的工作任务（如数据分析、代码审查、文档撰写），用赚取的收入支付自己的 token 使用费用。如果代理无法持续盈利，系统会自动终止其运行。这一「自负盈亏」的设计引发了 AI 社区的广泛讨论：支持者认为这是评估 AI 实际价值的最佳方式，批评者则质疑这种纯经济导向的评估是否会导致 AI 代理采取短视行为。项目已在 GitHub 开源。",
+        "en": "The Data Intelligence Lab at HKU (HKUDS) has released ClawWork, an open-source AI 'digital coworker' system with a radical design philosophy: the AI agent must prove its economic viability by completing real professional work — it starts with a small budget, takes on actual tasks (data analysis, code review, document writing), and pays for its own token usage with earned income. If the agent cannot sustain profitability, the system automatically terminates it. This 'self-sustaining' design has sparked widespread debate in the AI community: supporters see it as the best way to evaluate AI's real-world value, while critics question whether purely economic evaluation might incentivize short-sighted agent behavior. The project is open-sourced on GitHub."
+      },
+      "source": "AlphaSignal",
+      "sourceUrl": "https://github.com/HKUDS/ClawWork",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "liquid-ai-edge-reasoning",
+      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "title": {
+        "zh": "Liquid AI 发布 LFM2.5：12 亿参数边缘推理模型，速度是同类 2 倍",
+        "en": "Liquid AI Releases LFM2.5: 1.2B Edge Reasoning Model, 2x Faster Than Peers"
+      },
+      "summary": {
+        "zh": "Liquid AI 发布了 LFM2.5-1.2B-Thinking，一个专为边缘设备设计的 12 亿参数推理模型。该模型采用 Transformer-CNN 混合架构，在保持推理能力的同时实现了 2 倍于同类模型的推理速度和更低的内存占用。LFM2.5 特别适合需要在设备端执行工具调用、数据提取和本地数据库交互的 AI 代理场景。在 MMLU、GSM8K 等基准测试中，LFM2.5 在 1-3B 参数量级的模型中排名第一。Liquid AI 表示，该模型已针对高通骁龙 8 Gen 4 和 Apple M4 芯片进行了专门优化，可在手机和笔记本上实现流畅的推理体验。",
+        "en": "Liquid AI has released LFM2.5-1.2B-Thinking, a 1.17-billion-parameter reasoning model designed for edge devices. Using a hybrid Transformer-CNN architecture, it achieves 2x the inference speed of comparable models while using less memory. LFM2.5 is particularly well-suited for on-device AI agent scenarios requiring tool calls, data extraction, and local database interaction. On benchmarks including MMLU and GSM8K, LFM2.5 ranks first among models in the 1-3B parameter range. Liquid AI states the model has been specifically optimized for Qualcomm Snapdragon 8 Gen 4 and Apple M4 chips, enabling smooth reasoning on phones and laptops."
+      },
+      "source": "The Batch",
+      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "date": "2026-02-22"
+    }
+  ]
+}
