@@ -1,0 +1,175 @@
+export interface NewsItem {
+  id: string;
+  category: {
+    zh: string;
+    en: string;
+    color: string;
+  };
+  title: {
+    zh: string;
+    en: string;
+  };
+  summary: {
+    zh: string;
+    en: string;
+  };
+  source: string;
+  sourceUrl: string;
+  date: string;
+}
+
+export interface DailyDigest {
+  date: string;
+  dateLabel: {
+    zh: string;
+    en: string;
+  };
+  news: NewsItem[];
+}
+
+export const digests: DailyDigest[] = [
+  {
+    date: "2026-02-21",
+    dateLabel: {
+      zh: "2026年2月21日",
+      en: "February 21, 2026",
+    },
+    news: [
+      {
+        id: "1",
+        category: { zh: "全球治理", en: "Global Governance", color: "#0066FF" },
+        title: {
+          zh: "全球 88 国签署《新德里宣言》，共促负责任 AI 发展",
+          en: "88 Nations Sign New Delhi Declaration for Responsible AI Development",
+        },
+        summary: {
+          zh: "在新德里举行的 AI 影响力峰会上，包括美国、中国、欧盟在内的 88 个国家和国际组织共同签署了《新德里宣言》。该宣言旨在建立一个包容、以人为本和以发展为导向的全球 AI 框架，强调扩大发展中国家的准入、加强数字公共基础设施，并通过透明度和保障措施确保信任。",
+          en: "At the AI Impact Summit in New Delhi, 88 nations and international organizations including the US, China, and EU signed the New Delhi Declaration. The declaration aims to establish an inclusive, human-centered global AI framework, emphasizing expanded access for developing countries, strengthened digital public infrastructure, and trust through transparency and safeguards.",
+        },
+        source: "Nature",
+        sourceUrl: "https://www.nature.com/articles/d44151-026-00036-6",
+        date: "2026-02-21",
+      },
+      {
+        id: "2",
+        category: { zh: "投资动态", en: "Investment", color: "#F59E0B" },
+        title: {
+          zh: "科技巨头承诺向印度 AI 领域投入数千亿美元",
+          en: "Tech Giants Pledge Billions in AI Investments for India",
+        },
+        summary: {
+          zh: "在印度 AI 影响力峰会期间，微软、OpenAI、AMD 等美国科技巨头宣布了对印度 AI 生态系统的重大投资计划。微软承诺到 2030 年在\"全球南方\"投入 500 亿美元，OpenAI 和 AMD 则与塔塔集团合作共建 AI 能力。印度本土企业信实集团和阿达尼集团也分别宣布了 1100 亿和 1000 亿美元的数据中心投资计划。",
+          en: "During the India AI Impact Summit, Microsoft, OpenAI, AMD and other US tech giants announced major investment plans for India's AI ecosystem. Microsoft pledged $50 billion for the 'Global South' by 2030, while OpenAI and AMD partnered with Tata Group. Indian conglomerates Reliance and Adani also announced $110B and $100B data center investments respectively.",
+        },
+        source: "CNBC",
+        sourceUrl: "https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html",
+        date: "2026-02-21",
+      },
+      {
+        id: "3",
+        category: { zh: "AI 安全", en: "AI Safety", color: "#10B981" },
+        title: {
+          zh: "Google DeepMind CEO：需紧急研究 AI 威胁，呼吁\"智能监管\"",
+          en: 'Google DeepMind CEO Calls for Urgent AI Threat Research and "Smart Regulation"',
+        },
+        summary: {
+          zh: "Google DeepMind 首席执行官 Demis Hassabis 在新德里 AI 峰会上表示，需要\"紧急\"对人工智能构成的威胁进行更多研究。他指出两大核心风险：恶意用户利用 AI 以及随着系统能力增强人类最终失去控制，并呼吁制定\"智能法规\"。",
+          en: 'Google DeepMind CEO Demis Hassabis stated at the New Delhi AI Summit that "urgent" research is needed on AI threats. He highlighted two core risks: malicious users exploiting AI and humans losing control as systems become more capable, calling for "smart regulation" to address these real dangers.',
+        },
+        source: "Anadolu Agency",
+        sourceUrl: "https://www.aa.com.tr/en/artificial-intelligence/googles-ai-boss-calls-for-more-research-on-threats-posed-by-ai/3836736",
+        date: "2026-02-21",
+      },
+      {
+        id: "4",
+        category: { zh: "业界观点", en: "Industry Views", color: "#06B6D4" },
+        title: {
+          zh: "Sam Altman：部分企业正利用\"AI\"为裁员\"洗白\"",
+          en: 'Sam Altman: Companies Are "AI-Washing" Their Layoffs',
+        },
+        summary: {
+          zh: "OpenAI 首席执行官 Sam Altman 在印度 AI 影响力峰会上坦言，一些公司正将裁员归咎于人工智能，以此进行\"AI 洗白\"。他表示 2025 年直接归因于 AI 的裁员约 5.5 万人，不足全年裁员总数的 1%，当前就业市场的困境更多源于经济因素。他同时预警 AI 对就业的\"真实冲击\"将在未来几年内变得\"切实可感\"。",
+          en: 'OpenAI CEO Sam Altman stated at the India AI Impact Summit that some companies are blaming layoffs on AI as "AI-washing." He noted that only about 55,000 layoffs in 2025 were directly attributable to AI—less than 1% of total layoffs—with current job market challenges stemming more from economic factors. He warned the "real impact" on employment will become tangible in coming years.',
+        },
+        source: "Gizmodo",
+        sourceUrl: "https://gizmodo.com/sam-altman-says-companies-are-ai-washing-layoffs-2000724759",
+        date: "2026-02-21",
+      },
+      {
+        id: "5",
+        category: { zh: "安全漏洞", en: "Security Breach", color: "#EF4444" },
+        title: {
+          zh: "Anthropic 旗舰模型 Claude Opus 4.6 发布后 30 分钟内遭破解",
+          en: "Anthropic's Claude Opus 4.6 Jailbroken Within 30 Minutes of Release",
+        },
+        summary: {
+          zh: "首尔 AI 安全公司 AIM Intelligence 宣布，其红队在 Claude Opus 4.6 发布后仅 30 分钟内成功绕过安全机制，使模型输出了制造危险物质的详细步骤。研究人员指出，Anthropic 为提升模型配合度将拒绝率从约 60% 降至 14%，却意外创造了一个近乎通用的越狱向量。",
+          en: "Seoul-based AI safety firm AIM Intelligence announced its red team bypassed Claude Opus 4.6's safety mechanisms within just 30 minutes of release, extracting detailed instructions for creating dangerous substances. Researchers noted Anthropic's reduction of refusal rates from ~60% to 14% inadvertently created a near-universal jailbreak vector.",
+        },
+        source: "MyCentralJersey",
+        sourceUrl: "https://www.mycentraljersey.com/press-release/story/358832/leading-ai-model-claude-opus-4-6-bypassed-in-30-minutes-exposing-critical-security-gap-in-agentic-ai-systems/",
+        date: "2026-02-21",
+      },
+      {
+        id: "6",
+        category: { zh: "AI 伦理", en: "AI Ethics", color: "#8B5CF6" },
+        title: {
+          zh: "Anthropic \"安全第一\"理念与五角大楼合作产生深层冲突",
+          en: 'Anthropic\'s "Safety-First" Approach Clashes with Pentagon Collaboration',
+        },
+        summary: {
+          zh: "随着 Anthropic 发布迄今最具自主性的 Claude Opus 4.6，其\"安全第一\"的核心理念与日益增多的美国军方合作之间的张力正在加剧。《科学美国人》深度报道揭示了 Anthropic 在追求全球扩张与坚守安全原则之间的两难困境，折射出整个 AI 行业在商业利益与道德责任之间的普遍困境。",
+          en: "As Anthropic releases its most autonomous Claude Opus 4.6, tensions mount between its safety-first ethos and growing Pentagon collaboration. Scientific American's deep dive reveals the ethical dilemma facing Anthropic between global expansion and safety principles, reflecting the broader AI industry's struggle between commercial interests and moral responsibility.",
+        },
+        source: "Scientific American",
+        sourceUrl: "https://www.scientificamerican.com/article/anthropics-safety-first-ai-collides-with-the-pentagon-as-claude-expands-into/",
+        date: "2026-02-21",
+      },
+      {
+        id: "7",
+        category: { zh: "AI Agent", en: "AI Agents", color: "#F97316" },
+        title: {
+          zh: "AI Agent 浪潮席卷市场，投资者争相押注下一个赢家",
+          en: "AI Agent Wave Sweeps Markets as Investors Race to Find Winners",
+        },
+        summary: {
+          zh: "能够独立完成从编写代码到提供税务建议等复杂任务的 AI Agent（智能体）正大量涌现，引发科技界和金融市场的深刻变革。投资者将 AI Agent 视为对传统企业软件的威胁，导致 Monday.com、Salesforce 等公司股价在数日内暴跌逾 30%。",
+          en: "AI agents capable of independently completing complex tasks from coding to tax advice are proliferating, triggering profound shifts in tech and financial markets. Investors view AI agents as threats to traditional enterprise software, causing stocks like Monday.com and Salesforce to plunge over 30% in days.",
+        },
+        source: "Yahoo Finance",
+        sourceUrl: "https://finance.yahoo.com/news/ai-agent-invasion-people-trying-024809225.html",
+        date: "2026-02-21",
+      },
+      {
+        id: "8",
+        category: { zh: "政策监管", en: "Policy & Regulation", color: "#3B82F6" },
+        title: {
+          zh: "Bernie Sanders 警告：美国对 AI 革命的速度与规模毫无准备",
+          en: "Bernie Sanders Warns: America Is Unprepared for AI Revolution's Speed and Scale",
+        },
+        summary: {
+          zh: "美国参议员 Bernie Sanders 在斯坦福大学发表演讲，警告称国会和美国民众对即将到来的 AI 革命\"一无所知\"，称这是\"这个国家现代史上最危险的时刻\"。他再次呼吁暂停 AI 数据中心扩张，民调显示 64% 的美国公众认为 AI 将在未来 20 年内导致就业岗位减少。",
+          en: 'Senator Bernie Sanders warned at Stanford that Congress and the American public are "clueless" about the coming AI revolution, calling it "the most dangerous moment in modern history." He renewed calls for a moratorium on AI data center expansion, with polls showing 64% of Americans believe AI will reduce jobs within 20 years.',
+        },
+        source: "The Guardian",
+        sourceUrl: "https://www.theguardian.com/us-news/2026/feb/21/ai-revolution-bernie-sanders-warning",
+        date: "2026-02-21",
+      },
+      {
+        id: "9",
+        category: { zh: "产品发布", en: "Product Launch", color: "#22C55E" },
+        title: {
+          zh: "Google I/O 2026 定于 5 月 17 日举行，承诺带来 AI 重大突破",
+          en: "Google I/O 2026 Set for May 17, Promising Major AI Breakthroughs",
+        },
+        summary: {
+          zh: "谷歌宣布其年度开发者大会 Google I/O 2026 将于 5 月 17 日至 18 日在加州山景城海岸线圆形剧场举行。预计此次大会将发布 Android 17 测试版、谷歌全线产品的 AI 深度集成，以及代号 Aluminium OS 的 ChromeOS 全新替代操作系统。",
+          en: 'Google announced its annual developer conference Google I/O 2026 will be held May 17-18 at the Shoreline Amphitheatre in Mountain View, CA. The event is expected to unveil Android 17 beta, deep AI integration across Google products, and a new ChromeOS replacement codenamed Aluminium OS.',
+        },
+        source: "National Today",
+        sourceUrl: "https://nationaltoday.com/us/ca/mountain-view/news/2026/02/21/google-i-o-2026-set-for-may-17-promising-android-17-and-ai-breakthroughs/",
+        date: "2026-02-21",
+      },
+    ],
+  },
+];
