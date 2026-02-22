@@ -6,198 +6,288 @@
   },
   "news": [
     {
-      "id": "glm5-744b-moe",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "id": "sonnet-upgrade-comms-fail",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
       "title": {
-        "zh": "智谱发布 GLM-5：744B 参数 MoE 模型，擅长长时间自主任务",
-        "en": "Zhipu AI Releases GLM-5: 744B Parameter MoE Model Excelling at Agentic Tasks"
+        "zh": "Anthropic 升级 Sonnet 模型，但开发者沟通引发不满",
+        "en": "Anthropic Upgrades Sonnet Amidst Developer Communication Backlash"
       },
       "summary": {
-        "zh": "智谱 AI（Z.ai）正式发布了 GLM-5，这是一个拥有 7440 亿参数的混合专家（MoE）模型，在长时间自主代理任务上表现尤为突出。在 Artificial Analysis Intelligence Index 等多项基准测试中，GLM-5 超越了同类开源权重模型。该模型的核心优势在于其持续执行复杂多步骤任务的能力——在内部测试中，GLM-5 能够自主完成长达 2 小时的软件工程任务，包括需求分析、代码编写、测试和部署。模型权重已在 Hugging Face 上发布，同时提供 Web 界面和 API 访问。",
-        "en": "Zhipu AI (Z.ai) has officially released GLM-5, a 744-billion-parameter Mixture-of-Experts (MoE) model that particularly excels at long-running agentic tasks. GLM-5 outperforms comparable open-weights models on several benchmarks, including the Artificial Analysis Intelligence Index. The model's core strength lies in its ability to sustain complex multi-step tasks — in internal testing, GLM-5 autonomously completed software engineering tasks lasting up to 2 hours, including requirements analysis, coding, testing, and deployment. Model weights are available on Hugging Face, with both web interface and API access provided."
-      },
-      "source": "The Batch",
-      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
-      "date": "2026-02-22"
-    },
-    {
-      "id": "taalas-llm-chip",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
-      "title": {
-        "zh": "Taalas 将 LLM「印刷」到芯片上：实现 17,000 tokens/秒推理速度",
-        "en": "Taalas 'Prints' LLMs onto Chips: Achieving 17,000 Tokens/sec Inference"
-      },
-      "summary": {
-        "zh": "芬兰初创公司 Taalas 开发了一种革命性的方法，将大语言模型直接「编译」到专用芯片上，实现了 17,000 tokens/秒的推理速度，远超现有 GPU 方案。其核心技术是将模型权重和计算图在编译阶段直接映射为芯片的物理电路布局，消除了传统推理中的内存带宽瓶颈。这种方法使得单个芯片即可运行完整的 LLM 推理，功耗仅为 GPU 方案的 1/10。该技术在 Hacker News 和 Ben's Bites 上引发了广泛讨论，被认为可能开启实时语音代理和端侧视频生成等新应用场景。",
-        "en": "Finnish startup Taalas has developed a revolutionary approach to 'compile' large language models directly onto specialized chips, achieving 17,000 tokens/sec inference speed — far exceeding existing GPU solutions. The core technology maps model weights and computation graphs directly to the chip's physical circuit layout during compilation, eliminating the memory bandwidth bottleneck in traditional inference. This allows a single chip to run complete LLM inference at just 1/10 the power consumption of GPU solutions. The technology sparked widespread discussion on Hacker News and Ben's Bites, with many seeing it as potentially enabling new applications like real-time voice agents and on-device video generation."
+        "zh": "Anthropic 对其 Claude 3.5 Sonnet 模型进行了重大性能升级，重点提升了推理和编程能力。然而，这次发布因开发者沟通方面的严重倒退而蒙上阴影，许多用户反映未宣布的 API 变更破坏了现有的工作流。由于缺乏详细的变更日志或过渡期，开发者社区表达了强烈不满。这一事件凸显了模型快速迭代与企业级 AI 对稳定、可预测基础设施需求之间的矛盾。分析人士指出，随着模型越来越多地集成到生产环境中，沟通的透明度将与原始性能指标同样重要。",
+        "en": "Anthropic has rolled out a significant performance upgrade for its Claude 3.5 Sonnet model, focusing on enhanced reasoning and coding capabilities. However, the release has been overshadowed by a massive downgrade in developer communications, with many users reporting unannounced API changes that broke existing workflows. The lack of detailed changelogs or transition periods has sparked frustration within the developer community. This incident highlights the growing tension between rapid model iteration and the need for stable, predictable infrastructure in enterprise AI. Analysts suggest that as models become more integrated into production, communication transparency will be as critical as raw performance."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://taalas.com/the-path-to-ubiquitous-ai/",
+      "sourceUrl": "https://www.bensbites.com/p/big-upgrade-for-sonnet",
       "date": "2026-02-22"
     },
     {
-      "id": "claude-powerpoint",
-      "category": { "zh": "模型与 API", "en": "Models & APIs", "color": "#6366f1" },
+      "id": "openai-hires-openclaw-creator",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
       "title": {
-        "zh": "Anthropic 将 Claude 集成到 PowerPoint：自然语言驱动演示文稿创建",
-        "en": "Anthropic Integrates Claude into PowerPoint: Natural Language Presentation Creation"
+        "zh": "OpenAI 招募 OpenClaw 创始人，加速个人智能体愿景",
+        "en": "OpenAI Recruits OpenClaw Creator to Accelerate Personal Agent Vision"
       },
       "summary": {
-        "zh": "Anthropic 正式推出 Claude in PowerPoint 集成，用户现在可以在 PowerPoint 中通过自然语言指令创建、编辑和优化演示文稿。该集成支持从零开始生成完整的幻灯片，也可以对现有演示文稿进行内容重写、格式调整和设计优化。Claude 能够理解上下文语境，自动匹配企业品牌模板和设计规范。在 Anthropic 的内部测试中，使用 Claude 创建一份 20 页的商业提案平均耗时从 3 小时缩短至 20 分钟。该功能目前面向 Claude for Work 企业版用户开放。",
-        "en": "Anthropic has officially launched Claude in PowerPoint integration, enabling users to create, edit, and refine presentations using natural language commands directly within PowerPoint. The integration supports generating complete slide decks from scratch, as well as rewriting content, adjusting formatting, and optimizing design for existing presentations. Claude understands contextual nuances and automatically matches corporate brand templates and design standards. In Anthropic's internal testing, creating a 20-page business proposal was reduced from an average of 3 hours to 20 minutes. The feature is currently available to Claude for Work enterprise users."
+        "zh": "OpenAI 已招募 OpenClaw（一个流行的开源自主智能体框架）的创始人，这标志着其正大力进军个人智能体领域。此举符合 OpenAI 向开发「操作员」式智能体转型的战略，这类智能体能够跨应用执行复杂任务。通过引入智能体社区的顶尖人才，OpenAI 旨在弥合静态大模型与主动式数字助理之间的差距。此次人才招募而非项目收购表明，OpenAI 正致力于内化智能体与环境交互的架构专业知识。预计这一人事变动将影响 OpenAI 即将发布的下一代个人助理功能。",
+        "en": "OpenAI has hired the creator of OpenClaw, a popular open-source framework for building autonomous agents, signaling a major push into the personal agent space. This move follows OpenAI's strategic shift toward developing 'Operator' style agents that can perform complex tasks across various applications. By bringing in top talent from the agentic community, OpenAI aims to bridge the gap between static LLMs and proactive digital assistants. The acquisition of talent rather than the project itself suggests OpenAI is focused on internalizing the architectural expertise of agent-environment interaction. This hire is expected to influence the upcoming release of OpenAI's next-generation personal assistant features."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint",
+      "sourceUrl": "https://www.bensbites.com/p/dreaming-up-personal-agents",
       "date": "2026-02-22"
     },
     {
-      "id": "seedance-20-video",
-      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "id": "claude-code-workflow-planning",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
-        "zh": "字节跳动发布 Seedance 2.0：突破 AI 视频的多镜头叙事一致性",
-        "en": "ByteDance Releases Seedance 2.0: Breakthrough in Multi-Shot Narrative Consistency"
+        "zh": "优化 Claude Code：规划与执行分离的力量",
+        "en": "Optimizing Claude Code: The Power of Separating Planning from Execution"
       },
       "summary": {
-        "zh": "字节跳动发布了下一代 AI 视频引擎 Seedance 2.0，通过革命性的 12 文件多模态参考系统，首次实现了跨镜头的叙事一致性和原生音视频同步。此前 AI 视频生成的最大痛点是多镜头之间角色外观、场景光照和叙事逻辑的不一致——Seedance 2.0 通过引入角色身份锚定、场景状态追踪和时间线约束三个核心模块解决了这一问题。在 VBench 2.0 基准测试中，Seedance 2.0 在叙事一致性指标上较 Sora 2 提升了 42%，在音视频同步精度上达到了 96.3% 的帧级对齐率。该技术标志着 AI 视频从「单镜头生成」向「可控叙事创作」的重要跨越。",
-        "en": "ByteDance has released Seedance 2.0, a next-generation AI video engine that achieves multi-shot narrative consistency and native audio-visual synchronization through a revolutionary 12-file multimodal reference system. The biggest pain point in AI video generation — inconsistency in character appearance, scene lighting, and narrative logic across shots — is addressed through three core modules: character identity anchoring, scene state tracking, and timeline constraints. On VBench 2.0 benchmarks, Seedance 2.0 improves narrative consistency by 42% over Sora 2 and achieves 96.3% frame-level alignment in audio-visual synchronization. This technology marks a significant leap from 'single-shot generation' to 'controllable narrative creation' in AI video."
+        "zh": "针对 Claude Code 工作流的一项深入研究表明，将规划阶段与执行阶段分离可显著提高代码质量并减少 Token 浪费。通过强制 AI 在编写代码前生成详细的实现计划，开发者可以及早发现架构错误。该方法涉及利用 Claude 对其自身计划进行评判，从而构建更健壮、更易维护的软件。这种方法在 Hacker News 上引起了广泛关注，开发者们纷纷分享促进这一两步流程的提示词。这种使用模式的转变表明，下一代 AI 编程工具将需要支持显式的多阶段推理工作流。",
+        "en": "A new deep dive into Claude Code workflows reveals that separating the planning phase from the execution phase significantly improves code quality and reduces token waste. By forcing the AI to generate a detailed implementation plan before writing any code, developers can catch architectural errors early. This methodology involves using Claude to critique its own plans, leading to more robust and maintainable software. The approach has gained significant traction on Hacker News, with developers sharing prompts that facilitate this two-step process. This shift in usage patterns suggests that the next generation of AI coding tools will need to support explicit multi-stage reasoning workflows."
       },
-      "source": "Ben's Bites",
-      "sourceUrl": "https://news.bensbites.com/posts/57575-seedance-20-multi-modal-ai-video-generator-by-bytedance",
+      "source": "Hacker News",
+      "sourceUrl": "https://boristane.com/blog/how-i-use-claude-code/",
       "date": "2026-02-22"
     },
     {
-      "id": "sleepfm-disease-prediction",
-      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "id": "karpathy-claws-agent-layer",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
-        "zh": "SleepFM：通过睡眠信号提前 6 年预测阿尔茨海默等疾病",
-        "en": "SleepFM: Predicting Alzheimer's and Other Diseases 6 Years Before Symptoms"
+        "zh": "Andrej Karpathy 将「Claws」定义为智能体的新抽象层",
+        "en": "Andrej Karpathy Defines 'Claws' as the New Abstraction Layer for Agents"
       },
       "summary": {
-        "zh": "研究人员开发了 SleepFM 系统，能够通过分析睡眠监测数据，在症状出现前最多 6 年预测包括阿尔茨海默症、帕金森症和心力衰竭在内的多种严重疾病。该模型采用 CNN + Transformer + LSTM 的混合架构，从睡眠研究中的生命体征数据中提取深层特征。在包含 12,000 名患者的回顾性研究中，SleepFM 对阿尔茨海默症的早期预测 AUC 达到 0.89，对帕金森症达到 0.85。这项技术有望将疾病筛查从传统的侵入性检查转变为基于可穿戴设备的被动监测，为预防性医疗开辟新路径。",
-        "en": "Researchers have developed SleepFM, a system that can predict a wide range of serious illnesses — including Alzheimer's, Parkinson's, and heart failure — up to six years before symptoms appear by analyzing sleep monitoring data. The model uses a hybrid CNN + Transformer + LSTM architecture to extract deep features from vital signs collected during sleep studies. In a retrospective study of 12,000 patients, SleepFM achieved an AUC of 0.89 for early Alzheimer's prediction and 0.85 for Parkinson's. This technology could transform disease screening from traditional invasive testing to passive monitoring via wearable devices, opening new pathways for preventive healthcare."
+        "zh": "Andrej Karpathy 提出了「Claws」概念，将其视为位于大模型智能体之上的关键新抽象层。这些 Claws 作为专门的接口，允许智能体更有效地与外部工具和操作系统交互。与传统 API 不同，Claws 旨在处理大模型输出的非确定性，提供一种结构化的方式来管理状态和反馈循环。Karpathy 认为，这一层对于从简单的聊天机器人转向真正的自主系统至关重要。Hacker News 上的讨论表明，这可能成为下一波智能体软件开发的标准设计模式。",
+        "en": "Andrej Karpathy has introduced the concept of 'Claws' as a critical new abstraction layer sitting on top of LLM agents. These Claws act as specialized interfaces that allow agents to interact more effectively with external tools and operating systems. Unlike traditional APIs, Claws are designed to handle the non-deterministic nature of LLM outputs, providing a structured way to manage state and feedback loops. Karpathy argues that this layer is essential for moving beyond simple chatbots to truly autonomous systems. The discussion on Hacker News suggests that this could become a standard design pattern for the next wave of agentic software development."
       },
-      "source": "The Batch",
-      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/karpathy/status/2024987174077432126",
       "date": "2026-02-22"
     },
     {
-      "id": "llama-70b-single-3090",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "id": "taalas-llm-chip-printing",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
-        "zh": "突破：Llama 3.1 70B 在单张 RTX 3090 上运行，NVMe 直通 GPU 绕过 CPU",
-        "en": "Breakthrough: Llama 3.1 70B Running on a Single RTX 3090 via NVMe-to-GPU Bypass"
+        "zh": "Taalas 开创将大模型直接「印刷」到硅片上的技术以提升效率",
+        "en": "Taalas Pioneers 'Printing' LLMs Directly onto Silicon for Massive Efficiency"
       },
       "summary": {
-        "zh": "开发者 xaskasdf 在 GitHub 上开源了 ntransformer 项目，实现了在单张消费级 RTX 3090（24GB 显存）上运行 700 亿参数的 Llama 3.1 模型。核心技术是将模型权重从 NVMe SSD 直接流式传输到 GPU，完全绕过 CPU 和系统内存，利用 PCIe 5.0 的 32GB/s 带宽实现了约 8 tokens/秒的生成速度。虽然速度不及多卡方案，但这一方法将运行 70B 模型的硬件门槛从数万美元的多 GPU 服务器降低到约 2,000 美元的单卡工作站。该项目在 Hacker News 上引发热议，被认为是大模型民主化的重要一步。",
-        "en": "Developer xaskasdf has open-sourced the ntransformer project on GitHub, enabling a 70-billion-parameter Llama 3.1 model to run on a single consumer-grade RTX 3090 (24GB VRAM). The core technique streams model weights directly from NVMe SSD to GPU, completely bypassing CPU and system RAM, achieving approximately 8 tokens/sec using PCIe 5.0's 32GB/s bandwidth. While slower than multi-GPU setups, this approach reduces the hardware barrier for running 70B models from tens of thousands of dollars in multi-GPU servers to roughly $2,000 for a single-card workstation. The project sparked intense discussion on Hacker News, seen as an important step in democratizing large model access."
+        "zh": "Taalas 正在开发一种革命性的硬件方法，涉及将大模型的权重直接「印刷」到芯片的物理电路中。通过对神经网络进行硬连线，Taalas 消除了在内存和处理器之间移动数据所产生的巨大能量开销。与传统 GPU 相比，这种架构有望在每瓦性能上实现数量级的提升。虽然这使得模型在制造后无法更改，但对于特定的海量任务，其效率提升可能是颠覆性的。这一举措代表了向硬件原生 AI 的转变，在专业应用中，软件与硅片之间的界限开始变得模糊。",
+        "en": "Taalas is developing a revolutionary hardware approach that involves 'printing' LLM weights directly into the physical circuitry of a chip. By hard-wiring the neural network, Taalas eliminates the massive energy overhead associated with moving data between memory and processors. This architecture promises orders of magnitude improvements in performance-per-watt compared to traditional GPUs. While this makes the models immutable once manufactured, the efficiency gains for specific, high-volume tasks could be transformative. This move represents a shift toward hardware-native AI, where the distinction between software and silicon begins to blur for specialized applications."
       },
-      "source": "Ben's Bites",
-      "sourceUrl": "https://github.com/xaskasdf/ntransformer",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anuragk.com/blog/posts/Taalas.html",
       "date": "2026-02-22"
     },
     {
-      "id": "langchain-harness-engineering",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "id": "cord-agent-coordination-trees",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
-        "zh": "LangChain 编码代理从 Top 30 跃升至 Top 5：Harness 工程方法论详解",
-        "en": "LangChain's Coding Agent Jumps from Top 30 to Top 5: Harness Engineering Deep Dive"
+        "zh": "Cord 框架为 AI 智能体引入层级树状协作机制",
+        "en": "Cord Framework Introduces Hierarchical Tree Coordination for AI Agents"
       },
       "summary": {
-        "zh": "LangChain 团队分享了其编码代理在 Terminal Bench 2.0 基准测试中从 Top 30 跃升至 Top 5 的完整方法论——关键在于他们没有更换底层模型，而是系统性地优化了包裹模型的「Harness」（系统提示词、工具定义和中间件）。团队通过大规模分析代理失败模式，迭代改进了三个核心方面：添加自我验证循环让代理在提交前检查自己的输出；提供更丰富的环境和评估标准上下文；采用「推理三明治」策略，在规划和验证阶段分配更多计算资源。这一方法论表明，在当前 LLM 能力水平下，工程优化的投入产出比可能远高于模型本身的升级。",
-        "en": "LangChain's team has shared the complete methodology behind their coding agent's jump from Top 30 to Top 5 on the Terminal Bench 2.0 benchmark — crucially, they didn't change the underlying model but systematically optimized the 'harness' wrapping it (system prompts, tool definitions, and middleware). Through large-scale analysis of agent failure modes, they iteratively improved three core areas: adding self-verification loops for agents to check their output before submission; providing richer context about the environment and evaluation criteria; and using a 'reasoning sandwich' strategy to allocate more compute to planning and verification phases. This methodology demonstrates that at current LLM capability levels, engineering optimization may offer far better ROI than model upgrades alone."
+        "zh": "Cord 是一个旨在协调复杂 AI 智能体树的新框架，允许进行复杂的任务分解和并行执行。与扁平的智能体架构不同，Cord 采用层级结构，由「父」智能体管理「子」智能体，从而确保更好的监督和错误处理。这种方法对于可以分解为独立子问题的规模化工程项目特别有效。该框架包含了智能体之间状态同步和冲突解决的内置机制。早期采用者报告称，Cord 显著减少了在长时间运行的自主智能体会话中常见的「幻觉漂移」现象。",
+        "en": "Cord is a new framework designed to coordinate complex trees of AI agents, allowing for sophisticated task decomposition and parallel execution. Unlike flat agent architectures, Cord uses a hierarchical structure where 'parent' agents manage 'child' agents, ensuring better oversight and error handling. This approach is particularly effective for large-scale engineering projects where tasks can be broken down into independent sub-problems. The framework includes built-in mechanisms for state synchronization and conflict resolution between agents. Early adopters report that Cord significantly reduces the 'hallucination drift' often seen in long-running autonomous agent sessions."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.june.kim/cord",
       "date": "2026-02-22"
     },
     {
-      "id": "openai-prompt-caching-201",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "id": "phil-spencer-xbox-ai-shift",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
       "title": {
-        "zh": "OpenAI 发布 Prompt Caching 201：延迟降低 80%，成本降低 90%",
-        "en": "OpenAI Releases Prompt Caching 201: 80% Latency Reduction, 90% Cost Savings"
+        "zh": "Phil Spencer 离开微软，AI 高管接管 Xbox 业务",
+        "en": "Phil Spencer Exits Microsoft as AI Executive Takes Control of Xbox"
       },
       "summary": {
-        "zh": "OpenAI 发布了 Prompt Caching 201 详细指南，系统性地介绍了如何通过缓存重复的 prompt 前缀来大幅降低 API 调用的延迟和成本。该技术通过复用已计算的 key/value tensor 来避免重复计算，最高可将延迟降低 80%、输入 token 成本降低 90%。指南提供了提升缓存命中率的实战策略：确保 prompt 超过 1024 tokens、保持 prompt 开头部分稳定不变、使用 prompt_cache_key 参数改善路由。对于大量使用 system prompt 和 few-shot examples 的生产应用，这一优化可以显著降低运营成本。",
-        "en": "OpenAI has released Prompt Caching 201, a comprehensive guide on dramatically reducing API call latency and cost by caching repeated prompt prefixes. The technique reuses pre-computed key/value tensors to avoid redundant computation, achieving up to 80% latency reduction and 90% input token cost savings. The guide provides tactical strategies for improving cache hit rates: ensuring prompts exceed 1024 tokens, keeping the initial portion of prompts stable, and using the prompt_cache_key parameter for better routing. For production applications that heavily use system prompts and few-shot examples, this optimization can significantly reduce operational costs."
+        "zh": "在一项具有里程碑意义的人事变动中，Phil Spencer 将离开微软，一名专注于 AI 的高管将接管 Xbox 部门。这一转变标志着微软游戏战略的根本性调整，即优先将生成式 AI 集成到游戏开发和玩家体验中。新领导层预计将重点关注 AI 驱动的 NPC、程序化内容生成以及基于云的 AI 游戏服务。此举符合微软在所有主要业务部门注入 AI 的更广泛公司指令。行业分析师认为，这标志着一个新时代的开始，AI 将成为游戏行业增长的核心引擎。",
+        "en": "In a landmark leadership change, Phil Spencer is exiting Microsoft, with an AI-focused executive set to take over the Xbox division. This transition signals a fundamental shift in Microsoft's gaming strategy, prioritizing the integration of generative AI into game development and player experiences. The new leadership is expected to focus on AI-driven NPCs, procedural content generation, and cloud-based AI gaming services. This move aligns with Microsoft's broader corporate mandate to infuse AI across all its major business units. Industry analysts view this as the beginning of a new era where AI becomes the core engine of the gaming industry's growth."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://developers.openai.com/cookbook/examples/prompt_caching_201",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.neowin.net/news/phil-spencer-is-exiting-microsoft-as-ai-executive-takes-over-xbox/",
       "date": "2026-02-22"
     },
     {
-      "id": "ai-ghidra-backdoor-detection",
-      "category": { "zh": "工程与工具", "en": "Engineering & Tools", "color": "#10b981" },
+      "id": "nj-residents-defeat-data-center",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
       "title": {
-        "zh": "BinaryAudit：用 AI + Ghidra 在 40MB 二进制文件中检测隐藏后门",
-        "en": "BinaryAudit: Using AI + Ghidra to Detect Hidden Backdoors in 40MB Binaries"
+        "zh": "新泽西州居民成功阻挠大型 AI 数据中心项目",
+        "en": "New Jersey Residents Successfully Block Major AI Data Center Project"
       },
       "summary": {
-        "zh": "安全公司 Quesma 发布了 BinaryAudit 工具，结合 AI 和 NSA 开源的逆向工程工具 Ghidra，实现了对大型二进制文件中隐藏后门的自动化检测。研究团队在约 40MB 的编译二进制文件中植入了多种类型的后门（包括时间触发、网络触发和条件逻辑后门），然后使用 AI 驱动的分析流水线进行检测。结果显示，AI + Ghidra 组合在检测已知后门模式上达到了 91% 的召回率，在未知变体上也达到了 67%。这一工具对于软件供应链安全审计具有重要价值，尤其是在开源依赖日益复杂的今天。",
-        "en": "Security firm Quesma has released BinaryAudit, combining AI with the NSA's open-source reverse engineering tool Ghidra to automate detection of hidden backdoors in large binary files. The research team embedded various types of backdoors (time-triggered, network-triggered, and conditional logic) in ~40MB compiled binaries, then used an AI-driven analysis pipeline for detection. Results show the AI + Ghidra combination achieved 91% recall on known backdoor patterns and 67% on unknown variants. This tool holds significant value for software supply chain security auditing, especially as open-source dependencies grow increasingly complex."
+        "zh": "新泽西州新不伦瑞克市的居民成功否决了一项建设大型 AI 数据中心的提案，理由是对能源消耗和噪音污染的担忧。这场引起全国关注的当地反对运动凸显了大型科技公司的基础设施需求与当地社区利益之间日益增长的摩擦。抗议者认为，该数据中心将使当地电网承受巨大压力，且对周边地区的经济贡献微乎其微。当地活动人士的这一胜利可能会为美国未来的数据中心开发设定先例。随着 AI 需求的规模化，公司在获取计算扩张所需的物理空间方面可能会面临越来越多的监管和社会障碍。",
+        "en": "Residents in New Brunswick, New Jersey, have successfully defeated a proposal for a massive AI data center, citing concerns over energy consumption and noise pollution. The local opposition movement, which gained national attention, highlights the growing friction between Big Tech's infrastructure needs and local community interests. Protesters argued that the data center would strain the local power grid and offer little economic benefit to the immediate area. This victory for local activists could set a precedent for future data center developments across the United States. As AI demand scales, companies may face increasing regulatory and social hurdles in securing the physical space needed for compute expansion."
       },
-      "source": "Ben's Bites",
-      "sourceUrl": "https://quesma.com/blog/introducing-binaryaudit/",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.commondreams.org/news/new-brunswick-ai-data-center",
       "date": "2026-02-22"
     },
     {
-      "id": "world-labs-1b-funding",
-      "category": { "zh": "行业与政策", "en": "Industry & Policy", "color": "#8b5cf6" },
+      "id": "lattner-claude-c-compiler",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
-        "zh": "World Labs 完成 10 亿美元融资，推进空间智能和 3D 世界模型",
-        "en": "World Labs Raises $1 Billion to Advance Spatial Intelligence and 3D World Models"
+        "zh": "Chris Lattner 将 Claude 分析为一种新型的软件「C 编译器」",
+        "en": "Chris Lattner Analyzes Claude as a New Kind of 'C Compiler' for Software"
       },
       "summary": {
-        "zh": "由斯坦福大学教授李飞飞联合创立的 World Labs 宣布完成 10 亿美元新一轮融资，投资方包括 AMD、Autodesk、NVIDIA、Fidelity 等科技和金融巨头。World Labs 专注于「空间智能」——构建能够理解和生成 3D 世界的 AI 模型。其首款产品 Marble 允许用户从图片、视频或文本创建空间连贯、高保真且持久的 3D 世界。这笔融资使 World Labs 的估值超过 80 亿美元，成为 AI 领域估值最高的初创公司之一。李飞飞表示，空间智能是通往通用人工智能的关键路径之一，因为真正的智能必须能够理解和操作三维物理世界。",
-        "en": "World Labs, co-founded by Stanford professor Fei-Fei Li, has announced a $1 billion funding round from investors including AMD, Autodesk, NVIDIA, and Fidelity. World Labs focuses on 'spatial intelligence' — building AI models that understand and generate 3D worlds. Their first product, Marble, enables anyone to create spatially coherent, high-fidelity, and persistent 3D worlds from images, video, or text. The funding values World Labs at over $8 billion, making it one of the highest-valued AI startups. Fei-Fei Li stated that spatial intelligence is a critical path toward AGI, as true intelligence must be able to understand and manipulate the three-dimensional physical world."
+        "zh": "著名计算机科学家 Chris Lattner 发表了一篇极具启发性的分析，将 Claude 框架化为 AI 时代现代版的 C 编译器。Lattner 认为，正如 C 语言抽象掉了汇编语言，像 Claude 这样的大模型现在正在抽象掉高级编程语言的样板代码。他指出，软件开发的未来将涉及通过这些模型将自然语言意图「编译」成可执行代码。这一观点将大模型的定位从简单的助手提升为软件构建流水线中的核心基础设施。Lattner 的见解强调了开发更好工具以管理 AI 模型非确定性「编译」过程的必要性。",
+        "en": "Renowned computer scientist Chris Lattner has published a provocative analysis framing Claude as a modern equivalent of the C compiler for the AI era. Lattner argues that just as C abstracted away assembly language, LLMs like Claude are now abstracting away the boilerplate of high-level programming languages. He suggests that the future of software development will involve 'compiling' natural language intent into executable code via these models. This perspective shifts the view of LLMs from simple assistants to core infrastructure in the software build pipeline. Lattner's insights emphasize the need for better tooling to manage the non-deterministic 'compilation' process of AI models."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://www.worldlabs.ai/blog/funding-2026",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software",
       "date": "2026-02-22"
     },
     {
-      "id": "big-ai-lobbying-spending",
-      "category": { "zh": "行业与政策", "en": "Industry & Policy", "color": "#8b5cf6" },
+      "id": "openai-gpt5-codex-spark",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
       "title": {
-        "zh": "科技巨头 2025 年 AI 游说支出超 1 亿美元，影响芯片出口和数据中心政策",
-        "en": "Big Tech Spent Over $100M on AI Lobbying in 2025, Shaping Chip Export and Data Center Policies"
+        "zh": "OpenAI 发布 GPT-5.3-Codex-Spark：在定制芯片上实现 15 倍编程提速",
+        "en": "OpenAI Unveils GPT-5.3-Codex-Spark: 15x Faster Coding on Custom Silicon"
       },
       "summary": {
-        "zh": "据 The Batch 报道，Meta、Amazon、Alphabet、Microsoft 等科技巨头在 2025 年的政治游说支出总计超过 1 亿美元，重点聚焦 AI 相关政策。这些游说活动已产生实质性政策影响：推动了对 AI 数据中心建设的政府支持，并促成了此前对华先进 AI 芯片出口禁令的部分放松。报告指出，AI 行业的游说支出在过去两年增长了 340%，远超其他科技领域。批评者担忧这种大规模游说正在削弱 AI 安全监管的力度，而支持者则认为这有助于确保美国在全球 AI 竞争中保持领先地位。",
-        "en": "According to The Batch, major tech companies including Meta, Amazon, Alphabet, and Microsoft spent over $100 million on political lobbying in 2025, with a heavy focus on AI-related policies. These lobbying efforts have produced tangible policy outcomes: driving government support for AI data center construction and contributing to the partial relaxation of the ban on selling advanced AI chips to China. The report notes that AI industry lobbying spending grew 340% over the past two years, far outpacing other tech sectors. Critics worry this massive lobbying is weakening AI safety regulation, while supporters argue it helps ensure US leadership in global AI competition."
+        "zh": "OpenAI 宣布推出 GPT-5.3-Codex-Spark，这是一款专门的编程模型，速度比其前代产品快 15 倍。这一巨大的性能飞跃是通过在新型「盘状大小」的芯片上运行模型实现的，代表了 OpenAI 减少对英伟达 GPU 架构依赖的战略举措。该模型针对实时协作编程进行了优化，能够以史无前例的低延迟处理海量代码库。通过将软件与定制硬件垂直整合，OpenAI 正在为 AI 推理速度设定新标杆。这一进展表明，高性能 AI 的未来将越来越多地与针对特定模型架构设计的专用硅片挂钩。",
+        "en": "OpenAI has announced GPT-5.3-Codex-Spark, a specialized coding model that is 15 times faster than its predecessor. This massive performance leap is achieved by running the model on new 'plate-sized' chips, representing a strategic move by OpenAI to reduce its reliance on Nvidia's GPU architecture. The model is optimized for real-time collaborative coding and can handle massive codebases with unprecedented low latency. By vertically integrating its software with custom hardware, OpenAI is setting a new benchmark for AI inference speed. This development suggests that the future of high-performance AI will be increasingly tied to specialized silicon designed for specific model architectures."
       },
-      "source": "The Batch",
-      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/",
       "date": "2026-02-22"
     },
     {
-      "id": "clawwork-ai-coworker",
-      "category": { "zh": "社区精选", "en": "Community Picks", "color": "#f59e0b" },
+      "id": "google-gemini-cloning-attack",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
       "title": {
-        "zh": "ClawWork：AI 代理必须自己赚钱养活自己，否则就「死亡」",
-        "en": "ClawWork: An AI Agent Must Earn Its Own Salary or Die"
+        "zh": "谷歌报告旨在克隆 Gemini 的大规模蒸馏攻击",
+        "en": "Google Reports Massive Distillation Attack Aimed at Cloning Gemini"
       },
       "summary": {
-        "zh": "香港大学数据智能实验室（HKUDS）发布了 ClawWork，一个开源的 AI「数字同事」系统，其核心设计理念是：AI 代理必须通过完成真实的专业工作来证明自己的经济价值——它从一笔小额预算起步，接受真实的工作任务（如数据分析、代码审查、文档撰写），用赚取的收入支付自己的 token 使用费用。如果代理无法持续盈利，系统会自动终止其运行。这一「自负盈亏」的设计引发了 AI 社区的广泛讨论：支持者认为这是评估 AI 实际价值的最佳方式，批评者则质疑这种纯经济导向的评估是否会导致 AI 代理采取短视行为。项目已在 GitHub 开源。",
-        "en": "The Data Intelligence Lab at HKU (HKUDS) has released ClawWork, an open-source AI 'digital coworker' system with a radical design philosophy: the AI agent must prove its economic viability by completing real professional work — it starts with a small budget, takes on actual tasks (data analysis, code review, document writing), and pays for its own token usage with earned income. If the agent cannot sustain profitability, the system automatically terminates it. This 'self-sustaining' design has sparked widespread debate in the AI community: supporters see it as the best way to evaluate AI's real-world value, while critics question whether purely economic evaluation might incentivize short-sighted agent behavior. The project is open-sourced on GitHub."
+        "zh": "谷歌透露，攻击者发出了超过 10 万个针对性提示词，试图利用蒸馏技术克隆 Gemini 模型。这种方法允许第三方以原始训练成本的一小部分创建一个模仿 Gemini 行为的「影子模型」。该报告强调了商业 API 的一个关键漏洞，即模型的智能可以通过海量查询被系统性地提取。谷歌随后实施了更先进的速率限制和检测算法来对抗这些提取尝试。这一事件凸显了模型提供者与试图通过算法模仿规避知识产权保护的人之间持续的军备竞赛。",
+        "en": "Google has revealed that attackers issued over 100,000 targeted prompts in an attempt to clone the Gemini model using distillation techniques. This method allows third parties to create a 'shadow model' that mimics Gemini's behavior at a fraction of the original training cost. The report highlights a critical vulnerability in commercial APIs, where the model's intelligence can be systematically extracted through high-volume querying. Google has since implemented more advanced rate-limiting and detection algorithms to combat these extraction attempts. This incident underscores the ongoing arms race between model providers and those seeking to bypass intellectual property protections through algorithmic mimicry."
       },
-      "source": "AlphaSignal",
-      "sourceUrl": "https://github.com/HKUDS/ClawWork",
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
       "date": "2026-02-22"
     },
     {
-      "id": "liquid-ai-edge-reasoning",
-      "category": { "zh": "研究与论文", "en": "Research & Papers", "color": "#ec4899" },
+      "id": "claude-code-vs-goose-pricing",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
       "title": {
-        "zh": "Liquid AI 发布 LFM2.5：12 亿参数边缘推理模型，速度是同类 2 倍",
-        "en": "Liquid AI Releases LFM2.5: 1.2B Edge Reasoning Model, 2x Faster Than Peers"
+        "zh": "Claude Code 每月 200 美元的费用引发对免费替代品「Goose」的关注",
+        "en": "Claude Code's $200 Monthly Fee Sparks Interest in Free Alternative 'Goose'"
       },
       "summary": {
-        "zh": "Liquid AI 发布了 LFM2.5-1.2B-Thinking，一个专为边缘设备设计的 12 亿参数推理模型。该模型采用 Transformer-CNN 混合架构，在保持推理能力的同时实现了 2 倍于同类模型的推理速度和更低的内存占用。LFM2.5 特别适合需要在设备端执行工具调用、数据提取和本地数据库交互的 AI 代理场景。在 MMLU、GSM8K 等基准测试中，LFM2.5 在 1-3B 参数量级的模型中排名第一。Liquid AI 表示，该模型已针对高通骁龙 8 Gen 4 和 Apple M4 芯片进行了专门优化，可在手机和笔记本上实现流畅的推理体验。",
-        "en": "Liquid AI has released LFM2.5-1.2B-Thinking, a 1.17-billion-parameter reasoning model designed for edge devices. Using a hybrid Transformer-CNN architecture, it achieves 2x the inference speed of comparable models while using less memory. LFM2.5 is particularly well-suited for on-device AI agent scenarios requiring tool calls, data extraction, and local database interaction. On benchmarks including MMLU and GSM8K, LFM2.5 ranks first among models in the 1-3B parameter range. Liquid AI states the model has been specifically optimized for Qualcomm Snapdragon 8 Gen 4 and Apple M4 chips, enabling smooth reasoning on phones and laptops."
+        "zh": "Anthropic 的 Claude Code 因其昂贵的定价模式而备受抨击，重度用户每月的费用可能高达 200 美元。这种高门槛导致许多开发者转向「Goose」，这是一个开源替代方案，免费提供类似的基于终端的智能体功能。虽然 Claude Code 拥有与 Anthropic 最新模型的卓越集成，但 Goose 允许用户自带 API 密钥或运行本地模型，提供了更大的灵活性。这场辩论凸显了 AI 工具市场在高端托管服务与社区驱动的开源项目之间日益扩大的分歧。随着 AI 编程工具成为必需品，定价策略将在开发者采用和生态系统增长中发挥关键作用。",
+        "en": "Anthropic's Claude Code has come under fire for its expensive pricing model, which can cost heavy users up to $200 per month. This high barrier to entry has led many developers to turn to 'Goose,' an open-source alternative that offers similar terminal-based agentic features for free. While Claude Code boasts superior integration with Anthropic's latest models, Goose allows users to bring their own API keys or run local models, providing more flexibility. The debate highlights a growing divide in the AI tool market between premium, managed services and community-driven, open-source projects. As AI coding tools become essential, pricing strategies will play a pivotal role in developer adoption and ecosystem growth."
       },
-      "source": "The Batch",
-      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "source": "VentureBeat AI",
+      "sourceUrl": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "listen-labs-funding-stunt",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Listen Labs 在病毒式 AI Token 广告牌营销后融资 6900 万美元",
+        "en": "Listen Labs Raises $69M After Viral AI Token Billboard Stunt"
+      },
+      "summary": {
+        "zh": "Listen Labs 在一项创意招聘活动后获得了 6900 万美元的融资，该活动涉及充满 AI Token 的广告牌，解码后可进入职位申请页面。该初创公司专注于利用 AI 大规模进行和分析客户访谈，旨在取代传统的定性研究方法。通过自动化访谈过程，Listen Labs 能在极短的时间内为公司提供深入的消费者洞察。这笔资金将用于扩大其工程团队并进一步开发其专有的访谈智能体。这一成功案例表明，在拥挤的 AI 市场中，非传统的营销方式如何有效地吸引顶尖人才和风险资本。",
+        "en": "Listen Labs has secured $69 million in funding following a creative recruitment campaign involving billboards filled with AI tokens that decoded into a job application. The startup specializes in using AI to conduct and analyze customer interviews at scale, aiming to replace traditional qualitative research methods. By automating the interviewing process, Listen Labs provides companies with deep consumer insights in a fraction of the time usually required. The funding will be used to scale their engineering team and further develop their proprietary interviewing agents. This success story demonstrates how unconventional marketing can effectively attract both top-tier talent and venture capital in a crowded AI market."
+      },
+      "source": "VentureBeat AI",
+      "sourceUrl": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "google-responsible-ai-2026",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌发布 2026 年负责任 AI 进展报告",
+        "en": "Google Releases 2026 Responsible AI Progress Report"
+      },
+      "summary": {
+        "zh": "谷歌的《2026 年负责任 AI 进展报告》概述了该公司在减轻偏见、提高模型安全性和增强透明度方面的最新努力。报告重点介绍了自动化红队测试的新技术，以及为 AI 生成内容实施更强大的水印技术。谷歌还详细介绍了通过更高效的硬件和冷却系统减少大规模模型训练对环境影响的进展。报告的很大一部分致力于探讨智能体 AI 的伦理影响以及自主系统所需的保障措施。这一年度更新已成为衡量大型科技公司如何应对 AI 快速发展中复杂伦理环境的基准。",
+        "en": "Google's 2026 Responsible AI Progress Report outlines the company's latest efforts in mitigating bias, improving model safety, and enhancing transparency. The report highlights new techniques for automated red-teaming and the implementation of more robust watermarking for AI-generated content. Google also details its progress in reducing the environmental impact of training large-scale models through more efficient hardware and cooling systems. A significant portion of the report is dedicated to the ethical implications of agentic AI and the safeguards needed for autonomous systems. This annual update serves as a benchmark for how major tech firms are navigating the complex ethical landscape of rapid AI advancement."
+      },
+      "source": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
+      "date": "2026-02-22"
+    },
+    {
+      "id": "microsoft-online-reality-check",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软推出「现实核查」计划以打击 AI 欺骗",
+        "en": "Microsoft Launches 'Reality Check' Initiative to Combat AI Deception"
+      },
+      "summary": {
+        "zh": "微软推出了一项新的「在线现实核查」系统，旨在帮助用户区分真实的真人内容和 AI 生成的媒体。该计划利用加密签名和元数据标准为数字内容提供清晰的出处。此举是针对 AI 驱动的欺骗行为（包括复杂的深度伪造和自动化虚假信息活动）日益增多的回应。微软正与其他行业领导者合作，将这些验证方法确立为互联网的全球标准。其目标是通过为从新闻文章到社交媒体视频的所有内容提供可验证的来源证明，恢复公众对数字信息的信任。",
+        "en": "Microsoft has introduced a new 'online reality check' system designed to help users distinguish between authentic human content and AI-generated media. The initiative utilizes cryptographic signatures and metadata standards to provide a clear provenance for digital content. This move comes in response to the worrying rise in AI-enabled deception, including sophisticated deepfakes and automated misinformation campaigns. Microsoft is partnering with other industry leaders to establish these verification methods as a global standard for the internet. The goal is to restore trust in digital information by providing verifiable proof of origin for everything from news articles to social media videos."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/02/20/1133396/the-download-microsofts-online-reality-check-and-the-worrying-rise-in-measles-cases/",
       "date": "2026-02-22"
     }
   ]
