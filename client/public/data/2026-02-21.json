@@ -17,7 +17,7 @@
         "en": "Google has released Gemini 3.1 Pro featuring two distinct reasoning modes: 'Performance' for complex tasks and 'Fidelity' for common requests. The update also introduces a unified API, streamlining development across all Gemini models."
       },
       "source": "AlphaSignal",
-      "sourceUrl": "https://alphasignal.ai",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
       "date": "2026-02-21"
     },
     {
@@ -32,7 +32,7 @@
         "en": "Anthropic has released Claude Sonnet 4.6, outperforming Opus 4.5 on most benchmarks and even surpassing Opus 4.6 in office tasks and financial analysis. It is now the default model for free Claude users, bringing file creation and connectors to the free tier."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://bensbites.co",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
       "date": "2026-02-21"
     },
     {
@@ -47,7 +47,7 @@
         "en": "Alibaba has open-sourced the Qwen3-TTS family of models, supporting voice design, voice cloning, and voice generation. The models achieve strong results across multiple TTS benchmarks, providing developers with a powerful open-source speech synthesis solution."
       },
       "source": "TLDR AI",
-      "sourceUrl": "https://tldr.tech/ai",
+      "sourceUrl": "https://qwen.ai/blog?id=qwen3tts-0115",
       "date": "2026-02-21"
     },
     {
@@ -62,7 +62,7 @@
         "en": "Google has integrated its new music generation model Lyria 3 into Gemini, allowing users to create 30-second music clips with lyrics from text prompts, images, or videos. This marks further expansion of multimodal AI into audio creation."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://bensbites.co",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
       "date": "2026-02-21"
     },
     {
@@ -77,7 +77,7 @@
         "en": "Apple researchers have developed an on-device AI agent that understands natural language and interacts with apps on behalf of users. This could enable a new generation of assistants that perform complex cross-app tasks while keeping data on-device."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com",
+      "sourceUrl": "https://machinelearning.apple.com/research/ferret-ui",
       "date": "2026-02-21"
     },
     {
@@ -92,7 +92,7 @@
         "en": "FlashAttention-4 is deeply optimized for NVIDIA Blackwell architecture, significantly improving attention mechanism efficiency through asynchronous and low-precision computation. This work addresses critical compute and memory bottlenecks in large model training and inference."
       },
       "source": "TLDR AI",
-      "sourceUrl": "https://tldr.tech/ai",
+      "sourceUrl": "https://forums.developer.nvidia.com/t/overcoming-compute-and-memory-bottlenecks-with-flashattention-4-on-nvidia-blackwell/358385",
       "date": "2026-02-21"
     },
     {
@@ -107,7 +107,7 @@
         "en": "A new research paper proposes Render-of-Thought, a method for visualizing LLM reasoning chains to help researchers better understand and debug model reasoning processes. This approach offers new insights for improving model transparency and interpretability."
       },
       "source": "TLDR AI",
-      "sourceUrl": "https://tldr.tech/ai",
+      "sourceUrl": "https://arxiv.org/abs/2601.14750",
       "date": "2026-02-21"
     },
     {
@@ -122,7 +122,7 @@
         "en": "Anthropic has released real-world data on Claude Code agent autonomy, showing that the top 0.1% of sessions now run for over 45 minutes. This data indicates AI coding agents are evolving toward longer autonomous work sessions."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://bensbites.co",
+      "sourceUrl": "https://www.anthropic.com/research/measuring-agent-autonomy",
       "date": "2026-02-21"
     },
     {
@@ -137,7 +137,7 @@
         "en": "Cursor has introduced secure cross-platform sandboxing for local coding agents, allowing developers to run AI agents in isolated environments with granular control over file system and network access. Compatible with macOS, Windows, and Linux."
       },
       "source": "AlphaSignal",
-      "sourceUrl": "https://alphasignal.ai",
+      "sourceUrl": "https://cursor.com/blog/agent-sandboxing",
       "date": "2026-02-21"
     },
     {
@@ -152,7 +152,7 @@
         "en": "Figma's MCP (Model Context Protocol) now allows users to generate designs using Claude Code and import them directly into Figma for further editing. This bridges the workflow between AI coding and design tools."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://bensbites.co",
+      "sourceUrl": "https://www.figma.com/blog/introducing-claude-code-to-figma/",
       "date": "2026-02-21"
     },
     {
@@ -167,7 +167,7 @@
         "en": "Anthropic is developing an Auto Memory system for Claude Code that enables the AI agent to remember context and project details across sessions. This will significantly improve coding agent continuity and productivity."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://bensbites.co",
+      "sourceUrl": "https://code.claude.com/docs/en/memory",
       "date": "2026-02-21"
     },
     {
@@ -227,7 +227,7 @@
         "en": "A deep analysis argues that Palantir's key advantage is not AI itself, but its Ontology system - a method for modeling complex real-world systems and relationships. The article provides an open-source deep dive into how this architecture works."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://github.com/Leading-AI-IO/palantir-ontology-strategy",
+      "sourceUrl": "https://note.com/satoshi_yamauchi/n/nac68317eb5e2",
       "date": "2026-02-21"
     }
   ]
