@@ -18,12 +18,25 @@ export interface NewsItem {
   date: string;
 }
 
+export interface CrawlLog {
+  fetchedAt: string;        // ISO 8601 UTC timestamp
+  elapsedSeconds: number;  // total run time
+  rawArticles: number;     // articles fetched before any filter
+  afterFilter: number;     // after AI-relevance filter
+  afterDedup: number;      // after deduplication
+  dedupRemoved: number;    // how many were removed as duplicates
+  finalStories: number;    // stories in this digest
+  model: string;           // LLM model used
+  sourceBreakdown: Record<string, number>; // source → story count
+}
+
 export interface DailyDigest {
   date: string;
   dateLabel: {
     zh: string;
     en: string;
   };
+  crawlLog?: CrawlLog;
   news: NewsItem[];
 }
 

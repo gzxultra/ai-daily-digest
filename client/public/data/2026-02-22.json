@@ -290,5 +290,23 @@
       "sourceUrl": "https://www.technologyreview.com/2026/02/20/1133396/the-download-microsofts-online-reality-check-and-the-worrying-rise-in-measles-cases/",
       "date": "2026-02-22"
     }
-  ]
+  ],
+  "crawlLog": {
+    "fetchedAt": "2026-02-22T20:44:00Z",
+    "elapsedSeconds": 161,
+    "rawArticles": 65,
+    "afterFilter": 56,
+    "afterDedup": 56,
+    "dedupRemoved": 9,
+    "finalStories": 15,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 2,
+      "Hacker News": 7,
+      "Ars Technica": 2,
+      "VentureBeat AI": 2,
+      "Google AI Blog": 1,
+      "MIT Tech Review": 1
+    }
+  }
 }

@@ -591,29 +591,37 @@ Select 10-15 items. Ensure DIVERSITY: no two items should cover the same topic/e
     else:
         selected_indices = list(range(1, min(16, len(articles) + 1)))
 
-    # Clamp to 10-15
-    if len(selected_indices) < 10:
+    # Clamp to 10-12 (fewer = safer for LLM token limits)
+    if len(selected_indices) < 8:
         remaining = [i for i in range(1, len(articles) + 1) if i not in selected_indices]
-        selected_indices.extend(remaining[:15 - len(selected_indices)])
-    elif len(selected_indices) > 15:
-        selected_indices = selected_indices[:15]
+        selected_indices.extend(remaining[:12 - len(selected_indices)])
+    elif len(selected_indices) > 12:
+        selected_indices = selected_indices[:12]
 
     selected_articles = [articles[i - 1] for i in selected_indices if i <= len(articles)]
     log.info(f"  Stage 1: selected {len(selected_articles)} articles")
 
     # ── Stage 2: Bilingual structured output ────────────────────────────
-    selected_text = build_article_list_text(selected_articles)
-
     categories_desc = "\n".join(
         f'  - "{en}" (Chinese: "{info["zh"]}", color: "{info["color"]}")'
         for en, info in CATEGORIES.items()
     )
 
-    stage2_prompt = f"""You are a senior AI industry analyst. Create a bilingual (English + Chinese) news digest for the {len(selected_articles)} pre-selected stories below.
+    # Generate in two batches of ~6 to avoid token-limit truncation
+    mid = len(selected_articles) // 2
+    batch1 = selected_articles[:mid]
+    batch2 = selected_articles[mid:]
+
+    all_items_raw = []
+    for batch_num, batch in enumerate([batch1, batch2], 1):
+        if not batch:
+            continue
+        batch_text = build_article_list_text(batch)
+        batch_prompt = f"""You are a senior AI industry analyst. Create a bilingual (English + Chinese) news digest for the {len(batch)} pre-selected stories below.
 
 Today's date: {target_date}
 
-{selected_text}
+{batch_text}
 
 ## OUTPUT FORMAT
 
@@ -626,8 +634,8 @@ Return a JSON array. Each element must have this EXACT structure:
   "category_color": "#hex",
   "title_en": "Concise English headline",
   "title_zh": "简洁中文标题",
-  "summary_en": "English analytical summary (4-6 sentences, ~500-700 chars). Self-contained: include all key facts, numbers, and context so the reader doesn't need to click through. Cover: what happened, technical details/metrics, why it matters, implications.",
-  "summary_zh": "中文分析摘要（4-6句，约200-300字）。必须自包含：包含所有关键事实、数据和背景，读者无需点击原文即可完整了解。涵盖：发生了什么、技术细节/指标、为什么重要、未来影响。",
+  "summary_en": "English analytical summary (3-5 sentences, ~400-600 chars). Self-contained: include all key facts, numbers, and context. Cover: what happened, technical details/metrics, why it matters.",
+  "summary_zh": "中文分析摘要（3-5句，约150-250字）。必须自包含：包含所有关键事实、数据和背景。涵盖：发生了什么、技术细节/指标、为什么重要。",
   "source": "Source Name",
   "sourceUrl": "https://..."
 }}
@@ -637,27 +645,48 @@ Return a JSON array. Each element must have this EXACT structure:
 
 ## QUALITY REQUIREMENTS:
 - id: short, descriptive, kebab-case (e.g., "gpt5-release", "eu-ai-act-update")
-- Summaries must be SELF-CONTAINED — reader should understand the full story without clicking
-- Chinese summaries should read naturally (not translations), use 「」for quotes
-- English summaries: professional, analytical, include specific numbers/metrics
-- Include ALL {len(selected_articles)} selected stories — do not skip any
-- source: use the newsletter/platform name (AlphaSignal, Ben's Bites, Import AI, TLDR AI, The Batch, Hacker News, Reddit)
-- sourceUrl: use the article's actual URL, not the newsletter URL
+- Summaries must be SELF-CONTAINED
+- Chinese summaries should read naturally, use 「」for quotes
+- Include ALL {len(batch)} stories — do not skip any
+- source: use the newsletter/platform name
+- sourceUrl: use the article's actual URL
 
 ## IMPORTANT:
 - Return ONLY the JSON array, no markdown fences, no explanations
 - Do NOT use smart/curly quotes — use only straight quotes
 - Ensure valid JSON"""
 
-    stage2_response = call_llm(stage2_prompt, max_tokens=12000)
+        log.info(f"  Stage 2 batch {batch_num}/{2 if batch2 else 1}: {len(batch)} articles")
+        raw = call_llm(batch_prompt, max_tokens=8000)
+        raw = raw.strip()
+        if raw.startswith("```"):
+            raw = re.sub(r"^```(?:json)?\s*", "", raw)
+            raw = re.sub(r"\s*```$", "", raw)
 
-    # Parse JSON
-    stage2_response = stage2_response.strip()
-    if stage2_response.startswith("```"):
-        stage2_response = re.sub(r"^```(?:json)?\s*", "", stage2_response)
-        stage2_response = re.sub(r"\s*```$", "", stage2_response)
+        # Attempt to recover truncated JSON by finding the last complete object
+        try:
+            batch_items = json.loads(raw)
+        except json.JSONDecodeError:
+            log.warning(f"  Batch {batch_num} JSON truncated, attempting recovery...")
+            # Find the last complete JSON object ending with }}
+            last_brace = raw.rfind("}")
+            if last_brace > 0:
+                recovered = raw[:last_brace + 1] + "]"
+                # Ensure it starts with [
+                if not recovered.lstrip().startswith("["):
+                    recovered = "[" + recovered
+                try:
+                    batch_items = json.loads(recovered)
+                    log.info(f"  Recovered {len(batch_items)} items from truncated response")
+                except json.JSONDecodeError as e2:
+                    log.error(f"  Recovery failed: {e2}")
+                    batch_items = []
+            else:
+                batch_items = []
 
-    items = json.loads(stage2_response)
+        all_items_raw.extend(batch_items)
+
+    items = all_items_raw
 
     # Convert to frontend format
     news_items = []
@@ -693,6 +722,8 @@ Return a JSON array. Each element must have this EXACT structure:
 # ---------------------------------------------------------------------------
 
 def main():
+    run_start = time.time()
+
     # Determine target date (UTC)
     target_date = os.environ.get("TARGET_DATE", "")
     if not target_date:
@@ -719,7 +750,14 @@ def main():
 
     # Combine all
     all_articles = newsletter_articles + hn_articles + reddit_articles + supplementary_articles
-    log.info(f"\nTotal raw articles: {len(all_articles)}")
+    raw_count = len(all_articles)
+    log.info(f"\nTotal raw articles: {raw_count}")
+
+    # Track per-source counts (raw)
+    source_counts_raw: dict[str, int] = {}
+    for a in all_articles:
+        src = a.get("source", "Unknown")
+        source_counts_raw[src] = source_counts_raw.get(src, 0) + 1
 
     # ── Step 2: Filter AI-related ───────────────────────────────────────
     # Newsletter articles are assumed AI-related; filter supplementary
@@ -728,21 +766,25 @@ def main():
         if a.get("source") in NEWSLETTER_FEEDS or is_ai_related(a):
             ai_articles.append(a)
 
-    log.info(f"AI-related articles: {len(ai_articles)}")
+    filtered_count = len(ai_articles)
+    log.info(f"AI-related articles: {filtered_count}")
 
     # ── Step 3: Deduplicate against history ─────────────────────────────
     log.info("\n[4/5] Deduplicating...")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     historical_fps = load_historical_titles(DATA_DIR, DEDUP_DAYS)
+    before_dedup = len(ai_articles)
     ai_articles = deduplicate_articles(ai_articles, historical_fps)
+    dedup_removed = before_dedup - len(ai_articles)
+    after_dedup_count = len(ai_articles)
 
-    if len(ai_articles) < 5:
+    if after_dedup_count < 5:
         log.warning("Very few articles after dedup. Skipping update — no new content.")
         print("SKIP_UPDATE=true")
         sys.exit(0)
 
     # ── Step 4: Generate digest via LLM ─────────────────────────────────
-    log.info(f"\n[5/5] Generating bilingual digest from {len(ai_articles)} articles...")
+    log.info(f"\n[5/5] Generating bilingual digest from {after_dedup_count} articles...")
     try:
         news_items = generate_digest(ai_articles, target_date)
     except Exception as e:
@@ -753,7 +795,29 @@ def main():
         log.error("No news items generated!")
         sys.exit(1)
 
-    log.info(f"Generated {len(news_items)} news items")
+    final_count = len(news_items)
+    log.info(f"Generated {final_count} news items")
+
+    elapsed_seconds = round(time.time() - run_start)
+
+    # Build per-source breakdown from final news items
+    source_counts_final: dict[str, int] = {}
+    for item in news_items:
+        src = item.get("source", "Unknown")
+        source_counts_final[src] = source_counts_final.get(src, 0) + 1
+
+    # Build crawl_log
+    crawl_log = {
+        "fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "elapsedSeconds": elapsed_seconds,
+        "rawArticles": raw_count,
+        "afterFilter": filtered_count,
+        "afterDedup": after_dedup_count,
+        "dedupRemoved": dedup_removed,
+        "finalStories": final_count,
+        "model": os.environ.get("LLM_MODEL", "gpt-4.1-mini"),
+        "sourceBreakdown": source_counts_final,
+    }
 
     # ── Step 5: Write output ────────────────────────────────────────────
     dt = datetime.strptime(target_date, "%Y-%m-%d")
@@ -765,6 +829,7 @@ def main():
     digest = {
         "date": target_date,
         "dateLabel": date_label,
+        "crawlLog": crawl_log,
         "news": news_items,
     }
 

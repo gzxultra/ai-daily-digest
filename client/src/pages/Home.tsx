@@ -12,6 +12,7 @@ import DateNav from "@/components/DateNav";
 import CategoryFilter from "@/components/CategoryFilter";
 import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
+import CrawlLogPanel from "@/components/CrawlLogPanel";
 import { fetchIndex, fetchDigest, type DailyDigest, type DigestIndex, type NewsItem } from "@/data/news";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Loader2 } from "lucide-react";
@@ -166,6 +167,13 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      {/* Crawl log panel — above footer */}
+      {digest?.crawlLog && (
+        <div className="container pb-4">
+          <CrawlLogPanel log={digest.crawlLog} />
+        </div>
+      )}
 
       <Footer />
     </div>
