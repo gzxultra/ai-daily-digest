@@ -23,14 +23,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch-and-publish:
+  fetch-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # ── Step 1: Fetch news data ──────────────────────────────────────────
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -63,7 +68,7 @@ jobs:
 
           echo "skip=false" >> $GITHUB_OUTPUT
 
-      - name: Check for changes
+      - name: Check for data changes
         if: steps.fetch_news.outputs.skip != 'true'
         id: check_changes
         run: |
@@ -76,7 +81,7 @@ jobs:
             echo "Data changes detected."
           fi
 
-      - name: Commit and push data
+      - name: Commit data changes
         if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -86,14 +91,38 @@ jobs:
           git commit -m "📰 Daily AI digest: ${DATE}"
           git push
 
-      # After pushing, the existing deploy workflow (daily-update.yml)
-      # will automatically trigger and deploy to GitHub Pages.
-
-      - name: Upload logs on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
+      # ── Step 2: Build and deploy to GitHub Pages ─────────────────────────
+      - name: Setup Node.js
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        uses: actions/setup-node@v4
         with:
-          name: fetch-news-logs
-          path: |
-            *.log
-          retention-days: 7
+          node-version: "22"
+
+      - name: Setup pnpm
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        uses: pnpm/action-setup@v4
+
+      - name: Install dependencies
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        run: pnpm install --frozen-lockfile || pnpm install
+
+      - name: Build
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        run: npx vite build --config vite.config.ghpages.ts
+        env:
+          NODE_ENV: production
+
+      - name: Setup Pages
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./dist/public"
+
+      - name: Deploy to GitHub Pages
+        if: steps.fetch_news.outputs.skip != 'true' && steps.check_changes.outputs.has_changes == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4

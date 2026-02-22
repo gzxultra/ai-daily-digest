@@ -447,7 +447,7 @@ def is_ai_related(article: dict) -> bool:
 # ---------------------------------------------------------------------------
 
 def call_llm(prompt: str, system_prompt: str = "", max_tokens: int = 8000) -> str:
-    """Call OpenAI-compatible chat completions API."""
+    """Call OpenAI-compatible chat completions API with retry logic."""
     api_key = os.environ.get("OPENAI_API_KEY", "")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY environment variable is not set")
@@ -467,23 +467,62 @@ def call_llm(prompt: str, system_prompt: str = "", max_tokens: int = 8000) -> st
         "max_tokens": max_tokens,
     }).encode()
 
-    req = Request(
-        f"{base_url}/chat/completions",
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        },
-        method="POST",
-    )
+    url = f"{base_url}/chat/completions"
+    last_error = None
 
-    log.info(f"  Calling LLM ({model}) ...")
-    with urlopen(req, timeout=120) as resp:
-        result = json.loads(resp.read())
+    for attempt in range(3):
+        try:
+            req = Request(
+                url,
+                data=payload,
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {api_key}",
+                },
+                method="POST",
+            )
+            log.info(f"  Calling LLM ({model}) ... (attempt {attempt + 1})")
+            with urlopen(req, timeout=180) as resp:
+                result = json.loads(resp.read())
 
-    content = result["choices"][0]["message"]["content"]
-    log.info(f"  LLM response: {len(content)} chars")
-    return content
+            # Defensive: handle missing 'content' key (e.g. Gemini finish_reason=length)
+            choice = result["choices"][0]
+            message = choice.get("message", {})
+            content = message.get("content") or ""
+            finish_reason = choice.get("finish_reason", "unknown")
+
+            if not content:
+                raise RuntimeError(
+                    f"LLM returned empty content (finish_reason={finish_reason}). "
+                    f"Response: {json.dumps(result)[:300]}"
+                )
+
+            log.info(f"  LLM response: {len(content)} chars (finish={finish_reason})")
+            return content
+
+        except HTTPError as e:
+            body = ""
+            try:
+                body = e.read().decode(errors="replace")[:300]
+            except Exception:
+                pass
+            last_error = RuntimeError(f"HTTP {e.code} from LLM API: {body}")
+            log.warning(f"  LLM attempt {attempt + 1} failed: HTTP {e.code} — {body}")
+            if e.code in (429, 500, 502, 503, 504):
+                time.sleep(5 * (attempt + 1))
+                continue
+            raise last_error  # 4xx errors (except 429) are not retryable
+
+        except (URLError, TimeoutError) as e:
+            last_error = e
+            log.warning(f"  LLM attempt {attempt + 1} failed: {e}")
+            time.sleep(5 * (attempt + 1))
+            continue
+
+        except RuntimeError:
+            raise
+
+    raise last_error or RuntimeError("LLM call failed after 3 attempts")
 
 
 def build_article_list_text(articles: list[dict]) -> str:
