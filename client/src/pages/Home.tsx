@@ -1,67 +1,117 @@
 /*
  * Design: Editorial Magazine Style — Home Page
  * - Hero section with generated AI background
- * - Date navigation for future daily updates
+ * - Date navigation for daily updates
  * - Category filter pills
  * - Magazine-style grid: featured card + smaller cards
+ * - Data loaded from JSON files (updated daily by GitHub Actions)
  */
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import DateNav from "@/components/DateNav";
 import CategoryFilter from "@/components/CategoryFilter";
 import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
-import { digests } from "@/data/news";
+import { fetchIndex, fetchDigest, type DailyDigest, type DigestIndex, type NewsItem } from "@/data/news";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Loader2 } from "lucide-react";
 
 export default function Home() {
   const { lang } = useLanguage();
-  const [activeDate, setActiveDate] = useState(digests[0]?.date ?? "");
+  const [index, setIndex] = useState<DigestIndex | null>(null);
+  const [activeDate, setActiveDate] = useState<string>("");
+  const [digest, setDigest] = useState<DailyDigest | null>(null);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  const currentDigest = useMemo(
-    () => digests.find((d) => d.date === activeDate) ?? digests[0],
-    [activeDate]
-  );
+  // Load index on mount
+  useEffect(() => {
+    fetchIndex().then((idx) => {
+      setIndex(idx);
+      setActiveDate(idx.latest);
+    }).catch(console.error);
+  }, []);
+
+  // Load digest when activeDate changes
+  useEffect(() => {
+    if (!activeDate) return;
+    setLoading(true);
+    fetchDigest(activeDate).then((d) => {
+      setDigest(d);
+      setActiveCategory(null);
+    }).catch(console.error).finally(() => setLoading(false));
+  }, [activeDate]);
 
   const categories = useMemo(() => {
-    if (!currentDigest) return [];
+    if (!digest) return [];
     const seen = new Set<string>();
-    return currentDigest.news
-      .map((n) => n.category)
-      .filter((c) => {
+    return digest.news
+      .map((n: NewsItem) => n.category)
+      .filter((c: { en: string }) => {
         if (seen.has(c.en)) return false;
         seen.add(c.en);
         return true;
       });
-  }, [currentDigest]);
+  }, [digest]);
 
   const filteredNews = useMemo(() => {
-    if (!currentDigest) return [];
-    if (!activeCategory) return currentDigest.news;
-    return currentDigest.news.filter((n) => n.category.en === activeCategory);
-  }, [currentDigest, activeCategory]);
+    if (!digest) return [];
+    if (!activeCategory) return digest.news;
+    return digest.news.filter((n: NewsItem) => n.category.en === activeCategory);
+  }, [digest, activeCategory]);
 
   const featured = filteredNews[0];
   const rest = filteredNews.slice(1);
 
-  if (!currentDigest) return null;
+  // Build date list for DateNav
+  const dateDigests = useMemo(() => {
+    if (!index) return [];
+    return index.dates.map((d: string) => ({
+      date: d,
+      dateLabel: {
+        zh: d.replace(/(\d{4})-(\d{2})-(\d{2})/, "$1年$2月$3日"),
+        en: new Date(d + "T00:00:00").toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        }),
+      },
+      news: [],
+    }));
+  }, [index]);
+
+  if (!index || loading) {
+    return (
+      <div className="min-h-screen flex flex-col bg-background">
+        <Header />
+        <div className="flex-1 flex items-center justify-center">
+          <Loader2 className="w-8 h-8 animate-spin text-primary" />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
 
       <HeroSection
-        newsCount={currentDigest.news.length}
-        date={lang === "zh" ? currentDigest.dateLabel.zh : currentDigest.dateLabel.en}
+        newsCount={digest?.news.length ?? 0}
+        date={
+          digest
+            ? lang === "zh"
+              ? digest.dateLabel.zh
+              : digest.dateLabel.en
+            : ""
+        }
       />
 
       <main className="flex-1">
         <div className="container py-8 space-y-6">
           {/* Date Navigation */}
           <DateNav
-            digests={digests}
+            digests={dateDigests}
             activeDate={activeDate}
             onDateChange={setActiveDate}
           />
@@ -81,7 +131,7 @@ export default function Home() {
             {/* Grid of remaining cards */}
             {rest.length > 0 && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {rest.map((item, i) => (
+                {rest.map((item: NewsItem, i: number) => (
                   <NewsCard key={item.id} item={item} index={i + 1} />
                 ))}
               </div>

@@ -1,0 +1,2 @@
+# No external dependencies needed - uses only Python stdlib
+# OpenAI API is called via urllib (no openai package required)
