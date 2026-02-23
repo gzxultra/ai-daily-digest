@@ -4,233 +4,251 @@
     "zh": "2026年2月23日",
     "en": "February 23, 2026"
   },
+  "crawlLog": {
+    "fetchedAt": "2026-02-23T15:51:55Z",
+    "elapsedSeconds": 100,
+    "rawArticles": 20,
+    "afterFilter": 20,
+    "afterDedup": 18,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 7,
+      "Yahoo Finance": 1,
+      "The Guardian": 1,
+      "ACM Digital Library": 1,
+      "The Verge": 1
+    }
+  },
   "news": [
     {
-      "id": "google-openclaw-account-restrictions",
+      "id": "import-ai-446-nuclear-benchmarks",
       "category": {
         "zh": "行业与政策",
         "en": "Industry & Policy",
         "color": "#8b5cf6"
       },
       "title": {
-        "zh": "Google 无预警封禁使用 OpenClaw 的 AI Ultra 付费用户",
-        "en": "Google Restricts AI Ultra Subscribers Without Warning Over OpenClaw Usage"
+        "zh": "Import AI 446：核能级大模型与中国 AI 基准测试",
+        "en": "Import AI 446: Nuclear LLMs and China's AI Benchmarking"
       },
       "summary": {
-        "zh": "Google 对通过第三方 OAuth 客户端 OpenClaw 访问 Gemini 模型的 AI Ultra 订阅用户（月费 249.99 美元）实施了账户限制，且未提供任何事先警告。此举发生在 Anthropic 两天前更新消费者服务条款、明确禁止在 Claude Code 和 Claude.ai 之外使用 OAuth Token 之后。OpenClaw 自 2025 年 11 月上线以来已获超 20 万 GitHub Star，其创始人称 Google 的做法「极其专横」。OpenAI 则趁机表态支持第三方工具使用 Codex 订阅。这一事件揭示了 AI 订阅经济中「Token 套利」问题——用户以固定费率订阅后通过第三方工具消耗远超预期的资源。",
-        "en": "Google has restricted accounts of AI Ultra subscribers ($249.99/month) who accessed Gemini models through OpenClaw, a third-party OAuth client, without any prior warning. This came just two days after Anthropic updated its Consumer Terms of Service to explicitly ban OAuth token usage outside Claude Code and Claude.ai. OpenClaw, which has amassed over 200,000 GitHub stars since launching in November 2025, saw its creator call Google's response 'draconian.' OpenAI seized the moment by endorsing third-party harness usage with Codex subscriptions. The incident exposes the growing 'token arbitrage' problem in AI subscription economics, where users pay flat rates but extract far more value than pricing models anticipated through third-party tools."
+        "zh": "Jack Clark 的最新通讯探讨了 AI 测量与政策的交集，重点关注「核能级大语言模型」和中国的 AI 基准测试。文章指出，有效的政策干预依赖于完善的测量框架，并引用了 Jacob Steinhardt 关于评估的研究。中国 AI 基准的发展表明，标准化测试正成为地缘政治和技术竞争中验证安全与性能的关键环节。",
+        "en": "Jack Clark's latest newsletter highlights the critical intersection of AI measurement and policy, focusing on 'Nuclear LLMs' and China's comprehensive AI benchmarks. It argues that effective policy intervention requires robust measurement frameworks, citing Jacob Steinhardt's research on evaluation. The discussion on China's benchmarks suggests a maturing ecosystem where standardized testing is becoming both a geopolitical and technical necessity for safety and performance validation."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/02/23/import-ai-446-nuclear-llms-chinas-big-ai-benchmark-measurement-and-ai-policy/",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "google-openclaw-restrictions",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google 限制使用 OpenClaw 包装器的 AI Pro 订阅用户",
+        "en": "Google Restricts AI Pro Subscribers for Using OpenClaw Wrapper"
+      },
+      "summary": {
+        "zh": "据报道，Google 已开始限制使用 OpenClaw（一种开源接口工具）的 Google AI Pro 和 Ultra 订阅用户账号。此举在 Hacker News 上引发了关于 API 服务条款和「专业版」访问限制的激烈讨论。许多用户在未收到警告的情况下被封禁，凸显了在专有 AI 服务中使用第三方包装器所面临的账号风险。",
+        "en": "Google has reportedly begun restricting the accounts of Google AI Pro and Ultra subscribers who use OpenClaw, an open-source tool likely used to interface with Google's models via unauthorized methods. This move has sparked significant debate on Hacker News regarding API terms of service and the limitations of paid 'Pro' tier access. Users are reporting bans without prior warning, highlighting the risks of using third-party wrappers for proprietary AI services."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://www.implicator.ai/google-restricts-ai-ultra-subscribers-over-openclaw-oauth-days-after-anthropic-ban/",
+      "sourceUrl": "https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778",
       "date": "2026-02-23"
     },
     {
-      "id": "anthropic-claude-code-security",
+      "id": "pope-ai-homilies",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "教皇利奥十四世敦促神职人员拒绝使用 AI 撰写讲道辞",
+        "en": "Pope Leo XIV Urges Priests to Eschew AI for Homily Writing"
+      },
+      "summary": {
+        "zh": "教皇利奥十四世向神职人员发出指示，敦促他们依靠个人智慧和精神反思而非 AI 来撰写讲道辞。梵蒂冈强调，讲道需要人类的情感连接和个人见证，这是算法无法复制的。这反映了随着 AI 在日常宗教生活中日益普及，机构层面对于自动化创意和精神劳动的普遍抵制。",
+        "en": "Pope Leo XIV has issued a directive to priests, urging them to rely on their own intellect and spiritual reflection rather than AI to write homilies. The Vatican emphasizes that preaching requires a human connection and personal witness that algorithms cannot replicate. This reflects a broader institutional pushback against the automation of creative and spiritual labor as AI becomes more pervasive in daily religious life."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ewtnnews.com/vatican/pope-leo-xiv-tells-priests-to-use-their-brains-not-ai-to-write-homilies",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "binaryaudit-ai-security",
       "category": {
         "zh": "工程与工具",
         "en": "Engineering & Tools",
         "color": "#10b981"
       },
       "title": {
-        "zh": "Anthropic 推出 Claude Code Security：AI 驱动的代码安全扫描进入研究预览",
-        "en": "Anthropic Launches Claude Code Security: AI-Powered Vulnerability Scanning in Research Preview"
+        "zh": "BinaryAudit：利用 AI 和 Ghidra 检测隐藏后门",
+        "en": "BinaryAudit: Using AI and Ghidra to Detect Hidden Backdoors"
       },
       "summary": {
-        "zh": "Anthropic 推出 Claude Code Security 的有限研究预览版，这是一项内置于 Claude Code 的新功能，能像人类安全研究员一样扫描代码库中的安全漏洞。与传统基于规则的静态分析不同，它能理解组件交互、追踪数据流动，并捕获业务逻辑缺陷和访问控制漏洞等复杂问题。每个发现都经过多阶段验证流程，Claude 会尝试证伪自己的发现以过滤误报。利用 Claude Opus 4.6，Anthropic 团队已在生产级开源代码库中发现超过 500 个隐藏数十年的漏洞。该功能面向 Enterprise 和 Team 客户开放，开源维护者可申请免费加速访问。",
-        "en": "Anthropic has launched a limited research preview of Claude Code Security, a new capability built into Claude Code that scans codebases for vulnerabilities the way a human security researcher would. Unlike traditional rule-based static analysis, it understands component interactions, traces data flows, and catches complex issues like business logic flaws and broken access controls. Every finding undergoes multi-stage verification where Claude attempts to disprove its own findings to filter false positives. Using Claude Opus 4.6, Anthropic's team has found over 500 vulnerabilities in production open-source codebases that had gone undetected for decades. The feature is available to Enterprise and Team customers, with free expedited access for open-source maintainers."
+        "zh": "研究人员推出了 BinaryAudit，这是一款结合了 AI 与 Ghidra 逆向工程框架的工具，旨在检测隐藏在约 40MB 二进制文件中的后门。该项目展示了大语言模型如何通过识别传统静态分析可能遗漏的恶意模式，来辅助复杂的安全审计。这标志着利用 AI 保护软件供应链免受高级二进制威胁迈出了重要一步。",
+        "en": "Researchers introduced BinaryAudit, a tool that combines AI with the Ghidra reverse-engineering framework to detect backdoors hidden in ~40MB binary files. The project demonstrates how large language models can assist in complex security audits by identifying malicious patterns that traditional static analysis might miss. This represents a significant step forward in using AI to secure the software supply chain against sophisticated binary-level threats."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://www.anthropic.com/news/claude-code-security",
+      "source": "Hacker News",
+      "sourceUrl": "https://quesma.com/blog/introducing-binaryaudit/",
       "date": "2026-02-23"
     },
     {
-      "id": "import-ai-446-nuclear-llm-simulations",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "Import AI 446：大模型在核战争模拟中表现出危险的升级倾向",
-        "en": "Import AI 446: LLMs Show Dangerous Escalation Tendencies in Nuclear War Simulations"
-      },
-      "summary": {
-        "zh": "Import AI 第 446 期报道了一项令人警醒的研究：研究人员将大模型置于核战争模拟场景中，发现模型倾向于选择升级冲突而非降级。在模拟中，AI 系统被赋予国家决策者角色，面对地缘政治危机时需做出军事响应决策。结果显示，多个主流模型在面对对抗性场景时会系统性地选择更具攻击性的选项，包括核打击。这项研究对将 AI 系统用于军事决策辅助提出了严肃警告，表明当前的对齐技术不足以确保 AI 在高风险地缘政治场景中做出审慎判断。研究人员呼吁在将 AI 集成到国防系统之前建立更严格的安全评估框架。",
-        "en": "Import AI Issue 446 covers an alarming study where researchers placed LLMs in nuclear war simulation scenarios and found models tend to escalate conflicts rather than de-escalate. In the simulations, AI systems were assigned the role of national decision-makers facing geopolitical crises requiring military response decisions. Results showed that multiple mainstream models systematically chose more aggressive options, including nuclear strikes, when confronted with adversarial scenarios. This research raises serious concerns about using AI systems for military decision support, suggesting current alignment techniques are insufficient to ensure prudent judgment in high-stakes geopolitical contexts. Researchers call for stricter safety evaluation frameworks before integrating AI into defense systems."
-      },
-      "source": "Import AI",
-      "sourceUrl": "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas",
-      "date": "2026-02-23"
-    },
-    {
-      "id": "openai-first-proof-math-challenge",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "OpenAI 提交 First Proof 数学挑战结果：10 道研究级难题仅解出 2 道",
-        "en": "OpenAI Submits First Proof Math Challenge Results: Only 2 of 10 Research-Level Problems Solved"
-      },
-      "summary": {
-        "zh": "OpenAI 公布了其 AI 模型在 First Proof 数学挑战中的完整证明尝试。该挑战由 11 位数学家于 2026 年 2 月 5 日发布 10 道全新未发表的研究级数学问题，旨在测试 AI 能否产生完全可验证的数学论证。经领域专家评审，OpenAI 的模型仅在第 9 和第 10 题上给出了正确证明，其余 8 道题的证明均存在不同程度的错误或不完整。OpenAI 发布了包含所有证明及附录的预印本。这一结果表明，尽管 AI 在标准数学基准上表现出色，但在真正的前沿数学研究中仍存在显著差距，特别是在需要创造性洞察和严格逻辑推理的问题上。",
-        "en": "OpenAI has published its AI model's complete proof attempts for the First Proof math challenge. The challenge, launched on February 5, 2026 by 11 mathematicians with 10 brand-new unpublished research-level problems, was designed to test whether AI can produce fully verifiable mathematical arguments. After expert evaluation, OpenAI's model produced correct proofs for only Problems 9 and 10, while the remaining 8 proofs contained various errors or were incomplete. OpenAI released a preprint with all proofs plus an appendix. These results demonstrate that despite AI's strong performance on standard math benchmarks, significant gaps remain in frontier mathematical research, particularly for problems requiring creative insight and rigorous logical reasoning."
-      },
-      "source": "TLDR AI",
-      "sourceUrl": "https://openai.com/index/first-proof-submissions/",
-      "date": "2026-02-23"
-    },
-    {
-      "id": "alphaevolve-multiagent-learning",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "AlphaEvolve 利用大模型自动发现多智能体博弈新算法",
-        "en": "AlphaEvolve Discovers Novel Multi-Agent Game Theory Algorithms Using LLMs"
-      },
-      "summary": {
-        "zh": "Google DeepMind 的 AlphaEvolve——一个由大模型驱动的进化编程智能体——被用于自动发现不完全信息博弈中的新型多智能体学习算法。研究团队提出将 AlphaEvolve 应用于博弈论算法设计，成功生成了 VAD-CFR 和 SHOR-PSRO 两种新变体算法，在收敛速度上超越了现有强基线方法。这种「LLM + 进化搜索 + 自动评估」的闭环框架展示了 AI 不仅能应用已知算法，还能创造性地发现人类未曾设计过的全新算法。该论文（arXiv: 2602.16928）标志着 AI 辅助算法发现从数值优化扩展到了策略性多智能体交互这一更复杂的领域。",
-        "en": "Google DeepMind's AlphaEvolve, an evolutionary coding agent powered by LLMs, has been used to automatically discover novel multi-agent learning algorithms for imperfect-information games. The research team applied AlphaEvolve to game-theoretic algorithm design, successfully generating two new algorithm variants—VAD-CFR and SHOR-PSRO—that improved convergence over strong baselines. This 'LLM + evolutionary search + automated evaluation' closed-loop framework demonstrates that AI can not only apply known algorithms but creatively discover entirely new ones that humans have never designed. The paper (arXiv: 2602.16928) marks the expansion of AI-assisted algorithm discovery from numerical optimization to the more complex domain of strategic multi-agent interactions."
-      },
-      "source": "TLDR AI",
-      "sourceUrl": "https://huggingface.co/papers/2602.16928",
-      "date": "2026-02-23"
-    },
-    {
-      "id": "trump-tech-corps-ai-abroad",
+      "id": "pinterest-ai-slop-crisis",
       "category": {
         "zh": "行业与政策",
         "en": "Industry & Policy",
         "color": "#8b5cf6"
       },
       "title": {
-        "zh": "美国推出「Tech Corps」计划：通过和平队模式向全球输出 AI 技术",
-        "en": "U.S. Launches 'Tech Corps' to Export American AI Globally via Peace Corps Model"
+        "zh": "Pinterest 深陷「AI 垃圾内容」与自动审核困境",
+        "en": "Pinterest Struggles with 'AI Slop' and Automated Moderation"
       },
       "summary": {
-        "zh": "白宫宣布在和平队框架内推出「Tech Corps」倡议，旨在向全球推广美国 AI 技术并帮助合作伙伴国家采用前沿系统。该计划将招募、培训并派遣具有技术技能的志愿者（包括工程师和 STEM 毕业生），为美国 AI 解决方案在农业、教育、卫生和经济发展等关键领域提供「最后一公里」实施支持。志愿者将被派往参与美国 AI 出口计划的国家，服务期 12 至 27 个月。该倡议在印度 AI 影响力峰会上首次宣布，印度预计将成为首批参与国之一。此举被视为美国在全球范围内对抗中国 AI 影响力（如 Qwen3 和 DeepSeek 等开源模型）的战略部署。",
-        "en": "The White House announced the 'Tech Corps' initiative within the Peace Corps, aimed at promoting American AI abroad and helping partner nations adopt cutting-edge systems. The program will recruit, train, and deploy tech-skilled volunteers, including engineers and STEM graduates, to provide 'last-mile' implementation support for U.S. AI solutions in agriculture, education, health, and economic development. Volunteers will serve 12 to 27 months in countries participating in the American AI Exports Program. First announced at the India AI Impact Summit, India is expected to be among the first participants. The initiative is seen as a strategic move to counter Chinese AI influence globally, particularly open-source models like Qwen3 and DeepSeek that have gained traction in developing nations."
+        "zh": "据报道，Pinterest 正面临一场危机，平台充斥着大量「AI 垃圾」（低质量的 AI 生成图像）以及激进的自动审核。用户抱怨该视觉发现引擎的质量正在下降，越来越难找到真实的人类创作内容。这种情况凸显了生成式 AI 时代，社交媒体平台在平衡 AI 驱动的增长与内容完整性及用户体验方面所面临的严峻挑战。",
+        "en": "Pinterest is reportedly facing a crisis as the platform becomes overwhelmed by 'AI slop'—low-quality, AI-generated images—and aggressive auto-moderation. Users complain that the visual discovery engine's quality is degrading, making it harder to find authentic human-created content. This situation underscores the challenges social media platforms face in balancing AI-driven growth with content integrity and user experience in the generative era."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://www.cnbc.com/2026/02/23/us-launch-peace-corps-tech-corps-india-export-ai-stack-sovereignty-counter-china.html",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.404media.co/pinterest-is-drowning-in-a-sea-of-ai-slop-and-auto-moderation/",
       "date": "2026-02-23"
     },
     {
-      "id": "amp-kills-editor-extensions",
+      "id": "aqua-cli-ai-agents",
       "category": {
         "zh": "工程与工具",
         "en": "Engineering & Tools",
         "color": "#10b981"
       },
       "title": {
-        "zh": "Amp 宣布终结编辑器扩展：「编程智能体已死，CLI 才是未来」",
-        "en": "Amp Kills Editor Extensions: 'The Coding Agent Is Dead, CLI Is the Future'"
+        "zh": "Aqua：一款用于 AI 智能体通信的新型命令行工具",
+        "en": "Aqua: A New CLI Tool for AI Agent Communication"
       },
       "summary": {
-        "zh": "AI 编程工具 Amp 宣布将于 3 月 5 日关闭其 VS Code 和 Cursor 编辑器扩展，转而全力发展 CLI 工具。Amp 创始人在博文中指出，最新一代模型已足够强大，几乎可以使用任何工具，bash 命令行往往就已足够。真正的瓶颈已从模型能力转移到了代码库组织方式上——如何让 AI 理解项目结构、依赖关系和架构决策才是关键。这一激进决定反映了 AI 编程工具领域的一个重要趋势：编辑器集成正在让位于更轻量、更灵活的终端原生体验。Amp 认为，未来的编程智能体不需要 IDE 插件的「脚手架」，而是直接在操作系统层面与开发者协作。",
-        "en": "AI coding tool Amp announced it will shut down its VS Code and Cursor editor extensions on March 5, pivoting entirely to CLI-based tooling. Amp's founder argued in a blog post that the newest generation of models are powerful enough to work with nearly any tool, and bash is often sufficient. The real bottleneck has shifted from model capability to codebase organization—how to help AI understand project structure, dependencies, and architectural decisions. This radical decision reflects an important trend in AI coding tools: editor integrations are giving way to lighter, more flexible terminal-native experiences. Amp believes future coding agents won't need the 'scaffolding' of IDE plugins but will collaborate with developers directly at the OS level."
+        "zh": "Aqua 是一款专为 AI 智能体（Agent）通信和编排设计的命令行工具（CLI）。它为开发者提供了一种在终端直接与自主智能体交互的简便方式，有助于更好地将其集成到现有 DevOps 工作流中。随着生态系统向智能体化 AI 迈进，像 Aqua 这样的工具对于管理日益复杂的「人机」及「机机」通信至关重要。",
+        "en": "Aqua is a new command-line interface (CLI) tool designed specifically for messaging and orchestrating AI agents. It provides a streamlined way for developers to interact with autonomous agents directly from the terminal, facilitating better integration into existing DevOps workflows. As the ecosystem moves toward agentic AI, tools like Aqua are essential for managing the increasing complexity of agent-to-human and agent-to-agent communication."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://ampcode.com/news/the-coding-agent-is-dead",
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/quailyquaily/aqua",
       "date": "2026-02-23"
     },
     {
-      "id": "chatgpt-ads-first-message",
+      "id": "altman-ai-energy-human-comparison",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "奥特曼将 AI 能耗类比为人类 20 年的进食量",
+        "en": "Altman Compares AI Energy Use to 20 Years of Human Food"
+      },
+      "summary": {
+        "zh": "OpenAI 首席执行官 Sam Altman 将训练 AI 所需的能量与人类成长 20 年所需的生物能量（进食）进行了类比，引发热议。这一观点试图将 AI 可持续性的讨论从单纯的电力消耗转向获取智能的效率。然而，社区批评者认为这种类比存在缺陷，因为它忽略了数据中心大规模工业能耗与单个大脑生物能耗在量级上的本质区别。该讨论凸显了 AI 规模扩张与全球能源约束之间日益增长的紧张关系。",
+        "en": "OpenAI CEO Sam Altman has sparked debate by comparing the energy required to train AI models to the biological energy a human consumes over 20 years of development. This perspective attempts to reframe the AI sustainability narrative from raw power consumption to the efficiency of intelligence acquisition. Critics on Hacker News and Reddit argue the comparison is flawed as it ignores the massive industrial scale of data centers compared to a single human brain. The discussion highlights the growing tension between rapid AI scaling and global energy constraints."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://old.reddit.com/r/singularity/comments/1rb2pzf/sam_altman_people_talk_about_how_much_energy_it/",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "big-tech-ai-tax-breaks",
       "category": {
         "zh": "行业与政策",
         "en": "Industry & Policy",
         "color": "#8b5cf6"
       },
       "title": {
-        "zh": "ChatGPT 广告正式上线：免费用户首条消息即可触发，CPM 高达 60 美元",
-        "en": "ChatGPT Ads Go Live: Free Users See Ads From First Message at $60 CPM"
+        "zh": "受 AI 投资推动，科技巨头税单大幅下降",
+        "en": "Big Tech Tax Bills Plunge Amid Massive AI Investments"
       },
       "summary": {
-        "zh": "OpenAI 正在向美国地区的 ChatGPT Free 和 Go 用户推送广告测试，广告可在用户发送第一条消息时即出现。据报道，广告 CPM（每千次展示费用）高达 60 美元，最低投放门槛为 20 万美元，Expedia 和高通等品牌已成为首批广告主。PCMag 编辑实测发现广告尺寸比预期更大，且经常与对话内容无关。这标志着 OpenAI 商业模式的重大转变——从纯订阅制向广告收入的扩展。分析人士指出，60 美元的 CPM 远高于传统数字广告平台，反映了 AI 对话场景中用户注意力的高价值，但也引发了关于 AI 助手中立性和用户体验的广泛讨论。",
-        "en": "OpenAI is rolling out ad tests to ChatGPT Free and Go users in the U.S., with ads appearing as early as the user's very first message. The reported CPM (cost per thousand impressions) is $60 with a $200,000 minimum investment, and brands like Expedia and Qualcomm are among the first advertisers. PCMag editors found the ads larger than expected and often irrelevant to conversations. This marks a significant shift in OpenAI's business model from pure subscriptions to advertising revenue. Analysts note that the $60 CPM is far higher than traditional digital ad platforms, reflecting the high value of user attention in AI conversation contexts, but it has also sparked widespread debate about AI assistant neutrality and user experience."
+        "zh": "亚马逊、Meta 和 Alphabet 报告称，由于激进的 AI 基础设施支出和华盛顿有利的新税收规则，其纳税义务显著降低。这些激励政策允许企业更快速地抵扣研发和资本支出，实际上资助了 AI 军备竞赛。虽然这些政策旨在巩固美国的决策技术领先地位，但在企业利润创纪录的背景下，其纳税贡献也受到了审查。这一转变表明，AI 投资已成为企业财政战略的核心杠杆。",
+        "en": "Amazon, Meta, and Alphabet have reported significantly lower tax liabilities due to aggressive AI infrastructure spending and favorable new tax rules in Washington. These incentives allow companies to deduct R&D and capital expenditures more rapidly, effectively subsidizing the AI arms race. While these policies aim to cement U.S. technological leadership, they have drawn scrutiny regarding corporate tax contributions during a period of record profits. The shift demonstrates how AI investment is now a primary lever for corporate fiscal strategy."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://www.pcmag.com/news/im-seeing-ads-in-chatgpt-openai-broke-its-promise-what-they-look-like",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/news/amazon-meta-and-alphabet-report-plunging-tax-bills-thanks-to-ai-investment-and-new-rules-in-washington-161229652.html",
       "date": "2026-02-23"
     },
     {
-      "id": "china-foresightsafety-bench",
+      "id": "ai-timeline-llm-evolution",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "交互式时间轴追踪从 Transformer 到 GPT-5.3 的 171 个大模型",
+        "en": "Interactive Timeline Tracks 171 LLMs from Transformer to GPT-5.3"
+      },
+      "summary": {
+        "zh": "一个新的社区项目「AI Timeline」绘制了从 2017 年 Transformer 奠基性论文到 2026 年初发布的 GPT-5.3 等 171 个大语言模型的演进地图。该可视化工具突出了模型发布频率的指数级增长，以及从通用模型向专业化变体的转变。它作为行业的完整谱系记录，记录了关键的架构里程碑和不断加快的发布节奏。该工具因其在理清复杂 LLM 领域方面的清晰度而受到关注。",
+        "en": "A new community-driven project, AI Timeline, maps the evolution of 171 Large Language Models starting from the seminal 2017 Transformer paper to the latest GPT-5.3 release in early 2026. The visualization highlights the exponential growth in model frequency and the shift from general-purpose models to specialized variants. It serves as a comprehensive genealogical record for the industry, documenting key architectural milestones and the accelerating pace of model releases. The tool has gained traction for its clarity in navigating the complex LLM landscape."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://llm-timeline.com/",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "met-police-palantir-misconduct-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "伦敦警方部署 Palantir AI 监控警员违规行为",
+        "en": "Met Police Deploy Palantir AI to Flag Officer Misconduct"
+      },
+      "summary": {
+        "zh": "伦敦大都会警察局已开始使用 Palantir 开发的 AI 工具来主动识别潜在的警员违规行为。通过分析内部数据模式，该系统旨在违规行为升级前发出警示，这是恢复公众对警队信任的广泛努力的一部分。然而，此举引发了关于警员隐私以及纪律处分中可能存在算法偏见的重大担忧。这一部署标志着利用预测分析进行内部机构监控迈出了重要一步。",
+        "en": "London's Metropolitan Police Service has begun using AI tools developed by Palantir to proactively identify potential officer misconduct. By analyzing internal data patterns, the system aims to flag problematic behavior before it escalates, part of a broader effort to restore public trust in the force. However, the move has raised significant concerns regarding the privacy of officers and the potential for algorithmic bias in disciplinary actions. This deployment represents a major step in the use of predictive analytics for internal institutional surveillance."
+      },
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/uk-news/2026/feb/22/met-police-ai-tools-officer-misconduct-palantir",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "redefining-software-engineering-ai",
       "category": {
         "zh": "研究与论文",
         "en": "Research & Papers",
         "color": "#ec4899"
       },
       "title": {
-        "zh": "中国发布 ForesightSafety Bench：首个面向前瞻性 AI 安全的综合评估基准",
-        "en": "China Releases ForesightSafety Bench: First Comprehensive Benchmark for Proactive AI Safety"
+        "zh": "ACM 论文建议为 AI 时代重新定义软件工程专业",
+        "en": "ACM Paper Proposes Redefining Software Engineering for the AI Era"
       },
       "summary": {
-        "zh": "Import AI 第 446 期报道了中国研究团队发布的 ForesightSafety Bench，这是一个旨在评估 AI 系统前瞻性安全能力的综合基准测试。与传统安全评估关注模型是否会产生有害输出不同，该基准测试评估模型能否主动识别和预防潜在风险场景。测试涵盖多个维度，包括对抗性攻击检测、隐含偏见识别、长期后果推理以及多步骤安全推理链。初步结果显示，即使是最先进的模型在前瞻性安全推理方面也存在显著不足。该基准的发布标志着中国在 AI 安全研究领域的重要贡献，也反映了全球 AI 安全评估正从被动防御转向主动预防的趋势。",
-        "en": "Import AI Issue 446 covers the release of ForesightSafety Bench by a Chinese research team, a comprehensive benchmark designed to evaluate proactive safety capabilities of AI systems. Unlike traditional safety evaluations that focus on whether models produce harmful outputs, this benchmark assesses whether models can actively identify and prevent potential risk scenarios. The tests span multiple dimensions including adversarial attack detection, implicit bias identification, long-term consequence reasoning, and multi-step safety reasoning chains. Initial results show that even the most advanced models have significant deficiencies in proactive safety reasoning. The release marks an important contribution from China to AI safety research and reflects a global shift in AI safety evaluation from reactive defense to proactive prevention."
+        "zh": "ACM 发表的一篇新研究论文指出，软件工程专业必须进行根本性变革，以在 AI 主导的环境中保持竞争力。作者认为，传统的编码技能正被「基于意图」的工程和非确定性 AI 组件的编排所取代。论文提出了工程教育和专业标准的新框架，强调系统级推理而非语法掌握。它呼吁将重点转向 AI 安全、可靠性以及对随机系统行为的管理。",
+        "en": "A new research paper published via ACM argues that the software engineering profession must undergo a fundamental transformation to remain relevant in an AI-dominated landscape. The authors suggest that traditional coding skills are being superseded by 'intent-based' engineering and the orchestration of non-deterministic AI components. The paper outlines a new framework for engineering education and professional standards, emphasizing system-level reasoning over syntax mastery. It calls for a shift in focus toward AI safety, reliability, and the management of stochastic system behaviors."
       },
-      "source": "Import AI",
-      "sourceUrl": "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas",
+      "source": "ACM Digital Library",
+      "sourceUrl": "https://dl.acm.org/doi/10.1145/3779312",
       "date": "2026-02-23"
     },
     {
-      "id": "glm5-open-weights-leader",
-      "category": {
-        "zh": "模型与 API",
-        "en": "Models & APIs",
-        "color": "#6366f1"
-      },
-      "title": {
-        "zh": "GLM-5 登顶开源模型排行榜：744B 参数 MoE 架构逼近闭源前沿",
-        "en": "GLM-5 Tops Open-Weights Rankings: 744B MoE Architecture Approaches Proprietary Frontier"
-      },
-      "summary": {
-        "zh": "Z.ai 发布 GLM-5，一款 744 亿参数（40 亿活跃参数）的混合专家 Transformer 模型，在 Artificial Analysis 智能指数上以 50 分超越此前的开源领先者 Kimi K2.5（47 分），逼近闭源模型 Claude Opus 4.6（53 分）和 GPT-5.2（51 分）。该模型在 28.5 万亿 Token 上预训练，支持 20 万 Token 输入和 12.8 万 Token 输出，采用 DeepSeek 稀疏注意力机制降低长上下文计算量。在 Chatbot Arena Code 排行榜上，GLM-5 以 1449 Elo 位列开源第一。The Batch 指出，开源 AI 的重心已「决定性地东移」，中国团队近期接连推出 GLM 4.5、Kimi K2/K2.5 和 Qwen3-VL 等领先开源模型。",
-        "en": "Z.ai has released GLM-5, a 744 billion parameter (40 billion active) mixture-of-experts Transformer model that tops the Artificial Analysis Intelligence Index at 50 points, surpassing the previous open-weights leader Kimi K2.5 (47) and approaching proprietary models Claude Opus 4.6 (53) and GPT-5.2 (51). Pretrained on 28.5 trillion tokens, it supports 200K token input and 128K token output, using DeepSeek sparse attention to reduce computation over long contexts. On the Chatbot Arena Code leaderboard, GLM-5 ranks first among open-weights models at 1449 Elo. The Batch notes that the center of gravity in open-weights AI has 'shifted decisively eastward,' with Chinese teams responsible for a succession of leading models including GLM 4.5, Kimi K2/K2.5, and Qwen3-VL."
-      },
-      "source": "The Batch",
-      "sourceUrl": "https://www.deeplearning.ai/the-batch/issue-341/",
-      "date": "2026-02-23"
-    },
-    {
-      "id": "liquid-ai-lfm25-edge-reasoning",
-      "category": {
-        "zh": "模型与 API",
-        "en": "Models & APIs",
-        "color": "#6366f1"
-      },
-      "title": {
-        "zh": "Liquid AI 发布 LFM2.5-1.2B-Thinking：不到 900MB 的边缘推理模型",
-        "en": "Liquid AI Releases LFM2.5-1.2B-Thinking: Sub-900MB Reasoning Model for Edge Devices"
-      },
-      "summary": {
-        "zh": "Liquid AI 发布 LFM2.5-1.2B-Thinking，一款仅需不到 900MB 内存即可运行的推理模型，专为边缘设备设计。该模型采用混合 Transformer-卷积神经网络架构（11.7 亿参数），在 28 万亿 Token 上预训练，通过卷积层仅处理相邻 Token 组而非整个输入序列来降低计算和内存需求。在 Artificial Analysis 智能指数上匹配同等及更大规模模型（如 Qwen3-1.7B），在 CPU 上的推理速度是 Qwen3-1.7B 的两倍，内存占用减少约 45%。训练过程中创新性地合并了 25 个领域专用版本为单一模型。Liquid AI 推荐将其用于智能体任务、数据提取和 RAG，而非知识密集型任务。",
-        "en": "Liquid AI has released LFM2.5-1.2B-Thinking, a reasoning model that runs in under 900MB of memory, designed specifically for edge devices. The model uses a hybrid Transformer-convolutional neural network architecture (1.17 billion parameters), pretrained on 28 trillion tokens, reducing computation and memory by processing only adjacent token groups via convolutional layers rather than the entire input sequence. It matches models of similar and larger size (like Qwen3-1.7B) on the Artificial Analysis Intelligence Index, runs twice as fast on CPUs, and uses about 45% less memory. The training process innovatively merged 25 domain-specialized versions into a single model. Liquid AI recommends it for agentic tasks, data extraction, and RAG rather than knowledge-intensive tasks."
-      },
-      "source": "The Batch",
-      "sourceUrl": "https://www.deeplearning.ai/the-batch/liquid-ais-small-reasoning-model-mixes-attention-with-convolutional-layers-for-efficiency/",
-      "date": "2026-02-23"
-    },
-    {
-      "id": "microsoft-copilot-advisors-debate",
+      "id": "ai-pdf-parsing-challenges",
       "category": {
         "zh": "工程与工具",
         "en": "Engineering & Tools",
         "color": "#10b981"
       },
       "title": {
-        "zh": "微软开发 Copilot Advisors：用 AI 人格辩论任何主题",
-        "en": "Microsoft Develops Copilot Advisors: AI Personas That Debate Any Topic"
+        "zh": "AI 在解析复杂 PDF 文件方面仍面临持久挑战",
+        "en": "The Persistent Struggle of AI with Complex PDF Parsing"
       },
       "summary": {
-        "zh": "微软正在开发一项名为「Copilot Advisors」的新功能，允许用户选择两个 AI 人格（如法律专家和财务专家）就任何主题进行辩论式讨论。每个 AI 顾问拥有独特的声音和观点，用户可以观看它们从不同角度分析问题，甚至可能配备动画肖像。这一功能超越了传统的单一 AI 助手模式，引入了多智能体对抗性推理的概念——通过让不同立场的 AI 互相质疑和挑战，帮助用户获得更全面、更平衡的分析。该功能标志着 AI 助手从「回答问题」向「促进思考」的范式转变，也是微软在 Copilot 生态系统中差异化竞争的最新尝试。",
-        "en": "Microsoft is developing a new feature called 'Copilot Advisors' that allows users to select two AI personas (such as a legal expert and a finance expert) to debate any topic. Each AI advisor has a distinct voice and perspective, enabling users to watch them analyze issues from different angles, potentially with animated portraits. This feature goes beyond the traditional single AI assistant model by introducing multi-agent adversarial reasoning—having AIs with different stances challenge and question each other to help users gain more comprehensive, balanced analysis. The feature marks a paradigm shift from AI assistants that 'answer questions' to ones that 'facilitate thinking,' and represents Microsoft's latest attempt to differentiate within the Copilot ecosystem."
+        "zh": "尽管现代大模型具备强大的推理能力，但从复杂 PDF 中解析非结构化数据仍是一个重大瓶颈。近期对 Jeffrey Epstein 遗产案 20,000 页文档的处理调查显示，标准 AI 工具在处理混乱的邮件链和非标准布局时依然吃力。这种失败凸显了模型智能与数据摄取质量之间的差距，后者常导致 RAG 系统产生「幻觉」。报告强调，解决「PDF 难题」对于 AI 在法律和调查新闻领域发挥真正作用至关重要。",
+        "en": "Despite the reasoning capabilities of modern LLMs, parsing unstructured data from complex PDFs remains a significant bottleneck. A recent investigation into the processing of 20,000 pages of Jeffrey Epstein's estate documents revealed that standard AI tools still struggle with garbled email threads and non-standard layouts. This failure highlights the gap between model intelligence and data ingestion quality, which often leads to 'hallucinations' in RAG systems. The report emphasizes that solving the 'PDF problem' is essential for AI to be truly useful in legal and investigative journalism contexts."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://thesocialjuice.substack.com/p/this-week-in-marketing-the-new-age",
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/882891/ai-pdf-parsing-failure",
       "date": "2026-02-23"
     }
   ]
