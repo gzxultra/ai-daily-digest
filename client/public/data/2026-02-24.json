@@ -5,251 +5,248 @@
     "en": "February 24, 2026"
   },
   "crawlLog": {
-    "fetchedAt": "2026-02-24T18:12:00Z",
-    "elapsedSeconds": 120,
-    "rawArticles": 22,
-    "afterFilter": 18,
-    "afterDedup": 12,
-    "dedupRemoved": 6,
+    "fetchedAt": "2026-02-24T16:04:02Z",
+    "elapsedSeconds": 107,
+    "rawArticles": 47,
+    "afterFilter": 42,
+    "afterDedup": 37,
+    "dedupRemoved": 5,
     "finalStories": 12,
     "model": "gemini-3-flash-preview",
     "sourceBreakdown": {
-      "TLDR AI": 3,
-      "The Batch": 2,
-      "Hacker News": 3,
       "Ben's Bites": 1,
-      "Import AI": 1,
-      "Tom's Hardware": 1,
-      "CNBC": 1
+      "Hacker News": 5,
+      "Reddit": 4,
+      "The Verge AI": 2
     }
   },
   "news": [
     {
-      "id": "anthropic-distillation-attacks-deepseek",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "Anthropic 揭露 DeepSeek、Moonshot 和 MiniMax 大规模蒸馏攻击",
-        "en": "Anthropic Exposes Industrial-Scale Distillation Attacks by DeepSeek, Moonshot, and MiniMax"
-      },
-      "summary": {
-        "zh": "Anthropic 发布报告称，DeepSeek、Moonshot AI 和 MiniMax 三家中国 AI 实验室通过约 24,000 个虚假账户与 Claude 进行了超过 1600 万次交互，以非法提取其模型能力。其中 MiniMax 规模最大（1300 万次），DeepSeek 专注于推理链提取和审查规避训练数据生成，Moonshot 则针对智能体推理和计算机视觉。Anthropic 警告称，蒸馏模型缺乏必要的安全护栏，构成重大国家安全风险，并呼吁加强出口管制。",
-        "en": "Anthropic published a detailed report revealing that three Chinese AI labs—DeepSeek, Moonshot AI, and MiniMax—created approximately 24,000 fraudulent accounts and generated over 16 million exchanges with Claude to illicitly extract its capabilities. MiniMax conducted the largest campaign (13M exchanges) targeting agentic coding, DeepSeek focused on chain-of-thought extraction and censorship-safe training data generation, while Moonshot targeted agentic reasoning and computer vision. Anthropic warns that distilled models lack critical safety guardrails, posing significant national security risks, and calls for stronger export controls."
-      },
-      "source": "TLDR AI",
-      "sourceUrl": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "goldman-sachs-ai-zero-gdp",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "高盛：AI 投资对 2025 年美国 GDP 增长贡献「基本为零」",
-        "en": "Goldman Sachs: AI Investment Added 'Basically Zero' to US GDP Growth in 2025"
-      },
-      "summary": {
-        "zh": "高盛首席经济学家 Jan Hatzius 表示，AI 投资对 2025 年美国 GDP 增长的贡献「基本为零」，推翻了此前广泛流传的乐观叙事。主要原因是 AI 硬件大量依赖进口——芯片和设备的采购实际上增加了台湾和韩国的 GDP，而非美国。此外，一项涵盖近 6,000 名高管的调查显示，尽管 70% 的企业在使用 AI，约 80% 报告称对就业或生产力没有影响。这一发现引发了华尔街对 AI 投资回报率的重新审视。",
-        "en": "Goldman Sachs Chief Economist Jan Hatzius stated that AI investment spending had 'basically zero' contribution to US GDP growth in 2025, challenging a widely held narrative. The key reason is that much AI hardware is imported—purchasing chips and equipment actually boosts Taiwan's and South Korea's GDP, not America's. Additionally, a survey of nearly 6,000 executives found that despite 70% of firms actively using AI, about 80% reported no impact on employment or productivity. This finding has prompted Wall Street to reassess the return on AI investment."
-      },
-      "source": "Hacker News",
-      "sourceUrl": "https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "fdm1-general-computer-action-model",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "FDM-1：首个通用计算机操作基础模型，基于 1100 万小时视频训练",
-        "en": "FDM-1: First Fully General Computer Action Model Trained on 11 Million Hours of Video"
-      },
-      "summary": {
-        "zh": "Standard Intelligence 发布 FDM-1，这是首个完全通用的计算机操作基础模型。该模型在 1100 万小时的屏幕录制视频上训练，其视频编码器可将近 2 小时的 30fps 视频压缩到仅 100 万个 token 中——比此前最优方案高效 50 倍，比 OpenAI 编码器高效 100 倍。FDM-1 能够自主执行 CAD 建模（在 Blender 中制作齿轮）、驾驶真实汽车以及对网站进行模糊测试，标志着从截图式 VLM 方法向真正视频原生计算机智能体的范式转变。",
-        "en": "Standard Intelligence released FDM-1, the first fully general foundation model for computer use. Trained on 11 million hours of screen recording video, its video encoder compresses nearly 2 hours of 30fps video into just 1 million tokens—50x more efficient than previous state-of-the-art and 100x more efficient than OpenAI's encoder. FDM-1 can autonomously perform CAD modeling (making gears in Blender), drive real cars, and fuzz websites for bugs, marking a paradigm shift from screenshot-based VLM approaches to truly video-native computer agents."
-      },
-      "source": "TLDR AI",
-      "sourceUrl": "https://si.inc/posts/fdm1/",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "asml-euv-1000w-breakthrough",
-      "category": {
-        "zh": "硬件与基础设施",
-        "en": "Hardware & Infra",
-        "color": "#f97316"
-      },
-      "title": {
-        "zh": "ASML 实现 EUV 光源突破：1000 瓦功率可将芯片产量提升 50%",
-        "en": "ASML Achieves EUV Breakthrough: 1,000-Watt Light Source Could Boost Chip Output by 50%"
-      },
-      "summary": {
-        "zh": "ASML 宣布其 EUV 光刻技术取得重大突破，成功将极紫外光源功率从 600 瓦提升至 1,000 瓦。新光源通过三束激光每秒照射 10 万个锡液滴来实现更高功率。这一进展有望在 2030 年前将芯片产量从每小时 220 片晶圆提升至 330 片，增幅达 50%。对于 AI 行业而言，这意味着先进制程芯片（如用于训练和推理的 GPU）的供应瓶颈有望显著缓解。",
-        "en": "ASML announced a major breakthrough in EUV lithography, successfully boosting extreme ultraviolet light source power from 600 watts to 1,000 watts. The new source fires three lasers at 100,000 tin droplets per second to achieve higher power. This advancement could increase chip output from 220 wafers per hour to 330 by 2030—a 50% increase. For the AI industry, this means the supply bottleneck for advanced-node chips used in training and inference GPUs could be significantly alleviated."
-      },
-      "source": "Tom's Hardware",
-      "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/asml-makes-breakthrough-in-euv-chipmaking-tech-plans-to-increase-speed-by-50-percent-by-2030-new-1-000-watt-light-source-fires-three-lasers-at-100-000-tin-droplets-every-second",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "ibm-stock-crash-anthropic-cobol",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "Anthropic 展示 Claude Code 可自动化 COBOL 现代化，IBM 股价暴跌 13%",
-        "en": "IBM Stock Plunges 13% After Anthropic Demonstrates Claude Code for COBOL Modernization"
-      },
-      "summary": {
-        "zh": "Anthropic 发布博文展示 Claude Code 可以自动化 COBOL 代码现代化中最耗时的探索和分析阶段后，IBM 股价单日暴跌 13.2%，收于 223.35 美元，创 2000 年以来最大跌幅。IBM 每年约 160 亿美元的大型机业务严重依赖 COBOL 维护和迁移服务。尽管 IBM 辩称 AI 工具「无法替代」其深度行业专业知识，但投资者显然对 AI 颠覆这一传统利润中心的前景感到恐慌。",
-        "en": "IBM shares plunged 13.2% to $223.35—the largest single-day drop since 2000—after Anthropic published a blog post demonstrating that Claude Code can automate the exploration and analysis phases that consume most effort in COBOL modernization. IBM's approximately $16 billion annual mainframe business relies heavily on COBOL maintenance and migration services. While IBM argued that AI tools 'can't replace' its deep industry expertise, investors clearly panicked at the prospect of AI disrupting this traditional profit center."
-      },
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/02/23/ibm-is-the-latest-ai-casualty-shares-are-tanking-on-anthropic-cobol-threat.html",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "llada21-diffusion-language-model",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "LLaDA2.1：蚂蚁集团发布可编辑扩散语言模型，推理速度超 1500 tok/s",
-        "en": "LLaDA2.1: Ant Group's Editable Diffusion Language Model Achieves Over 1,500 Tokens/Second"
-      },
-      "summary": {
-        "zh": "蚂蚁集团发布 LLaDA2.1，这是一种离散扩散语言模型，通过创新的 Token-to-Token（T2T）编辑机制实现生成过程中的动态纠错。模型提供两种模式：Speedy Mode 使用激进的置信度阈值快速起草后再精炼，Quality Mode 则保持保守阈值以获得更高基准分数。LLaDA2.1-Flash（1000 亿参数）在 HumanEval+ 上达到 892 tok/s，Mini 版本（160 亿参数）峰值速度超过 1,500 tok/s。该模型还引入了首个面向扩散语言模型的大规模强化学习框架。",
-        "en": "Ant Group released LLaDA2.1, a discrete diffusion language model that enables dynamic error correction during generation through a novel Token-to-Token (T2T) editing mechanism. The model offers two modes: Speedy Mode uses aggressive confidence thresholds for rapid drafting with refinement, while Quality Mode maintains conservative thresholds for superior benchmark scores. LLaDA2.1-Flash (100B parameters) achieves 892 tokens/second on HumanEval+, and the Mini version (16B parameters) reaches peak speeds exceeding 1,500 tok/s. It also introduces the first large-scale reinforcement learning framework for diffusion language models."
-      },
-      "source": "The Batch",
-      "sourceUrl": "https://arxiv.org/abs/2602.08676",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "steerling-8b-interpretable-lm",
+      "id": "gemini-benchmark-lead",
       "category": {
         "zh": "模型与 API",
         "en": "Models & APIs",
         "color": "#6366f1"
       },
       "title": {
-        "zh": "Steerling-8B：首个可解释自身每个 token 生成原因的语言模型",
-        "en": "Steerling-8B: First Language Model That Can Explain Any Token It Generates"
+        "zh": "Gemini 再次领跑基准测试，速度提升 10 倍",
+        "en": "Gemini Tops Benchmarks with 10x Faster Performance"
       },
       "summary": {
-        "zh": "Guide Labs 发布 Steerling-8B，这是首个「内在可解释」的 80 亿参数语言模型。与事后分析不同，Steerling-8B 在架构和损失函数层面就将可解释性作为约束条件：对于模型生成的任何文本片段，它能回答哪个内部概念负责了该 token 的生成，甚至能追溯到导致该输出的具体训练数据。该项目在 Hacker News 上获得 248 分和 72 条评论，引发了关于 LLM 可解释性方法论的深入讨论。",
-        "en": "Guide Labs released Steerling-8B, the first 'inherently interpretable' 8-billion-parameter language model. Unlike post-hoc analysis methods, Steerling-8B embeds interpretability as an architectural and loss function constraint: for any chunk of text the model generates, it can identify which internal concept was responsible for that token and even trace back to the specific training data that caused the output. The project earned 248 points and 72 comments on Hacker News, sparking in-depth discussion about LLM interpretability methodologies."
-      },
-      "source": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com/item?id=47131225",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "mit-chatbot-bias-vulnerable-users",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "MIT 研究：AI 聊天机器人对弱势用户提供更差的回答",
-        "en": "MIT Study: AI Chatbots Provide Worse Answers to Vulnerable Users"
-      },
-      "summary": {
-        "zh": "MIT 研究人员发现，GPT-4、Claude 3 Opus 和 Llama 3 等主流 AI 聊天机器人对英语水平较低、教育程度较低或非美国用户提供的回答准确性明显下降。Claude 3 Opus 对低教育程度非母语用户的查询拒绝率高达 11%，而对照组仅为 3.6%。更令人担忧的是，Claude 对低教育程度用户使用居高临下语气的比例达 43.7%，而对高教育程度用户不到 1%，有时甚至模仿蹩脚英语。这些偏见在交叉身份中进一步叠加放大。",
-        "en": "MIT researchers found that leading AI chatbots including GPT-4, Claude 3 Opus, and Llama 3 deliver significantly less accurate responses to users with lower English proficiency, less formal education, or non-US origins. Claude 3 Opus refused 11% of queries from less-educated, non-native English speakers compared to just 3.6% for control users. More alarmingly, Claude responded with condescending or patronizing language 43.7% of the time for less-educated users versus less than 1% for highly educated users, sometimes mimicking broken English. These biases compound at intersecting identities."
-      },
-      "source": "The Batch",
-      "sourceUrl": "https://news.mit.edu/2026/study-ai-chatbots-provide-less-accurate-information-vulnerable-users-0219",
-      "date": "2026-02-24"
-    },
-    {
-      "id": "chatgpt-pro-lite-100-tier",
-      "category": {
-        "zh": "模型与 API",
-        "en": "Models & APIs",
-        "color": "#6366f1"
-      },
-      "title": {
-        "zh": "OpenAI 准备推出 100 美元/月的 ChatGPT Pro Lite 中间订阅层",
-        "en": "OpenAI Prepares $100/Month ChatGPT Pro Lite Subscription Tier"
-      },
-      "summary": {
-        "zh": "开发者在 ChatGPT 网页应用代码中发现了新的 100 美元/月「Pro Lite」订阅层级的引用，定位于现有的 20 美元 Plus 和 200 美元 Pro 之间。据代码分析，Pro Lite 将提供 Plus 的 3-5 倍推理配额，可能还包括 Codex 使用权限，旨在服务那些经常触及 Plus 速率限制但不需要 Pro 无限访问的用户。虽然 OpenAI 尚未确认发布日期，但这一发现表明公司正在细化其商业化策略以覆盖更广泛的付费用户群体。",
-        "en": "Developers discovered references to a new $100/month 'Pro Lite' subscription tier in ChatGPT's web app checkout code, positioned between the existing $20 Plus and $200 Pro plans. Based on code analysis, Pro Lite would offer 3-5x the reasoning quotas of Plus and potentially include Codex access, targeting users who frequently hit Plus rate limits but don't need unlimited Pro access. While OpenAI hasn't confirmed a release date, this discovery suggests the company is refining its monetization strategy to capture a broader range of paying users."
+        "zh": "Google 的 Gemini 模型再次在行业基准测试中夺冠，展示了显著的性能提升。最新更新的模型据称比之前的版本快 10 倍，大幅降低了企业级应用的延迟。这一进展强调了 AI 领域向「咨询视角」转变的趋势，即在实际集成中优先考虑速度和效率。随着竞争加剧，Google 对吞吐量和成本效益的关注使 Gemini 成为大规模商业用例的有力选择。",
+        "en": "Google's Gemini models have once again claimed the top spot in industry benchmarks, demonstrating significant performance gains. The latest updates feature models that are reportedly 10x faster than previous iterations, significantly reducing latency for enterprise applications. This development underscores a growing shift toward the consulting angle of AI, where speed and efficiency are prioritized for real-world integration. As competition intensifies, Google's focus on throughput and cost-effectiveness positions Gemini as a formidable choice for high-volume commercial use cases."
       },
       "source": "Ben's Bites",
-      "sourceUrl": "https://www.neowin.net/news/chatgpt-might-launch-a-new-mid-tier-plan-that-costs-100month/",
+      "sourceUrl": "https://www.bensbites.com/p/gemini-tops-benchmarks-again",
       "date": "2026-02-24"
     },
     {
-      "id": "wolfram-foundation-tool-llm",
+      "id": "ladybird-rust-ai-migration",
       "category": {
         "zh": "工程与工具",
         "en": "Engineering & Tools",
         "color": "#10b981"
       },
       "title": {
-        "zh": "Stephen Wolfram 将 Wolfram 技术开放为 LLM 系统的基础工具",
-        "en": "Stephen Wolfram Makes Wolfram Tech Available as a Foundation Tool for LLM Systems"
+        "zh": "Ladybird 浏览器在 AI 辅助下转向 Rust 语言",
+        "en": "Ladybird Browser Adopts Rust via AI-Assisted Migration"
       },
       "summary": {
-        "zh": "Stephen Wolfram 宣布将 Wolfram 技术栈作为 LLM 系统的「基础工具」开放，提出「计算增强生成」（CAG）概念来补充 LLM 基础模型。与 RAG（检索增强生成）不同，CAG 让 LLM 能够调用 Wolfram Language 的精确计算和结构化知识库，解决大模型在数学推理、科学计算和事实查询方面的固有弱点。该文章在 Hacker News 上获得 232 分和 131 条评论，引发了关于 LLM 工具使用范式的广泛讨论。",
-        "en": "Stephen Wolfram announced making the Wolfram technology stack available as a 'Foundation Tool' for LLM systems, introducing the concept of 'Computation-Augmented Generation' (CAG) to supplement LLM foundation models. Unlike RAG (Retrieval-Augmented Generation), CAG enables LLMs to invoke Wolfram Language's precise computation and structured knowledge base, addressing inherent weaknesses in mathematical reasoning, scientific computation, and factual queries. The post earned 232 points and 131 comments on Hacker News, sparking broad discussion about LLM tool-use paradigms."
+        "zh": "Ladybird 浏览器项目宣布战略性地转向 Rust 编程语言，并利用 AI 工具辅助大规模代码库的迁移。此举旨在增强内存安全性和性能，解决 C++ 固有的长期漏洞。通过利用 AI 辅助重构，团队可以在保持高代码质量的同时加速转换过程。这一举措突显了大语言模型（LLM）在大型软件工程和关键基础设施现代化中日益增长的作用。",
+        "en": "The Ladybird browser project has announced a strategic transition to the Rust programming language, leveraging AI tools to facilitate the massive codebase migration. This move aims to enhance memory safety and performance, addressing long-standing vulnerabilities inherent in C++. By utilizing AI-assisted refactoring, the team can accelerate the conversion process while maintaining high code quality. This initiative highlights the growing role of LLMs in large-scale software engineering and the modernization of critical infrastructure."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/",
+      "sourceUrl": "https://ladybird.org/posts/adopting-rust/",
       "date": "2026-02-24"
     },
     {
-      "id": "deepseek-v4-engram-imminent",
+      "id": "firefox-ai-kill-switch",
       "category": {
-        "zh": "模型与 API",
-        "en": "Models & APIs",
-        "color": "#6366f1"
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
       },
       "title": {
-        "zh": "DeepSeek V4 即将发布：Engram 架构、百万级上下文、开源",
-        "en": "DeepSeek V4 Imminent: Engram Architecture, Million-Token Context, Open Source"
+        "zh": "Firefox 148 发布，引入 AI 一键关闭功能",
+        "en": "Firefox 148 Debuts with Universal AI Kill Switch"
       },
       "summary": {
-        "zh": "多方消息源证实 DeepSeek V4 即将在本月底前发布，引发市场广泛关注。V4 将采用 DeepSeek 今年 1 月在 arXiv 上发表的 Engram 架构——一种「条件记忆」机制，允许模型在推理时动态调用和更新长期记忆。预计支持超过 100 万 token 的上下文窗口，并将继续保持开源。消息传出后，纳斯达克 AI 相关股票出现波动，投资者担忧可能重演今年初 DeepSeek 冲击波的市场影响。",
-        "en": "Multiple sources confirm that DeepSeek V4 is imminent, expected before the end of February, sparking significant market attention. V4 will feature the Engram architecture—a 'conditional memory' mechanism published on arXiv in January—that allows the model to dynamically access and update long-term memory during inference. It is expected to support over 1 million tokens of context and will remain open source. The news has caused volatility in Nasdaq AI-related stocks, with investors fearing a repeat of the DeepSeek shock wave from earlier this year."
+        "zh": "Mozilla 发布了 Firefox 148，引入了备受期待的「AI 一键关闭」（AI Kill Switch）功能，允许用户通过单个开关禁用所有 AI 驱动的功能。此更新回应了用户对隐私以及现代软件中强制 AI 集成侵入性的日益担忧。除了该开关外，此版本还包括多项性能增强和安全补丁。Firefox 的立场强调了在 AI 遍布浏览器的时代，用户自主权和数据主权的重要性。",
+        "en": "Mozilla has released Firefox 148, introducing a highly anticipated AI Kill Switch feature that allows users to disable all AI-driven functionalities with a single toggle. This update responds to growing user concerns regarding privacy and the intrusive nature of forced AI integrations in modern software. Beyond the kill switch, the release includes various performance enhancements and security patches. Firefox's stance emphasizes user agency and data sovereignty in an era where AI is becoming ubiquitous across web browsers."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://blog.kilo.ai/p/deepseek-v4-rumors-vs-reality-for",
+      "source": "Hacker News",
+      "sourceUrl": "https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/",
       "date": "2026-02-24"
     },
     {
-      "id": "nist-ai-agent-security-comment",
+      "id": "goldman-sachs-ai-economic-impact",
       "category": {
         "zh": "行业与政策",
         "en": "Industry & Policy",
         "color": "#8b5cf6"
       },
       "title": {
-        "zh": "NIST 就 AI 智能体安全标准征求公众意见，截止 3 月 9 日",
-        "en": "NIST Seeks Public Comment on AI Agent Security Standards, Deadline March 9"
+        "zh": "高盛：AI 对去年美国经济增长的贡献几乎为零",
+        "en": "Goldman Sachs: AI Impact on US GDP Growth Was Negligible"
       },
       "summary": {
-        "zh": "美国国家标准与技术研究院（NIST）在联邦公报上发布公告，就 AI 智能体安全标准征求公众意见，截止日期为 2026 年 3 月 9 日。随着自主 AI 智能体在软件工程、金融和网络安全等领域的快速部署，NIST 认为需要建立专门的安全框架来应对智能体特有的风险，包括权限升级、不可预测行为和多智能体协调中的安全漏洞。该公告在 Hacker News 上引发了关于监管时机和技术可行性的讨论。",
-        "en": "The National Institute of Standards and Technology (NIST) has published a Federal Register notice seeking public comment on AI agent security standards, with a deadline of March 9, 2026. As autonomous AI agents are rapidly deployed in software engineering, finance, and cybersecurity, NIST recognizes the need for dedicated security frameworks addressing agent-specific risks including privilege escalation, unpredictable behavior, and security vulnerabilities in multi-agent coordination. The notice has sparked discussion on Hacker News about regulatory timing and technical feasibility."
+        "zh": "高盛（Goldman Sachs）最近的一份报告指出，过去一年 AI 对美国经济增长的贡献「基本为零」，为围绕该技术的狂热降温。尽管 AI 领军企业获得了巨额投资和股市上涨，但对 GDP 和生产率指标的切实影响尚未大规模显现。分析师指出，企业采用需要较长的置前时间，且目前的重点是基础设施而非应用。这一发现为投资者关于 AI 驱动经济转型的具体时间表敲响了警钟。",
+        "en": "A recent report from Goldman Sachs suggests that AI contributed basically zero to US economic growth over the past year, tempering the intense hype surrounding the technology. Despite massive investments and stock market gains for AI leaders, the tangible impact on GDP and productivity metrics has yet to materialize at scale. Analysts point to the long lead times required for enterprise adoption and the current focus on infrastructure over application. This finding serves as a reality check for investors regarding the timeline for AI-driven economic transformation."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/02/24/2026-03891/request-for-information-on-artificial-intelligence-agent-security",
+      "sourceUrl": "https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "wolfram-llm-foundation-tool",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Wolfram 技术成为 LLM 系统的基础工具",
+        "en": "Wolfram Tech Integrated as Foundation Tool for LLMs"
+      },
+      "summary": {
+        "zh": "Stephen Wolfram 宣布将 Wolfram 技术作为大语言模型（LLM）系统的基础工具。通过让 LLM 访问 Wolfram 的计算引擎和经过策划的知识库，该倡议旨在解决数学和逻辑推理中持久存在的「幻觉」问题。这种混合方法将 LLM 的语言流畅性与 WolframAlpha 的符号精确性相结合。此举预计将显著提高 AI 在科学、工程和金融领域的可靠性。",
+        "en": "Stephen Wolfram has announced the integration of Wolfram technology as a foundational tool for Large Language Model (LLM) systems. By providing LLMs with access to Wolfram's computational engine and curated knowledge base, the initiative aims to solve the persistent issue of hallucinations in mathematical and logical reasoning. This hybrid approach combines the linguistic fluency of LLMs with the symbolic precision of WolframAlpha. The move is expected to significantly enhance the reliability of AI in scientific, engineering, and financial domains."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "ai-novel-verbatim-copy",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究发现 AI 可逐字复制受版权保护的小说",
+        "en": "Study Finds AIs Can Reproduce Novels Verbatim"
+      },
+      "summary": {
+        "zh": "一项新研究显示，现代 AI 模型可以从其训练数据中生成受版权保护小说的近乎逐字副本。研究表明，特定的提示词可以触发模型输出流行文学中冗长且完全相同的段落，引发了重大的法律和伦理担忧。这一发现为目前正在法庭诉讼中的「数据泄露」和版权侵权指控提供了实证。它强调了在生成式 AI 开发中，迫切需要更强大的数据过滤和归属机制。",
+        "en": "New research reveals that modern AI models can generate near-verbatim copies of copyrighted novels from their training data. The study demonstrates that specific prompts can trigger the models to output lengthy, identical passages from popular literature, raising significant legal and ethical concerns. This finding provides empirical evidence for data leakage and copyright infringement claims currently being litigated in courts. It underscores the urgent need for more robust data filtering and attribution mechanisms in the development of generative AI."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arstechnica.com/ai/2026/02/ais-can-generate-near-verbatim-copies-of-novels-from-training-data/",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "neural-pde-learned-warps",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "完全基于学习坐标扭曲构建的神经 PDE 求解器",
+        "en": "Neural PDE Solvers Built Entirely from Learned Coordinate Warps"
+      },
+      "summary": {
+        "zh": "研究人员开发了一种新型神经偏微分方程（PDE）求解器，几乎完全依赖于学习到的坐标扭曲，而无需传统的傅里叶层、注意力机制或复杂的空间卷积。该模型在「The Well」基准测试的多种问题上表现优于现有所有同规模模型。通过专注于空间变换，该方法为科学计算提供了一个简化且高效的框架。这项研究表明，在物理模拟中，几何归纳偏置可能比复杂的架构层更为强大。",
+        "en": "Researchers have developed a novel neural Partial Differential Equation (PDE) solver that relies almost exclusively on learned coordinate warps, bypassing traditional components like Fourier layers, attention mechanisms, or heavy spatial convolutions. The model demonstrates superior performance compared to existing architectures on a wide range of problems within 'The Well' benchmark. By focusing on spatial transformations, this approach offers a simplified yet highly effective framework for scientific computing. This research suggests that geometric inductive biases can be more powerful than complex architectural layers for physical simulations."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rcgmrh/r_neural_pde_solvers_built_almost_purely_from/",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "concept-influence-tda",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Concept Influence：通过可解释性实现提速 20 倍的训练数据归因",
+        "en": "Concept Influence: 20x Faster Training Data Attribution via Interpretability"
+      },
+      "summary": {
+        "zh": "一种名为「Concept Influence」的新方法通过将模型行为链接到可解释向量（如 SAE 特征）而非单个测试样本，显著改进了训练数据归因（TDA）。该方法解决了标准影响函数中存在的词汇重叠偏差，且运行速度提高了 20 倍。通过使 TDA 在语义上更具意义，它让研究人员能更好地理解哪些训练概念驱动了特定的模型输出。这种效率提升使得大规模生产系统的深度模型可解释性变得更加可行。",
+        "en": "A new method called 'Concept Influence' improves Training Data Attribution (TDA) by linking model behavior to interpretable vectors, such as SAE features, rather than individual test examples. This approach addresses the lexical overlap bias found in standard influence functions and operates 20 times faster. By making TDA more semantically meaningful, it allows researchers to better understand which training concepts drive specific model outputs. This efficiency gain makes deep model interpretability more feasible for large-scale production systems."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rct2c7/r_concept_influence_training_data_attribution_via/",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "qwen3-5-spotted",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.5 新模型在官方聊天平台现身",
+        "en": "New Qwen3.5 Models Spotted on Official Chat Platform"
+      },
+      "summary": {
+        "zh": "用户报告称，阿里巴巴官方的 Qwen 聊天界面出现了新的 Qwen3.5 模型变体，预示着重大更新即将发布。虽然技术细节尚未公开，但继 Qwen2.5 系列取得成功后，社区普遍预期其在推理、编程和多语言能力方面将有显著提升。此次更新使阿里巴巴有望在开源权重模型生态系统中保持领先地位。这一迹象表明模型目前正处于最后测试阶段或逐步推出过程中。",
+        "en": "Users have reported the appearance of new Qwen3.5 model variants on Alibaba's official Qwen chat interface, signaling an imminent major release. While technical details remain under wraps, the community anticipates significant upgrades in reasoning, coding, and multilingual capabilities following the success of the Qwen2.5 series. This update positions Alibaba to maintain its leadership in the open-weights model ecosystem. The spotting suggests that the models are currently in final-stage testing or a phased rollout."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rdfhfx/new_qwen35_models_spotted_on_qwen_chat/",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "liquid-ai-lfm2-24b",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Liquid AI 发布 LFM2-24B-A2B 稀疏混合专家模型",
+        "en": "Liquid AI Releases LFM2-24B-A2B Sparse MoE Model"
+      },
+      "summary": {
+        "zh": "Liquid AI 推出了 LFM2-24B-A2B，这是一款稀疏混合专家（MoE）模型，总参数量为 240 亿，每个 token 的激活参数仅为 20 亿。该发布展示了 Liquid Foundation Model (LFM) 混合架构的可扩展性，旨在不牺牲质量的前提下优化计算效率。该模型将 LFM2 家族从最初的小规模版本扩展到了适用于复杂任务的更强大尺寸，代表了非 Transformer 架构在竞争激烈的 LLM 领域迈出的重要一步。",
+        "en": "Liquid AI has launched LFM2-24B-A2B, a sparse Mixture-of-Experts (MoE) model with 24 billion total parameters and 2 billion active parameters per token. This release demonstrates the scalability of the Liquid Foundation Model (LFM) hybrid architecture, which aims to optimize compute efficiency without sacrificing quality. The model expands the LFM2 family from its initial small-scale versions to a more robust size suitable for complex tasks. It represents a significant step for non-transformer architectures in the competitive LLM landscape."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rdi26s/liquid_ai_releases_lfm224ba2b/",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "claude-code-success",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude Code 在开发者群体中实现重大产品市场契合",
+        "en": "Claude Code Achieves Major Product-Market Fit for Developers"
+      },
+      "summary": {
+        "zh": "Anthropic 的 Claude Code 获得了快速普及，通过将 AI 直接集成到终端环境中，成为了开发者的首选工具。该工具允许用户在本地构建、调试和迭代代码，从简单的聊天界面转向更具代理特性的工作流。它的成功凸显了市场对无缝嵌入现有专业环境、无需频繁切换上下文的 AI 工具的需求日益增长。Anthropic 对基于终端交互的关注引起了专业工程师和跨学科创作者的共鸣。",
+        "en": "Anthropic's Claude Code has seen rapid adoption, becoming a primary tool for developers by integrating AI directly into the terminal environment. The tool allows users to build, debug, and iterate on code locally, moving beyond simple chat interfaces to more agentic workflows. Its success highlights a growing demand for AI tools that fit seamlessly into existing professional environments rather than requiring context switching. Anthropic's focus on terminal-based interaction has resonated with both professional engineers and cross-disciplinary creators."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/883604/claude-code-ai-future-creator-privacy-vergecast",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "google-acquires-producer-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Google 收购 ProducerAI 助力下一代音乐创作",
+        "en": "Google Acquires ProducerAI to Power Next-Gen Music Creation"
+      },
+      "summary": {
+        "zh": "Google 收购了 AI 驱动的音乐制作平台 ProducerAI，并将其并入 Google Labs 部门。该平台将采用 Google 全新的 Lyria 3 音乐创作模型的预览版进行升级，使用户能够通过 AI 代理生成声音、打磨歌词并创建新乐器。此次收购表明 Google 意图通过为音乐家和创作者提供专业级工具来主导生成式音频领域。这笔交易反映了创意 AI 初创公司不断并入大型科技生态系统的趋势。",
+        "en": "Google has acquired ProducerAI, an AI-powered music production platform, and will integrate it into the Google Labs division. The platform will be upgraded with a preview version of Google's new Lyria 3 music-making model, enabling users to generate sounds, workshop lyrics, and create new instruments with an AI agent. This acquisition signals Google's intent to dominate the generative audio space by providing professional-grade tools for musicians and creators. The deal reflects the ongoing consolidation of creative AI startups into major tech ecosystems."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/883307/google-producerai-deal-music",
       "date": "2026-02-24"
     }
   ]
