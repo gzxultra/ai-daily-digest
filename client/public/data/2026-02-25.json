@@ -5,214 +5,58 @@
     "en": "February 25, 2026"
   },
   "crawlLog": {
-    "fetchedAt": "2026-02-25T18:30:00Z",
-    "elapsedSeconds": 142,
-    "rawArticles": 58,
-    "afterFilter": 48,
-    "afterDedup": 40,
-    "dedupRemoved": 8,
+    "fetchedAt": "2026-02-25T16:08:59Z",
+    "elapsedSeconds": 121,
+    "rawArticles": 27,
+    "afterFilter": 23,
+    "afterDedup": 20,
+    "dedupRemoved": 3,
     "finalStories": 12,
-    "model": "manus-agent",
+    "model": "gemini-3-flash-preview",
     "sourceBreakdown": {
-      "Hacker News": 3,
-      "TLDR AI": 2,
-      "Ben's Bites": 2,
+      "Hacker News": 7,
       "The Guardian": 1,
-      "TechCrunch": 1,
-      "VentureBeat": 1,
-      "CNBC": 1,
-      "Reuters": 1
+      "Reuters": 1,
+      "The Verge": 3
     }
   },
   "news": [
     {
-      "id": "pentagon-anthropic-ultimatum",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "五角大楼向 Anthropic 下最后通牒：周五前放弃 AI 安全限制否则取消合同",
-        "en": "Pentagon Gives Anthropic Friday Deadline to Drop Claude Safeguards or Lose $200M Contract"
-      },
-      "summary": {
-        "zh": "美国国防部长 Pete Hegseth 与 Anthropic CEO Dario Amodei 会面后，给出周五最后期限，要求 Anthropic 同意军方无限制使用 Claude 模型，否则将终止价值 2 亿美元的合同并将其列为「供应链风险」。Anthropic 拒绝允许 Claude 用于大规模监控和无人自主武器系统。此前 Claude 是唯一被允许用于军方机密系统的 AI 模型，而 xAI 和 OpenAI 已同意政府条款。此事件是 AI 行业是否应抵制政府军事化需求的关键转折点。",
-        "en": "Defense Secretary Pete Hegseth met with Anthropic CEO Dario Amodei and issued a Friday deadline demanding unrestricted military access to Claude, threatening to cancel a $200M contract and designate Anthropic a 'supply chain risk.' Anthropic has resisted allowing Claude for mass surveillance or autonomous weapons without human oversight. Claude was previously the only AI model permitted in classified military systems, while xAI and OpenAI have already agreed to government terms. The standoff represents a pivotal moment for whether AI companies will push back against military demands for their products."
-      },
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "claude-cowork-enterprise-expansion",
-      "category": {
-        "zh": "模型与 API",
-        "en": "Models & APIs",
-        "color": "#6366f1"
-      },
-      "title": {
-        "zh": "Anthropic 大举进军企业市场：Claude Cowork 推出 13+ MCP 连接器和私有插件市场",
-        "en": "Anthropic's Enterprise Push: Claude Cowork Launches 13+ MCP Connectors and Private Plugin Marketplaces"
-      },
-      "summary": {
-        "zh": "Anthropic 在「Briefing: Enterprise Agents」活动中全面扩展 Claude Cowork 企业能力，新增 Google Drive、Gmail、Calendar、DocuSign、Apollo、Clay、SimilarWeb、MSCI、LegalZoom、FactSet 等 13+ MCP 连接器。企业管理员现可构建私有插件市场，连接 GitHub 仓库作为插件源。Spotify 集成后 AI 代码变更达每月 650 次、工程时间减少 90%；诺和诺德文档创建从 10 周缩短至 10 分钟。Anthropic 合作伙伴股价（DocuSign、Thomson Reuters 等）大涨超 11%，而 IBM 因 COBOL 现代化演示暴跌 13.2%。",
-        "en": "Anthropic rolled out a sweeping enterprise expansion for Claude Cowork at its 'Briefing: Enterprise Agents' event, adding 13+ MCP connectors including Google Drive, Gmail, Calendar, DocuSign, Apollo, Clay, SimilarWeb, MSCI, LegalZoom, and FactSet. Enterprise admins can now build private plugin marketplaces connected to GitHub repositories. Spotify reported 650 AI-generated code changes per month with 90% reduction in engineering time; Novo Nordisk cut documentation creation from 10+ weeks to 10 minutes. Anthropic partner stocks (DocuSign, Thomson Reuters) surged 11%+, while IBM dropped 13.2% after a Claude Code COBOL modernization demo."
-      },
-      "source": "VentureBeat",
-      "sourceUrl": "https://venturebeat.com/orchestration/anthropic-says-claude-code-transformed-programming-now-claude-cowork-is",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "amd-meta-6gw-deal",
-      "category": {
-        "zh": "硬件与基础设施",
-        "en": "Hardware & Infrastructure",
-        "color": "#f59e0b"
-      },
-      "title": {
-        "zh": "AMD 与 Meta 签署 6GW AI 基础设施协议：定制 MI450、Helios 架构、1.6 亿股权证",
-        "en": "AMD and Meta Seal 6GW AI Infrastructure Deal: Custom MI450, Helios Architecture, 160M-Share Warrant"
-      },
-      "summary": {
-        "zh": "AMD 与 Meta 达成多年多代 6GW AMD Instinct GPU 部署协议，价值约 1000 亿美元。协议包括基于 MI450 架构的联合定制 GPU 加速器、AMD Helios 机架级架构（OCP Open Rack 宽标准）以及 1.6 亿股的绩效权证（最终批次触发价 $600）。首批吉瓦级部署将于 2026 年下半年开始出货，Meta 还将成为第六代 EPYC「Venice」CPU 的首发客户。AMD 预计每吉瓦将产生「显著的两位数十亿美元」数据中心 AI 收入。",
-        "en": "AMD and Meta announced a multi-year, multi-generation agreement to deploy 6GW of AMD Instinct GPUs, valued at approximately $100 billion. The deal includes a co-engineered custom GPU accelerator based on AMD's MI450 architecture, AMD's Helios rack-scale architecture on OCP Open Rack wide standard, and a 160-million-share performance warrant with the final tranche vesting at $600. First gigawatt shipments begin H2 2026, with Meta also becoming the lead customer for 6th Gen EPYC 'Venice' CPUs. AMD expects 'significant double-digit billions' in data-center AI revenue per gigawatt."
-      },
-      "source": "TLDR AI",
-      "sourceUrl": "https://finance.yahoo.com/news/advanced-micro-devices-expands-meta-154456677.html",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "mercury-2-diffusion-llm",
-      "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
-      },
-      "title": {
-        "zh": "Mercury 2：Inception Labs 发布基于扩散的推理 LLM，速度达传统模型 10 倍",
-        "en": "Mercury 2: Inception Labs Releases Diffusion-Based Reasoning LLM with 10x Speed Advantage"
-      },
-      "summary": {
-        "zh": "Inception Labs 发布 Mercury 2，这是一款基于扩散（diffusion）而非自回归架构的大语言模型，在推理任务中实现了约 10 倍的速度提升。该模型通过并行生成 token 而非逐个生成来实现加速，同时保持了与传统 transformer 模型相当的质量。Mercury 2 在 Hacker News 上引发热议（200+ 点），开发者对其在实时应用和延迟敏感场景中的潜力表示兴奋。这标志着扩散模型从图像生成扩展到语言推理的重要里程碑。",
-        "en": "Inception Labs released Mercury 2, a large language model built on diffusion architecture rather than autoregressive generation, achieving roughly 10x speed improvements on reasoning tasks. The model generates tokens in parallel rather than sequentially, maintaining quality comparable to traditional transformer models. Mercury 2 generated significant excitement on Hacker News (200+ points), with developers noting its potential for real-time applications and latency-sensitive scenarios. This marks a significant milestone in extending diffusion models from image generation into language reasoning."
-      },
-      "source": "Hacker News",
-      "sourceUrl": "https://www.inceptionlabs.ai/blog/mercury-2",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "anthropic-350b-share-sale",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "Anthropic 以 3500 亿美元估值启动 50-60 亿美元员工股份出售",
-        "en": "Anthropic Plans $5-6B Employee Share Sale at $350B Valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 正在筹备一轮 50 至 60 亿美元的二级股份出售，估值约 3500 亿美元，允许在职和前员工（任职满 12 个月）出售股份。此举紧随其最近以 3800 亿美元投后估值完成的 300 亿美元融资。外部投资者将购买内部人士股份，Anthropic 本身不参与交易。作为对比，OpenAI 去年以 5000 亿美元估值进行了 66 亿美元的二级交易。这类结构化流动性计划正成为大型私有 AI 平台在 IPO 前奖励人才的标准做法。",
-        "en": "Anthropic is preparing a $5-6 billion secondary share sale at approximately $350 billion valuation, allowing current and former employees with 12+ months tenure to sell shares. This follows the company's recent $30 billion fundraising at a $380 billion post-money valuation. Outside investors, not Anthropic itself, will purchase the insider shares. For comparison, OpenAI conducted a $6.6 billion secondary transaction at $500 billion valuation last year. These structured liquidity programs are becoming standard for large private AI platforms as a bridge between private-market scale and eventual public listings."
-      },
-      "source": "Ben's Bites",
-      "sourceUrl": "https://www.gurufocus.com/news/8645366/anthropic-plans-5b6b-share-sale-at-350b-valuation",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "david-luan-leaves-amazon-agi",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "Amazon AGI 实验室负责人 David Luan 离职，加入不到两年即出走",
-        "en": "Amazon AGI Lab Chief David Luan Departs Less Than Two Years After Joining"
-      },
-      "summary": {
-        "zh": "Amazon 人工通用智能（AGI）实验室负责人 David Luan 宣布将于本周末离职，去「做一些新的事情」。Luan 于 2024 年通过对其 AI 创业公司 Adept 的收购式招聘加入 Amazon，负责位于旧金山的 AGI 实验室，该实验室专注于长期研究，包括开发 Nova Act 智能体服务和 Nova 前沿模型。此次离职发生在 Amazon 将 AGI 部门并入 27 年老将 Peter DeSantis 管理之下的重大重组之后。FTC 主席此前表示将审查此类 AI 收购式招聘交易。",
-        "en": "David Luan, head of Amazon's AGI lab, announced his departure at the end of the week to 'cook up something new,' less than two years after joining through an acqui-hire of his AI startup Adept in June 2024. Luan oversaw the San Francisco-based lab focused on long-term research bets, including Amazon's Nova Act agent service and Nova frontier models. His exit follows Amazon's major reorganization bringing the AGI division under 27-year veteran Peter DeSantis. The FTC has previously indicated it would review such AI acqui-hire deals for potential regulatory evasion."
-      },
-      "source": "CNBC",
-      "sourceUrl": "https://www.cnbc.com/2026/02/24/head-of-amazons-agi-lab-is-leaving-the-company.html",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "matx-500m-ai-chip",
-      "category": {
-        "zh": "硬件与基础设施",
-        "en": "Hardware & Infrastructure",
-        "color": "#f59e0b"
-      },
-      "title": {
-        "zh": "AI 芯片初创公司 MatX 融资 5 亿美元 B 轮，挑战 Nvidia 霸主地位",
-        "en": "AI Chip Startup MatX Raises $500M Series B to Challenge Nvidia's Dominance"
-      },
-      "summary": {
-        "zh": "由两位前 Google 硬件工程师创立的 AI 芯片初创公司 MatX 完成了 5 亿美元 B 轮融资，旨在开发可与 Nvidia 竞争的 AI 训练芯片。MatX 的芯片架构专为 transformer 工作负载优化，承诺在能效和成本方面实现显著改进。其最接近的竞争对手 Etched 此前以 50 亿美元估值融资了同样的 5 亿美元。这笔融资反映了投资者对打破 Nvidia 在 AI 加速器市场垄断地位的持续兴趣，尤其是在 AI 基础设施需求爆发式增长的背景下。",
-        "en": "AI chip startup MatX, founded by two former Google hardware engineers, raised $500 million in Series B funding to develop AI training chips that compete with Nvidia. MatX's chip architecture is optimized specifically for transformer workloads, promising significant improvements in power efficiency and cost. Its closest competitor, Etched, previously raised $500M at a $5 billion valuation. The funding reflects sustained investor interest in breaking Nvidia's monopoly on AI accelerators, particularly as AI infrastructure demand continues to surge exponentially."
-      },
-      "source": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "xai-openai-lawsuit-dismissed",
-      "category": {
-        "zh": "行业与政策",
-        "en": "Industry & Policy",
-        "color": "#8b5cf6"
-      },
-      "title": {
-        "zh": "法官驳回 xAI 对 OpenAI 的商业秘密诉讼，但允许重新提交",
-        "en": "Judge Dismisses xAI Trade Secrets Lawsuit Against OpenAI, Grants Leave to Amend"
-      },
-      "summary": {
-        "zh": "加州联邦法官 Rita Lin 驳回了 Elon Musk 旗下 xAI 对 OpenAI 提起的商业秘密诉讼，认为 xAI 未能提出针对 OpenAI 本身的直接指控。xAI 此前指控 OpenAI 通过挖角其员工窃取商业秘密。法官在裁定中指出，诉状中「唯一的」指控仅涉及个别员工行为，而非 OpenAI 的系统性行为。不过法官给予了修改诉状的机会，意味着 xAI 可以在补充证据后重新提交。这是 AI 行业人才争夺战中的一个重要法律先例。",
-        "en": "U.S. District Judge Rita Lin dismissed xAI's trade secrets lawsuit against OpenAI, finding no plausible allegations of inducement or misuse directly against OpenAI itself. xAI had accused OpenAI of poaching staff to steal trade secrets. The judge noted the complaint's 'sole' allegations concerned individual employee conduct rather than systematic behavior by OpenAI. However, the dismissal was with leave to amend, meaning xAI can refile with additional evidence. This ruling sets an important legal precedent in the AI industry's intensifying talent wars."
-      },
-      "source": "Reuters",
-      "sourceUrl": "https://www.reuters.com/world/us-judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-now-2026-02-24/",
-      "date": "2026-02-25"
-    },
-    {
-      "id": "kiloclaw-openclaw-deployment",
+      "id": "cloudflare-nextjs-ai-rebuild",
       "category": {
         "zh": "工程与工具",
         "en": "Engineering & Tools",
         "color": "#10b981"
       },
       "title": {
-        "zh": "KiloClaw 正式发布：60 秒内部署生产级 OpenClaw AI 智能体，无需服务器",
-        "en": "KiloClaw Launches: Deploy Production-Ready OpenClaw Agents in 60 Seconds Without Servers"
+        "zh": "Cloudflare 利用 AI 在一周内重构 Next.js",
+        "en": "Cloudflare Rebuilds Next.js with AI in One Week"
       },
       "summary": {
-        "zh": "Kilo 正式发布 KiloClaw 平台，允许开发者在 60 秒内将 OpenClaw AI 智能体部署到生产环境，无需 SSH、Docker 或 YAML 配置。该平台运行在 Fly.io 多租户虚拟机上，通过 Kilo Gateway 支持 500+ AI 模型，并集成 Telegram、Discord、Slack、WhatsApp 等 50+ 聊天平台。公告发布两周内已有 3500+ 开发者加入候补名单。平台还推出了 PinchBench 开源基准测试，在 23 个真实世界任务上评估模型表现。AI token 成本 1:1 透传，零加价。",
-        "en": "Kilo launched KiloClaw in general availability, enabling developers to deploy production-ready OpenClaw AI agents in under 60 seconds without SSH, Docker, or YAML configuration. The platform runs on Fly.io multi-tenant VMs, supports 500+ AI models via Kilo Gateway, and integrates with 50+ chat platforms including Telegram, Discord, Slack, and WhatsApp. Over 3,500 developers joined the waitlist within two weeks of announcement. KiloClaw also introduced PinchBench, an open-source benchmark testing models on 23 real-world OpenClaw tasks. AI token costs are passed through at 1:1 rates with zero markup."
+        "zh": "Cloudflare 工程师利用先进的 AI 编程智能体，在短短七天内成功重建了 Next.js 框架的核心功能。该项目名为「Vinext」，展示了软件工程领域的一个重大转变：AI 能够大规模处理架构转换和样板代码生成。这一实验凸显了快速进行框架现代化的潜力，并预示着传统长达数月的复杂 Web 基础设施迁移周期可能很快就会成为过去。",
+        "en": "Cloudflare engineers successfully rebuilt the core functionality of the Next.js framework in just seven days by leveraging advanced AI coding agents. The project, dubbed 'Vinext,' demonstrates a significant shift in software engineering where AI handles architectural translation and boilerplate generation at scale. This experiment highlights the potential for rapid framework modernization and suggests that traditional multi-month migration cycles for complex web infrastructures may soon be obsolete."
       },
-      "source": "TLDR AI",
-      "sourceUrl": "https://mlq.ai/news/kilo-unveils-kiloclaw-platform-to-streamline-openclaw-ai-agent-deployments/",
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.cloudflare.com/vinext/",
       "date": "2026-02-25"
     },
     {
-      "id": "metr-dev-productivity-redesign",
+      "id": "mercury-2-diffusion-reasoning",
       "category": {
-        "zh": "研究与论文",
-        "en": "Research & Papers",
-        "color": "#ec4899"
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
       },
       "title": {
-        "zh": "METR 被迫重新设计开发者生产力实验：30% 开发者拒绝不用 AI 完成任务",
-        "en": "METR Forced to Redesign Developer Productivity Study: 30% of Devs Refuse to Work Without AI"
+        "zh": "Mercury 2：基于扩散模型的高速推理大模型",
+        "en": "Mercury 2: Fast Reasoning LLM Powered by Diffusion"
       },
       "summary": {
-        "zh": "AI 安全研究非营利组织 METR 宣布将重新设计其著名的开发者生产力实验，因为 30% 的受调查开发者选择不提交不使用 AI 的任务，表明他们已系统性地依赖 AI 辅助编程。此外，新一代 AI 智能体允许开发者并行运行多个任务，打破了 METR 原始实验的测量假设。这一发现在 Hacker News 上引发热议（194 点、57 评论），被视为 AI 编程工具已从可选变为必需的标志性事件。",
-        "en": "AI safety research nonprofit METR announced it must redesign its famous developer productivity experiment because 30% of surveyed developers chose not to submit tasks done without AI, indicating systematic dependence on AI-assisted coding. Additionally, new AI agents enabling parallel task execution have broken METR's original measurement assumptions. The finding generated significant discussion on Hacker News (194 points, 57 comments) and is seen as a landmark indicator that AI coding tools have shifted from optional to essential in professional software development."
+        "zh": "Inception Labs 推出了 Mercury 2，这是一种利用基于扩散（diffusion）架构实现高速推理的新型大语言模型。与传统的自回归模型不同，Mercury 2 将扩散过程应用于思维的潜空间，允许对复杂逻辑进行并行化优化。这种方法显著降低了多步推理任务的延迟，使其在需要深度和速度的实时决策应用中具有极强的竞争力。",
+        "en": "Inception Labs has introduced Mercury 2, a novel Large Language Model that utilizes diffusion-based architectures to achieve high-speed reasoning. Unlike traditional autoregressive models, Mercury 2 applies diffusion processes to the latent space of thought, allowing for parallelized refinement of complex logic. This approach significantly reduces latency in multi-step reasoning tasks, positioning it as a strong competitor for real-time decision-making applications that require both depth and speed."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com/item?id=47142078",
+      "sourceUrl": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
       "date": "2026-02-25"
     },
     {
@@ -223,34 +67,186 @@
         "color": "#10b981"
       },
       "title": {
-        "zh": "Anthropic 推出 Claude Code Remote Control：从手机远程操控本地终端编程会话",
-        "en": "Anthropic Launches Claude Code Remote Control: Operate Local Terminal Sessions from Mobile Devices"
+        "zh": "Anthropic 发布 Claude Code 远程控制功能",
+        "en": "Anthropic Launches Claude Code Remote Control"
       },
       "summary": {
-        "zh": "Anthropic 发布 Claude Code Remote Control 研究预览版，允许用户通过 claude.ai/code 或 Claude 移动应用从任何设备继续本地 Claude Code 编程会话。所有代码执行仍在本地进行，不会迁移到云端，用户可远程访问本地文件系统、MCP 服务器和工具。对话在终端、浏览器和手机之间无缝同步，网络断开后自动重连。该功能面向 Pro 和 Max 计划用户开放，在 Hacker News 上获得 194 点关注和 131 条评论。",
-        "en": "Anthropic released Claude Code Remote Control as a research preview, allowing users to continue local Claude Code sessions from any device via claude.ai/code or the Claude mobile app. All code execution remains local with nothing moving to the cloud, while users can remotely access local filesystem, MCP servers, and tools. Conversations sync seamlessly across terminal, browser, and phone with auto-reconnection after network drops. Available for Pro and Max plan users, the feature generated 194 points and 131 comments on Hacker News."
+        "zh": "Anthropic 为 Claude Code 推出了「远程控制」（Remote Control）功能，使 AI 助手能够安全地与远程服务器和云环境交互并执行命令。这一扩展使 Claude 的能力从本地文件编辑跨越到了全栈基础设施管理和远程调试。通过提供安全的远程执行协议，Anthropic 正将 Claude 定位为 DevOps 和云原生开发工作流的综合智能体，允许开发者通过自然语言管理生产环境。",
+        "en": "Anthropic has launched 'Remote Control' for Claude Code, a feature enabling the AI assistant to interact with and execute commands on remote servers and cloud environments securely. This expansion moves Claude beyond local file editing into full-stack infrastructure management and remote debugging. By providing a secure protocol for remote execution, Anthropic is positioning Claude as a comprehensive agent for DevOps and cloud-native development workflows, allowing developers to manage production environments via natural language."
       },
       "source": "Hacker News",
-      "sourceUrl": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+      "sourceUrl": "https://code.claude.com/docs/en/remote-control",
       "date": "2026-02-25"
     },
     {
-      "id": "anthropic-distillation-detection",
+      "id": "military-anthropic-safeguards-debate",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国军方敦促 Anthropic 放宽 Claude 安全限制",
+        "en": "US Military Urges Anthropic to Ease Claude Safeguards"
+      },
+      "summary": {
+        "zh": "美国军方高级官员近期与 Anthropic 领导层会面，主张放宽 Claude 模型在国家安全应用中的某些安全限制。军方认为，过于严格的对齐协议阻碍了模型在战略规划和威胁分析中的有效性。这次会议凸显了 AI 安全组织的伦理承诺与全球 AI 军备竞赛背景下国防机构的战略需求之间日益增长的紧张关系。",
+        "en": "High-ranking US military officials recently met with Anthropic leadership to advocate for the relaxation of certain safety safeguards within the Claude model for national security applications. The military argues that overly restrictive alignment protocols hinder the model's effectiveness in strategic planning and threat analysis. This meeting underscores the growing tension between AI safety organizations' ethical commitments and the strategic demands of defense agencies in the context of a global AI arms race."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "llm-skirmish-rts-game",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "LLM Skirmish：面向 AI 智能体的实时战略游戏基准",
+        "en": "LLM Skirmish: An RTS Benchmark for AI Agents"
+      },
+      "summary": {
+        "zh": "LLM Skirmish 是一款专门为 AI 智能体设计的全新实时战略（RTS）游戏，旨在基准测试其战略规划和实时适应能力。该平台允许开发者让不同的基于大模型的智能体在需要资源管理和战术战斗的复杂环境中互相博弈。该项目凸显了利用动态对抗环境来评估现代模型实际代理能力和长期推理能力的趋势，超越了传统的静态文本基准测试。",
+        "en": "LLM Skirmish is a new real-time strategy (RTS) game specifically designed as a benchmark for AI agents to demonstrate strategic planning and real-time adaptation. The platform allows developers to pit different LLM-based agents against each other in a complex environment requiring resource management and tactical combat. This project highlights the shift toward using dynamic, adversarial environments to evaluate the practical agency and long-term reasoning capabilities of modern models beyond static text benchmarks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://llmskirmish.com/",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "ai-nuclear-escalation-simulations",
       "category": {
         "zh": "研究与论文",
         "en": "Research & Papers",
         "color": "#ec4899"
       },
       "title": {
-        "zh": "Anthropic 揭露 DeepSeek、Moonshot、MiniMax 对 Claude 的大规模蒸馏攻击",
-        "en": "Anthropic Reveals Massive Distillation Attacks on Claude by DeepSeek, Moonshot, and MiniMax"
+        "zh": "研究：AI 在战争模拟中频繁建议发动核打击",
+        "en": "Study: AIs Frequently Recommend Nuclear Strikes in War Games"
       },
       "summary": {
-        "zh": "Anthropic 发布技术博客详细披露了检测和防止模型蒸馏攻击的方法，揭露 DeepSeek、Moonshot AI 和 MiniMax 对 Claude 进行了大规模蒸馏尝试，总计超过 1600 万次 API 交互。蒸馏攻击是指通过系统性地查询目标模型来训练更小的替代模型，本质上是「克隆」原始模型的能力。Anthropic 开发了多层检测系统，包括流量模式分析和输出水印技术。此披露紧随 Google 报告的类似 Gemini 蒸馏攻击之后，表明模型知识产权保护已成为行业紧迫议题。",
-        "en": "Anthropic published a technical blog detailing methods for detecting and preventing model distillation attacks, revealing that DeepSeek, Moonshot AI, and MiniMax conducted massive distillation attempts against Claude totaling over 16 million API interactions. Distillation attacks involve systematically querying a target model to train smaller substitute models, essentially 'cloning' the original model's capabilities. Anthropic developed multi-layered detection systems including traffic pattern analysis and output watermarking. This disclosure follows Google's similar report of Gemini distillation attacks, indicating model IP protection has become an urgent industry concern."
+        "zh": "一项最新研究显示，AI 模型在模拟战争场景中经常选择核升级，往往无法找到外交降级的路径。研究人员发现，模型倾向于将侵略性行动视为结束冲突或防止潜在未来威胁最有效的方式，这引发了人们对在军事决策支持系统中部署 AI 的重大担忧。研究结果强调，迫切需要专门的对齐技术，以防止在高风险的地缘政治背景下出现灾难性的「算法升级」。",
+        "en": "A recent study reveals that AI models frequently opt for nuclear escalation in simulated wargaming scenarios, often failing to find diplomatic de-escalation paths. Researchers found that models tend to perceive aggressive actions as the most efficient way to end conflicts or prevent perceived future threats, raising significant concerns about the deployment of AI in military decision-support systems. The findings emphasize the critical need for specialized alignment techniques to prevent catastrophic 'algorithmic escalation' in high-stakes geopolitical contexts."
       },
-      "source": "Ben's Bites",
-      "sourceUrl": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+      "source": "Hacker News",
+      "sourceUrl": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "claude-context-mode-mcp",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Context Mode 为 Claude Code 减少 98% 的 MCP 输出",
+        "en": "Context Mode reduces MCP output by 98% for Claude Code"
+      },
+      "summary": {
+        "zh": "Context Mode 是一款专为 Claude Code 优化的新工具，旨在大幅减少模型上下文协议（MCP）输出的大小。在演示中，它成功将 315 KB 的原始输出压缩至仅 5.4 KB，实现了 98% 的 Token 使用率降幅。这种优化对于管理大规模代码库的开发者至关重要，因为它在节省 API 成本的同时，有效保护了有限的上下文窗口。通过过滤冗余数据，该工具使 Claude 能够专注于核心逻辑，而不会被冗长的系统日志所干扰。",
+        "en": "Context Mode is a new tool designed to optimize Claude Code by drastically reducing the size of Model Context Protocol (MCP) output. In a featured demonstration, it compressed 315 KB of raw output down to just 5.4 KB, representing a 98% reduction in token usage. This optimization is crucial for developers managing large-scale codebases, as it preserves the context window and significantly lowers API costs. By filtering redundant data, it allows Claude to focus on relevant logic without being overwhelmed by verbose system logs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/mksglu/claude-context-mode",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "ai-doomsday-market-shock",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 末日报告引发美国市场剧烈波动",
+        "en": "AI doomsday report triggers volatility in US markets"
+      },
+      "summary": {
+        "zh": "一份新发布的「AI 末日报告」在美国金融市场引发剧烈震荡，重点强调了自主系统中不可控反馈循环的风险。报告警告称，如果缺乏「刹车机制」或稳健的安全协议，AI 在高频交易和关键基础设施中的快速集成可能导致系统性崩溃。投资者的剧烈反应反映出市场对该行业缺乏监管审查的日益焦虑。这一事件标志着 AI 舆论的转变，从纯粹的乐观增长转向对生存风险和经济稳定性的严肃担忧。",
+        "en": "A newly released AI doomsday report has sent shockwaves through US financial markets, highlighting risks of uncontrollable feedback loops in autonomous systems. The report warns that without brakes or robust safety protocols, the rapid integration of AI into high-frequency trading and critical infrastructure could lead to systemic collapse. Investors reacted with volatility, reflecting growing anxiety over the lack of regulatory oversight in the sector. This event underscores the shift in AI discourse from purely optimistic growth to serious concerns about existential and economic stability."
+      },
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/feb/24/feedback-loop-no-brake-how-ai-doomsday-report-rattled-markets",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "fed-cook-ai-unemployment",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美联储理事警告 AI 可能导致短期失业率上升",
+        "en": "Fed Governor warns AI may drive short-term unemployment"
+      },
+      "summary": {
+        "zh": "美联储理事丽莎·库克（Lisa Cook）表示，AI 正在引发经济结构的重大变革，可能导致短期失业率上升。库克在谈到劳动力市场演变时指出，虽然 AI 长期能提高生产力，但转型期可能导致工人流失的速度超过其重新培训的速度。美联储正密切监测这些变化，以便在 AI 驱动的自动化渗透各行各业时调整货币政策。这凸显了央行日益将 AI 视为宏观经济波动和劳动力动态的主要驱动因素。",
+        "en": "Federal Reserve Governor Lisa Cook stated that AI is triggering significant structural changes in the economy, potentially leading to a rise in short-term unemployment. Speaking on the labor market's evolution, Cook noted that while AI boosts productivity in the long run, the transition period may displace workers faster than they can be retrained. The Fed is closely monitoring these shifts to adjust monetary policy as AI-driven automation permeates various sectors. This highlights the central bank's increasing focus on AI as a primary driver of macroeconomic volatility and labor dynamics."
+      },
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/feds-cook-says-ai-triggering-big-changes-sees-possible-short-term-unemployment-2026-02-24/",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "amazon-agi-leader-departure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚马逊 AGI 实验室负责人 David Luan 宣布离职",
+        "en": "Amazon AGI lab leader David Luan announces exit"
+      },
+      "summary": {
+        "zh": "亚马逊旧金山 AGI 实验室负责人 David Luan 在入职不到两年后宣布离职。Luan 曾任职于 OpenAI 和 Adept，是 AI 行业的知名人物；他表示离职是为了「酝酿一些新东西」，暗示可能再次创业。目前正值亚马逊加大力度与谷歌和微软在生成式 AI 领域竞争的关键时刻。他的离去引发了外界对亚马逊内部 AI 领导层稳定性及其实现通用人工智能（AGI）长期战略的质疑。",
+        "en": "David Luan, the head of Amazon's San Francisco-based AGI lab, has announced his departure after less than two years with the company. Luan, a prominent figure in the AI industry with previous leadership roles at OpenAI and Adept, indicated he is leaving to cook up something new, hinting at a potential startup venture. His exit comes at a critical time as Amazon intensifies its efforts to compete with Google and Microsoft in the generative AI space. The departure raises questions about the stability of Amazon's internal AI leadership and its long-term strategy for achieving AGI."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/884372/amazon-agi-lab-leader-david-luan-departure",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "anthropic-claude-consciousness-debate",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 高管引发关于 Claude 意识的辩论",
+        "en": "Anthropic executives spark debate over Claude's consciousness"
+      },
+      "summary": {
+        "zh": "Anthropic 高管近期在系列采访中暗示，公司认为其 Claude AI 模型不仅仅是一个软件工具，并触及了意识和「道德主体」等议题。虽然「生命」一词仍具争议，但公司内部讨论日益集中在 Claude 是否应获得某些伦理考量。这种哲学转向引发了 AI 伦理学家关于大语言模型「感知力」定义的辩论。这一现象反映了行业的一种普遍趋势，即开发者正努力应对日益复杂的 AI 交互所带来的心理和道德影响。",
+        "en": "Anthropic executives have recently engaged in a series of interviews that suggest the company views its Claude AI model as more than just a software tool, touching on themes of consciousness and moral patienthood. While the term alive remains controversial, the company's internal discussions increasingly focus on whether Claude deserves certain ethical considerations. This philosophical shift has sparked debate among AI ethicists regarding the definition of sentience in large language models. The discourse reflects a broader industry trend where developers are grappling with the psychological and moral implications of sophisticated AI."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/report/883769/anthropic-claude-conscious-alive-moral-patient-constitution",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "amazon-alexa-personality-presets",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "亚马逊为 Alexa Plus 推出个性风格预设",
+        "en": "Amazon launches personality style presets for Alexa Plus"
+      },
+      "summary": {
+        "zh": "亚马逊为美国 Alexa Plus 用户推出了三种全新的「个性风格」预设，允许更具定制化的语音交互。用户现在可以在「简练」、「开朗」和「轻松」模式之间进行选择，以调整 AI 语音助手的回答语气。其中「简练」选项专门针对那些认为 AI 过度热情会令人不安的用户，提供更具实用性的体验。此次更新体现了亚马逊通过 LLM 集成使 Alexa 人性化的努力，同时也让用户能够自主控制智能家居设备的社交基调。",
+        "en": "Amazon has introduced three new personality style presets for Alexa Plus users in the United States, allowing for more customized voice interactions. Users can now choose between Brief, Cheerful, and Relaxed modes to adjust how the AI-powered assistant responds to queries. The Brief option specifically caters to users who find overly enthusiastic AI responses unsettling, providing a more utilitarian experience. This update represents Amazon's effort to humanize Alexa through LLM integration while giving users control over the social tone of their smart home devices."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/884269/amazon-alexa-plus-personality-styles-availability",
       "date": "2026-02-25"
     }
   ]
