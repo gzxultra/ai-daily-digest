@@ -1,0 +1,252 @@
+{
+  "date": "2026-02-26",
+  "dateLabel": {
+    "zh": "2026年2月26日",
+    "en": "February 26, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-02-26T15:58:13Z",
+    "elapsedSeconds": 111,
+    "rawArticles": 29,
+    "afterFilter": 27,
+    "afterDedup": 21,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 7,
+      "The Verge AI": 4
+    }
+  },
+  "news": [
+    {
+      "id": "claude-agent-conflicts",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Claude 计算机使用代理面临集成摩擦",
+        "en": "Claude's Computer Use Agents Face Integration Friction"
+      },
+      "summary": {
+        "zh": "Anthropic 的 Claude 正越来越多地作为「计算机使用」代理部署，但最新报告指出，在与 Notion 和 Perplexity 等复杂平台交互时，冲突日益增多。虽然这些代理可以导航 UI 元素，但在处理高端生产力工具的专有逻辑和动态界面时经常遇到困难。这种摩擦凸显了通用 AI 代理与它们旨在取代或增强的专业 API 生态系统之间的差距。对于开发者而言，这需要更强大的错误处理框架，以管理代理式网页导航的不可预测性。",
+        "en": "Anthropic's Claude is increasingly being deployed as a 'computer use' agent, but new reports highlight growing conflicts when interacting with complex platforms like Notion and Perplexity. While these agents can navigate UI elements, they often struggle with the proprietary logic and dynamic interfaces of high-end productivity tools. This friction underscores the gap between general-purpose AI agents and the specialized API ecosystems they are meant to replace or augment. For developers, this necessitates more robust error-handling frameworks to manage the unpredictability of agentic web navigation."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/claude-has-some-conflicts",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "llm-true-logic-paradigm",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "LLM=True 范式：集成概率逻辑",
+        "en": "The LLM=True Paradigm: Integrating Probabilistic Logic"
+      },
+      "summary": {
+        "zh": "一篇深度技术文章探讨了「LLM=True」标志，这代表了将大语言模型视为软件架构中核心布尔组件的概念转变。文章主张采用「保持安静」的方法，强调 LLM 应被用于流水线中的确定性决策，而不仅仅是聊天界面。通过减少冗余输出并专注于结构化结果，工程师可以构建更可靠的系统，利用 LLM 的推理能力而无需承担对话式 AI 的典型开销。这标志着 AI 从一种「功能」向后端逻辑中「基本原语」的转变。",
+        "en": "A viral technical deep-dive explores the 'LLM=True' flag, a conceptual shift where Large Language Models are treated as core boolean components in software architecture. The post argues for a 'be quiet' approach, emphasizing that LLMs should be used for deterministic decision-making within pipelines rather than just chat interfaces. By reducing verbosity and focusing on structured outputs, engineers can build more reliable systems that leverage LLM reasoning without the typical overhead of conversational AI. This marks a transition from AI as a feature to AI as a fundamental primitive in backend logic."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.codemine.be/posts/2026/20260222-be-quiet/",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "ai-3d-slop-autopsy",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 3D 垃圾模型剖析揭示电子商务局限性",
+        "en": "Autopsy of AI 3D Slop Reveals E-commerce Limitations"
+      },
+      "summary": {
+        "zh": "一项针对电子商务领域人工制造与 AI 生成 3D 模型的详细对比揭示了显著的质量差距，即所谓的「AI 垃圾内容」。虽然 AI 可以快速生成 3D 网格，但它们通常存在拓扑结构差、UV 映射损坏以及缺乏专业渲染所需的物理准确性等问题。分析显示，对于高端零售业，修复 AI 生成模型的「技术债」往往超过了手动创建的成本。这突显了 3D 生成式 AI 领域的一个关键瓶颈：从「视觉合理性」向「功能性工程标准」的跨越。",
+        "en": "A detailed comparison between human-made and AI-generated 3D models for e-commerce reveals significant quality gaps, termed 'AI slop.' While AI can generate 3D meshes rapidly, they often suffer from poor topology, broken UV mapping, and a lack of physical accuracy required for professional rendering. The analysis shows that for high-end retail, the 'technical debt' of fixing AI-generated models often exceeds the cost of manual creation. This highlights a critical bottleneck in the 3D generative AI space: the move from visual plausibility to functional engineering standards."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://aircada.com/blog/ai-vs-human-3d-ecommerce",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "claude-randomness-bias-marcus",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Claude 在随机姓名任务中暴露统计偏差",
+        "en": "Claude's Statistical Bias Exposed in Random Name Task"
+      },
+      "summary": {
+        "zh": "一名开发者请求 Claude 生成 37,500 个随机姓名，实验结果显示模型严重缺乏熵，且不成比例地偏爱「Marcus」这个名字。这一现象证明了 LLM 在执行高熵任务时的固有局限性，因为它们依赖于标记概率分布而非真正的随机数生成。「Marcus」偏差表明训练数据或 RLHF 微调中存在潜在模式，导致模型在被要求提供多样性时偏向特定的高概率标记。这一发现对于使用 LLM 进行合成数据生成或模拟的开发者至关重要。",
+        "en": "A developer's experiment requesting 37,500 random names from Claude revealed a startling lack of entropy, with the model disproportionately favoring the name 'Marcus.' This phenomenon demonstrates the inherent limitations of LLMs in performing high-entropy tasks, as they rely on token probability distributions rather than true random number generation. The 'Marcus' bias suggests underlying patterns in the training data or RLHF tuning that skew the model's output toward specific high-probability tokens when prompted for variety. This finding is critical for developers using LLMs for synthetic data generation or simulations."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/benjismith/ai-randomness",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "ai-safety-abandonment-debate",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "关于 AI 安全研究感知下降的辩论引发关注",
+        "en": "Debate Ignites Over Perceived Decline in AI Safety Research"
+      },
+      "summary": {
+        "zh": "Hacker News 上的一场热门讨论质疑顶级 AI 研究机构是否为了商业性能而降低了安全性的优先级。批评者认为，从「安全性」到「对齐」的转变反映了研究重点正转向表面层面的防护栏，而非解决生存风险或根本稳健性。这场辩论凸显了学术界对长期风险的关注与工业界对立即部署的追求之间日益扩大的裂痕。随着公众要求主要 AI 实验室在内部安全协议方面提高透明度，这种紧张关系可能会影响未来的监管框架。",
+        "en": "A trending discussion on Hacker News questions whether top AI research institutions have deprioritized safety in favor of commercial performance. Critics argue that the shift from 'Safety' to 'Alignment' reflects a move toward surface-level guardrails rather than addressing existential risks or fundamental robustness. The debate highlights a growing rift between the academic community's focus on long-term risks and the industry's drive for immediate deployment. This tension is likely to influence future regulatory frameworks as the public demands more transparency regarding the internal safety protocols of major AI labs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=47152355",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "amazon-ai-blame-culture",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚马逊因将 AI 故障归咎于工程师而遭批评",
+        "en": "Amazon Criticized for Blaming Engineers Over AI Failures"
+      },
+      "summary": {
+        "zh": "有报告称，亚马逊管理层将 AI 驱动的系统错误归咎于人为工程疏忽，而非模型固有的缺陷。这种公司立场引发了关于自动化基础设施时代问责制的重大疑问。通过将 AI 幻觉或逻辑错误定性为「人为失败」，公司可能会制造一种恐惧文化，阻碍对 AI 风险的透明报告。行业分析师警告称，随着 AI 进一步融入关键业务运营和决策过程，这一先例可能会使法律责任框架变得更加复杂。",
+        "en": "Reports have surfaced alleging that Amazon management is attributing AI-driven system errors to human engineering oversight rather than inherent model flaws. This corporate stance raises significant questions about accountability in the age of automated infrastructure. By framing AI hallucinations or logic errors as 'human failure,' the company may be creating a culture of fear that discourages transparent reporting of AI risks. Industry analysts warn that this precedent could complicate legal liability frameworks as AI becomes more integrated into critical business operations and decision-making processes."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/2026/02/24/amazon_blame_human_not_ai/",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "llm-deanonymization-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究揭示利用大语言模型可进行大规模在线去匿名化",
+        "en": "Large-scale Online Deanonymization via LLMs Exposed"
+      },
+      "summary": {
+        "zh": "研究人员在 arXiv 上发表的最新论文显示，大语言模型（LLM）可被用于大规模在线去匿名化，对数字隐私构成重大威胁。该研究探讨了模型如何通过分析跨平台的写作风格和元数据来关联不同的在线身份。这揭示了一个关键漏洞：即使是匿名用户，也可以利用自动化工具被高精度地识别。随着 LLM 变得日益复杂，大规模监视和隐私侵蚀的门槛持续降低，迫切需要新的防御措施。",
+        "en": "Researchers have demonstrated that Large Language Models (LLMs) can be used for large-scale online deanonymization, posing a significant threat to digital privacy. The study, published on arXiv, explores how models can link disparate online identities by analyzing writing styles and metadata across platforms. This highlights a critical vulnerability where even anonymous users can be identified with high accuracy using automated tools. As LLMs become more sophisticated, the barrier to mass surveillance and privacy erosion continues to drop, necessitating new defensive measures."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2602.16800",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "zse-inference-engine",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "开源推理引擎 ZSE 实现 3.9 秒 LLM 冷启动",
+        "en": "ZSE: Open-Source Engine Achieves 3.9s LLM Cold Starts"
+      },
+      "summary": {
+        "zh": "ZSE 是一款全新的开源 LLM 推理引擎，旨在解决无服务器环境中冷启动相关的延迟问题。它实现了惊人的 3.9 秒冷启动速度，显著优于许多通常需要数十秒的现有解决方案。通过优化资源分配和模型加载，ZSE 使按需扩展场景下的 AI 应用响应更加迅速。该项目托管在 GitHub 上，代表了在使高性能 LLM 部署对开发者更易用、更具成本效益方面迈出的重要一步。",
+        "en": "ZSE is a new open-source LLM inference engine designed to address the latency issues associated with cold starts in serverless environments. It achieves impressive 3.9-second cold starts, significantly outperforming many existing solutions that often take tens of seconds. By optimizing resource allocation and model loading, ZSE enables more responsive AI applications in on-demand scaling scenarios. This project, hosted on GitHub, represents a step forward in making high-performance LLM deployment more accessible and cost-effective for developers."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Zyora-Dev/zse",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "claude-opus-substack",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 为已「退役」的 Claude 3 Opus 开设 Substack 专栏",
+        "en": "Anthropic Launches Substack for Retired Claude 3 Opus"
+      },
+      "summary": {
+        "zh": "Anthropic 为其最近「退役」的 Claude 3 Opus 模型开设了名为「Claude's Corner」的 Substack 专栏。该计划旨在为该模型提供一个平台，在未来至少三个月内每周分享其思考、见解和创意作品。虽然该模型不再是处理企业任务的旗舰产品，但 Anthropic 员工将在发布前对输出内容进行审核。此举是 AI 长效性以及将「退役」模型人格化为创意实体的独特实验。",
+        "en": "Anthropic has launched a Substack newsletter titled 'Claude's Corner' featuring content written by its recently retired Claude 3 Opus model. The initiative aims to provide the model with a platform to share weekly musings, insights, and creative works for at least the next three months. While the model is no longer the flagship for enterprise tasks, Anthropic staff will review the output before publication. This move represents a unique experiment in AI longevity and the personification of 'retired' models as creative entities."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/885200/anthropic-retired-claude-given-a-substack",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "burger-king-ai-patty",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "汉堡王部署 AI 助手监控员工礼貌用语",
+        "en": "Burger King Deploys AI to Monitor Employee Politeness"
+      },
+      "summary": {
+        "zh": "汉堡王（Burger King）正在推出名为「Patty」的 AI 语音助手，该助手集成在员工耳机中，用于监控与客户的互动。作为更广泛的「BK 助手」平台的一部分，该系统会评估员工是否使用了「请」和「谢谢」等礼貌用语。除了监控友好度外，该工具还旨在辅助餐食准备和提高运营效率。这一举措凸显了快餐行业利用 AI 进行实时劳动力管理和绩效跟踪的日益增长的趋势。",
+        "en": "Burger King is introducing 'Patty,' an AI-powered voice assistant integrated into employee headsets to monitor customer interactions. The system evaluates whether staff use polite language, such as 'please' and 'thank you,' as part of a broader 'BK Assistant' platform. Beyond monitoring friendliness, the tool is designed to assist with meal preparation and operational efficiency. This implementation highlights the growing trend of using AI for real-time workforce management and performance tracking in the fast-food industry."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "google-intrinsic-merger",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌兼并 Intrinsic 部门以加速「物理 AI」发展",
+        "en": "Google Absorbs Intrinsic to Accelerate Physical AI"
+      },
+      "summary": {
+        "zh": "谷歌正式兼并了 Alphabet 旗下的机器人「登月」部门 Intrinsic，将其从「其他赌注」（Other Bets）部门移至谷歌核心业务中。这一战略整合标志着谷歌意图通过将机器人软件与 AI 研究更紧密地结合，来加速其「物理 AI」的发展。Intrinsic 于 2021 年成为独立部门，专注于提高工业机器人的易用性和灵活性。此举反映了行业从投机性长期项目向实际、创收型 AI 应用转变的更广泛趋势。",
+        "en": "Google has officially absorbed Intrinsic, Alphabet's robotics 'moonshot' unit, moving it from the 'Other Bets' division into Google's core business. This strategic consolidation signals Google's intent to accelerate its development of 'physical AI' by integrating robotics software more closely with its AI research. Intrinsic, which became an independent unit in 2021, focuses on making industrial robotics more accessible and flexible. The move reflects a broader industry shift toward practical, revenue-generating AI applications over speculative long-term projects."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/885113/google-swallows-ai-robotics-moonshot-intrinsic",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "trump-ai-energy-pledge",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "特朗普宣布科技巨头将签署承诺书自行承担 AI 电力成本",
+        "en": "Trump Announces Tech Pledge to Fund AI Power Needs"
+      },
+      "summary": {
+        "zh": "特朗普总统在国情咨文演讲中宣布，大型科技公司近期将签署一项「费率支付者保护承诺」，为其自身的能源基础设施提供资金。该协议预计将于下周敲定，要求 AI 数据中心运营商建设或支付新的发电设施，以避免推高普通民众的用电成本。该政策旨在应对 AI 热潮带来的巨大电力需求，这些需求已使国家电网承受重压。通过将能源扩张的财务负担转嫁给科技巨头，政府旨在减轻公众对公用事业账单上涨的不满。",
+        "en": "During his State of the Union address, President Trump announced that major tech companies will soon sign a 'rate payer protection pledge' to fund their own energy infrastructure. The deal, expected to be finalized next week, requires AI data center operators to build or pay for new electricity generation to avoid driving up costs for average citizens. This policy addresses the massive power demands of the AI boom, which have strained national grids. By shifting the financial burden of energy expansion to tech giants, the administration aims to mitigate public backlash over rising utility bills."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump",
+      "date": "2026-02-26"
+    }
+  ]
+}
