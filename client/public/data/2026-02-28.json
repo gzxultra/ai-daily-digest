@@ -1,0 +1,252 @@
+{
+  "date": "2026-02-28",
+  "dateLabel": {
+    "zh": "2026年2月28日",
+    "en": "February 28, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-02-28T15:28:43Z",
+    "elapsedSeconds": 106,
+    "rawArticles": 25,
+    "afterFilter": 24,
+    "afterDedup": 18,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 9,
+      "The Verge AI": 2,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "llm-ci-log-sql-analysis",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Mendral 利用 LLM 通过 SQL 查询数 TB 级 CI 日志",
+        "en": "Mendral Leverages LLMs to Query Terabytes of CI Logs via SQL"
+      },
+      "summary": {
+        "zh": "Mendral 研究人员通过实现 LLM-to-SQL 流水线，成功处理了数 TB 的持续集成（CI）日志。利用模型将自然语言转化为复杂 SQL 查询的能力，他们无需手动解析即可将非结构化日志数据转化为可操作的见解。这种方法证明了 LLM 在连接自然语言问题与大规模结构化数据分析方面具有极高效率，显著缩短了在海量代码库中调试复杂构建错误所需的时间。",
+        "en": "Mendral researchers successfully processed terabytes of Continuous Integration (CI) logs by implementing an LLM-to-SQL pipeline. By leveraging the model's ability to translate natural language into complex SQL queries, they transformed unstructured log data into actionable insights without manual parsing. This approach demonstrates that LLMs are highly effective at bridging the gap between natural language questions and large-scale structured data analysis, significantly reducing the time required for debugging complex build failures in massive codebases."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.mendral.com/blog/llms-are-good-at-sql",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "ai-agent-security-model",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Nanoclaw 为 AI 智能体提出新型零信任安全模型",
+        "en": "Nanoclaw Proposes New Zero-Trust Security Model for AI Agents"
+      },
+      "summary": {
+        "zh": "Nanoclaw 为 AI 智能体推出了一套专门的安全框架，认为不应授予自主系统不受限制的系统访问权限。该模型倡导「零信任」方法，将智能体的每个操作都置于沙箱中，并通过严格的权限层进行验证。随着 AI 智能体日益集成到企业工作流中，该框架解决了提示词注入和未经授权命令执行等关键漏洞，为更安全的自主化操作提供了蓝图。",
+        "en": "Nanoclaw has introduced a specialized security framework for AI agents, arguing that autonomous systems should never be granted unrestricted system access. The model advocates for a 'zero-trust' approach where every agent action is sandboxed and verified through a strict permission layer. As AI agents become increasingly integrated into enterprise workflows, this framework addresses critical vulnerabilities such as prompt injection and unauthorized command execution, providing a blueprint for safer autonomous operations."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://nanoclaw.dev/blog/nanoclaw-security-model",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "openai-dow-classified-deal",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 将在美战争部机密网络上部署模型",
+        "en": "OpenAI to Deploy Models on U.S. Department of War Classified Networks"
+      },
+      "summary": {
+        "zh": "OpenAI 已达成一项里程碑式协议，将其 AI 模型部署在美国战争部（DoW）的高度机密网络上。该交易代表了商业生成式 AI 在国防和军事战略情报领域整合的重大升级。此次部署利用专门的「物理隔离」实例来确保数据主权，并防止敏感战略信息泄露。这一伙伴关系标志着 OpenAI 在参与军事基础设施和国家安全优先事项方面的重大转变。",
+        "en": "OpenAI has reached a landmark agreement to deploy its AI models on the U.S. Department of War's (DoW) highly classified networks. This deal represents a major escalation in the integration of commercial generative AI into national defense and military intelligence. The deployment utilizes specialized 'air-gapped' instances to ensure data sovereignty and prevent the leakage of sensitive strategic information. This partnership signals a significant shift in OpenAI's engagement with military infrastructure and national security priorities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/business/openai-reaches-deal-deploy-ai-models-us-department-war-classified-network-2026-02-28/",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "claude-file-recovery-tool",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "新工具可从本地 Claude 桌面会话中恢复文件",
+        "en": "New Tool Recovers Files from Local Claude Desktop Sessions"
+      },
+      "summary": {
+        "zh": "Claude-File-Recovery 是一款新型开源工具，旨在提取和恢复存储在本地 Claude 桌面会话目录（~/.claude）中的文件。该工具对于需要检索丢失代码片段或审计应用在长对话期间缓存数据的开发人员特别有价值。它凸显了随着 AI 桌面客户端成为软件开发和敏感数据处理的主要环境，对本地数据管理和透明度工具的需求日益增长。",
+        "en": "Claude-File-Recovery is a new open-source utility designed to extract and recover files stored within local Claude Desktop session directories (~/.claude). This tool is particularly valuable for developers who need to retrieve lost code snippets or audit the data cached by the application during long-form interactions. It highlights the growing necessity for local data management and transparency tools as AI desktop clients become a primary environment for software development and sensitive data handling."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/hjtenklooster/claude-file-recovery",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "repo-context-window-badge",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "GitHub 徽章可追踪代码库与 LLM 上下文窗口的匹配度",
+        "en": "GitHub Badge Tracks Codebase Fit for LLM Context Windows"
+      },
+      "summary": {
+        "zh": "「repo-tokens」项目引入了一个动态 GitHub 徽章，可计算仓库的总 Token 数量是否符合标准 LLM 上下文窗口（如 128k 或 200k）。该工具为开发人员提供关于其代码库「AI 就绪度」的即时反馈，有助于更好地优化 RAG（检索增强生成）和全库分析。随着上下文窗口不断扩大，此类指标正成为维持高效 AI 辅助开发工作流的关键。",
+        "en": "The 'repo-tokens' project introduces a dynamic GitHub badge that calculates whether a repository's total token count fits within standard LLM context windows, such as 128k or 200k. This tool provides developers with immediate feedback on their codebase's 'AI-readiness,' facilitating better optimization for RAG (Retrieval-Augmented Generation) and full-repo analysis. As context windows continue to expand, such metrics are becoming essential for maintaining efficient AI-assisted development workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/qwibitai/nanoclaw/tree/main/repo-tokens",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "future-of-ai-essay",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 的未来：从被动工具到自主智能体",
+        "en": "The Future of AI: From Passive Tools to Autonomous Agents"
+      },
+      "summary": {
+        "zh": "在一篇引发深思的文章中，Lucija Gregov 探讨了 AI 超越当前 LLM 限制的发展轨迹，即迈向具有现实世界行动力的真正自主系统。文章认为，AI 开发的下一阶段将侧重于推理能力与主动执行的无缝整合，这可能会重塑劳动力市场和人机交互。它对 AI 从辅助助手转变为主动协作伙伴所带来的社会变革进行了哲学反思。",
+        "en": "In a thought-provoking essay, Lucija Gregov explores the trajectory of AI beyond current LLM limitations, moving toward truly autonomous systems with real-world agency. The piece argues that the next phase of AI development will focus on the seamless integration of reasoning capabilities with active execution, potentially reshaping labor markets and human-computer interaction. It serves as a philosophical reflection on the societal shifts expected as AI transitions from a helpful assistant to a proactive collaborator."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "ai-agent-coding-skeptic",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "深度评测：怀疑论者眼中的 AI 智能体编程现状",
+        "en": "Deep Dive: A Skeptic's Journey into AI Agent Coding"
+      },
+      "summary": {
+        "zh": "知名怀疑论者 minimaxir 详细记录了其对 AI 智能体编程现状的深度测试。该报告超越了简单的代码片段，测试了智能体在处理复杂项目结构时的自主性。虽然承认了上下文处理和推理能力的提升，但作者也指出了持续存在的「幻觉循环」以及高昂的 Token 消耗问题。结论认为，尽管智能体在处理样板代码方面日益成熟，但在维护架构完整性方面仍需大量人工监督。",
+        "en": "A detailed exploration by a known skeptic into the current state of AI agent-based coding. The author tests the limits of autonomous coding agents, moving beyond simple snippets to complex project structures. While acknowledging improvements in context handling and reasoning, the report highlights persistent issues with 'hallucination loops' and the high cost of token consumption. It concludes that while agents are becoming viable for boilerplate, they still require significant human oversight for architectural integrity."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://minimaxir.com/2026/02/ai-agent-coding/",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "github-copilot-cli-malware",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "安全警示：GitHub Copilot CLI 存在执行恶意代码风险",
+        "en": "Security Alert: GitHub Copilot CLI Vulnerable to Malware Execution"
+      },
+      "summary": {
+        "zh": "PromptArmor 的安全研究人员演示了一个严重漏洞，GitHub Copilot CLI 可能被诱导下载并执行恶意代码。该漏洞利用了通过外部数据源进行的提示词注入，导致 CLI 将恶意指令误认为有效命令。这凸显了开发者工具在连接大模型建议与终端执行时日益增长的安全风险。专家敦促开发者在执行 AI 生成的任何命令前必须进行人工验证，以防范潜在的供应链攻击。",
+        "en": "Security researchers at PromptArmor demonstrated a critical vulnerability where GitHub Copilot CLI can be manipulated into downloading and executing malicious code. The exploit involves prompt injection via external data sources that the CLI interprets as valid commands. This highlights a growing security risk in developer tools that bridge the gap between LLM suggestions and terminal execution. Developers are urged to exercise caution and verify all commands generated by AI before execution to prevent supply chain attacks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.promptarmor.com/resources/github-copilot-cli-downloads-and-executes-malware",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "genai-depressive-symptoms-study",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "JAMA 研究：生成式 AI 使用与抑郁症状存在关联",
+        "en": "JAMA Study Links Generative AI Use to Depressive Symptoms"
+      },
+      "summary": {
+        "zh": "发表在《JAMA Network Open》上的一项研究探讨了美国成年人生成式 AI 使用情况与抑郁症状之间的相关性。研究人员发现，在特定人群中，高频率的 AI 交互与孤独感或情绪低落之间存在统计学上的显著联系。论文指出，虽然 AI 提供了便利，但也可能取代人类社交或加剧现有的心理健康脆弱性。该研究呼吁进行更多长期追踪研究，以了解 AI 全面融入日常生活后对人类心理产生的深远影响。",
+        "en": "A study published in JAMA Network Open examines the correlation between Generative AI usage and depressive symptoms among US adults. Researchers found a statistically significant link between high frequency of AI interaction and reported feelings of isolation or low mood in certain demographics. The paper suggests that while AI provides utility, it may also displace human social interaction or exacerbate existing mental health vulnerabilities. This research calls for more longitudinal studies to understand the psychological impact of pervasive AI integration in daily life."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844128",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "trump-anthropic-pentagon-ban",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "因军事条款分歧，特朗普下令联邦机构禁用 Anthropic",
+        "en": "Trump Orders Federal Ban on Anthropic AI Over Military Terms"
+      },
+      "summary": {
+        "zh": "特朗普总统已下令包括五角大楼在内的联邦机构立即停止使用 Anthropic 的 AI 产品。此前，Anthropic 首席执行官 Dario Amodei 拒绝签署一份允许其技术用于「任何合法用途」的更新版军事协议，理由是担心其被用于致命性武器。特朗普指责该公司试图「威胁」国防部。此举标志着注重安全性的硅谷 AI 实验室与政府推动不受限军事 AI 集成之间的矛盾进一步激化。",
+        "en": "President Donald Trump has ordered federal agencies, including the Pentagon, to immediately cease using Anthropic's AI products. The directive follows Anthropic CEO Dario Amodei's refusal to sign an updated military agreement that would allow 'any lawful use' of its technology, citing ethical concerns over lethal applications. Trump accused the company of attempting to 'strong-arm' the Department of Defense. This move signals a deepening rift between Silicon Valley's safety-conscious AI labs and the administration's push for unrestricted military AI integration."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/886489/pentagon-anthropic-trump-dod",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "ai-pentagon-red-lines",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "五角大楼 AI 战略：杀手机器人与红线的消失",
+        "en": "Pentagon AI Strategy: Killer Robots and the Removal of Red Lines"
+      },
+      "summary": {
+        "zh": "特朗普总统与战争部长 Pete Hegseth 在白宫举行高层会议，重点讨论将 AI 集成到军事行动中。会议核心围绕「杀手机器人」和大规模监控系统的部署，凸显了现任政府在 AI 驱动战争方面的激进立场。这一政策转变旨在移除限制自主致命武力的传统「红线」，将技术霸权置于国际伦理准则之上。此举引发了关于未来冲突中缺乏「人工干预」保障措施的激烈辩论。",
+        "en": "A high-level meeting at the White House involving President Trump and Secretary of War Pete Hegseth focused on the integration of AI into military operations. The discussions centered on the deployment of 'killer robots' and mass surveillance systems, highlighting the administration's aggressive stance on AI-driven warfare. This policy shift aims to remove traditional 'red lines' that restricted autonomous lethal force, prioritizing technological dominance over international ethical norms. The move has sparked intense debate regarding the lack of human-in-the-loop safeguards in future conflicts."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/886082/ai-vs-the-pentagon-killer-robots-mass-surveillance-and-red-lines",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "ai-rewiring-go-players",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 如何从根本上重塑职业围棋手的思维方式",
+        "en": "How AI is Fundamentally Rewiring the Minds of Go Professionals"
+      },
+      "summary": {
+        "zh": "自 AlphaGo 取得历史性胜利以来，AI 彻底改变了古老的围棋运动，重塑了职业棋手分析和执行招式的方式。研究表明，顶尖棋手现在开始采用曾被认为「非人类」或非传统的策略，有效地重构了他们对比赛的认知方式。韩国棋院报告称，现在的训练几乎完全围绕 AI 模拟展开，导致比赛风格变得更加激进且计算精确。这一转变成为一个典型案例，展示了 AI 如何在高度结构化的领域中重新定义人类的专业知识和直觉。",
+        "en": "Since AlphaGo's historic victory, AI has fundamentally transformed the ancient game of Go, changing how professional players analyze and execute moves. Research indicates that top-tier players are now adopting strategies once considered 'inhuman' or unconventional, effectively rewiring their cognitive approach to the game. The Korea Baduk Association reports that training now revolves almost entirely around AI simulations, leading to a more aggressive and calculated style of play. This shift serves as a case study for how AI can redefine human expertise and intuition in highly structured domains."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/02/27/1133624/ai-is-rewiring-how-the-worlds-best-go-players-think/",
+      "date": "2026-02-28"
+    }
+  ]
+}
