@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-01",
+  "dateLabel": {
+    "zh": "2026年3月1日",
+    "en": "March 01, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-01T15:29:22Z",
+    "elapsedSeconds": 104,
+    "rawArticles": 37,
+    "afterFilter": 32,
+    "afterDedup": 28,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Windows Central": 1,
+      "AMD Developer": 1,
+      "Reddit": 6
+    }
+  },
+  "news": [
+    {
+      "id": "mcp-context-reduction",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "新型 MCP 服务器将 Claude Code 上下文消耗降低 98%",
+        "en": "New MCP Server Slashes Claude Code Context Usage by 98%"
+      },
+      "summary": {
+        "zh": "开发者发布了一款新的 MCP 服务器，通过优化索引和检索机制，将 Claude Code 的上下文 Token 消耗降低了 98%。这一突破解决了大规模代码库开发中的高成本和上下文窗口限制问题。它展示了 MCP 生态在提升 LLM 编程工具可持续性和性能方面的巨大潜力，使企业级规模的开发变得更加高效且经济。",
+        "en": "A new Model Context Protocol (MCP) server has been released that drastically optimizes how Claude Code interacts with large codebases. By implementing a more efficient indexing and retrieval mechanism, it reduces context token consumption by up to 98% while maintaining high accuracy. This is a significant breakthrough for developers working on massive repositories who previously faced high costs and context window limits. It demonstrates the growing power of the MCP ecosystem in making LLM-based coding tools more sustainable and performant for enterprise-scale development."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://mksg.lu/blog/context-mode",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "claude-import-memory",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 推出「导入记忆」功能实现无缝迁移",
+        "en": "Anthropic Launches Import Memory Feature for Seamless Switching"
+      },
+      "summary": {
+        "zh": "Anthropic 推出了「导入记忆」功能，允许用户将其他 AI 助手的对话历史和偏好直接迁移至 Claude。此举旨在降低 ChatGPT 等竞争对手用户的迁移成本，通过保留过去交互的上下文来增强用户粘性。这标志着 LLM 市场正向数据可移植性和用户留存策略转变，Anthropic 正积极争夺核心重度用户。",
+        "en": "Anthropic has launched a new Import Memory feature, allowing users to migrate their chat history and personalized preferences from other AI assistants directly into Claude. This move aims to lower the switching cost for power users who have built up extensive context with competitors like ChatGPT. By preserving the memory of past interactions, Anthropic is positioning Claude as a more seamless replacement in the increasingly competitive consumer AI market. This feature highlights a strategic shift toward data portability and user retention in the LLM space."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/import-memory",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "claude-top-app-store",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Claude 登顶美国 App Store 应用总榜",
+        "en": "Claude Hits Number One Spot on U.S. App Store"
+      },
+      "summary": {
+        "zh": "Anthropic 的 Claude 应用首次登上美国 App Store 总榜第一，超越了主流社交和工具类应用。这一增长得益于近期频繁的功能更新以及公众对 Claude 推理能力的认可。这标志着 Anthropic 从开发者实验室向主流消费级巨头的转变，反映了 AI 助手正成为移动端核心交互界面的大趋势。",
+        "en": "For the first time, Anthropic's Claude app has reached the #1 spot on the U.S. App Store's overall charts, surpassing major social media and utility apps. This surge in popularity follows a series of high-profile feature updates and a growing public preference for Claude's nuanced reasoning capabilities. The achievement marks a significant milestone for Anthropic, signaling its transition from a developer-focused lab to a mainstream consumer powerhouse. It also reflects the broader trend of AI assistants becoming the primary interface for mobile device users."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://apps.apple.com/us/iphone/charts",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "cancel-chatgpt-movement",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 达成军事协议后「注销 ChatGPT」运动走红",
+        "en": "Cancel ChatGPT Movement Gains Steam After OpenAI Military Deal"
+      },
+      "summary": {
+        "zh": "随着 OpenAI 与美国战争部达成重大交易，「注销 ChatGPT」运动在主流社会引发热议。批评者对 AI 用于军事监视和作战行动的伦理影响表示担忧，而 Anthropic 因拒绝参与对公民的监视而获得用户青睐。这一事件凸显了 AI 行业在企业增长、国家安全与用户隐私之间的意识形态冲突，引发了大规模的用户平台迁移。",
+        "en": "A Cancel ChatGPT movement has gained mainstream momentum following reports of OpenAI closing a major deal with the U.S. Department of War. Critics are raising concerns over the ethical implications of AI in military surveillance and combat operations. In contrast, Anthropic has publicly refused to participate in domestic surveillance, leading to a significant user migration between the platforms. This ideological divide highlights the growing tension between corporate growth, national security interests, and user privacy in the global AI industry."
+      },
+      "source": "Windows Central",
+      "sourceUrl": "https://www.windowscentral.com/artificial-intelligence/cancel-chatgpt-movement-goes-mainstream-after-openai-closes-deal-with-u-s-department-of-war-as-anthropic-refuses-to-surveil-american-citizens",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "cmu-modern-ai-course",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "卡内基梅隆大学发布「10-202：现代 AI 导论」公开课",
+        "en": "CMU Releases 10-202: Introduction to Modern AI Open Course"
+      },
+      "summary": {
+        "zh": "卡内基梅隆大学（CMU）发布了「10-202：现代 AI 导论」公开课程，专门针对大模型和生成式 AI 时代设计。课程涵盖了 Transformer 架构、提示工程及 AI 的社会影响，旨在标准化下一代 AI 工程师的基础知识。该资源已迅速成为希望在快速发展的领域中提升技能的学生和专业人士的首选教材。",
+        "en": "Carnegie Mellon University (CMU) has released 10-202: Introduction to Modern AI, a comprehensive open-access course designed for the current era of LLMs and generative models. The curriculum moves beyond traditional machine learning to focus on transformer architectures, prompt engineering, and the societal impacts of AI. By making these high-quality educational resources public, CMU aims to standardize the foundational knowledge required for the next generation of AI engineers. The course has quickly become a top resource for both students and professionals looking to upskill."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://modernaicourse.org",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "amd-ryzen-1t-local",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "在 AMD Ryzen AI Max+ 集群上本地运行万亿参数大模型",
+        "en": "Running 1T Parameter LLMs Locally on AMD Ryzen AI Max+ Clusters"
+      },
+      "summary": {
+        "zh": "AMD 发布技术指南，展示了如何利用 Ryzen AI Max+ 处理器集群在本地运行万亿参数（1T）规模的 LLM。通过最新的 NPU 架构和优化的内存共享技术，这一方案实现了无需云端支持的大规模模型推理。这标志着高端消费级硬件已能处理此前仅限企业级数据中心的任务，对数据隐私和边缘计算具有里程碑式的意义。",
+        "en": "AMD has published a technical guide demonstrating how to run a one-trillion-parameter LLM locally using a cluster of Ryzen AI Max+ processors. This feat is made possible by leveraging AMD's latest NPU architecture and optimized memory sharing across the cluster. The ability to run models of this scale without relying on cloud infrastructure represents a major leap for data privacy and edge computing. It signals a shift where high-end consumer hardware can now handle workloads previously reserved for enterprise-grade data centers."
+      },
+      "source": "AMD Developer",
+      "sourceUrl": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "llm-benchmark-jan-2026",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "开源大模型性能已逼近闭源私有模型",
+        "en": "Open Source LLMs Close Performance Gap with Proprietary Models"
+      },
+      "summary": {
+        "zh": "2026年1月的最新基准测试对94个大模型端点进行了深度分析，结果显示开源模型与闭源私有模型之间的性能差距已显著缩小。基于AIME 2025和LiveCode等基准生成的质量指数（QI）显示，开源模型目前仅落后不到5分。这一进展速度超出了行业预期，表明闭源模型的技术护城河正在快速瓦解。对于生产环境而言，这一趋势意味着企业在模型选择上将拥有更多高质量且更具成本效益的开源选项。",
+        "en": "A comprehensive benchmark of 94 LLM endpoints as of January 2026 reveals that open-source models have significantly closed the performance gap with proprietary counterparts. Using a normalized Quality Index (QI) derived from benchmarks like AIME 2025 and LiveCode, open-source models now trail by fewer than 5 points. This rapid trajectory suggests that the competitive advantage of closed-source providers is eroding faster than industry experts predicted. The data highlights a shift toward high-quality, cost-effective inference for production environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rhuwyt/r_benchmarked_94_llm_endpoints_for_jan_2026_open/",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "tiny-transformers-math-accuracy",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "百参数级微型Transformer实现100%加法准确率",
+        "en": "Sub-100 Parameter Transformers Achieve 100% Math Accuracy"
+      },
+      "summary": {
+        "zh": "研究人员证明，参数量少于100个的极小型Transformer模型在执行两个10位数字相加时可以达到100%的准确率。该项目的关键在于使用了特定的数字标记（digit tokens），而非传统的数值表示法。虽然这证明了Transformer在学习结构化算法任务方面的高效性，但研究者也指出浮点数运算仍是一个更复杂的挑战。这项研究挑战了「只有大规模模型才能实现完美逻辑推理」的固有认知，为特定领域的轻量化模型开发提供了新思路。",
+        "en": "Researchers have demonstrated that extremely small transformer models with fewer than 100 parameters can achieve 100% accuracy in adding two 10-digit numbers. The success of this project relies heavily on the use of specific digit tokens rather than standard numerical representations. While this proves the efficiency of transformers in learning structured algorithmic tasks, the authors note that floating-point mathematics remains a significantly more complex challenge. This research challenges the assumption that massive scale is always necessary for perfect logical reasoning in narrow domains."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rh84o0/r_tiny_transformers_100_params_can_add_two/",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "darwinian-selection-anomaly-detection",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ZOT：利用生物选择机制取代神经网络进行异常检测",
+        "en": "ZOT: Using Biological Selection for Hardware Anomaly Detection"
+      },
+      "summary": {
+        "zh": "实验性工具ZOT尝试利用达尔文选择和动力学校对（Kinetic Proofreading）机制取代传统神经网络进行异常检测。该工具是一个仅400多行代码、零依赖的Rust二进制程序，通过读取内存和时钟延迟等原始硬件遥测数据来自主演化「威胁受体」。在合成实验室测试中，它达到了约95%的准确率，且误报率接近于零。这种借鉴生物免疫系统的方案为实时安全监控提供了一种轻量且高效的替代路径，无需依赖庞大的机器学习模型。",
+        "en": "A new experimental tool called ZOT explores replacing traditional neural networks with Darwinian selection and kinetic proofreading for anomaly detection. Built as a 400-line, zero-dependency Rust binary, it monitors raw hardware telemetry like memory and clock latency to evolve threat receptors autonomously. In synthetic laboratory tests, the system achieved approximately 95% accuracy with near-zero false positives. This biological approach offers a lightweight, highly efficient alternative to massive machine learning models for real-time security monitoring."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rhz8eb/r_using_darwinian_selection_instead_of_neural/",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "micro-diffusion-python-implementation",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Micro Diffusion：150行代码实现极简文本扩散模型",
+        "en": "Micro Diffusion: Minimal Text Diffusion in 150 Lines of Python"
+      },
+      "summary": {
+        "zh": "受Karpathy的MicroGPT启发，新项目Micro Diffusion通过约150行纯Python代码实现了离散文本扩散模型。与从左到右生成的自回归模型不同，该实现展示了扩散模型如何通过从噪声中迭代取消掩码来同时生成所有Token。项目包含了一个极简的训练脚本，剥离了复杂性以揭示核心算法逻辑。这一教育资源旨在帮助开发者理解现代AI中从序列生成到并行Token生成的根本性转变。",
+        "en": "Inspired by Andrej Karpathy's MicroGPT, a new project titled Micro Diffusion provides a minimal implementation of discrete text diffusion in approximately 150 lines of pure Python. Unlike autoregressive models that generate text from left to right, this implementation demonstrates how diffusion models generate all tokens simultaneously by iteratively unmasking from noise. The project includes a minimal training script that strips away complexity to reveal the core mathematical algorithm. This educational resource is designed to help developers understand the fundamental shift from sequential to parallel token generation in modern AI."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rgsgt6/p_micro_diffusion_discrete_text_diffusion_in_150/",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "us-military-anthropic-airstrikes",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美军在海外空袭行动中部署Anthropic AI工具",
+        "en": "U.S. Military Deploys Anthropic AI Tools in Overseas Airstrikes"
+      },
+      "summary": {
+        "zh": "据报道，尽管此前曾宣布停止使用Anthropic开发的AI工具，但美国政府在针对伊朗的空袭中仍使用了该技术。消息人士证实，包括美国中央司令部（CENTCOM）在内的指挥中心已将Anthropic的AI工具整合到其战略行动中。这一事件凸显了AI安全政策与国家安全需求之间复杂且往往矛盾的关系。该行动引发了关于在致命军事行动中部署商业大语言模型（LLM）伦理边界的激烈辩论。",
+        "en": "Reports indicate that the U.S. military utilized Anthropic's AI tools during recent airstrikes in Iran, despite a prior announcement that the federal government would cease using the company's technology. Sources confirm that U.S. Central Command (CENTCOM) integrated these AI tools into their command centers to assist in strategic operations. This development highlights the complex and often contradictory relationship between AI safety policies and national security requirements. The incident has sparked intense debate regarding the ethical boundaries of deploying commercial LLMs in lethal military contexts."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rhogov/the_us_used_anthropic_ai_tools_during_airstrikes/",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "qwen-3-5-small-dense-leak",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.5 Small Dense模型发布在即",
+        "en": "Release of Qwen3.5 Small Dense Model Imminent"
+      },
+      "summary": {
+        "zh": "继LocalLLaMA社区的近期讨论和泄露消息后，AI社区正密切关注Qwen3.5 Small Dense模型的发布。作为广受好评的通义千问（Qwen）系列的后续版本，这款「小参数稠密型」变体预计将在本地部署中实现高性能与低计算开销的平衡。初步迹象表明，该模型将针对边缘设备和寻求高效推理能力的开发者，无需庞大的GPU集群即可运行。这一发布延续了针对特定本地化场景优化稠密架构的技术趋势。",
+        "en": "The AI community is anticipating the imminent release of the Qwen3.5 Small Dense model, following recent leaks and discussions within the LocalLLaMA community. As a successor to the highly successful Qwen series, this Small Dense variant is expected to offer a balance of high performance and low computational overhead for local deployment. Early indications suggest it will target edge devices and developers looking for efficient, high-quality reasoning capabilities without the need for massive GPU clusters. This release continues the trend of optimizing dense architectures for specialized, localized use cases."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rhwo08/qwen35_small_dense_model_release_seems_imminent/",
+      "date": "2026-03-01"
+    }
+  ]
+}
