@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-02",
+  "dateLabel": {
+    "zh": "2026年3月2日",
+    "en": "March 02, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-02T15:47:30Z",
+    "elapsedSeconds": 129,
+    "rawArticles": 42,
+    "afterFilter": 41,
+    "afterDedup": 35,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 5,
+      "Reddit r/MachineLearning": 3,
+      "Reddit r/LocalLLaMA": 3
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-447-agi-economy",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 447：AGI 经济与智能体生态系统",
+        "en": "Import AI 447: The AGI Economy and Agent Ecologies"
+      },
+      "summary": {
+        "zh": "Jack Clark 的最新通讯探讨了向 AGI 经济的转型，在这种经济中，机器承担了大部分劳动，而人类则转向验证角色。文章重点介绍了 MIT、华盛顿大学和 UCLA 关于「智能体生态系统」的合作研究，以及利用程序生成的游戏来评估 AI 能力。这种转变预示着经济价值的根本重组，即从直接生产转向对自主系统的监督与验证。报告强调，随着 AI 智能体变得更加自主，成功的衡量标准将转向它们在复杂的突发环境中导航的能力。",
+        "en": "Jack Clark's latest newsletter explores the transition to an AGI economy where machines perform the bulk of labor while humans pivot toward verification roles. It highlights collaborative research from MIT, WashU, and UCLA on 'agent ecologies' and the use of procedurally generated games to benchmark AI capabilities. This shift suggests a fundamental restructuring of economic value, moving from direct production to the oversight and validation of autonomous systems. The report emphasizes that as AI agents become more autonomous, the metrics for success will shift toward their ability to navigate complex, emergent environments."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "memento-ai-code-commits",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Memento：将 AI 对话记录纳入 Git 提交",
+        "en": "Memento: Including AI Chat Sessions in Git Commits"
+      },
+      "summary": {
+        "zh": "GitHub 上的「memento」项目提出了一种新的版本控制标准：将 AI 交互会话作为 git 提交元数据的一部分。随着 AI 生成的代码变得无处不在，开发者认为 Prompt 背景和模型推理过程对于未来的调试和维护与代码本身一样重要。这种方法通过保留特定实现选择背后的意图和迭代过程，解决了 AI 贡献的「黑盒」属性。通过将「原因」（Prompt）与「结果」（代码）联系起来，团队可以更好地审计和演进 AI 辅助的代码库。",
+        "en": "The 'memento' project on GitHub proposes a new standard for version control: including the AI interaction session as part of the git commit metadata. As AI-generated code becomes ubiquitous, developers argue that the prompt context and model reasoning are as vital as the code itself for future debugging and maintenance. This approach addresses the 'black box' nature of AI contributions by preserving the intent and iterative process behind specific implementation choices. By linking the 'why' (the prompt) to the 'what' (the code), teams can better audit and evolve AI-assisted codebases."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/mandel-macaque/memento",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "claude-xml-tags-importance",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "为什么 XML 标签对 Claude 的性能至关重要",
+        "en": "Why XML Tags are Fundamental to Claude's Performance"
+      },
+      "summary": {
+        "zh": "一项技术深度分析揭示了为什么 XML 标签对 Claude 的性能至关重要，使其区别于 GPT-4 等其他大模型。Claude 经过专门训练，能够识别并利用 XML 结构将指令与数据分离，从而显著降低 Prompt 注入风险并提高结构化输出的可靠性。这种架构偏好使 Claude 在处理需要清晰层级数据处理的复杂多步推理任务时特别有效。对于开发者而言，掌握基于 XML 的提示词工程现在被认为是最大化该模型推理能力的前提条件。",
+        "en": "A technical deep dive reveals why XML tags are essential for Claude's performance, distinguishing it from other LLMs like GPT-4. Claude is specifically trained to recognize and utilize XML structures to separate instructions from data, which significantly reduces prompt injection risks and improves structured output reliability. This architectural preference makes Claude particularly effective for complex, multi-step reasoning tasks that require clear hierarchical data handling. For developers, mastering XML-based prompting is now considered a prerequisite for maximizing the model's reasoning capabilities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://glthr.com/XML-fundamental-to-Claude",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "claude-dethrones-chatgpt-us",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Claude 在美国应用排行榜上超越 ChatGPT",
+        "en": "Claude Surpasses ChatGPT in U.S. App Rankings"
+      },
+      "summary": {
+        "zh": "在一次重大的市场转变中，Anthropic 的 Claude 已超越 OpenAI 的 ChatGPT，成为美国排名第一的 AI 应用。这一增长紧随一场备受瞩目的「五角大楼事件」之后，该事件提升了 Claude 在企业和政府部门中安全可靠的声誉。数据显示，用户偏好正转向那些被认为更稳健、且较少受到目前困扰 OpenAI 的争议影响的模型。这一里程碑标志着自 ChatGPT 发布以来，首次有竞争对手在美国市场持续占据榜首位置。",
+        "en": "In a significant market shift, Anthropic's Claude has overtaken OpenAI's ChatGPT as the top-ranked AI app in the United States. This surge follows a high-profile 'Pentagon saga' that boosted Claude's reputation for safety and reliability in enterprise and government sectors. Data indicates that user preference is pivoting toward models perceived as more robust and less prone to the controversies currently affecting OpenAI. This milestone marks the first time since ChatGPT's launch that a competitor has held the top spot for a sustained period in the U.S. market."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "apple-ipad-air-m4-release",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "苹果发布搭载 M4 芯片的新款 iPad Air",
+        "en": "Apple Unveils New iPad Air Powered by M4 Chip"
+      },
+      "summary": {
+        "zh": "苹果正式发布了搭载 M4 芯片的新款 iPad Air，标志着其在中端平板电脑上推动端侧 AI 能力的重大举措。M4 增强的神经网络引擎旨在处理日益复杂的本地推理任务，符合苹果更广泛的「Apple Intelligence」战略。此次硬件更新确保了即使是非 Pro 用户也能获得运行下一代生成式 AI 应用所需的计算能力。此举被视为在 AI 成为硬件升级主要驱动力的背景下，苹果维持生态系统主导地位的战略努力。",
+        "en": "Apple has officially announced the new iPad Air, now powered by the M4 chip, signaling a major push for on-device AI capabilities in its mid-range tablets. The M4's enhanced Neural Engine is designed to handle increasingly complex local inference tasks, aligning with Apple's broader 'Apple Intelligence' strategy. This hardware refresh ensures that even non-Pro users have access to the compute power necessary for next-generation generative AI applications. The move is seen as a strategic effort to maintain ecosystem dominance as AI becomes the primary driver of hardware upgrades."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "claude-code-lsp-integration",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude Code LSP：将 Anthropic 的智能引入 IDE",
+        "en": "Claude Code LSP: Bringing Anthropic's Intelligence to IDEs"
+      },
+      "summary": {
+        "zh": "Claude Code LSP（语言服务器协议）的发布允许开发者将 Claude 先进的代码智能直接集成到任何兼容的 IDE 中。通过标准化模型与开发环境之间的接口，该工具实现了具有更低延迟的实时代码建议、重构和错误检测。这代表了向更无缝、与模型无关的开发者工具迈进，充分利用了 Anthropic 在代码生成和调试方面的特定优势。预计此次发布将加速 Claude 作为专业软件工程工作流首选助手的普及。",
+        "en": "The release of the Claude Code LSP (Language Server Protocol) allows developers to integrate Claude's advanced coding intelligence directly into any compatible IDE. By standardizing the interface between the model and development environments, this tool enables real-time code suggestions, refactoring, and error detection with significantly lower latency. It represents a move toward more seamless, model-agnostic developer tools that leverage Anthropic's specific strengths in code generation and debugging. This release is expected to accelerate the adoption of Claude as the primary assistant for professional software engineering workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://karanbansal.in/blog/claude-code-lsp/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "torchlean-formalization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "TorchLean 问世：在 Lean 中实现神经网络形式化，助力安全关键型验证",
+        "en": "TorchLean: Formalizing Neural Networks in Lean for Safety-Critical Verification"
+      },
+      "summary": {
+        "zh": "研究人员推出了 TorchLean 框架，在 Lean 定理证明器中实现了神经网络的形式化（arXiv:2602.22631）。该研究解决了模型验证通常脱离实际编程环境的关键痛点。通过将形式化方法直接集成到模型定义中，TorchLean 能够为安全关键型任务提供严谨的分析。这是迈向高风险部署中「可证明正确」的 AI 系统的重要一步，填补了传统测试在极端可靠性要求下的空白。",
+        "en": "Researchers have introduced TorchLean, a framework that formalizes neural networks within the Lean theorem prover (arXiv:2602.22631). This addresses a critical gap where model verification often occurs outside the programming environment that defines and runs the model. By integrating formal methods directly into the model definition, TorchLean enables rigorous safety and mission-critical analysis. This is a significant step toward creating provably correct AI systems for high-stakes deployments where traditional testing is insufficient."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1riqzme/r_torchlean_formalizing_neural_networks_in_lean/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "vlm-clinical-verification",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "形式化验证层有效防止放射科视觉语言模型产生幻觉",
+        "en": "Formal Verification Layer Prevents Hallucinations in Radiology VLMs"
+      },
+      "summary": {
+        "zh": "一篇新论文提出了一种针对临床放射科视觉语言模型（VLM）的形式化验证层，旨在遏制危险的模型幻觉。该系统会在诊断结论传达给医生之前，通过数学手段核查每一项诊断主张是否与其发现的事实相符。这解决了 AI 模型虽然语气自信但诊断结论缺乏数据支持的「隐性失效」模式。通过为临床推理提供数学保证，该方法显著提升了 AI 整合进医疗决策过程的安全性。",
+        "en": "A new research paper proposes a formal verification layer for Vision Language Models (VLMs) used in clinical radiology to combat dangerous hallucinations. The system mathematically checks every diagnostic claim against the model's own findings before the information reaches a clinician. This addresses the 'silent failure' mode where AI models sound confident but provide diagnoses unsupported by their own data. By providing mathematical guarantees for clinical reasoning, this approach significantly enhances the safety of AI integration in medical decision-making."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rih9kk/r_toward_guarantees_for_clinical_reasoning_in/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "relu-rnn-manifolds",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "新算法成功探测 ReLU 循环神经网络中的不变流形",
+        "en": "New Algorithm Detects Invariant Manifolds in ReLU-based RNNs"
+      },
+      "summary": {
+        "zh": "一项发表于 ICLR 2026 的研究提出了一种新算法，用于半解析地构建基于 ReLU 的循环神经网络（RNN）中不动点和周期的稳定与不稳定流形。这一数学突破深入揭示了训练后的 RNN 如何产生特定行为，对于科学和医疗应用中的可解释性至关重要。通过理解这些不变流形，研究人员可以更好地预测和验证神经系统的长期动力学特征。该项工作成功架起了黑盒深度学习与经典动力系统理论之间的桥梁。",
+        "en": "An ICLR 2026 publication presents a novel algorithm for semi-analytically constructing stable and unstable manifolds of fixed points and cycles in ReLU-based Recurrent Neural Networks (RNNs). This mathematical breakthrough provides deep insights into how trained RNNs produce specific behaviors, which is essential for interpretability in scientific and medical applications. By understanding these invariant manifolds, researchers can better predict and verify the long-term dynamics of neural systems. The work bridges the gap between black-box deep learning and classical dynamical systems theory."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ri6c62/r_detecting_invariant_manifolds_in_relubased_rnns/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "qwen-3-5-small-models",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "阿里巴巴发布 Qwen 3.5 小型化模型，助力本地部署",
+        "en": "Alibaba Releases Small Qwen 3.5 Models for Local Deployment"
+      },
+      "summary": {
+        "zh": "阿里巴巴正式发布了 Qwen 3.5 系列的小型化版本，专门针对边缘设备和高效本地运行进行了优化。这些模型延续了高性能「小模型」的趋势，在保持较低计算开销的同时，提供了极具竞争力的推理和编程能力。此次发布对 LocalLLaMA 社区意义重大，使得在消费级硬件上运行更复杂的 AI 应用成为可能。开发者现在可以将这些模型整合进注重隐私和低延迟的工作流中。",
+        "en": "Alibaba has officially released the smaller variants of the Qwen 3.5 model series, targeting edge devices and efficient local execution. These models follow the trend of high-performance 'small' LLMs that offer competitive reasoning and coding capabilities while maintaining a low computational footprint. The release is particularly significant for the LocalLLaMA community, enabling more sophisticated AI applications on consumer-grade hardware. Developers can now integrate these models into privacy-focused and low-latency workflows."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rirlau/breaking_the_small_qwen35_models_have_been_dropped/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "alibaba-copaw-agent",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "阿里巴巴开源 CoPaw：高性能个人智能体工作站",
+        "en": "Alibaba Open-Sources CoPaw: A High-Performance Personal Agent Workstation"
+      },
+      "summary": {
+        "zh": "阿里巴巴团队开源了 CoPaw，这是一个专为开发者设计的高性能个人智能体工作站，旨在扩展多渠道 AI 工作流。CoPaw 具备先进的记忆管理功能，并针对跨不同平台的复杂、长期任务进行了优化。它为构建能够保持上下文并高效执行工作流的自主智能体提供了坚实的基础设施。该工具旨在简化需要高吞吐量和持久记忆的个人 AI 助手的开发流程。",
+        "en": "The Alibaba team has open-sourced CoPaw, a high-performance Personal Agent Workstation designed for developers to scale multi-channel AI workflows. CoPaw features advanced memory management and is optimized for handling complex, long-running tasks across different platforms. It provides a robust infrastructure for building autonomous agents that can maintain context and execute workflows efficiently. This tool aims to streamline the development of personal AI assistants that require high throughput and persistent memory."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rin3ea/alibaba_team_opensources_copaw_a_highperformance/",
+      "date": "2026-03-02"
+    },
+    {
+      "id": "qwen-3-5-kv-cache-fix",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "技术警示：Qwen 3.5 需配置 bf16 KV 缓存以维持精度",
+        "en": "Technical Alert: Qwen 3.5 Requires bf16 KV Cache for Accuracy"
+      },
+      "summary": {
+        "zh": "针对 LocalLLaMA 社区的一项技术告示指出，Qwen 3.5 模型（特别是 35B A3B 版本）需要使用 bf16 格式而非默认的 fp16 格式 KV 缓存。Wikitext-2 测试显示，使用 fp16 会导致困惑度（PPL）显著恶化，严重影响模型表现。建议使用 llama.cpp 等引擎的用户手动设置「-ctk bf16 -ctv bf16」参数以确保最佳效果。这一发现强调了在现代 LLM 架构中，模型权重与 KV 缓存数据类型匹配的极端重要性。",
+        "en": "A technical PSA for the LocalLLaMA community highlights that Qwen 3.5 models, specifically the 35B A3B variant, require bf16 KV cache instead of the default fp16. Testing on Wikitext-2 shows that using fp16 leads to significant perplexity (PPL) degradation, which can severely impact model performance. Users of engines like llama.cpp are advised to manually set flags such as '-ctk bf16 -ctv bf16' to ensure optimal results. This finding underscores the critical importance of matching data types between model weights and KV cache in modern LLM architectures."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rik253/psa_qwen_35_requires_bf16_kv_cache_not_f16/",
+      "date": "2026-03-02"
+    }
+  ]
+}
