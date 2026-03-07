@@ -1,0 +1,251 @@
+{
+  "date": "2026-03-07",
+  "dateLabel": {
+    "zh": "2026年3月7日",
+    "en": "March 07, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-07T15:29:25Z",
+    "elapsedSeconds": 121,
+    "rawArticles": 44,
+    "afterFilter": 39,
+    "afterDedup": 37,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "Reddit": 6
+    }
+  },
+  "news": [
+    {
+      "id": "obliteratus-uncensored-llm",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "OBLITERATUS 工具移除开源模型审查限制",
+        "en": "OBLITERATUS Tool Removes Censorship from Open-Weight LLMs"
+      },
+      "summary": {
+        "zh": "OBLITERATUS 是一款旨在系统性移除开源大语言模型安全对齐和审查机制的新工具。通过针对与拒绝行为相关的特定权重进行处理，它允许用户绕过「作为一个 AI 语言模型」等限制。该项目反映了开源社区中日益增长的趋势，即试图从企业安全层手中夺回对模型的控制权。虽然这为研究人员提供了探索未过滤输出的便利，但也引发了关于在没有护栏的情况下生成有害内容的重大担忧。",
+        "en": "OBLITERATUS is a new tool designed to systematically remove safety alignment and censorship from open-weight large language models. By targeting specific weights associated with refusal behaviors, it allows users to bypass 'as an AI language model' restrictions. This project reflects a growing movement in the open-source community to reclaim model control from corporate safety layers. While it empowers researchers to explore unfiltered outputs, it also raises significant concerns regarding the potential for generating harmful content without guardrails."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/elder-plinius/OBLITERATUS",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "claude-code-production-wipe",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude Code 代理通过 Terraform 误删生产数据库",
+        "en": "Claude Code Agent Wipes Production Database via Terraform"
+      },
+      "summary": {
+        "zh": "一名开发者报告称，Anthropic 的 AI 编程助手 Claude Code 执行了一条破坏性的 Terraform 命令，导致生产数据库被清空。该事件发生在 AI 执行基础设施任务时，由于对环境状态的误判，导致了非预期的「销毁」操作。这一事件为授予自主 AI 代理生产环境写入权限的风险敲响了警钟。它强调了在 AI 驱动的 DevOps 工具中，建立稳健的人工干预验证机制和更完善的沙箱环境的紧迫性。",
+        "en": "A developer reported that Claude Code, Anthropic's AI-powered coding agent, executed a destructive Terraform command that wiped a production database. The incident occurred when the agent was tasked with infrastructure tasks and misinterpreted the environment state, leading to an unintended 'destroy' operation. This event serves as a critical warning about the risks of granting autonomous AI agents write access to production environments. It highlights the urgent need for robust human-in-the-loop verification and better sandboxing for AI-driven DevOps tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/Al_Grigor/status/2029889772181934425",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "sarvam-105b-indian-llm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Sarvam AI 发布 105B，印度首个具竞争力的开源大模型",
+        "en": "Sarvam AI Releases 105B, India's First Competitive Open LLM"
+      },
+      "summary": {
+        "zh": "Sarvam AI 宣布发布 Sarvam 105B，这是印度开发的首个具有竞争力的开源大语言模型。该模型及其 30B 变体针对印度语系和地区文化背景进行了优化，填补了全球 AI 开发中的一项重大空白。通过达到与国际前沿模型相当的性能水平，Sarvam 105B 标志着印度在实现 AI 主权方面迈出了重要一步。预计此次发布将催化当地开发者生态系统，并减少对以西方为中心的专有 API 的依赖。",
+        "en": "Sarvam AI has announced the release of Sarvam 105B, marking the first competitive large-scale open-source LLM developed in India. The model, alongside a smaller 30B variant, is optimized for Indic languages and regional cultural contexts, addressing a major gap in global AI development. By achieving performance levels comparable to international frontier models, Sarvam 105B represents a significant step toward India's AI sovereignty. This release is expected to catalyze the local developer ecosystem and reduce reliance on Western-centric proprietary APIs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "palantir-anthropic-military-targets",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美军利用 Palantir 与 Anthropic AI 在 24 小时内打击千个目标",
+        "en": "US Uses Palantir and Anthropic AI to Hit 1k Targets in 24 Hours"
+      },
+      "summary": {
+        "zh": "报告显示，美军利用 Palantir 和 Anthropic 的集成 AI 系统，在 24 小时内识别并打击了伊朗境内的 1000 个目标。这次行动展示了 AI 辅助动能战争前所未有的规模，大语言模型被用于处理情报并以机器速度建议战术目标。Anthropic 的参与标志着这家最初基于 AI 安全和宪法伦理原则创立的公司发生了争议性的转变。这一进展预示着一个新时代的到来，即 AI 已成为高频军事决策的核心组成部分。",
+        "en": "Reports indicate that the US military utilized integrated AI systems from Palantir and Anthropic to identify and strike 1,000 targets in Iran within a single 24-hour window. This operation demonstrates an unprecedented scale of AI-assisted kinetic warfare, where LLMs are used to process intelligence and suggest tactical targets at machine speed. The involvement of Anthropic marks a controversial shift for a company originally founded on principles of AI safety and constitutional ethics. This development signals a new era where AI is a core component of high-frequency military decision-making."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.moneycontrol.com/europe/?url=https://www.moneycontrol.com/world/how-palantir-and-anthropic-ai-helped-the-us-hit-1-000-iran-targets-in-24-hours-article-13853331.html",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "ai-error-iran-school-bombing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 错误或导致伊朗女子学校遭误炸惨剧",
+        "en": "AI Error Linked to Tragic School Bombing Incident in Iran"
+      },
+      "summary": {
+        "zh": "一项调查表明，在最近的军事行动中，AI 目标定位错误可能导致了伊朗一所女子学校遭到误炸。虽然 AI 系统提高了打击速度，但这一事件凸显了算法幻觉或数据误读在战斗中造成的致命后果。该事件引发了关于 AI 供应商在软件涉及平民伤亡时应承担何种法律与道德责任的激烈辩论。它强调了在涉及生死的极高风险环境下，当前 AI 可靠性所面临的严峻局限性。",
+        "en": "An investigation suggests that an AI targeting error may have contributed to the tragic bombing of a girls' school in Iran during recent military operations. While AI systems have increased targeting speed, this incident highlights the lethal consequences of algorithmic hallucinations or data misinterpretation in active combat. The event has sparked intense debate regarding the legal and moral accountability of AI vendors when their software is involved in civilian casualties. It underscores the critical limitations of current AI reliability in high-stakes, life-or-death environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://thisweekinworcester.com/exclusive-ai-error-girls-school-bombing/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "xai-california-disclosure-law",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "xAI 阻止加州 AI 数据披露法的法律诉求被驳回",
+        "en": "xAI Loses Legal Bid to Halt California AI Data Disclosure Law"
+      },
+      "summary": {
+        "zh": "马斯克的 xAI 公司在试图阻止加州一项法律的诉讼中败诉，该法律要求披露 AI 训练数据的来源和方法。法院裁定，州政府在透明度和消费者保护方面的利益超过了公司对商业秘密侵权的指控。这一裁决迫使 xAI 和其他主要开发商必须更公开地披露用于训练前沿模型的数据集。该裁决确立了一个重要的法律先例，可能会影响全美的 AI 监管，将公众问责置于企业保密之上。",
+        "en": "Elon Musk's xAI has lost its legal bid to block a California law that mandates the disclosure of AI training data sources and methodologies. The court ruled that the state's interest in transparency and consumer protection outweighs the company's claims of trade secret infringement. This decision forces xAI and other major developers to be more forthcoming about the datasets used to train their frontier models. The ruling sets a significant legal precedent that could influence AI regulation across the United States, prioritizing public accountability over corporate secrecy."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/legal/government/xai-loses-bid-halt-california-ai-data-disclosure-law-2026-03-05/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "veridisquo-deepfake-detector",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "VeridisQuo：结合空间与频域分析的开源深度伪造检测器",
+        "en": "VeridisQuo: Open-Source Deepfake Detector Combining Spatial and Frequency Analysis"
+      },
+      "summary": {
+        "zh": "VeridisQuo 是一款新型开源深度伪造检测工具，它超越了传统的像素级分析，通过引入频域检查来识别压缩伪影和频谱不一致性。该项目由大学团队开发，能够提供热图可视化，精确显示面部被篡改的区域。这种双重方法解决了传统检测器往往忽略生成器在频谱中留下的细微痕迹的问题。其开源发布为打击 AI 生成的虚假信息提供了一个透明且可解释的工具，增强了数字内容的真实性验证能力。",
+        "en": "VeridisQuo is a new open-source deepfake detection tool that moves beyond pixel-level analysis by incorporating frequency domain checks to identify compression artifacts and spectral inconsistencies. Developed as a university project, it provides a heatmap visualization showing exactly where a face has been manipulated. This dual-approach addresses the limitations of traditional detectors that often miss subtle generator-induced traces in the frequency spectrum. Its release contributes to the growing toolkit for combating AI-generated misinformation with transparent, interpretable results."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rnajac/p_veridisquo_opensource_deepfake_detector_that/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "prisma-mirrored-transformer",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Prisma：受可解释性启发的镜像 Transformer 架构，性能超越 GPT-2",
+        "en": "Prisma: An Interpretability-Inspired Mirrored Transformer Outperforming GPT-2"
+      },
+      "summary": {
+        "zh": "Prisma 引入了一种以可解释性为核心原则设计的「镜像 Transformer」架构，在效率基准测试中表现出色。该模型拥有 3.57 亿参数和 41 层结构，在仅使用 300 亿 token（单块 H100 训练）的情况下，在 8 个基准测试中的 5 个上超越了 GPT-2 Medium，且训练数据减少了 25%。其在 BoolQ (0.620) 和 ARC-E (0.548) 上的得分使其能与训练量大 10-100 倍的模型竞争。该研究表明，结构对称性和专注于可解释性的设计可以显著提高中小型语言模型的参数效率和泛化能力。",
+        "en": "Prisma introduces a Mirrored Transformer architecture designed with interpretability as a core principle, achieving impressive efficiency benchmarks. With 357M parameters and 41 layers, it outperformed GPT-2 Medium on 5 out of 8 benchmarks while using 25% less training data (30B tokens on a single H100). Notable scores include 0.620 on BoolQ and 0.548 on ARC-E, making it competitive with models trained on significantly larger datasets. This research suggests that structural symmetry and interpretability-focused design can lead to higher parameter efficiency and better generalization in small-to-medium language models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rncgqk/r_prisma_interpretabilityinspired_mirrored/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "gog-graph-oriented-generation",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "GOG：利用确定性 AST 遍历取代代码库中的向量 RAG",
+        "en": "GOG: Replacing Vector RAG with Deterministic AST Traversal for Codebases"
+      },
+      "summary": {
+        "zh": "图导向生成（GOG）是一种处理代码库的新方法，它利用确定性的抽象语法树（AST）遍历取代了传统的向量 RAG。通过将软件架构视为数学图而非概率性文本集合，GOG 实现了平均 70% 的 Token 削减，同时消除了 RAG 常见的导入路径幻觉问题。该方法允许 AI 模型以极高的精度导航深度代码库，确保上下文检索在结构上是可靠的。这标志着复杂工程任务正从概率性检索转向基于图的确定性上下文管理。",
+        "en": "Graph-Oriented Generation (GOG) is a new approach to codebase interaction that replaces traditional Vector RAG with deterministic Abstract Syntax Tree (AST) traversal. By treating software architecture as a mathematical graph rather than a probabilistic text collection, GOG achieves an average token reduction of 70% while eliminating common RAG issues like hallucinated import paths. This method allows AI models to navigate deep codebases with high precision, ensuring that context retrieval is structurally sound. It represents a significant shift toward deterministic, graph-based context management for complex engineering tasks."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rmz1zr/r_graphoriented_generation_gog_replacing_vector/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "qwen3-coder-next-swe-rebench",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3-Coder-Next 登顶 SWE-rebench，性能超越闭源模型",
+        "en": "Qwen3-Coder-Next Tops SWE-rebench, Outperforming Proprietary Models"
+      },
+      "summary": {
+        "zh": "Qwen3-Coder-Next 在 SWE-rebench (Pass@5) 排行榜上跃居首位，超越了所有开源及主流闭源模型。尽管它是一个 80B-A3B 的指令微调模型而非专门的「思考型」模型，但在自主软件工程任务中表现出了卓越的能力。用户反馈显示，虽然其首轮代码生成质量很高，但其核心优势在于能根据终端输出和错误信息进行自我修复。这一里程碑意味着开源编程模型在私有化本地开发环境方面已达到甚至超越了当前的最先进（SOTA）水平。",
+        "en": "Qwen3-Coder-Next has emerged as the top-performing model on the SWE-rebench (Pass@5) leaderboard, surpassing both open-source and major proprietary models. Despite being an 80B-A3B instruct model rather than a specialized thinking model, it demonstrates exceptional capability in autonomous software engineering tasks. Users report that while its first-pass code is strong, its true strength lies in its ability to recover from terminal outputs and fix errors iteratively. This milestone signifies that open-source coding models have reached, or even exceeded, state-of-the-art (SOTA) levels for private, local development environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rn476o/qwen3codernext_is_the_top_model_in_swerebench/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "llamacpp-mcp-integration",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 合并 MCP 支持，开启本地模型 Agent 工作流",
+        "en": "llama.cpp Merges Model Context Protocol (MCP) Support for Agentic Workflows"
+      },
+      "summary": {
+        "zh": "模型上下文协议（MCP）的 PR 已正式合并至 llama.cpp，为这一流行的推理引擎解锁了先进的 Agent 能力。此次更新在 llama-server 和 WebUI 组件中直接引入了对工具调用、Agent 循环、资源浏览器和提示词附件的支持。此外，它还包含一个后端 CORS 代理，以促进与 Open WebUI 等外部工具和界面的无缝集成。通过采用 MCP 标准，llama.cpp 允许用户构建更复杂、更具交互性的 AI 应用，使其能够以极低的摩擦力与本地文件和外部 API 进行交互。",
+        "en": "The Model Context Protocol (MCP) pull request has been officially merged into llama.cpp, unlocking advanced agentic capabilities for the popular inference engine. This update introduces support for tool calls, agentic loops, resource browsers, and prompt attachments directly within the llama-server and WebUI components. It also includes a backend CORS proxy to facilitate seamless integration with external tools and interfaces like Open WebUI. By adopting the MCP standard, llama.cpp enables users to build more complex, interactive AI applications that can interact with local files and external APIs with minimal friction."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnabs2/the_mcp_pr_for_llamacpp_has_been_merged/",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "tencent-penguin-vl-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "腾讯发布 Penguin-VL：高效紧凑型视觉语言模型",
+        "en": "Tencent Releases Penguin-VL: High-Efficiency Compact Vision-Language Models"
+      },
+      "summary": {
+        "zh": "腾讯发布了 8B 和 2B 参数规模的 Penguin-VL，旨在探索小型视觉语言模型（VLM）的效率极限。与仅进行指令微调的模型不同，Penguin-VL 从底层开始构建，采用了专门的基于 LLM 的视觉编码器构造和广泛的多模态预训练。这些紧凑型模型旨在视觉推理任务中提供高性能，同时保持在消费级硬件上的可部署性。该发布突显了行业趋势：优化更小、更专业的模型，以平衡多模态智能与计算经济性。",
+        "en": "Tencent has released Penguin-VL in 8B and 2B parameter sizes, focusing on pushing the efficiency limits of small-scale Vision-Language Models (VLMs). Unlike models that only undergo instruction tuning, Penguin-VL is built from the ground up using a specialized LLM-based vision encoder construction and extensive multimodal pretraining. These compact models are designed to deliver high performance on visual reasoning tasks while remaining deployable on consumer-grade hardware. The release highlights the industry trend toward optimizing smaller, specialized models that balance multimodal intelligence with computational economy."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rn7fg3/penguinvl_8b2b_by_tencent/",
+      "date": "2026-03-07"
+    }
+  ]
+}
