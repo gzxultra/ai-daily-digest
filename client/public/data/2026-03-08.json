@@ -1,0 +1,251 @@
+{
+  "date": "2026-03-08",
+  "dateLabel": {
+    "zh": "2026年3月8日",
+    "en": "March 08, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-08T15:29:30Z",
+    "elapsedSeconds": 109,
+    "rawArticles": 34,
+    "afterFilter": 33,
+    "afterDedup": 28,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 8
+    }
+  },
+  "news": [
+    {
+      "id": "ai-detection-education-backfire",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "学校AI检测适得其反，迫使学生更多使用大模型",
+        "en": "AI Detection in Schools Backfires, Pushing Students Toward LLMs"
+      },
+      "summary": {
+        "zh": "教育机构正越来越多地使用AI检测工具来验证学生作业，但这一策略正产生适得其反的效果。为了避免被误报为「机器人写作」，学生们反而开始利用AI来「人性化」他们的文本，或者采用僵化的写作风格以规避检测。这种现象形成了一个恶性循环：对学术诚信的过度追求反而激励了学生使用生成式工具，并导致学生写作质量的整体下降。",
+        "en": "Educational institutions are increasingly using AI detection tools to verify student work, but the strategy is backfiring. To avoid 'false positives' from detectors that flag human writing as robotic, students are ironically turning to AI to 'humanize' their text or adopting rigid writing styles that stifle creativity. This creates a cycle where the pursuit of academic integrity actually incentivizes the use of generative tools and degrades the quality of student writing."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "karpathy-autoresearch-agents",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Karpathy 发布 Autoresearch：实现 Nanochat 训练研究自动化",
+        "en": "Karpathy Releases Autoresearch: Agents Automating Nanochat Training Research"
+      },
+      "summary": {
+        "zh": "Andrej Karpathy 推出了「Autoresearch」项目，展示了能够自主在单 GPU 上进行 nanochat 模型训练研究的智能体。该系统实现了实验、监控和优化的迭代过程自动化，展示了 LLM 智能体处理复杂机器学习工程任务的潜力。这一发布标志着研究范式向「自我改进」型流水线的转变，即 AI 开始协助自身的架构演进。",
+        "en": "Andrej Karpathy has introduced 'Autoresearch', a project featuring agents that can autonomously conduct research on training nanochat models using a single GPU. The system automates the iterative process of experimentation, monitoring, and optimization, showcasing how LLM agents can handle complex ML engineering tasks. This release highlights a shift toward 'self-improving' research pipelines where AI assists in its own architectural evolution."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/karpathy/autoresearch",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "ai-developer-working-hours",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "为什么使用 AI 的开发者反而工作时间更长了",
+        "en": "Why AI Adoption is Leading to Longer Working Hours for Developers"
+      },
+      "summary": {
+        "zh": "尽管 AI 承诺提高效率，但《科学美国人》的一份报告指出，使用 AI 工具的开发者工作时间反而变长了。这一现象归因于「杰文斯悖论」，即效率的提高导致了需求的增加；开发者现在被要求处理更复杂的任务和更大规模的代码。此外，编写代码节省的时间往往被审查和调试 AI 生成内容所带来的额外认知负担所抵消。",
+        "en": "Despite the promise of increased efficiency, a Scientific American report indicates that developers using AI tools are actually working longer hours. The phenomenon is attributed to the 'Jevons Paradox', where increased efficiency leads to higher demand; developers are now expected to manage more complex tasks and higher volumes of code. Additionally, the time saved in writing code is often offset by the increased cognitive load of reviewing and debugging AI-generated outputs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "ai-illegal-warfare-ethics",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 在现代战争中的角色引发伦理与法律担忧",
+        "en": "Ethical Concerns Rise Over AI's Role in Modern Warfare"
+      },
+      "summary": {
+        "zh": "一篇最新的评论探讨了 AI 与非法战争的交集，强调了在冲突地区部署自主系统的伦理风险。文章指出，AI 决策过程缺乏透明度，这使得国际法下的问责制变得复杂化。随着军事领域加速采用 AI，业界迫切呼吁建立更清晰的监管框架，以防止致命武力的非人性化，并确保在高风险场景中保留人类监督。",
+        "en": "A new critique explores the intersection of AI and illegal warfare, highlighting the ethical risks of deploying autonomous systems in conflict zones. The article argues that the lack of transparency in AI decision-making processes complicates accountability under international law. As military adoption of AI accelerates, there is an urgent call for clearer regulatory frameworks to prevent the dehumanization of lethal force and ensure human oversight in high-stakes scenarios."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://buttondown.com/creativegood/archive/ai-and-the-illegal-war/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "traceml-pytorch-visibility",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "TraceML：PyTorch 训练过程的实时可视化工具",
+        "en": "TraceML: Real-time Runtime Visibility for PyTorch Training"
+      },
+      "summary": {
+        "zh": "TraceML 是一款新型开源工具，旨在通过简单的上下文管理器提供 PyTorch 训练过程的实时可见性。通过包装训练步骤，开发者可以实时监控数据加载时间、前向/后向传播耗时以及 GPU 显存占用。它专门解决了分布式训练中的 DDP 偏斜和秩不平衡等问题，并提供简洁的运行总结，帮助快速识别性能瓶颈。",
+        "en": "TraceML is a new open-source tool designed to provide live visibility into PyTorch training runs via a simple context manager. By wrapping training steps, developers can monitor dataloader fetch times, forward/backward pass durations, and GPU memory usage in real-time. It specifically addresses distributed training issues like DDP skew and rank imbalance, offering a compact summary to help identify performance bottlenecks immediately."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rnlo0q/p_traceml_wrap_your_pytorch_training_step_in/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "ace-rlm-reflective-agents",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "结合 ACE 与 RLM 模式：构建具备自我反思能力的编程智能体",
+        "en": "Combining ACE and RLM for Self-Reflective Coding Agents"
+      },
+      "summary": {
+        "zh": "一个新项目将斯坦福大学的 ACE 论文与反射语言模型（RLM）模式相结合，创建了能够分析自身执行轨迹的智能体。这些智能体通过编写代码来检查自身表现，利用「反射器」（LLM 作为裁判）和技能管理器来筛选成功策略库。这种方法实现了无需微调的上下文学习，使智能体能够在大规模场景下自主提升解决问题的能力。",
+        "en": "A new project combines Stanford's ACE (Autonomous Cognitive Entities) paper with the Reflective Language Model (RLM) pattern to create agents that analyze their own execution traces. These agents write code to inspect their performance, utilizing a 'Reflector' LLM-as-a-judge and a SkillManager to curate a library of successful strategies. This approach enables in-context learning without fine-tuning, allowing agents to autonomously improve their problem-solving capabilities at scale."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rnebal/p_combining_stanfords_ace_paper_with_the/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "multimodal-composed-search-evals",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "工业实验室发布大规模多模态组合搜索评估集",
+        "en": "Industry Labs Release Large-Scale Multimodal Search Evals"
+      },
+      "summary": {
+        "zh": "工业实验室开始发布针对多模态组合搜索的大规模评估数据集，解决了该领域的一个主要瓶颈。这些数据集允许对结合图像和文本查询的模型进行更严格的测试，而这在以前由于数据稀缺很难进行基准测试。通过提供这些资源，实验室使小型研究小组能够在没有高昂数据整理成本的情况下参与多模态领域的竞争。这一趋势凸显了复杂检索任务向标准化指标的重大转变，促进了 AI 搜索技术的广泛创新。",
+        "en": "Industry labs have begun releasing large-scale evaluation datasets for multimodal composed search, addressing a major bottleneck in the field. These datasets allow for more rigorous testing of models that combine image and text queries, which has traditionally been difficult to benchmark due to data scarcity. By providing these resources, labs are enabling smaller research groups to compete in the multimodal space without the prohibitive cost of data curation. This trend highlights a significant shift toward standardized metrics in complex retrieval tasks, fostering broader innovation in AI search technologies."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rnu6hu/r_large_scale_evals_for_multimodal_composed_search/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "nnsight-v06-interpretability",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "NNsight v0.6 发布：开源 LLM 可解释性工具包更新",
+        "en": "NNsight v0.6: Open-Source LLM Interpretability Toolkit Updated"
+      },
+      "summary": {
+        "zh": "NNsight v0.6 的发布引入了一个增强的开源工具包，专为大语言模型的机械可解释性设计。该版本简化了在推理过程中干预和观察模型内部激活的过程，这对于理解模型行为和安全性至关重要。随着 LLM 变得越来越复杂，像 NNsight 这样的工具为研究人员深入分析神经动力学提供了必要的基础设施。此次更新反映了行业对 Transformer 架构透明度和可调试性日益增长的需求，旨在超越「黑箱」操作。",
+        "en": "The release of NNsight v0.6 introduces an enhanced open-source toolkit designed for the mechanistic interpretability of Large Language Models. This version streamlines the process of intervening in and observing the internal activations of models during inference, which is critical for understanding model behavior and safety. As LLMs become more complex, tools like NNsight provide the necessary infrastructure for researchers to perform deep-dive analysis into neural dynamics. The update reflects a growing industry demand for transparency and debuggability in transformer-based architectures, moving beyond black-box operations."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rng5px/p_introducing_nnsight_v06_opensource/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "av-safety-oracle-flow-matching",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "利用流匹配技术构建 L4 级自动驾驶「安全先知」",
+        "en": "Flow Matching Used to Build Safety Oracle for L4 Autonomous Driving"
+      },
+      "summary": {
+        "zh": "一项新的研究项目引入了用于 L4 级自动驾驶的「安全先知」，利用流匹配（Flow Matching）技术识别语义安全风险。与依赖制动力等简单物理阈值的传统启发式过滤器不同，这种生成式方法可以检测复杂的「长尾」异常，如不稳定的车道变换或非规范的几何形状。通过自动检测这些边缘案例，该系统显著提高了自动驾驶汽车安全管线的鲁棒性。这种从脆弱的基于规则的启发式方法向学习型生成安全模型的转变，标志着解决自动驾驶技术长尾问题迈出了重要一步。",
+        "en": "A new research project introduces a 「Safety Oracle」 for L4 autonomous driving that utilizes Flow Matching to identify semantic safety risks. Unlike traditional heuristic-based filters that rely on simple physical thresholds like braking force, this generative approach can detect complex 「long-tail」 anomalies such as erratic lane changes or non-normative geometry. By automating the detection of these edge cases, the system significantly improves the robustness of autonomous vehicle safety pipelines. This shift from brittle, rule-based heuristics to learned generative safety models marks a major step forward in solving the long-tail problem in self-driving technology."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rndxi9/r_i_built_a_safety_oracle_for_l4_autonomous/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "nemotron-patent-classification",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "开发者利用 Nemotron 9B 在本地分类 350 万项专利",
+        "en": "Developer Classifies 3.5M Patents Locally Using Nemotron 9B"
+      },
+      "summary": {
+        "zh": "一位开发者成功使用 NVIDIA 的 Nemotron 9B 模型，在单块 RTX 5090 GPU 上本地分类了 350 万项美国专利。该项目涉及处理一个 74GB 的 SQLite 数据库，并在 48 小时内将记录归类为 100 个技术标签。这一壮举证明了在消费级硬件上进行高吞吐量、工业级规模 NLP 任务的可行性日益增强。由此产生的免费搜索引擎利用 BM25 排名和自然语言查询扩展，展示了本地 LLM 如何在不依赖昂贵云端 API 的情况下，使复杂的法律和技术数据访问变得民主化。",
+        "en": "A developer successfully classified 3.5 million US patents using NVIDIA's Nemotron 9B model running locally on a single RTX 5090 GPU. The project involved processing a 74GB SQLite database and categorizing records into 100 technology tags within a 48-hour window. This feat demonstrates the increasing feasibility of high-throughput, industrial-scale NLP tasks on consumer-grade hardware. The resulting free search engine utilizes BM25 ranking and natural language query expansion, showcasing how local LLMs can democratize access to complex legal and technical data without relying on expensive cloud APIs."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ro52cu/i_classified_35m_us_patents_with_nemotron_9b_on_a/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "qwen-35-performance-test",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen 3.5 27B 在社区基准测试中挑战 GPT-5",
+        "en": "Qwen 3.5 27B Challenges GPT-5 in Community Benchmarks"
+      },
+      "summary": {
+        "zh": "Qwen 3.5 27B 的早期社区测试表明，在特定的应用程序开发任务中，它可以媲美甚至超过 GPT-5 的表现。在 RTX 3090 Ti 等本地硬件上运行时，该模型的 35B-A3B 变体实现了高达每秒 90 个 token 的推理速度，尽管在复杂的 GUI 执行方面仍面临挑战。这些结果强调了开源权重模型的快速进步，它们现在正提供前沿水平的能力，并具有本地隐私和低延迟的额外优势。随着中型模型在处理复杂推理方面变得越来越高效，竞争格局正在发生变化。",
+        "en": "Early community testing of Qwen 3.5 27B suggests it can rival or even exceed the performance of GPT-5 in specific application development tasks. Running on local hardware like the RTX 3090 Ti, the model's 35B-A3B variant achieved inference speeds of up to 90 tokens per second, though it still faces challenges with complex GUI execution. These results underscore the rapid advancement of open-weights models, which are now providing frontier-level capabilities with the added benefits of local privacy and low latency. The competitive landscape is shifting as mid-sized models become increasingly efficient and capable of handling complex reasoning."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnwiyx/qwen_35_27b_is_the_real_deal_beat_gpt5_on_my/",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "ara-decensoring-method",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "新型 ARA 方法攻克 GPT-OSS 模型的安全拒绝机制",
+        "en": "New ARA Method Defeats Safety Refusals in GPT-OSS Models"
+      },
+      "summary": {
+        "zh": "一种名为「任意秩消融」（ARA）的新实验方法被引入，用于对经过严格安全对齐的模型（如 GPT-OSS）进行「去审查」。ARA 声称比之前的「eww」等技术更有效，后者在微调后往往仍会让模型容易产生拒绝行为。通过手术般地针对负责拒绝行为的特定神经秩，ARA 允许在不受限的使用场景中更完整地恢复模型效用。这一进展突显了公司安全「脑叶切除」与开源社区对无审查模型访问愿望之间的持续紧张关系，推动了模型操控的边界。",
+        "en": "A new experimental method called Arbitrary-Rank Ablation (ARA) has been introduced to 「decensor」 models that have undergone heavy safety alignment, such as GPT-OSS. ARA claims to be more effective than previous techniques like 「eww,」 which often left models prone to refusals even after fine-tuning. By surgically targeting the specific neural ranks responsible for refusal behaviors, ARA allows for a more complete restoration of model utility for unrestricted use cases. This development highlights the ongoing tension between corporate safety 「lobotomization」 and the open-source community's desire for uncensored model access, pushing the boundaries of model steering."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rnic0a/heretic_has_finally_defeated_gptoss_with_a_new/",
+      "date": "2026-03-08"
+    }
+  ]
+}
