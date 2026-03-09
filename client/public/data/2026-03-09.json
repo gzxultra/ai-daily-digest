@@ -1,0 +1,252 @@
+{
+  "date": "2026-03-09",
+  "dateLabel": {
+    "zh": "2026年3月9日",
+    "en": "March 09, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-09T16:03:24Z",
+    "elapsedSeconds": 117,
+    "rawArticles": 41,
+    "afterFilter": 37,
+    "afterDedup": 36,
+    "dedupRemoved": 1,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 6,
+      "Reddit": 5
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-448-bytedance-cuda",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 448：字节跳动 CUDA 智能体与加速的 AI 时间线",
+        "en": "Import AI 448: Bytedance CUDA Agent and Accelerated Timelines"
+      },
+      "summary": {
+        "zh": "Ajeya Cotra 更新了她的 AI 发展时间线，指出进展速度已超过 2026 年初最激进的预测。本期通讯重点介绍了字节跳动开发的 CUDA 编写智能体，这标志着硬件优化正向自动化转型。此外，针对卫星载 AI 的研究显示，轨道上的去中心化边缘智能正成为现实。这些进展共同体现了自动编程与专用硬件部署正在加速融合。",
+        "en": "Ajeya Cotra has updated her AI timelines, noting that progress is outpacing even aggressive forecasts from early 2026. The newsletter highlights Bytedance's development of a specialized agent capable of writing CUDA code, signaling a shift toward automated hardware optimization. Additionally, research into on-device satellite AI suggests a move toward decentralized, edge-based intelligence in orbit. These developments underscore the rapid convergence of automated coding and specialized hardware deployment."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "oracle-layoffs-ai-expansion",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "甲骨文或裁员 3 万人以资助 AI 数据中心转型",
+        "en": "Oracle Considers 30k Job Cuts to Fund AI Data Center Pivot"
+      },
+      "summary": {
+        "zh": "据报道，甲骨文公司正考虑裁员多达 3 万人，以筹集资金支持其大规模的 AI 数据中心扩张计划。此举正值美国传统银行开始收缩科技贷款规模，迫使科技巨头通过激进的成本削减来为基础设施建设自筹资金。裁员规模反映了在主权 AI 和云基础设施竞赛中所需的巨大资本投入。这标志着行业正经历从以人为本的服务向以算力为核心的资产的残酷转型。",
+        "en": "Oracle is reportedly considering cutting up to 30,000 jobs as part of a massive strategic pivot to fund its AI data center expansion. This move comes as traditional US banks begin to retreat from aggressive tech lending, forcing tech giants to self-fund infrastructure through radical cost-cutting. The scale of the layoffs reflects the immense capital intensity required to compete in the sovereign AI and cloud infrastructure race. It highlights a brutal transition from human-centric services to compute-centric assets."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cio.com/article/4125103/oracle-may-slash-up-to-30000-jobs-to-fund-ai-data-center-expansion-as-us-banks-retreat.html",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "claude-capacity-chatgpt-exodus",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "ChatGPT 用户大规模流失，Claude 难以应对涌入压力",
+        "en": "Claude Struggles with Stability Amid Massive ChatGPT User Exodus"
+      },
+      "summary": {
+        "zh": "随着大量用户从 ChatGPT 迁移，Anthropic 旗下的 Claude 正在努力维持服务稳定性。这种「大逃亡」导致了频繁的停机和性能下降，考验着 Anthropic 的基础设施极限。用户激增表明市场偏好正向 Claude 的推理能力转移，但也凸显了在大规模需求激增下扩展大模型服务的脆弱性。Anthropic 目前必须在快速扩张与先进模型的高昂运营成本之间取得平衡。",
+        "en": "Anthropic's Claude is currently struggling to maintain service stability following a massive influx of users migrating from ChatGPT. This exodus has led to frequent downtime and performance degradation, testing Anthropic's infrastructure limits. The surge suggests a significant shift in market preference toward Claude's reasoning capabilities, yet highlights the fragility of scaling LLM services under sudden demand spikes. Anthropic must now balance rapid scaling with the high operational costs of its most advanced models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.forbes.com/sites/barrycollins/2026/03/06/claude-struggles-to-cope-with-chatgpt-exodus/",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "claude-military-targeting-iran",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Claude 被指协助军事打击目标筛选",
+        "en": "Allegations Surface of Claude Assisting in Military Target Selection"
+      },
+      "summary": {
+        "zh": "有报道称，Claude 被用于协助筛选针对伊朗的军事打击目标，其中可能涉及学校等民用基础设施。这一事件引发了关于大语言模型在动力战中「双重用途」性质的严重伦理和安全担忧。尽管 Anthropic 制定了严禁用于军事暴力的使用政策，但该事件凸显了在复杂的地理政治冲突中执行此类边界的难度。这可能会引发监管机构对 AI 在自动瞄准系统中角色的新一轮审查。",
+        "en": "Reports have surfaced alleging that Claude was utilized to help select targets for military strikes in Iran, potentially involving civilian infrastructure like a school. This development raises severe ethical and safety concerns regarding the dual-use nature of large language models in kinetic warfare. While Anthropic maintains strict usage policies against military violence, the incident highlights the difficulty of enforcing such boundaries in complex geopolitical conflicts. It may trigger new regulatory scrutiny over AI's role in autonomous targeting systems."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/robertwrighter/status/2030482402628214841",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "nvidia-nscale-funding",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达注资 Nscale，初创公司估值飙升至 146 亿美元",
+        "en": "Nvidia Backs Nscale as Startup Hits $14.6B Valuation"
+      },
+      "summary": {
+        "zh": "英伟达支持了 AI 数据中心初创公司 Nscale，使其估值达到 146 亿美元。Nscale 专注于垂直整合的 GPU 云服务，提供下一代 Blackwell 集群所需的专用冷却和电力基础设施。这笔投资强化了英伟达在传统超大规模云服务商之外，培育多样化「AI 工厂」生态系统的战略。高估值反映了在全球 GPU 短缺背景下，市场对专业算力能力的迫切需求。",
+        "en": "Nvidia has backed AI data center startup Nscale in a funding round that propelled the company's valuation to $14.6 billion. Nscale specializes in vertically integrated GPU cloud services, providing the specialized cooling and power infrastructure required for next-generation Blackwell clusters. This investment reinforces Nvidia's strategy of fostering a diverse ecosystem of AI factories beyond the traditional hyperscalers. The high valuation reflects the market's desperate demand for specialized compute capacity amid a global GPU shortage."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "terence-tao-claude-code-lean",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "陶哲轩演示使用 Claude Code 进行 Lean 证明形式化",
+        "en": "Terence Tao Uses Claude Code to Formalize Proofs in Lean"
+      },
+      "summary": {
+        "zh": "著名数学家陶哲轩演示了如何使用 Claude Code 辅助使用 Lean 编程语言进行数学证明的形式化。在最近发布的视频中，陶哲轩展示了该 AI 工具如何弥合高层数学推理与形式化验证所需的严谨语法之间的差距。这位世界级数学家与 AI 编程智能体之间的协作，标志着纯数学领域计算机辅助发现的新时代。这表明 AI 正在成为验证人类生成的复杂证明的重要工具。",
+        "en": "Renowned mathematician Terence Tao has demonstrated the use of Claude Code to assist in formalizing mathematical proofs using the Lean programming language. In a recently released video, Tao showcases how the AI tool can bridge the gap between high-level mathematical reasoning and the rigorous syntax required for formal verification. This collaboration between a world-class mathematician and an AI coding agent signals a new era for computer-assisted discovery in pure mathematics. It suggests that AI is becoming an essential tool for verifying complex human-generated proofs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.youtube.com/watch?v=JHEO7cplfk8",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "ai-nationalization-concerns",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 巨头 CEO 担忧政府可能将人工智能国有化",
+        "en": "AI CEOs Express Concerns Over Potential Government Nationalization"
+      },
+      "summary": {
+        "zh": "顶级 AI 公司首席执行官对政府可能将 AI 系统国有化的趋势表示担忧，理由通常涉及国家安全和经济稳定。这一讨论反映了 AI 正被视为与能源或国防基础设施同等重要的主权资产。支持者认为国有化能确保安全和公平分配，而批评者则警告这可能扼杀创新并导致官僚化停滞。这场辩论凸显了私营部门在尖端 AI 领域的领先地位与国家对变革性技术控制欲之间的紧张关系。",
+        "en": "AI industry leaders are increasingly expressing concerns that governments may attempt to nationalize advanced artificial intelligence systems, citing national security and economic stability as justifications. This shift in discourse reflects the growing perception of AI as a critical sovereign asset comparable to energy or defense infrastructure. While proponents argue nationalization ensures safety and equitable access, critics warn it could stifle innovation and lead to bureaucratic stagnation. The debate highlights a deepening tension between private-sector dominance in frontier AI and the state's desire for control over transformative technologies."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://yro.slashdot.org/story/26/03/07/2058213/ai-ceos-worry-the-government-will-nationalize-ai",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "sdhce-symbolic-distillation",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "开源工具 SDHCE 将神经网络转化为可读数学公式",
+        "en": "SDHCE Tool Converts Neural Networks into Readable Math Formulas"
+      },
+      "summary": {
+        "zh": "开源工具 SDHCE（通过分层概念提取进行符号蒸馏）正式发布，旨在弥合黑盒神经网络与人类可读逻辑之间的鸿沟。该工具无需额外数据，即可直接从训练好的多层感知机（MLP）权重中提取分层概念结构。通过将复杂的权重矩阵转换为符号数学公式，SDHCE 允许开发人员审计模型逻辑并验证决策过程。这标志着 AI 可解释性的重要进展，特别是在安全至上的应用场景中，理解模型的「决策动机」与预测结果同样重要。",
+        "en": "A new open-source tool called SDHCE (Symbolic Distillation via Hierarchical Concept Extraction) has been released, aiming to bridge the gap between black-box neural networks and human-readable logic. The tool extracts a hierarchical concept structure directly from a trained multilayer perceptron's (MLP) weights without requiring additional training data. By converting complex weight matrices into symbolic mathematical formulas, SDHCE enables developers to audit model logic and verify decision-making processes. This represents a significant step forward in AI interpretability, particularly for safety-critical applications where understanding why a model predicts is as important as the prediction itself."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rp231d/p_a_new_open_source_mlp_symbolic_distillation_and/",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "symgpt-smart-contract-audit",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "SymGPT 结合大模型与符号执行，发现数千个智能合约漏洞",
+        "en": "SymGPT Combines LLMs and Symbolic Execution for Smart Contract Audits"
+      },
+      "summary": {
+        "zh": "研究人员推出了 SymGPT 框架，该框架结合了大语言模型（LLM）与符号执行技术，用于审计以太坊智能合约。该研究已被 OOPSLA 接收，系统在分析 4,000 个合约时发现了 5,783 个违反以太坊征求意见（ERC）规则的问题。SymGPT 利用 LLM 将复杂的 ERC 自然语言规范转换为形式化约束，随后通过符号执行进行验证。这种混合方法解决了 LLM 在逻辑推理方面的局限，同时发挥了其语义理解的优势，显著提升了区块链安全审计的自动化水平。",
+        "en": "Researchers have introduced SymGPT, a novel framework that combines Large Language Models (LLMs) with symbolic execution to audit Ethereum smart contracts. In a study accepted to OOPSLA, the system analyzed 4,000 contracts and identified 5,783 issues related to non-compliance with Ethereum Request for Comment (ERC) rules. SymGPT uses LLMs to translate complex ERC natural language specifications into formal constraints, which are then verified via symbolic execution. This hybrid approach addresses the limitations of LLMs in logical reasoning while leveraging their strength in semantic understanding, significantly improving the automation of blockchain security audits."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ro8t22/d_we_analyzed_4000_ethereum_contracts_by/",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "qwen3-slm-performance",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "微调版 Qwen3 小模型在特定任务上超越顶级大模型",
+        "en": "Fine-tuned Qwen3 SLMs Outperform Frontier Models on Narrow Tasks"
+      },
+      "summary": {
+        "zh": "最新基准测试显示，参数量在 0.6B 到 8B 之间的微调版 Qwen3 小语言模型（SLM）在特定任务上已超越 GPT-5 nano 和 Claude 4.5 等顶尖模型。该研究在涵盖分类、函数调用和开卷问答的 9 个数据集上进行了对比，证明了针对性优化可以弥补参数规模的不足。这些模型采用开源权重教师模型进行蒸馏训练，展示了「蒸馏优先」策略在边缘侧部署的可行性。这一趋势表明，AI 正在向高效、专业的智能体转变，在特定领域提供更低延迟和成本的同时保持卓越性能。",
+        "en": "New benchmarks reveal that fine-tuned Qwen3 Small Language Models (SLMs), ranging from 0.6B to 8B parameters, are outperforming frontier models like GPT-5 nano and Claude 4.5 on specialized, narrow tasks. The study compared these distilled models across nine datasets covering classification, function calling, and open-book QA, showing that task-specific optimization can overcome raw parameter scale. These models were trained using open-weight teacher models, demonstrating the increasing viability of distillation-first strategies for edge deployment. This trend suggests a shift toward highly efficient, specialized AI agents that offer lower latency and cost without sacrificing performance in targeted domains."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rozrmn/finetuned_qwen3_slms_068b_beat_frontier_llms_on/",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "karpathy-autonomous-research-swarms",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Karpathy 称人类主导的 AI 研究时代正在终结",
+        "en": "Karpathy Declares the Era of Human-Led AI Research is Ending"
+      },
+      "summary": {
+        "zh": "AI 先驱 Andrej Karpathy 指出 AI 研发范式正发生根本性转变：前沿研究正从人类主导的「组会」模式转向自主 AI 智能体集群。在这个新时代，研究任务由在海量算力集群上持续运行的智能体系统执行，有效取代了传统的人类头脑风暴和同步周期。Karpathy 将之前的「肉身计算机」（人类）时代描述为受限于睡眠和沟通延迟等生物需求。这一演进暗示，AI 突破的速度将越来越取决于算力规模和智能体编排，而非人类的认知带宽。",
+        "en": "AI pioneer Andrej Karpathy has highlighted a paradigm shift in AI development, noting that frontier research is transitioning from human-led group meetings to autonomous swarms of AI agents. In this new era, research tasks are executed by agentic systems running continuously across massive compute clusters, effectively replacing the traditional cycle of human brainstorming and synchronization. Karpathy describes the previous era of meat computers (humans) as limited by biological needs like sleep and communication latency. This evolution suggests that the speed of AI breakthroughs will increasingly depend on compute scaling and agent orchestration rather than human cognitive bandwidth."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rowp28/karpathy_autoresearch/",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "oss-code-review-dataset",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "20 万条开源代码审查数据集发布，助力 AI 审计模型微调",
+        "en": "New 200k+ Case Dataset Released for AI Code Review Fine-tuning"
+      },
+      "summary": {
+        "zh": "一个包含来自 React、TensorFlow 和 VSCode 等顶级开源项目的 20 万条人类编写代码审查记录的大型数据集已向社区发布。利用该数据，研究人员专门针对自动化代码审计和反馈微调了 Qwen2.5-Coder-32B-Instruct 模型。结果显示，该模型在 BLEU-4、ROUGE-L 和 SBERT 等指标上比通用基准模型提升了四倍。通过捕捉专家级人类反馈的细微差别，该数据集使得 AI 助手能够提供更具上下文感知能力和架构合理性的代码建议，弥合了简单语法检查与高水平同行评审之间的差距。",
+        "en": "A massive new dataset containing over 200,000 human-written code reviews from top open-source projects like React, TensorFlow, and VSCode has been released to the community. Using this data, researchers fine-tuned a Qwen2.5-Coder-32B-Instruct model specifically for automated code auditing and feedback. The resulting model demonstrated a fourfold improvement in metrics such as BLEU-4, ROUGE-L, and SBERT scores compared to general-purpose baselines. By capturing the nuances of expert human feedback, this dataset enables the creation of AI assistants that can provide more context-aware and architecturally sound code suggestions, bridging the gap between simple syntax checking and high-level peer review."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rozgxn/code_review_dataset_200k_cases_of_humanwritten/",
+      "date": "2026-03-09"
+    }
+  ]
+}
