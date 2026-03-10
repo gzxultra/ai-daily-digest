@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-10",
+  "dateLabel": {
+    "zh": "2026年3月10日",
+    "en": "March 10, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-10T16:04:27Z",
+    "elapsedSeconds": 114,
+    "rawArticles": 48,
+    "afterFilter": 43,
+    "afterDedup": 41,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 4,
+      "Reddit": 4,
+      "The Verge": 3
+    }
+  },
+  "news": [
+    {
+      "id": "gpt-54-xhigh-workshop",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 发布 GPT-5.4 xhigh 并配套专项实战研讨会",
+        "en": "OpenAI releases GPT-5.4 xhigh with specialized implementation workshop"
+      },
+      "summary": {
+        "zh": "Ben's Bites 发布了关于如何使用 GPT-5.4 xhigh 的研讨会记录。GPT-5.4 xhigh 是 GPT-5 系列中的最新高性能变体，该研讨会为开发者提供了实际的实施策略。这一版本的推出标志着模型迭代速度的进一步加快，其中「xhigh」可能代表针对复杂推理或超大上下文窗口优化的版本。随着企业不再满足于基础模型，这类针对生产环境优化的专业变体正逐渐成为高要求 AI 应用的行业标准。",
+        "en": "Ben's Bites highlights a new workshop focused on leveraging GPT-5.4 xhigh, the latest high-performance iteration in the GPT-5 series. The session provides practical implementation strategies and recording access for developers looking to maximize the model's capabilities in production. This release underscores the accelerating pace of model versioning, where 「xhigh」 likely denotes a version optimized for complex reasoning or massive context windows. As enterprises move beyond base models, these specialized variants are becoming the standard for high-stakes AI applications."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/just-use-gpt-54-xhigh",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "legal-vs-legitimate-copyleft",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Copyleft 的侵蚀：AI 代码重构在法律上是否具有正当性？",
+        "en": "The erosion of copyleft: Is AI reimplementation legally legitimate?"
+      },
+      "summary": {
+        "zh": "一篇引发热议的文章探讨了 AI 驱动的代码重构与 GPL 等传统 Copyleft 许可协议之间的法律及伦理冲突。虽然 AI 模型技术上可以通过「重新编写」逻辑来规避版权侵权，但作者认为这侵蚀了开源合法性的精神。该话题在 Hacker News 上获得超过 540 个点赞，反映了软件许可领域日益严重的危机：法律漏洞允许闭源模型在不提供对等回馈的情况下吸收并转化开源智慧。这种紧张关系可能会迫使人们在生成式编程时代重新定义知识产权。",
+        "en": "A viral essay explores the ethical and legal friction between AI-driven code reimplementation and traditional copyleft licenses like the GPL. While AI models can technically 「re-author」 logic to bypass copyright infringement, the author argues this erodes the spirit of open-source legitimacy. With over 540 points on Hacker News, the debate highlights a growing crisis where legal loopholes allow proprietary models to ingest and transform open-source intelligence without reciprocity. This tension may force a fundamental redesign of how intellectual property is defined in the age of generative coding."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "lecun-startup-billion-seed",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Yann LeCun 的 AI 初创公司完成 10 亿美元融资，创欧洲种子轮纪录",
+        "en": "Yann LeCun's AI startup raises $1B in record-breaking European seed round"
+      },
+      "summary": {
+        "zh": "图灵奖得主 Yann LeCun 为其新成立的 AI 初创公司成功筹集了 10 亿美元，创下了欧洲历史上规模最大的种子轮融资记录。此次融资反映了投资者对 LeCun 「世界模型」愿景及超越当前 LLM 局限性的目标驱动型 AI 架构的巨大信心。这笔资金注入显著提升了欧洲在全球 AI 军备竞赛中的地位，为硅谷巨头提供了主权替代方案。种子轮即达到如此空前的规模，预示着行业正转向由资深专家领导的资本密集型基础研究。",
+        "en": "Turing Award winner Yann LeCun has successfully raised $1 billion for his new AI startup, marking the largest seed round in European history. The funding reflects massive investor confidence in LeCun's vision for 「World Models」 and objective-driven AI architectures that move beyond current LLM limitations. This capital injection significantly boosts Europe's position in the global AI arms race, providing a sovereign alternative to Silicon Valley giants. The round's unprecedented scale for a seed stage suggests a shift toward capital-intensive foundational research led by industry veterans."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "redox-os-no-llm-policy",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Redox OS 禁止使用 LLM 生成代码，以确保源码可靠性与追溯性",
+        "en": "Redox OS bans LLM-generated code to ensure provenance and reliability"
+      },
+      "summary": {
+        "zh": "使用 Rust 编写的微内核操作系统 Redox OS 正式对所有代码贡献实施了严格的「禁止使用 LLM」政策。除了这一禁令，该项目还采用了原产地证明（DCO）机制，以确保每一行代码均由人工编写且法律上可追溯。此举旨在解决 AI 编程助手经常引入的技术债、隐蔽漏洞以及版权模糊等问题。这种立场代表了系统编程领域中日益增长的反思思潮，即在 AI 辅助开发的效率面前，优先考虑极高的可靠性和人工问责制。",
+        "en": "Redox OS, a microkernel operating system written in Rust, has officially implemented a strict 「no-LLM」 policy for all code contributions. Alongside this ban, the project adopted a Certificate of Origin (DCO) to ensure that every line of code is human-authored and legally traceable. The move addresses concerns regarding the technical debt, subtle bugs, and copyright ambiguity often introduced by AI coding assistants. This stance represents a growing counter-culture within systems programming that prioritizes extreme reliability and human accountability over the speed of AI-assisted development."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "amazon-ai-outages-meeting",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "亚马逊在 AI 基础设施故障后召开紧急工程峰会",
+        "en": "Amazon holds emergency engineering summit after AI infrastructure failures"
+      },
+      "summary": {
+        "zh": "在发生一系列与其内部 AI 基础设施相关的重大服务中断后，亚马逊领导层召开了紧急工程峰会。这些故障引发了人们对大规模 AI 部署稳定性以及深度集成模型依赖所固有的「级联失效」风险的担忧。虽然具体的技术复盘报告仍未公开，但会议重点讨论了如何改进自动故障转移以及针对 AI 非确定性行为的监控。随着云服务商竞相将 AI 集成到核心业务中，这些停机事件凸显了快速创新与基础设施可靠性之间脆弱的平衡。",
+        "en": "Amazon leadership convened an emergency engineering summit following a series of high-profile service outages linked to its internal AI infrastructure. The disruptions have raised questions about the stability of large-scale AI deployments and the 「cascading failure」 risks inherent in deeply integrated model dependencies. While specific technical post-mortems remain internal, the meeting focused on improving automated failovers and monitoring for non-deterministic AI behaviors. As cloud providers race to integrate AI into core services, these outages highlight the fragile balance between rapid innovation and infrastructure reliability."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "shadow-api-research-crisis",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "审计发现「影子 API」正严重损害 AI 研究的可复现性",
+        "en": "Audit reveals shadow APIs are compromising AI research reproducibility"
+      },
+      "summary": {
+        "zh": "一项最新的审计研究（arXiv:2603.01919）揭示了由「影子 API」（虚假声称提供 GPT-5 等访问权限的第三方服务）引发的 AI 研究复现危机。研究发现，有 187 篇学术论文依赖这些服务，其中引用量最高的论文达 5,966 次，尽管其使用的数据可能存在欺诈。结果显示，性能偏差高达 47%，且 45% 的身份验证测试未通过。这一发现表明，由于使用了非真实的模型端点，近期大量的基准测试文献可能存在根本性的缺陷。",
+        "en": "A new audit (arXiv:2603.01919) reveals a reproducibility crisis in AI research caused by 「shadow APIs」—third-party services falsely claiming to provide access to models like GPT-5. The study found that 187 academic papers relied on these services, with the most cited paper reaching 5,966 citations despite using potentially fraudulent data. Findings show performance divergences of up to 47% and a 45% failure rate in identity verification tests. This discovery suggests that a significant portion of recent benchmarking literature may be fundamentally flawed due to the use of non-authentic model endpoints."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rpoi3u/r_shadow_apis_breaking_research_reproducibility/",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "dynin-omni-masked-diffusion",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Dynin-Omni：基于掩码扩散的全模态基础模型",
+        "en": "Dynin-Omni: A Unified Masked Diffusion Foundation Model"
+      },
+      "summary": {
+        "zh": "Dynin 发布了 Dynin-Omni，这是首个基于掩码扩散（masked diffusion）的全模态基础模型，实现了文本、图像、视频和语音的统一理解与生成。该模型在单一架构内实现了强大的跨模态性能，挑战了传统多模态模型依赖独立编码器的做法。尽管业内对将所有模态统一到单一权重中的收益仍存争议，但 Dynin-Omni 在无缝多模态交互方面展现了显著潜力。这一进展标志着 AI 架构正朝着将所有数据类型视为统一潜空间处理的方向演进。",
+        "en": "Dynin has introduced Dynin-Omni, a pioneering foundation model that utilizes a masked diffusion-based architecture to unify text, image, video, and speech. Unlike traditional models that rely on separate encoders for different data types, this approach achieves strong cross-modal performance within a single set of weights. While some researchers remain skeptical about the efficiency of total modality unification, Dynin-Omni demonstrates significant potential in seamless multi-modal generation and understanding. This release marks a strategic shift toward holistic AI architectures that treat all data as part of a single latent space."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rpvbrt/r_dyninomni_masked_diffusionbased_omnimodal/",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "llm-layer-duplication-hack",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "简单层复制策略登顶 Open LLM 排行榜",
+        "en": "Simple Layer Duplication Strategy Tops Open LLM Leaderboard"
+      },
+      "summary": {
+        "zh": "一篇热门报告揭示，通过在 Qwen2-72B 中复制特定的 7 个中间层（且不修改任何权重），开发者成功登顶 Open LLM 排行榜。这种非传统的模型扩展技术仅需两块 4090 GPU 即可完成推理部署，暗示了当前大语言模型架构在深度利用上仍有巨大潜力。研究发现，复制层数过少或过多均无效果，这表明架构扩展存在特定的「甜蜜点」。截至 2026 年，排行榜前列的开源模型大多仍是这种层复制策略的衍生版本。",
+        "en": "A viral report reveals that duplicating a specific block of seven middle layers in Qwen2-72B, without any weight modifications, allowed a developer to top the Open LLM Leaderboard. This unconventional technique, which requires only 2x 4090 GPUs for inference setup, suggests that current LLM architectures may have untapped depth-related potential. Interestingly, the developer noted that duplicating too few or too many layers yields no benefit, highlighting a specific 「sweet spot」 for architectural expansion. As of 2026, the top-performing open models continue to be descendants of this specific layer-duplication strategy."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rpxpsa/how_i_topped_the_open_llm_leaderboard_using_2x/",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "fish-audio-s2-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Fish Audio 发布 S2：开源可控语音合成模型",
+        "en": "Fish Audio Releases S2: Open-Source Controllable TTS"
+      },
+      "summary": {
+        "zh": "Fish Audio 正式开源了 S2 语音合成模型，这是一款支持 80 多种语言、具备极高可控性的 TTS 模型。用户可以通过自然语言情感标签（如「甜蜜地耳语」或「紧张地笑」）精准控制语音表现力，首包音频延迟仅为 100 毫秒。据报道，S2 在语音图灵测试中超越了 Google 和 OpenAI 的闭源模型，并支持单次生成多角色对话。该模型的发布显著降低了开源社区获取高质量、高表现力合成语音的门槛。",
+        "en": "Fish Audio has released S2, an open-source, highly controllable text-to-speech (TTS) model that supports over 80 languages. The model allows users to direct voice expressivity using natural language emotion tags, such as [whispers sweetly] or [laughing nervously], achieving a time-to-first-audio latency of just 100ms. S2 reportedly outperforms major closed-source offerings from Google and OpenAI on the Audio Turing Test, providing a powerful tool for multi-speaker dialogue generation. This release significantly lowers the barrier for high-quality, expressive synthetic voice production in the open-source community."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rptdpl/fish_audio_releases_s2_opensource_controllable/",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "meta-acquires-moltbook",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta 收购 Moltbook 打造 AI 智能体社交网络",
+        "en": "Meta Acquires Moltbook to Build Social Networks for AI Agents"
+      },
+      "summary": {
+        "zh": "Meta 宣布收购 Moltbook，这是一个专门为 AI 智能体设计的类 Reddit 社交平台，允许智能体在其中发帖和评论。Moltbook 团队将加入 Meta 超级智能实验室（Superintelligence Labs），旨在探索智能体与人及智能体之间协作的新模式。此举标志着 Meta 正致力于主导新兴的「智能体网络」，即自主 AI 实体需要社交结构来协作并提供服务。这次收购反映了社交媒体重心正从以人为中心的内容转向 AI 驱动的生态系统。",
+        "en": "Meta has officially acquired Moltbook, a specialized social platform designed for AI agents to interact, post, and comment in a Reddit-like environment. The Moltbook team will integrate into Meta Superintelligence Labs to explore new paradigms for agent-to-agent and agent-to-human interactions. This strategic move signals Meta's intent to dominate the emerging 「agentic web」, where autonomous AI entities require social structures to collaborate and provide services. The acquisition highlights a shift in social media focus from human-centric content to AI-driven ecosystems."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "youtube-deepfake-detection-expansion",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "YouTube 向政治人物和记者开放深度伪造检测工具",
+        "en": "YouTube Expands Deepfake Detection to Politicians and Journalists"
+      },
+      "summary": {
+        "zh": "YouTube 正在将其 AI 肖像检测工具的试点范围扩大到政治人物、政府官员和记者，以打击深度伪造内容。该工具此前仅对部分创作者开放，现在允许公众人物监控并标记平台上未经授权的 AI 生成副本。此次扩展是 YouTube 在关键政治周期内维护信息真实性努力的一部分。该工具利用先进的生物特征匹配技术，识别模仿受保护个人外貌或声音的合成内容，为应对 AI 虚假信息提供了重要防线。",
+        "en": "YouTube is expanding its AI-generated likeness detection tool to a pilot group of politicians, government officials, and journalists to combat deepfakes. Previously available only to a limited set of content creators, the tool allows public figures to monitor and flag unauthorized AI-generated versions of themselves on the platform. This expansion comes as part of YouTube's broader effort to maintain information integrity during critical political cycles. The tool uses advanced biometric matching to identify synthetic content that mimics the appearance or voice of protected individuals."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/891678/youtube-is-expanding-its-ai-deepfake-detection-tool-to-politicians-and-journalists",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "photoshop-ai-assistant-beta",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Adobe 为 Photoshop 推出对话式 AI 助手",
+        "en": "Adobe Launches Conversational AI Assistant for Photoshop"
+      },
+      "summary": {
+        "zh": "Adobe 在网页版和移动版 Photoshop 中推出了对话式 AI 助手，允许用户通过自然语言指令进行复杂的图像编辑。这一智能体功能支持背景移除、物体操控和文档调整等任务，无需手动选择工具。该助手目前处于公开测试阶段，代表了 Adobe 在 Creative Cloud 套件中推进「智能体 AI」的努力，旨在为非专业人士简化专业工作流。此次集成标志着创意软件正从静态工具向主动协作伙伴转变的重要一步。",
+        "en": "Adobe has launched a conversational AI assistant for Photoshop on web and mobile, enabling users to perform complex image edits through natural language prompts. This agentic feature allows for tasks like background removal, object manipulation, and document adjustments without manual tool selection. Currently in public beta, the assistant represents Adobe's push toward 「agentic AI」 within its Creative Cloud suite, aiming to streamline professional workflows for non-experts. The integration marks a significant step in transforming creative software from static tools into proactive collaborators."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/891998/adobe-photoshop-web-mobile-ai-assistant-beta-launch",
+      "date": "2026-03-10"
+    }
+  ]
+}
