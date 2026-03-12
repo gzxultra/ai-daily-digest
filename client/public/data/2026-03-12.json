@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-12",
+  "dateLabel": {
+    "zh": "2026年3月12日",
+    "en": "March 12, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-12T16:03:50Z",
+    "elapsedSeconds": 127,
+    "rawArticles": 49,
+    "afterFilter": 45,
+    "afterDedup": 41,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 2,
+      "r/LocalLLaMA": 3,
+      "The Verge AI": 3
+    }
+  },
+  "news": [
+    {
+      "id": "bitnet-inference-framework",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "微软发布 BitNet 推理框架，支持 1 比特大语言模型",
+        "en": "Microsoft Releases BitNet Inference Framework for 1-Bit LLMs"
+      },
+      "summary": {
+        "zh": "微软正式发布了 BitNet 推理框架，专门用于优化 1 比特大语言模型（LLM）的部署。该框架实现了极低精度的量化，在保持竞争力的性能水平的同时，显著降低了内存占用和计算开销。通过超越传统的 8 比特或 4 比特量化，BitNet 为在边缘设备和消费级硬件上运行复杂模型铺平了道路。这一发布标志着高效 AI 推理普及化进程中的一个重要里程碑，将极大降低大模型在各类硬件上的运行门槛。",
+        "en": "Microsoft has officially released the BitNet inference framework, specifically designed to optimize the deployment of 1-bit Large Language Models (LLMs). This framework enables extremely low-precision quantization, significantly reducing memory usage and computational overhead while maintaining competitive performance levels. By moving beyond traditional 8-bit or 4-bit quantization, BitNet paves the way for running sophisticated models on edge devices and consumer-grade hardware. This release represents a major milestone in the democratization of efficient AI inference by lowering the hardware barrier for high-performance models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/microsoft/BitNet",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "atlassian-ai-pivot-layoffs",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Atlassian 裁员 1,600 人以全面转向 AI 战略",
+        "en": "Atlassian Cuts 1,600 Jobs in Strategic Pivot Toward AI"
+      },
+      "summary": {
+        "zh": "软件巨头 Atlassian 宣布裁员约 1,600 人，作为其向人工智能重大战略转型的一部分。该公司旨在重新分配资源，以加速 AI 在其产品组合（包括 Jira 和 Confluence）中的集成。此举顺应了更广泛的行业趋势，即成熟科技公司正在进行重组，优先考虑生成式 AI 能力而非传统的软件开发岗位。公司领导层强调，在 AI 优先且自动化成为核心产品价值的市场格局中，这种转变对于保持竞争力至关重要。",
+        "en": "Software giant Atlassian announced it is laying off approximately 1,600 employees, representing a significant portion of its workforce, as part of a major strategic pivot toward artificial intelligence. The company aims to reallocate resources to accelerate the integration of AI across its product suite, including Jira and Confluence. This move follows a broader industry trend where established tech firms are restructuring to prioritize generative AI capabilities over traditional software development roles. CEO leadership emphasized that this shift is necessary to remain competitive in an AI-first market landscape where automation is becoming the core product value."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "claude-code-agent-analysis",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "深度分析 1,573 个 Claude Code 会话，揭示 AI 智能体运行模式",
+        "en": "Analysis of 1,573 Claude Code Sessions Reveals AI Agent Patterns"
+      },
+      "summary": {
+        "zh": "一项最新研究分析了 1,573 个真实的 Claude Code 会话，深入探讨了 AI 编程智能体如何处理复杂的软件工程任务。该研究突出了生产环境中智能体解决问题的常见失败模式、工具使用习惯以及迭代特性。关键发现表明，虽然智能体在局部重构方面效率极高，但在处理长程架构依赖和模糊需求时仍面临挑战。这种基于数据的方法通过精确识别当前大模型智能体的薄弱环节，为提高下一代 AI 开发者工具的可靠性和自主性提供了路线图。",
+        "en": "A new study analyzed 1,573 real-world Claude Code sessions to provide insights into how AI coding agents navigate complex software engineering tasks. The research highlights common failure modes, tool usage patterns, and the iterative nature of agentic problem-solving in production environments. Key findings suggest that while agents are highly effective at localized refactoring, they still struggle with long-range architectural dependencies and ambiguous requirements. This data-driven approach offers a roadmap for improving the reliability and autonomy of next-generation AI developer tools by identifying exactly where current LLM agents fail."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/obsessiondb/rudel",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "codespeak-formal-llm-language",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Kotlin 创始人发布 CodeSpeak：一种与大模型交互的正式语言",
+        "en": "Kotlin Creator Unveils CodeSpeak: A Formal Language for LLM Interaction"
+      },
+      "summary": {
+        "zh": "Kotlin 编程语言的创始人推出了 CodeSpeak，这是一种旨在取代与大模型交互时自然语言提示的新型正式语言。CodeSpeak 提供了一种结构化、类型安全的方式来定义任务、约束和预期输出，减少了基于英语的提示词固有的歧义。通过将 AI 交互视为编程问题而非语言问题，该项目旨在提高 AI 生成代码和逻辑的可预测性与可重复性。这标志着「提示工程」正向具备正式验证潜力的严谨软件学科转变。",
+        "en": "The creator of the Kotlin programming language has introduced CodeSpeak, a new formal language designed to replace natural language prompts when interacting with LLMs. CodeSpeak provides a structured, type-safe way to define tasks, constraints, and expected outputs, reducing the ambiguity inherent in English-based prompting. By treating AI interaction as a programming problem rather than a linguistic one, the project aims to increase the predictability and reproducibility of AI-generated code and logic. This represents a significant shift toward prompt engineering becoming a rigorous software discipline with formal verification potential."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://codespeak.dev/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "levi-evolutionary-optimization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "LEVI 框架以更低成本超越 AlphaEvolve 进化优化性能",
+        "en": "LEVI Framework Outperforms AlphaEvolve at Lower Computational Cost"
+      },
+      "summary": {
+        "zh": "研究人员推出了 LEVI，这是一个新型的 LLM 引导进化优化框架，其性能超越了 AlphaEvolve 和 FunSearch 等既有方法。LEVI 的核心创新在于其「架构优先」的方法，优先考虑多样性维护和更智能的搜索架构，而非仅仅依赖大规模前沿模型。通过优化搜索过程，LEVI 在发现新算法和解决方案方面取得了卓越成果，同时显著减少了计算资源消耗。这使得没有大规模 GPU 集群或昂贵 API 配额的研究人员也能进行高水平的自动发现研究。",
+        "en": "Researchers have introduced LEVI, a new framework for LLM-guided evolutionary optimization that outperforms established methods like AlphaEvolve and FunSearch. LEVI's core innovation lies in its harness-first approach, which prioritizes diversity maintenance and smarter search architectures over reliance on massive frontier models. By optimizing the search process, LEVI achieves superior results in discovering novel algorithms and solutions while using significantly fewer computational resources. This makes high-level automated discovery accessible to researchers without access to massive GPU clusters or expensive API credits, democratizing the AlphaEvolve paradigm."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rrrgjm/r_levi_beating_gepaopenevolvealphaevolve_at_a/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "weight-based-adaptation-limitations",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "论文探讨基于权重的神经学习在结构上的局限性",
+        "en": "Research Paper Critiques Structural Limits of Weight-Based Neural Learning"
+      },
+      "summary": {
+        "zh": "一篇发表在 arXiv 上的工作论文探讨了仅依赖权重适配的现代神经网络在结构上的根本局限。作者认为，由于学习到的行为与网络的参数空间紧密绑定，当前模型在实现真正的可逆行为学习和快速适配新经验方面存在困难。论文建议转向能够将学习逻辑与固定权重解耦的架构，这可能会带来更灵活、更高效的 AI 系统。这一理论探索挑战了当前的深度学习范式，并为超越简单梯度下降的通用人工智能（AGI）研究提出了新方向。",
+        "en": "A new working paper on arXiv examines the fundamental structural limitations of modern neural networks that rely solely on weight-based adaptation. The author argues that because learned behaviors are tightly bound to the network's parameter space, current models struggle with truly reversible behavioral learning and rapid adaptation to new experiences. The paper proposes a shift toward architectures that can decouple learned logic from fixed weights, potentially leading to more flexible and efficient AI systems. This theoretical exploration challenges the current paradigm of deep learning and suggests new directions for artificial general intelligence research beyond simple gradient descent."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rrkq2h/r_on_the_structural_limitations_of_weightbased/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "manus-agent-design-principles",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "前 Manus 后端负责人弃用函数调用，提出智能体设计新原则",
+        "en": "Former Manus Lead Replaces Function Calling with New Agent Principles"
+      },
+      "summary": {
+        "zh": "前 Manus 后端负责人（该公司已被 Meta 收购）分享了对当前 AI 智能体架构的深刻反思，透露其在生产实践中已完全弃用标准的函数调用（function calling）。基于两年的开发经验，他指出传统的函数调用在处理复杂且不可预测的真实工作流时过于僵化，容易导致系统性失败。相反，他提出了一套强调灵活性与可靠性的新设计原则。这一观点挑战了目前行业对结构化工具调用的过度依赖，为构建能够应对复杂环境的自主智能体系统提供了更具鲁棒性的工程路径。",
+        "en": "A former backend lead at Manus (recently acquired by Meta) has shared a provocative critique of current AI agent architectures, revealing they have entirely stopped using standard function calling. Drawing from two years of production experience, the developer argues that traditional function calling is too rigid and prone to failure in complex, real-world agentic workflows. Instead, they propose a set of alternative design principles focused on flexibility and reliability. This perspective is significant as it challenges the industry's heavy reliance on structured tool-use, offering a more robust path for building autonomous systems that can handle unpredictable environments."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "nvidia-open-weight-investment",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达拟投入 260 亿美元开发开源权重 AI 模型",
+        "en": "Nvidia to Invest $26 Billion in Open-Weight AI Model Development"
+      },
+      "summary": {
+        "zh": "最新监管文件显示，英伟达（Nvidia）计划投入 260 亿美元巨资用于开发高性能开源权重（open-weight）AI 模型。这一战略举措表明英伟达意图主导开源生态系统，此举可能削弱 OpenAI 和谷歌等闭源模型提供商的市场领先地位。通过资助顶级开源模型，英伟达不仅确保了广大开发者社区对其硬件生态的依赖，还降低了企业在本地部署尖端 AI 的门槛。这一史无前例的投资可能会将 AI 行业的权力平衡转向开源替代方案，从而加速全球创新并刺激硬件需求。",
+        "en": "Financial filings reveal that Nvidia is committing a massive $26 billion to develop high-performance open-weight AI models. This strategic move signals Nvidia's intent to dominate the open-source ecosystem, potentially undermining the market lead of closed-model providers like OpenAI and Google. By funding top-tier open models, Nvidia ensures that the broader developer community remains tethered to its hardware ecosystem while lowering the barrier for enterprises to deploy state-of-the-art AI locally. This unprecedented investment could shift the balance of power in the AI industry toward open-source alternatives, accelerating global innovation and hardware demand."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rr4by8/nvidia_will_spend_26_billion_to_build_openweight/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "llamacpp-reasoning-budget",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Llama.cpp 引入真实推理预算功能，优化本地推理控制",
+        "en": "Llama.cpp Introduces Functional Reasoning Budget for Local Inference"
+      },
+      "summary": {
+        "zh": "流行的本地推理框架 llama.cpp 正式实现了「真实推理预算」功能，改变了此前该参数仅作为占位符的状态。此次更新允许用户为使用「思维链」或高推理负载的模型设置具体的计算限制，从而实现对推理时间与输出质量之间权衡的细粒度控制。此前，推理预算参数只能简单地开启或关闭思考模式，而新版本则支持对模型内部推理步骤的动态管理。对于在消费级硬件上运行大模型、且需要在不牺牲逻辑性能的前提下优化效率的开发者来说，这是一项关键进展。",
+        "en": "The popular local inference framework llama.cpp has officially implemented a 'true reasoning budget' feature, moving beyond its previous placeholder status. This update allows users to set specific computational limits for models utilizing 'Chain of Thought' or reasoning-heavy processes, providing granular control over the trade-off between inference time and output quality. Previously, the reasoning budget parameter could only enable or disable thinking; the new version enables active management of the model's internal reasoning steps. This is a critical advancement for developers running large models on consumer hardware who need to optimize performance without sacrificing logic."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rr6wqb/llamacpp_now_with_a_true_reasoning_budget/",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "claude-visual-generation",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 更新 Claude：支持在对话中直接生成图表与图示",
+        "en": "Anthropic Updates Claude with In-Line Chart and Diagram Generation"
+      },
+      "summary": {
+        "zh": "Anthropic 宣布对 Claude 进行重大更新，使其能够直接在对话界面中生成自定义图表、图示和其他视觉辅助工具。与以往使用独立侧边栏的版本不同，这些视觉内容现在采用嵌入式显示，以保持对话的连贯性。Claude 会根据语境逻辑判断何时需要生成视觉效果，例如在技术讨论中创建元素周期表或复杂的数据图表。这一功能增强了 Claude 在数据分析和教育领域的实用性，使其在与 ChatGPT 的视觉及数据处理功能竞争中处于更有利的位置。",
+        "en": "Anthropic has announced a significant update to Claude, enabling the AI to generate custom charts, diagrams, and other visual aids directly within the chat interface. Unlike previous versions that utilized a separate side panel, these visuals are now integrated in-line to maintain the flow of conversation. Claude uses contextual logic to determine when a visual is necessary, such as creating a periodic table or a complex data plot during technical discussions. This feature enhances Claude's utility for data analysis and education, positioning it as a stronger competitor to ChatGPT's visual and data processing capabilities."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "anthropic-pentagon-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 起诉五角大楼，质疑「供应链风险」认定",
+        "en": "Anthropic Sues Pentagon Over 'Supply Chain Risk' Designation"
+      },
+      "summary": {
+        "zh": "Anthropic 已对美国五角大楼提起诉讼，此前该公司被认定为「供应链风险」，这一认定可能严重影响其承接政府业务的前景。这家 AI 初创公司指控国防部在做出该决定时违反了宪法第一和第五修正案。这场法律斗争凸显了硅谷 AI 实验室与国家安全机构在海量监控、数据隐私及双用途技术控制方面的日益摩擦。此案的结果可能会为美国国家安全框架下如何审查和监管 AI 公司设定重要的先例。",
+        "en": "Anthropic has filed a lawsuit against the U.S. Pentagon after being designated as a 'supply chain risk,' a move that could severely impact its government contracting prospects. The AI startup alleges that the Department of Defense violated its First and Fifth Amendment rights in making this determination. This legal battle underscores the growing friction between Silicon Valley AI labs and national security agencies over issues of mass surveillance, data privacy, and the control of dual-use technologies. The outcome of this case may set a major precedent for how AI companies are vetted and regulated under national security frameworks in the United States."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/893370/anthropic-pentagon-ai-mass-surveillance-nsa-privacy-spying",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "microsoft-copilot-health-launch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "微软推出 Copilot Health，实现医疗数据安全集成",
+        "en": "Microsoft Launches Copilot Health for Secure Medical Data Integration"
+      },
+      "summary": {
+        "zh": "微软推出了「Copilot Health」，这是其 AI 生态系统中一个专门且安全的健康管理环境，用于处理敏感医疗信息。该新功能允许用户连接医疗记录、化验结果以及来自可穿戴设备的数据，从而获得个性化的健康见解并搜索医疗服务提供者。微软强调，该空间在架构上是独立且安全的，专门针对处理个人健康信息（PHI）的隐私需求进行了设计。该功能目前通过候补名单分阶段推出，标志着微软正大举进军 AI 驱动的个人健康和临床数据分析领域。",
+        "en": "Microsoft has introduced 'Copilot Health,' a dedicated and secure environment within its AI ecosystem for managing sensitive medical information. The new feature allows users to connect their medical records, lab results, and data from wearable devices to receive personalized health insights and search for healthcare providers. Microsoft emphasizes that this space is architected to be separate and secure, specifically addressing the privacy requirements for handling Personal Health Information (PHI). Currently rolling out via a waitlist, this launch marks Microsoft's aggressive expansion into AI-driven personal wellness and clinical data analysis."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/893594/microsoft-copilot-health-launch",
+      "date": "2026-03-12"
+    }
+  ]
+}
