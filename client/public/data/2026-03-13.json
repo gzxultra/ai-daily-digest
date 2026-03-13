@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-13",
+  "dateLabel": {
+    "zh": "2026年3月13日",
+    "en": "March 13, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-13T15:48:18Z",
+    "elapsedSeconds": 103,
+    "rawArticles": 48,
+    "afterFilter": 45,
+    "afterDedup": 39,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "Reddit": 4,
+      "The Verge AI": 1,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "ai-facial-recognition-error-jail",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 人脸识别错误导致无辜女性被误判入狱数月",
+        "en": "Innocent Woman Jailed for Months Due to AI Facial Recognition Error"
+      },
+      "summary": {
+        "zh": "北达科他州一名祖母因 AI 人脸识别系统在诈骗案中的错误识别而被误判入狱数月。该事件在 Hacker News 上引发了关于执法算法缺乏人工审核及「黑盒」特性的激烈讨论。此案例凸显了算法偏见带来的严重现实后果，以及建立法律框架以追究 AI 供应商在高风险错误中责任的紧迫性。这为在未经严格验证的情况下快速采用生物识别监控技术敲响了警钟。",
+        "en": "A grandmother in North Dakota was wrongfully imprisoned for months after an AI facial recognition system misidentified her in a fraud case. The incident has sparked intense debate on Hacker News regarding the lack of human oversight and the 'black box' nature of law enforcement algorithms. This case highlights the severe real-world consequences of algorithmic bias and the urgent need for legal frameworks that hold AI vendors accountable for high-stakes errors. It serves as a critical warning for the rapid adoption of biometric surveillance without rigorous validation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "claude-interactive-visualizations",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 为 Claude 引入交互式图表与可视化功能",
+        "en": "Anthropic's Claude Now Generates Interactive Charts and Diagrams"
+      },
+      "summary": {
+        "zh": "Anthropic 更新了 Claude，使其能够直接在对话界面中创建交互式图表、图示和数据可视化。该功能允许用户突破静态文本输出的限制，实现对复杂数据结构的实时操作和探索。通过集成这些视觉化能力，Claude 正在将其定位为更强大的数据分析和商业智能工具，直接与 OpenAI 的高级数据分析功能竞争。这一更新反映了大模型演变为综合性分析工作站的广泛趋势。",
+        "en": "Anthropic has updated Claude with the ability to create interactive charts, diagrams, and data visualizations directly within the chat interface. This feature allows users to go beyond static text outputs, enabling real-time manipulation and exploration of complex data structures. By integrating these visual capabilities, Claude is positioning itself as a more powerful tool for data analysis and business intelligence, directly competing with OpenAI's Advanced Data Analysis features. The update reflects a broader trend of LLMs evolving into comprehensive analytical workstations."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/blog/claude-builds-visuals",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "axe-12mb-ai-framework",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Axe：仅 12MB 的轻量级二进制文件挑战重型 AI 框架",
+        "en": "Axe: A Lightweight 12MB Binary to Replace Heavy AI Frameworks"
+      },
+      "summary": {
+        "zh": "Axe 是一款新型、超轻量级的 12MB 二进制文件，旨在处理 AI 推理任务，无需 PyTorch 或 TensorFlow 等大型框架的开销。该项目优先考虑效率和便携性，主要针对传统技术栈过于臃肿的边缘计算和资源受限环境。由于其能够简化部署流程并降低基础设施成本，该项目受到了广泛关注。这种向「小型 AI」基础设施迈进的趋势，凸显了业界对优化生产推理层速度和规模的日益重视。",
+        "en": "Axe is a new, ultra-lightweight 12MB binary designed to handle AI inference tasks without the overhead of massive frameworks like PyTorch or TensorFlow. Developed to prioritize efficiency and portability, it targets edge computing and resource-constrained environments where traditional stacks are too bloated. The project has gained significant traction for its promise to simplify deployment pipelines and reduce infrastructure costs. This move toward 'small AI' infrastructure highlights a growing industry focus on optimizing the production inference layer for speed and scale."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/jrswab/axe",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "llm-swe-bench-stagnation",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "分析显示大模型在 SWE-bench 基准测试上的进步或陷入停滞",
+        "en": "Analysis Suggests LLM Progress on SWE-bench May Be Stagnating"
+      },
+      "summary": {
+        "zh": "最近一项针对大模型在 SWE-bench（软件工程基准测试）表现的分析表明，尽管模型规模不断扩大，但进步速度正在趋于平缓。研究指出，虽然模型在处理简单代码片段方面有所提高，但在解决复杂的跨文件软件工程任务时，其能力并未呈线性增长。这引发了关于当前 Transformer 架构在推理和长上下文问题解决方面是否已触及根本天花板的讨论。研究人员正呼吁寻求新的架构突破，而非仅仅增加计算量和数据量。",
+        "en": "A recent analysis of LLM performance on the SWE-bench (Software Engineering Benchmark) suggests that improvement rates are plateauing despite increases in model size. The study indicates that while models are getting better at simple snippets, their ability to solve complex, multi-file software engineering tasks is not scaling linearly. This raises critical questions about whether current Transformer architectures are hitting a fundamental wall in reasoning and long-context problem-solving. Researchers are now calling for new architectural breakthroughs rather than just increasing compute and data volume."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "rag-document-poisoning-security",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "文档投毒：RAG 系统中不容忽视的关键安全漏洞",
+        "en": "Document Poisoning: A Critical Security Vulnerability in RAG Systems"
+      },
+      "summary": {
+        "zh": "最新研究详细介绍了检索增强生成（RAG）系统中的「文档投毒」风险，攻击者通过向外部知识库注入恶意数据来实施攻击。通过污染源材料，攻击者可以操纵大模型输出虚假信息、泄露敏感数据或执行间接提示词注入。对于依赖动态第三方数据源的企业级 AI 部署而言，这一漏洞尤为令人担忧。报告强调，必须在 RAG 流程中建立强大的数据清洗和验证层，以确保 AI 生成响应的完整性。",
+        "en": "New research details the risks of 'document poisoning' in Retrieval-Augmented Generation (RAG) systems, where attackers inject malicious data into external knowledge bases. By corrupting the source material, attackers can manipulate LLM outputs to provide false information, leak sensitive data, or execute indirect prompt injections. This vulnerability is particularly concerning for enterprise AI deployments that rely on dynamic, third-party data sources. The report emphasizes the need for robust data sanitization and verification layers within the RAG pipeline to ensure the integrity of AI-generated responses."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://aminrj.com/posts/rag-document-poisoning/",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "reliable-software-llm-era",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "大模型生成代码时代下的软件可靠性再思考",
+        "en": "Rethinking Software Reliability in the Age of LLM-Generated Code"
+      },
+      "summary": {
+        "zh": "随着大模型成为代码库的主要贡献者，本文探讨了软件可靠性范式必须发生的转变。作者认为，传统的人工代码审查已无法应对 AI 生成逻辑的数量级和非确定性。相反，行业必须转向形式化验证、基于属性的测试和自动化验证框架，以确保系统完整性。文章强调，虽然大模型提高了开发速度，但也引入了微妙的失效模式，这要求在质量保证和软件工程规范方面采取更严格的「AI 原生」方法。",
+        "en": "As LLMs become primary contributors to codebases, this article explores the necessary shift in software reliability paradigms. The author argues that traditional manual code review is insufficient for the volume and non-deterministic nature of AI-generated logic. Instead, the industry must move toward formal verification, property-based testing, and automated validation frameworks to ensure system integrity. The piece highlights that while LLMs increase velocity, they also introduce subtle failure modes that require a more rigorous, 'AI-native' approach to quality assurance and software engineering discipline."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://quint-lang.org/posts/llm_era",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "visual-verification-llm-code",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "视觉反馈环提升 LLM 游戏代码生成质量",
+        "en": "Visual Feedback Loop Enhances LLM Code Generation for Games"
+      },
+      "summary": {
+        "zh": "一个全新的开源流水线展示了如何利用视觉验证作为 LLM 代码生成的关键反馈环，特别针对 Godot 游戏引擎。通过使用视觉输出而非仅仅依赖编译结果来验证正确性，该系统克服了训练数据中稀缺语言（如 GDScript）的代码生成难题。这种方法代表了向「具身」软件工程的转变，即模型通过观察执行结果来迭代优化其输出，显著提升了自主开发复杂应用的能力。",
+        "en": "A new open-source pipeline demonstrates how visual verification can serve as a critical feedback loop for LLM-generated code, specifically targeting the Godot game engine. By using visual outputs to validate correctness beyond simple compilation, the system overcomes the challenge of generating code for languages like GDScript that are underrepresented in training data. This approach represents a shift toward embodied software engineering where the model observes execution results to iteratively refine its output."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rrzwp9/p_visual_verification_as_a_feedback_loop_for_llm/",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "omnicoder-9b-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OmniCoder-9B 发布：基于 42.5 万条代理轨迹训练的编程模型",
+        "en": "OmniCoder-9B: A New Agentic Coding Model Trained on 425K Trajectories"
+      },
+      "summary": {
+        "zh": "Tesslate 发布了 OmniCoder-9B，这是一款基于 42.5 万条精选代理轨迹微调的专业编程代理模型。该模型构建在采用 Gated Delta 网络与标准注意力机制混合架构的 Qwen3.5-9B 之上，在处理现实世界的软件工程任务（包括多步推理和终端操作）方面表现出色。其训练重点在于代理行为而非简单的代码补全，使其成为本地环境下自主开发工作流的强力工具。",
+        "en": "Tesslate has released OmniCoder-9B, a specialized coding agent fine-tuned on 425,000 curated agentic trajectories. Built on the Qwen3.5-9B hybrid architecture featuring Gated Delta Networks interleaved with standard attention, the model excels in real-world software engineering tasks, including multi-step reasoning and terminal operations. Its training focus on agentic behavior rather than just code completion makes it a potent tool for autonomous development workflows in local environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rs6td4/omnicoder9b_9b_coding_agent_finetuned_on_425k/",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "tenstorrent-quietbox-2",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Tenstorrent QuietBox 2 将 RISC-V AI 推理带入桌面端",
+        "en": "Tenstorrent QuietBox 2 Brings RISC-V AI Inference to the Desktop"
+      },
+      "summary": {
+        "zh": "Tenstorrent 推出了 QuietBox 2，将高性能 RISC-V AI 推理能力带到了桌面端。这一硬件发布标志着 AI 计算格局多样化的重要一步，推动行业从专有 GPU 架构转向开放标准的 RISC-V 解决方案。该设备专为办公环境的静音运行而设计，允许开发人员在没有传统服务器硬件功耗和噪音限制的情况下，运行复杂的本地 LLM 和 AI 工作负载。",
+        "en": "Tenstorrent has launched the QuietBox 2, bringing high-performance RISC-V AI inference capabilities to the desktop. This hardware release signifies a major step in diversifying the AI compute landscape, moving away from proprietary GPU architectures toward open-standard RISC-V solutions. Designed for quiet operation in office environments, it allows developers to run complex local LLMs and AI workloads without the power and noise constraints of traditional server hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsen7t/tenstorrent_quietbox_2_brings_riscv_ai_inference/",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "lco-multimodal-embedding",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "LCO Embedding：多模态向量搜索的开源明珠",
+        "en": "LCO Embedding: A Hidden Gem for Multimodal Vector Search"
+      },
+      "summary": {
+        "zh": "LCO Embedding 模型系列已成为多模态向量数据库的强大开源工具，在单个 7B 参数框架内支持文本、图像和音频。该模型采用 Apache 2.0 协议发布，使用户能够跨不同文件类型构建高精度的统一搜索系统。社区提供的 GGUF 量化版本进一步降低了门槛，使其更易于在消费级硬件上进行本地部署。",
+        "en": "The LCO Embedding model series has emerged as a powerful open-source tool for multimodal vector databases, supporting text, image, and audio within a single 7B parameter framework. Released under the Apache 2.0 license, it enables users to create unified search systems across diverse file types with high accuracy. Community-provided GGUF quantizations have further increased its accessibility for local deployment on consumer-grade hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rshy7h/the_hidden_gem_of_opensource_embedding_models/",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "gemini-task-automation-mobile",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemini 任务自动化功能在三星和 Pixel 设备上首发",
+        "en": "Gemini Task Automation Debuts on Samsung and Pixel Devices"
+      },
+      "summary": {
+        "zh": "谷歌和三星在最新的 Galaxy S26 和 Pixel 10 设备上为 Gemini 引入了高级任务自动化功能。该功能允许 AI 通过虚拟窗口操作第三方应用程序（如外卖和打车服务），并根据简单的语音或文本提示执行复杂的多步操作。此举标志着 AI 从信息检索工具向功能性代理的转变，使其能够代表用户与数字世界进行深度交互。",
+        "en": "Google and Samsung have introduced advanced task automation for Gemini on the latest Galaxy S26 and Pixel 10 devices. The feature allows the AI to operate third-party apps like food delivery and rideshare services via a virtual window, executing complex multi-step actions based on simple voice or text prompts. This move marks a transition from AI as an information retriever to a functional agent capable of interacting with the digital world on behalf of the user."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "physical-ai-manufacturing-shift",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "物理 AI 成为制造业提升效率的新前沿",
+        "en": "Physical AI Becomes the Next Frontier for Manufacturing Efficiency"
+      },
+      "summary": {
+        "zh": "制造业正进入「物理 AI」的新时代，超越了传统的固定自动化，以应对劳动力短缺和日益增加的操作复杂性。这一转变的核心是将 AI 与机器人技术集成，创建能够适应非结构化环境并在不牺牲安全或质量的情况下快速创新的系统。行业领袖日益将这些自适应物理系统视为稳定全球供应链和获取竞争优势的关键。",
+        "en": "Manufacturing is entering a new era of Physical AI, moving beyond traditional fixed automation to address labor shortages and increasing operational complexity. This shift focuses on integrating AI with robotics to create systems that can adapt to unstructured environments and innovate faster without compromising safety or quality. Industry leaders are increasingly viewing these adaptive physical systems as a critical competitive advantage for stabilizing global supply chains."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+      "date": "2026-03-13"
+    }
+  ]
+}
