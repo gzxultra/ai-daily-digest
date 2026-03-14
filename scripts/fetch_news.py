@@ -63,6 +63,7 @@ CATEGORIES = {
     "Engineering & Tools": {"zh": "工程与工具",  "color": "#10b981"},
     "Industry & Policy":   {"zh": "行业与政策",  "color": "#8b5cf6"},
     "Community Picks":     {"zh": "社区精选",    "color": "#f59e0b"},
+    "Agentic Workflows":   {"zh": "智能编程工作流", "color": "#0ea5e9"},
 }
 
 # Target: 10-15 high-quality stories per day
@@ -94,6 +95,26 @@ NEWSLETTER_FEEDS = {
         "https://importai.substack.com/feed",
         "https://jack-clark.net/feed/",
     ],
+    # The Pragmatic Engineer (Gergely Orosz) — agentic coding & engineering
+    "The Pragmatic Engineer": [
+        "https://newsletter.pragmaticengineer.com/feed",
+        "https://newsletter.pragmaticengineer.com/feed.xml",
+    ],
+    # Anthropic Blog — no confirmed public RSS; best-guess fallbacks
+    "Anthropic Blog": [
+        "https://www.anthropic.com/rss.xml",
+        "https://www.anthropic.com/rss",
+        "https://www.anthropic.com/news/rss",
+        "https://www.anthropic.com/engineering/rss",
+    ],
+    # Cursor Blog — no confirmed public RSS; best-guess fallbacks
+    "Cursor Blog": [
+        "https://www.cursor.com/blog/rss",
+        "https://cursor.com/blog/rss",
+        "https://cursor.sh/blog/rss",
+        "https://www.cursor.com/blog/feed",
+        "https://www.cursor.com/rss.xml",
+    ],
     # TLDR AI
     "TLDR AI": [
         "https://tldr.tech/ai/rss",
@@ -115,6 +136,10 @@ SUPPLEMENTARY_FEEDS = {
     "OpenAI Blog": "https://openai.com/blog/rss/",
     "Google AI Blog": "https://blog.google/technology/ai/rss/",
     "MIT Tech Review": "https://www.technologyreview.com/feed/",
+    # Agentic coding & engineering sources (added per competitive analysis)
+    "Simon Willison": "https://simonwillison.net/atom/everything/",
+    "Latent Space": "https://www.latent.space/feed",
+    "GitHub Copilot Blog": "https://github.blog/tag/github-copilot/feed/",
 }
 
 # ---------------------------------------------------------------------------
@@ -543,6 +568,12 @@ AI_KEYWORDS = [
     "reinforcement learning", "rlhf", "alignment", "benchmark",
     "open source model", "hugging face", "ollama", "llama", "mistral",
     "deepseek", "qwen", "embedding", "vector database", "inference",
+    # Agentic coding & engineering keywords (added per competitive analysis)
+    "agentic", "agentic coding", "ai coding", "cursor", "claude code",
+    "vibe coding", "ai workflow", "ai engineer", "ai assistant",
+    "code generation", "ai pair programming", "ai agent workflow",
+    "prompt engineering", "mcp", "model context protocol",
+    "windsurf", "cline", "aider", "continue dev",
 ]
 
 
@@ -690,7 +721,8 @@ You are a senior AI industry analyst with extremely high standards. Select exact
 - Important policy changes, regulations, or governance developments
 - Large funding rounds (>$50M) or significant M&A
 - Open-source releases with real impact
-- Balanced coverage across categories: Models, Research, Engineering, Industry, Community
+- Agentic coding workflows, AI coding tool updates (Cursor, Claude Code, Copilot, Windsurf), and engineering team adoption stories
+- Balanced coverage across categories: Models, Research, Engineering, Industry, Community, Agentic Workflows
 
 ### REJECT — MANDATORY (these are hard rules, not suggestions):
 - **STALE ARTICLES**: Any article that appears to be older than 2 days before {target_date}. Check the URL for date patterns (e.g. /2026/01/ or /2025/12/ in the URL indicates an old article). If the URL contains a date that is more than 2 days before {target_date}, REJECT it.
