@@ -1,0 +1,252 @@
+{
+  "date": "2026-03-14",
+  "dateLabel": {
+    "zh": "2026年3月14日",
+    "en": "March 14, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-14T15:33:18Z",
+    "elapsedSeconds": 100,
+    "rawArticles": 41,
+    "afterFilter": 37,
+    "afterDedup": 36,
+    "dedupRemoved": 1,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 7,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "xai-founder-exodus",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克排挤 xAI 联合创始人，AI 编程项目进展受挫",
+        "en": "Elon Musk pushes out xAI founders as coding AI project struggles"
+      },
+      "summary": {
+        "zh": "据报道，由于 xAI 在自动化软件工程方面的雄心勃勃的努力面临重大技术障碍，埃隆·马斯克已排挤了更多创始团队成员。尽管筹集了数十亿美元，该公司的内部「编程智能体」项目仍未能达到性能基准，导致内部摩擦加剧。这次人才流失凸显了从通用大模型转向专业、可靠的自主编程系统的巨大难度。这些核心成员的离职引发了外界对 xAI 在高风险开发者工具市场中与 OpenAI 和 Anthropic 竞争能力的质疑。",
+        "en": "Elon Musk has reportedly pushed out more founding members of xAI as the startup's ambitious efforts to automate software engineering face significant technical hurdles. Despite raising billions, the company's internal 'coding agent' project has failed to meet performance benchmarks, leading to internal friction. This exodus highlights the immense difficulty of moving from general-purpose LLMs to specialized, reliable autonomous coding systems. The departures raise questions about xAI's ability to compete with rivals like OpenAI and Anthropic in the high-stakes developer tool market."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "tennessee-ai-facial-recognition-error",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "田纳西州一祖母因 AI 人脸识别错误被误捕入狱",
+        "en": "Tennessee grandmother jailed following AI facial recognition error"
+      },
+      "summary": {
+        "zh": "田纳西州一名祖母在 AI 人脸识别系统将其错误地与一起诈骗调查联系起来后被误捕入狱。这一事件凸显了生物识别监控工具在应用于不同人群时持续存在的「黑箱」风险和高错误率。法律专家正呼吁加强监管，并要求在执法中引入「人类参与」机制，以防止自动化系统凌驾于正当程序之上。此案例进一步加剧了公众对执法部门部署未经核实的 AI 技术所引发的民权问题的担忧。",
+        "en": "A grandmother in Tennessee was wrongfully incarcerated after an AI-powered facial recognition system incorrectly linked her to a fraud investigation. The incident underscores the persistent 'black box' risks and high error rates of biometric surveillance tools when applied to diverse populations. Legal experts are calling for stricter oversight and 'human-in-the-loop' requirements to prevent automated systems from overriding due process. This case adds to a growing list of civil rights concerns regarding the deployment of unverified AI technologies in law enforcement."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "meta-layoffs-ai-capex",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "随着 AI 基础设施成本激增，Meta 计划进行大规模裁员",
+        "en": "Meta plans sweeping layoffs as massive AI infrastructure costs mount"
+      },
+      "summary": {
+        "zh": "据报道，Meta 正准备进行新一轮大规模裁员，因为该公司正努力在激进的 AI 投资与财政责任之间取得平衡。H100 集群和定制芯片开发所需的高额资本支出挤压了利润空间，迫使领导层削减非核心部门的人员。这一转变标志着「效率 2.0」时代的到来，科技巨头必须通过削减传统业务部门来为生成式 AI 军备竞赛提供资金。随着维护尖端模型的成本持续攀升，投资者对长期投资回报率（ROI）仍持谨慎态度。",
+        "en": "Meta is reportedly preparing for a new round of significant layoffs as the company struggles to balance its aggressive AI investments with fiscal responsibility. The high capital expenditure required for H100 clusters and custom silicon development has pressured margins, forcing leadership to trim headcount in non-core divisions. This shift signals a 'efficiency 2.0' era where Big Tech must cannibalize traditional business units to fund the generative AI arms race. Investors remain wary of the long-term ROI as the cost of maintaining state-of-the-art models continues to escalate."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "buzzfeed-ai-bankruptcy-risk",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "转向 AI 内容创作遭遇惨败，BuzzFeed 濒临破产",
+        "en": "BuzzFeed nears bankruptcy following disastrous pivot to AI content"
+      },
+      "summary": {
+        "zh": "数字媒体先驱 BuzzFeed 据报道在转向 AI 生成内容的战略转型未能稳定收入下滑后，正濒临破产。该公司试图用自动化的列表和测试取代人类记者的尝试，导致内容质量下降并失去了广告商的信任。这次崩溃为媒体行业敲响了警钟，警惕通过低成本 AI 输出导致的网络「垃圾化」。这场财务危机凸显出，虽然 AI 可以降低成本，但目前仍无法复制高质量人类编辑工作所带来的品牌价值和用户参与度。",
+        "en": "Digital media pioneer BuzzFeed is reportedly nearing bankruptcy after its strategic shift toward AI-generated content failed to stabilize declining revenues. The company's attempt to replace human journalists with automated listicles and quizzes led to a drop in content quality and advertiser trust. This collapse serves as a cautionary tale for the media industry regarding the 'junkification' of the web through low-effort AI output. The financial crisis highlights that while AI can reduce costs, it cannot yet replicate the brand value and engagement of high-quality human editorial work."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://futurism.com/artificial-intelligence/buzzfeed-disastrous-earnings-ai",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "arxiv-independent-nonprofit",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "arXiv 脱离康奈尔大学，转型为独立非营利组织",
+        "en": "arXiv separates from Cornell University to become independent nonprofit"
+      },
+      "summary": {
+        "zh": "在经历了数十年的合作后，预印本服务器 arXiv 正从康奈尔大学转型为一个独立的非营利组织，并设立了年薪约 30 万美元的 CEO 职位。在西蒙斯基金会的支持下，此举旨在实现平台陈旧基础设施的现代化，以应对 AI 研究论文提交量的指数级增长。独立地位使其在作为全球科学交流的主要枢纽时，能够拥有更灵活的治理和多样化的资金来源。这次重组对于维护机器学习社区最核心资源的开放获取完整性至关重要。",
+        "en": "After decades of partnership, the preprint server arXiv is transitioning from Cornell University to an independent nonprofit organization with a $300,000/year CEO role. Supported by the Simons Foundation, this move aims to modernize the platform's aging infrastructure to handle the exponential surge in AI research submissions. The independence allows for more agile governance and diversified funding sources as it remains the primary hub for global scientific communication. This restructuring is critical for maintaining the open-access integrity of the machine learning community's most vital resource."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rtjirw/the_arxiv_is_separating_from_cornell_university/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "coconut-latent-reasoning-critique",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "新实验质疑 Meta 的 COCONUT 「潜空间推理」有效性",
+        "en": "New experiments challenge Meta's COCONUT latent reasoning claims"
+      },
+      "summary": {
+        "zh": "独立研究人员对 Meta 的 COCONUT 模型提出了挑战，该模型曾声称通过回收隐藏状态而非使用思维链（CoT）标记来实现「潜空间推理」。受控实验表明，该模型的高性能（在 ProsQA 上达到 97%）源于其多阶段课程训练，而非潜状态回收本身。事实上，研究发现回收的隐藏状态实际上可能阻碍模型泛化到新任务的能力。这一发现强调了进行严格消融实验的必要性，以区分架构创新与特定训练数据所带来的影响。",
+        "en": "Independent researchers have challenged Meta's COCONUT model, which claimed to perform 'latent reasoning' by recycling hidden states instead of using Chain-of-Thought (CoT) tokens. Controlled experiments suggest that the model's high performance (97% on ProsQA) stems from its multi-stage curriculum training rather than the latent state recycling itself. In fact, the study found that recycled hidden states may actually hinder the model's ability to generalize to new tasks. This finding emphasizes the need for rigorous ablation studies to distinguish between architectural innovations and the effects of specialized training data."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rt4lyd/d_ran_controlled_experiments_on_metas_coconut_and/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "colqwen-3-5-v2-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "ColQwen3.5-v2 发布，刷新视觉文档检索纪录",
+        "en": "ColQwen3.5-v2 Sets New Record for Visual Document Retrieval"
+      },
+      "summary": {
+        "zh": "ColQwen3.5-v2 正式发布，这是一个 4.5B 参数的视觉文档检索模型，在 ViDoRe V3 排行榜上以 0.6177 的 nDCG@10 成绩位列第一。该模型基于 Qwen3.5-4B 构建，采用了 ColPali 延迟交互方案，并简化了训练流程。它显著缩小了与大型模型（如 TomoroAI）的差距，证明了专门化的小型模型在复杂文档理解任务中的高效性。",
+        "en": "ColQwen3.5-v2, a 4.5B parameter visual document retrieval model, has been released, achieving the top spot on the ViDoRe V3 leaderboard with an nDCG@10 of 0.6177. Built on the Qwen3.5-4B base using the ColPali late-interaction recipe, this version features a simplified training process compared to its predecessor. It significantly closes the performance gap with larger models, demonstrating the efficiency of specialized small-scale models in complex document understanding tasks."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rsxlg8/p_colqwen35v2_45b_is_out/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "openvino-llamacpp-backend",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "英特尔团队为 llama.cpp 贡献 OpenVINO 后端支持",
+        "en": "Intel Team Contributes OpenVINO Backend to llama.cpp"
+      },
+      "summary": {
+        "zh": "英特尔团队正式为 llama.cpp 项目贡献了 OpenVINO 后端，实现了在英特尔硬件上的优化推理。这一协作让用户能够更有效地利用英特尔 CPU 和 GPU 进行本地大模型部署，无需复杂的底层配置。该集成由多位英特尔工程师共同完成，并经过了项目核心维护者的严格审核，标志着开源 AI 生态在跨厂商硬件支持方面迈出了重要一步。",
+        "en": "The Intel team has officially contributed an OpenVINO backend to the llama.cpp project, enabling optimized inference on Intel hardware. This collaboration allows users to leverage Intel CPUs and GPUs more effectively for local LLM deployment without complex manual configurations. The integration was a multi-person effort involving rigorous review by core llama.cpp maintainers, marking a significant step for cross-vendor hardware support in the open-source AI ecosystem."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rte9m7/thanks_to_the_intel_team_for_openvino_backend_in/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "nemotron-3-super-120b-uncensored",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "混合架构模型 Nemotron-3-Super-120b 去限制版发布",
+        "en": "Uncensored Nemotron-3-Super-120b Released with Hybrid Architecture"
+      },
+      "summary": {
+        "zh": "社区开发者发布了 Nemotron-3-Super-120b 的去限制（Uncensored）版本，这是一个采用 LatentMoE 和 Mamba 注意力混合架构的超大规模模型。开发者指出，由于该模型独特的架构设计，早期的消融尝试曾导致代码生成能力受损，经过 24 小时重制才得以解决。该发布体现了社区对高参数、无限制模型的持续追求，以及在混合架构微调方面的技术探索。",
+        "en": "A community developer has released an uncensored version of Nemotron-3-Super-120b, a massive model utilizing a hybrid architecture of LatentMoE and Mamba attention. The creator noted significant challenges in the ablation process due to the model's unique structure, which initially led to poor coding performance. This release highlights the ongoing community interest in high-parameter, unrestricted models that push the boundaries of hybrid architecture fine-tuning."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rt9nfx/nemotron3super120b_uncensored/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "rtx-5090-qwen-throughput",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "RTX-5090 运行 Qwen 3.5 27b 吞吐量突破 2000 TPS",
+        "en": "RTX-5090 Hits 2000 TPS Running Qwen 3.5 27b"
+      },
+      "summary": {
+        "zh": "最新的性能基准测试显示，RTX-5090 在运行 Qwen 3.5 27b 处理特定 Markdown 分类任务时，吞吐量突破了每秒 2000 个 token (TPS)。测试者在 10 分钟内处理了超过 120 万个输入 token，重点展示了在极少输出生成场景下的高吞吐能力。尽管这属于特定应用场景，但这些数据揭示了下一代消费级 GPU 在批处理工作负载中带来的巨大推理性能飞跃。",
+        "en": "New performance benchmarks show the RTX-5090 achieving over 2000 tokens per second (TPS) when running Qwen 3.5 27b for specific markdown classification tasks. The user reported processing over 1.2 million input tokens in just 10 minutes, emphasizing high-throughput scenarios with minimal output generation. While situational, these metrics showcase the massive leap in inference capabilities provided by next-generation consumer GPUs for batch-processing workloads."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsz8k6/2000_tps_with_qwen_35_27b_on_rtx5090/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "meta-avocado-model-delay",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "性能未达标，Meta 推迟「Avocado」大模型发布",
+        "en": "Meta Delays 'Avocado' AI Model Due to Performance Issues"
+      },
+      "summary": {
+        "zh": "据报道，Meta 已将其代号为「Avocado」的内部 AI 模型推迟至 2026 年 5 月发布，原因是该模型目前未能达到内部性能标准。尽管在基础设施上投入了数十亿美元，但模型表现不佳据称令公司高层感到不满。此次推迟凸显了即便是科技巨头，在向下一代基础模型迈进的过程中，也面临着日益严峻的规模化挑战和性能瓶颈。",
+        "en": "Meta has reportedly delayed the release of its internal AI model codenamed 「Avocado」 until May 2026, as it currently fails to meet internal performance standards. Despite billions of dollars in infrastructure investment, the model's subpar results have caused frustration within the company's leadership. This delay underscores the increasing difficulty even tech giants face in achieving consistent breakthroughs as they scale toward next-generation foundational models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rsrc1j/avacado_is_toast/",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "xbox-gaming-copilot-launch",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软计划将 Copilot AI 助手引入 Xbox 游戏主机",
+        "en": "Microsoft to Bring Copilot AI Assistant to Xbox Consoles"
+      },
+      "summary": {
+        "zh": "微软计划于今年晚些时候在现役 Xbox 主机上推出「游戏 Copilot」AI 助手，将其 AI 生态系统扩展至客厅终端。该消息在 GDC 游戏开发者大会上披露，助手将集成到多种游戏服务中，提供实时支持并提升玩家体验。此举代表了微软将 AI 打造为游戏硬件核心体验的战略意图，标志着其 AI 布局已从 PC 办公工具延伸至消费级娱乐领域。",
+        "en": "Microsoft is set to launch its 「Gaming Copilot」 AI assistant on current-generation Xbox consoles later this year, expanding its AI ecosystem into the living room. Revealed at GDC, the assistant will be integrated into various gaming services to provide real-time support and enhance player experiences. This move represents a strategic push to make AI a core component of the gaming hardware experience, moving beyond PC-based productivity tools."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/games/894799/microsoft-gaming-copilot-ai-xbox-consoles",
+      "date": "2026-03-14"
+    }
+  ]
+}
