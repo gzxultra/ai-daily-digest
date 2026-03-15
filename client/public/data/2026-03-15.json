@@ -1,0 +1,251 @@
+{
+  "date": "2026-03-15",
+  "dateLabel": {
+    "zh": "2026年3月15日",
+    "en": "March 15, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-15T15:35:21Z",
+    "elapsedSeconds": 173,
+    "rawArticles": 40,
+    "afterFilter": 36,
+    "afterDedup": 32,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 8
+    }
+  },
+  "news": [
+    {
+      "id": "airbus-uncrewed-combat-aircraft",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "空客准备让 Kratos 无人战斗机在欧洲进行首飞测试",
+        "en": "Airbus Prepares Kratos Uncrewed Combat Aircraft for European Test Flights"
+      },
+      "summary": {
+        "zh": "空客公司正准备让两架由 Kratos 制造的无人战斗机与欧洲合作伙伴进行首飞。此举标志着自主系统整合进欧洲国防框架迈出了重要一步。该项目重点测试复杂战斗环境下有人驾驶与无人驾驶平台之间的作战协同。通过利用 AI 驱动的飞行控制系统，该合作旨在增强战术灵活性并最大限度地降低人员风险。这一进展预示着该地区空战策略正向 AI 增强型方向发生战略转变。",
+        "en": "Airbus is preparing two uncrewed combat aircraft manufactured by Kratos for their inaugural flight with a European partner. This initiative marks a significant milestone in integrating autonomous systems into European defense frameworks. The project focuses on testing the operational synergy between manned and unmanned platforms in complex combat environments. By leveraging AI-driven flight controls, the collaboration aims to enhance tactical flexibility while minimizing human risk. This development signals a strategic shift toward AI-augmented aerial warfare in the region."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "anthropic-claude-partner-network",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 推出 Claude 合作伙伴网络以扩展企业级 AI 应用",
+        "en": "Anthropic Launches Claude Partner Network to Scale Enterprise AI Adoption"
+      },
+      "summary": {
+        "zh": "Anthropic 正式推出了 Claude 合作伙伴网络，这是一个旨在加速其 AI 模型在全球各行业部署的战略生态系统。该网络为合作伙伴提供 Claude 新功能的早期访问权、专业技术支持以及联合营销计划。此举被视为对 OpenAI 企业市场主导地位的直接挑战，重点是为金融和法律服务等专业领域构建稳健的基础设施。通过将这些合作伙伴关系正式化，Anthropic 旨在确保大型组织能够实现更可靠、更具扩展性的 AI 集成。",
+        "en": "Anthropic has officially launched the Claude Partner Network, a strategic ecosystem designed to accelerate the deployment of its AI models across global industries. The network offers partners early access to new Claude features, specialized technical support, and joint marketing initiatives. This move is seen as a direct challenge to OpenAI's enterprise dominance, focusing on building a robust infrastructure for specialized sectors like finance and legal services. By formalizing these partnerships, Anthropic aims to ensure more reliable and scalable AI integration for large-scale organizations."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-partner-network",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "gitagent-open-standard",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "GitAgent：将代码仓库转化为 AI 智能体的新开放标准",
+        "en": "GitAgent: A New Open Standard Turning Repositories into AI Agents"
+      },
+      "summary": {
+        "zh": "GitAgent 作为一项开放标准发布，它允许任何 Git 仓库作为自包含的 AI 智能体运行。它为 AI 模型与代码库的交互提供了一种标准化协议，促进了自动化任务执行、错误修复和文档更新。通过定义智能体读写仓库的方式，GitAgent 减少了构建自主编程助手的摩擦。该项目旨在使智能体工作流普及化，允许开发者将复杂的 AI 自动化直接集成到现有的 CI/CD 流水线和开发环境中。",
+        "en": "GitAgent has been introduced as an open standard that enables any Git repository to function as a self-contained AI agent. It provides a standardized protocol for AI models to interact with codebases, facilitating automated task execution, bug fixing, and documentation updates. By defining how agents should read and write to repositories, GitAgent reduces the friction in building autonomous coding assistants. This project aims to democratize agentic workflows, allowing developers to integrate sophisticated AI automation directly into their existing CI/CD pipelines and development environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.gitagent.sh/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "ai-wrongful-imprisonment-case",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 面部识别错误导致一名女性被错误监禁六个月",
+        "en": "AI Facial Recognition Error Leads to Six-Month Wrongful Imprisonment"
+      },
+      "summary": {
+        "zh": "AI 驱动的面部识别技术出现严重失误，导致一名女性被错误监禁六个月，引发了全国范围内关于算法问责制的辩论。该事件突显了在缺乏足够人工监督或验证的情况下，过度依赖自动化识别系统的危险性。法律专家和民权倡导者正呼吁对执法中使用的 AI 工具进行紧急改革，并提出更严格的透明度要求。此案凸显了算法偏见对现实世界的毁灭性影响，以及建立稳健法律保护以防止 AI 驱动错误的迫切需求。",
+        "en": "A critical failure in AI-driven facial recognition technology resulted in a woman being wrongfully incarcerated for six months, sparking a national debate on algorithmic accountability. The incident underscores the dangers of over-reliance on automated identification systems without sufficient human oversight or verification. Legal experts and civil rights advocates are calling for urgent reforms and stricter transparency requirements for AI tools used in law enforcement. This case highlights the devastating real-world impact of algorithmic bias and the urgent need for robust legal protections against AI-driven errors."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.youtube.com/watch?v=mzS7dmCUzcQ",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "graphzero-cpp-graph-engine",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "GraphZero：防止图神经网络内存崩溃的 C++ 零拷贝引擎",
+        "en": "GraphZero: A C++ Zero-Copy Engine to Prevent GNN Memory Crashes"
+      },
+      "summary": {
+        "zh": "GraphZero v0.2 是一款定制的 C++ 数据引擎，旨在解决在 Papers100M 等海量数据集上训练图神经网络 (GNN) 时的内存溢出 (OOM) 问题。通过利用绕过系统 RAM 的零拷贝机制，它允许直接处理大型边列表和特征矩阵。这种优化对于在内存有限的消费级硬件上使用 PyTorch Geometric 的开发者特别有用。该工具显著降低了大尺度图机器学习的硬件门槛，实现了更高效的数据加载和训练周期。",
+        "en": "GraphZero v0.2 is a custom C++ data engine designed to solve Out-of-Memory (OOM) issues when training Graph Neural Networks (GNNs) on massive datasets like Papers100M. By utilizing a zero-copy mechanism that bypasses system RAM, it allows for the direct processing of large edge lists and feature matrices. This optimization is particularly beneficial for developers using PyTorch Geometric on consumer-grade hardware with limited memory. The tool significantly lowers the hardware barrier for large-scale graph machine learning, enabling more efficient data loading and training cycles."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ru7bnz/p_i_got_tired_of_pytorch_geometric_ooming_my/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "arxiv-independent-nonprofit",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "arXiv 脱离康奈尔大学，转型为独立非营利组织",
+        "en": "arXiv Separates from Cornell to Become Independent Nonprofit Organization"
+      },
+      "summary": {
+        "zh": "在与康奈尔大学合作数十年后，预印本平台 arXiv 正在转型为一家独立的非营利组织。在 Simons 基金会的支持下，该机构目前正在招聘首席执行官，目标年薪为 30 万美元，以领导其下一阶段的发展。这一结构性变化旨在 AI 研究论文爆炸式增长的背景下，确保平台的长期财务可持续性和技术现代化。作为全球科学界的基石，arXiv 的独立标志着开放获取研究基础设施的一个关键时刻。",
+        "en": "The preprint server arXiv is transitioning into an independent nonprofit organization after decades of partnership with Cornell University. Supported by the Simons Foundation, the organization is now seeking a CEO with a target salary of $300,000 to lead its next phase of growth. This structural change is intended to ensure the platform's long-term financial sustainability and technical modernization amidst an explosion of AI research papers. As a cornerstone of the global scientific community, arXiv's independence marks a pivotal moment for open-access research infrastructure."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rtjirw/the_arxiv_is_separating_from_cornell_university/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "preflight-pytorch-validator",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Preflight：防止静默训练失败的新型 PyTorch 验证工具",
+        "en": "Preflight: A New PyTorch Validator to Prevent Silent Training Failures"
+      },
+      "summary": {
+        "zh": "开发者发布了一款名为「preflight」的新型命令行工具，旨在帮助 PyTorch 开发者在浪费昂贵算力前捕捉静默训练错误。该工具专门针对标签泄露、NaN 值和错误的张量形状等问题，这些问题通常会导致模型在不崩溃的情况下「一无所获」。作者在因训练集和验证集之间的微妙标签泄露而损失了三天训练时间后开发了此工具。该工具体现了「防御性 AI 工程」日益增长的趋势，旨在通过预检提高模型训练的可靠性和资源利用率。",
+        "en": "A new CLI tool called 'preflight' has been released to help PyTorch developers catch silent training errors before they waste expensive compute cycles. The tool specifically targets issues like label leakage, NaNs, and incorrect tensor shapes, which often lead to models that 'learn nothing' without crashing. The developer created the tool after losing three days of training time to a subtle label leakage between training and validation sets. This utility represents a growing trend in 'defensive AI engineering' aimed at improving training reliability and resource efficiency."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ruepfx/p_preflight_a_pretraining_validator_for_pytorch_i/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "karpathy-autoresearch-evolutionary-db",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Karpathy 自动研究项目集成进化数据库",
+        "en": "Evolutionary Database Integrated into Karpathy's Autoresearch Project"
+      },
+      "summary": {
+        "zh": "Andrej Karpathy 的自动研究（autoresearch）项目现已集成进化数据库，取代了原有的简单 TSV 日志系统。该改进利用进化算法（类似于 Google DeepMind 的 AlphaEvolve）在巨大的搜索空间中自主发现最优解。通过超越静态日志记录，系统现在可以更有效地迭代研究假设和模型架构。此次更新凸显了将研究视为优化问题，并利用 AI 自动化科学发现过程本身的行业趋势。",
+        "en": "An evolutionary database has been integrated into Andrej Karpathy's autoresearch project, replacing the original simple TSV-based logging system. This enhancement leverages evolutionary algorithms, similar to Google DeepMind's AlphaEvolve, to autonomously discover optimal solutions within massive search spaces. By moving beyond static logging, the system can now more effectively iterate on research hypotheses and model architectures. This update highlights the shift toward using AI to automate the scientific discovery process itself by treating research as an optimization problem."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rtsbkv/p_karpathys_autoresearch_with_evolutionary/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "meta-coconut-latent-reasoning-critique",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究发现 Meta COCONUT 的「潜空间推理」主要由训练课程驱动",
+        "en": "Study Finds Meta's COCONUT 'Latent Reasoning' Driven by Training Curriculum"
+      },
+      "summary": {
+        "zh": "针对 Meta 的 COCONUT 模型进行的对照实验表明，其「潜空间推理」能力可能主要归功于高质量的训练课程，而非架构创新。研究发现，使用带有固定暂停 Token 的课程在 ProsQA 上达到了 96.6% 的分数，与使用循环隐藏状态的 COCONUT（97.0%）几乎持平。至关重要的是，研究人员指出循环隐藏状态实际上可能会损害模型泛化到新任务的能力。这一发现挑战了目前关于通过操纵 LLM 内部状态来实现推理的热门观点，表明数据策略仍是决定性因素。",
+        "en": "New controlled experiments on Meta's COCONUT model suggest that its 'latent reasoning' capabilities may be primarily attributed to high-quality training curriculum rather than architectural innovation. The study found that using a curriculum with fixed pause tokens achieved a 96.6% score on ProsQA, nearly matching COCONUT's 97.0% which uses recycled hidden states. Crucially, the researcher noted that recycled hidden states might actually hinder the model's ability to generalize to new tasks. This finding challenges the current hype surrounding internal state manipulation for LLM reasoning, suggesting that data strategy remains the dominant factor."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rt4lyd/d_ran_controlled_experiments_on_metas_coconut_and/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "nvidia-nemotron-license-update",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "NVIDIA 更新 Nemotron Super 3 许可协议，删除限制性条款",
+        "en": "Nvidia Updates Nemotron Super 3 License to Remove Restrictive Clauses"
+      },
+      "summary": {
+        "zh": "NVIDIA 大幅更新了其 Nemotron Super 3 122B A12B 模型的许可协议，删除了此前令开源社区担忧的争议性「撤回（rug-pull）」条款。新许可取消了关于模型修改、护栏实施、品牌推广和强制署名的限制性条款。此举被视为 LocalLLaMA 社区的重大胜利，为基于 NVIDIA 模型权重的开发者提供了更高的法律确定性。此次更新反映了 NVIDIA 在促进其大规模模型生态系统开放性和协作性方面的战略转变。",
+        "en": "Nvidia has significantly updated the license for its Nemotron Super 3 122B A12B model, removing controversial 'rug-pull' clauses that previously concerned the open-source community. The new license eliminates restrictive terms regarding model modifications, guardrail implementations, branding requirements, and mandatory attribution. This move is seen as a major win for the LocalLLaMA community, providing greater legal certainty for developers building on Nvidia's weights. The update reflects a strategic shift by Nvidia to foster a more permissive and collaborative ecosystem for its large-scale models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rue6tn/nvidia_updated_the_nemotron_super_3_122b_a12b/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "greenboost-vram-augmentation",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "GreenBoost 驱动旨在通过系统内存和 NVMe 增强 GPU 显存",
+        "en": "GreenBoost Driver Aims to Augment GPU vRAM with System RAM and NVMe"
+      },
+      "summary": {
+        "zh": "开源驱动程序「GreenBoost」正式发布，旨在通过增强 GPU 显存（vRAM）帮助用户在消费级硬件上运行大型语言模型。该驱动允许 NVIDIA GPU 将系统内存（RAM）和 NVMe 存储用作扩展内存，从而有效绕过中端显卡的物理显存限制。虽然这种方法与原生 HBM 或 GDDR6 显存相比会引入延迟，但它使得加载原本无法运行的超大型模型成为可能。该项目解决了本地 AI 爱好者面临的核心瓶颈：高显存专业显卡的高昂成本。",
+        "en": "The 'GreenBoost' open-source driver has been introduced to help users run large language models on consumer-grade hardware by augmenting GPU vRAM. The driver allows NVIDIA GPUs to utilize system RAM and NVMe storage as extended memory, effectively bypassing the physical VRAM limits of mid-range cards. While this approach introduces latency compared to native HBM or GDDR6 memory, it enables the execution of massive models that would otherwise be impossible to load. This project addresses the primary bottleneck for local AI enthusiasts: the high cost of high-memory professional GPUs."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ru98fi/opensource_greenboost_driver_aims_to_augment/",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "qwen35-27b-gacl-performance",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.5-27B 在游戏智能体编程联赛中比肩巨型模型",
+        "en": "Qwen3.5-27B Rivals Massive Models in Game Agent Coding League"
+      },
+      "summary": {
+        "zh": "在 3 月份的「游戏智能体编程联赛」（GACL）中，Qwen3.5-27B 模型表现出众，其性能几乎与体量大得多的 397B 版本和 GPT-5 mini 持平。Qwen3.5-27B 仅落后 397B 模型 0.04 分，显示出其在编程和智能体任务中极高的参数利用效率。与此同时，GPT-5.4 在前沿模型中保持领先，而 Kimi2.5 作为表现最强的开源权重模型位列全球第 6。这些结果凸显了中型开源模型与巨型闭源系统之间性能差距正在迅速缩小。",
+        "en": "In the March run of the Game Agent Coding League (GACL), the Qwen3.5-27B model demonstrated exceptional performance, nearly matching the much larger 397B variant and GPT-5 mini. Qwen3.5-27B trailed the 397B model by a mere 0.04 points, suggesting high efficiency in its parameter utilization for coding and agentic tasks. Meanwhile, GPT-5.4 maintains a clear lead among frontier models, and Kimi2.5 has secured the #6 spot globally as the top-performing open-weight model. These results highlight the rapid narrowing of the performance gap between mid-sized open models and massive proprietary systems."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
+      "date": "2026-03-15"
+    }
+  ]
+}
