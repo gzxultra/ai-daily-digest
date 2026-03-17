@@ -1,0 +1,255 @@
+{
+  "date": "2026-03-17",
+  "dateLabel": {
+    "zh": "2026年3月17日",
+    "en": "March 17, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-17T16:11:30Z",
+    "elapsedSeconds": 174,
+    "rawArticles": 57,
+    "afterFilter": 52,
+    "afterDedup": 49,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 1,
+      "Nvidia News": 2,
+      "Reddit r/MachineLearning": 2,
+      "Reddit r/LocalLLaMA": 1,
+      "Reddit": 4,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "claude-code-godot-games",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 技能实现 Godot 游戏全自动构建",
+        "en": "Claude Code Skills Enable Full Godot Game Generation"
+      },
+      "summary": {
+        "zh": "开源项目 GodoGen 展示了 Claude Code 在 Godot 引擎中构建完整功能游戏的先进能力。通过利用专门的智能体技能，该工具实现了场景组合、脚本编写和资源管理的自动化，从简单的代码片段进化到架构级的游戏开发。这突显了「智能编程」的增长趋势，即 AI 能够自主管理复杂的多文件项目结构。该项目在 Hacker News 上引发了广泛关注，反映了开发者对用于创意工程的高级 AI 编排能力的浓厚兴趣。",
+        "en": "A new open-source project, GodoGen, demonstrates the advanced capabilities of Claude Code in generating complete, functional games using the Godot engine. By leveraging specialized agentic skills, the tool automates scene composition, script writing, and asset management, moving beyond simple code snippets to architectural-level game development. This highlights the growing trend of agentic coding where AI manages complex, multi-file project structures autonomously. The project has gained significant traction on Hacker News, reflecting developer interest in high-level AI orchestration for creative engineering."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/htdt/godogen",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "nvidia-vera-cpu-agentic-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达发布专为智能体 AI 设计的 Vera CPU",
+        "en": "Nvidia Launches Vera CPU Purpose-Built for Agentic AI"
+      },
+      "summary": {
+        "zh": "英伟达（Nvidia）正式发布了 Vera CPU，这是一款专门为处理智能体 AI（Agentic AI）系统的编排和逻辑需求而设计的处理器。当 GPU 处理繁重的张量计算时，Vera 针对多个 AI 智能体交互时所需的高并发、低延迟分支预测和内存管理进行了优化。这一硬件转型标志着英伟达旨在主导从基础推理加速到复杂智能体推理及系统级协作的整个 AI 技术栈。此次发布标志着硬件架构正转向支持下一代自主 AI 工作流。",
+        "en": "Nvidia has officially unveiled the Vera CPU, a processor specifically engineered to handle the unique orchestration and logic demands of agentic AI systems. While GPUs handle heavy tensor computations, Vera is optimized for the high-concurrency, low-latency branching and memory management required when multiple AI agents interact. This hardware pivot signifies Nvidia's strategy to dominate the entire AI stack, moving from raw inference acceleration to complex agentic reasoning and system-level coordination. The launch marks a critical shift in hardware architecture to support the next generation of autonomous AI workflows."
+      },
+      "source": "Nvidia News",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "nvidia-dlss-5-launch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "英伟达 DLSS 5 带来 AI 驱动的视觉保真度突破",
+        "en": "Nvidia DLSS 5 Delivers AI-Powered Breakthrough in Visual Fidelity"
+      },
+      "summary": {
+        "zh": "英伟达宣布推出 DLSS 5，这是其深度学习超采样技术的最新迭代，承诺通过全新的 AI 驱动渲染技术实现视觉保真度的重大飞跃。此次更新集成了更先进的神经重建技术，旨在消除高分辨率游戏中的伪影并提高时间稳定性。通过进一步将渲染分辨率与输出质量解耦，DLSS 5 继续设定 AI 增强图形性能的行业标准。该版本的发布强化了生成式 AI 在实时图形中的作用，使我们更接近完全神经渲染的环境。",
+        "en": "Nvidia announced DLSS 5, the latest iteration of its Deep Learning Super Sampling technology, promising a significant leap in visual fidelity through new AI-driven rendering techniques. The update likely integrates more advanced neural reconstruction to eliminate artifacts and improve temporal stability in high-resolution gaming. By further decoupling rendering resolution from output quality, DLSS 5 continues to set the industry standard for AI-enhanced graphics performance. This release reinforces the role of generative AI in real-time graphics, moving closer to fully neural-rendered environments."
+      },
+      "source": "Nvidia News",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "kimi-attention-residuals-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Kimi 团队提出「注意力残差」解决层稀释问题",
+        "en": "Kimi Team Proposes Attention Residuals to Solve Layer Dilution"
+      },
+      "summary": {
+        "zh": "Kimi（月之暗面）团队在一篇新论文（arXiv:2603.15031）中提出了「注意力残差」（AttnRes），旨在解决深度大语言模型中标准 PreNorm 残差连接的局限性。研究人员指出，传统残差中的均匀聚合会导致隐藏状态增长，从而随着深度增加稀释单个层的贡献。AttnRes 提出了一种动态权重机制来取代固定的单位权重，可能允许构建更深、更具表达力的 Transformer 架构。这项研究通过在数百层中保持信号完整性，为超大规模模型的高效扩展提供了新路径。",
+        "en": "The Kimi (Moonshot AI) team introduced Attention Residuals (AttnRes) in a new paper (arXiv:2603.15031) to address the limitations of standard PreNorm residual connections in deep LLMs. The researchers argue that uniform aggregation in traditional residuals causes hidden-state growth that dilutes individual layer contributions as depth increases. AttnRes proposes a dynamic weighting mechanism that replaces fixed unit weights, potentially allowing for significantly deeper and more expressive transformer architectures. This research could lead to more efficient scaling of massive models by maintaining signal integrity across hundreds of layers."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://arxiv.org/abs/2603.15031",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "genomic-llm-evo2-arc-institute",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Evo2 基因组基础模型解码复杂生物模式",
+        "en": "Evo2 Genomic Foundation Model Decodes Complex Biological Patterns"
+      },
+      "summary": {
+        "zh": "研究人员正在探索 Evo2，这是由 Arc Institute 开发的基因组基础模型，在 9.3 万亿个核苷酸的海量数据集上进行了训练。与传统的序列比对工具不同，Evo2 利用学习到的嵌入来识别 DNA 中原始相似性搜索无法发现的生物关系和功能模式。研究表明，从中间层提取嵌入可以捕捉人类基因中细微的遗传相互作用。这展示了生物学大规模预训练的力量，表明基因组大模型能够以空前的预测准确性解码「生命的语言」。",
+        "en": "Researchers are exploring Evo2, a genomic foundation model from the Arc Institute trained on a massive dataset of 9.3 trillion nucleotides. Unlike traditional sequence alignment tools, Evo2 uses learned embeddings to identify biological relationships and functional patterns within DNA that are invisible to raw similarity searches. The study demonstrates that extracting embeddings from intermediate layers can capture nuanced genetic interactions across human genes. This highlights the power of large-scale pre-training in biology, suggesting that genomic LLMs can decode the language of life with unprecedented predictive accuracy."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "unsloth-studio-launch",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Unsloth 发布 Unsloth Studio，对标开源版 LMStudio",
+        "en": "Unsloth Announces Unsloth Studio as Open-Source LMStudio Competitor"
+      },
+      "summary": {
+        "zh": "Unsloth 宣布推出 Unsloth Studio，这是一款采用 Apache 许可证的本地 LLM 运行器，旨在与 LMStudio 等流行专有工具竞争。该工具兼容 Llama.cpp 和 GGUF 生态系统，旨在为高级用户提供一个更开放、更高效的环境来运行和管理本地模型。以极致微调优化闻名的 Unsloth 团队此举，可能会显著将本地 AI 格局推向更透明、对开发者更友好的工具链。社区的反应突显了本地推理领域对高性能、开源替代方案的强烈需求。",
+        "en": "Unsloth has announced Unsloth Studio, an Apache-licensed local LLM runner designed to compete with popular proprietary tools like LMStudio. Built with compatibility for Llama.cpp and the GGUF ecosystem, the tool aims to provide a more open and performant environment for advanced users to run and manage local models. This move by the Unsloth team, known for their extreme fine-tuning optimizations, could significantly shift the local AI landscape toward more transparent and developer-friendly tooling. The community response highlights a strong demand for high-performance, open-source alternatives in the local inference space."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rwa0f7/unsloth_announces_unsloth_studio_a_competitor_to/",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "mistral-small-4-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Mistral AI 发布 119B 参数规模的 Mistral Small 4",
+        "en": "Mistral AI Releases Mistral Small 4 with 119B Parameters"
+      },
+      "summary": {
+        "zh": "Mistral AI 发布了 Mistral Small 4 (119B-2603)，这是其高效模型系列的重大更新。尽管冠以「Small」之名，但 119B 的参数量表明这是一款旨在平衡顶尖性能与本地部署可行性的高密度架构模型。此次发布延续了 Mistral 为开发者社区提供高质量开源权重模型的策略，专门针对那些需要在可控硬件上实现强大推理能力的用户。",
+        "en": "Mistral AI has released Mistral Small 4 (119B-2603), marking a significant update to its efficient model lineup. Despite the 'Small' branding, the 119B parameter count suggests a high-density architecture designed to balance top-tier performance with local deployment feasibility. This release continues Mistral's strategy of providing high-quality open-weight models to the developer community, specifically targeting users who require powerful reasoning capabilities on manageable hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rvlfbh/mistral_small_4119b2603/",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "h-company-holotron-12b",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "H Company 推出专为计算机使用智能体设计的 Holotron-12B",
+        "en": "H Company Launches Holotron-12B for Computer-Use Agents"
+      },
+      "summary": {
+        "zh": "H Company 与 NVIDIA 合作发布了 Holotron-12B，这是一款为「计算机使用智能体」时代打造的开源多模态模型。该模型在性能上与 Holo2 和 Qwen 等领先模型持平，但吞吐量提升了 2 倍，这对于实时自主 UI 导航至关重要。通过针对高频交互进行优化，Holotron-12B 旨在成为开发者构建需要快速视觉和文本处理的智能体工作流的标准支柱。",
+        "en": "H Company, in collaboration with NVIDIA, has released Holotron-12B, an open-source multimodal model engineered for the era of computer-use agents. The model achieves performance parity with leading models like Holo2 and Qwen but delivers 2x higher throughput, which is critical for real-time autonomous UI navigation. By optimizing for high-frequency interaction, Holotron-12B aims to become the standard backbone for developers building agentic workflows that require rapid visual and textual processing."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rw2ygx/h_company_just_released_holotron_12b_developed/",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "covenant-72b-decentralized-training",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Covenant-72B：首个在去中心化节点上训练的大型模型",
+        "en": "Covenant-72B: Largest Model Trained on Decentralized Nodes"
+      },
+      "summary": {
+        "zh": "1Covenant 推出了 Covenant-72B，这是迄今为止完全在去中心化、无许可 GPU 节点上训练的最大模型。为了解决分布式训练中固有的带宽瓶颈，团队引入了「SparseLoco」方法，该方法基于 DiLoCo 构建，利用局部 AdamW 优化器和激进的 top-K 稀疏化来降低同步频率。这一突破证明了在大规模 LLM 训练中脱离集中式超算集群的可行性，有望推动大规模 AI 开发的民主化。",
+        "en": "1Covenant has unveiled Covenant-72B, the largest model to date trained entirely on decentralized, permissionless GPU nodes. To solve the bandwidth bottleneck inherent in distributed training, the team introduced 'SparseLoco,' a method built on DiLoCo that uses local AdamW optimizers and aggressive top-K sparsification to reduce synchronization frequency. This breakthrough proves that massive LLMs can be successfully trained outside of centralized supercomputing clusters, potentially democratizing large-scale AI development."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rvw659/1covenantcovenant72b_largest_model_so_far_to_be/",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "sk-hynix-memory-crunch-2030",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "SK 海力士预测存储芯片短缺将持续至 2030 年",
+        "en": "SK Hynix Predicts Memory Chip Shortage Until 2030"
+      },
+      "summary": {
+        "zh": "SK 海力士董事长崔泰源警告称，由于 AI 应用的爆发式增长，全球存储芯片短缺预计将持续到 2030 年。随着科技巨头竞相扩张 AI 基础设施，高带宽内存 (HBM) 的需求目前已超过产能。这种长期的供应限制表明，硬件成本仍将是 AI 公司的主要障碍，并可能减缓整个行业模型规模扩张和部署的速度。",
+        "en": "SK Hynix Chairman Chey Tae-won has warned that the global memory chip crunch is expected to persist until 2030 due to the explosive growth of AI applications. The demand for High Bandwidth Memory (HBM) is currently outstripping production capacity as tech giants race to scale their AI infrastructure. This long-term supply constraint suggests that hardware costs will remain a significant barrier for AI companies, potentially slowing the pace of model scaling and deployment across the industry."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rvwf54/memory_chip_crunch_to_persist_until_2030_sk_hynix/",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "microsoft-copilot-leadership-reorg",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软重组领导层以统一 Copilot 工程团队",
+        "en": "Microsoft Shuffles Leadership to Unify Copilot Engineering"
+      },
+      "summary": {
+        "zh": "微软任命了新的 Copilot 助手负责人，作为统一其消费级和商业级工程团队战略重组的一部分。此前，这些部门独立运营，而新架构旨在为所有用户创造更具凝聚力的产品体验。微软 AI 首席执行官 Mustafa Suleyman 将把重心转向创意计划，这反映了公司正在努力简化其 AI 产品路线图，并保持其在企业级 AI 市场的竞争优势。",
+        "en": "Microsoft has appointed a new head for its Copilot assistant as part of a strategic reorganization to unify its consumer and commercial engineering teams. Previously, these divisions operated separately, but the new structure aims to create a more cohesive product experience for all users. Microsoft AI CEO Mustafa Suleyman will shift his focus toward creative initiatives, reflecting the company's push to streamline its AI product roadmap and maintain its competitive edge in the enterprise AI market."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "xai-grok-csam-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "青少年因 Grok 生成的儿童性虐待材料起诉 xAI",
+        "en": "Teens Sue Elon Musk's xAI Over Grok-Generated CSAM"
+      },
+      "summary": {
+        "zh": "三名田纳西州青少年对埃隆·马斯克的 xAI 提起集体诉讼，指控 Grok 聊天机器人生成了他们未成年时期的性化图像和视频。诉讼称，xAI 领导层在明知该工具可能产生儿童性虐待材料 (CSAM) 的情况下仍将其发布。这一法律挑战凸显了外界对 AI 安全护栏日益严厉的审查，以及 AI 开发者对其模型生成的有害内容可能承担的法律责任。",
+        "en": "Three Tennessee teenagers have filed a class-action lawsuit against Elon Musk's xAI, alleging that the Grok chatbot generated sexualized images and videos of them as minors. The lawsuit claims that xAI leadership launched the tool despite knowing it could produce child sexual abuse material (CSAM). This legal challenge underscores the intensifying scrutiny over AI safety guardrails and the potential liability of AI developers for the harmful content generated by their models."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
+      "date": "2026-03-17"
+    }
+  ]
+}
