@@ -1,0 +1,255 @@
+{
+  "date": "2026-03-18",
+  "dateLabel": {
+    "zh": "2026年3月18日",
+    "en": "March 18, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-18T16:11:50Z",
+    "elapsedSeconds": 145,
+    "rawArticles": 59,
+    "afterFilter": 53,
+    "afterDedup": 50,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 3,
+      "Reddit": 2,
+      "Reddit r/MachineLearning": 2,
+      "Reddit r/LocalLLaMA": 3,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "ai-agents-productivity-paradox",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AI 智能体悖论：为什么交付速度反而下降了",
+        "en": "The AI Agent Paradox: Why Shipping Velocity is Dropping"
+      },
+      "summary": {
+        "zh": "Gergely Orosz 探讨了一个日益明显的趋势：软件工程中 AI 智能体的广泛使用反而导致了交付速度的下降。虽然智能体增加了代码产出量，但它们往往会引入「草率」的代码模式、技术债和更频繁的系统停机，导致人工评审环节出现严重瓶颈。分析指出，团队必须将重点从衡量原始产出转向系统稳定性，并针对 AI 生成的 PR 实施更严格的自动化测试，以重新获得效率。",
+        "en": "Gergely Orosz explores a growing trend where the widespread use of AI agents in software engineering is leading to a decline in shipping velocity. While agents increase code volume, they often introduce 'sloppy' patterns, technical debt, and more frequent outages, creating a massive bottleneck in the human review process. The analysis suggests that teams must shift focus from measuring raw output to system stability and implement more rigorous automated testing for agent-generated pull requests to regain efficiency."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "mistral-forge-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Mistral AI 发布 Forge 平台，助力企业级模型定制",
+        "en": "Mistral AI Launches Forge for Enterprise Model Customization"
+      },
+      "summary": {
+        "zh": "Mistral AI 正式发布了「Forge」，这是一个旨在简化其开源模型微调与部署的全方位平台。Forge 为开发者提供了优化的推理内核和统一的界面，用于管理从本地工作站到大规模云端集群的各种环境下的模型生命周期。此次发布旨在降低企业在 Mistral 架构上构建专有应用的门槛，同时保持高性能和数据隐私。",
+        "en": "Mistral AI has officially released 'Forge,' a comprehensive platform designed to streamline the fine-tuning and deployment of their open-weight models. Forge provides developers with optimized inference kernels and a unified interface to manage model lifecycles across diverse environments, from local workstations to large-scale cloud clusters. This release aims to lower the barrier for enterprises to build proprietary applications on top of Mistral's architecture while maintaining high performance and data privacy."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://mistral.ai/news/forge",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "openai-gpt-5-4-mini-nano",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 推出 GPT-5.4 Mini 与 Nano，进军边缘计算",
+        "en": "OpenAI Unveils GPT-5.4 Mini and Nano for Edge Computing"
+      },
+      "summary": {
+        "zh": "OpenAI 扩展了其旗舰系列，推出了专门针对高吞吐量和设备端应用优化的 GPT-5.4 Mini 和 Nano。这些模型在显著降低延迟和内存占用的同时，实现了与前代大模型相当的推理基准测试结果。通过瞄准移动端和物联网设备，OpenAI 正致力于与专门的边缘 AI 供应商直接竞争，提供从云端智能到本地执行的无缝扩展路径。",
+        "en": "OpenAI has expanded its flagship series with GPT-5.4 Mini and Nano, specifically optimized for high-throughput and on-device applications. These models achieve reasoning benchmarks comparable to previous-generation large models while significantly reducing latency and memory footprint. By targeting mobile and IoT devices, OpenAI is positioning itself to compete directly with specialized edge-AI providers, offering a seamless scaling path from cloud-based intelligence to local execution."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "ai-autonomous-learning-critique",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "认知科学研究指出 AI 系统缺乏真正的学习能力",
+        "en": "Cognitive Science Study Argues AI Systems Lack True Learning"
+      },
+      "summary": {
+        "zh": "一篇来自认知科学研究人员的挑衅性新论文指出，目前的 AI 系统并未在生物学意义上实现「学习」，而是在进行复杂的统计插值。作者强调，由于缺乏自主好奇心和构建内部世界模型的能力，大语言模型仍然依赖于静态数据集，无法适应新环境。研究表明，通往 AGI 的道路需要架构上的根本转变，即从模式匹配转向具备自主、持续探索能力的系统。",
+        "en": "A provocative new paper from cognitive science researchers argues that current AI systems do not 'learn' in the biological sense, but rather perform sophisticated statistical interpolation. The authors highlight that without autonomous curiosity and the ability to build internal world models, LLMs remain dependent on static datasets and fail to adapt to novel environments. The research suggests that the path to AGI requires a fundamental architectural shift from pattern matching to systems capable of self-directed, continuous exploration."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2603.15381",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "icml-reviewer-llm-ban-enforcement",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "ICML 拒绝使用 LLM 撰写审稿意见的审稿人论文",
+        "en": "ICML Rejects Papers from Reviewers Using LLMs for Feedback"
+      },
+      "summary": {
+        "zh": "据报道，ICML 会议实施了一项严格的执法政策，拒绝了所有被发现使用 LLM 生成审稿意见的审稿人所提交的论文。此举针对的是那些明确同意「禁用 AI」路径但仍违规的审稿人，违规行为通过先进的检测工具和元数据分析被识别。这一决定在机器学习社区引发了激烈辩论，涉及学术服务的伦理以及在高风险环境下 AI 生成内容检测的可靠性。",
+        "en": "The ICML conference has reportedly implemented a strict enforcement policy by rejecting all papers authored by reviewers who used LLMs to generate their peer reviews. This action targets reviewers who explicitly agreed to a 'no-AI' track but were identified through advanced detection tools and metadata analysis. The decision has sparked a heated debate within the machine learning community regarding the ethics of academic service and the reliability of AI-generated content detection in high-stakes environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx201a/d_icml_rejects_papers_of_reviewers_who_used_llms/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "garbage-to-gold-latent-structure",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "新研究挑战「垃圾进，垃圾出」的传统教条",
+        "en": "New Proof Challenges 'Garbage In, Garbage Out' Dogma"
+      },
+      "summary": {
+        "zh": "一篇名为《从垃圾到黄金》的新论文提供了一项正式证明，指出「垃圾进，垃圾出」（GIGO）原则并不总适用于具有潜在层级结构的高维数据。研究人员证明，深度学习模型可以有效地过滤噪声以提取底层信号，这一现象与「良性过拟合」密切相关。这一理论突破解释了为什么在未经清洗的网络数据上训练的大模型，尽管单个数据点质量较低，却往往表现出惊人的稳健性和高性能。",
+        "en": "A new paper titled 'From Garbage to Gold' provides a formal proof that the 'Garbage In, Garbage Out' (GIGO) principle does not always apply to high-dimensional data with latent hierarchical structures. The researchers demonstrate that deep learning models can effectively filter noise to extract underlying signals, a phenomenon linked to 'benign overfitting.' This theoretical breakthrough explains why large models trained on uncurated web data often exhibit surprising robustness and high performance despite the low quality of individual data points."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rwyy9g/r_from_garbage_to_gold/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "weight-norm-clipping-grokking",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "权重范数裁剪将「顿悟」速度提升高达 66 倍",
+        "en": "Weight Norm Clipping Accelerates Grokking by up to 66x"
+      },
+      "summary": {
+        "zh": "独立研究人员推出了「权重范数裁剪」（Weight Norm Clipping），这是一种简单但强大的技术，可将「顿悟」（Grokking，即突然泛化）的速度提高 18-66 倍。通过在每个优化步骤后对解码器权重进行逐行 L2 裁剪，该方法在 300 个测试种子中实现了零失败，且仅需五行代码。这种方法无需权重衰减或额外显存，显著降低了训练模型在算法任务上实现高泛化能力的计算成本。",
+        "en": "Independent researchers have introduced Weight Norm Clipping, a simple yet powerful technique that accelerates 'grokking' (sudden generalization) by 18-66x. By applying per-row L2 clipping to decoder weights after each optimizer step, the method achieved zero failures across 300 test seeds using just five lines of code. This approach eliminates the need for weight decay and additional memory, significantly reducing the computational cost of training models to achieve high generalization on algorithmic tasks."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rwl1sq/p_weight_norm_clipping_accelerates_grokking_1866/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "aibuildai-mle-bench-leader",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AIBuildAI 荣登 OpenAI MLE-Bench 榜首",
+        "en": "AIBuildAI Claims #1 Spot on OpenAI MLE-Bench"
+      },
+      "summary": {
+        "zh": "AIBuildAI 在 OpenAI 的 MLE-Bench 基准测试中荣登榜首，该基准旨在评估 AI 智能体在机器学习工程任务中的表现。该系统以自主循环方式运行，涵盖从任务分析、模型设计到代码实现和训练的整个开发生命周期。这一里程碑展示了智能编程工作流自动化复杂技术角色的能力日益增强，预示着人类工程师的重心可能会从常规实现转向高层战略。",
+        "en": "AIBuildAI has claimed the top spot on OpenAI's MLE-Bench, a benchmark designed to evaluate AI agents on machine learning engineering tasks. The system operates in an autonomous loop, handling the entire model development lifecycle from task analysis and model design to implementation and training. This milestone demonstrates the increasing capability of agentic workflows to automate complex technical roles, potentially shifting the focus of human engineers toward high-level strategy rather than routine implementation."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx7uz5/p_aibuildai_an_ai_agent_that_automatically_builds/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "minimax-m2-7-announcement",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "MiniMax-M2.7 正式发布",
+        "en": "MiniMax-M2.7 Officially Announced"
+      },
+      "summary": {
+        "zh": "中国 AI 初创公司 MiniMax 正式发布了其最新模型 MiniMax-M2.7，标志着大语言模型竞争格局的又一进展。虽然技术细节仍在披露中，但此次发布延续了该公司在高性能多模态能力和高效扩展方面的趋势。对于寻求亚洲市场替代方案的开发者来说，这一更新尤为重要，因为 MiniMax 继续优化其专有架构，以实现更好的推理和本地化语境理解。",
+        "en": "Chinese AI startup MiniMax has officially announced its latest model, MiniMax-M2.7, marking another step in the competitive landscape of large language models. While technical specifics are emerging, the release follows the company's trend of high-performance multimodal capabilities and efficient scaling. This update is particularly relevant for developers seeking alternatives in the Asian market, as MiniMax continues to refine its proprietary architecture for better reasoning and localized context understanding."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rwvn6h/minimaxm27_announced/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "mamba-3-inference-optimization",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Mamba 3 发布：针对推理性能深度优化",
+        "en": "Mamba 3 Released with Inference Optimizations"
+      },
+      "summary": {
+        "zh": "Mamba 3 正式发布，进一步推动了状态空间模型（SSM）作为 Transformer 架构可行替代方案的发展。该版本专门针对推理进行了优化，解决了传统注意力机制的二次方缩放限制，同时保持了高性能。通过改进状态转换逻辑，Mamba 3 在长序列任务中提供了显著的加速并降低了显存占用，使其成为边缘部署和实时 AI 应用的强有力竞争者。",
+        "en": "Mamba 3 has been released, further advancing State Space Models (SSMs) as a viable alternative to the Transformer architecture. This version is specifically optimized for inference, addressing the quadratic scaling limitations of traditional attention mechanisms while maintaining high performance. By refining the state transition logic, Mamba 3 offers significant speedups and reduced memory footprints for long-sequence tasks, making it a strong candidate for edge deployment and real-time AI applications."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rwxzj3/mamba_3_state_space_model_optimized_for_inference/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "unsloth-studio-launch",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Unsloth Studio 发布：全新开源 LLM 训练 Web UI",
+        "en": "Unsloth Studio: New Open-Source UI for LLM Training"
+      },
+      "summary": {
+        "zh": "Unsloth AI 推出了 Unsloth Studio，这是一个开源 Web 界面，旨在简化 500 多种大语言模型的本地训练和运行。该工具声称在将训练速度提高一倍的同时，减少了 70% 的显存占用，并支持包括 GGUF、视觉和音频模型在内的多种格式。通过为 Mac、Windows 和 Linux 提供统一的 UI，Unsloth Studio 降低了个人开发者和研究人员在消费级硬件上微调大规模模型的门槛。",
+        "en": "Unsloth AI has launched Unsloth Studio, an open-source web interface designed to simplify the local training and execution of over 500 LLMs. The tool claims to double training speeds while reducing VRAM usage by 70%, supporting diverse formats including GGUF, vision, and audio models. By providing a unified UI for Mac, Windows, and Linux, Unsloth Studio lowers the barrier for individual developers and researchers to fine-tune massive models on consumer-grade hardware."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1rw9jmf/introducing_unsloth_studio_a_new_opensource_web/",
+      "date": "2026-03-18"
+    },
+    {
+      "id": "nvidia-dlss-5-neural-rendering",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达发布 DLSS 5：引入 3D 引导神经渲染",
+        "en": "Nvidia DLSS 5 Introduces 3D Guided Neural Rendering"
+      },
+      "summary": {
+        "zh": "英伟达（Nvidia）发布了 DLSS 5，引入了「3D 引导神经渲染模型」，该模型超越了简单的分辨率提升，实现了对光照和材质的实时操纵。虽然在技术上令人印象深刻，但该技术在玩家中引发了争议，因为它倾向于改变原始素材的艺术意图，导致《生化危机：安魂曲》等演示中的角色外观被过度「美化」。这一转变标志着英伟达向完全生成式图形的过渡，也引发了关于 AI 增强的写实感与游戏创意保留之间平衡的讨论。",
+        "en": "Nvidia has unveiled DLSS 5, introducing a '3D guided neural rendering model' that moves beyond simple upscaling to real-time manipulation of lighting and materials. While technically impressive, the technology has sparked controversy among gamers due to its tendency to alter the artistic intent of original assets, leading to 'yassified' character appearances in demos like Resident Evil Requiem. This shift signals Nvidia's transition toward fully generative graphics, raising questions about the balance between photorealistic AI enhancement and creative preservation in gaming."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/games/896518/nvidia-dlss-5-ai-3d-rendering",
+      "date": "2026-03-18"
+    }
+  ]
+}
