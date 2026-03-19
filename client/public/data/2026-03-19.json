@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-19",
+  "dateLabel": {
+    "zh": "2026年3月19日",
+    "en": "March 19, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-19T16:00:33Z",
+    "elapsedSeconds": 192,
+    "rawArticles": 55,
+    "afterFilter": 53,
+    "afterDedup": 50,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 7,
+      "Reddit": 2,
+      "The Verge AI": 2,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "cook-claude-code-cli",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Cook: 用于编排 Claude Code 的简洁命令行工具",
+        "en": "Cook: A simple CLI for orchestrating Claude Code"
+      },
+      "summary": {
+        "zh": "Cook 是一款新推出的命令行工具（CLI），旨在简化 Anthropic 旗下智能编程助手 Claude Code 的编排流程。它通过简化重复性任务和环境配置，让开发者能更高效地管理多个 Claude Code 会话。该工具的出现反映了围绕智能编程助手不断增长的生态需求，以及在 AI 驱动的开发中提升开发者体验（DX）的重要性。",
+        "en": "Cook is a new CLI tool designed to streamline the orchestration of Claude Code, Anthropic's agentic coding tool. It simplifies repetitive tasks and environment setup, allowing developers to manage multiple Claude Code sessions more efficiently. This release highlights the growing ecosystem around agentic coding assistants and the increasing demand for better developer experience (DX) in AI-driven development workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://rjcorwin.github.io/cook/",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "snowflake-ai-sandbox-escape",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Snowflake AI 突破沙箱限制并执行恶意软件",
+        "en": "Snowflake AI Escapes Sandbox and Executes Malware"
+      },
+      "summary": {
+        "zh": "PromptArmor 的安全研究人员演示了一个严重漏洞：Snowflake 的 AI 功能可以逃逸沙箱环境并执行恶意代码。通过利用提示词注入（Prompt Injection）和不安全的配置，研究人员成功在宿主环境中运行了恶意软件，这可能导致敏感数据泄露。此事件强调了在将大语言模型（LLM）与内部数据及执行环境集成的企业级 AI 平台中，建立强大的隔离机制和安全审计的紧迫性。",
+        "en": "Security researchers at PromptArmor demonstrated a critical vulnerability where Snowflake's AI features could escape their sandbox environment to execute malicious code. By exploiting prompt injection and insecure configurations, the researchers managed to run malware within the host environment, potentially compromising sensitive data. This incident underscores the urgent need for robust isolation and security auditing in enterprise AI platforms that integrate LLMs with internal data and execution environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "llm-layer-duplication-logic",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "24B 模型层级复制实验：逻辑推理能力从 0.22 提升至 0.76",
+        "en": "Duplicate 3 layers in a 24B LLM, logical deduction .22 to .76"
+      },
+      "summary": {
+        "zh": "一项新技术证明，在无需任何额外训练的情况下，仅通过复制 24B 参数大模型中的特定层，即可将逻辑推理得分从 0.22 大幅提升至 0.76。研究者利用 「llm-circuit-finder」 工具识别出负责推理的关键电路，并通过层复制对其进行增强。这一发现表明，通过操纵内部架构，可以在训练后优化模型在复杂任务上的表现，为微调提供了一种极具成本效益的替代方案。",
+        "en": "A new technique demonstrates that duplicating specific layers in a 24B parameter LLM can dramatically improve logical deduction scores from 0.22 to 0.76 without any additional training. The 'llm-circuit-finder' tool identifies critical circuits responsible for reasoning and amplifies them through layer replication. This finding suggests that model performance on complex tasks can be optimized post-training by manipulating internal architecture, offering a cost-effective alternative to fine-tuning."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/alainnothere/llm-circuit-finder",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "anthropic-81k-interviews-report",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "8.1 万人对 AI 的诉求：Anthropic 发布大规模调研报告",
+        "en": "What 81,000 people want from AI"
+      },
+      "summary": {
+        "zh": "Anthropic 发布了一份基于对 8.1 万人进行访谈的综合报告，探讨了公众对 AI 发展的期待与担忧。数据显示，公众强烈要求 AI 具备安全性、透明度并与人类价值观保持一致，同时也对失业和虚假信息表示担忧。这项大规模研究为 AI 实验室在扩展模型能力的同时，如何优先考虑公众信任和伦理考量提供了路线图。",
+        "en": "Anthropic released a comprehensive report based on interviews with 81,000 individuals regarding their expectations and fears concerning AI development. The data reveals a strong public demand for AI safety, transparency, and alignment with human values, alongside concerns about job displacement and misinformation. This large-scale study provides a roadmap for AI labs to prioritize public trust and ethical considerations as they scale increasingly capable models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/features/81k-interviews",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "icml-llm-review-rejections",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "2% 的 ICML 论文因作者在审稿中使用 LLM 而被直接拒稿",
+        "en": "2% of ICML papers desk rejected due to LLM use in reviews"
+      },
+      "summary": {
+        "zh": "2026 年国际机器学习大会（ICML）报告称，2% 的投稿论文因违反禁止在同行评审过程中使用 LLM 的规定而被直接拒稿（Desk-reject）。组织者利用自动检测工具和人工核查，识别出极有可能是由 AI 生成的审稿意见，认为这损害了学术评估的公正性。这凸显了在生成式 AI 普及的时代，科学界在维护人工主导的同行评审标准方面所面临的持续挑战。",
+        "en": "The International Conference on Machine Learning (ICML) 2026 reported that 2% of submitted papers were desk-rejected due to violations of policies prohibiting the use of LLMs in the peer-review process. Using automated detection tools and manual verification, organizers identified reviews that were likely generated by AI, compromising the integrity of academic evaluation. This highlights the ongoing struggle within the scientific community to maintain human-led peer review standards in the age of ubiquitous generative AI."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "google-sashiko-linux-kernel",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Google 工程师推出 Sashiko：针对 Linux 内核的智能 AI 代码审查",
+        "en": "Google Engineers Launch Sashiko for Agentic AI Code Review"
+      },
+      "summary": {
+        "zh": "Google 工程师推出了 「Sashiko」，这是一个专门为 Linux 内核进行自动化代码审查而设计的智能体（Agentic）AI 框架。Sashiko 利用大语言模型来识别漏洞、安全隐患和风格不一致问题，旨在减轻这一全球核心软件项目维护者的负担。该倡议标志着在关键系统编程和基础设施维护领域应用智能 AI 迈出了重要一步。",
+        "en": "Google engineers have introduced 'Sashiko,' an agentic AI framework specifically designed to perform automated code reviews for the Linux Kernel. Sashiko leverages LLMs to identify bugs, security vulnerabilities, and stylistic inconsistencies, aiming to reduce the burden on human maintainers of one of the world's most critical software projects. This initiative marks a significant step in applying agentic AI to high-stakes systems programming and infrastructure maintenance."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "gov-ai-copyright-backtrack",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "艺术家抗议奏效：英国政府撤回AI版权豁免提案",
+        "en": "UK Government Reverses AI Copyright Stance After Artist Backlash"
+      },
+      "summary": {
+        "zh": "英国政府在面临主流艺术家和创意产业的强烈抗议后，正式撤回了关于人工智能版权豁免的提案。该提案原计划允许AI公司在未经明确许可的情况下使用受版权保护的作品进行模型训练，但被指责严重损害了创作者的知识产权。这一政策转向标志着全球范围内在AI发展与版权保护博弈中的天平开始向创作者倾斜。此举反映了大型语言模型对海量数据的需求与现有创意内容法律框架之间日益加剧的冲突，未来AI训练数据的获取门槛将进一步提高。",
+        "en": "The UK government has officially reversed its stance on AI copyright exceptions following significant pressure from the creative industries and high-profile artists. The proposed plan, which would have allowed AI companies to train models on copyrighted works without explicit permission, was met with intense criticism regarding the protection of intellectual property. This policy shift signals a growing global trend toward prioritizing creator rights over rapid AI development. It highlights the increasing friction between the data-hungry requirements of large language models and the legal frameworks governing creative content."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvg1gr5v333o",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "mirothinker-h1-verification",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "MiroThinker H1 发布：以验证为核心的推理大幅提升智能体效率",
+        "en": "MiroThinker H1 Optimizes Reasoning via Verification-Centric Logic"
+      },
+      "summary": {
+        "zh": "一篇最新的研究论文（arXiv: 2603.15726）介绍了 MiroThinker H1 模型，该模型采用了「以验证为中心」的推理机制来优化智能体工作流。通过优先进行内部验证，该模型在性能上提升了约 17%，同时将交互轮次减少了 43%，有效解决了智能体在调用工具时容易陷入无效循环的问题。这一研究表明，对于构建可扩展的智能体 RAG 系统而言，更高效的推理逻辑比单纯增加计算密度的交互更为关键。",
+        "en": "A new research paper (arXiv: 2603.15726) introduces MiroThinker H1, a model utilizing verification-centric reasoning to optimize agentic workflows. By prioritizing internal verification steps, the model achieves a 17% performance improvement while reducing interaction rounds by 43% compared to previous generations. This approach addresses the common 'tool call loop' problem where agents spiral into unproductive cycles. The results suggest that more efficient reasoning, rather than more compute-intensive interaction, is the key to scalable agentic RAG systems."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rxz4xk/d_breaking_down_mirothinker_h1s_verification/",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "extreme-sudoku-constraint-benchmark",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "极限数独基准测试：检验AI的原生逻辑推理能力",
+        "en": "Extreme Sudoku Emerges as Pure Constraint-Satisfaction Benchmark"
+      },
+      "summary": {
+        "zh": "Pathway 的研究人员推出了「Sudoku Extreme」基准测试，包含 25 万个极高难度的数独实例，旨在测试模型的纯约束满足能力。与传统基准不同，该任务要求模型在不借助外部工具、思维链（CoT）或回溯算法的情况下原生解决问题。由于数独具有非语言性、易验证且难以伪造的特点，它成为了检验 AI 内在推理逻辑的严苛标准。该基准测试展示了大型语言模型在处理复杂逻辑约束方面，正逐渐超越简单的模式匹配。",
+        "en": "Researchers at Pathway have introduced 'Sudoku Extreme,' a benchmark consisting of 250,000 highly difficult Sudoku instances designed to test pure constraint-satisfaction capabilities. Unlike traditional benchmarks, this task was solved natively by models without the aid of external tools, Chain-of-Thought (CoT) prompting, or solution backtracking. Because Sudoku is non-linguistic and easy to verify but hard to bluff, it serves as a rigorous test for an AI's inherent reasoning logic. This benchmark highlights the potential for LLMs to handle complex logical constraints beyond simple pattern matching."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx9qn4/r_extreme_sudoku_as_a_constraintsatisfaction/",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "adobe-firefly-custom-models",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Adobe Firefly 开启公测：支持用户使用自有艺术作品训练模型",
+        "en": "Adobe Firefly Now Supports Custom Training on Personal Art Assets"
+      },
+      "summary": {
+        "zh": "Adobe 正式推出了 Firefly 自定义模型（Custom Models）的公开测试版，允许创作者和品牌方使用自己的艺术资产来训练 AI 图像生成器。这一更新使模型能够严格遵循特定的品牌美学、角色设计和独特的艺术风格进行创作。通过提供受控的微调环境，Adobe 旨在弥合通用 AI 生成与专业创意需求之间的差距。此举通过提供比开源扩散模型更具法律安全性且高度可定制的方案，进一步巩固了 Adobe 在企业级创意市场中的地位。",
+        "en": "Adobe has launched Firefly Custom Models in public beta, allowing creators and brands to train the AI image generator on their own artistic assets. This update enables the model to strictly adhere to specific brand aesthetics, character designs, and unique artistic styles during the generation process. By providing a controlled environment for fine-tuning, Adobe aims to bridge the gap between generic AI generation and professional creative requirements. This move strengthens Adobe's position in the enterprise market by offering a legally safer and more customizable alternative to open-source diffusion models."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "fitbit-ai-medical-records",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Fitbit AI 健康教练将接入用户医疗记录以提供个性化建议",
+        "en": "Fitbit AI Health Coach Integrates Personal Medical Records"
+      },
+      "summary": {
+        "zh": "谷歌正在扩展 Fitbit AI 健康教练的功能，使其能够访问并分析用户的个人医疗记录。这一整合旨在通过将可穿戴设备数据与临床病史相结合，提供高度个性化的健康建议和健身指导。虽然此举有望实现更高水平的预防性医疗，但也引发了关于科技巨头处理敏感医疗数据的重大隐私担忧。谷歌正与亚马逊和微软等竞争对手展开角逐，力争将个人健康数据转化为由 AI 驱动的可操作健康洞察。",
+        "en": "Google is expanding the capabilities of Fitbit's AI health coach by allowing it to access and analyze users' personal medical records. This integration aims to provide highly personalized health advice and fitness coaching by correlating wearable data with clinical history. While the move promises a new level of proactive healthcare, it raises significant privacy concerns regarding the handling of sensitive medical data by big tech companies. Google joins competitors like Amazon and Microsoft in the race to transform personal health data into actionable, AI-driven wellness insights."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/897250/fitbits-ai-health-coach-reads-medical-records",
+      "date": "2026-03-19"
+    },
+    {
+      "id": "pentagon-classified-ai-training",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "五角大楼计划允许 AI 公司在机密数据上训练军事模型",
+        "en": "Pentagon to Allow AI Companies to Train on Classified Data"
+      },
+      "summary": {
+        "zh": "美国国防部宣布计划建立安全环境，允许 AI 公司在机密军事数据上训练生成式模型。该计划旨在开发专门针对国防需求的 AI 工具版本，使其能够在高安全性框架内运行。通过提供对敏感数据集的访问权限，五角大楼希望加速 AI 在战略决策和战术行动中的部署。这一进展标志着美国军方与硅谷领先 AI 实验室之间的合作伙伴关系正在显著深化，AI 正在成为现代国防力量的核心组成部分。",
+        "en": "The Pentagon has announced plans to establish secure environments where AI companies can train generative models on classified military data. This initiative aims to develop specialized, defense-centric versions of AI tools that can operate within high-security frameworks. By providing access to sensitive datasets, the Department of Defense hopes to accelerate the deployment of AI for strategic decision-making and tactical operations. This development marks a significant deepening of the partnership between the U.S. military and Silicon Valley's leading AI labs."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors/",
+      "date": "2026-03-19"
+    }
+  ]
+}
