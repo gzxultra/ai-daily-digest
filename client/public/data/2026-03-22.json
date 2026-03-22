@@ -1,0 +1,233 @@
+{
+  "date": "2026-03-22",
+  "dateLabel": {
+    "zh": "2026年3月22日",
+    "en": "March 22, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-22T15:32:43Z",
+    "elapsedSeconds": 185,
+    "rawArticles": 20,
+    "afterFilter": 15,
+    "afterDedup": 12,
+    "dedupRemoved": 3,
+    "finalStories": 11,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 8,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "bens-builds-stack-guide",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Ben's Builds：AI 产品开发的实用技术栈指南",
+        "en": "Ben's Builds: A Practical Stack for AI Product Development"
+      },
+      "summary": {
+        "zh": "Ben 分享了他个人 AI 开发技术栈的全面解析，重点介绍了 2026 年构建产品所需的具体工具、指令和技能。该指南超越了理论，为快速原型设计和部署提供了可操作的指令。它为希望在日益复杂的 AI 编排和前端集成生态系统中导航的开发者提供了蓝图。对于旨在实现高速交付的独立创始人及小型团队来说，这份资源具有极高的参考价值。",
+        "en": "Ben shares a comprehensive breakdown of his personal AI development stack, focusing on the specific tools, instructions, and skills required to build products in 2026. The guide moves beyond theory to provide actionable instructions for rapid prototyping and deployment. It serves as a blueprint for developers looking to navigate the increasingly complex ecosystem of AI orchestration and frontend integration. This resource is particularly valuable for solo founders and small teams aiming for high-velocity shipping."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/bens-builds-2",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "tinybox-deep-learning-hardware",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Tinybox：专为深度学习打造的高性能本地算力方案",
+        "en": "Tinybox: A High-Performance Local Compute Solution for Deep Learning"
+      },
+      "summary": {
+        "zh": "Tinygrad 推出了 Tinybox，这是一款旨在普及深度学习硬件的高性能专用计算机。通过为昂贵的企业级 GPU 集群提供高性能替代方案，它主要面向独立研究人员和小型 AI 实验室。该项目在 Hacker News 上获得了超过 540 个点赞，凸显了市场对规避云端延迟和持续成本的本地化算力的强烈需求。这标志着 AI 开发基础设施正向去中心化和高端本地化转变。",
+        "en": "Tinygrad has unveiled Tinybox, a powerful dedicated computer designed to democratize deep learning hardware. By offering a high-performance alternative to expensive enterprise GPU clusters, it targets independent researchers and small AI labs. The project has gained significant traction on Hacker News with over 540 points, highlighting a strong market demand for localized compute that avoids the latency and recurring costs of cloud providers. It represents a shift toward decentralized, high-end AI development infrastructure."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://tinygrad.org/#tinybox",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "ai-reshaping-human-reasoning",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "快思、慢想与人工智能：AI 如何重塑人类推理",
+        "en": "Thinking Fast, Slow, and Artificial: AI's Impact on Cognitive Processes"
+      },
+      "summary": {
+        "zh": "该研究论文将丹尼尔·卡尼曼的双系统理论应用于人工智能时代，探讨了 AI 如何重塑人类推理。它研究了人类将系统 1（直觉）和系统 2（审慎）任务委托给 AI 模型的过程及其产生的认知后果。研究警告了潜在的「认知萎缩」风险，同时也强调了增强智能的机遇。随着 AI 成为主要的推理伙伴，理解这些转变对于构建未来的教育和职业框架至关重要。",
+        "en": "This research paper applies Daniel Kahneman's dual-process theory to the era of artificial intelligence, examining how AI reshapes human reasoning. It explores the delegation of System 1 (intuitive) and System 2 (deliberative) tasks to AI models and the resulting cognitive consequences. The study warns of potential 'cognitive atrophy' while also highlighting opportunities for augmented intelligence. As AI becomes a primary reasoning partner, understanding these shifts is crucial for future educational and professional frameworks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "journalist-suspended-ai-quotes",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "资深记者因使用 AI 生成采访引言被停职",
+        "en": "Senior Journalist Suspended Over AI-Generated Interview Quotes"
+      },
+      "summary": {
+        "zh": "在发现已发表文章中存在 AI 生成的引言后，Mediahuis 暂停了一名欧洲资深记者的职务。随着生成式 AI 工具变得越来越难以检测，这一事件标志着现代新闻编辑部面临的伦理挑战显著升级。它引发了关于新闻诚信、原始资料可靠性以及媒体中 AI 检测协议必要性的关键讨论。该案例为行业敲响了警钟，警惕未经核实的自动化操作对公众信任的侵蚀。",
+        "en": "Mediahuis has suspended a senior European journalist following the discovery of AI-generated quotes in published articles. This incident marks a significant escalation in the ethical challenges facing modern newsrooms as generative AI tools become harder to detect. It raises critical questions about journalistic integrity, the reliability of primary sources, and the necessity for AI-detection protocols in media. The case serves as a cautionary tale for the industry regarding the erosion of public trust through unverified automation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "ai-impact-game-dev-employment",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 驱动下的游戏开发行业就业危机",
+        "en": "The AI-Driven Employment Crisis in the Game Development Industry"
+      },
+      "summary": {
+        "zh": "随着 AI 工具日益自动化资产创建、编码和质量保证，游戏开发领域正经历严重的就业危机。该报告详细描述了「待业」人数激增的现状，传统职位正被需要更少工时的 AI 增强型工作流所取代。虽然生产力在提高，但初级开发者的入行门槛正在上升，职业中期专业人士也面临严重的流离失所。该行业正处于十字路口，需要在技术效率与可持续职业路径之间取得平衡。",
+        "en": "The game development sector is experiencing a major employment crisis as AI tools increasingly automate asset creation, coding, and quality assurance. This report details the 'Open to Work' surge, where traditional roles are being displaced by AI-augmented workflows that require fewer human hours. While productivity is increasing, the barrier to entry for junior developers is rising, and mid-career professionals face significant displacement. The industry is at a crossroads, needing to balance technological efficiency with sustainable career paths."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "void-convergence-gpt5-claude4",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "前沿模型在最新研究中表现出相同的逻辑失效",
+        "en": "Frontier Models Exhibit Identical Logic Failures in New Study"
+      },
+      "summary": {
+        "zh": "一篇发表在 Zenodo 上的新研究揭示了「跨模型虚空收敛」（Cross-Model Void Convergence）现象，即 GPT-5.2 和 Claude Opus 4.6 等前沿模型在面对特定的高复杂度逻辑陷阱时，表现出完全一致的确定性沉默。这表明随着模型向通用人工智能（AGI）演进，它们可能正触及共同的架构或数据瓶颈，导致在特定场景下出现同步失效。该研究对模型推理的多样性提出了质疑，并警示了多模型部署中可能存在的系统性风险。",
+        "en": "A new research paper identifies a phenomenon called 'Cross-Model Void Convergence,' where frontier models like GPT-5.2 and Claude Opus 4.6 exhibit identical patterns of deterministic silence when faced with specific high-complexity logic traps. This suggests that as models scale toward AGI, they may be hitting a shared architectural or data-driven ceiling that causes them to fail in synchronized ways. The study raises critical questions about the diversity of model reasoning and the potential for systemic risks in multi-model deployments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://zenodo.org/records/18976656",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "chatgpt-number-bias-7200",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "ChatGPT 随机数生成中发现显著统计偏差",
+        "en": "Statistical Bias Found in ChatGPT Random Number Generation"
+      },
+      "summary": {
+        "zh": "一项在社区引起热议的调查显示，当要求 ChatGPT 在 1 到 10,000 之间随机选一个数字时，其结果在统计学上显著偏向 7,200 至 7,500 区间。这一现象凸显了大语言模型输出的非随机本质，其结果受训练数据中 Token 概率分布的支配，而非真正的随机过程。对于开发者而言，这再次提醒人们，在涉及安全或精密计算的技术流程中，大语言模型无法替代加密级伪随机数生成器（CSPRNG）。",
+        "en": "A viral community investigation reveals that when prompted to pick a 'random' number between 1 and 10,000, ChatGPT shows a statistically significant bias toward the 7,200-7,500 range. This phenomenon highlights the non-random nature of LLM outputs, which are governed by token probability distributions derived from training data rather than true stochastic processes. For developers, this serves as a reminder that LLMs cannot replace cryptographically secure pseudo-random number generators (CSPRNGs) in technical workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick/",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "llm-algorithmic-brute-force",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "工程师利用 LLM 在 7 天内突击掌握谷歌面试算法",
+        "en": "Engineer Uses LLM to Master Algorithms for Google Interview in 7 Days"
+      },
+      "summary": {
+        "zh": "一名软件工程师记录了如何利用大语言模型在 7 天内进行高强度突击，成功克服算法知识短板并应对谷歌面试。通过将 AI 作为个性化导师，实时讲解 LeetCode 模式并纠正思维误区，该候选人将数月的传统学习周期压缩至一周。这一案例展示了技术教育格局的变化，AI 驱动的「暴力学习法」正成为快速掌握复杂技能的可行策略。",
+        "en": "A software engineer documented a successful 7-day intensive study sprint using an LLM to overcome a lack of algorithmic knowledge for a Google recruitment interview. By using the AI as a personalized tutor to explain LeetCode patterns and debug mental models in real-time, the candidate was able to compress months of traditional study into a single week. This case study illustrates the shifting landscape of technical education, where AI-driven 'brute-force' learning is becoming a viable strategy for rapid skill acquisition."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "us-military-palantir-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美军将在各军种深度集成 Palantir AI 系统",
+        "en": "US Military to Deeply Integrate Palantir AI Across Branches"
+      },
+      "summary": {
+        "zh": "美国国防部正推动将 Palantir 的 AI 能力深度嵌入各军种，以增强数据整合和战场决策能力。该计划旨在利用 Palantir 的人工智能平台（AIP）处理海量传感器数据，并提供实时战术建议。尽管支持者认为这将带来决定性的技术优势，但此举也引发了关于自动目标识别伦理，以及核心国家安全基础设施对私人承包商日益依赖的激烈辩论。",
+        "en": "The US Department of Defense is moving to deeply embed Palantir's AI capabilities across various military branches to enhance data integration and battlefield decision-making. The initiative aims to leverage Palantir's AIP (Artificial Intelligence Platform) to process vast streams of sensor data and provide real-time tactical recommendations. While proponents argue this will provide a decisive technological edge, the move sparks intense debate regarding the ethics of autonomous targeting and the increasing reliance on private contractors for core national security infrastructure."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://thecradle.co/articles-id/36667",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "musk-terafab-austin",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克宣布在奥斯汀为 Tesla 和 SpaceX 建设 Terafab 芯片厂",
+        "en": "Musk Announces Terafab Chip Plant in Austin for Tesla and SpaceX"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克宣布在德克萨斯州奥斯汀建设名为「Terafab」的芯片制造工厂，由 Tesla 和 SpaceX 共同运营。该工厂旨在规模化生产专用芯片，用于机器人（Optimus）、AI 训练以及 Starlink 的空间加固型数据中心。通过实现芯片生产的自给自足，马斯克意在绕过全球供应链瓶颈，并针对其公司多样化 AI 应用的功耗和环境限制进行硬件优化。",
+        "en": "Elon Musk has announced the construction of a 'Terafab' chip manufacturing plant in Austin, Texas, to be operated jointly by Tesla and SpaceX. The facility is designed to produce specialized silicon at scale for robotics (Optimus), AI training, and space-hardened data centers for Starlink. By bringing chip production in-house, Musk aims to bypass global supply chain bottlenecks and optimize hardware specifically for the unique power and environmental constraints of his companies' diverse AI applications."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "gen-ai-eugenics-critique",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "导演 Valerie Veatch 批判生成式 AI 的社会影响",
+        "en": "Director Valerie Veatch Critiques Generative AI's Societal Impact"
+      },
+      "summary": {
+        "zh": "在接受 The Verge 采访时，导演 Valerie Veatch 对生成式 AI 的当前轨迹提出了尖锐批评，将模型优化的底层逻辑与历史上的优生学运动相类比。Veatch 认为，追求「完美」合成输出的过程往往强化了狭隘且带有偏见的美学和智力标准，同时抹杀了人类的多样性。这一讨论凸显了艺术家和伦理学家群体中日益增长的反思思潮，他们呼吁建立更透明、更具包容性的开发框架，强调人类自主性而非算法同质化。",
+        "en": "In a provocative interview, director Valerie Veatch critiques the current trajectory of generative AI, comparing the underlying logic of model optimization to historical eugenics movements. Veatch argues that the pursuit of 'perfect' synthetic outputs often reinforces narrow, biased standards of beauty and intelligence while erasing human diversity. The discussion highlights a growing movement of artists and ethicists who are challenging the 'Kool-Aid' of AI progress, calling for more transparent and inclusive development frameworks."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
+      "date": "2026-03-22"
+    }
+  ]
+}
