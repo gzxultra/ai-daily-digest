@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-23",
+  "dateLabel": {
+    "zh": "2026年3月23日",
+    "en": "March 23, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-23T16:04:54Z",
+    "elapsedSeconds": 174,
+    "rawArticles": 29,
+    "afterFilter": 24,
+    "afterDedup": 20,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 8,
+      "The Verge AI": 2,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-450-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 450：电子战模型与网络攻击规模定律",
+        "en": "Import AI 450: Electronic Warfare Models and Cyberattack Scaling Laws"
+      },
+      "summary": {
+        "zh": "Jack Clark 的最新时讯 Import AI 450 重点介绍了中国开发的电子战模型、大语言模型（LLM）的「自我厌恶」现象以及网络攻击的规模定律。该电子战模型显示了 AI 在军事信号处理中的应用趋势；「受创模型」研究探讨了安全训练如何导致模型产生非预期的负面行为。此外，网络攻击规模定律指出，随着算力的增加，自动化漏洞利用的复杂性和成功率呈预测性增长，这对未来的网络安全构成了重大挑战。",
+        "en": "Jack Clark's latest newsletter highlights a Chinese electronic warfare model, explores why large language models (LLMs) like Google's exhibit self-deprecating behaviors, and discusses a new scaling law for cyberattacks. The EW model indicates a shift toward using AI for complex signal processing in military contexts. The 'traumatized LLM' concept examines how safety training can lead to unintended model behaviors. Finally, the cyberattack scaling law suggests that as compute increases, the sophistication and success rate of automated exploits grow predictably, posing significant security risks."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "ai-proofing-careers",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "年轻从业者如何通过「防范 AI」来保护职业生涯",
+        "en": "How Young Workers are AI-Proofing Their Careers"
+      },
+      "summary": {
+        "zh": "随着 AI 重塑劳动力市场，年轻从业者正通过优先培养以人为本的技能和提升 AI 技术素养来「防范 AI」对职业的冲击。据《华尔街日报》报道，相关策略包括掌握 AI 增强型工作流、专注于需要高情商的职位，以及追求大语言模型目前难以复制的专业细分领域。这一转变反映了 2026 年职场的一种共识：职业安全感取决于成为 AI 的「驾驶员」而非竞争者。这一趋势凸显了初级职业发展和职业规划的广泛转型。",
+        "en": "As AI reshapes the labor market, young workers are proactively 'AI-proofing' their careers by prioritizing human-centric skills and technical AI literacy. According to the Wall Street Journal, strategies include mastering AI-augmented workflows, focusing on roles requiring high emotional intelligence, and pursuing specialized niches that LLMs currently struggle to replicate. This shift reflects a growing realization that job security in 2026 depends on being a 'pilot' of AI rather than a competitor. The trend underscores a broader transformation in entry-level professional development and career planning."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "rust-ai-perspectives",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Rust 社区辩论 AI 对代码安全性的影响",
+        "en": "Rust Community Debates the Impact of AI on Code Safety"
+      },
+      "summary": {
+        "zh": "Rust 项目贡献者和维护者分享了关于 AI 在生态系统中作用的多样化观点，涵盖了从谨慎乐观到对代码质量担忧的各种看法。核心讨论集中在 AI 编程助手如何降低 Rust 的准入门槛，同时如果监管不力，可能会引入微妙的内存安全漏洞。维护者还表达了对「洪水般」的 AI 生成拉取请求（PR）的担忧，并指出需要更好的自动化工具来管理这些请求。共识强调在不损害 Rust 安全和性能核心原则的前提下，利用 AI 提升开发效率。",
+        "en": "Rust project contributors and maintainers shared diverse perspectives on AI's role in the ecosystem, ranging from cautious optimism to concerns about code quality. Key discussions focused on how AI coding assistants can lower the barrier to entry for Rust while potentially introducing subtle memory safety bugs if not properly supervised. Maintainers also expressed concerns about the 'flood' of AI-generated pull requests and the need for better automated tooling to manage them. The consensus emphasizes using AI to enhance developer productivity without compromising Rust's core tenets of safety and performance."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "claude-mobile-qa",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "利用 Claude 多模态智能体自动化移动应用 QA",
+        "en": "Automating Mobile App QA Using Claude Multimodal Agents"
+      },
+      "summary": {
+        "zh": "一篇新的技术教程演示了如何利用 Claude 通过解析 UI 层级和截图来对移动应用进行质量保证（QA）测试。该方法涉及向模型提供应用状态数据和视觉线索，以识别 Android 和 iOS 平台上的错误、导航问题和 UI 不一致性。通过将这些传统的繁琐手动任务自动化，开发者可以显著缩短发布周期并提高应用稳定性。这一实验突显了多模态大语言模型在软件测试环境中作为高级智能体日益增长的能力。",
+        "en": "A new technical walkthrough demonstrates how to leverage Claude to perform quality assurance (QA) on mobile applications by interpreting UI hierarchies and screenshots. The approach involves feeding the model app state data and visual cues to identify bugs, navigation issues, and UI inconsistencies across Android and iOS. By automating these traditionally manual tasks, developers can significantly speed up the release cycle and improve app stability. This experiment highlights the growing capability of multimodal LLMs to act as sophisticated agents in software testing environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "ai-productivity-dilemma",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 生产力困境：裁员还是产品创新？",
+        "en": "The AI Productivity Dilemma: Layoffs vs. Product Innovation"
+      },
+      "summary": {
+        "zh": "Hacker News 上的一场热门讨论探讨了 AI 驱动的生产力提升所带来的战略困境：公司应该裁员以缩减开支，还是将节省的时间重新投入到构建更复杂的产品中。虽然一些参与者报告了「隐形裁员」（即离职员工不再补招），但许多人认为 AI 允许小团队处理以前需要数十名工程师的项目。这场辩论凸显了软件行业价值主张的转变，即从「劳动密集型编码」转向「以产品为中心的创新」。这反映了关于 AI 对工程就业长期影响的更广泛的经济不确定性。",
+        "en": "A viral Hacker News discussion explores the strategic dilemma posed by AI-driven productivity gains: whether companies should reduce headcount or reinvest saved time into building more complex products. While some participants report 'stealth layoffs' where departing developers aren't replaced, many argue that AI allows small teams to tackle projects that previously required dozens of engineers. The debate highlights a shift in the software industry's value proposition, moving from 'labor-intensive coding' to 'product-centric innovation.' This reflects a broader economic uncertainty about the long-term impact of AI on engineering employment."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=47475859",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "revise-ai-editor",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Revise：一款用于协作写作的新型 AI 原生文档编辑器",
+        "en": "Revise: A New AI-Native Document Editor for Collaborative Writing"
+      },
+      "summary": {
+        "zh": "Revise 是一款新推出的 AI 驱动文档编辑器，旨在通过集成的大语言模型能力简化写作和编辑流程。与传统的文字处理器不同，Revise 在编辑界面内直接提供上下文感知的建议、结构重组和实时事实核查。该工具旨在通过将 AI 视为协作伙伴而非简单的自动补全功能，减少草拟与最终润色之间的摩擦。它在 Hacker News 上的发布引发了人们对专用 AI 界面在长内容创作方面如何优于通用聊天界面的关注。",
+        "en": "Revise is a newly launched AI-powered document editor designed to streamline the writing and editing process through integrated LLM capabilities. Unlike traditional word processors, Revise offers context-aware suggestions, structural reorganizations, and real-time fact-checking directly within the editing interface. The tool aims to reduce the friction between drafting and final polishing by treating the AI as a collaborative partner rather than a simple autocomplete feature. Its launch on Hacker News sparked interest in how specialized AI interfaces can outperform general-purpose chat interfaces for long-form content creation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://revise.io",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "iphone-17-pro-400b-llm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "iPhone 17 Pro 成功演示本地运行 4000 亿参数大模型",
+        "en": "iPhone 17 Pro Demonstrated Running a 400B Parameter LLM Locally"
+      },
+      "summary": {
+        "zh": "一项突破性演示显示，即将推出的 iPhone 17 Pro 能够在设备本地完整运行拥有 4000 亿参数的大语言模型（LLM）。这表明苹果在 NPU 和内存架构上取得了重大硬件进步，可能采用了先进的 4 位量化或统一内存优化技术。这一里程碑标志着 AI 正在从依赖云端转向高性能边缘计算，为复杂的移动端 AI 任务提供了更强的隐私保护和近乎瞬时的响应速度。",
+        "en": "A breakthrough demonstration has shown the upcoming iPhone 17 Pro running a massive 400-billion parameter Large Language Model (LLM) entirely on-device. This suggests significant hardware advancements in Apple's NPU and memory architecture, likely utilizing sophisticated 4-bit quantization or unified memory optimizations. This milestone marks a major shift from cloud-reliant AI to high-performance edge computing, promising enhanced privacy and near-instantaneous response times for complex mobile AI tasks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/anemll/status/2035901335984611412",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "ai-receptionist-mechanic-shop",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "开发者为豪华修车店构建定制化 AI 接待员",
+        "en": "Developer Builds Custom AI Receptionist for Luxury Mechanic Shop"
+      },
+      "summary": {
+        "zh": "一位开发者详细介绍了为一家高端修车店创建专业 AI 接待员的过程，该系统旨在管理客户咨询和维修预约。该项目利用语音转文本和大模型集成来处理通用聊天机器人通常无法正确识别的复杂服务请求。这一案例研究突显了垂直领域 AI 应用的增长趋势，即小型企业通过定制化自动化工具来提高运营效率和客户体验，而无需高额的间接成本。",
+        "en": "A developer has detailed the creation of a specialized AI receptionist designed to manage customer inquiries and service scheduling for a high-end automotive shop. The project leverages voice-to-text and LLM integration to handle complex service requests that generic chatbots often fail to process correctly. This case study highlights the growing trend of vertical AI applications where small businesses use tailored automation to improve operational efficiency and customer experience without high overhead."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "agent-kernel-stateful-markdown",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Agent Kernel：通过三个 Markdown 文件实现智能体状态保持",
+        "en": "Agent Kernel: Enabling Stateful AI Agents via Three Markdown Files"
+      },
+      "summary": {
+        "zh": "Agent Kernel 是一款新型开源工具，提供了一种轻量化方法，仅需三个 Markdown 文件即可让任何 AI 智能体具备状态保持能力。通过以人类可读的格式构建状态管理，它允许开发者在无需复杂数据库基础设施的情况下跨会话维持上下文和记忆。这种方法简化了持久化智能体工作流的开发，并增强了 AI 系统在不同平台间的互操作性。",
+        "en": "Agent Kernel is a new open-source tool that provides a lightweight method to make any AI agent stateful using just three Markdown files. By structuring state management in a human-readable format, it allows developers to maintain context and memory across different sessions without the need for complex database infrastructure. This approach simplifies the development of persistent agentic workflows and enhances the interoperability of AI systems across different platforms."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/oguzbilgic/agent-kernel",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "superhuman-ceo-impersonation",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Superhuman 首席执行官回应 AI 冒充与身份盗用风险",
+        "en": "Superhuman CEO Addresses AI Impersonation and Identity Theft Risks"
+      },
+      "summary": {
+        "zh": "在最近的一次采访中，Superhuman（原 Grammarly）首席执行官 Shishir Mehrotra 讨论了一家 AI 公司冒充其数字身份的严重事件。对话探讨了高保真 AI 克隆带来的广泛伦理和法律影响，以及行业迫切需要建立身份验证标准。随着生成式 AI 降低了身份盗用的门槛，Mehrotra 强调了 AI 开发者在防止未经授权使用他人人格方面应承担的责任。",
+        "en": "In a recent interview, Shishir Mehrotra, CEO of Superhuman (formerly Grammarly), discussed the alarming incident of an AI company impersonating his digital identity. The conversation explores the broader ethical and legal ramifications of high-fidelity AI clones and the urgent need for industry-wide authentication standards. As generative AI makes identity theft easier, Mehrotra emphasizes the responsibility of AI developers to implement safeguards against the unauthorized use of human personas."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "crimson-desert-ai-art-apology",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "《赤色沙漠》开发商就意外使用 AI 艺术资产道歉",
+        "en": "Crimson Desert Developer Apologizes for Accidental Use of AI Art"
+      },
+      "summary": {
+        "zh": "在玩家于正式版中发现 AI 生成的资产后，即将推出的游戏《赤色沙漠》的开发商发表了正式道歉。工作室解释称，这些 AI 艺术原计划仅作为开发过程中的临时占位符，但在发布版本中被错误地遗留。这一事件凸显了游戏工作室在 AI 使用方面面临的日益严格的审查，以及游戏行业关于手工创作与 AI 辅助创作价值的持续争论。",
+        "en": "The developer of the upcoming game Crimson Desert has issued a formal apology after players identified AI-generated assets in the final release. The studio explained that the AI art was intended as temporary placeholders during development and was mistakenly left in the shipping version. This incident highlights the increasing scrutiny game studios face regarding AI usage and the ongoing debate over the value of handcrafted versus AI-assisted creative content in the gaming industry."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/games/898771/crimson-desert-dev-apologizes-ai-art",
+      "date": "2026-03-23"
+    },
+    {
+      "id": "white-house-ai-policy-animal-welfare",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "白宫公布 AI 政策，动物福利组织积极拥抱 AGI",
+        "en": "White House Unveils AI Policy as Animal Welfare Groups Embrace AGI"
+      },
+      "summary": {
+        "zh": "白宫发布了新的 AI 政策框架，旨在规范技术部署的同时促进各行业的创新。与此同时，湾区的动物福利运动正越来越多地采用先进的 AI 工具来优化收容所管理和野生动物追踪。这些平行发展展示了 AI 如何从理论上的政策讨论转向政府治理和非营利社会事业中的实际大规模应用。",
+        "en": "The White House has introduced a new AI policy framework aimed at regulating the technology's deployment while fostering innovation across various sectors. Simultaneously, the animal welfare movement in the Bay Area is increasingly adopting advanced AI tools to optimize shelter management and wildlife tracking. These parallel developments illustrate how AI is moving from theoretical policy discussions to practical, large-scale implementation in both government governance and non-profit social causes."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/",
+      "date": "2026-03-23"
+    }
+  ]
+}
