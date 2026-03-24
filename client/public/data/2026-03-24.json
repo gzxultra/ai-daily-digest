@@ -1,0 +1,255 @@
+{
+  "date": "2026-03-24",
+  "dateLabel": {
+    "zh": "2026年3月24日",
+    "en": "March 24, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-24T16:11:54Z",
+    "elapsedSeconds": 164,
+    "rawArticles": 33,
+    "afterFilter": 26,
+    "afterDedup": 21,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 6,
+      "The Verge AI": 2,
+      "MIT Tech Review": 1,
+      "Simon Willison": 1,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "agents-interview-users",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "智能体范式转移：为什么 AI 应该主动「面试」用户",
+        "en": "The Shift Toward Proactive Agents: Why AI Should Interview You"
+      },
+      "summary": {
+        "zh": "Ben's Bites 探讨了智能体设计中的根本性转变，即 AI 智能体正从被动遵循指令转向主动澄清需求。通过「面试」用户，智能体可以在执行前消除歧义并收集必要的上下文，从而显著降低幻觉率并解决「空白页」难题。文章提到了 Anthropic 的 Claude 向更具集成性的「OpenClaw」风格演进。这一转型标志着简单提示工程的终结，取而代之的是以意图对齐为核心的协作式、多轮智能体工作流。",
+        "en": "Ben's Bites explores a fundamental shift in agentic design where AI agents move from passive instruction-following to proactive clarification. By 'interviewing' users, agents can resolve ambiguity and gather necessary context before execution, significantly reducing hallucination rates and the 'blank page' problem. The post references the evolution of Anthropic's Claude toward a more integrated 'OpenClaw' style approach. This transition marks the end of simple prompt engineering in favor of collaborative, multi-turn agentic workflows that prioritize intent alignment."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/agents-should-interview-you",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "claude-code-cheat-sheet",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "社区发布 Claude Code 命令行工具全能速查表",
+        "en": "Community Launches Comprehensive Claude Code CLI Cheat Sheet"
+      },
+      "summary": {
+        "zh": "一份由社区驱动的 Claude Code 速查表在 Hacker News 上引发热议，为 Anthropic 的这款专用命令行工具提供了集中参考。该指南涵盖了旨在优化代理编程体验的核心终端命令、快捷键和配置参数。该项目在 HN 上获得超过 560 个点赞，凸显了开发者日益倾向于使用基于终端的 AI 智能体，而非传统的 IDE 扩展。对于希望掌握该工具高级文件系统操作和 Shell 执行能力的开发者来说，这是一份必备资源。",
+        "en": "A new community-driven cheat sheet for Claude Code has gained significant traction on Hacker News, providing a centralized reference for Anthropic's specialized CLI tool. The guide covers essential terminal commands, keyboard shortcuts, and configuration parameters designed to optimize the agentic coding experience. With over 560 points on HN, its popularity underscores a growing developer preference for terminal-based AI agents over traditional IDE extensions. This resource is essential for developers looking to master the tool's advanced file-system manipulation and shell execution capabilities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://cc.storyfox.cz",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "gpt5-4-pro-math-breakthrough",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GPT-5.4 Pro 成功解决拉姆齐超图理论开放性难题",
+        "en": "GPT-5.4 Pro Solves Open Problem in Ramsey Hypergraph Theory"
+      },
+      "summary": {
+        "zh": "Epoch AI 已确认 OpenAI 的 GPT-5.4 Pro 成功解决了拉姆齐超图理论（Ramsey hypergraph theory）中一个此前未解的开放性问题，该里程碑已通过 FrontierMath 基准测试验证。这一成就代表了 AI 在高级抽象推理和原创数学发现能力上的重大飞跃，超越了简单的模式匹配。该模型的解法为超图密度提供了新的界限，这是人类数学家多年来未能实现的壮举。这一进展预示着前沿模型正成为高级科学和数学研究中可靠的协作伙伴。",
+        "en": "Epoch AI has confirmed that OpenAI's GPT-5.4 Pro successfully solved a previously open problem in Ramsey hypergraph theory, a milestone verified via the FrontierMath benchmark. This achievement represents a significant leap in AI's capacity for high-level abstract reasoning and original mathematical discovery, moving beyond simple pattern matching. The model's solution provides new bounds for hypergraph density, a feat that has eluded human mathematicians for years. This development signals that frontier models are becoming viable collaborators in advanced scientific and mathematical research."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "productive-with-claude-code",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "开发者洞察：利用 Claude Code 实现效率翻倍",
+        "en": "Developer Insights: Achieving 2x Productivity with Claude Code"
+      },
+      "summary": {
+        "zh": "软件工程师 Neil Kakkar 详细介绍了使用 Claude Code 最大化生产力的工作流，强调了其在多文件重构方面优于标准聊天界面的表现。该指南解释了如何通过提供受限环境和迭代反馈循环，将智能体视为「初级合作伙伴」。Kakkar 指出，该工具执行 Shell 命令和直接读取本地上下文的能力减轻了手动切换上下文的认知负担。这一实用案例研究为将代理式命令行工具集成到专业软件开发生命周期中提供了路线图。",
+        "en": "Software engineer Neil Kakkar details his workflow for maximizing productivity using Claude Code, highlighting its superiority in multi-file refactoring compared to standard chat interfaces. The guide explains how to treat the agent as a 'junior partner' by providing constrained environments and iterative feedback loops. Kakkar notes that the tool's ability to execute shell commands and read local context directly reduces the cognitive load of manual context-switching. This practical case study provides a roadmap for integrating agentic CLI tools into professional software development lifecycles."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://neilkakkar.com/productive-with-claude-code.html",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "cq-mozilla-ai-agents",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Mozilla AI 发布 Cq：专为 AI 智能体打造的知识库",
+        "en": "Mozilla AI Unveils Cq: A Knowledge Base Built for AI Agents"
+      },
+      "summary": {
+        "zh": "Mozilla AI 推出了「Cq」，这是一个旨在充当 AI 编程智能体版「Stack Overflow」的专业仓库。与以人类为中心的论坛不同，Cq 提供结构化的、机器可读的数据，帮助智能体在无需大量网络搜索的情况下解决常见的编程错误和依赖问题。通过提供一组经过策划的高质量解决方案，Cq 旨在减少智能体解决问题时的 Token 消耗和延迟。随着自主编程变得更加普遍，该基础设施项目解决了对智能体优化数据源的关键需求。",
+        "en": "Mozilla AI has launched 'Cq,' a specialized repository designed to act as a 'Stack Overflow' for AI coding agents. Unlike human-centric forums, Cq provides structured, machine-readable data that helps agents resolve common programming errors and dependency issues without extensive web searching. By offering a curated set of high-quality solutions, Cq aims to reduce the token consumption and latency associated with agentic problem-solving. This infrastructure project addresses the critical need for agent-optimized data sources as autonomous coding becomes more prevalent."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "ai-for-disruptive-science",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "设计颠覆性而非渐进式的科学 AI 系统",
+        "en": "Designing AI for Disruptive Rather Than Incremental Science"
+      },
+      "summary": {
+        "zh": "Asimov Press 主张将 AI 架构转向「颠覆性科学」，摆脱仅仅优化现有知识的模型。文章指出，目前的大语言模型偏向于共识，这可能会阻碍合成生物学等领域的激进突破。提出的解决方案包括「基于惊喜」的损失函数和针对异常数据进行训练，以鼓励识别导致范式转移的现象。这种方法强调，我们需要能够挑战科学教条的 AI，而不仅仅是加速当前研究趋势的工具。",
+        "en": "Asimov Press argues for a shift in AI architecture toward 'disruptive science' by moving away from models that merely optimize existing knowledge. The article suggests that current LLMs are biased toward consensus, which can hinder radical breakthroughs in fields like synthetic biology. Proposed solutions include 'surprise-based' loss functions and training on anomalous data to encourage the identification of paradigm-shifting phenomena. This approach emphasizes the need for AI that can challenge scientific dogmas rather than just accelerating current research trends."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.asimov.press/p/ai-science",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "proofshot-ai-ui-verification",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "ProofShot：为 AI 编程智能体提供视觉验证能力",
+        "en": "ProofShot: Visual Verification for AI Coding Agents"
+      },
+      "summary": {
+        "zh": "ProofShot 是一款为 AI 编程智能体提供视觉验证能力的工具，使其能够「看到」并验证其生成的 UI 界面。通过集成视觉反馈循环，开发者可以确保智能体不仅能编写语法正确的代码，还能生成视觉上准确的布局。这解决了自动化前端开发中的一个主要痛点，即智能体经常在 UI 元素上产生幻觉或无法捕捉 CSS 回归错误。该工具旨在弥合代码生成与视觉正确性之间的鸿沟。",
+        "en": "ProofShot is a new tool designed to give AI coding agents visual verification capabilities, allowing them to see and validate the user interfaces they generate. By integrating visual feedback loops, developers can ensure that agents do not just write syntactically correct code but also produce visually accurate layouts. This addresses a major pain point in automated frontend development where agents often hallucinate UI elements or fail to catch CSS regressions. The tool aims to bridge the gap between code generation and visual correctness."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://proofshot.argil.io/",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "anthropic-claude-computer-use",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 升级 Claude：支持自主控制计算机",
+        "en": "Anthropic Upgrades Claude with Autonomous Computer Control"
+      },
+      "summary": {
+        "zh": "Anthropic 对其 Claude Code 和 Cowork 工具进行了重大升级，使其能够自主控制用户的计算机以执行复杂任务。该功能允许 Claude 在无需手动设置的情况下打开文件、浏览网页并运行开发工具，甚至在用户离开时也能工作。这一举措标志着「计算机使用」能力迈出了重要一步，将 Claude 定位为更主动的智能体，而不仅仅是基于聊天的助手。安全性仍是重点，Claude 在执行自主操作前会明确请求许可。",
+        "en": "Anthropic has significantly updated its Claude Code and Cowork tools, enabling them to autonomously control a user's computer to perform complex tasks. The new feature allows Claude to open files, navigate web browsers, and run development tools without manual setup, even when the user is away. This move represents a major step toward Computer Use capabilities, positioning Claude as a more proactive agent rather than just a chat-based assistant. Security remains a focus, as Claude will explicitly ask for permission before performing autonomous actions."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "jensen-huang-agi-claim",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达 CEO 黄仁勋称 AGI 已经实现",
+        "en": "Nvidia CEO Jensen Huang Claims AGI Has Been Achieved"
+      },
+      "summary": {
+        "zh": "在最近的 Lex Fridman 播客节目中，英伟达首席执行官黄仁勋提出了一个挑衅性的观点，即通用人工智能（AGI）已经实现。尽管 AGI 在行业内仍是一个定义模糊的术语，但黄仁勋的言论强调了计算能力和模型能力的飞速提升。这一断言可能会在研究人员中引发激烈辩论，因为许多人认为目前的系统仍缺乏真正的推理和人类水平的泛化能力。此番言论凸显了英伟达对当前 AI 软硬件集成发展轨迹的信心。",
+        "en": "During a recent appearance on the Lex Fridman podcast, Nvidia CEO Jensen Huang made the provocative claim that Artificial General Intelligence (AGI) has already been achieved. While AGI remains a loosely defined term in the industry, Huang's statement underscores the rapid acceleration of compute power and model capabilities. This assertion is likely to spark intense debate among researchers who argue that current systems still lack true reasoning and human-level generalization. The comment highlights Nvidia's confidence in the current trajectory of AI hardware and software integration."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "ai-delusions-openai-microsoft-risks",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "斯坦福追踪 AI 妄想；OpenAI 警告微软合作风险",
+        "en": "Stanford Traces AI Delusions; OpenAI Warns of Microsoft Risks"
+      },
+      "summary": {
+        "zh": "斯坦福大学的一项新研究分析了聊天机器人对话记录，追踪了用户如何陷入由 AI 驱动的妄想，强调了与具有说服力的 LLM 长期互动的心理风险。与此同时，OpenAI 公开承认了与其合作伙伴微软之间存在的战略风险，指出了随着两家公司发展而产生的潜在利益冲突。这些进展突显了 AI 快速部署与安全所需的伦理及运营保障之间日益紧张的关系。研究结果表明，AI 的社会影响已远远超出技术准确性，延伸到了人类心理和公司治理领域。",
+        "en": "A new Stanford study analyzed chatbot transcripts to trace how users spiral into AI-fueled delusions, highlighting the psychological risks of long-term interaction with persuasive LLMs. Simultaneously, OpenAI has publicly acknowledged the strategic risks associated with its deep partnership with Microsoft, noting potential conflicts of interest as both companies evolve. These developments highlight the growing tension between rapid AI deployment and the ethical/operational safeguards required for safety. The findings suggest that the social impact of AI extends far beyond technical accuracy into human psychology and corporate governance."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/24/1134540/the-download-tracing-ai-fueled-delusions-openai-warns-microsoft-risks/",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "malicious-litellm-security-alert",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "litellm 1.82.8 版本中发现凭据窃取恶意代码",
+        "en": "Credential Stealer Found in litellm 1.82.8"
+      },
+      "summary": {
+        "zh": "在 litellm 1.82.8 版本中发现了一个严重的安全性漏洞，涉及一个旨在窃取用户凭据的恶意 litellm_init.pth 文件。这次供应链攻击针对的是使用该流行库进行 LLM API 集成的开发者，强调了开源 AI 生态系统中持续存在的风险。官方敦促用户立即审计其环境并升级到已修复的版本，以防止敏感的 API 密钥泄露。该事件提醒人们在现代 AI 开发工作流中，依赖项锁定和安全扫描至关重要。",
+        "en": "A critical security vulnerability was discovered in litellm version 1.82.8, involving a malicious litellm_init.pth file designed to steal user credentials. This supply chain attack targets developers using the popular library for LLM API integration, emphasizing the ongoing risks in the open-source AI ecosystem. Users are urged to audit their environments and upgrade to patched versions immediately to prevent sensitive API key exfiltration. The incident serves as a stark reminder of the importance of dependency pinning and security scanning in modern AI development workflows."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "dreamer-meta-superintelligence-hire",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Meta 超智能实验室聘用 Dreamer 团队",
+        "en": "Meta Superintelligence Labs Hires Dreamer Team"
+      },
+      "summary": {
+        "zh": "Meta 的超智能实验室（MSL）正式「高管聘用」了 Dreamer 背后的团队，此举紧随该团队在 Latent Space 播客中亮相之后。这次人才收购信号表明 Meta 正在积极推进个人超智能和高级智能体模型的研究。Dreamer 专业知识的整合预计将加强 Meta 为其庞大用户群创建更具自主性和能力的 AI 系统的努力。这次招聘的速度反映了智能体 AI 和个人助手领域对顶尖人才的激烈竞争。",
+        "en": "Meta's Superintelligence Labs (MSL) has officially execuhired the team behind Dreamer, a move that follows closely after their high-profile appearance on the Latent Space podcast. This acquisition signals Meta's aggressive push into personal superintelligence and advanced agentic models. The integration of Dreamer's expertise is expected to bolster Meta's efforts in creating more autonomous and capable AI systems for its massive user base. The speed of this hire reflects the intense competition for top-tier talent in the field of agentic AI and personal assistants."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/ainews-dreamer-joins-meta-superintelligence",
+      "date": "2026-03-24"
+    }
+  ]
+}
