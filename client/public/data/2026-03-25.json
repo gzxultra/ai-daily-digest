@@ -1,0 +1,252 @@
+{
+  "date": "2026-03-25",
+  "dateLabel": {
+    "zh": "2026年3月25日",
+    "en": "March 25, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-25T16:16:51Z",
+    "elapsedSeconds": 228,
+    "rawArticles": 59,
+    "afterFilter": 51,
+    "afterDedup": 46,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 2,
+      "": 6
+    }
+  },
+  "news": [
+    {
+      "id": "google-turboquant-compression",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Google 发布 TurboQuant 实现极致 AI 模型压缩",
+        "en": "Google Unveils TurboQuant for Extreme AI Model Compression"
+      },
+      "summary": {
+        "zh": "Google Research 发布了 TurboQuant，这是一个旨在实现极致 AI 模型压缩的突破性框架。该技术在保持高准确度的同时，显著减少了大模型的内存占用和计算需求。通过优化量化过程，TurboQuant 能够在资源受限的硬件上实现高性能推理。这一进步对于下一代端侧 AI 至关重要，有望在不依赖云端基础设施的情况下，将前沿水平的模型能力引入移动端和边缘环境。",
+        "en": "Google Research has introduced TurboQuant, a groundbreaking framework designed for extreme AI model compression. The technology significantly reduces the memory footprint and computational requirements of large models while maintaining high levels of accuracy. By optimizing quantization processes, TurboQuant enables high-performance inference on resource-constrained hardware. This advancement is critical for the next generation of on-device AI, potentially bringing frontier-level model capabilities to mobile and edge environments without relying on cloud infrastructure."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "hypura-apple-silicon-scheduler",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Hypura：专为 Apple Silicon 设计的存储层感知 LLM 调度器",
+        "en": "Hypura: Storage-Tier-Aware LLM Scheduler for Apple Silicon"
+      },
+      "summary": {
+        "zh": "Hypura 是一款专为 Apple Silicon 优化的新型推理调度器，可跨不同存储层管理 LLM 权重。通过在统一内存 (RAM) 和高速 SSD 之间智能交换数据，它允许 Mac 用户运行显著超出其物理内存容量的模型。该工具解决了本地 LLM 执行的主要瓶颈，使得在消费级硬件上运行 70B+ 参数模型变得更加可行。它代表了本地 AI 社区在最大化集成硬件架构效用方面迈出的重要一步。",
+        "en": "Hypura is a new inference scheduler specifically optimized for Apple Silicon that manages LLM weights across different storage tiers. By intelligently swapping data between unified memory (RAM) and high-speed SSDs, it allows Mac users to run models that significantly exceed their physical RAM capacity. This tool addresses the primary bottleneck in local LLM execution, making 70B+ parameter models more accessible on consumer-grade hardware. It represents a major step forward for the local AI community in maximizing the utility of integrated hardware architectures."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/t8/hypura",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "disney-openai-sora-shutdown",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "随着 Sora 视频应用关停，迪士尼退出 OpenAI 合作协议",
+        "en": "Disney Exits OpenAI Partnership as Sora Video App Shuts Down"
+      },
+      "summary": {
+        "zh": "据报道，在 OpenAI 出人意料地关闭 Sora AI 视频生成项目后，迪士尼已终止了与其备受瞩目的合作伙伴关系。Sora 最初承诺将彻底改变电影制作，但据称因不可持续的计算成本以及关于深度伪造的安全性担忧未获解决而关停。此次退出标志着 OpenAI 在好莱坞雄心的重大挫折，并凸显了商业化高保真生成式视频的巨大挑战。此举暗示各大制片厂对实验性生成式 AI 视频工具的投资正进入冷静期。",
+        "en": "Disney has reportedly terminated its high-profile partnership with OpenAI following the unexpected shutdown of the Sora AI video generation project. Sora, which initially promised to revolutionize film production, was reportedly shuttered due to unsustainable compute costs and unresolved safety concerns regarding deepfakes. This exit marks a significant setback for OpenAI's ambitions in Hollywood and highlights the immense challenges of commercializing high-fidelity generative video. The move suggests a cooling period for major studio investments in experimental generative AI video tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "proofshot-ai-ui-verification",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "ProofShot：为 AI 编程智能体提供视觉验证能力",
+        "en": "ProofShot: Visual Verification for AI Coding Agents"
+      },
+      "summary": {
+        "zh": "ProofShot 是一款创新工具，可为 AI 编程智能体提供视觉反馈，使其能够实时验证所构建的用户界面。通过捕获并分析渲染代码的截图，该工具允许智能体检测纯文本模型无法察觉的布局偏移、CSS Bug 和 UI 不一致性。这弥合了代码生成与视觉准确性之间的鸿沟，显著提高了自主 Web 开发的可靠性。它实现了一个闭环系统，让智能体可以根据其在屏幕上实际「看到」的内容进行自我修正。",
+        "en": "ProofShot is a novel tool that provides AI coding agents with visual feedback, enabling them to verify the user interfaces they build in real-time. By capturing and analyzing screenshots of rendered code, the tool allows agents to detect layout shifts, CSS bugs, and UI inconsistencies that are invisible to text-only models. This bridges the gap between code generation and visual accuracy, significantly improving the reliability of autonomous web development. It allows for a closed-loop system where the agent can self-correct based on what it actually 「sees」 on the screen."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/AmElmo/proofshot",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "kalavai-specialist-fusion-prediction",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "KALAVAI：预测独立专家模型融合的成功率",
+        "en": "KALAVAI: Predicting Success in Independent Specialist Fusion"
+      },
+      "summary": {
+        "zh": "KALAVAI 研究引入了一个数学框架，用于预测合并独立专家模型何时能产生性能增益。利用公式（增益 = 0.82 × 散度 − 2.72），该研究在 410M 到 6.9B 参数的模型中实现了 0.856 的 R² 相关系数。这为模型合并提供了一种严谨的数据驱动方法，允许开发者在无需昂贵试错的情况下确定融合微调检查点的可行性。该研究通过量化模型散度与融合成功率之间的关系，简化了多领域专家模型的创建过程。",
+        "en": "The KALAVAI research introduces a mathematical framework to predict when merging independent specialist models will result in performance gains. Using the formula (gain = 0.82 × divergence − 2.72), the study achieved an R² of 0.856 across models ranging from 410M to 6.9B parameters. This provides a rigorous, data-driven method for model merging, allowing developers to determine the viability of fusing fine-tuned checkpoints without expensive trial-and-error. The research simplifies the creation of multi-domain expert models by quantifying the relationship between model divergence and fusion success."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://arxiv.org/abs/2603.22755",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "intel-arc-pro-32gb-vram",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "英特尔发布配备 32GB 显存的 Arc Pro B70/B65 GPU",
+        "en": "Intel Launches Arc Pro B70/B65 GPUs with 32GB VRAM"
+      },
+      "summary": {
+        "zh": "英特尔正式推出了 Arc Pro B70 和 B65 GPU，其显著特点是配备了高达 32GB 的 GDDR6 显存。对于本地 LLM 社区而言，这是一项重大进展，因为显存容量通常是本地运行大规模模型的主要限制。通过在专业工作站级别提供 32GB 显存，英特尔为需要大上下文窗口或高参数模型推理的开发者提供了 NVIDIA 之外的竞争性选择。此举标志着英特尔意图占领日益增长的、寻求高性价比大显存硬件的 AI 研究人员和开发者市场。",
+        "en": "Intel has officially launched the Arc Pro B70 and B65 GPUs, featuring a substantial 32GB of GDDR6 memory. This release is a significant development for the local LLM community, as VRAM capacity is often the primary constraint for running large-scale models locally. By offering 32GB at a professional workstation tier, Intel provides a competitive alternative to NVIDIA for developers requiring large context windows or high-parameter model inference. The move signals Intel's intent to capture the growing market of AI researchers and developers seeking cost-effective, high-memory hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s3bb3y/intel_launches_arc_pro_b70_and_b65_with_32gb_gddr6/",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "deepseek-v4-tease",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "DeepSeek 员工爆料性能超越 V3.2 的巨量新模型",
+        "en": "DeepSeek Employee Teases Massive New Model Surpassing V3.2"
+      },
+      "summary": {
+        "zh": "一名 DeepSeek 员工在社交媒体上短暂透露了一款「巨量」新模型，声称其性能大幅超越了现有的 DeepSeek V3.2。尽管该回复随后被删除，但在 r/LocalLLaMA 社区引发了关于下一代开源权重模型的广泛讨论。这次泄露表明 DeepSeek 正在维持其激进的发布节奏，旨在与顶级闭源模型展开竞争，这可能预示着 V4 版本的临近或重大架构突破。",
+        "en": "A DeepSeek employee briefly teased a massive new model on social media, claiming it significantly surpasses the current DeepSeek V3.2. Although the post was quickly deleted, it sparked intense speculation within the r/LocalLLaMA community regarding the next generation of open-weights models. This leak suggests DeepSeek is maintaining its aggressive release cycle to compete with top-tier proprietary models, potentially signaling an imminent V4 release or a major architectural breakthrough."
+      },
+      "source": "",
+      "sourceUrl": "",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "litellm-supply-chain-attack",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "LiteLLM 遭遇供应链攻击，开发者转向替代方案",
+        "en": "LiteLLM Hit by Supply Chain Attack; Alternatives Emerge"
+      },
+      "summary": {
+        "zh": "热门库 LiteLLM 遭遇安全危机，其在 PyPI 上的 1.82.7 和 1.82.8 版本被发现含有窃取凭据的恶意软件。作为应对，开发者开始转向 Bifrost 等替代方案，后者采用 Go 语言编写，声称 P99 延迟比 LiteLLM 快 50 倍，并支持 20 多个供应商且迁移简单。此次供应链攻击凸显了 AI 基础设施中严格依赖项审计的必要性，以及开发者向高性能编译语言转型的趋势。",
+        "en": "Security concerns have hit the popular LiteLLM library after versions 1.82.7 and 1.82.8 on PyPI were found to contain credential-stealing malware. In response, developers are highlighting alternatives like Bifrost, a Go-based replacement that claims 50x faster P99 latency and supports over 20 providers with a simple one-line migration. This supply chain attack underscores the critical need for rigorous dependency auditing and the potential shift toward more performant, compiled languages in AI infrastructure."
+      },
+      "source": "",
+      "sourceUrl": "",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "google-lyria-3-pro",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google 发布 Lyria 3 Pro，支持生成 3 分钟长音频",
+        "en": "Google Lyria 3 Pro Extends AI Music Generation to 3 Minutes"
+      },
+      "summary": {
+        "zh": "Google 发布了 Lyria 3 Pro，这是其音乐生成 AI 的重大升级，将音轨长度从 30 秒延长至 3 分钟。新模型正被集成到 Google 的各项产品中，并提供更精细的控制，允许用户针对片头或桥接段等特定部分进行提示。时长六倍的提升使 Google 能够更直接地与 Suno 和 Udio 等专业 AI 音乐平台在创意媒体领域展开竞争。",
+        "en": "Google has unveiled Lyria 3 Pro, a significant upgrade to its music generation AI that extends maximum track length from 30 seconds to three minutes. The new model is being integrated across Google's product ecosystem and offers granular control, allowing users to prompt for specific song sections like intros and bridges. This sixfold increase in duration positions Google to compete more directly with specialized AI music platforms like Suno and Udio in the creative media space."
+      },
+      "source": "",
+      "sourceUrl": "",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "senate-anthropic-redlines",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美参议院民主党人提议将 Anthropic 安全红线法典化",
+        "en": "Senate Democrats Propose Codifying Anthropic's Safety Red Lines"
+      },
+      "summary": {
+        "zh": "民主党参议员 Adam Schiff 和 Elissa Slotkin 正在提出立法，旨在将 Anthropic 建立的安全「红线」法典化。拟议的法案旨在确保涉及自主武器的生死决策必须由人类监督，并限制国防部使用 AI 进行大规模监控。这一立法行动反映了在 AI 实验室与军事采购目标关系紧张的背景下，将企业自愿的安全承诺转化为具有约束力的联邦法律的趋势。",
+        "en": "Democratic Senators Adam Schiff and Elissa Slotkin are introducing legislation to codify the safety red lines established by Anthropic. The proposed bills aim to ensure human oversight in life-and-death decisions involving autonomous weapons and to limit AI-driven mass surveillance by the Department of Defense. This legislative push reflects a growing effort to turn voluntary corporate safety commitments into enforceable federal law amidst tensions between AI labs and military procurement goals."
+      },
+      "source": "",
+      "sourceUrl": "",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "trump-ai-advisory-panel",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "扎克伯格与黄仁勋加入特朗普新设立的 AI 政策小组",
+        "en": "Zuckerberg and Huang Join Trump's New AI Policy Panel"
+      },
+      "summary": {
+        "zh": "特朗普政府已任命行业巨头马克·扎克伯格（Meta）、黄仁勋（Nvidia）、拉里·埃里森（Oracle）和谢尔盖·布林（Google）加入总统科技顾问委员会（PCAST）。这个高规格的小组将直接为国家 AI 政策和战略技术竞争提供建议。这些领导人的加入标志着行政部门与 AI 硬件及软件领域主导企业之间正采取协作模式，共同塑造美国创新的未来。",
+        "en": "The Trump administration has appointed industry titans Mark Zuckerberg (Meta), Jensen Huang (Nvidia), Larry Ellison (Oracle), and Sergey Brin (Google) to the President's Council of Advisors on Science and Technology (PCAST). This high-profile panel will weigh in on national AI policy and strategic technological competition. The inclusion of these leaders signals a collaborative approach between the executive branch and the dominant players in the AI hardware and software sectors to shape the future of American innovation."
+      },
+      "source": "",
+      "sourceUrl": "",
+      "date": "2026-03-25"
+    },
+    {
+      "id": "claude-code-auto-mode",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 为 Claude Code 推出更安全的「自动模式」",
+        "en": "Anthropic Launches Safer Auto Mode for Claude Code"
+      },
+      "summary": {
+        "zh": "Anthropic 为其终端编程助手 Claude Code 推出了「自动模式」，旨在平衡自主性与安全性。该功能允许 AI 代表用户做出权限级别的决策，在为「氛围程序员」简化工作流的同时，防止模型出现危险的过度独立。此次更新旨在减少频繁手动审批带来的摩擦，使 Claude Code 成为处理复杂软件工程任务时更高效的智能体工具。",
+        "en": "Anthropic has introduced an auto mode for Claude Code, its terminal-based coding assistant, designed to balance autonomy with safety. This feature allows the AI to make permission-level decisions on behalf of the user, streamlining workflows for vibe coders while maintaining guardrails against dangerous levels of independence. The update aims to reduce the friction of constant manual approvals, positioning Claude Code as a more capable agentic tool for complex software engineering tasks."
+      },
+      "source": "",
+      "sourceUrl": "",
+      "date": "2026-03-25"
+    }
+  ]
+}
