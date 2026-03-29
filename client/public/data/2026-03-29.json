@@ -1,0 +1,251 @@
+{
+  "date": "2026-03-29",
+  "dateLabel": {
+    "zh": "2026年3月29日",
+    "en": "March 29, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-29T15:38:07Z",
+    "elapsedSeconds": 144,
+    "rawArticles": 30,
+    "afterFilter": 27,
+    "afterDedup": 24,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "r/LocalLLaMA": 6
+    }
+  },
+  "news": [
+    {
+      "id": "knuth-claude-cycles-proof",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "人机协作攻克高德纳 Claude Cycles 数学难题",
+        "en": "Human-AI Collaboration Solves Knuth's Claude Cycles Problem"
+      },
+      "summary": {
+        "zh": "研究人员通过人类、AI 智能体与形式化证明助手的混合工作流，在解决高德纳（Donald Knuth）提出的「Claude Cycles」数学问题上取得了进展。这种协作方式展示了大型语言模型（LLM）在与 Lean 或 Coq 等严谨验证工具结合时，如何辅助复杂的数学推理。该项目突显了 AI 在理论计算机科学中角色的演变，即从简单的代码生成转向辅助高层级的抽象问题解决与形式化验证。",
+        "en": "Researchers have achieved a breakthrough in solving Donald Knuth's Claude Cycles problem through a hybrid workflow involving humans, AI agents, and formal proof assistants. This collaborative approach demonstrates how LLMs can assist in complex mathematical reasoning when paired with rigorous verification tools like Lean or Coq. The project highlights the evolving role of AI in theoretical computer science, moving beyond simple code generation to assisting in high-level abstract problem-solving and formal verification."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/BoWang87/status/2037648937453232504",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "miasma-ai-scraper-trap",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Miasma：将 AI 爬虫困在数据毒坑的防御工具",
+        "en": "Miasma: A Tool to Trap AI Scrapers in Poisoned Data Pits"
+      },
+      "summary": {
+        "zh": "Miasma 是一款新型开源工具，旨在通过将机器人困在递归链接和合成生成的垃圾数据「无尽毒坑」中，来对抗侵略性的 AI 网页抓取。随着数据短缺成为模型训练的瓶颈，此类防御工具代表了 Web 开发者中日益增长的反 AI 运动，旨在保护其知识产权。该工具通过检测抓取工具特征并向其提供无限、不重复的内容，从而在不提供任何训练价值的情况下消耗其处理资源。",
+        "en": "Miasma is a new open-source tool designed to combat aggressive AI web scraping by trapping bots in an endless poison pit of recursive links and synthetically generated garbage data. As data scarcity becomes a bottleneck for model training, such defensive tools represent a growing anti-AI movement among web developers seeking to protect their intellectual property. The tool functions by detecting scraper signatures and serving them infinite, non-repeating content that consumes their processing resources without providing training value."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/austin-weeks/miasma",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "ai-math-efficiency-vs-ram",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "AI 究竟需要更多显存还是更优的数学模型？",
+        "en": "Does AI Need More RAM or Better Mathematical Foundations?"
+      },
+      "summary": {
+        "zh": "一项具有启发性的技术分析指出，当前的 AI 硬件瓶颈或许可以通过更优的数学框架而非单纯增加显存（VRAM）容量来解决。文章探讨了如 Kolmogorov-Arnold 网络（KANs）或更高效的量化方法等替代架构，如何能大幅减少大规模模型的内存占用。这种从「暴力」扩展向算法优化的重心转移，可能会重新定义下一代 AI 硬件需求和边缘计算能力。",
+        "en": "A provocative technical analysis suggests that the current AI hardware bottleneck might be solved through superior mathematical frameworks rather than simply increasing VRAM capacity. The article explores how alternative architectures, such as Kolmogorov-Arnold Networks (KANs) or more efficient quantization methods, could drastically reduce the memory footprint of massive models. This shift in focus from brute force scaling to algorithmic optimization could redefine the next generation of AI hardware requirements and edge computing capabilities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "wikipedia-ai-content-ban",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "维基百科正式宣布禁止 AI 生成内容",
+        "en": "Wikipedia Implements Official Ban on AI-Generated Content"
+      },
+      "summary": {
+        "zh": "维基百科已正式实施禁止在其在线百科全书中使用 AI 生成内容的规定，以维护平台的完整性和事实准确性。该政策反映了人们对「幻觉」以及 AI 驱动的虚假信息可能降低人工策展知识质量的日益担忧。这一决定为数字公共资源树立了重要先例，强调了人工验证的价值以及在公共领域使用 AI 生成数据进行递归训练的风险。",
+        "en": "Wikipedia has officially implemented a ban on AI-generated content within its online encyclopedia to safeguard the platform's integrity and factual accuracy. The policy reflects growing concerns over hallucinations and the potential for AI-driven misinformation to degrade the quality of human-curated knowledge. This decision sets a significant precedent for digital commons, emphasizing the value of human verification and the risks of recursive training on AI-generated data in the public domain."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/mar/27/wikipedia-bans-ai",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "ai-datacenter-bubble-risk",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "分析师警告 AI 数据中心可能面临 9 万亿美元泡沫",
+        "en": "Analysts Warn of a $9 Trillion AI Data Center Bubble"
+      },
+      "summary": {
+        "zh": "金融分析师对 AI 数据中心领域可能出现的 9 万亿美元「崩盘」发出警报，质疑巨额资本支出（CapEx）是否能产生相应的回报。尽管科技巨头继续在 H100 和 B200 GPU 集群上投入数百亿美元，但基础设施支出与实际企业 AI 收入之间的差距仍是投资者关注的核心问题。该报告探讨了当前建设的可持续性，以及如果 AI 生产力提升未能大规模实现，市场面临的回调风险。",
+        "en": "Financial analysts are raising alarms about a potential $9 trillion bust in the AI data center sector, questioning whether the massive capital expenditure (CapEx) will yield proportional returns. While tech giants continue to invest billions in H100 and B200 GPU clusters, the gap between infrastructure spending and actual enterprise AI revenue remains a critical concern for investors. This report examines the sustainability of the current build-out and the risk of a market correction if AI productivity gains fail to materialize at scale."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.ft.com/content/805f78f3-8da3-4fc0-b860-207a859ac723",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "facial-recognition-wrongful-arrest",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 面部识别错误导致跨州误捕事件",
+        "en": "AI Facial Recognition Error Leads to Wrongful Multi-State Arrest"
+      },
+      "summary": {
+        "zh": "一名田纳西州女性最近因警方依赖有缺陷的 AI 面部识别软件，而被误认为在北达科他州犯罪并遭到错误逮捕。这一备受关注的失败案例凸显了生物识别监控技术中持久存在的偏见和准确性问题，尤其是在缺乏足够人工监督的情况下跨司法管辖区使用时。该事件再次引发了要求加强联邦监管，以及提高执法机构部署和验证 AI 驱动识别工具透明度的呼声。",
+        "en": "A Tennessee woman was recently wrongfully arrested for crimes committed in North Dakota after police relied on flawed AI facial recognition software. This high-profile failure underscores the persistent issues of bias and inaccuracy in biometric surveillance technologies, particularly when used across jurisdictional boundaries without sufficient human oversight. The incident has reignited calls for stricter federal regulation and transparency regarding how law enforcement agencies deploy and verify AI-driven identification tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "voxtral-tts-voice-cloning",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Voxtral TTS 关键权重发布，正式开启本地声音克隆",
+        "en": "Voxtral TTS Missing Weights Released to Enable Voice Cloning"
+      },
+      "summary": {
+        "zh": "开源语音合成模型 Voxtral TTS 迎来重大突破，此前缺失的编解码器编码器权重现已发布。这些权重是启用「ref_audio」通道的关键，解决了此前无法在本地进行声音克隆的技术瓶颈。现在，用户可以通过提供参考音频实现高质量的零样本声音克隆。这一进展显著提升了本地部署语音模型的实用性，使开源工具在功能上进一步逼近 ElevenLabs 等闭源商业方案。",
+        "en": "A significant hurdle for the open-source Voxtral TTS model has been cleared with the release of the missing codec encoder weights. Previously, the lack of these weights blocked the ref_audio pass, which is essential for high-fidelity voice cloning. This update allows local users to perform zero-shot voice cloning by providing a short reference audio sample. It marks a major step forward for local speech synthesis, bringing open-source capabilities closer to proprietary solutions like ElevenLabs."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s6rmoi/the_missing_piece_of_voxtral_tts_to_enable_voice/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "kimi-k2-6-k3-roadmap",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "月之暗面 Kimi K2.6 发布在即，K3 目标对标美国顶级模型",
+        "en": "Moonshot AI to Release Kimi K2.6 Soon; K3 Aims for Frontier Scale"
+      },
+      "summary": {
+        "zh": "据月之暗面（Moonshot AI）内部消息，Kimi K2.6 预计将在未来 10 到 15 天内发布，该版本属于小幅迭代更新。更受关注的是正在研发中的 Kimi K3，其目标是在参数规模和性能上全面对标美国顶尖模型。这一路线图反映了国产大模型在追赶 OpenAI 和 Anthropic 方面的雄心。K3 的推出被视为国产 AI 生态的重要里程碑，旨在缩小与国际领先水平的差距。",
+        "en": "Reports from Moonshot AI insiders suggest that Kimi K2.6 is slated for release within the next 10 to 15 days, representing an incremental upgrade over the current version. More significantly, the team is actively developing Kimi K3, which aims to match the parameter scale and performance of leading American frontier models. This strategic roadmap highlights the intensifying competition in the LLM space as Chinese labs strive for parity with OpenAI and Anthropic. The release of K3 is expected to be a major milestone for the domestic AI ecosystem."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s6stgl/kimi_k26_will_drop_in_the_next_2_weeks_k3_is_wip/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "m5-max-qwen3-benchmark",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "M5-Max 跑分曝光：Qwen3 编程模型本地推理达 72 TPS",
+        "en": "M5-Max MacBook Pro Hits 72 TPS on Qwen3-Coder-Next 8-Bit"
+      },
+      "summary": {
+        "zh": "在搭载 128GB 统一内存的 M5-Max MacBook Pro 上，针对 Qwen3-Coder-Next 模型的最新基准测试显示了卓越的本地推理性能。使用 8 位量化版本时，苹果原生的 MLX 框架达到了每秒 72 个 token 的吞吐量，明显优于基于 llama.cpp 的 Ollama 后端。该测试证明了 M5 芯片在处理大规模模型时的硬件优势。对于开发者而言，这意味着顶级编程助手现已能在本地实现近乎瞬时的响应速度。",
+        "en": "Performance benchmarks for the newly released Qwen3-Coder-Next model on Apple's M5-Max MacBook Pro (128GB RAM) show impressive local inference speeds. Using the 8-bit quantized version, the MLX framework achieved a throughput of 72 tokens per second, significantly outperforming the Ollama (llama.cpp-based) backend. This test demonstrates the efficiency of Apple's native ML framework in leveraging the unified memory architecture of the M5 chip. For developers, this means high-end coding assistants can now run locally with near-instantaneous response times."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s6wsy7/m5max_macbook_pro_128gb_ram_qwen3_coder_next_8bit/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "meta-avocado-models-leak",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Meta 内部泄露：全新 Avocado 系列模型曝光，含智能体版本",
+        "en": "Meta Internal Leak Reveals New Avocado Model Family"
+      },
+      "summary": {
+        "zh": "Meta 内部模型选择器的泄露信息揭示了一个代号为「Avocado」的新模型系列。泄露内容显示了多个正在评估的配置，包括轻量级的 Avocado 9B 以及更先进的「Avocado Mango」变体。值得注意的是，Mango 版本带有「智能体（agent）」和「子智能体」标签，暗示其针对多模态任务和复杂的工作流进行了深度优化。这表明 Meta 在坚持开源路线的同时，正将研发重点转向自主智能体和多步推理能力。",
+        "en": "A leak from an internal Meta model selector has revealed a new model family codenamed Avocado. The leak identifies several configurations currently under evaluation, including a compact Avocado 9B model and a more advanced Avocado Mango variant. Notably, the Mango version is labeled with agent and sub-agent tags, suggesting it is optimized for multimodal tasks and complex agentic workflows. This indicates Meta's continued commitment to the open-source ecosystem while shifting focus toward autonomous agents and multi-step reasoning capabilities."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s6v5n3/meta_new_open_source_model_is_coming/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "turboquant-polar-coordinates-myth",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "深度解析 TurboQuant：超越「极坐标」表象的技术核心",
+        "en": "Deep Dive into TurboQuant: Beyond the Polar Coordinates Hype"
+      },
+      "summary": {
+        "zh": "TurboQuant 算法（Zandieh 等人 2025）近期在本地大模型社区引发热议，但许多解读存在误区。尽管相关博客强调了极坐标变换，但技术分析指出，其核心创新在于一种更精密的量化方法，能在极端压缩下保持信号完整性。该方法比 GPTQ 或 AWQ 更有效地解决了权重中的「离群值」问题。深入理解 TurboQuant 的数学基础，对于希望在不损失性能的前提下实现 4-bit 以下超低比特量化的开发者至关重要。",
+        "en": "TurboQuant (Zandieh et al. 2025) has gained significant attention in the local LLM community, but common explanations often oversimplify its mechanism. While Google's blog post highlighted polar coordinates, technical analysis suggests the core innovation lies in a more sophisticated approach to quantization that preserves signal integrity during extreme compression. The method addresses the outlier problem in LLM weights more effectively than previous techniques like GPTQ or AWQ. Understanding the true mathematical foundation of TurboQuant is crucial for developers looking to implement sub-4-bit quantization."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s62g5v/a_simple_explanation_of_the_key_idea_behind/",
+      "date": "2026-03-29"
+    },
+    {
+      "id": "rag-deployment-lessons-regulated-industries",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "RAG 实战经验：查询扩展比调整分块大小更有效",
+        "en": "RAG Deployment Lessons: Query Expansion Beats Chunk Size Tuning"
+      },
+      "summary": {
+        "zh": "一位开发者分享了在澳大利亚建筑和采矿等受监管行业部署 RAG 系统的实战经验。核心结论是：查询扩展（Query Expansion）对系统性能的影响远大于对分块大小（Chunk Size）的反复调整。通过使用 Claude Haiku 为每个查询生成四个变体，系统在复杂的合规性文档检索中表现出了极高的准确率。这一实践经验强调，在生产级 RAG 系统中，优化检索策略比基础的数据预处理更为关键。",
+        "en": "A developer shared critical insights from deploying RAG-powered AI assistants in highly regulated Australian industries, such as construction and mining. The key takeaway is that query expansion—generating multiple alternative phrasings of a user's prompt—is far more impactful than optimizing chunk size or overlap. By using a lightweight model like Claude Haiku to generate four variations of each query, the system significantly improved retrieval accuracy in complex compliance environments. This practical experience underscores the importance of the retrieval stage over basic data preprocessing in production-grade RAG systems."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s6oiuq/lessons_from_deploying_rag_bots_for_regulated/",
+      "date": "2026-03-29"
+    }
+  ]
+}
