@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gzxultra.github.io/ai-daily-digest/sitemap.xml

@@ -1,11 +1,4 @@
-/*
- * UI: Editorial magazine home page
- * - Clean section structure with proper spacing
- * - Featured card spans full width
- * - 2-column grid for remaining cards (3-col on xl)
- * - Subtle section dividers
- */
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import DateNav from "@/components/DateNav";
@@ -13,9 +6,11 @@ import CategoryFilter from "@/components/CategoryFilter";
 import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
 import CrawlLogPanel from "@/components/CrawlLogPanel";
+import BackToTop from "@/components/BackToTop";
+import ReadingProgress from "@/components/ReadingProgress";
 import { fetchIndex, fetchDigest, type DailyDigest, type DigestIndex, type NewsItem } from "@/data/news";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Loader2 } from "lucide-react";
+import { Loader2, SearchX } from "lucide-react";
 
 export default function Home() {
   const { lang } = useLanguage();
@@ -24,23 +19,30 @@ export default function Home() {
   const [digest, setDigest] = useState<DailyDigest | null>(null);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Load index on mount
   useEffect(() => {
-    fetchIndex().then((idx) => {
-      setIndex(idx);
-      setActiveDate(idx.latest);
-    }).catch(console.error);
+    fetchIndex()
+      .then((idx) => {
+        setIndex(idx);
+        setActiveDate(idx.latest);
+      })
+      .catch(console.error);
   }, []);
 
   // Load digest when activeDate changes
   useEffect(() => {
     if (!activeDate) return;
     setLoading(true);
-    fetchDigest(activeDate).then((d) => {
-      setDigest(d);
-      setActiveCategory(null);
-    }).catch(console.error).finally(() => setLoading(false));
+    fetchDigest(activeDate)
+      .then((d) => {
+        setDigest(d);
+        setActiveCategory(null);
+        setSearchQuery("");
+      })
+      .catch(console.error)
+      .finally(() => setLoading(false));
   }, [activeDate]);
 
   const categories = useMemo(() => {
@@ -55,11 +57,38 @@ export default function Home() {
       });
   }, [digest]);
 
+  // Category counts
+  const categoryCounts = useMemo(() => {
+    if (!digest) return {};
+    const counts: Record<string, number> = {};
+    digest.news.forEach((n: NewsItem) => {
+      counts[n.category.en] = (counts[n.category.en] || 0) + 1;
+    });
+    return counts;
+  }, [digest]);
+
+  // Filter by category and search
   const filteredNews = useMemo(() => {
     if (!digest) return [];
-    if (!activeCategory) return digest.news;
-    return digest.news.filter((n: NewsItem) => n.category.en === activeCategory);
-  }, [digest, activeCategory]);
+    let items = digest.news;
+
+    if (activeCategory) {
+      items = items.filter((n: NewsItem) => n.category.en === activeCategory);
+    }
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase().trim();
+      items = items.filter((n: NewsItem) => {
+        const titleMatch = n.title.en.toLowerCase().includes(q) || n.title.zh.toLowerCase().includes(q);
+        const summaryMatch = n.summary.en.toLowerCase().includes(q) || n.summary.zh.toLowerCase().includes(q);
+        const sourceMatch = n.source.toLowerCase().includes(q);
+        const categoryMatch = n.category.en.toLowerCase().includes(q) || n.category.zh.toLowerCase().includes(q);
+        return titleMatch || summaryMatch || sourceMatch || categoryMatch;
+      });
+    }
+
+    return items;
+  }, [digest, activeCategory, searchQuery]);
 
   const featured = filteredNews[0];
   const rest = filteredNews.slice(1);
@@ -81,10 +110,14 @@ export default function Home() {
     }));
   }, [index]);
 
+  const handleSearch = useCallback((query: string) => {
+    setSearchQuery(query);
+  }, []);
+
   if (!index || loading) {
     return (
       <div className="min-h-screen flex flex-col bg-background">
-        <Header />
+        <Header onSearch={handleSearch} />
         <div className="flex-1 flex items-center justify-center">
           <div className="flex flex-col items-center gap-3">
             <Loader2 className="w-6 h-6 animate-spin text-primary" />
@@ -99,7 +132,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <Header />
+      <ReadingProgress />
+      <Header onSearch={handleSearch} />
 
       <HeroSection
         newsCount={digest?.news.length ?? 0}
@@ -110,10 +144,11 @@ export default function Home() {
               : digest.dateLabel.en
             : ""
         }
+        crawlLog={digest?.crawlLog}
       />
 
-      <main className="flex-1">
-        <div className="container pt-8 pb-4">
+      <main id="main-content" className="flex-1">
+        <div className="container pt-6 pb-4">
           {/* Controls section */}
           <div className="space-y-3 mb-8">
             <DateNav
@@ -126,8 +161,20 @@ export default function Home() {
               categories={categories}
               activeCategory={activeCategory}
               onCategoryChange={setActiveCategory}
+              categoryCounts={categoryCounts}
             />
           </div>
+
+          {/* Search results indicator */}
+          {searchQuery && (
+            <div className="mb-4 flex items-center gap-2 text-sm text-muted-foreground animate-fade-in-up" style={{ animationDuration: "0.2s" }}>
+              <span>
+                {lang === "zh"
+                  ? `搜索 "${searchQuery}" — ${filteredNews.length} 条结果`
+                  : `Searching "${searchQuery}" — ${filteredNews.length} result${filteredNews.length !== 1 ? "s" : ""}`}
+              </span>
+            </div>
+          )}
 
           {/* News section */}
           <div className="space-y-5">
@@ -156,11 +203,19 @@ export default function Home() {
 
             {/* Empty state */}
             {filteredNews.length === 0 && (
-              <div className="text-center py-20">
-                <p className="text-sm text-muted-foreground">
-                  {lang === "zh"
-                    ? "该分类下暂无新闻"
-                    : "No stories in this category"}
+              <div className="text-center py-20 animate-fade-in-up">
+                <SearchX className="w-10 h-10 text-muted-foreground/30 mx-auto mb-4" />
+                <p className="text-sm text-muted-foreground font-medium mb-1">
+                  {searchQuery
+                    ? lang === "zh"
+                      ? `未找到与 "${searchQuery}" 相关的新闻`
+                      : `No stories matching "${searchQuery}"`
+                    : lang === "zh"
+                      ? "该分类下暂无新闻"
+                      : "No stories in this category"}
+                </p>
+                <p className="text-xs text-muted-foreground/60">
+                  {lang === "zh" ? "试试其他关键词或分类" : "Try a different keyword or category"}
                 </p>
               </div>
             )}
@@ -168,7 +223,7 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Crawl log panel — above footer */}
+      {/* Crawl log panel */}
       {digest?.crawlLog && (
         <div className="container pb-4">
           <CrawlLogPanel log={digest.crawlLog} />
@@ -176,6 +231,7 @@ export default function Home() {
       )}
 
       <Footer />
+      <BackToTop />
     </div>
   );
 }

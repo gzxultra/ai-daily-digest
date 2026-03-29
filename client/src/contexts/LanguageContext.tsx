@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
+import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from "react";
 
 type Language = "zh" | "en";
 
@@ -10,8 +10,23 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+function getInitialLang(): Language {
+  try {
+    const stored = localStorage.getItem("ai-digest-lang");
+    if (stored === "zh" || stored === "en") return stored;
+  } catch {}
+  const browserLang = navigator.language || "";
+  if (browserLang.startsWith("zh")) return "zh";
+  return "en";
+}
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Language>("zh");
+  const [lang, setLang] = useState<Language>(getInitialLang);
+
+  useEffect(() => {
+    try { localStorage.setItem("ai-digest-lang", lang); } catch {}
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+  }, [lang]);
 
   const toggleLang = useCallback(() => {
     setLang((prev) => (prev === "zh" ? "en" : "zh"));
