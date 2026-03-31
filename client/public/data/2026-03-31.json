@@ -1,0 +1,253 @@
+{
+  "date": "2026-03-31",
+  "dateLabel": {
+    "zh": "2026年3月31日",
+    "en": "March 31, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-03-31T16:10:09Z",
+    "elapsedSeconds": 176,
+    "rawArticles": 35,
+    "afterFilter": 32,
+    "afterDedup": 29,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 4,
+      "The Verge AI": 4,
+      "MIT Tech Review": 3
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-political-superintelligence",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 451：探讨政治超智能与心智社会架构",
+        "en": "Import AI 451: Exploring Political Superintelligence and Society of Minds"
+      },
+      "summary": {
+        "zh": "Jack Clark 在最新一期通讯中探讨了「政治超智能」的概念，即利用 AI 系统来处理复杂的社会权衡和治理问题。文中还重点介绍了谷歌关于「心智社会」架构的研究以及机器人鼓手的进展。Clark 强调，尽管 AI 在社会效益方面潜力巨大，但要实现正面成果需要有意识的努力和精细的对齐工作。这一讨论标志着 AI 研究正从单一能力提升转向更广泛的系统性与社会化集成。",
+        "en": "Jack Clark's latest newsletter explores the concept of 'political superintelligence,' where AI systems are used to navigate complex societal trade-offs and governance. The issue also highlights Google's research into a 'society of minds' architecture and advancements in robotic drumming. Clark emphasizes that while AI's potential for societal benefit is vast, achieving a positive outcome requires intentional work and careful alignment. The discussion underscores the shift from individual AI capabilities to broader systemic and societal integration."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/03/30/import-ai-451-political-superintelligence-googles-society-of-minds-and-a-robot-drummer/",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "claude-code-source-leak",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude Code 源代码通过 NPM 注册表映射文件泄露",
+        "en": "Claude Code Source Code Leaked via NPM Registry Map File"
+      },
+      "summary": {
+        "zh": "Anthropic 推出的 Claude Code 命令行工具因 NPM 注册表中的 Source Map 文件配置不当，导致其源代码遭到泄露。这一漏洞允许开发者反编译并查看该工具的内部逻辑和提示词工程策略。此次事件凸显了在公共包管理器中分发专有 AI 工具时的安全风险。对于 AI 工程团队而言，这在构建产物的安全性管理方面提供了一个深刻的教训，强调了保护核心代码逻辑的重要性。",
+        "en": "Anthropic's new CLI tool, Claude Code, has suffered a source code leak due to an improperly secured source map file in the NPM registry. This exposure allows external parties to inspect the internal logic and prompt structures of the tool. The incident underscores the security risks associated with distributing proprietary AI tools via public package managers. It serves as a cautionary tale for AI engineering teams regarding build artifact security and the potential for reverse engineering in the competitive AI tool market."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "github-copilot-ads-backtrack",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "遭遇强烈抵制后 GitHub 取消拉取请求中的 Copilot 广告",
+        "en": "GitHub Cancels Copilot Ads in Pull Requests Following Backlash"
+      },
+      "summary": {
+        "zh": "在开发者社区的强烈反对下，GitHub 正式取消了在拉取请求 (PR) 界面投放 Copilot 广告的计划。批评者认为，此类广告具有侵入性，破坏了平台的专业开发环境。这一反转凸显了科技公司在尝试将 AI 功能变现时，与既有开发者工作流之间存在的张力。GitHub 的决定旨在维护用户信任并保持简洁的开发体验，反映了社区反馈在工具演进中的关键作用。",
+        "en": "GitHub has officially canceled its plan to display Copilot advertisements within the pull request interface following significant pushback from the developer community. Critics argued that the ads were intrusive and compromised the professional environment of the platform. This reversal highlights the challenges tech companies face when trying to monetize AI features within established developer workflows. GitHub's decision aims to preserve user trust and maintain a clean development experience, reflecting the power of community feedback."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "claude-code-usage-limits",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 称 Claude Code 用户达到使用限制的速度远超预期",
+        "en": "Anthropic Reports Claude Code Users Hitting Limits Faster Than Expected"
+      },
+      "summary": {
+        "zh": "Anthropic 承认其新推出的 Claude Code 工具用户消耗配额的速度远超预期。这种高消耗率归因于该工具的「智能体」属性，它需要频繁调用 API 以执行自主编程任务。这一现象既反映了开发者对 AI 驱动开发工具的巨大需求，也引发了关于此类智能体扩展性和成本效益的讨论。Anthropic 目前正在监控情况，试图在基础设施负载与用户体验之间取得平衡。",
+        "en": "Anthropic has acknowledged that users of its new Claude Code tool are reaching their usage limits significantly faster than the company had projected. This high consumption rate is attributed to the agentic nature of the tool, which frequently calls the API to perform autonomous coding tasks. The situation reflects the massive demand for AI-driven development tools but also raises questions about the scalability and cost-efficiency of such agents. Anthropic is currently monitoring the situation as it balances infrastructure load with user experience."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "claude-code-cache-bug",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 严重漏洞导致 API 成本飙升 10-20 倍",
+        "en": "Critical Claude Code Bug Causes 10-20x Spike in API Costs"
+      },
+      "summary": {
+        "zh": "Claude Code 缓存系统中的一个严重漏洞据报导致部分用户的 API 成本飙升了 10 到 20 倍。该漏洞涉及上下文缓存处理不当，导致冗余的 Token 消耗和意外的账单激增。Reddit 等平台上的开发者已分享了相关证据，并在社区内发布了警告。这一问题凸显了在缺乏完善的成本监控和高效上下文管理系统的情况下，部署自主 AI 智能体所面临的财务风险。",
+        "en": "A critical bug discovered in Claude Code's caching system is reportedly causing API costs to inflate by 10 to 20 times for certain users. The flaw involves the inefficient handling of context caching, leading to redundant token usage and unexpected billing spikes. Users on platforms like Reddit have shared evidence of these costs, prompting warnings within the developer community. This issue highlights the financial risks of deploying autonomous AI agents without robust cost-monitoring and efficient context management systems."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://old.reddit.com/r/ClaudeCode/comments/1s7mitf/psa_claude_code_has_two_cache_bugs_that_can",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "art-schools-ai-conflict",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "生成式 AI 的整合引发艺术院校内部动荡",
+        "en": "Art Schools Face Turmoil Over Generative AI Integration"
+      },
+      "summary": {
+        "zh": "艺术院校目前正面临内部动荡，因为它们正艰难地将生成式 AI 整合到传统的创意课程中。据 The Verge 报道，拥抱这些工具的学生与担心人类手艺贬值及未来就业保障的学生之间存在日益加深的鸿沟。教职员工左右为难，既要更新教学方法，又要保留艺术表达的核心原则。这种紧张关系反映了关于 AI 在创意产业中的角色以及以人为本的艺术教育未来的广泛社会辩论。",
+        "en": "Art schools are currently facing internal turmoil as they struggle to integrate generative AI into their traditional creative curricula. The Verge reports a growing divide between students who embrace these tools and those who fear the devaluation of human craft and future job security. Faculty members are caught in the middle, trying to update teaching methods while preserving the core principles of artistic expression. This tension reflects a broader societal debate about the role of AI in the creative industries and the future of human-centric art education."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "alexa-plus-food-ordering",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "亚马逊 Alexa Plus 实现 Grubhub 与 Uber Eats 对话式订餐",
+        "en": "Amazon Alexa Plus enables conversational food ordering via Grubhub and Uber Eats"
+      },
+      "summary": {
+        "zh": "亚马逊为 Alexa Plus 推出了对话式订餐功能，用户可以通过自然语言在 Grubhub 和 Uber Eats 上下单。与以往僵硬的语音指令不同，该系统支持在对话过程中随时修改订单（如添加配菜或更换商品），模拟真实的餐厅点餐体验。这一举措标志着消费级电子商务正从简单的语音触发转向复杂的智能体交互。其核心目标是减少语音交易中的摩擦，解决长期以来阻碍语音购物普及的交互痛点。",
+        "en": "Amazon has introduced a conversational ordering feature for Alexa Plus, allowing users to order from Grubhub and Uber Eats through natural dialogue. Unlike previous rigid voice commands, this system supports mid-conversation modifications, such as adding sides or changing items, mimicking a restaurant experience. This move signifies a shift from simple voice triggers to sophisticated agentic interactions in consumer commerce. It aims to reduce friction in voice-based transactions, which has historically been a major barrier to adoption."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/903938/alexa-plus-order-food-grubhub-uber-eats",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "okta-ai-agent-identity",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Okta 首席执行官将重点转向自主 AI 智能体的身份管理",
+        "en": "Okta CEO pivots focus to identity management for autonomous AI agents"
+      },
+      "summary": {
+        "zh": "Okta 首席执行官 Todd McKinnon 正将公司重点转向管理 AI 智能体的身份验证，因为这些智能体正逐渐成为企业环境中的自主参与者。随着智能体开始代表员工跨各种 SaaS 应用执行任务，传统的「登录」模式必须演进以验证非人类实体。McKinnon 认为，确保智能体身份安全是企业安全的下一个前沿领域，旨在确保自主工作流符合合规性并可审计。这一战略将 Okta 定位为蓬勃发展的智能体经济中不可或缺的基础设施层。",
+        "en": "Okta CEO Todd McKinnon is pivoting the company's focus toward managing identity for AI agents as they become autonomous actors within corporate environments. As agents begin to perform tasks across various SaaS applications on behalf of employees, the traditional login model must evolve to verify non-human entities. McKinnon argues that securing agent identity is the next frontier of enterprise security, ensuring that autonomous workflows remain compliant and auditable. This strategy positions Okta as a critical infrastructure layer for the burgeoning agentic economy."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "bluesky-attie-ai-feeds",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Bluesky 发布 Attie：用于构建自定义算法流的 AI 助手",
+        "en": "Bluesky unveils Attie, an AI assistant for building custom algorithmic feeds"
+      },
+      "summary": {
+        "zh": "Bluesky 推出了由 Anthropic 的 Claude 模型驱动的 AI 助手 Attie，允许用户使用自然语言构建自定义算法流。Attie 基于 AT 协议（atproto）构建，使非技术用户能够通过描述（如「开发者发布的关于 AI 的帖子」）来定义自己的社交媒体体验。这一工具将算法控制权从平台所有者手中转移到了个人用户手中，实现了去中心化。它是社交网络领域「可组合审核」和以用户为中心的发现机制运动的重要进展。",
+        "en": "Bluesky has unveiled Attie, an AI assistant powered by Anthropic's Claude that allows users to build custom algorithmic feeds using natural language. Built on the AT Protocol (atproto), Attie enables non-technical users to define their social media experience by describing what they want to see, such as posts about AI from developers. This decentralizes algorithmic control, moving it from platform owners to individual users. It represents a significant step in the composable moderation and user-centric discovery movement within social networking."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "ai-model-customization-imperative",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "通用模型增益放缓，模型定制化成为架构必然选择",
+        "en": "Model customization becomes essential as general LLM gains flatten"
+      },
+      "summary": {
+        "zh": "随着通用大语言模型（LLM）性能实现 10 倍跨越式增长的时代逐渐远去，行业正转向领域专业化智能。《麻省理工科技评论》指出，对于寻求阶跃式改进的组织而言，模型定制化已成为架构上的必然选择。通过将基础模型与组织私有数据及特定工作流融合，企业可以获得通用模型无法再提供的性能提升。这一转变标志着「一刀切」式 AI 时代的结束，以及更加碎片化、专业化的企业级 AI 景观的开启。",
+        "en": "As the era of massive 10x performance jumps in general LLMs slows down, the industry is shifting toward domain-specialized intelligence. MIT Tech Review argues that model customization is now an architectural imperative for organizations seeking step-function improvements. By fusing base models with proprietary organizational data and specific workflows, companies can achieve performance gains that general models no longer provide. This transition marks the end of one-size-fits-all AI and the beginning of a more fragmented, specialized enterprise AI landscape."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "broken-ai-benchmarks-evaluation",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "AI 基准测试危机：为什么人机对比指标正在失效",
+        "en": "The crisis of AI benchmarks: Why human-vs-machine metrics are failing"
+      },
+      "summary": {
+        "zh": "当前的 AI 基准测试被认为日益「失效」，因为它们依赖于静态的人机对比，无法捕捉 AI 在现实世界应用中的细微差别。专注于国际象棋或编程等孤立任务的旧有测试框架，已不足以评估作为协作伙伴的现代生成式系统。行业需要新的评估指标，重点衡量可靠性、安全性和人机协作能力，而非仅仅是原始的任务表现。这种转变对于建立信任并确保 AI 系统在复杂、动态的环境中真正发挥作用至关重要。",
+        "en": "Current AI benchmarks are increasingly viewed as broken because they rely on static human-vs-machine comparisons that fail to capture the nuances of real-world AI utility. Decades-old testing frameworks focusing on isolated tasks like chess or coding are insufficient for evaluating modern generative systems that act as collaborative partners. The industry requires new evaluation metrics that measure reliability, safety, and human-AI collaboration rather than just raw task performance. This shift is crucial for building trust and ensuring that AI systems are actually helpful in complex environments."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "ai-health-tools-efficacy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 健康工具激增，引发临床验证有效性担忧",
+        "en": "Surge in AI health tools prompts concerns over clinical validation"
+      },
+      "summary": {
+        "zh": "随着微软 Copilot Health 和亚马逊 Health AI 等工具的激增，关于其临床有效性和安全性的关键问题日益凸显。虽然这些工具允许用户通过 LLM 查询医疗记录并获取健康见解，但缺乏标准化验证仍是一个隐忧。科技巨头的快速布局凸显了其主导数字健康领域的野心，但医学界对模型幻觉和数据隐私保持警惕。评估这些工具在临床环境中的实际表现，已成为监管机构和医疗服务提供商面临的首要挑战。",
+        "en": "The proliferation of AI health tools, including Microsoft's Copilot Health and Amazon's Health AI, is raising critical questions about their clinical efficacy and safety. While these tools allow users to query medical records and receive health insights via LLMs, the lack of standardized validation remains a concern. The rapid rollout by tech giants highlights a race to dominate the digital health space, yet the medical community urges caution regarding hallucinations and data privacy. Evaluating how well these tools actually work in a clinical context is now the primary challenge for regulators."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+      "date": "2026-03-31"
+    }
+  ]
+}
