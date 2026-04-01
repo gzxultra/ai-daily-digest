@@ -1,0 +1,197 @@
+{
+  "date": "2026-04-01",
+  "dateLabel": {
+    "zh": "2026年4月1日",
+    "en": "April 01, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-01T16:10:44Z",
+    "elapsedSeconds": 172,
+    "rawArticles": 61,
+    "afterFilter": 51,
+    "afterDedup": 44,
+    "dedupRemoved": 7,
+    "finalStories": 9,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 2,
+      "Reddit": 1,
+      "The Verge AI": 4,
+      "Google AI Blog": 1
+    }
+  },
+  "news": [
+    {
+      "id": "inference-engineering-deep-dive",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "深度解析推理工程：AI 部署的新前沿",
+        "en": "Understanding Inference Engineering: The New Frontier of AI Deployment"
+      },
+      "summary": {
+        "zh": "推理工程（Inference Engineering）正成为一门关键学科，专注于生产环境中 AI 模型的部署与优化。Philip Kiely 的新书指出，尽管许多工程师日常使用推理，但延迟、吞吐量和成本效率等底层挑战需要专门的架构知识。这一趋势标志着行业正从以训练为中心转向以部署为中心，运营效率已成为企业关注的核心。",
+        "en": "Inference engineering is emerging as a critical discipline focused on the deployment and optimization of AI models in production. Philip Kiely's new book highlights that while many engineers use inference, the underlying challenges of latency, throughput, and cost-efficiency require specialized architectural knowledge. This shift signifies the industry's transition from a training-centric focus to a deployment-centric reality where operational efficiency is paramount."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "one-bit-bonsai-llm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "1-Bit Bonsai 问世：首个具备商业可行性的 1-Bit 大模型",
+        "en": "1-Bit Bonsai: The First Commercially Viable 1-Bit LLMs Released"
+      },
+      "summary": {
+        "zh": "PrismML 推出了 「1-Bit Bonsai」，声称这是首个具备商业可行性的 1-bit 大语言模型。通过极端的量化技术，该模型在显著降低内存占用和计算需求的同时，避免了推理能力的严重退化。这一突破为高性能 LLM 在低功耗边缘设备和显存受限的消费级硬件上运行铺平了道路。",
+        "en": "PrismML has introduced 1-Bit Bonsai, claiming it to be the first commercially viable 1-bit Large Language Model (LLM). By utilizing extreme quantization, these models significantly reduce memory footprint and computational requirements without the typical catastrophic loss in reasoning capabilities. This breakthrough could pave the way for high-performance LLMs to run on low-power edge devices and consumer hardware with minimal VRAM."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://prismml.com/",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "claude-freebsd-rce-exploit",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude 编写出完整的 FreeBSD 内核远程代码执行漏洞利用程序",
+        "en": "Claude Generates Full FreeBSD Kernel RCE Exploit (CVE-2026-4747)"
+      },
+      "summary": {
+        "zh": "一名安全研究人员展示了 Anthropic 的 Claude 模型成功编写了一个针对 FreeBSD 的完整远程内核代码执行（RCE）漏洞利用程序，编号为 CVE-2026-4747。该漏洞利用可获取 root shell，展示了模型对底层系统漏洞和内核级编程的深刻理解。此事件引发了关于 LLM 在网络安全中「双重用途」风险以及自动化漏洞生成能力的广泛担忧。",
+        "en": "A security researcher demonstrated that Anthropic's Claude model successfully authored a full remote kernel code execution (RCE) exploit for FreeBSD, assigned as CVE-2026-4747. The exploit provides a root shell, showcasing the model's advanced understanding of low-level system vulnerabilities and kernel-level programming. This incident raises significant concerns regarding the dual-use nature of LLMs in cybersecurity and the potential for automated exploit generation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "falcon-ocr-perception-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "TII 发布 Falcon-Perception 与 Falcon-OCR 模型",
+        "en": "TII Releases Falcon-Perception and Falcon-OCR Models"
+      },
+      "summary": {
+        "zh": "技术创新研究所（TII）发布了 Falcon-Perception 和 Falcon-OCR，将 Falcon 模型系列扩展至多模态领域。这些模型专为高性能视觉理解和光学字符识别（OCR）任务而设计。该发布包含完整的 Hugging Face 集合，并正在推进 llama.cpp 的支持，以便在消费级硬件上进行本地部署。此举通过提供易于获取的高质量多模态工具，进一步增强了开源视觉语言模型的生态系统。",
+        "en": "The Technology Innovation Institute (TII) has expanded its Falcon model family with the release of Falcon-Perception and Falcon-OCR. These models are optimized for high-performance visual understanding and optical character recognition tasks. The release includes a comprehensive Hugging Face collection and ongoing pull requests for llama.cpp support to facilitate local deployment. This move strengthens the open-source ecosystem for vision-language models by providing accessible, high-quality multimodal tools."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "elgato-stream-deck-mcp",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Elgato 集成 MCP 协议支持 AI 智能体控制",
+        "en": "Elgato Integrates MCP Support for AI Agent Control"
+      },
+      "summary": {
+        "zh": "Elgato 发布了 Stream Deck 7.4 软件更新，正式引入对 Anthropic 模型上下文协议（MCP）的支持。此次集成允许 Claude、ChatGPT 和 Nvidia G-Assist 等 AI 智能体代表用户通过编程方式发现并触发 Stream Deck 操作。通过将硬件控制与 AI 智能体连接，用户现在可以将复杂的桌面工作流委托给聊天机器人，而无需手动按下物理按钮。这标志着智能体硬件管理演进中的重要一步。",
+        "en": "Elgato has released the Stream Deck 7.4 software update, introducing support for Anthropic's Model Context Protocol (MCP). This allows AI assistants like Claude, ChatGPT, and Nvidia G-Assist to programmatically discover and trigger Stream Deck actions on behalf of the user. By bridging hardware controls with AI agents, users can now delegate complex desktop workflows to chatbots rather than manually pressing physical buttons. This integration marks a significant step in the evolution of agentic hardware management."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "baidu-robotaxi-wuhan-freeze",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "百度萝卜快跑在武汉交通中集体「死机」",
+        "en": "Baidu Apollo Robotaxis Freeze in Wuhan Traffic"
+      },
+      "summary": {
+        "zh": "百度萝卜快跑（Apollo Go）多辆无人驾驶出租车在武汉发生系统性「死机」，导致严重的交通拥堵并引发至少一起事故。据报道，车辆在高速公路和繁忙街道上停滞不前，部分乘客被困车内直至人工干预。当地警方证实收到了大量关于自动驾驶车队停摆的报告。该事件凸显了在大规模城市环境中部署自动驾驶技术时，依然面临着严峻的可靠性和安全性挑战。",
+        "en": "Multiple Baidu Apollo Go robotaxis experienced a system-wide freeze in Wuhan, China, causing significant traffic disruption and at least one reported accident. Passengers were reportedly trapped inside the stationary vehicles on highways and busy city streets until manual intervention occurred. Local police confirmed receiving numerous reports regarding the stalled autonomous fleet. This incident highlights critical reliability and safety challenges that remain for large-scale autonomous vehicle deployments in complex urban environments."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "claude-code-source-leak",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Anthropic 泄露事件揭示 Claude Code 内部逻辑",
+        "en": "Anthropic Leak Reveals Claude Code Internal Logic"
+      },
+      "summary": {
+        "zh": "Claude Code 2.1.88 更新中包含的一个源映射文件无意中泄露了 Anthropic 超过 51.2 万行 TypeScript 代码。用户从中发现了内部细节，包括一个「电子宠物」风格的虚拟宠物功能以及全天候后台智能体的设计。此次泄露让外界得以罕见地深入了解 Anthropic AI 编程工具的工程架构。尽管泄露并非本意，但它引发了社区对 Claude 生态系统即将推出的实验性功能的极大兴趣。",
+        "en": "A source map file included in the Claude Code 2.1.88 update inadvertently leaked over 512,000 lines of Anthropic's TypeScript codebase. Users discovered internal details including a 'Tamagotchi-style' virtual pet feature and designs for an always-on background agent. The leak provides a rare, deep look into the engineering architecture of Anthropic's AI-powered coding tools. While the leak was unintentional, it has sparked significant community interest in the upcoming experimental features of the Claude ecosystem."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "chatgpt-apple-carplay-integration",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "ChatGPT 通过 iOS 26.4 正式登陆苹果 CarPlay",
+        "en": "ChatGPT Launches on Apple CarPlay via iOS 26.4"
+      },
+      "summary": {
+        "zh": "OpenAI 的 ChatGPT 现已支持苹果 CarPlay，适用于运行 iOS 26.4 或更高版本的用户。此次集成利用了苹果对「语音对话类应用」的新支持，允许驾驶员直接通过车载仪表盘与 AI 助手进行免提交互。该举措使 ChatGPT 成为 Siri 等传统车载语音助手的有力竞争者。这反映了将生成式 AI 集成到日常通勤和移动用户体验中的广泛行业趋势。",
+        "en": "OpenAI's ChatGPT is now accessible via Apple CarPlay for users on iOS 26.4 or newer, following an update to the mobile app. The integration utilizes Apple's new support for 'voice-based conversational apps,' enabling hands-free AI interaction directly from the vehicle's dashboard. This move positions ChatGPT as a formidable competitor to traditional automotive voice assistants like Siri. It reflects the broader industry trend of integrating generative AI into the daily transit and mobile user experience."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/904676/apple-carplay-openai-chatgpt",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "google-veo-3-1-lite",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "谷歌推出高性价比视频生成模型 Veo 3.1 Lite",
+        "en": "Google Debuts Veo 3.1 Lite for Cost-Effective Video Gen"
+      },
+      "summary": {
+        "zh": "谷歌宣布推出 Veo 3.1 Lite，这是其迄今为止性价比最高的视频生成模型，目前已通过 Gemini API 提供付费预览。该模型专为注重效率的开发者设计，同时也开放了 Google AI Studio 的测试权限。Veo 3.1 Lite 旨在降低高质量 AI 视频合成的计算和财务门槛。此次发布凸显了谷歌提供分层模型的产品策略，即为可扩展的应用开发提供「轻量化」版本。",
+        "en": "Google has announced Veo 3.1 Lite, its most cost-effective video generation model to date, now available in paid preview via the Gemini API. Designed for developers who prioritize efficiency, the model is also available for testing in Google AI Studio. Veo 3.1 Lite aims to lower the computational and financial barriers to high-quality AI video synthesis. This release underscores Google's strategy to provide a tiered model approach, offering 'lite' versions for scalable application development."
+      },
+      "source": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
+      "date": "2026-04-01"
+    }
+  ]
+}
