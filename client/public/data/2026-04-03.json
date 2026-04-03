@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-03",
+  "dateLabel": {
+    "zh": "2026年4月3日",
+    "en": "April 03, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-03T15:43:40Z",
+    "elapsedSeconds": 174,
+    "rawArticles": 56,
+    "afterFilter": 47,
+    "afterDedup": 44,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 7,
+      "Reddit": 1,
+      "The Verge AI": 3
+    }
+  },
+  "news": [
+    {
+      "id": "leaders-coding-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 工具驱动科技领袖重返一线编程",
+        "en": "Tech Leaders Return to Hands-on Coding Driven by AI Tools"
+      },
+      "summary": {
+        "zh": "包括马克·扎克伯格和 Garry Tan 在内的顶级科技领袖正重新投入一线编程，这主要得益于 AI 辅助开发工具带来的效率提升。这一趋势标志着领导层文化的转变，即「保持技术敏感度」正成为战略决策的竞争优势。尽管如此，本周对 Claude Code 和 GitHub 等工具来说并不顺利，面临了一些运营挑战。这种「开发者型 CEO」的回归凸显了 AI 如何降低复杂软件工程的门槛，即使是管理层也能快速上手。",
+        "en": "High-profile tech executives like Mark Zuckerberg and Garry Tan are reportedly returning to hands-on coding, driven by the accessibility of AI-assisted development tools. This trend signals a shift in leadership culture where staying close to the technical implementation is becoming a competitive advantage for strategic decision-making. While the resurgence of the builder-CEO archetype is notable, the week also saw operational hurdles for major tools like Claude Code and GitHub. This movement underscores how AI is lowering the barrier to entry for complex software engineering tasks, even for those in executive management."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "apfel-mac-ai",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Apfel：利用原生 Apple Intelligence 实现免费本地 AI",
+        "en": "Apfel: Leveraging Native Apple Intelligence for Free Local AI"
+      },
+      "summary": {
+        "zh": "Apfel 是一款在 Hacker News 上引起关注的开源工具，它利用了现代 macOS 系统中内置的 Apple Intelligence 和本地机器学习框架。通过提供简洁的界面，它允许用户在无需支付订阅费或担心云端隐私的情况下执行 AI 任务。该项目突显了「本地优先」AI 的趋势，充分利用了苹果神经网络引擎（ANE）等专用硬件。该项目在 HN 上获得了 435 个点赞，反映了开发者对于在日常工作流中绕过中心化 LLM 供应商的强烈兴趣。",
+        "en": "Apfel is a new open-source tool gaining significant traction on Hacker News for leveraging the built-in Apple Intelligence and local ML frameworks present on modern macOS systems. By providing a clean interface to access these native capabilities, it allows users to perform AI tasks without subscription fees or cloud privacy concerns. The project highlights a growing movement toward local-first AI that utilizes specialized hardware like Apple's Neural Engine (ANE). With over 435 points on HN, it reflects a strong developer interest in bypassing centralized LLM providers for daily productivity workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://apfel.franzai.com",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "claude-code-leak",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic Claude Code 内部实现细节泄露",
+        "en": "Anthropic's Claude Code Implementation Details Leaked"
+      },
+      "summary": {
+        "zh": "涉及 Anthropic「Claude Code」工具的重大泄露事件引发关注，揭示了其智能编程接口的内部实现细节。此次泄露展示了模型如何处理复杂的仓库级上下文以及软件工程中的多步推理。该事件引发了对专有 AI 代理框架安全性以及 AI 原生 IDE 竞争格局的担忧。随着开发者对泄露信息的剖析，外界得以窥见顶级 AI 实验室在处理长上下文编程任务时所采用的提示词工程和工具调用策略。",
+        "en": "A significant leak involving Anthropic's Claude Code tool has surfaced, revealing internal implementation details of their agentic coding interface. The leak suggests how the model handles complex repository-level context and multi-step reasoning for software engineering tasks. This incident raises concerns regarding the security of proprietary AI agent frameworks and the competitive landscape of AI-native IDEs. As developers dissect the leaked information, it provides a rare glimpse into the prompt engineering and tool-calling strategies used by top-tier AI labs to manage long-context coding sessions."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://build.ms/2026/4/1/the-claude-code-leak/",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "r-programming-llm-ban",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Reddit 编程社区宣布暂时禁止 LLM 相关内容",
+        "en": "Reddit's r/programming Implements Temporary Ban on LLM Content"
+      },
+      "summary": {
+        "zh": "知名社区 r/programming 宣布暂时禁止所有与大语言模型（LLM）和 AI 生成代码相关的讨论。版主指出，大量低质量帖子和重复性讨论淹没了传统的软件工程话题，导致社区质量下降。此举反映了开发者社区内部日益增长的紧张关系，即 AI 爱好者与倡导以人为本的编程标准派系之间的分歧。这一禁令凸显了在 AI 能够生成海量看似合理但往往流于表面的技术内容时代，维护社区质量所面临的巨大挑战。",
+        "en": "The popular subreddit r/programming has announced a temporary ban on all content related to Large Language Models (LLMs) and AI-generated code. Moderators cited a massive influx of low-quality posts and repetitive discussions that were drowning out traditional software engineering topics. This move reflects a growing tension within the developer community between AI enthusiasts and those advocating for human-centric coding standards. The ban highlights the challenge of maintaining community quality in an era where AI can generate vast amounts of plausible but often superficial technical content."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "gpu-rowhammer-attack",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "新型 Rowhammer 攻击可完全控制 Nvidia GPU 机器",
+        "en": "New Rowhammer Attack Grants Control Over Nvidia GPU Systems"
+      },
+      "summary": {
+        "zh": "安全研究人员展示了一种新型 Rowhammer 攻击变体，可成功针对并接管运行 Nvidia GPU 的机器。通过利用内存芯片的硬件漏洞，攻击者可以绕过传统的软件级安全措施，获得对宿主系统的完全控制。这对 AI 行业尤为关键，因为 GPU 是训练和推理的核心计算资源，且常在多租户云环境中共享。这一发现迫使业界重新评估高性能计算集群和 AI 数据中心的硬件安全协议。",
+        "en": "Security researchers have demonstrated a new variant of the Rowhammer attack that can successfully target and compromise machines running Nvidia GPUs. By exploiting hardware vulnerabilities in memory chips, attackers can gain complete control over the host system, bypassing traditional software-level security measures. This is particularly critical for the AI industry, as GPUs are the primary compute resource for training and inference, often shared in multi-tenant cloud environments. The discovery necessitates a re-evaluation of hardware security protocols for high-performance computing clusters and AI data centers."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "zero-error-horizons-paper",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究提出「零误差地平线」以构建可信 LLM",
+        "en": "Research Proposes Zero-Error Horizons for Trustworthy LLMs"
+      },
+      "summary": {
+        "zh": "一篇新论文提出了「零误差地平线」（zero-error horizons）概念，旨在提高 LLM 在关键任务应用中的可靠性。作者认为，模型不应仅提供概率性输出，而应被限制在误差率实际为零的可验证范围内运行。该方法涉及将形式化验证方法与神经架构相结合，以确保安全性和正确性。随着 LLM 进入医疗和法律等高风险领域，这项研究为构建超越简单缓解幻觉的、真正可信的 AI 系统提供了理论框架。",
+        "en": "A new research paper proposes the concept of zero-error horizons to improve the reliability of Large Language Models in mission-critical applications. The authors argue that instead of purely probabilistic outputs, models should be constrained to operate within verifiable bounds where error rates are effectively zero. This approach involves integrating formal verification methods with neural architectures to ensure safety and correctness. As LLMs move into high-stakes fields like medicine and law, this research provides a theoretical framework for building truly trustworthy AI systems that go beyond simple hallucination mitigation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2601.15714",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "openai-video-compute-costs",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 视频生成成本曝光：每位用户或耗费 65 美元算力",
+        "en": "OpenAI's AI Video Costs Estimated at $65 Per User"
+      },
+      "summary": {
+        "zh": "一项最新的财务分析揭示了 OpenAI 订阅收入与运营支出之间的巨大差距，估计一名每月支付 20 美元的用户可能会产生高达 65 美元的算力成本。AI 视频生成（尤其是 Sora 等模型）被形容为「金钱熔炉」，因为逐帧合成需要消耗海量的 GPU 资源。报告指出，如果没有重大的效率突破，当前的定价模式对于高端生成式媒体来说是不可持续的。这凸显了 AI 实验室在从文本转向多模态输出时面临的盈利危机。",
+        "en": "A new financial analysis reveals a stark disparity between OpenAI's subscription revenue and its operational expenses, estimating that a $20/month user can incur up to $65 in compute costs. AI video generation, particularly models like Sora, is described as a 'money furnace' due to the massive GPU requirements for frame-by-frame synthesis. The report suggests that current pricing models are unsustainable for high-end generative media without significant efficiency breakthroughs. This highlights the looming profitability crisis facing AI labs as they scale beyond text into multimodal outputs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://aedelon777.substack.com/p/i-did-the-math-on-sora-ai-video-is",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "openai-age-verification-backing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 被曝秘密资助 AI 年龄验证游说团体",
+        "en": "OpenAI Secretly Backs AI Age Verification Lobbying"
+      },
+      "summary": {
+        "zh": "调查显示，一个推动 AI 服务强制年龄验证要求的团体实际上由 OpenAI 秘密资助。批评者认为，这是一种战略手段，旨在影响监管政策并制造高额的合规门槛，从而压制小型竞争对手。虽然该倡议名义上是为了保护未成年人的安全措施，但资金来源的透明度缺失引发了人们对 AI 政策中「草根营销」行为的担忧。这一进展凸显了企业安全叙事与市场竞争动态之间日益增长的紧张关系。",
+        "en": "Investigations have revealed that a group pushing for mandatory age verification requirements for AI services is covertly backed by OpenAI. Critics argue this is a strategic move to influence regulation and create high compliance barriers that could stifle smaller competitors. While the initiative is framed as a safety measure to protect minors, the lack of transparency regarding funding has raised concerns about 'astroturfing' in AI policy. This development underscores the growing tension between corporate safety narratives and competitive market dynamics."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://gizmodo.com/group-pushing-age-verification-requirements-for-ai-turns-out-to-be-sneakily-backed-by-openai-2000741069",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "netflix-void-model-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Netflix 发布首个公开模型 VOID：支持视频对象与交互删除",
+        "en": "Netflix Releases VOID Model for Video Object Deletion"
+      },
+      "summary": {
+        "zh": "Netflix 在 Hugging Face 上发布了其首个公开 AI 模型 VOID（视频对象与交互删除）。该模型旨在无缝移除视频序列中的对象及其相关的物理交互影响，这是专业后期制作中的关键任务。此次发布包含了模型权重、GitHub 仓库以及面向研究社区的交互式演示。此举标志着 Netflix 正式进入开源 AI 生态系统，分享了此前用于高端内容编辑的内部工具。",
+        "en": "Netflix has launched its first public AI model on Hugging Face, named VOID (Video Object and Interaction Deletion). The model is designed to seamlessly remove objects and their associated physical interactions from video sequences, a critical task for professional post-production. The release includes the model weights, a GitHub repository, and an interactive demo for the research community. This move marks Netflix's formal entry into the open-source AI ecosystem, sharing internal tools previously used for high-end content editing."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sbc5ij/netflix_just_dropped_their_first_public_model_on/",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "utah-ai-psychiatric-prescriptions",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "犹他州授权 AI 系统开具精神科药物处方",
+        "en": "Utah Authorizes AI to Prescribe Psychiatric Drugs"
+      },
+      "summary": {
+        "zh": "犹他州启动了一项为期一年的试点计划，允许 AI 系统在没有人类医生干预的情况下开具和续签精神科药物处方。这代表了美国授予 AI 临床权限的一次重大扩张，旨在降低医疗成本并解决医生短缺问题。然而，医学界对该系统的不透明性以及在复杂心理健康病例中对患者安全的潜在风险提出了警告。州政府官员则辩称，这是为扩大欠发达地区医疗覆盖范围而进行的必要创新。",
+        "en": "Utah has initiated a one-year pilot program allowing an AI system to prescribe and refill psychiatric medications without a human doctor's intervention. This represents a significant expansion of clinical authority delegated to AI in the United States, aimed at reducing healthcare costs and addressing provider shortages. However, the medical community has raised alarms regarding the system's opacity and the potential risks to patient safety in complex mental health cases. State officials defend the move as a necessary innovation to expand care access to underserved populations."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "granola-app-privacy-alert",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "隐私警示：Granola 笔记默认对链接持有者公开",
+        "en": "Privacy Warning: Granola Notes Public by Default"
+      },
+      "summary": {
+        "zh": "AI 笔记应用 Granola 的用户收到警告，尽管该应用声称「默认私有」，但其笔记实际上可能被任何拥有链接的人访问。此外，除非用户在设置中明确选择退出，否则该平台会将捕获的会议数据用于内部 AI 训练。Granola 通过与日历集成来提供会议背景，这使得敏感企业信息的潜在泄露成为一个重大隐忧。该事件凸显了处理专有数据的第三方 AI 生产力工具持续存在的隐私风险。",
+        "en": "Users of the AI note-taking app Granola are being warned that their notes may be accessible to anyone with a link, despite the app's 'private by default' claims. Furthermore, the platform uses captured meeting data for internal AI training unless users specifically opt out in the settings. Granola integrates with calendars to provide context for meeting notes, making the potential exposure of sensitive corporate information a significant concern. The incident highlights the ongoing privacy risks associated with third-party AI productivity tools that handle proprietary data."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906253/granola-note-links-ai-training-psa",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "openai-acquires-tbpn",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 收购科技访谈节目 TBPN 进军媒体领域",
+        "en": "OpenAI Acquires Tech Talk Show TBPN"
+      },
+      "summary": {
+        "zh": "OpenAI 收购了知名的在线访谈节目 TBPN，该节目以每日三小时的直播为特色，经常采访来自 Meta、微软和 Palantir 等公司的顶级科技高管。此次收购信号表明 OpenAI 意图成为媒体参与者，将其定位为彭博社和 CNBC 等商业新闻巨头的竞争对手。通过控制这一行业话语权的重要平台，OpenAI 可以更直接地塑造公众对人工智能及其监管前景的叙事。此举反映了领先 AI 公司向通信渠道进行垂直整合的更广泛战略。",
+        "en": "OpenAI has acquired TBPN, a popular online talk show that features daily three-hour livestreams with top tech executives from Meta, Microsoft, and Palantir. The acquisition signals OpenAI's intent to become a media player, positioning itself as a competitor to business news giants like Bloomberg and CNBC. By controlling a major platform for industry discourse, OpenAI can more directly shape the public narrative around artificial intelligence and its regulatory future. This move reflects a broader strategy of vertical integration into communication channels by leading AI firms."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn",
+      "date": "2026-04-03"
+    }
+  ]
+}
