@@ -1,0 +1,252 @@
+{
+  "date": "2026-04-04",
+  "dateLabel": {
+    "zh": "2026年4月4日",
+    "en": "April 04, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-04T15:38:16Z",
+    "elapsedSeconds": 133,
+    "rawArticles": 51,
+    "afterFilter": 39,
+    "afterDedup": 35,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 5,
+      "The Verge AI": 3
+    }
+  },
+  "news": [
+    {
+      "id": "claude-code-linux-vuln",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 发现潜伏 23 年的 Linux 内核漏洞",
+        "en": "Claude Code Uncovers 23-Year-Old Linux Kernel Vulnerability"
+      },
+      "summary": {
+        "zh": "Anthropic 的编程智能体 Claude Code 成功发现了一个自 2003 年以来一直未被察觉的 Linux 内核关键安全漏洞。该漏洞涉及内存管理中复杂的竞态条件，二十多年来传统的静态分析工具均未能将其捕获。这一发现证明了自主 AI 智能体在执行深度代码审计和形式验证方面的卓越能力。它标志着一个重要的里程碑：AI 正从简单的代码生成转向保护全球计算的基础设施安全。",
+        "en": "Claude Code, Anthropic's specialized coding agent, successfully identified a critical security flaw in the Linux kernel that had remained undetected since 2003. The vulnerability involves a complex race condition in memory management that traditional static analysis tools failed to catch for over two decades. This discovery demonstrates the superior capability of autonomous AI agents in performing deep code auditing and formal verification. It marks a significant milestone where AI is moving beyond simple code generation to securing the foundational infrastructure of global computing."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "cognitive-surrender-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究警告 AI 用户正陷入「认知投降」",
+        "en": "Research Warns of Cognitive Surrender in AI Users"
+      },
+      "summary": {
+        "zh": "《Ars Technica》发布的一项新研究强调了一种被称为「认知投降」的日益严重的现象，即用户停止应用逻辑推理并盲目信任大模型的输出。研究人员发现，即使 AI 提供了明显错误或矛盾的信息，大多数参与者也未能核实事实或进行干预。这种心理转变表明，AI 交互的便捷性正在侵蚀专业环境中的批判性思维能力。研究结果强调，迫切需要更好的 UI/UX 设计来促使人类进行反思，而非被动接受算法建议。",
+        "en": "A new study published in Ars Technica highlights a growing phenomenon termed 「cognitive surrender,」 where users stop applying logical reasoning and blindly trust LLM outputs. Researchers found that even when AI provided blatantly incorrect or contradictory information, a majority of participants failed to verify the facts or intervene. This psychological shift suggests that the ease of AI interaction is eroding critical thinking skills in professional settings. The findings underscore the urgent need for better UI/UX designs that prompt human reflection rather than passive acceptance of algorithmic suggestions."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "military-ai-human-judgment",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "军事 AI 的威胁在于人类判断力的侵蚀",
+        "en": "Military AI Threat Lies in Eroded Human Judgment"
+      },
+      "summary": {
+        "zh": "Defense One 的一份报告指出，军事 AI 最直接的危险并非自主的「杀人机器人」，而是人类决策能力的退化。随着军事人员过度依赖 AI 驱动的目标锁定和后勤建议，他们识别算法偏见或情境错误的能力正在减弱。这种「自动化偏见」可能因缺乏有效的人类监督而导致意外的冲突升级或平民伤亡。该分析呼吁将培训重点转向确保人类指挥官始终作为回路中最终的道德和战术权威。",
+        "en": "A report from Defense One argues that the most immediate danger of military AI is not autonomous 「killer robots,」 but the degradation of human decision-making. As military personnel become over-reliant on AI-driven targeting and logistics recommendations, their ability to identify algorithmic bias or situational errors diminishes. This 「automation bias」 could lead to unintended escalations or civilian casualties due to a lack of meaningful human oversight. The analysis calls for a shift in training focus toward maintaining human commanders as the ultimate moral and tactical authority in the loop."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.defenseone.com/technology/2026/03/military-ai-troops-judgement/412390/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "claude-4-6-jailbreak",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Claude 4.6 安全护栏被新型越狱手段绕过",
+        "en": "Claude 4.6 Safety Guardrails Bypassed via New Jailbreak"
+      },
+      "summary": {
+        "zh": "一名安全研究人员披露了通过复杂的提示词注入技术成功越狱 Anthropic 最新模型 Claude 4.6 的方法。该漏洞绕过了模型的内部安全过滤器和宪法约束，使其能够生成受限内容。此次漏洞披露凸显了在使日益强大的大模型与安全协议对齐方面所面临的持续挑战。它提醒开发者，即使是最先进的模型也容易受到对抗性攻击，因此在生产环境中必须建立更稳健的多层防御机制。",
+        "en": "A security researcher has disclosed a successful jailbreak of Anthropic's latest model, Claude 4.6, via a sophisticated prompt injection technique. The exploit bypasses the model's internal safety filters and constitutional constraints, allowing it to generate restricted content. This vulnerability disclosure highlights the persistent challenges in aligning increasingly powerful LLMs with safety protocols. It serves as a critical reminder for developers that even state-of-the-art models remain susceptible to adversarial attacks, necessitating more robust, multi-layered defense mechanisms in production environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Nicholas-Kloster/claude-4.6-jailbreak-vulnerability-disclosure-unredacted",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "gpu-friendly-12bit-bf16",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "无损 12 位 BF16 格式优化 GPU 显存占用",
+        "en": "Lossless 12-bit BF16 Format Optimizes GPU Memory"
+      },
+      "summary": {
+        "zh": "一项新的研究原型引入了一种适用于 AMD 和 NVIDIA 硬件的 GPU 友好型无损 12 位 BF16 压缩格式。通过将标准的 8 位指数替换为 4 位组代码，该格式在保持 99.97% 的单整数加法解码成功率的同时，减少了 25% 的内存占用。字节对齐存储消除了 16 位填充浪费和 HBM 读取放大，显著提高了大规模模型推理的吞吐量。这项创新可能使更大的模型能够在消费级硬件上运行，且不会出现通常与量化相关的精度损失。",
+        "en": "A new research prototype introduces a GPU-friendly, lossless 12-bit BF16 compression format compatible with AMD and NVIDIA hardware. By replacing the standard 8-bit exponent with a 4-bit group code, the format achieves a 25% reduction in memory footprint while maintaining a 99.97% escape-free rate for single-integer ADD decoding. The byte-aligned storage eliminates 16-bit padding waste and HBM read amplification, significantly improving throughput for large-scale model inference. This innovation could enable larger models to run on consumer-grade hardware without the precision loss typically associated with quantization."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "apple-code-self-distillation",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "苹果提出用于代码生成的极简自蒸馏方法",
+        "en": "Apple Proposes Simple Self-Distillation for Code Generation"
+      },
+      "summary": {
+        "zh": "苹果研究人员揭示了一种「极其简单」的自蒸馏方法，显著提升了大模型在代码生成任务中的表现。该方法利用迭代反馈循环，让模型改进自身的代码输出，从而在不需要海量新数据集的情况下，有效地学会纠正语法和逻辑错误。HumanEval 的基准测试显示了显著的性能提升，表明内部知识优化是模型缩放的一种高效替代方案。这项研究为开发者提供了一种利用现有计算资源增强专业模型能力的低成本路径。",
+        "en": "Apple researchers have unveiled an 「embarrassingly simple」 self-distillation method that markedly improves the performance of LLMs in code generation tasks. The approach utilizes iterative feedback loops where the model refines its own code outputs, effectively learning to correct syntax and logic errors without the need for massive new datasets. Benchmarks on HumanEval show significant gains, suggesting that internal knowledge optimization is a highly efficient alternative to model scaling. This research provides a cost-effective path for developers to enhance specialized model capabilities using existing compute resources."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sc7uwa/apple_embarrassingly_simple_selfdistillation/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "gemma4-rockchip-npu",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Gemma4 26B 成功适配瑞芯微 NPU，功耗仅为 4W",
+        "en": "Gemma4 26B Successfully Ported to Rockchip NPU with 4W Power Draw"
+      },
+      "summary": {
+        "zh": "开发者利用自定义 llama.cpp 分支，成功在瑞芯微（Rockchip）NPU 上运行了 Gemma4 26B（A4B 量化版）。该配置在仅 4W 的极低功耗下实现了令人印象深刻的性能表现，展示了高参数模型在边缘设备上的运行潜力。这一突破凸显了在传统 GPU 环境之外，利用低功耗专用硬件运行复杂大语言模型的可行性日益增强，为高效本地 AI 的未来提供了参考。",
+        "en": "A developer successfully ran Gemma4 26B (A4B quantization) on a Rockchip NPU using a custom llama.cpp fork. The setup achieved impressive performance metrics while consuming only 4W of power, demonstrating the potential for high-parameter models on edge devices. This breakthrough highlights the increasing viability of running sophisticated LLMs on low-power, specialized hardware outside of traditional GPU environments, offering a glimpse into the future of efficient local AI."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sc8kdg/running_gemma4_26b_a4b_on_the_rockchip_npu_using/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "yc-bench-glm5-performance",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GLM-5 在创业模拟测试中追平 Claude 4.6，成本仅为其十一分之一",
+        "en": "GLM-5 Matches Claude 4.6 Performance at 1/11th the Cost in Startup Simulation"
+      },
+      "summary": {
+        "zh": "全新的 YC-Bench 基准测试通过模拟一年的初创公司管理，测试了 12 个大模型在复杂长期决策中的表现。智谱 AI 的 GLM-5 模型表现优异，在性能上几乎追平了 Anthropic 的 Claude Opus 4.6，而成本仅为后者的十一分之一。该基准测试涵盖员工管理、薪酬处理及应对欺诈性客户需求等数百个回合，标志着模型评估正转向真实商业场景下的「智能体」能力考核。",
+        "en": "The new YC-Bench benchmark simulated a year of startup management to test 12 LLMs on complex, long-term decision-making. Zhipu AI's GLM-5 model nearly matched the performance of Anthropic's Claude Opus 4.6 while operating at an 11x lower cost. The benchmark evaluates models on employee management, payroll, and handling deceptive client requirements across hundreds of turns, marking a shift toward evaluating 「agentic」 capabilities in realistic, high-stakes business scenarios."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "llm-vram-performance-test",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Qwen 3.5 与 Gemma-4 在 16GB 显存硬件上的性能实测",
+        "en": "Performance Benchmarks for Qwen 3.5 and Gemma-4 on 16GB VRAM Hardware"
+      },
+      "summary": {
+        "zh": "一项社区性能测试对比了 Qwen 3.5、Gemma-4、Nemotron Cascade 2 和 GLM 4.7 flash 在配备 16GB 显存的 RTX 4080 上的表现。该研究重点关注在使用 llama.cpp 和优化量化方案时，推理速度（每秒 token 数）如何随上下文长度增加而下降。测试结果为本地大模型用户在消费级硬件限制下，平衡模型大小与上下文窗口提供了关键参考，揭示了不同架构在速度稳定性上的显著差异。",
+        "en": "A community performance test compared Qwen 3.5, Gemma-4, Nemotron Cascade 2, and GLM 4.7 flash on an RTX 4080 with 16GB VRAM. The study focused on how inference speed (tokens per second) degrades as context length increases using llama.cpp and optimized quantizations. The results provide critical data for local LLM users trying to balance model size and context window within the constraints of consumer-grade hardware, showing significant variance in speed stability across architectures."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sc8mwc/recently_i_did_a_little_performance_test_of/",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "human-made-content-labels",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "生成式 AI 泛滥背景下「人类制造」标签兴起",
+        "en": "The Rise of 'Human-Made' Labels Amidst Generative AI Proliferation"
+      },
+      "summary": {
+        "zh": "随着生成式 AI 与人类作品变得真假难辨，创意专业人士中兴起了「人类制造」和「无 AI」标签运动。作家和插画师正面临对其作品真实性的质疑，从而催生了对标准化验证方法的需求。这一文化转变反映了社会对人类创造力贬值的担忧，以及在 AI 工具普及背景下，数字内容生产对透明度的迫切需求。",
+        "en": "As generative AI becomes indistinguishable from human work, a movement for 「Human-made」 and 「AI-free」 labels is gaining traction among creative professionals. Writers and illustrators are increasingly facing skepticism regarding the authenticity of their work, leading to a demand for standardized verification methods. This cultural shift reflects growing concerns over the devaluation of human creativity and the need for transparency in digital content production as AI tools become ubiquitous."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "anthropic-openclaw-policy-change",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 限制 Claude 订阅用户使用第三方工具",
+        "en": "Anthropic Restricts Claude Subscription Use for Third-Party Harnesses"
+      },
+      "summary": {
+        "zh": "Anthropic 宣布了一项自 4 月 4 日起生效的政策变更，禁止 Claude 订阅用户在 OpenClaw 等第三方工具中使用其订阅额度。希望使用这些外部界面的用户现在必须转向按需付费的 API 模式，这显著增加了高级用户的成本。此举被视为旨在保护 API 收入，并防止用户利用固定费率的个人订阅通过第三方包装工具进行大规模自动化任务。",
+        "en": "Anthropic has announced a policy change effective April 4th that prevents Claude subscribers from using their subscription limits for third-party harnesses like OpenClaw. Users wishing to utilize these external interfaces must now switch to a pay-as-you-go API model, significantly increasing the cost for power users. This move is seen as an effort to protect API revenue and prevent the exploitation of flat-rate consumer subscriptions for high-volume automated tasks via third-party wrappers."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "openai-agi-boss-leave",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI AGI 部署负责人 Fidji Simo 因病休假",
+        "en": "OpenAI's AGI Deployment Head Fidji Simo Takes Medical Leave"
+      },
+      "summary": {
+        "zh": "根据一份内部备忘录，OpenAI 的 AGI 部署首席执行官 Fidji Simo 因神经免疫疾病将休病假。在她缺席期间，OpenAI 总裁 Greg Brockman 将接管其负责的通用人工智能部署工作。这次领导层变动正值公司从以研究为中心向大规模商业 AI 供应商转型的关键时期。",
+        "en": "Fidji Simo, OpenAI's CEO of AGI Deployment, is taking a medical leave of absence due to a neuroimmune condition, according to an internal memo. During her absence, OpenAI President Greg Brockman will assume her responsibilities overseeing the deployment of artificial general intelligence. This leadership shift comes at a critical time for the company as it continues to navigate the complex transition from research-focused organization to a large-scale commercial AI provider."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
+      "date": "2026-04-04"
+    }
+  ]
+}
