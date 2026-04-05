@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-05",
+  "dateLabel": {
+    "zh": "2026年4月5日",
+    "en": "April 05, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-05T15:39:09Z",
+    "elapsedSeconds": 130,
+    "rawArticles": 40,
+    "afterFilter": 34,
+    "afterDedup": 33,
+    "dedupRemoved": 1,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit": 1,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 4
+    }
+  },
+  "news": [
+    {
+      "id": "claude-code-caveman-skill",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 新技能：通过「原始人对话」大幅降低 Token 消耗",
+        "en": "Claude Code Skill Enables Caveman Speak to Reduce Token Usage"
+      },
+      "summary": {
+        "zh": "Claude Code 推出了一项新技能，允许模型使用「原始人」风格的极简语法进行交流，从而显著减少交互过程中的 Token 消耗。通过去除冗余的口语填充词和礼貌用语，该工具优化了 API 成本，并延长了复杂编程任务中的有效上下文窗口。该项目凸显了提示词工程的一个新趋势：在智能代理工作流中，将语言的简洁性直接转化为成本节约。该技能在保持模型底层逻辑和代码生成质量的同时，将效率提升到了最高优先级。",
+        "en": "A new skill for Claude Code allows the model to communicate using caveman-style minimalist grammar, significantly reducing token consumption during interactions. By stripping away conversational filler and polite phrasing, the tool optimizes API costs and extends the effective context window for complex coding tasks. This project highlights a growing trend in prompt engineering where linguistic brevity is leveraged as a direct cost-saving measure in agentic workflows. The skill maintains the model's underlying logic and code generation quality while prioritizing efficiency."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/JuliusBrussee/caveman",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "karpathy-llm-wiki-gist",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Andrej Karpathy 分享 LLM Wiki：一份公开的「灵感档案」",
+        "en": "Andrej Karpathy Shares LLM Wiki as a Public Idea File"
+      },
+      "summary": {
+        "zh": "著名 AI 研究员 Andrej Karpathy 通过 GitHub Gist 发布了一份「LLM Wiki」，作为他关于大语言模型的想法、项目创意和技术观察的公开仓库。该文档涵盖了从架构细微差别到潜在未来应用的广泛主题，为外界提供了洞察这位行业领军人物思维模型的罕见机会。这一发布在 Hacker News 上引发了热烈讨论，开发者们将其视为开源探索的路线图。它展示了在快速演进的 AI 研究社区中「公开协作」的巨大价值。",
+        "en": "Renowned AI researcher Andrej Karpathy has released an 'LLM Wiki' via GitHub Gist, serving as a public repository for his thoughts, project ideas, and technical observations regarding Large Language Models. The document covers a wide range of topics, from architectural nuances to potential future applications, providing a rare glimpse into the mental model of a leading industry figure. The release has sparked significant discussion on Hacker News, with developers using it as a roadmap for open-source exploration. It exemplifies the value of 'working in public' within the rapidly evolving AI research community."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "sllm-gpu-node-sharing",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "sllm 平台上线：支持开发者共享 GPU 节点以获取无限 Token",
+        "en": "sllm Launches to Provide Shared GPU Nodes for Developers"
+      },
+      "summary": {
+        "zh": "名为 sllm 的新服务正式上线，允许开发者与其他用户共享单个 GPU 节点，从而以远低于专用实例的价格获取无限 Token。通过虚拟化 GPU 资源，该平台支持多用户在共享硬件上同时运行推理或微调任务。这种「碎片化所有权」模式解决了个人开发者和小微初创企业面临的 GPU 短缺和高昂运营成本问题。该工具代表了 AI 开发生态系统中基础设施解决方案向更民主化、更具成本效益方向的转变。",
+        "en": "A new service called sllm has launched, enabling developers to split a single GPU node with others to access unlimited tokens at a fraction of the cost of dedicated instances. By virtualizing GPU resources, the platform allows multiple users to run inference or fine-tuning tasks simultaneously on shared hardware. This 'fractional ownership' model addresses the persistent GPU shortage and high operational costs faced by individual developers and small startups. The tool represents a shift toward more democratic and cost-effective infrastructure solutions in the AI development ecosystem."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://sllm.cloud",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "12k-ai-blog-posts-commit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "单次提交 1.2 万篇 AI 生成博客，引发「死互联网」担忧",
+        "en": "Massive Commit Adds 12,000 AI-Generated Blog Posts to GitHub"
+      },
+      "summary": {
+        "zh": "OneUptime 仓库的一次单次提交包含了 1.2 万篇 AI 生成的博客文章，这引发了关于 AI 内容垃圾邮件和 SEO 伦理的热烈辩论。此举似乎是一种激进的策略，旨在通过大规模自动化内容生成来获取长尾搜索流量。批评者认为，这种做法通过向网络充斥低质量合成数据，加速了「死互联网理论」的演进，可能降低搜索引擎的实用性。这一事件凸显了 AI 驱动的营销效率与维护以人为中心的数字生态系统之间日益增长的紧张关系。",
+        "en": "A single commit in the OneUptime repository containing 12,000 AI-generated blog posts has ignited a debate over AI content spam and SEO ethics. The move appears to be an aggressive strategy to capture long-tail search traffic through automated content generation at scale. Critics argue that such practices accelerate the 'dead internet theory' by flooding the web with low-quality synthetic data, potentially degrading search engine utility. This incident underscores the growing tension between AI-driven marketing efficiency and the preservation of human-centric digital ecosystems."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "iran-camera-network-defense",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "伊朗部署大规模摄像头网络以强化防空系统",
+        "en": "Iran Deploys Extensive Camera Network to Bolster Air Defenses"
+      },
+      "summary": {
+        "zh": "军事专家报告称，伊朗整合了一个广泛的摄像头网络，以增强其国家防空能力。该监控基础设施可能采用了计算机视觉和 AI 驱动的运动检测技术，以实时识别和跟踪空中威胁，作为传统雷达系统的补充。通过融合民用和军用传感器数据，该网络旨在建立一个更具韧性的预警系统，以应对低空或隐身入侵。这一进展突显了现代电子战和国家安全中，利用分布式、AI 增强型传感器网络进行战略转型的趋势。",
+        "en": "Military experts report that Iran has integrated an extensive network of cameras to enhance its national air defense capabilities. This surveillance infrastructure likely employs computer vision and AI-driven motion detection to identify and track aerial threats in real-time, supplementing traditional radar systems. By fusing civilian and military sensor data, the network aims to create a more resilient early warning system against low-altitude or stealthy incursions. This development highlights the strategic shift toward using distributed, AI-enhanced sensor networks in modern electronic warfare and national security."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wsj.com/livecoverage/iran-war-news-2026/card/iran-s-network-of-cameras-bolsters-air-defenses-expert-says-IqjSSuOcGNrxzsrp52i8",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "relu-neural-networks-hash-table",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究探讨 ReLU 神经网络作为局部敏感哈希表的特性",
+        "en": "Research Explores ReLU Neural Networks as Locality Sensitive Hash Tables"
+      },
+      "summary": {
+        "zh": "r/MachineLearning 上的一项理论讨论探讨了 ReLU 神经网络与哈希表之间的数学相似性。通过将 ReLU 激活决策表示为对角矩阵，研究人员提出，神经网络层可以被解释为对线性映射进行局部敏感哈希表查找。这一视角为理解深度学习模型如何在权重中存储和检索关联记忆提供了新途径。此类见解可能促成更高效的神经架构，从而弥合传统数据结构与现代连接主义模型之间的鸿沟。",
+        "en": "A theoretical discussion on r/MachineLearning examines the mathematical parallels between ReLU neural networks and hash tables. By representing ReLU activation decisions as a diagonal matrix, researchers suggest that a layer can be interpreted as a locality-sensitive hash table lookup of a linear mapping. This perspective offers a new way to understand how deep learning models store and retrieve associative memories within their weights. Such insights could lead to more efficient neural architectures that bridge the gap between classical data structures and modern connectionist models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scvhk8/d_hash_table_aspects_of_relu_neural_networks/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "ml-veterans-public-misconceptions",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "ML 资深专家揭示公众认知与 AI 前沿现实的差距",
+        "en": "ML Veterans Reveal Gaps Between Public Perception and AI Reality"
+      },
+      "summary": {
+        "zh": "一项针对拥有 10 年以上经验的机器学习从业者的调查揭示了公众炒作与技术现实之间的巨大脱节。专家们认为，虽然公众高估了通用人工智能（AGI）的即时性，但却极大地低估了当前系统固有的工程脆弱性和数据质量问题。共识表明，目前的 AI 更多是关于高维曲线拟合和大规模工程「补丁」，而非主流媒体所描绘的类人推理。这一观点为投资者和爱好者提供了关于当前大语言模型架构长期稳定性的现实参考。",
+        "en": "A viral discussion among machine learning practitioners with over a decade of experience highlights a significant disconnect between public hype and technical reality. Experts argue that while the public overestimates the imminence of AGI, they vastly underestimate the engineering fragility and data quality issues inherent in current systems. The consensus suggests that AI is currently more about high-dimensional curve fitting and massive engineering 'hacks' than the sentient-like reasoning often portrayed in mainstream media. This perspective serves as a reality check for investors and enthusiasts regarding the long-term stability of current LLM architectures."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "meta-mcgrad-multicalibration",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Meta 开源 MCGrad 工具：解决模型细分群体校准难题",
+        "en": "Meta Open-Sources MCGrad for Subgroup Model Calibration"
+      },
+      "summary": {
+        "zh": "Meta 开源了 MCGrad，这是一个旨在解决特定细分群体或特征交叉点内模型校准问题的 Python 软件包。虽然模型在全局上可能看起来很准确，但在特定细分市场（如特定地区或特定设备上的用户）中往往表现出显著偏差。MCGrad 解决了这种「多重校准」问题，并已在 Meta 的生产环境中部署。该工具将在 KDD 2026 会议上正式亮相，为旨在确保不同用户群公平性和可靠性的开发者提供了一套稳健的解决方案。",
+        "en": "Meta has open-sourced MCGrad, a Python package designed to fix model calibration issues within specific subgroups or feature intersections. While a model might appear globally accurate, it often exhibits significant bias in specific segments, such as users in a particular region or on specific devices. MCGrad addresses this 'multicalibration' problem and is already deployed in Meta's production environments. The tool will be formally presented at the KDD 2026 conference, offering a robust solution for developers aiming to ensure fairness and reliability across diverse user bases."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scjzer/p_mcgrad_fix_calibration_of_your_ml_model_in/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "chinese-labs-os-delay-pattern",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "中国实验室同步推迟开源模型发布引发社区猜测",
+        "en": "Synchronized Delays in Chinese Open-Source Model Releases Spark Speculation"
+      },
+      "summary": {
+        "zh": "LocalLLaMA 社区注意到一个可疑现象：包括 Minimax、智谱 AI (GLM) 和阿里巴巴 (Qwen) 在内的多家中国 AI 实验室同步推迟了预期的开源模型发布。Qwen 3.6 和 GLM-5.1 等模型被搁置，且各方给出的「进一步改进」和「即将发布」的承诺如出一辙。这种协调一致的转变引发了外界猜测，认为中国可能出现了监管政策变化，或者各实验室正战略性地转向优先考虑闭源 API 变现，而非此前追求的开源权重主导地位。这一趋势可能会严重影响全球开发者获取高质量本地模型的渠道。",
+        "en": "The LocalLLaMA community has noted a suspicious pattern where multiple Chinese AI labs, including Minimax, Zhipu AI (GLM), and Alibaba (Qwen), have simultaneously delayed their expected open-source model releases. Models like Qwen 3.6 and GLM-5.1 are being held back with identical promises of further 'improvements' and upcoming releases. This coordinated shift has led to speculation about potential regulatory changes in China or a strategic pivot toward prioritizing proprietary API monetization over the open-weights dominance they previously pursued. This trend could significantly impact the availability of high-quality local models for global developers."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sd22qy/anyone_else_find_it_weird_how_all_chinese_labs/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "gemma4-qwen35-blind-eval",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemma 4 对标 Qwen 3.5：以 Claude 4.6 为裁判的盲测评估",
+        "en": "Gemma 4 vs Qwen 3.5: Blind Evaluation Using Claude 4.6 as Judge"
+      },
+      "summary": {
+        "zh": "一项全面的盲测评估对比了谷歌的新款 Gemma 4（31B 和 26B-A4B）与阿里巴巴的 Qwen 3.5 27B。该测试使用 Claude Opus 4.6 作为公正裁判，涵盖了代码、推理、分析和对齐等 30 个不同问题。结果详细展示了这些中型模型在现实逻辑任务中的表现，其中 Gemma 4 在推理和沟通方面表现出极强的竞争力。对于在这些高性能本地模型之间做出选择的用户来说，这种社区驱动的基准测试比标准的合成排行榜提供了更具实践意义的参考。",
+        "en": "A comprehensive blind evaluation compared Google's new Gemma 4 (31B and 26B-A4B) against Alibaba's Qwen 3.5 27B across 30 diverse questions. Using Claude Opus 4.6 as an impartial judge, the test evaluated categories including code, reasoning, analysis, and alignment. The results provide a granular look at how these mid-sized models perform in real-world logic tasks, with Gemma 4 showing strong competitive performance in reasoning and communication. This community-driven benchmark offers a more practical perspective than standard synthetic leaderboards for users choosing between these high-performance local models."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1scwos6/gemma_4_31b_vs_gemma_4_26ba4b_vs_qwen_35_27b/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "gemma4-qwen35-agentic-coding",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Gemma 4 与 Qwen 3.5 本地智能编程代理性能基准测试",
+        "en": "Benchmarking Gemma 4 and Qwen 3.5 for Local Agentic Coding"
+      },
+      "summary": {
+        "zh": "在谷歌发布 Gemma 4 后，开发者针对本地智能编程工作流将其与 Qwen 3.5 进行了基准测试。测试利用「Open Code」评估了单次编程任务，并使用标准的 llama-bench 测试了原始预填充和生成速度。虽然 Qwen 3.5 在原始速度上仍具竞争力，但 Gemma 4 的架构改进在遵循自主编程代理所需的复杂多步指令方面展现了潜力。对于构建本地 IDE 集成、需要在推理延迟与模型维持架构上下文能力之间取得平衡的工程师来说，这些发现至关重要。",
+        "en": "Following the release of Google's Gemma 4, developers have benchmarked its performance against Qwen 3.5 specifically for local agentic coding workflows. The tests utilized 'Open Code' to evaluate single-shot coding tasks and standard llama-bench for raw prefill and generation speeds. While Qwen 3.5 remains a strong contender in raw speed, Gemma 4's architectural improvements show promise in following complex, multi-step instructions required for autonomous coding agents. These findings are critical for engineers building local IDE integrations who need to balance inference latency with the model's ability to maintain architectural context."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sd0be8/comparing_qwen35_vs_gemma4_for_local_agentic/",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "turboquant-gemma4-quantization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "TurboQuant 与离群值感知量化提升 Gemma 4 运行效能",
+        "en": "TurboQuant and Outlier-Aware Quantization Boost Gemma 4 Performance"
+      },
+      "summary": {
+        "zh": "最新的技术实验表明，TurboQuant KV 缓存量化显著增强了 Gemma 4 26B 在 Apple M4 Pro 硬件上的表现。具体而言，使用 QJL 和 FWHT 作为结构化旋转替代方案，非常契合 Gemma 4 的大注意力头（dk=256/512）设计。另外，一种新的每层离群值感知 K 量化方法在降低 Qwen 模型困惑度（PPL）方面优于现有的公开分支。这些量化技术的进步使得在消费级硬件上实现更高精度和更快的推理成为可能，拓展了本地 LLM 部署的边界。",
+        "en": "New technical experiments demonstrate that TurboQuant KV cache quantization significantly enhances Gemma 4 26B performance on Apple M4 Pro hardware. Specifically, the use of QJL and FWHT as structured rotation substitutes fits Gemma 4's large attention heads (dk=256/512) exceptionally well. Separately, a new per-layer outlier-aware K quantization method is outperforming existing public forks in reducing perplexity (PPL) for Qwen models. These advancements in quantization allow for higher precision and faster inference on consumer-grade hardware, pushing the boundaries of what is possible with local LLM deployments."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sd05sa/turboquant_seems_to_work_very_well_on_gemma_4_and/",
+      "date": "2026-04-05"
+    }
+  ]
+}
