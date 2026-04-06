@@ -1,0 +1,252 @@
+{
+  "date": "2026-04-06",
+  "dateLabel": {
+    "zh": "2026年4月6日",
+    "en": "April 06, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-06T15:54:34Z",
+    "elapsedSeconds": 156,
+    "rawArticles": 44,
+    "afterFilter": 37,
+    "afterDedup": 37,
+    "dedupRemoved": 0,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 4,
+      "Reddit": 7
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-cyberwar-scaling",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "网络战缩放法则：AI 智能水平与攻击能力呈正相关",
+        "en": "Scaling Laws for Cyberwar: AI Intelligence Correlates with Attack Capability"
+      },
+      "summary": {
+        "zh": "在最新的 Import AI 452 中，Lyptus Research 指出了一个令人担忧的趋势：缩放法则（Scaling Laws）现已适用于网络战争，模型智能的提升直接增强了其攻击能力。报告表明，随着系统变得更加聪明，其识别和利用漏洞的能力也成比例增长，这使得 AI 安全形势更加复杂。此外，该简报还探讨了 AI 自动化程度的提高与传统 GDP 预测之间的脱节，认为当前的经济模型可能无法捕捉到 AI 驱动的劳动生产率的快速变化。",
+        "en": "In the latest Import AI 452, Lyptus Research identifies a concerning trend: scaling laws now apply to cyber warfare, where increased model intelligence directly enhances offensive capabilities. The report suggests that as systems become smarter, their ability to identify and exploit vulnerabilities grows proportionally, complicating the AI safety landscape. Additionally, the newsletter explores the disconnect between rising AI automation and traditional GDP forecasting, suggesting current economic models may fail to capture the rapid shifts in labor productivity driven by AI."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/04/06/import-ai-452-scaling-laws-for-cyberwar-rising-tides-of-ai-automation-and-a-puzzle-over-gdp-forecasting/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "guppylm-educational-llm",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "GuppyLM：旨在揭秘 Transformer 机制的微型大语言模型",
+        "en": "GuppyLM: A Tiny LLM Built to Demystify Transformer Mechanics"
+      },
+      "summary": {
+        "zh": "GuppyLM 是一个极简的教育性大语言模型项目，旨在帮助开发人员理解现代 AI 的内部运作机制。通过剥离大规模生产模型的复杂性，它清晰地展示了分词（tokenization）、注意力机制和预测流水线。该项目因其简洁性和易上手性在 Hacker News 上获得了广泛关注，为那些希望从简单的 API 调用深入到模型架构的学习者提供了一个实用的「入门级」示例。",
+        "en": "GuppyLM is a minimalist, educational Large Language Model project designed to help developers understand the internal workings of modern AI. By stripping away the complexity of massive production models, it provides a clear view of tokenization, attention mechanisms, and the prediction pipeline. The project gained significant traction on Hacker News for its clarity and accessibility, serving as a practical 'hello world' for those looking to move beyond API calls into model architecture."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/arman-bd/guppylm",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "gemma-4-local-lm-studio",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "通过 LM Studio 无头 CLI 在本地运行 Google Gemma 4",
+        "en": "Running Google Gemma 4 Locally via LM Studio Headless CLI"
+      },
+      "summary": {
+        "zh": "一份新的技术指南展示了如何使用 LM Studio 最新的无头命令行界面（CLI）在本地运行 Google 的 Gemma 4 模型。这种配置允许与 Claude Code 等智能代理工具无缝集成，从而构建一个私密且高性能的开发环境。通过利用本地算力，开发人员可以在保持 Gemma 4 架构卓越编程能力的同时，避开与云端 API 相关的延迟和隐私问题。",
+        "en": "A new technical guide demonstrates how to run Google's Gemma 4 model locally using LM Studio's latest headless command-line interface. This setup allows for seamless integration with agentic tools like Claude Code, enabling a private and high-performance development environment. By leveraging local compute, developers can bypass latency and privacy concerns associated with cloud APIs while maintaining the sophisticated coding capabilities of the Gemma 4 architecture."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "nanocode-jax-tpu",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Nanocode：仅需 200 美元打造的高性能 Claude Code 替代方案",
+        "en": "Nanocode: High-Performance Claude Code Alternative Built for $200"
+      },
+      "summary": {
+        "zh": "Nanocode 是一个开源项目，它在 TPU 上使用纯 JAX 框架，仅花费 200 美元的训练成本就实现了类似 Claude Code 的功能。它突显了专用编程模型效率的不断提高，为需要深度集成代码库的开发人员提供了一个极具性价比的替代方案。该项目证明，只要有适当的优化和硬件支持，高质量的智能编程助手不再是耗资数十亿美元的实验室的专属领域。",
+        "en": "Nanocode is an open-source project that replicates the functionality of Claude Code using pure JAX on TPUs for a total training cost of just $200. It highlights the increasing efficiency of specialized coding models, offering a cost-effective alternative for developers who require deep integration with their codebase. The project demonstrates that with the right optimization and hardware, high-quality agentic coding assistants are no longer the exclusive domain of multi-billion dollar labs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/salmanmohammadi/nanocode/discussions/1",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "microsoft-copilot-entertainment-terms",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软服务条款将 Copilot 标记为「仅供娱乐」以规避责任",
+        "en": "Microsoft Terms Label Copilot as 'Entertainment Only' to Limit Liability"
+      },
+      "summary": {
+        "zh": "微软更新了其服务条款，规定 Copilot 仅用于「娱乐目的」，并建议用户不要依赖它获取严肃建议或处理关键任务。尽管微软一直将该工具作为生产力利器进行强势营销，但此举显然是为了减轻 AI 幻觉和错误带来的法律责任。这种矛盾突显了 AI 能力的商业推广与模型可靠性的法律现实之间持续存在的紧张关系。",
+        "en": "Microsoft has updated its service terms to state that Copilot is intended for 'entertainment purposes only,' advising users not to rely on it for serious advice or critical tasks. This move appears to be a legal strategy to mitigate liability for AI hallucinations and errors, despite Microsoft's aggressive marketing of the tool as a productivity powerhouse. The discrepancy highlights the ongoing tension between the commercial promotion of AI capabilities and the legal realities of model reliability."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-says-copilot-is-for-entertainment-purposes-only-not-serious-use-firm-pushing-ai-hard-to-consumers-tells-users-not-to-rely-on-it-for-important-advice",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "dante-2b-italian-llm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Dante-2B：从零开始训练的意/英双语大语言模型",
+        "en": "Dante-2B: A Bilingual Italian/English LLM Trained from Scratch"
+      },
+      "summary": {
+        "zh": "Dante-2B 是一个拥有 21 亿参数的双语模型，在 2 台 H200 GPU 上从零开始训练，旨在解决以英语为中心的模型在处理意大利语时的局限性。与那些将意大利语视为次要任务的模型不同，Dante-2B 采用了专为意大利语形态设计的自定义分词器，减少了 Token 冗余并提高了语言准确性。该项目第一阶段已完成，展示了在特定文化和语言背景下，构建超越通用全球模型的「主权」语言模型的成功尝试。",
+        "en": "Dante-2B is a 2.1 billion parameter bilingual model trained from scratch on 2x H200 GPUs to address the limitations of English-centric models in handling Italian. Unlike models that treat Italian as an afterthought, Dante-2B features a custom tokenizer designed for Italian morphology, reducing token bloat and improving linguistic accuracy. Phase 1 of the project is complete, showcasing a successful effort in building 'sovereign' language models that outperform generic global models in specific cultural and linguistic contexts."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdh08w/p_dante2b_im_training_a_21b_bilingual_fully_open/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "wandb-agent-context-tool",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "新型 CLI 工具优化智能体的 Wandb 日志上下文投放",
+        "en": "New CLI Tool Optimizes Wandb Log Context for AI Agents"
+      },
+      "summary": {
+        "zh": "开发者发布了一款新型 CLI 工具，旨在解决 AI 智能体在使用 Weights & Biases (Wandb) 日志时面临的上下文窗口溢出和 MCP 工具报错问题。该工具采用 AlphaEvolve 算法对实验运行进行索引和结构化处理，为智能体提供高密度的历史实验背景。这使得智能体能够在不淹没上下文窗口的情况下，更高效地利用结构化历史数据进行实验分析与规划。",
+        "en": "A new CLI tool addresses the limitations of using Weights & Biases (Wandb) logs with AI agents, specifically solving the issue of context window flooding and frequent errors in standard MCP tools. By utilizing algorithms from AlphaEvolve to index and structure runs, the tool provides agents with high-density context of past experiments without overwhelming the model. This allows for more efficient analysis and planning in machine learning workflows by providing structured historical data."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1se1rmd/p_easily_provide_wandb_logs_as_context_to_agents/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "triton-moe-dispatch-kernel",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "纯 Triton 实现的 MoE 内核性能超越 CUDA 优化的 Megablocks",
+        "en": "Pure Triton MoE Kernel Outperforms CUDA-Optimized Megablocks"
+      },
+      "summary": {
+        "zh": "开发者利用纯 Triton 编写了一个融合混合专家模型 (MoE) 调度内核，在推理相关的批处理大小下超越了斯坦福大学经过 CUDA 优化的 Megablocks。在 A100 GPU 上运行 Mixtral-8x7B 时，该内核在 32 批次下达到 131% 的性能，在 128 批次下达到 124%。这一进展证明了无需特定厂商的 CUDA 代码即可实现高性能 MoE 推理，为模型部署提供了一种更具移植性且高效的选择。",
+        "en": "A pure Triton-based fused Mixture-of-Experts (MoE) dispatch kernel has been developed, outperforming Stanford's CUDA-optimized Megablocks at inference-relevant batch sizes. On a Mixtral-8x7B model using an A100 GPU, the kernel achieved 131% performance at a batch size of 32 and 124% at 128 tokens. This breakthrough demonstrates that high-performance MoE inference can be achieved without vendor-specific CUDA code, offering a more portable yet highly efficient alternative for model deployment."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdaknc/p_fused_moe_dispatch_in_pure_triton_beating/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "llm-imac-g3-retro",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "大语言模型成功移植至 32MB 内存的 1998 年款 iMac G3",
+        "en": "LLM Successfully Ported to 1998 iMac G3 with 32MB RAM"
+      },
+      "summary": {
+        "zh": "一项复古计算挑战成功在 1998 年产的 iMac G3 上运行了大语言模型，该机器仅配备 32 MB 内存和 233 MHz PowerPC 处理器。该项目使用了 Andrej Karpathy 的 260K TinyStories 模型（Llama 2 架构），并通过 Retro68 进行交叉编译，同时针对 PowerPC 架构进行了字节序转换。虽然模型仅约 1 MB，但这一成果展示了现代 Transformer 架构极强的可移植性，以及在老旧硬件上运行特定模型的潜力。",
+        "en": "In a feat of retro-computing, an LLM was successfully run on a 1998 iMac G3 equipped with only 32 MB of RAM and a 233 MHz PowerPC processor. The project utilized Andrej Karpathy's 260K TinyStories model (Llama 2 architecture) and required cross-compiling with Retro68 and endian-swapping for the PowerPC architecture. While the model is tiny at ~1 MB, the achievement highlights the extreme portability of modern transformer architectures and the potential for running specialized models on legacy hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sdnw7l/i_technically_got_an_llm_running_locally_on_a/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "pokeclaw-gemma4-android-agent",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "PokeClaw：首个基于 Gemma 4 的本地 Android 自主控制应用",
+        "en": "PokeClaw: First On-Device Gemma 4 App for Autonomous Android Control"
+      },
+      "summary": {
+        "zh": "PokeClaw 作为首款由新发布的 Gemma 4 模型驱动的自主 Android 手机控制应用正式亮相。该应用完全在设备端运行，无需云端支持或 Wi-Fi，实现了移动端自动化的闭环流程。在 Gemma 4 发布仅四天后，开发者便完成了该应用的构建，展示了该模型在本地处理复杂设备交互任务方面的卓越效率，标志着隐私保护型移动智能体工作流迈出重要一步。",
+        "en": "PokeClaw has been introduced as the first autonomous Android control application powered by the newly released Gemma 4 model. Operating entirely on-device without cloud or Wi-Fi requirements, the app creates a closed-loop pipeline for mobile automation. Developed within just four days of Gemma 4's launch, it showcases the model's efficiency in handling complex device-interaction tasks locally and marks a significant step for private, agentic mobile workflows."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sdv3lo/pokeclaw_first_working_app_that_uses_gemma_4_to/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "gemma-4-benchmark-disruption",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemma 4 (31B) 以高投资回报率和效率席卷基准测试榜单",
+        "en": "Gemma 4 (31B) Disrupts Leaderboards with High ROI and Efficiency"
+      },
+      "summary": {
+        "zh": "最新的基准测试显示，Gemma 4 (31B) 模型正在打破现有的 LLM 梯队，在成本效益上超越了 GPT-5.2、Gemini 3 Pro 和 Claude 4.6 Sonnet。在单次运行仅需 0.20 美元的情况下，Gemma 4 在盈利能力测试中实现了 100% 的生存率和 +1,144% 的中值投资回报率。它显著击败了 Qwen 3.5 和 DeepSeek V3.2 等主流国产开源模型，目前在排行榜上仅次于 Opus 4.6 和 GPT-5.2。",
+        "en": "Benchmarking results for the new Gemma 4 (31B) model show it disrupting the current LLM hierarchy, outperforming GPT-5.2, Gemini 3 Pro, and Claude 4.6 Sonnet in cost-efficiency. At just $0.20 per run, Gemma 4 achieved a 100% survival rate and a median ROI of +1,144% in specialized profitability tests. It notably outperformed major Chinese open-source models, including Qwen 3.5 and DeepSeek V3.2, trailing only behind top-tier models like Opus 4.6 and GPT-5.2 on the leaderboard."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sdcotc/gemma_4_just_casually_destroyed_every_model_on/",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "opencode-selfhosted-llm-test",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "OpenCode 框架测试 Qwen、Gemma 4 及 GLM 的编程实战能力",
+        "en": "OpenCode Framework Tests Qwen, Gemma 4, and GLM on Coding Tasks"
+      },
+      "summary": {
+        "zh": "一项针对自托管 LLM 的综合评估利用 OpenCode 框架测试了 Qwen 3.5/3.6、Gemma 4 和 Nemotron 3 等模型在编程任务中的表现。测试涵盖了构建 Go 语言 CLI 工具和复杂的网站迁移映射，使用了 25k 至 50k 的上下文窗口。测试结果为开源模型在生产级智能编程工作流中的成熟度，以及处理长上下文架构任务的能力提供了关键参考。",
+        "en": "A comprehensive evaluation of self-hosted LLMs using the OpenCode framework has compared models including Qwen 3.5/3.6, Gemma 4, and Nemotron 3 on coding tasks. The tests involved creating a Go-based CLI and mapping complex website migrations with context windows ranging from 25k to 50k tokens. The results provide critical insights into the readiness of open-source models for production-grade agentic coding workflows and their ability to handle long-context architectural tasks compared to proprietary alternatives."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sduazd/tested_how_opencode_works_with_selfhosted_llms/",
+      "date": "2026-04-06"
+    }
+  ]
+}
