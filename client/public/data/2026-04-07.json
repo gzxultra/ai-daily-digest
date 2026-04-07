@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-07",
+  "dateLabel": {
+    "zh": "2026年4月7日",
+    "en": "April 07, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-07T16:14:16Z",
+    "elapsedSeconds": 180,
+    "rawArticles": 54,
+    "afterFilter": 47,
+    "afterDedup": 45,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 4,
+      "Reddit": 5,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "anthropic-6b-arr-growth",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 三个月内增加 60 亿美元年经常性收入",
+        "en": "Anthropic Adds $6B ARR in Just Three Months"
+      },
+      "summary": {
+        "zh": "据报道，Anthropic 在短短一个季度内实现了惊人的 60 亿美元年度经常性收入（ARR）增长，显示出企业级市场对其 Claude 系列模型的爆发式采用。在 Claude 3.5 和 4 系列于编程和推理任务中取得成功的推动下，这一增长轨迹使 Anthropic 成为 OpenAI 强有力的商业竞争对手。该里程碑反映了基础模型提供商正成功将巨额算力投资转化为实际的企业收入。这一财务激增可能为公司新一轮的高额融资或 IPO 准备奠定基础。",
+        "en": "Anthropic has reportedly achieved a staggering $6 billion increase in Annual Recurring Revenue (ARR) within a single quarter, signaling explosive enterprise adoption of its Claude model family. This growth trajectory places Anthropic as a formidable commercial rival to OpenAI, driven by the success of Claude 3.5 and 4 in high-stakes coding and reasoning tasks. The milestone reflects a broader market shift where foundation model providers are successfully converting massive compute investments into tangible enterprise revenue. This financial surge likely positions the company for a significant new valuation round or potential IPO preparations."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/no-claude-for-claws",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "claude-code-performance-regression",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 因复杂工程任务性能倒退引发争议",
+        "en": "Claude Code Faces Criticism Over Complex Engineering Regressions"
+      },
+      "summary": {
+        "zh": "GitHub 上一个获得超过 1200 点赞的议题指出，Anthropic 的「Claude Code」工具在 2 月份更新后，在处理复杂工程任务时变得「无法使用」。用户报告称，该工具在推理能力和跨大规模代码库的上下文维持能力方面出现了明显的性能倒退。这一反馈凸显了智能编程工具在底层模型迭代更新时维持稳定性的内在挑战。该事件提醒业界，AI 编程助手的「最先进」性能需要在真实的生产环境复杂度下进行持续验证。",
+        "en": "A viral GitHub issue with over 1,200 points on Hacker News claims that Anthropic's 'Claude Code' tool has become unusable for complex engineering tasks following February updates. Users report significant regressions in the tool's reasoning capabilities and its ability to maintain context across large codebases. This feedback highlights the inherent challenges in maintaining the stability of agentic coding tools as underlying models undergo iterative updates. The situation serves as a critical reminder that 'state-of-the-art' performance in AI coding assistants requires constant validation against real-world production complexity."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/42796",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "ai-singer-itunes-takeover",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 歌手 Eddie Dalton 霸榜 iTunes 单曲榜",
+        "en": "AI Singer Eddie Dalton Dominates iTunes Singles Chart"
+      },
+      "summary": {
+        "zh": "作为 AI 生成内容的里程碑事件，名为 Eddie Dalton 的虚拟歌手同时占据了 iTunes 单曲榜的 11 个席位。尽管并非真人，这位 AI 的作品在主流受众中引发了共鸣，并触发了关于音乐产业未来和创作版权的激烈辩论。这一事件标志着 AI 音乐正从分众实验转向与人类艺术家直接进行商业竞争。它为流媒体平台和监管机构在非人类创作产出的标注、变现及法律地位方面提出了紧迫的问题。",
+        "en": "In a landmark moment for AI-generated content, a virtual singer named Eddie Dalton has secured eleven spots simultaneously on the iTunes singles chart. Despite having no physical existence, the AI's tracks have resonated with mainstream audiences, sparking intense debate regarding the future of the music industry and creative copyright. This event marks the transition of AI music from niche experimentation to direct commercial competition with human artists. It raises urgent questions for streaming platforms and regulatory bodies about the labeling, monetization, and legal status of non-human creative outputs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "hippo-biologically-inspired-memory",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Hippo：受生物学启发的 AI 智能体长期记忆架构",
+        "en": "Hippo: Biologically Inspired Long-Term Memory for AI Agents"
+      },
+      "summary": {
+        "zh": "一个新的开源项目「Hippo」引入了一种受人类海马体启发的 AI 智能体记忆架构。该系统旨在通过模拟生物信息保留和检索机制，解决自主智能体在长程交互中的上下文丢失问题。通过提供更结构化的历史交互存储和召回方式，Hippo 使智能体能够处理跨越较长时间的多步任务，而不会丢失长期目标。这种研究驱动的方法可能会显著增强持久化 AI 助手在复杂、跨日工作流中的可靠性。",
+        "en": "A new open-source project called 'Hippo' introduces a memory architecture for AI agents inspired by the human hippocampus. The system aims to solve the problem of context loss in autonomous agents by mimicking biological mechanisms for information retention and retrieval. By providing a more structured way to store and recall historical interactions, Hippo enables agents to handle multi-step tasks over extended periods without losing track of long-term goals. This research-driven approach could significantly enhance the reliability of persistent AI assistants in complex, multi-day workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/kitfunso/hippo-memory",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "bernie-sanders-ai-warning",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Bernie Sanders 称 AI 是对美国价值观的威胁",
+        "en": "Bernie Sanders Labels AI a Threat to American Values"
+      },
+      "summary": {
+        "zh": "美国参议员 Bernie Sanders 在《华尔街日报》发表评论文章，将 AI 描述为对劳工、隐私和民主权力结构的根本威胁。Sanders 主张，如果没有激进的干预，AI 将导致前所未有的失业，并使财富进一步向科技垄断巨头集中。随着 2026 年立法会议的临近，他的立场预示着政治言论的转向，暗示未来的监管可能会优先考虑劳工保护和反垄断措施。这凸显了技术加速发展与社会稳定担忧之间日益加剧的紧张关系。",
+        "en": "U.S. Senator Bernie Sanders has published a provocative op-ed in the Wall Street Journal, characterizing AI as a fundamental threat to labor, privacy, and democratic power structures. Sanders argues that without aggressive intervention, AI will lead to unprecedented job displacement and further concentrate wealth among tech monopolies. His stance signals a hardening of political rhetoric as the 2026 legislative session approaches, suggesting that future regulations may prioritize labor protections and anti-trust measures. This highlights the growing tension between rapid technological acceleration and social stability concerns."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wsj.com/opinion/ai-is-a-threat-to-everything-the-american-people-hold-dear-a3286459",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "mempalace-benchmark-controversy",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "MemPalace 爆火发布背后引发基准测试真实性质疑",
+        "en": "MemPalace Viral Launch Marred by Benchmark Integrity Concerns"
+      },
+      "summary": {
+        "zh": "开源项目 MemPalace 在声称于 LoCoMo 和 LongMemEval 等长上下文基准测试中获得「满分」后，24 小时内获得了 7000 个 GitHub 星标。然而，Reddit 上的技术分析显示，该项目自身的文档承认这些分数是通过存在缺陷的评估指标实现的，无法反映真实性能。这一争议凸显了 AI 社区中日益严重的「刷榜」问题，即营销炒作往往领先于技术实质。它强调了在日益拥挤的大模型内存管理领域，迫切需要标准化、独立的评估框架来验证性能声明。",
+        "en": "The open-source project MemPalace gained 7,000 GitHub stars in 24 hours after claiming 'perfect scores' on long-context benchmarks like LoCoMo and LongMemEval. However, technical analysis on Reddit revealed that the project's own documentation admits these scores are achieved through flawed evaluation metrics that do not reflect real-world performance. This controversy underscores the growing problem of 'benchmark gaming' in the AI community, where marketing hype often outpaces technical substance. It emphasizes the urgent need for standardized, independent evaluation frameworks to verify claims in the increasingly crowded LLM memory management space."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1seunbr/d_mempalace_claims_100_on_locomo_and_a_perfect/",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "gemma-4-unsloth-finetune",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Unsloth 支持 8GB 显存本地微调 Gemma 4",
+        "en": "Unsloth Enables Local Gemma 4 Fine-tuning on 8GB VRAM"
+      },
+      "summary": {
+        "zh": "Unsloth 发布了免费的 Notebook，支持在仅需 8GB 显存的条件下本地微调 Google 的 Gemma 4（E2B 和 E4B 版本）。该实现比标准的 Flash Attention 2 方案快约 1.5 倍，且节省了 60% 的显存。此次更新还修复了一个关键的梯度累积 Bug，解决了此前训练中损失函数爆炸的问题。这大幅降低了开发者定制最先进小语言模型的硬件门槛。",
+        "en": "Unsloth has released free notebooks enabling local fine-tuning of Google's Gemma 4 (E2B and E4B variants) with as little as 8GB of VRAM. The implementation is approximately 1.5x faster and uses 60% less memory compared to standard Flash Attention 2 setups. Crucially, the update includes a fix for a gradient accumulation bug that previously caused loss spikes during training. This significantly lowers the hardware barrier for developers to customize state-of-the-art small language models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sexdhk/you_can_now_finetune_gemma_4_locally_8gb_vram_bug/",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "agent-handover-gemma-4",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AgentHandover：通过屏幕观察自动创建智能体技能",
+        "en": "AgentHandover: Auto-Creating Agent Skills via Screen Observation"
+      },
+      "summary": {
+        "zh": "AgentHandover 是一款全新的开源 Mac 菜单栏应用，它通过 Ollama 本地运行 Gemma 4 模型来观察用户屏幕活动，并自动生成工作流。该工具能将重复的手动任务转化为结构化的「技能」文件，供各类 AI 智能体执行和自我改进。通过消除向智能体手动解释流程的需求，它实现了从人工演示到自主执行的无缝衔接，标志着向更直观、基于观察的智能体编程范式转变。",
+        "en": "AgentHandover is a new open-source Mac utility that leverages local Gemma 4 models via Ollama to observe user screen activity and automate workflow creation. The tool converts repeated manual tasks into structured 'Skill' files that can be executed and improved upon by various AI agents. By eliminating the need to manually explain processes to agents, it streamlines the transition from human demonstration to autonomous execution. This represents a shift toward more intuitive, observation-based agentic programming."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sey6vv/autocreation_of_agent_skills_from_observing_your/",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "glm-5-1-huggingface",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "智谱 AI GLM-5.1 即将登陆 Hugging Face",
+        "en": "Zhipu AI's GLM-5.1 Set for Imminent Hugging Face Release"
+      },
+      "summary": {
+        "zh": "智谱 AI 的最新模型 GLM-5.1 据悉即将登陆 Hugging Face，预示着该模型将面向全球开发者社区开放。虽然具体的架构细节尚未完全披露，但 GLM 系列在双语（中英）性能和推理能力方面一直处于领先地位。进驻 Hugging Face 表明了其对权重开放的承诺，方便研究人员将其集成到本地工作流中。此次发布预计将进一步加剧高性能开源模型领域的竞争。",
+        "en": "Zhipu AI's latest model, GLM-5.1, is reportedly arriving on Hugging Face, signaling an imminent public release for the global developer community. While specific architectural details remain under wraps, the GLM series has consistently pushed the boundaries of bilingual (Chinese-English) performance and reasoning capabilities. The move to Hugging Face suggests a commitment to open-weight accessibility, allowing researchers to integrate the model into local pipelines. This release is expected to intensify competition among high-performance open-source models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1seztbf/glm51_on_hf/",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "turboquant-kv-cache-quantization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "TurboQuant：llama.cpp 的极端 KV 缓存量化技术",
+        "en": "TurboQuant: Extreme KV Cache Quantization for llama.cpp"
+      },
+      "summary": {
+        "zh": "llama.cpp 项目推出了 TurboQuant，这是一项极端的 KV 缓存量化技术突破，显著降低了长文本推理过程中的内存开销。该技术已通过 14 位独立验证者在多种硬件上的测试，涵盖了从 Apple Silicon 到 NVIDIA（1080 Ti 至 Blackwell）以及 AMD 的各类 GPU。通过在 Metal、CUDA 和 Vulkan 等后端实现数据收敛，TurboQuant 让消费级硬件处理海量上下文成为可能。这项社区驱动的研究展示了开源优化在扩展大模型实用性方面的巨大潜力。",
+        "en": "The llama.cpp project has introduced TurboQuant, a breakthrough in extreme KV cache quantization that significantly reduces memory overhead during long-context inference. The technology has been validated by over 14 independent testers across a wide range of hardware, including Apple Silicon (M1 to MLX), NVIDIA (from 1080 Ti to Blackwell), and AMD GPUs. By converging data across Metal, CUDA, and Vulkan backends, TurboQuant enables massive context windows on consumer-grade hardware. This community-driven research demonstrates the power of open-source optimization in extending LLM utility."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sevwek/turboquant_extreme_kv_cache_quantization/",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "intel-musk-terafab-partnership",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英特尔将协助建造马斯克 Terafab AI 芯片工厂",
+        "en": "Intel to Help Build Elon Musk's Terafab AI Chip Factory"
+      },
+      "summary": {
+        "zh": "英特尔已正式与埃隆·马斯克合作，在德克萨斯州奥斯汀设计并建造名为「Terafab」的大型 AI 芯片制造工厂。该工厂旨在为马斯克旗下的企业（特别是新合并的 SpaceX/xAI 和特斯拉）提供定制芯片的专用供应链。其核心目标是为下一代自主系统提供动力，包括特斯拉的自动驾驶软件和计划中的「机器人大军」。这一战略联盟标志着英特尔代工服务的重大进展，也体现了马斯克在 AI 硬件领域追求垂直整合的野心。",
+        "en": "Intel has officially partnered with Elon Musk to design and construct 'Terafab,' a massive AI chip manufacturing facility located in Austin, Texas. The factory is designed to provide a dedicated supply chain of custom silicon for Musk's integrated ventures, specifically the newly merged SpaceX/xAI entity and Tesla. The primary objective is to power the next generation of autonomous systems, including Tesla's self-driving software and a planned 'robot army.' This strategic alliance marks a significant move for Intel's foundry services and Musk's push for vertical integration in AI hardware."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "gemini-mental-health-update",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Google 更新 Gemini 界面以优先提供心理健康资源",
+        "en": "Google Updates Gemini to Prioritize Mental Health Resources"
+      },
+      "summary": {
+        "zh": "Google 更新了 Gemini 的界面，当用户表达痛苦或处于危机时刻时，系统会更直接、显著地提供心理健康资源。此次更新背景是一起备受关注的过失致死诉讼，该诉讼指控聊天机器人的回复诱导了用户的自残行为。新系统旨在识别与危机相关的语言，并介入提供经过验证的援助信息，而非继续进行常规对话。此举凸显了 AI 服务商在处理敏感的人机交互时，面临着越来越大的法律和伦理压力，必须建立更完善的安全护栏。",
+        "en": "Google has updated the Gemini interface to provide more immediate and prominent access to mental health resources when users express distress or crisis. This update follows a high-profile wrongful death lawsuit alleging that a chatbot's responses encouraged a user toward self-harm. The new system is designed to detect crisis-related language and intervene with verified support information rather than continuing standard conversational output. This move highlights the increasing legal and ethical pressure on AI providers to implement robust safety guardrails in sensitive human-AI interactions."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
+      "date": "2026-04-07"
+    }
+  ]
+}
