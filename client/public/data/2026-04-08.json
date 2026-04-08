@@ -1,0 +1,257 @@
+{
+  "date": "2026-04-08",
+  "dateLabel": {
+    "zh": "2026年4月8日",
+    "en": "April 08, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-08T16:19:36Z",
+    "elapsedSeconds": 157,
+    "rawArticles": 56,
+    "afterFilter": 50,
+    "afterDedup": 47,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 1,
+      "The Verge": 1,
+      "GitHub": 1,
+      "Output.ai": 1,
+      "Reddit": 2,
+      "Reddit (r/LocalLLaMA)": 2,
+      "The Verge AI": 3,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "megatrain-single-gpu-100b",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "MegaTrain：在单块 GPU 上实现 100B+ 参数大模型全精度训练",
+        "en": "MegaTrain: Training 100B+ Parameter LLMs on a Single GPU"
+      },
+      "summary": {
+        "zh": "一篇新论文介绍了 MegaTrain 技术，该技术实现了在单块 GPU 上对超过 1000 亿参数的大语言模型进行全精度训练。通过利用先进的内存卸载（offloading）和梯度检查点策略，该框架绕过了以往需要大规模集群才能解决的显存限制。这一进展极大地降低了高端模型训练的门槛，使小型实验室能够在没有数百万美元基础设施的情况下，对海量架构进行迭代。",
+        "en": "A new research paper introduces MegaTrain, a breakthrough technique enabling full-precision training of Large Language Models with over 100 billion parameters on a single GPU. By leveraging advanced memory offloading and gradient checkpointing strategies, the framework bypasses traditional VRAM limitations that previously required massive clusters. This development significantly democratizes high-end model training, allowing smaller labs to iterate on massive architectures without multi-million dollar infrastructure."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2604.05091",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "iran-threat-stargate-datacenter",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "地缘政治紧张局势加剧：伊朗威胁 OpenAI 位于阿布扎比的 Stargate 数据中心",
+        "en": "Geopolitical Tensions Rise as Iran Threatens OpenAI's Stargate Project"
+      },
+      "summary": {
+        "zh": "随着伊朗对 OpenAI 正在阿布扎比建设的「Stargate」数据中心发出正式威胁，AI 基础设施的地缘政治风险显著升级。该设施耗资数百亿美元，由微软和阿联酋的 MGX 共同投资，是未来通用人工智能（AGI）算力的关键节点。此事件凸显了集中式 AI 算力中心在面对地区不稳定性时的脆弱性，以及国家安全与私营技术扩张之间复杂的交集。",
+        "en": "Geopolitical risks for AI infrastructure have escalated as Iran issued formal threats against OpenAI's 'Stargate' data center currently under development in Abu Dhabi. The multi-billion dollar facility, a joint venture involving Microsoft and UAE-based MGX, is a critical node for future AGI compute. This incident highlights the growing vulnerability of concentrated AI compute hubs to regional instability and the complex intersection of national security and private tech expansion."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "mempalace-ai-memory-benchmark",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "MemPalace 刷新纪录，成为基准测试得分最高的 AI 记忆系统",
+        "en": "MemPalace Sets New Benchmark Record for AI Memory Systems"
+      },
+      "summary": {
+        "zh": "MemPalace 已成为行业基准测试中得分最高的 AI 记忆系统，为长期上下文提供了一种复杂的检索增强架构。该系统利用模仿人类认知「记忆宫殿」的分层存储方法，提高了智能体的召回准确性和速度。通过优化大模型访问历史交互的方式，MemPalace 解决了长上下文窗口中持久存在的「迷失在中间」问题。",
+        "en": "MemPalace has emerged as the highest-scoring AI memory system ever recorded on industry benchmarks, offering a sophisticated retrieval-augmented architecture for long-term context. The system utilizes a hierarchical storage approach that mimics human cognitive 'memory palaces' to improve recall accuracy and speed for agents. By optimizing how LLMs access historical interactions, MemPalace addresses the persistent 'lost in the middle' problem found in long-context windows."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/milla-jovovich/mempalace",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "output-ai-agent-framework",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Output.ai 发布开源框架，提炼自 500 多个生产级 AI 智能体",
+        "en": "Output.ai Releases OSS Framework Derived from 500+ Production Agents"
+      },
+      "summary": {
+        "zh": "Output.ai 团队开源了一个旨在构建稳健 AI 智能体的新框架，该框架基于 500 多个生产级部署的实践经验。该框架专注于可靠性和可观察性，提供了实验性库中通常缺失的工具调用和错误恢复标准化模式。此次发布旨在通过编纂自主工作流的最佳实践，弥合「玩具级」智能体演示与可扩展企业应用之间的差距。",
+        "en": "The team behind Output.ai has open-sourced a new framework designed for building robust AI agents, based on insights from over 500 production-grade deployments. The framework focuses on reliability and observability, providing standardized patterns for tool-calling and error recovery that are often missing in experimental libraries. This release aims to bridge the gap between 'toy' agent demos and scalable enterprise applications by codifying best practices for autonomous workflows."
+      },
+      "source": "Output.ai",
+      "sourceUrl": "https://output.ai/",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "triattention-kv-cache-compression",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "TriAttention：针对长上下文推理的高效 KV 缓存压缩技术",
+        "en": "TriAttention: Efficient KV Cache Compression for Long-Context Reasoning"
+      },
+      "summary": {
+        "zh": "研究人员推出了 TriAttention，这是一种旨在大幅减少长上下文推理期间 KV（键值）缓存内存占用的新方法。通过实施三层注意力机制，该技术在不牺牲模型推理能力的情况下压缩了冗余信息。这对于在边缘设备上部署大模型，或在显存为主要瓶颈的云环境中扩展并发用户会话具有重要意义。",
+        "en": "Researchers have introduced TriAttention, a novel method designed to drastically reduce the memory footprint of KV (Key-Value) caches during long-context inference. By implementing a three-tier attention mechanism, the technique compresses redundant information without sacrificing the reasoning capabilities of the model. This is particularly significant for deploying LLMs on edge devices or scaling concurrent user sessions in cloud environments where VRAM is the primary bottleneck."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1serby2/r_triattention_efficient_kv_cache_compression_for/",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "safetensors-pytorch-foundation-move",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Hugging Face 将 Safetensors 移交给 PyTorch 基金会",
+        "en": "Hugging Face Transfers Safetensors to the PyTorch Foundation"
+      },
+      "summary": {
+        "zh": "Hugging Face 已正式将 Safetensors 项目移交给 PyTorch 基金会管理，以确保中立治理和开放标准。Safetensors 已成为安全、快速存储模型权重的行业标准，取代了存在安全漏洞的 Pickle 格式。这一转变将 Safetensors 与 vLLM 和 DeepSpeed 等其他关键基础设施项目并列，标志着其在全球 AI 生态系统中的成熟地位和核心作用。",
+        "en": "Hugging Face has officially moved the Safetensors project under the stewardship of the PyTorch Foundation to ensure neutral governance and open standards. Safetensors has become the industry standard for secure, fast model weight storage, replacing the vulnerable Pickle format. This transition places Safetensors alongside other critical infrastructure projects like vLLM and DeepSpeed, signaling its maturity and essential role in the global AI ecosystem."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sfv6t5/hf_moves_safetensors_to_the_pytorch_foundation/",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "egypt-horus-1-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "埃及发布首个开源 AI 模型 Horus-1.0",
+        "en": "Egypt Launches Horus-1.0, Its First Open-Source AI Model"
+      },
+      "summary": {
+        "zh": "埃及正式发布了其首个开源 AI 模型系列 Horus-1.0，标志着该国进入主权 AI 竞赛。该系列文本生成模型由本地研究人员从零开始训练，使用了数万亿个高质量 Token，旨在确保文化和语言的相关性。这一发布是中东和北非地区 AI 生态系统的重要里程碑，通过透明且易于获取的技术，减少了对西方闭源模型的依赖并推动了本地创新。",
+        "en": "Egypt has officially entered the sovereign AI race with the launch of Horus-1.0, the country's first open-source AI model series. Developed by local researchers, these text generation models were trained from scratch on trillions of clean training tokens to ensure cultural and linguistic relevance. This release marks a significant milestone for the MENA region's AI ecosystem, reducing reliance on Western proprietary models and fostering local innovation through transparent, accessible technology."
+      },
+      "source": "Reddit (r/LocalLLaMA)",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sfl8tw/the_first_opensource_ai_model_in_egypt/",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "gemma4-iterative-correction-loop",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Gemma4-31B 通过迭代推理超越 GPT-5.4-Pro",
+        "en": "Gemma4-31B Outperforms GPT-5.4-Pro via Iterative Reasoning"
+      },
+      "summary": {
+        "zh": "一项社区基准测试显示，Gemma4-31B 在配备长期记忆库的迭代纠错循环中运行两小时后，成功解决了基准 GPT-5.4-Pro 无法处理的复杂问题。该实验证明，通过复杂的智能体工作流和持久化状态管理，较小且高效的模型可以超越参数量更大的前沿模型。这凸显了行业重心正从单纯追求参数规模转向推理循环和架构集成的有效性。",
+        "en": "A community benchmark reveals that Gemma4-31B, when deployed in an iterative-correction loop with a long-term memory bank, successfully solved a complex problem that the baseline GPT-5.4-Pro failed to address. The experiment lasted two hours, demonstrating that smaller, efficient models can outperform larger frontier models through sophisticated agentic workflows and persistent state management. This highlights a shift in focus from raw parameter count to the efficacy of reasoning loops and architectural integration."
+      },
+      "source": "Reddit (r/LocalLLaMA)",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sf8nqw/gemma431b_worked_in_an_iterativecorrection_loop/",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "meta-muse-spark-launch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Meta 发布 Muse Spark 模型重返 AI 竞赛",
+        "en": "Meta Reenters AI Race with Muse Spark Model Launch"
+      },
+      "summary": {
+        "zh": "Meta 发布了 Muse Spark，这是马克·扎克伯格投入数十亿美元进行基础设施改造后的首个重大 AI 模型。该模型目前已在美区的 Meta AI 应用和网页端上线，并计划在未来几周内集成到 WhatsApp、Instagram、Facebook 及智能眼镜中。此次发布标志着 Meta 强势重返顶尖 AI 赛道，利用其庞大的社交媒体分发网络挑战 OpenAI 和 Google 等竞争对手。",
+        "en": "Meta has launched Muse Spark, its first major AI model following a multi-billion dollar infrastructure overhaul led by Mark Zuckerberg. The model currently powers the Meta AI app and web interface in the US, with plans to integrate it into WhatsApp, Instagram, Facebook, and Ray-Ban smart glasses in the coming weeks. This release signals Meta's aggressive re-entry into the top-tier AI race, leveraging its massive social media distribution network to challenge incumbents like OpenAI and Google."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "openai-internal-turmoil-funding",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "尽管估值达 8520 亿美元，OpenAI 仍面临内部动荡",
+        "en": "OpenAI Faces Internal Instability Despite $852B Valuation"
+      },
+      "summary": {
+        "zh": "尽管 OpenAI 最近以 8520 亿美元的估值完成了 1220 亿美元的巨额融资，但据报道该公司正面临内部动荡和高管流失。公司正筹备今年晚些时候的 IPO，但核心领导层的离职引发了对其长期战略方向的担忧。虽然 ChatGPT 仍是占据主导地位的消费级 AI 品牌，但组织内部的氛围表明，其从研究实验室向受高度关注的商业巨头的转型过程充满挑战。",
+        "en": "Despite securing a massive $122 billion funding round at an $852 billion valuation, OpenAI is reportedly facing internal instability and executive departures. The company is preparing for a potential IPO later this year, but the departure of key leaders has raised concerns about its long-term strategic direction. While ChatGPT remains the dominant consumer AI brand, the internal atmosphere suggests a precarious transition from a research-focused lab to a commercial giant under intense scrutiny."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "propublica-union-strike-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "ProPublica 员工因 AI 保护和工资问题发起罢工",
+        "en": "ProPublica Staff Strike Over AI Protections and Wages"
+      },
+      "summary": {
+        "zh": "非营利新闻机构 ProPublica 的工会员工因 AI 应用、裁员和工资等合同谈判未果，发起了为期 24 小时的罢工。代表约 150 名成员的 ProPublica 工会要求获得针对 AI 导致失业的保护以及更好的薪酬待遇。此次劳工行动反映了媒体行业日益紧张的关系，记者们正试图在技术快速变革的背景下，将 AI 的伦理使用和工作稳定性写入集体谈判协议。",
+        "en": "Unionized staff at the nonprofit newsroom ProPublica have launched a 24-hour strike over unresolved contract negotiations involving AI implementation, layoffs, and wages. The ProPublica Guild, representing approximately 150 members, is demanding protections against AI-driven job displacement and better compensation. This labor action reflects growing tensions in the media industry as journalists seek to codify the ethical use of AI and secure job stability amidst rapid technological shifts."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/news/908401/propublica-union-strike-negotiations-ai-layoffs",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "suleyman-ai-scaling-future",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Mustafa Suleyman：AI 扩展短期内不会遇到瓶颈",
+        "en": "Mustafa Suleyman: AI Scaling Won't Hit a Wall Soon"
+      },
+      "summary": {
+        "zh": "Mustafa Suleyman 认为，由于算力和数据方面的核心指数级趋势，AI 发展在短期内不太可能遇到性能瓶颈。他指出，人类为线性世界进化的直觉无法理解 AI 在算法效率方面的复合增长特性。Suleyman 强调，我们仍处于指数曲线的早期阶段，驳斥了关于行业正接近当前 Transformer 架构极限的观点。",
+        "en": "Mustafa Suleyman argues that AI development is unlikely to hit a performance plateau in the near future due to core exponential trends in compute and data. He suggests that human intuition, evolved for a linear world, fails to grasp the compounding nature of AI progress in algorithmic efficiency. Suleyman emphasizes that we are still in the early stages of an exponential curve, dismissing claims that the industry is nearing the limits of what current transformer-based architectures can achieve."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
+      "date": "2026-04-08"
+    }
+  ]
+}
