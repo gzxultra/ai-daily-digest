@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-10",
+  "dateLabel": {
+    "zh": "2026年4月10日",
+    "en": "April 10, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-10T15:59:22Z",
+    "elapsedSeconds": 157,
+    "rawArticles": 50,
+    "afterFilter": 40,
+    "afterDedup": 37,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 4,
+      "Reddit": 5,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "anthropic-risky-model-meta",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 因风险过高扣留新模型，Meta 意外入局安全竞争",
+        "en": "Anthropic Withholds High-Risk Model as Meta Enters Safety Race"
+      },
+      "summary": {
+        "zh": "据报道，Anthropic 开发的一款新模型因超出了其内部安全阈值，公司决定暂不发布。这一举动再次印证了该公司在模型接近人类推理水平时对「负责任缩放政策」的坚持。与此同时，Meta 意外宣布进入安全对齐模型领域，预示着竞争格局的变化。这些进展凸显了前沿模型行业在追求性能突破与维持安全护栏之间日益增长的紧张关系，也反映了巨头们对 AI 潜在风险的审慎态度。",
+        "en": "Anthropic has reportedly developed a new AI model that exceeded its internal safety thresholds, leading to a strategic decision to withhold its public release. This move underscores the company's commitment to its 'Responsible Scaling Policy' as models approach human-level reasoning capabilities. Simultaneously, Meta has made an unexpected entry into the safety-aligned model space, signaling a shift in the competitive landscape. These developments highlight the growing tension between rapid capability scaling and the necessity of robust safety guardrails in the frontier model industry."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/anthropic-built-a-model-too-risky",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "openai-illinois-liability-bill",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 支持伊利诺伊州限制 AI 开发商责任的法案",
+        "en": "OpenAI Backs Illinois Bill to Limit AI Developer Liability"
+      },
+      "summary": {
+        "zh": "OpenAI 正在支持伊利诺伊州的一项新立法提案，该法案旨在限制 AI 实验室在模型产生危害时的法律责任。该法案提议为那些在部署前遵循特定安全标准和测试协议的公司建立「避风港」。支持者认为这将鼓励创新并提供法律明确性，但批评者担心这可能会保护科技巨头免受系统性故障或偏见输出的问责。这一立法行动标志着 AI 领军企业正在积极努力，试图引导有利于自身的监管环境。",
+        "en": "OpenAI is throwing its support behind a new legislative proposal in Illinois that seeks to limit the legal liability of AI labs for harms caused by their models. The bill proposes a 'safe harbor' for companies that adhere to specific safety standards and testing protocols before deployment. While proponents argue this encourages innovation and provides legal clarity, critics worry it could shield tech giants from accountability for systemic failures or biased outputs. This legislative push marks a significant effort by AI leaders to shape the regulatory environment in their favor."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "instant-1-0-ai-backend",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Instant 1.0 发布：专为 AI 生成应用打造的后端基础设施",
+        "en": "Instant 1.0 Launches as Specialized Backend for AI-Generated Apps"
+      },
+      "summary": {
+        "zh": "Instant 1.0 正式发布，提供了一套专为 AI 编程智能体所建应用设计的后端基础设施。该平台采用了基于图的数据库架构和集成的实时同步功能，旨在解决 AI 生成代码在部署过程中的「最后一公里」难题。通过简化状态管理和数据持久化，Instant 1.0 让开发者能更高效地将 AI 编写的原型转化为生产级应用。该工具的出现代表了基础设施正在加速演进，以适应智能体驱动开发时代的需求。",
+        "en": "Instant 1.0 has officially launched, offering a specialized backend infrastructure designed to support the unique needs of applications built by AI coding agents. The platform features a graph-based database architecture and integrated real-time synchronization, addressing the 'last mile' challenges of deploying AI-generated code. By simplifying state management and data persistence, Instant 1.0 enables developers to scale AI-coded prototypes into production-ready applications more efficiently. This tool represents a growing trend of infrastructure evolving to meet the demands of the agentic development era."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.instantdb.com/essays/architecture",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "ai-fake-disease-hallucination",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究揭示 AI 模型会确认并尝试治疗虚构的疾病",
+        "en": "Study Reveals AI Models Confirm and Treat Fictional Diseases"
+      },
+      "summary": {
+        "zh": "《自然》杂志发表的一项研究揭示了当前大模型的严重缺陷：当面对科学家虚构的疾病时，多个 AI 模型不仅确认了该疾病的存在，还提供了详细的医疗建议。这一实验强调了 AI 幻觉的顽固性和危险性，尤其是在医疗等高风险领域。研究结果表明，目前的强化学习（RLHF）和安全微调尚不足以阻止模型自信地断言虚假医疗事实。研究人员呼吁在 AI 驱动的医疗信息中建立更强大的事实核查层和专门的验证机制。",
+        "en": "A study published in Nature highlights a critical flaw in current LLMs: when presented with a completely fictional disease invented by scientists, multiple AI models confirmed its existence and provided detailed medical advice. This experiment underscores the persistent and dangerous nature of AI hallucinations, particularly in high-stakes domains like healthcare. The findings suggest that current RLHF and safety tuning are insufficient to prevent models from confidently asserting false medical facts. Researchers are calling for more robust fact-checking layers and specialized verification mechanisms for AI-driven medical information."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nature.com/articles/d41586-026-01100-y",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "pentagon-official-xai-stock",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "五角大楼 AI 官员因出售 xAI 股票获利数百万美元面临审查",
+        "en": "Pentagon AI Official Faces Scrutiny Over Millions in xAI Stock Gains"
+      },
+      "summary": {
+        "zh": "据报道，负责监督关键 AI 项目的美国国防部官员 Emil Michael 通过出售埃隆·马斯克旗下 xAI 公司的股票获利数百万美元。这一披露引发了关于潜在利益冲突的激烈辩论，因为 Michael 在影响五角大楼 AI 战略和采购的同时持有这些股份。该事件凸显了私人技术投资与国家安全政策交织下的复杂伦理困境。立法者目前正呼吁对参与快速增长的 AI 领域的政府官员实施更严格的财务披露规则和撤资要求。",
+        "en": "Emil Michael, a US defense official overseeing critical AI initiatives, has reportedly earned millions of dollars from the sale of stock in Elon Musk's xAI. This revelation has sparked intense debate over potential conflicts of interest, as Michael held these financial stakes while influencing Pentagon AI strategy and procurement. The incident highlights the complex ethical landscape where private tech investments intersect with national security policy. Lawmakers are now calling for stricter financial disclosure rules and divestment requirements for government officials involved in the rapidly growing AI sector."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/apr/09/pentagon-ai-xai-emil-michael",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "pca-embedding-truncation",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "PCA 预处理助力非 Matryoshka 嵌入模型实现高效截断",
+        "en": "PCA Pre-processing Enables Efficient Truncation for Non-Matryoshka Embeddings"
+      },
+      "summary": {
+        "zh": "r/MachineLearning 社区的一项新实验表明，在对 BGE-M3 等非 Matryoshka 嵌入模型进行截断前应用主成分分析（PCA），可以显著保留检索性能。通过在样本上拟合 PCA 并将向量旋转到 PCA 基底，信号被集中在主成分中，从而使后续的截断操作破坏性更小。在 1024 维 BGE-M3 样本上的测试显示，这种简单的旋转操作允许在极小精度损失的情况下大幅降低维度。该技术为优化向量数据库提供了一种无需重新训练模型的实用方案。",
+        "en": "A new community experiment on r/MachineLearning demonstrates that applying Principal Component Analysis (PCA) before truncating non-Matryoshka embeddings, such as BGE-M3, can significantly preserve retrieval performance. By fitting PCA on a sample and rotating vectors into the PCA basis, the signal is concentrated into the leading components, making subsequent truncation less destructive. Tests on a 1024-dimensional BGE-M3 sample showed that this simple rotation allows for substantial dimension reduction with minimal loss of accuracy. This technique provides a practical alternative for optimizing vector databases without retraining models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sgt7ol/p_pca_before_truncation_makes_nonmatryoshka/",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "qwen-3-6-voting-results",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen 3.6 最终投票结果公布，发布在即",
+        "en": "Final Voting Results for Qwen 3.6 Signal Imminent Release"
+      },
+      "summary": {
+        "zh": "阿里巴巴 Qwen 3.6 的最终投票结果已在 Reddit 的 r/LocalLLaMA 社区公布，预示着该模型即将正式发布。在为期七天的投票结束后，社区对 Qwen 系列的下一次迭代充满期待。Qwen 系列一直以来在开源大模型领域保持领先地位，此次 3.6 版本的发布有望进一步缩小开源模型与闭源商业模型之间的差距，延续高性能本地推理的趋势。",
+        "en": "The final voting results for the Qwen 3.6 release have been tallied on Reddit's r/LocalLLaMA community, signaling an imminent launch from the Alibaba team. Following a seven-day voting period, users are anticipating the release of the next iteration in the Qwen series, which has historically set high benchmarks for open-source LLMs. This release is expected to further bridge the gap between open-weights models and proprietary giants, continuing the trend of high-performance local inference."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1shk8ia/final_voting_results_for_qwen_36/",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "gemma-4-mtp-reverse-engineering",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "社区发起 Gemma 4 多标记预测架构逆向工程",
+        "en": "Community Effort to Reverse Engineer Gemma 4 Multi-Token Prediction"
+      },
+      "summary": {
+        "zh": "一位社区成员成功提取了谷歌 Gemma 4 的模型权重，并确认该模型采用了多标记预测（MTP）架构。开发者已在 HuggingFace 上分享了提取的文件，但目前正寻求社区帮助，旨在将编译后的 TFLite 图文件逆向工程回可用的 PyTorch 模块。这一行动体现了开源社区在解析和适配谷歌最新架构技术以实现本地部署和优化方面的积极探索。",
+        "en": "A community member has successfully extracted weights for Google's Gemma 4, confirming the inclusion of Multi-Token Prediction (MTP) architecture. The developer has shared the extracted files on HuggingFace but is seeking community assistance to reverse-engineer the compiled TFLite graph files back into a usable PyTorch nn.Module. This effort highlights the community's drive to understand and adapt Google's latest architectural advancements for local deployment and optimization."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1shgo1x/update_on_gemma_4_having_mtp_reverse_engineering/",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "qwen-3-5-agentic-data-analyst",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "微调 9B 模型在自主数据分析中实现 89% 成功率",
+        "en": "Fine-tuned 9B Model Achieves 89% Success in Agentic Data Analysis"
+      },
+      "summary": {
+        "zh": "一款基于 Qwen3.5-9B 的微调模型正式发布，该模型通过 LoRA 专门针对自主数据分析任务进行了优化。实验显示，基础模型在复杂工作流中因过早停止而导致失败率为 100%，而该微调版本在无需人工干预的情况下可完成 89% 的多步分析任务。该项目证明，通过针对性的权重调整而非仅仅依靠提示工程，10B 以下的小型模型也能实现极高的自主代理能力，提升了本地智能体的实用性。",
+        "en": "A new fine-tuned model based on Qwen3.5-9B has been released, specifically optimized for autonomous data analysis tasks using LoRA. While the base model failed 100% of complex workflows by stopping prematurely, this version successfully completes 89% of multi-step data analysis tasks without human intervention. This project demonstrates that smaller models (under 10B) can achieve high levels of agency through targeted weight adjustments rather than just prompt engineering, making local agents more viable."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1shlk5v/model_release_i_trained_a_9b_model_to_be_agentic/",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "glm-5-1-code-arena-leader",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GLM 5.1 登顶开源模型代码竞技场排行榜",
+        "en": "GLM 5.1 Tops Code Arena Rankings for Open Models"
+      },
+      "summary": {
+        "zh": "GLM 5.1 在最新的 Code Arena 排名中正式夺得开源模型榜首。这一里程碑凸显了 GLM 系列在专业编程任务中的快速进步，其表现超越了开源领域的多位强劲对手。该模型在编码基准测试中的成功，表明它正成为开发者寻求高性能本地软件工程和自动代码生成替代方案的首选。",
+        "en": "GLM 5.1 has officially claimed the top spot for open-source models in the latest Code Arena rankings. This milestone underscores the rapid advancement of the GLM series in specialized programming tasks, outperforming several established competitors in the open-weights space. The model's success in coding benchmarks suggests it is becoming a primary choice for developers seeking high-performance local alternatives for software engineering and automated code generation."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1shq4ty/glm_51_tops_the_code_arena_rankings_for_open/",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "openai-sam-altman-new-yorker-profile",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "《纽约客》深度剖析 OpenAI 领导层动荡",
+        "en": "New Yorker Profile Examines Leadership Turmoil at OpenAI"
+      },
+      "summary": {
+        "zh": "《The Verge》报道了《纽约客》对 Sam Altman 在 OpenAI 备受争议的领导地位进行的深度调查。文章审视了 Altman 经历短暂解雇又复职后的内部摩擦，这一事件导致了公司组织结构和使命的永久性重塑。随着 OpenAI 离通用人工智能（AGI）越来越近，关于 Altman 激进的增长策略和权力集中是否符合变革性技术的安全开发要求，业内仍存在广泛质疑。",
+        "en": "The Verge highlights a deep-dive report from The New Yorker regarding Sam Altman's controversial leadership at OpenAI. The article examines the internal friction following Altman's brief firing and subsequent reinstatement, which led to a permanent reshaping of the organization's structure and mission. As OpenAI moves closer to AGI, questions persist about whether Altman's aggressive growth strategy and centralized power align with the safe development of transformative technology."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "gen-z-ai-disillusionment-gallup",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "盖洛普报告：Z 世代对 AI 陷入「爱恨交织」的幻灭感",
+        "en": "Gen Z Shows Growing Disillusionment with AI Despite High Usage"
+      },
+      "summary": {
+        "zh": "盖洛普（Gallup）的一项新报告揭示了 Z 世代与人工智能之间日益增长的「爱恨交织」关系：尽管使用率依然很高，但热情正在大幅下降。这项针对 1600 名美国青年的调查显示，随着 AI 在教育和职业环境中成为「刚需」，数字原住民的抵触情绪正在增加。这一转变标志着 AI 的应用正从最初的炒作阶段转向更为批判和务实的阶段。",
+        "en": "A new Gallup report reveals a growing love-hate relationship between Gen Z and artificial intelligence, showing that while usage remains high, enthusiasm is sharply declining. Based on a survey of 1,600 young Americans, the data suggests that as AI becomes mandatory in educational and professional settings, resentment is growing among digital natives. This shift indicates a transition from the initial hype phase to a more critical and pragmatic phase of AI adoption among the youngest workforce."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup",
+      "date": "2026-04-10"
+    }
+  ]
+}
