@@ -1,0 +1,255 @@
+{
+  "date": "2026-04-11",
+  "dateLabel": {
+    "zh": "2026年4月11日",
+    "en": "April 11, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-11T15:38:57Z",
+    "elapsedSeconds": 152,
+    "rawArticles": 48,
+    "afterFilter": 40,
+    "afterDedup": 37,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 2,
+      "The Guardian": 1,
+      "Tom's Hardware": 1,
+      "Reddit r/MachineLearning": 2,
+      "Reddit": 5,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "linux-kernel-ai-guidelines",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Linux 内核发布 AI 编程助手使用官方指南",
+        "en": "Linux Kernel Issues Official Guidelines for AI Coding Assistants"
+      },
+      "summary": {
+        "zh": "Linux 内核项目正式发布了关于在开发过程中使用 AI 编程助手的官方文档。指南强调，虽然可以使用 AI，但人类贡献者必须对代码的正确性负责，并确保其符合内核严格的编码标准。文档特别警告要防止「AI 生成的噪音」和低质量补丁加重维护者的负担。这一举措标志着全球最关键的开源项目之一对 AI 工具的务实接受，同时也坚持了代码完整性优先和人工负责的原则。",
+        "en": "The Linux kernel project has officially added documentation regarding the use of AI coding assistants in the development process. The guidelines emphasize that while AI can be used, the human contributor remains responsible for the code's correctness and must ensure it adheres to the kernel's strict coding standards. It warns against 'AI-generated noise' and low-quality patches that could overwhelm maintainers. This move marks a pragmatic acceptance of AI tools in one of the world's most critical open-source projects while prioritizing code integrity and human accountability."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "us-banks-anthropic-cyber-risk",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国政府因 Anthropic 模型网络风险召集银行高管",
+        "en": "US Summons Bank CEOs Over Cyber Risks from Anthropic's Claude Mythos"
+      },
+      "summary": {
+        "zh": "美国政府召集顶级银行高管，讨论 Anthropic 最新 AI 模型 Claude Mythos 可能带来的网络安全风险。官员们担心该模型的高级功能可能被利用，对金融基础设施发起复杂的网络攻击或动摇全球市场。这次高级别会议凸显了 AI 快速进步与国家安全利益之间日益紧张的关系。会议重点在于确保金融机构拥有强大的防御手段，以应对可能绕过传统安全协议的 AI 增强型威胁。",
+        "en": "The US government has summoned top banking executives to discuss potential cybersecurity risks posed by Anthropic's latest AI model, Claude Mythos. Officials are concerned that the model's advanced capabilities could be exploited to launch sophisticated cyberattacks against financial infrastructure or destabilize global markets. This high-level meeting underscores the growing tension between rapid AI advancement and national security interests. The focus is on ensuring that financial institutions have robust defenses against AI-augmented threats that could bypass traditional security protocols."
+      },
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "twill-ai-cloud-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Twill.ai 发布云端智能体，实现端到端任务委托",
+        "en": "Twill.ai Launches Cloud Agents for End-to-End Task Delegation"
+      },
+      "summary": {
+        "zh": "Twill.ai (YC S25) 发布了一个新平台，允许开发人员将复杂任务委托给云端 AI 智能体，并直接获取完成的拉取请求（PR）。与简单的自动补全工具不同，Twill 旨在通过理解代码库上下文和自主执行多步工作流来处理端到端的工程任务。这代表了从「AI 辅助」到「AI 委托」开发的转变，通过分担常规维护和功能实现，有望显著提升开发速度。该初创公司专注于与现有 CI/CD 流水的无缝集成，以简化软件开发生命周期。",
+        "en": "Twill.ai (YC S25) has launched a platform that allows developers to delegate complex tasks to cloud-based AI agents that return completed Pull Requests (PRs). Unlike simple autocomplete tools, Twill aims to handle end-to-end engineering tasks by understanding codebase context and executing multi-step workflows autonomously. This represents a shift from 'AI-assisted' to 'AI-delegated' development, potentially increasing developer velocity by offloading routine maintenance and feature implementation. The startup focuses on seamless integration into existing CI/CD pipelines to streamline the software development lifecycle."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twill.ai",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "claude-mythos-marketing-critique",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "报告批评 Claude Mythos 的「超级黑客」说辞仅为营销噱头",
+        "en": "Report Critiques Claude Mythos 'Super-Hacker' Claims as Marketing Pitch"
+      },
+      "summary": {
+        "zh": "Tom's Hardware 的最新报告批评了 Anthropic 对其 Claude Mythos 模型的营销手段，认为其「有意识的超级黑客」说法言过其实。调查显示，Anthropic 声称发现数千个严重零日漏洞的说法仅基于对 198 个案例的人工审查，其余均为统计推断。批评者认为这更多是营销噱头而非技术现实，强调了 AI 行业需要更严谨、透明的基准测试。该报道为大模型领域的过度炒作敲响了警钟。",
+        "en": "A recent report from Tom's Hardware critiques Anthropic's marketing of its Claude Mythos model, suggesting that claims of it being a 'sentient super-hacker' are significantly exaggerated. The investigation reveals that Anthropic's headline-grabbing claim of discovering thousands of severe zero-day vulnerabilities was based on a manual review of only 198 cases, with the rest being statistical extrapolations. Critics argue this is more of a sales pitch than a technical reality, highlighting the need for more rigorous and transparent benchmarking in the AI industry. The story serves as a cautionary tale about hype in the LLM sector."
+      },
+      "source": "Tom's Hardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "rtx-5090-cublas-performance-bug",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "RTX 5090 发现 cuBLAS 严重性能漏洞，降幅达 60%",
+        "en": "Major 60% Performance Bug Found in cuBLAS on RTX 5090"
+      },
+      "summary": {
+        "zh": "NVIDIA 的 cuBLAS 库中发现了一个严重的性能漏洞，影响了新款 RTX 5090 以及可能所有的非专业版 RTX GPU。用户报告称，cuBLAS 13.3.0 在处理批量 FP32 矩阵乘法（MatMul）工作负载时调度了低效内核，导致仅利用了 40% 的计算能力。该问题在各种矩阵尺寸（256x256 到 8192x8192）中均存在，并在最新的 CUDA 13.2.51 驱动程序上得到了证实。这种 60% 的性能损失对于使用消费级硬件进行 AI 训练和推理的研究人员及开发人员来说是一个重大打击。",
+        "en": "A significant performance bug has been identified in NVIDIA's cuBLAS library affecting the new RTX 5090 and potentially all non-Pro RTX GPUs. Users report that cuBLAS 13.3.0 dispatches inefficient kernels for batched FP32 matrix multiplication (MatMul) workloads, resulting in only 40% utilization of the available compute power. The issue persists across various matrix sizes (256x256 to 8192x8192) and was tested on the latest CUDA 13.2.51 drivers. This 60% performance loss is a major setback for researchers and developers using consumer-grade hardware for AI training and inference tasks."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1shtv0r/d_60_matmul_performance_bug_in_cublas_on_rtx_5090/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "flash-attention-educational-pytorch",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "FlashAttention 1-4 纯 PyTorch 教育版实现发布",
+        "en": "Educational Implementation of FlashAttention 1-4 Released in PyTorch"
+      },
+      "summary": {
+        "zh": "一个新的教育类仓库发布了 FlashAttention 1 到 4 版本的纯 PyTorch 实现。该项目旨在揭示 FlashAttention 的算法演进过程，重点展示每个版本如何在不涉及复杂 CUDA 内核的情况下优化内存访问和计算效率。虽然并非用于生产环境的性能优化，但它为研究人员和学生理解从基础分块（tiling）到 FA4 高级优化的演进提供了重要资源。这种透明度有助于弥合高层论文概念与底层硬件实现细节之间的鸿沟。",
+        "en": "A new educational repository has been released providing plain PyTorch implementations of FlashAttention versions 1 through 4. The project aims to demystify the algorithmic evolution of FlashAttention, focusing on how each version optimizes memory access and computational efficiency without the complexity of custom CUDA kernels. While not intended for production performance, it serves as a vital resource for researchers and students to understand the progression from basic tiling to the advanced optimizations in FA4. This transparency helps bridge the gap between high-level paper concepts and low-level hardware implementation details."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "ibu-boost-gbdt-screening",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ibu-boost：实现绝对阈值筛选的新型 GBDT 库",
+        "en": "ibu-boost: GBDT Library Implementing Absolute-Threshold Screening"
+      },
+      "summary": {
+        "zh": "基于「Screening Is Enough」（Nakanishi 2026）论文方法的新型梯度提升决策树（GBDT）库 ibu-boost 正式发布。该库将传统的相对分裂排名替换为绝对阈值拒绝机制，这一核心理念最初是为 Transformer 架构设计的。通过在处理早期剔除无关分裂，该方法实现了更高效的特征选择。这一实现展示了神经网络筛选理论的进步如何成功跨界应用到经典机器学习架构中，从而提升计算效率。",
+        "en": "A new gradient-boosted decision tree (GBDT) library, ibu-boost, has been released based on the 'Screening Is Enough' methodology (Nakanishi 2026). The library replaces traditional relative split ranking with an absolute-threshold rejection mechanism, a concept originally designed for Transformers. This approach allows for more efficient feature selection by discarding irrelevant splits early in the process. The implementation demonstrates how theoretical advancements in neural network screening can be successfully cross-pollinated into classical machine learning architectures to improve efficiency."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1shpdm2/p_ibuboost_a_gbdt_library_where_splits_are/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "llm-post-training-orchestration",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "新视频系列：构建大规模 LLM 后训练编排层",
+        "en": "New Video Series on Scaling LLM Post-Training Orchestration"
+      },
+      "summary": {
+        "zh": "一套全新的技术视频系列深入探讨了如何构建 LLM 后训练编排层，重点关注用于大规模强化学习（RL）的「verl」框架。该项目旨在解决管理 RLHF 和 GRPO 工作流时的复杂性，提升开发者在标准框架限制之外的体验。通过记录从专业应用到自定义基础设施的转变，该系列为寻求扩展后训练业务的工程师提供了实践蓝图。核心内容涵盖分布式 RL 训练处理以及大规模模型对齐的编排优化。",
+        "en": "A new technical video series explores building an orchestration layer for LLM post-training, specifically focusing on the 'verl' framework for Reinforcement Learning (RL) at scale. The project addresses the complexities of managing RLHF and GRPO workflows, aiming to improve developer experience beyond standard framework limitations. By documenting the transition from professional use to custom infrastructure, the series provides a practical blueprint for engineers looking to scale post-training operations. Key topics include handling distributed RL training and optimizing the orchestration of large-scale model alignment."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sh76ji/started_a_video_series_on_building_an/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "gemma-4-context-performance",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemma 4 26B 在本地测试中展现 94% 上下文稳定性",
+        "en": "Gemma 4 26B Demonstrates 94% Context Stability in Local Tests"
+      },
+      "summary": {
+        "zh": "社区对谷歌 Gemma 4 26B A4B 模型的测试显示，该模型在大上下文环境下表现出卓越的稳定性，在 262,144 个 Token 中使用到 245,283 个（94% 利用率）时仍保持完整能力。在实际调试任务中，该模型成功解决了 Gemini 3.1 无法修复的复杂 NVIDIA SMI 脚本问题，凸显了 2026 年本地 LLM 性能的飞速进步。这一里程碑意味着 20 万以上规模的稳定上下文窗口已在消费级本地硬件上成为现实，为长文本处理提供了替代云端私有模型的强大选择。",
+        "en": "Community testing of Google's Gemma 4 26B A4B model reveals exceptional stability at high context levels, maintaining full capability at 245,283 out of 262,144 tokens (94% utilization). In real-world debugging tasks, the model successfully solved complex NVIDIA SMI scripting issues where Gemini 3.1 failed, highlighting the rapid advancement of local LLM performance in 2026. This milestone signifies that 200k+ stable context windows are now viable for consumer-grade local hardware, offering a powerful alternative to cloud-based proprietary models for long-document processing."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sihwo8/gemma_4_26b_a4b_is_still_fully_capable_at/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "unsloth-gemma-4-update",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Unsloth 更新 Gemma-4 支持，优化聊天模板",
+        "en": "Unsloth Updates Gemma-4 Support with Optimized Chat Templates"
+      },
+      "summary": {
+        "zh": "Unsloth 团队已更新其所有 Gemma-4 模型上传版本，整合了最新的官方聊天模板和性能修复补丁。这些更新对于确保微调和推理工作流正确解析模型的指令格式至关重要，可防止输出质量出现潜在下降。随着谷歌 Gemma-4 架构受到关注，来自 Unsloth 等优化工具的快速生态支持对于开发者充分发挥模型潜力必不可少。建议用户重新下载更新后的权重，以从这些集成改进中获益。",
+        "en": "The Unsloth team has updated all Gemma-4 model uploads to incorporate the latest official chat templates and performance fixes. These updates are critical for ensuring that fine-tuning and inference workflows correctly interpret the model's instruction format, preventing potential degradation in output quality. As Google's Gemma-4 architecture gains traction, rapid ecosystem support from optimization tools like Unsloth is essential for developers to leverage the model's full potential. Users are encouraged to redownload the updated weights to benefit from these integration improvements."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sia1w6/unsloth_updated_all_gemma4_uploads/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "intel-arc-pro-b70-qwen-bench",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "英特尔 Arc Pro B70 运行 Qwen3.5-27B 基准测试",
+        "en": "Intel Arc Pro B70 Benchmarked on Qwen3.5-27B"
+      },
+      "summary": {
+        "zh": "英特尔 Arc Pro B70（32GB 显存）在 Q4 量化下运行 Qwen3.5-27B 的性能基准测试显示，使用 vLLM 和 llama.cpp 的生成速率稳定在约 12 tps。虽然 32GB 的显存容量在本地部署大型模型方面具有显著优势，但测试发现张量并行目前反而会降低性能，这可能归因于 PCIe 带宽限制。该数据为探索使用英特尔 GPU 硬件作为 NVIDIA 替代方案以处理高显存 AI 工作负载的本地 LLM 社区提供了重要参考。",
+        "en": "Performance benchmarks for the Intel Arc Pro B70 (32GB VRAM) running Qwen3.5-27B at Q4 quantization show a stable generation rate of approximately 12 tokens per second (tps) using vLLM and llama.cpp. While the 32GB capacity is a significant advantage for hosting larger models locally, the testing revealed that tensor parallelism currently degrades performance, likely due to PCIe bandwidth limitations. This data provides a vital reference for the local LLM community exploring Intel's GPU hardware as a cost-effective alternative to NVIDIA for high-VRAM AI workloads."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1siar7y/intel_arc_pro_b70_32gb_performance_on_qwen3527bq4/",
+      "date": "2026-04-11"
+    },
+    {
+      "id": "iran-ai-propaganda-war",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 废料的局限：伊朗真实影像对抗白宫 AI 模因",
+        "en": "The Limits of AI Slop: Iran's Real-World Footage vs. White House AI Memes"
+      },
+      "summary": {
+        "zh": "《The Verge》的一篇报道分析了伊朗冲突初期的数字宣传战，指出伊朗政权利用原始、直观的现场画面，其效果优于白宫对「AI 废料」的依赖。当美方专注于跳舞保龄球和《使命召唤》模因等风格化的 AI 生成内容时，伊朗官方媒体则在互联网上充斥着爆炸和伤亡的真实视频。这种对比凸显了 2026 年一个日益严重的问题：在重大的地缘政治冲突中，与具有情感分量的真实记录相比，AI 生成的内容极易被视为琐碎或「废料」。",
+        "en": "A report from The Verge analyzes the digital propaganda battle during the early stages of the conflict in Iran, noting that the Iranian regime's use of raw, visceral ground footage proved more effective than the White House's reliance on 'AI slop.' While US efforts focused on stylized AI-generated content like dancing bowling pins and Call of Duty memes, Iranian state media flooded the internet with real videos of explosions and casualties. This contrast highlights a growing concern in 2026: the potential for AI-generated content to be perceived as trivial or 'slop' when compared to the emotional weight of real-world documentation in high-stakes geopolitical conflicts."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop",
+      "date": "2026-04-11"
+    }
+  ]
+}
