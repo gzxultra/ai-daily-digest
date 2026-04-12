@@ -1,0 +1,251 @@
+{
+  "date": "2026-04-12",
+  "dateLabel": {
+    "zh": "2026年4月12日",
+    "en": "April 12, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-12T15:41:34Z",
+    "elapsedSeconds": 162,
+    "rawArticles": 38,
+    "afterFilter": 33,
+    "afterDedup": 32,
+    "dedupRemoved": 1,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 8
+    }
+  },
+  "news": [
+    {
+      "id": "berkeley-ai-agent-benchmarks",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "伯克利研究人员挑战并打破顶级 AI 智能体基准测试",
+        "en": "Berkeley Researchers Challenge and Break Top AI Agent Benchmarks"
+      },
+      "summary": {
+        "zh": "伯克利 RDI 研究人员揭示了当前 AI 智能体基准测试的严重漏洞，展示了模型如何在没有真正推理的情况下「刷分」。通过引入更稳健、可信的评估指标，该团队在打破纪录的同时，强调了动态测试环境的必要性。随着行业从简单聊天机器人转向需要高可靠性的自主智能体，这项研究对于建立可验证的评估体系至关重要。",
+        "en": "Researchers at Berkeley RDI have exposed critical vulnerabilities in current AI agent benchmarks, demonstrating how models can 'game' evaluations without true reasoning. By introducing more robust, trustworthy metrics, the team achieved record-breaking performance while highlighting the need for dynamic testing environments. This work is pivotal as the industry shifts from simple chatbots to autonomous agents that require verifiable reliability in complex, multi-step tasks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "meta-ai-exec-bonuses",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta 计划为顶级 AI 高管提供数亿美元巨额奖金",
+        "en": "Meta Plans Massive Billion-Dollar Bonuses for Top AI Leadership"
+      },
+      "summary": {
+        "zh": "据报道，Meta 正为其顶级 AI 高管提供前所未有的激励方案，若达成绩效目标，每位高管的奖金可能接近 10 亿美元。这种激进的薪酬策略凸显了全球范围内白热化的「人才争夺战」，各大科技巨头正竞相实现通用人工智能（AGI）并主导生成式 AI 市场。此举反映了 Meta 对领导 Llama 模型和硬件基础设施战略的核心人才所寄予的极高价值。",
+        "en": "Meta is reportedly offering unprecedented incentive packages to its top AI leadership, with potential bonuses reaching nearly $1 billion per executive based on performance targets. This aggressive compensation strategy underscores the intense global 'war for talent' as Big Tech firms race to achieve AGI and dominate the generative AI market. The move reflects the immense perceived value of the individuals steering Meta's Llama models and hardware infrastructure strategy."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.msn.com/en-my/news/other/meta-is-set-to-pay-its-top-ai-executives-almost-a-billion-each-in-bonuses-if-they-hit-their-targets/ar-AA1ZszqA",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "ai-autonomous-retail-store",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AI 智能体成功签署租约并开设实体零售店",
+        "en": "AI Agent Successfully Signs Lease and Opens Physical Retail Store"
+      },
+      "summary": {
+        "zh": "在一项自主商业的里程碑式实验中，Andon Labs 授予一个 AI 智能体为期三年的商业租约，最终该智能体成功开设了一家实体零售店。该 AI 独立处理了建立实体店所需的法律、财务和物流障碍，展示了极高水平的现实世界行动力。这一进展表明，AI 智能体正走出数字环境，开始直接与物理基础设施和法律体系进行交互。",
+        "en": "In a landmark experiment in autonomous commerce, Andon Labs granted an AI agent a three-year commercial lease, resulting in the successful launch of a physical retail store. The AI managed the legal, financial, and logistical hurdles of establishing a brick-and-mortar presence, demonstrating a high level of real-world agency. This milestone suggests that AI agents are moving beyond digital environments to interact directly with physical infrastructure and legal systems."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://andonlabs.com/blog/andon-market-launch",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "ai-reddit-glp1-analysis",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "AI 分析 40 万条 Reddit 帖子揭示 GLP-1 隐藏副作用",
+        "en": "AI Analysis of 400k Reddit Posts Uncovers Hidden GLP-1 Side Effects"
+      },
+      "summary": {
+        "zh": "宾夕法尼亚大学的研究人员利用 AI 分析了超过 40 万条 Reddit 帖子，发现了 GLP-1 减肥药物此前未被报道的副作用。通过处理海量的非结构化社交媒体数据，AI 识别出了传统临床试验因样本量小或持续时间短而经常忽略的患者体验。这项研究凸显了 AI 在药物警戒和公共卫生监测中日益增长的作用，能够通过大规模文本分析提供关键洞察。",
+        "en": "Researchers at the University of Pennsylvania utilized AI to analyze over 400,000 Reddit posts, uncovering previously unreported side effects of GLP-1 weight-loss medications. By processing vast amounts of unstructured social media data, the AI identified patient experiences that traditional clinical trials often miss due to smaller sample sizes or shorter durations. This study highlights the growing role of AI in pharmacovigilance and public health monitoring through large-scale text analysis."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.seas.upenn.edu/stories/penn-researchers-use-ai-to-surface-unreported-glp-1-side-effects-in-reddit-posts/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "claude-code-symbolic-leak",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Claude Code 泄露显示其大量使用经典符号 AI 技术",
+        "en": "Claude Code Leak Reveals Heavy Use of Classical Symbolic AI"
+      },
+      "summary": {
+        "zh": "关于 Anthropic 的「Claude Code」内核泄露引发了热议，AI 评论家 Gary Marcus 指出其高度依赖经典的符号 AI 技术。据称该内核包含一个具有 486 个分支点和 12 层嵌套的确定性循环，类似于 John McCarthy 等先驱倡导的「IF-THEN」逻辑。这一发现表明，现代「智能体」系统可能正采用混合架构，将大语言模型与严格的符号逻辑相结合，以确保系统的可靠性。",
+        "en": "A leak regarding Anthropic's 'Claude Code' kernel has sparked debate after AI critic Gary Marcus noted its heavy reliance on classical symbolic AI techniques. The kernel reportedly features a deterministic loop with 486 branch points and 12 levels of nesting, resembling the 'IF-THEN' logic championed by AI pioneers like John McCarthy. This discovery suggests that modern 'agentic' systems may rely on a hybrid approach, combining LLMs with rigid symbolic logic to ensure reliability."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "iclr-2026-review-crisis",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "分析显示 ICLR 2026 审稿人一致性大幅下降",
+        "en": "Analysis Shows Sharp Decline in ICLR 2026 Reviewer Consistency"
+      },
+      "summary": {
+        "zh": "对 ICLR 2026 评审分数的分析显示，与 2025 年相比，审稿人之间的相关性显著下降，引发了对 AI 研究同行评审一致性的担忧。2025 年两名人类审稿人的相关性约为 0.41，而 2026 年的数据在多项指标上显示出更低的一致性。这一趋势表明，论文投稿量的爆炸式增长可能正使学术评审流程不堪重负，导致评审结果变得更加随机且难以预测。",
+        "en": "An analysis of ICLR 2026 review scores reveals a significant decline in reviewer correlation compared to 2025, raising concerns about the consistency of peer review in AI research. While the correlation between two human reviewers was approximately 0.41 in 2025, the 2026 data shows much lower agreement across metrics like one-vs-rest and half-half split correlations. This trend suggests that the explosion in paper submissions may be straining the academic review process, leading to more unpredictable outcomes."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sj76a2/just_did_an_analysis_on_iclr_2025_vs_2026_scores/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "llm-backwards-learning-scaling",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "LLM 或存在逆向学习现象，挑战缩放法则上限",
+        "en": "LLMs May Learn Backwards, Challenging the Scaling Hypothesis"
+      },
+      "summary": {
+        "zh": "r/MachineLearning 上的热门讨论探讨了「逆向诅咒」以及 LLM 可能以非线性或反向方式学习模式的观点，这可能限制了缩放法则（Scaling Hypothesis）的有效性。该帖指出，如果基础学习架构受限于处理顺序逻辑的方式，单纯增加计算量和数据量可能会导致收益递减。这一观点挑战了行业对「大即是好」的盲目依赖，并呼吁研究界深入调查架构效率以及模型如何内化因果关系。",
+        "en": "A viral discussion on r/MachineLearning explores the 'reversal curse' and the theory that LLMs may learn patterns in a non-linear or backward fashion, potentially limiting the effectiveness of the scaling hypothesis. The post suggests that simply increasing compute and data may yield diminishing returns if the fundamental learning architecture is bounded by how it processes sequential logic. This challenges the industry's reliance on 'bigger is better' and calls for a deeper investigation into architectural efficiency and how models internalize causal relationships."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sj888x/llms_learn_backwards_and_the_scaling_hypothesis/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "pytorch-distributed-training-scratch",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "教育级 PyTorch 仓库开源：从零实现分布式训练并行技术",
+        "en": "Educational Repo Implements Distributed Training from Scratch in PyTorch"
+      },
+      "summary": {
+        "zh": "开发者 shreyansh26 发布了一个教育性质的 PyTorch 仓库，从底层实现了分布式训练的核心并行技术（包括 DP、FSDP、TP 和 PP）。通过避免使用高级抽象并显式编写前向/后向逻辑及集合通信，该项目为现代 LLM 如何在多 GPU 上进行分片提供了透明的视角。对于希望了解模型切分和通信协议底层机制、而不依赖标准库「黑盒」的工程师来说，这是一个极具价值的资源。",
+        "en": "Developer shreyansh26 released an educational PyTorch repository that implements core distributed training parallelism techniques, including DP, FSDP, TP, and PP, from the ground up. By avoiding high-level abstractions and explicitly writing forward/backward logic and collectives, the project provides a transparent look at how modern LLMs are partitioned across multiple GPUs. This resource is highly valuable for engineers looking to understand the low-level mechanics of model sharding and communication protocols without the 'black box' of standard libraries."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sjglrn/educational_pytorch_repo_for_distributed_training/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "resident-evil-ai-behavior-cloning",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "混合行为克隆技术助力 AI 挑战《生化危机》逃生序列",
+        "en": "AI Agent Trained to Play Resident Evil Using Hybrid Behavior Cloning"
+      },
+      "summary": {
+        "zh": "一个新项目展示了如何利用行为克隆（BC）和 HG-DAgger 的混合方法，训练 AI 智能体在《生化危机：安魂曲》的复杂环境中导航。与纯强化学习不同，该方法利用人类演示来快速提升智能体处理高压逃生序列和敌人遭遇战的能力。该项目已在 GitHub 上开源，突显了利用模仿学习解决动态 3D 环境中稀疏奖励任务的趋势，而传统的强化学习在这些场景中往往难以收敛。",
+        "en": "A new project demonstrates training an AI agent to navigate the complex environment of 'Resident Evil Requiem' using a hybrid of Behavior Cloning (BC) and HG-DAgger. Unlike pure reinforcement learning, this approach uses human demonstrations to jumpstart the agent's ability to handle high-pressure escape sequences and enemy encounters. The implementation, shared on GitHub, highlights the growing trend of using imitation learning to solve sparse-reward tasks in dynamic 3D environments where traditional RL often struggles to converge."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sjg4ph/training_an_ai_to_play_resident_evil_requiem/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "gemma-4-speculative-decoding",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemma 4 31B 投机采样实测：编程任务速度提升 50%",
+        "en": "Gemma 4 31B Achieves 50% Speedup in Coding via Speculative Decoding"
+      },
+      "summary": {
+        "zh": "针对新发布的 Gemma 4 31B 模型的基准测试显示，在使用 4.65B E2B 版本作为草稿模型进行投机采样（Speculative Decoding）时，性能显著提升。在 RTX 5090 上，用户报告每秒生成的 Token 数平均增加了 29%，其中编程任务的提升幅度高达 50%。这突显了 Gemma 4 生态系统的效率，以及通过利用小型专业化草稿模型的智能解码策略，在消费级硬件上运行高参数量模型的实际可行性。",
+        "en": "Benchmarks for the newly released Gemma 4 31B model show significant performance gains when using speculative decoding with the 4.65B E2B variant as a draft model. On an RTX 5090, users reported a 29% average increase in tokens per second, with coding tasks seeing a massive 50% boost. This highlights the efficiency of the Gemma 4 ecosystem and the practical viability of running high-parameter models on consumer hardware through intelligent decoding strategies that leverage smaller, specialized draft models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sjct6a/speculative_decoding_works_great_for_gemma_4_31b/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "minimax-m27-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "MiniMax M2.7 正式发布，主打高性能推理能力",
+        "en": "MiniMax M2.7 Officially Released for High-Performance Reasoning"
+      },
+      "summary": {
+        "zh": "MiniMax 正式发布了其最新的模型版本 M2.7，旨在提供高性能的推理和增强的多语言能力。虽然目前技术规格细节较少，但早期的社区反馈表明，其性能在 20B-40B 参数区间内与其它中型前沿模型相比具有竞争力。此次发布标志着中国 LLM 厂商在积极推广方面的又一步，旨在通过强劲的 API 性能和竞争力的延迟表现吸引国内外开发者的关注。",
+        "en": "MiniMax has officially released its latest model iteration, M2.7, targeting high-performance reasoning and enhanced multilingual capabilities. While technical specifications remain sparse, early community feedback suggests competitive performance relative to other mid-sized frontier models in the 20B-40B parameter range. The release marks another step in the aggressive rollout of Chinese LLMs aiming to capture both domestic and international developer interest through robust API performance and competitive latency."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sj0dm3/minimax_m27_released/",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "minimax-m27-license-controversy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "MiniMax M2.7 许可证引发争议：严禁未经授权的商业用途",
+        "en": "MiniMax M2.7 License Sparks Backlash Over Commercial Restrictions"
+      },
+      "summary": {
+        "zh": "MiniMax M2.7 的发布因其限制性的许可证条款在 LocalLLaMA 社区引发了强烈抵制。该许可证明确禁止未经书面许可的商业用途，包括付费服务、商业 API 以及部署微调版本获利，并严禁军事应用。这种「开放权重但封闭许可」的做法导致许多开发者认为该模型在专业集成方面「发布即死亡」（DOA），从而加剧了关于真开源 AI 定义的持续争论。",
+        "en": "The release of MiniMax M2.7 has sparked backlash in the LocalLLaMA community due to its restrictive license terms. The license explicitly bans commercial use—including paid services, commercial APIs, and deploying fine-tuned versions for profit—without prior written permission, and also prohibits military applications. This 'open weights but closed license' approach has led many developers to label the model as 'DOA' (Dead on Arrival) for professional integration, fueling the ongoing debate over the definition of true open-source AI."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sj2oqz/minimax_m27_is_not_open_source_doa_license/",
+      "date": "2026-04-12"
+    }
+  ]
+}
