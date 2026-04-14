@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-14",
+  "dateLabel": {
+    "zh": "2026年4月14日",
+    "en": "April 14, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-14T16:12:29Z",
+    "elapsedSeconds": 169,
+    "rawArticles": 53,
+    "afterFilter": 48,
+    "afterDedup": 44,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 4,
+      "Reddit": 6,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "ai-impact-software-engineers-2026",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "2026年AI对软件工程师的影响：关键趋势分析",
+        "en": "The Impact of AI on Software Engineers in 2026: Key Trends"
+      },
+      "summary": {
+        "zh": "《The Pragmatic Engineer》的最新行业调查显示，到2026年4月，AI工具已深度融入开发生命周期，但也面临日益增长的阻力。关键发现包括：开发者对AI订阅成本不断攀升表示担忧，且有更多工程师触及了高级模型的每日使用限制。报告强调了AI影响的不均衡性：资深工程师利用AI处理复杂的架构任务，而初级开发者则因过度依赖自动代码生成而面临技能断层的风险。",
+        "en": "A new industry survey from The Pragmatic Engineer reveals that by April 2026, AI tooling has become deeply embedded in the developer lifecycle, yet faces growing friction. Key findings include mounting concerns over the escalating costs of AI subscriptions and an increasing number of engineers hitting daily usage limits on advanced models. The report highlights an uneven impact where senior engineers use AI for complex architectural tasks, while junior developers face a widening skill gap due to over-reliance on automated code generation."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "stanford-ai-insider-disconnect",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "斯坦福报告指出AI业内人士与公众之间的认知鸿沟日益扩大",
+        "en": "Stanford Report Highlights Growing Disconnect Between AI Insiders and Public"
+      },
+      "summary": {
+        "zh": "2026年斯坦福AI指数报告指出，AI行业内部人士与普通公众在技术发展轨迹上存在显著的「认知鸿沟」。当业内人士主要关注AGI时间表和算力缩放定律时，大众仍深切担忧眼前的社会经济影响，如失业风险和训练数据缺乏透明度。这种脱节预示着，如果行业无法将开发目标与社会安全及经济稳定需求对齐，可能会面临更大的监管压力。",
+        "en": "The 2026 Stanford AI Index report identifies a significant 'perception gap' between AI industry insiders and the general public regarding the technology's trajectory. While insiders are primarily focused on AGI timelines and compute scaling laws, the broader public remains deeply concerned about immediate socioeconomic impacts, such as job displacement and the lack of transparency in training data. This disconnect suggests a potential for increased regulatory pressure if the industry fails to align its development goals with societal safety and economic stability concerns."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "gaia-local-ai-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "GAIA：支持在本地硬件运行AI智能体的开源框架",
+        "en": "GAIA: Open-Source Framework for Local AI Agents on AMD Hardware"
+      },
+      "summary": {
+        "zh": "GAIA是一个新发布的开源框架，旨在构建和部署完全在本地硬件上运行的自主AI智能体，并针对AMD最新的ROCm软件栈进行了优化。通过将智能体逻辑从云端API移出，GAIA解决了数据隐私、延迟和持续订阅成本等关键问题。该框架采用模块化架构，允许开发者轻松更换本地LLM，标志着企业和个人用途向去中心化、私有化AI基础设施转变的重要里程碑。",
+        "en": "GAIA is a newly released open-source framework designed to build and deploy autonomous AI agents that run entirely on local hardware, specifically optimized for AMD's latest ROCm stack. By moving agent logic away from cloud APIs, GAIA addresses critical concerns regarding data privacy, latency, and recurring subscription costs. The framework features a modular architecture that allows developers to swap local LLMs easily, marking a significant milestone in the shift toward decentralized, private AI infrastructure for enterprise and personal use."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://amd-gaia.ai/docs",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "ai-revolution-mathematics",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "数学领域的AI革命已经到来",
+        "en": "The AI Revolution in Mathematics Has Arrived"
+      },
+      "summary": {
+        "zh": "随着大语言模型（LLM）与Lean等形式化证明助手的结合开始解决长期存在的数学猜想，数学领域正经历根本性变革。研究人员正利用AI弥合直觉数学推理与严谨形式验证之间的鸿沟，在组合数学和数论领域取得了快速突破。这种协同作用使数学家能够探索以前无法触及的巨大证明搜索空间，标志着AI正从简单的助手演变为科学发现的核心驱动力。",
+        "en": "Mathematics is undergoing a fundamental shift as Large Language Models (LLMs) integrated with formal proof assistants like Lean begin to solve long-standing conjectures. Researchers are now using AI to bridge the gap between intuitive mathematical reasoning and rigorous formal verification, leading to rapid breakthroughs in combinatorics and number theory. This synergy allows mathematicians to explore vast search spaces for proofs that were previously inaccessible, signaling that AI is evolving from a simple assistant to a core driver of scientific discovery."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "nday-bench-vulnerability-detection",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "N-Day-Bench：评估LLM在真实代码漏洞中的表现",
+        "en": "N-Day-Bench: Evaluating LLMs on Real-World Code Vulnerabilities"
+      },
+      "summary": {
+        "zh": "N-Day-Bench是一个全新的基准测试框架，旨在测试LLM在大型代码库中识别和利用真实「N日」漏洞的能力。初步结果显示，虽然最新的前沿模型可以识别常见模式，但在处理需要深度上下文理解的复杂多文件逻辑漏洞时仍显吃力。该基准为网络安全社区提供了一个标准化指标，用以衡量AI驱动的安全审计效果以及自动化漏洞利用生成的潜在风险。",
+        "en": "N-Day-Bench is a new benchmarking framework designed to test the ability of LLMs to identify and exploit real-world 'N-day' vulnerabilities in large-scale codebases. Initial results show that while the latest frontier models can identify common patterns, they struggle with complex, multi-file logic bugs that require deep contextual understanding. This benchmark provides the cybersecurity community with a standardized metric to measure the efficacy of AI-driven security auditing and the potential risks of automated exploit generation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://ndaybench.winfunc.com",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "halo-loss-neural-network-abstention",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "HALO-Loss：教会神经网络在不确定时「拒绝回答」",
+        "en": "Teaching Neural Networks to Abstain with HALO-Loss"
+      },
+      "summary": {
+        "zh": "研究人员提出了HALO-Loss，这是一种全新的训练目标，通过教会神经网络在不知道答案时承认「我不知道」，从而解决「自信幻觉」问题。标准的交叉熵损失通常会迫使模型创建参差不齐的潜空间，导致垃圾数据也被映射为高置信度输出。HALO-Loss重塑了潜空间几何结构，使模型在输入超出已知分布时能自然地拒绝预测。这一技术进步有望显著提升AI在医疗和自动驾驶等高风险领域的可靠性。",
+        "en": "Researchers have introduced HALO-Loss, a novel training objective that addresses the 'confident hallucination' problem by teaching neural networks to admit when they don't know the answer. Standard Cross-Entropy loss often forces models to create a jagged latent space where even garbage data is mapped to high-confidence outputs. HALO-Loss reshapes the latent geometry, allowing models to naturally abstain from predictions when inputs fall outside known distributions. This technical advancement could significantly improve the reliability of AI in high-stakes fields like medicine and autonomous driving."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1skzuhd/i_dont_know_teaching_neural_networks_to_abstain/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "snn-scaling-1b-params",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "独立开发者成功将纯脉冲神经网络扩展至10.88亿参数",
+        "en": "Indie Developer Scales Pure Spiking Neural Network to 1.088B Parameters"
+      },
+      "summary": {
+        "zh": "一位18岁的独立开发者成功将纯脉冲神经网络（SNN）扩展至10.88亿参数并用于语言建模，绕过了常见的ANN到SNN转换方法。尽管此前研究认为由于梯度消失问题，直接从随机初始化训练大规模SNN几乎不可能，但该项目实现了收敛。这一进展表明，以高能效著称的类脑SNN在规模化后潜力巨大，有望在未来挑战标准的Transformer架构。",
+        "en": "An 18-year-old independent developer successfully scaled a pure Spiking Neural Network (SNN) to 1.088 billion parameters for language modeling, bypassing the common ANN-to-SNN conversion method. While previous research suggested direct training of large SNNs fails due to vanishing gradients, this project achieved convergence from random initialization. This milestone demonstrates that biologically-inspired SNNs, known for their energy efficiency, can potentially compete with standard Transformers at scale."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1skql34/i_scaled_a_pure_spiking_neural_network_snn_to/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "indian-legal-nlp-dataset",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "2000万份印度法律文档数据集发布，助力法律NLP研究",
+        "en": "Massive Dataset of 20M+ Indian Legal Documents Released for NLP Research"
+      },
+      "summary": {
+        "zh": "一个包含超过2000万份印度法律文件的海量数据集正式发布，涵盖了最高法院、25个高等法院和14个法庭的案例。该数据集包含结构化元数据、引用图谱和向量嵌入，是开发者历时两年整理的成果。这一资源的发布将极大推动法律领域NLP的研究，并为低资源印度语种模型的开发以及专业化RAG系统的构建提供高质量基础。",
+        "en": "A massive dataset comprising over 20 million Indian legal documents has been released, featuring structured metadata, citation graphs, and vector embeddings. The corpus covers the Supreme Court, all 25 High Courts, and 14 Tribunals, representing two years of data engineering effort. This release is a significant boon for legal NLP and the development of low-resource Indian language models, providing a high-quality foundation for specialized RAG systems."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sl9yh9/20m_indian_legal_documents_with_citation_graphs/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "depth-recurrent-transformers",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "深度递归Transformer：通过「深思」提升模型泛化能力",
+        "en": "Depth-Recurrent Transformers: Thinking Deeper to Improve Generalization"
+      },
+      "summary": {
+        "zh": "关于深度递归Transformer（Depth-Recurrent Transformers）的新研究探讨了通过「加深思考」而非「延长思考」来提升组合泛化能力。论文显示，递归深度在特定任务中能实现出色的分布外（OOD）泛化表现，但在非结构化文本上仍面临挑战。值得注意的是，研究指出中间步骤的监督可能会损害泛化能力，因为它会引导模型依赖「难以抗拒」的统计启发式方法，而非稳健的逻辑推理。",
+        "en": "New research on Depth-Recurrent Transformers explores 'thinking deeper' rather than 'longer' to improve compositional generalization. The paper demonstrates that recurrent depth can achieve strong out-of-distribution (OOD) performance in specific tasks, though it still struggles with unstructured text. Notably, the authors argue that intermediate step supervision can actually impair generalization by making models rely on 'irresistible' statistical heuristics instead of robust logic."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1skmct7/thinking_deeper_not_longer_depthrecurrent/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "best-local-llms-apr-2026",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "2026年4月本地大模型榜单：Qwen3.5与Gemma4领跑",
+        "en": "Local LLM Rankings April 2026: Qwen3.5 and Gemma4 Take the Lead"
+      },
+      "summary": {
+        "zh": "2026年4月的本地大模型市场由Qwen3.5和Gemma4系列主导，同时在效率方面取得了重大突破。GLM-5.1据称已达到SOTA性能水平，而Minimax-M2.7被视为Claude 3.5 Sonnet的高性价比替代品。此外，PrismML推出的Bonsai 1比特模型正在突破消费级硬件的极限，使高性能AI的去中心化部署变得前所未有的可行。",
+        "en": "The April 2026 local LLM landscape is dominated by the release of Qwen3.5 and Gemma4 series, alongside significant breakthroughs in efficiency. GLM-5.1 is reported to reach state-of-the-art performance levels, while Minimax-M2.7 is being hailed as a highly accessible alternative to Claude 3.5 Sonnet. Additionally, PrismML's Bonsai 1-bit models are pushing the boundaries of what is possible on consumer hardware, making high-performance AI more decentralized than ever."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sknx6n/best_local_llms_apr_2026/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "llm-self-tuning-flags",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp新增AI调优功能，推理速度提升达54%",
+        "en": "New AI-Tuning Flag Boosts llama.cpp Performance by 54%"
+      },
+      "summary": {
+        "zh": "llama.cpp的一项新工具引入了--ai-tune参数，允许大模型自主优化自身的执行参数。通过运行自调优循环并缓存最快配置，用户报告了巨大的性能提升，例如Qwen3.5-27B的推理速度提升了54%。这种方法对于异构GPU配置（如混合使用3090 Ti和4070）特别有效，因为这类配置的手动拆分比例和线程数优化通常既困难又耗时。",
+        "en": "A new tool for llama.cpp introduces an --ai-tune flag that allows LLMs to autonomously optimize their own execution parameters. By running a self-tuning loop and caching the fastest configurations, users report massive performance gains, such as a 54% increase in tokens per second for Qwen3.5-27B. This approach is particularly effective for heterogeneous GPU setups, where manual optimization of split ratios and thread counts is traditionally difficult and time-consuming."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sl85r5/the_llm_tunes_its_own_llamacpp_flags_54_toks_on/",
+      "date": "2026-04-14"
+    },
+    {
+      "id": "google-synthid-reverse-engineered",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "开发者声称已破解Google SynthID AI水印系统",
+        "en": "Developer Claims to Have Cracked Google's SynthID Watermarking"
+      },
+      "summary": {
+        "zh": "一名软件开发者声称已成功逆向工程了Google DeepMind的SynthID AI水印系统。该开发者在GitHub上开源了一个工具，据称可以去除AI生成图像的水印，或将水印注入到非AI作品中，并称破解过程仅消耗了200个Gemini token。Google官方否认了这些指控的真实性，坚持认为其水印系统在面对此类尝试时依然保持稳健。",
+        "en": "A software developer claims to have reverse-engineered Google DeepMind's SynthID, an AI watermarking system designed to identify AI-generated content. The developer has open-sourced a tool on GitHub that supposedly allows users to strip these watermarks or inject them into non-AI images, claiming the process only required 200 Gemini tokens to crack. Google has officially denied the validity of these claims, maintaining that their watermarking system remains robust against such attempts."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/911579/google-synthid-ai-watermarking-system-reverse-engineered",
+      "date": "2026-04-14"
+    }
+  ]
+}
