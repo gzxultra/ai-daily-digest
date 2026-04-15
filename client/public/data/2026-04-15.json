@@ -1,0 +1,254 @@
+{
+  "date": "2026-04-15",
+  "dateLabel": {
+    "zh": "2026年4月15日",
+    "en": "April 15, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-15T16:10:04Z",
+    "elapsedSeconds": 158,
+    "rawArticles": 59,
+    "afterFilter": 51,
+    "afterDedup": 46,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit r/MachineLearning": 1,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 2,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "claude-code-routines",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 为 Claude Code 推出 Routines 功能，实现复杂任务自动化",
+        "en": "Anthropic Launches Claude Code Routines for Complex Task Automation"
+      },
+      "summary": {
+        "zh": "Anthropic 为 Claude Code 推出了「Routines」功能，这是代理式开发者工具的一次重大进步。Routines 允许用户定义并自动化多步编码工作流，例如全库重构、自动化测试套件和文档更新。该功能在 Hacker News 上获得了 684 分的高热度，标志着 AI 编码从简单的聊天式生成转向能够管理整个软件生命周期的持久、自主代理。它解决了 AI 驱动工程任务中对一致性和可重复性的核心需求。",
+        "en": "Anthropic has introduced 'Routines' for Claude Code, a significant advancement in agentic developer tools. Routines allow users to define and automate multi-step coding workflows, such as repository-wide refactoring, automated testing suites, and documentation updates. With 684 points on Hacker News, this release signals a shift from simple chat-based code generation to persistent, autonomous agents capable of managing entire software lifecycles. It addresses the need for consistency and repeatability in AI-driven engineering tasks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://code.claude.com/docs/en/routines",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "gemma-4-iphone-offline",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google Gemma 4 实现 iPhone 原生运行，支持全离线 AI 推理",
+        "en": "Google Gemma 4 Achieves Full Offline Inference on iPhone"
+      },
+      "summary": {
+        "zh": "Google 最新的 Gemma 4 模型已成功移植到 iPhone 硬件上原生运行，实现了完全离线的 AI 推理。这一里程碑展示了小语言模型 (SLM) 的快速优化以及移动端神经网络处理器 (NPU) 日益增强的性能。通过消除云端依赖，这一进展显著提升了用户隐私保护，并降低了移动 AI 应用的延迟。社区正密切关注这将如何影响 Apple 原生智能与 Google 生态系统之间的竞争格局。",
+        "en": "Google's latest Gemma 4 model has been successfully ported to run natively on iPhone hardware, enabling full offline AI inference. This milestone demonstrates the rapid optimization of small language models (SLMs) and the increasing power of mobile Neural Processing Units (NPUs). By removing cloud dependency, this development offers significant improvements in user privacy and reduced latency for mobile AI applications. The community is closely watching how this impacts the competitive landscape between Apple's on-device intelligence and Google's ecosystem."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "chrome-skills-ai-tools",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Google 将一键式 AI 「Skills」直接集成至 Chrome 浏览器",
+        "en": "Google Integrates One-Click AI 'Skills' Directly into Chrome"
+      },
+      "summary": {
+        "zh": "Google 正在 Chrome 中推出「Skills」功能，允许用户将最有效的 AI 提示词转换为浏览器界面内的一键式工具。此举通过让非技术用户能够为摘要提取、语调调整或数据提取等任务创建自定义 AI 快捷方式，实现了提示词工程的大众化。通过将这些功能直接嵌入浏览器，Google 旨在让生成式 AI 成为日常网页浏览体验的无缝组成部分，这可能会对独立的 AI 套壳创业公司产生冲击。",
+        "en": "Google is rolling out 'Skills' in Chrome, a feature that allows users to transform their most effective AI prompts into one-click tools accessible within the browser interface. This move democratizes prompt engineering by allowing non-technical users to create custom AI shortcuts for tasks like summarization, tone adjustment, or data extraction. By embedding these capabilities directly into the browser, Google aims to make generative AI a seamless part of the daily web browsing experience, potentially disrupting standalone AI wrapper startups."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "claude-identity-verification",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 开始对 Claude 用户实施身份验证",
+        "en": "Anthropic Implements Identity Verification for Claude Users"
+      },
+      "summary": {
+        "zh": "Anthropic 更新了其服务条款，要求 Claude 用户在特定场景下进行身份验证。这一政策变化可能是为了应对监管机构日益增加的实施「了解你的客户」(KYC) 协议的压力，并减少大规模机器人滥用或账号共享行为。虽然此举旨在增强平台安全性和合规性，但在 AI 社区中引发了关于用户隐私以及访问先进 AI 模型可能增加门槛的辩论。",
+        "en": "Anthropic has updated its service terms to include identity verification requirements for Claude users in specific scenarios. This policy change is likely a response to increasing pressure from regulators to implement 'Know Your Customer' (KYC) protocols and to mitigate large-scale bot abuse or account sharing. While intended to enhance platform security and compliance, the move has sparked debate within the AI community regarding user privacy and the potential for increased friction in accessing advanced AI models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "us-v-heppner-ai-privilege",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国法院裁定律师-客户特权不适用于 AI 聊天记录",
+        "en": "US Court Rules No Attorney-Client Privilege for AI Chat Logs"
+      },
+      "summary": {
+        "zh": "在具有里程碑意义的 US v. Heppner (2026) 案中，纽约南区联邦法院裁定，律师-客户特权不适用于与 AI 聊天机器人的通信。法官认定，由于 AI 平台是第三方服务提供商而非法律代理人，与其共享敏感信息即构成了对保密性的放弃。这一裁决确立了关键的法律先例，警告法律专业人士：使用生成式 AI 进行案件策略分析或客户沟通可能会导致敏感数据在诉讼证据开示中被公开。",
+        "en": "In the landmark case US v. Heppner (2026), the S.D.N.Y. court ruled that attorney-client privilege does not apply to communications shared with AI chatbots. The judge determined that because AI platforms are third-party service providers and not legal agents, sharing sensitive information with them constitutes a waiver of confidentiality. This ruling sets a critical legal precedent, warning legal professionals that using generative AI for case strategy or client communication could expose sensitive data to discovery in litigation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "llm-social-engineering-jailbreaks",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究显示：大语言模型继承了人类对社交工程的心理弱点",
+        "en": "Study: LLMs Inherit Human Psychological Vulnerabilities to Social Engineering"
+      },
+      "summary": {
+        "zh": "一项分析五个案例研究的新报告显示，GPT-4 和 Claude 3.5 等大语言模型极易受到以人为中心的社交工程策略的影响。通过模拟同理心内疚、社会压力和身份动摇，研究人员成功绕过了安全对齐机制。研究表明，由于这些模型是在人类话语基础上训练的，它们继承了无需技术黑客手段即可被利用的心理弱点。这些发现将 AI 安全的重点转向保护模型免受复杂的心理操纵和认识论攻击。",
+        "en": "New research analyzing five case studies reveals that LLMs like GPT-4 and Claude 3.5 are susceptible to human-centric social engineering tactics. By simulating empathetic guilt, social pressure, and identity destabilization, researchers successfully bypassed safety alignments. The study suggests that because these models are trained on human discourse, they inherit psychological vulnerabilities that can be exploited without technical hacking. This findings shift the AI safety focus toward protecting models from sophisticated psychological manipulation and epistemic attacks."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sm70ix/jailbreaks_as_social_engineering_5_case_studies/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "model-graph-decomposition",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "将大语言模型分解为图数据库：实现无需重训的知识更新",
+        "en": "Decomposing LLMs into Graph Databases for Dynamic Knowledge Updates"
+      },
+      "summary": {
+        "zh": "一项新研究表明，静态大语言模型可以分解为图数据库，在每一层进行 k 最近邻 (kNN) 路径搜索在数学上等同于矩阵乘法。通过 Larql 项目实现的这一技术，允许开发者直接向图数据库插入新数据来更新模型的内部事实知识，而无需进行昂贵的重新训练。这种将权重视为图节点的方法使模型更新更具模块化和可解释性。这标志着神经网络向动态、可编辑方向迈出了重要一步，为实时修正模型偏差提供了新路径。",
+        "en": "A new research approach demonstrates that static LLM models can be decomposed into graph databases, where a k-nearest neighbor (kNN) walk on each layer is mathematically identical to matrix multiplication. This technique, implemented in the Larql project, allows for updating a model's internal factual knowledge by simply inserting new data into the graph database without the need for expensive retraining. By treating weights as nodes in a graph, researchers can achieve more modular and interpretable model updates. This represents a significant shift toward dynamic, editable neural networks that can be modified in real-time."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1slmfmw/you_can_decompose_models_into_a_graph_database_n/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "clawbench-agent-benchmark",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "ClawBench 基准发布：AI 智能体在真实网站任务中表现仍待提升",
+        "en": "ClawBench Evaluates AI Agents on 144 Real-World Production Websites"
+      },
+      "summary": {
+        "zh": "ClawBench 是一个全新的基准测试，旨在评估 AI 浏览器智能体在 144 个真实生产网站上的 153 项实际任务中的表现，摆脱了以往的合成环境。测试结果凸显了当前自主智能体的局限性：表现最好的 Claude Sonnet 4.6 成功率仅为 33.3%。值得注意的是，智谱 AI 的 GLM-5 以 24.2% 的成功率位居第二，作为一个纯文本模型在视觉主导的领域表现惊人。该基准为行业迈向可靠的 Web 端 AI 智能体提供了现实的衡量标准，揭示了复杂导航中的关键瓶颈。",
+        "en": "ClawBench is a new benchmark designed to evaluate AI browser agents on 153 real-world tasks across 144 live production websites, moving beyond synthetic environments. The results highlight the current limitations of autonomous agents, with the top-performing model, Claude Sonnet 4.6, achieving only a 33.3% success rate. Notably, Zhipu AI's GLM-5 secured second place with 24.2%, showing impressive performance for a text-only model in a visual domain. This benchmark provides a realistic baseline for the industry's progress toward reliable web-based AI agents and identifies key failure points in complex navigation."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1slf7pg/clawbench_can_ai_agents_complete_everyday_online/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "minimax-license-update",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "MiniMax 更新 M2.7 许可协议：允许个人用户免费部署",
+        "en": "MiniMax Updates M2.7 License to Permit Free Personal Use"
+      },
+      "summary": {
+        "zh": "MiniMax 更新了其 MiniMax-M2.7 模型的许可协议，为开发者社区明确了使用条款。新许可允许个人在自有服务器上免费运行该软件，用于编程、构建应用、开发智能体及进行科学研究等广泛活动。MiniMax 高管在社交媒体上确认了这一变动，旨在鼓励开源生态系统内的实验与集成。通过降低个人项目的准入门槛，MiniMax 在竞争激烈的模型市场中进一步提升了对开发者的吸引力，有助于扩大其模型架构的用户基础。",
+        "en": "MiniMax has updated the license for its MiniMax-M2.7 model, clarifying terms for the developer community. The new license permits free personal use on private servers for a wide range of activities, including coding, building applications, developing agents, and conducting research. This move, confirmed by MiniMax leadership on social media, aims to encourage experimentation and integration within the open-source ecosystem. By lowering barriers to entry for personal projects, MiniMax is positioning itself as a more developer-friendly alternative in the competitive LLM landscape, fostering a broader user base for its model architecture."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sltsiy/update_license_minimaxaiminimaxm27_at_edf8030/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "llama-cpp-expert-cache",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 引入动态专家缓存：MoE 模型推理提速 27%",
+        "en": "Dynamic Expert Cache Boosts llama.cpp Inference Speed by 27%"
+      },
+      "summary": {
+        "zh": "llama.cpp 的一项新优化引入了动态专家缓存技术，在运行 Qwen3.5-122B-A10B 等大型混合专家 (MoE) 模型时，使 CPU+GPU 混合推理速度提升了 27%。该系统通过跟踪过去 N 个 Token 中调用最频繁的专家，并优先将其保留在 VRAM 中，而非依赖传统的基于层的静态卸载。在非统一内存架构的消费级硬件上，生成速度从 15 tok/s 提升至 23 tok/s。这证明了智能内存管理在提升超大规模 MoE 模型本地部署性能方面的巨大潜力。",
+        "en": "A new optimization for llama.cpp introduces a dynamic expert cache, delivering a 27% speed boost for CPU+GPU token generation when running large MoE models like Qwen3.5-122B-A10B. The system tracks the most frequently routed experts over the past N tokens and prioritizes keeping them in VRAM rather than relying on static layer-based offloading. This approach increased generation speeds from 15 to 23 tokens per second on consumer hardware without a unified memory architecture. It demonstrates how intelligent memory management can significantly improve the local deployment of massive Mixture-of-Experts models on limited hardware."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1slue0z/hot_experts_in_your_vram_dynamic_expert_cache_in/",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "adobe-firefly-conversational-editing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Adobe 发布 Firefly AI 助手：开启对话式创意编辑新范式",
+        "en": "Adobe Firefly AI Assistant Shifts Creative Work to Conversational Prompts"
+      },
+      "summary": {
+        "zh": "Adobe 发布了 Firefly AI 助手，这是一种对话式界面，允许用户通过自然语言指令在 Creative Cloud 应用中进行复杂的创意编辑。这标志着从手动工具操作到基于意图编辑的根本转变，用户只需描述想要的改动，而无需操作复杂的技术菜单。该助手与 Adobe 现有生态深度集成，旨在降低专业级内容创作的门槛。通过将生成式 AI 作为主要交互界面，Adobe 正在重新定义下一代数字艺术家的工作流程，并大幅简化复杂的生产任务。",
+        "en": "Adobe has announced the Firefly AI Assistant, a conversational interface that allows users to perform complex creative edits across Creative Cloud apps using natural language prompts. This marks a fundamental shift from manual tool manipulation to intent-based editing, where users describe desired changes instead of navigating technical menus. The assistant integrates deeply with Adobe's existing ecosystem, aiming to lower the skill floor for professional-grade content creation. By embracing generative AI as a primary interface, Adobe is redefining the workflow for the next generation of digital artists and streamlining complex production tasks."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "apple-grok-deepfake-threat",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "苹果曾因深度伪造内容威胁下架 Grok 应用",
+        "en": "Apple Threatened to Ban Grok Over Nonconsensual Deepfake Surge"
+      },
+      "summary": {
+        "zh": "据报道，由于未能有效遏制 X 平台上非自愿性深度伪造内容的传播，苹果公司在今年年初曾威胁要将埃隆·马斯克的 AI 应用 Grok 从 App Store 下架。尽管这一警告是私下发出的，但它凸显了应用商店监管者与 AI 平台在内容审核和安全标准方面日益紧张的关系。苹果的干预强调了主流移动平台在强制执行 AI 安全政策中所扮演的监管角色。该事件反映了行业对生成式 AI 被武器化用于制造有害露骨内容的广泛担忧，以及分发平台应承担的责任。",
+        "en": "Apple reportedly threatened to remove Elon Musk's AI app, Grok, from the App Store earlier this year due to its failure to mitigate the spread of nonconsensual sexual deepfakes on the X platform. While the warning was issued privately, it underscores the growing tension between app store gatekeepers and AI platforms regarding content moderation and safety standards. Apple's intervention highlights the regulatory role that dominant mobile platforms play in enforcing AI safety policies. The incident reflects broader industry concerns about the weaponization of generative AI for creating harmful explicit content and the responsibility of distributors."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes",
+      "date": "2026-04-15"
+    }
+  ]
+}
