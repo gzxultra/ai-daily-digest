@@ -1,0 +1,255 @@
+{
+  "date": "2026-04-17",
+  "dateLabel": {
+    "zh": "2026年4月17日",
+    "en": "April 17, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-17T16:06:09Z",
+    "elapsedSeconds": 202,
+    "rawArticles": 57,
+    "afterFilter": 49,
+    "afterDedup": 45,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Cloudflare Blog": 2,
+      "Anthropic": 2,
+      "GitHub": 1,
+      "OpenAI": 1,
+      "Reddit": 4,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "cloudflare-ai-platform-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Cloudflare 发布专为智能体优化的 AI 推理平台",
+        "en": "Cloudflare Launches AI Inference Platform Optimized for Agents"
+      },
+      "summary": {
+        "zh": "Cloudflare 推出了专门为自主智能体（Agents）优化的 AI 推理平台。该平台利用其全球边缘网络提供超低延迟推理和集成的状态管理，解决了智能体工作流中频繁交互带来的延迟挑战。此举标志着 Cloudflare 正从简单的模型托管转向全面的智能体执行环境，致力于成为智能体经济的关键基础设施提供商，处理 AI 与 AI 之间通信的独特网络需求。",
+        "en": "Cloudflare has launched a specialized AI inference platform optimized specifically for autonomous agents. By leveraging its global edge network, the platform provides ultra-low latency inference and integrated state management, addressing the 'chattiness' and high-frequency interaction requirements of agentic workflows. This move positions Cloudflare as a critical infrastructure provider for the agent economy, moving beyond simple model hosting to a comprehensive execution environment that handles the unique networking demands of AI-to-AI communication."
+      },
+      "source": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/ai-platform/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "cloudflare-artifacts-git-agents",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Cloudflare Artifacts：为 AI 设计的 Git 兼容版本化存储",
+        "en": "Cloudflare Artifacts: Git-Compatible Versioned Storage for AI"
+      },
+      "summary": {
+        "zh": "Cloudflare 发布了 Artifacts，这是一个为 AI 智能体设计的、支持 Git 协议的版本化存储系统。它允许智能体使用熟悉的版本控制语义来存储、管理版本并协作处理数据，弥合了 LLM 输出与传统软件工程工作流之间的鸿沟。该 Beta 版的发布凸显了一个趋势：即以对待人类编写代码的严谨态度来处理智能体生成的内容，确保自动化系统的可审计性、分支管理和回滚能力。",
+        "en": "Cloudflare introduced Artifacts, a versioned storage system that implements the Git protocol specifically for AI agents. This allows agents to store, version, and collaborate on data using familiar version control semantics, bridging the gap between LLM outputs and traditional software engineering workflows. The beta release highlights a growing trend of treating agent-generated content with the same rigor as human-written code, ensuring full auditability, branching, and rollback capabilities for automated systems."
+      },
+      "source": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "anthropic-claude-opus-4-7",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 发布 Claude Opus 4.7，推理能力大幅提升",
+        "en": "Anthropic Releases Claude Opus 4.7 with Enhanced Reasoning"
+      },
+      "summary": {
+        "zh": "Anthropic 发布了其旗舰模型 Claude Opus 4.7，在复杂推理和长文本检索方面取得了显著的基准测试进步。此次更新重点减少了技术文档中的幻觉，并增强了模型在自主编程任务中遵循多步指令的能力。随着前沿模型竞争的加剧，Opus 4.7 旨在通过在关键任务应用中提供卓越的可靠性，巩固 Anthropic 在高端企业和研究领域的领先地位。",
+        "en": "Anthropic has released Claude Opus 4.7, the latest iteration of its flagship model, featuring significant benchmark gains in complex reasoning and long-context retrieval. The update focuses on reducing hallucinations in technical documentation and improving the model's ability to follow multi-step instructions in autonomous coding tasks. As the competition among frontier models intensifies, Opus 4.7 aims to maintain Anthropic's lead in the high-end enterprise and research segments by offering superior reliability in mission-critical applications."
+      },
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/claude/opus",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "anthropic-claude-design-labs",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude Design：人机协作的全新 UI/UX 工具集",
+        "en": "Claude Design: New UI/UX Tools for Human-AI Collaboration"
+      },
+      "summary": {
+        "zh": "Anthropic Labs 推出了「Claude Design」，这是一套集成在 Claude 生态系统中的全新 UI/UX 工具，旨在促进更好的人机协作。该计划专注于视觉画布功能和交互式组件，允许用户实时迭代 AI 生成的设计和代码。这一转变反映了行业向「半人马」工作流迈进的趋势，即对于提升实际生产力而言，交互界面和交互模型与底层 LLM 同样重要。",
+        "en": "Anthropic Labs unveiled 'Claude Design,' a new suite of UI/UX tools integrated into the Claude ecosystem to facilitate better human-AI collaboration. The initiative focuses on visual canvas features and interactive components that allow users to iterate on AI-generated designs and code in real-time. This shift reflects a broader industry move toward 'centaur' workflows, where the interface and interaction model are considered as important as the underlying LLM for driving actual productivity gains."
+      },
+      "source": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "sdl-bans-ai-commits",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "SDL 库正式禁止 AI 生成的代码提交",
+        "en": "SDL Library Officially Bans AI-Generated Code Commits"
+      },
+      "summary": {
+        "zh": "Simple DirectMedia Layer (SDL) 库的维护者正式禁止了 AI 生成的提交，理由是担心代码质量、可维护性和潜在的法律责任。这一决定在 Hacker News 上引发了关于 AI 代码可检测性以及自动化时代开源贡献未来的激烈辩论。该政策凸显了 AI 的快速普及与对高可靠性有严格要求的底层软件基础设施维护标准之间日益增长的摩擦。",
+        "en": "The maintainers of the Simple DirectMedia Layer (SDL) library have officially banned AI-written commits, citing concerns over code quality, maintainability, and potential legal liabilities. The decision sparked a heated debate on Hacker News regarding the detectability of AI code and the future of open-source contributions in an automated world. This policy highlights the growing friction between rapid AI adoption and the strict maintenance standards of foundational software infrastructure that requires high reliability."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/libsdl-org/SDL/issues/15350",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "openai-gpt-rosalind-life-sciences",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 推出专为生命科学研究设计的 GPT-Rosalind",
+        "en": "OpenAI Introduces GPT-Rosalind for Life Sciences Research"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了 GPT-Rosalind，这是一款专门为生命科学研究和药物研发微调的模型。该模型是与领先的生物制药伙伴合作开发的，在分子生物学、蛋白质折叠分析和化学合成规划方面表现出专家级性能。GPT-Rosalind 代表了 OpenAI 向垂直领域 AI 迈进的战略，为研究人员提供了比通用模型更能理解生物数据和科学文献细微差别的专业工具。",
+        "en": "OpenAI introduced GPT-Rosalind, a specialized model fine-tuned for life sciences research and drug discovery. Developed in collaboration with leading bio-pharma partners, the model demonstrates expert-level performance in molecular biology, protein folding analysis, and chemical synthesis planning. GPT-Rosalind represents OpenAI's strategic push into vertical-specific AI, providing researchers with a tool that understands the nuances of biological data and scientific literature far better than general-purpose models."
+      },
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-rosalind/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "resbm-transformer-compression",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ResBM：实现 128 倍激活压缩的新型 Transformer 架构",
+        "en": "ResBM: Residual Bottleneck Models for 128x Activation Compression"
+      },
+      "summary": {
+        "zh": "Macrocosmos 发布了关于 ResBM（残差瓶颈模型）的研究论文，这是一种专为低带宽流水线并行训练设计的新型 Transformer 架构。该架构在流水线边界引入了残差编码器-解码器瓶颈，在保持显式低秩特性的同时，实现了高达 128 倍的激活压缩。这一突破显著降低了阶段间的通信开销，使得在互连速度受限的硬件上进行大规模模型训练变得更加高效。",
+        "en": "Macrocosmos has introduced ResBM (Residual Bottleneck Models), a novel transformer architecture optimized for low-bandwidth pipeline-parallel training. By implementing a residual encoder-decoder bottleneck across pipeline boundaries, the model achieves a staggering 128x activation compression while maintaining a low-rank identity. This breakthrough significantly reduces inter-stage communication overhead, enabling efficient large-scale training on hardware with limited interconnect speeds."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sn6b90/resbm_a_new_transformerbased_architecture_for/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "llm-political-benchmark",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "新政治罗盘基准测试揭示主流大模型的立场偏见",
+        "en": "New Political Compass Benchmark Reveals Frontier LLM Biases"
+      },
+      "summary": {
+        "zh": "一项全新的开源基准测试发布，通过 14 个政策领域的 98 个结构化问题，将主流大模型映射到二维政治罗盘上。测试结果显示，月之暗面的 KIMI K2 在涉及敏感话题时无法回答，而 OpenAI 的 GPT-5.3 在提供退出选项时会拒绝回答 100% 的问题。该工具为理解 Claude 4.6 和 GPT-5.3 等顶尖模型的内在偏见和安全护栏提供了重要的透明度。",
+        "en": "A new open-source benchmark has been released to map frontier LLMs on a 2D political compass across 14 policy areas and 98 structured questions. Testing revealed that Alibaba's KIMI K2 avoids sensitive topics like Taiwan, while OpenAI's GPT-5.3 refuses 100% of questions when an opt-out is available. This tool provides critical transparency into the inherent biases and safety guardrails of state-of-the-art models like Claude 4.6 and GPT-5.3."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1smqsbu/built_an_political_benchmark_for_llms_kimi_k2/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "ternary-bonsai-158bit-model",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Ternary Bonsai：1.58 bit 量化下的高智能大语言模型",
+        "en": "Ternary Bonsai: High-Intelligence LLMs at 1.58-bit Quantization"
+      },
+      "summary": {
+        "zh": "Ternary Bonsai 系列语言模型正式发布，通过 1.58 bit 量化技术挑战效率极限。该系列在之前的 1 bit 研究基础上，旨在平衡极端的内存限制与商业应用的高精度需求。这一发布证明了三值权重表示法可以在大幅降低本地部署硬件要求的同时，保持「顶尖级」的智能水平，为边缘计算提供了新可能。",
+        "en": "The Ternary Bonsai family of language models has been announced, pushing the efficiency frontier with 1.58-bit quantization. Building on previous 1-bit research, these models are designed to balance extreme memory constraints with high accuracy requirements for commercial use. This release demonstrates that ternary weight representation can maintain top-tier intelligence while drastically reducing the hardware requirements for local deployment."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1snqo1f/ternary_bonsai_top_intelligence_at_158_bits/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "qwen-36-35b-moe-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "阿里发布 Qwen3.6-35B-A3B：仅 3B 激活参数的稀疏 MoE 模型",
+        "en": "Alibaba Releases Qwen3.6-35B-A3B: Sparse MoE with 3B Active Parameters"
+      },
+      "summary": {
+        "zh": "阿里巴巴开源了 Qwen3.6-35B-A3B，这是一款采用 Apache 2.0 协议的稀疏混合专家（MoE）模型。该模型总参数量为 35B，但每次推理仅需 3B 激活参数，其智能编程能力可媲美激活规模大十倍的模型。它具备强大的多模态推理能力，并引入了「思考」与「非思考」模式，以兼顾复杂逻辑处理与快速响应需求。",
+        "en": "Alibaba has open-sourced Qwen3.6-35B-A3B, a sparse Mixture-of-Experts (MoE) model under the Apache 2.0 license. Despite having 35B total parameters, it only uses 3B active parameters per inference, achieving agentic coding performance comparable to models ten times its active size. It features strong multimodal reasoning and introduces a thinking vs. non-thinking mode to optimize for both complex logic and rapid response."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3izh/qwen3635ba3b_released/",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "dairy-queen-ai-drive-thru",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Dairy Queen 在北美驱动餐厅部署 Presto AI 语音助手",
+        "en": "Dairy Queen Deploys Presto AI Chatbots in Drive-Thrus Across North America"
+      },
+      "summary": {
+        "zh": "继去年试点成功后，Dairy Queen 正准备在美加两国的数十家驱动餐厅（Drive-thru）部署由 Presto 开发的 AI 聊天机器人。该系统旨在提高服务速度，并通过自动追加销售建议来增加订单金额。此举顺应了快餐行业整合对话式 AI 的大趋势，旨在缓解劳动力短缺并提升运营效率。",
+        "en": "Dairy Queen is rolling out AI chatbots developed by Presto to dozens of drive-thru locations across the US and Canada following successful pilot tests. The system is designed to accelerate service speed and utilize upselling techniques to increase average order value. This move aligns with a broader industry trend where fast-food giants integrate conversational AI to mitigate labor shortages and improve operational efficiency."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "openai-codex-agentic-update",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "OpenAI 升级 Codex：支持计算机控制与长期记忆",
+        "en": "OpenAI Updates Codex with Computer Use and Long-Term Memory"
+      },
+      "summary": {
+        "zh": "OpenAI 对其 Codex 系统进行了重大升级，直接对标 Anthropic 的 Claude Code，并引入了 macOS 上的「计算机使用」功能。此次更新使 Codex 能够控制桌面应用程序、生成图像，并通过增强的记忆系统利用过往经验。这些智能体特性将 Codex 从简单的代码补全工具转变为具备复杂跨应用工作流处理能力的自主开发助手。",
+        "en": "OpenAI has significantly upgraded its Codex system to compete directly with Anthropic's Claude Code, introducing Computer Use capabilities on macOS. The update allows Codex to control desktop applications, generate images, and leverage past experiences through an enhanced memory system. These agentic features transform Codex from a simple code completion tool into a comprehensive autonomous development assistant capable of complex cross-app workflows."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+      "date": "2026-04-17"
+    }
+  ]
+}
