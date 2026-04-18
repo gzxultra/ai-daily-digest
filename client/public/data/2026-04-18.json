@@ -1,0 +1,254 @@
+{
+  "date": "2026-04-18",
+  "dateLabel": {
+    "zh": "2026年4月18日",
+    "en": "April 18, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-18T15:42:25Z",
+    "elapsedSeconds": 169,
+    "rawArticles": 50,
+    "afterFilter": 40,
+    "afterDedup": 38,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 3,
+      "GitHub": 1,
+      "X (Twitter)": 1,
+      "Reddit": 6,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "spice-claude-verification",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "利用 Claude Code 实现仿真与硬件实测的闭环验证",
+        "en": "Bridging Simulation and Hardware with Claude Code Verification"
+      },
+      "summary": {
+        "zh": "Lucas Gerads 展示了一种复杂的硬件工程工作流，该工作流将 SPICE 电路仿真与真实示波器数据相结合，并利用 Claude Code 进行自动验证。该流程涉及将仿真结果和物理测量数据导出为统一格式，由 AI 智能体对比波形以识别差异。这种方法显著减少了 PCB 调试和验证所需的人力。通过弥合理论设计与物理实现之间的鸿沟，它展示了由大模型驱动的工具如何处理简单软件编码之外的复杂多模态工程任务。",
+        "en": "Lucas Gerads has demonstrated a sophisticated hardware engineering workflow that integrates SPICE circuit simulations with real-world oscilloscope data, utilizing Claude Code for automated verification. The process involves exporting simulation results and physical measurements into a unified format where the AI agent compares waveforms to identify discrepancies. This approach significantly reduces the manual effort required for PCB debugging and validation. By bridging the gap between theoretical design and physical implementation, it showcases how LLM-powered tools can handle complex multi-modal engineering tasks beyond simple software coding."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://lucasgerads.com/blog/lecroy-mcp-spice-demo/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "agent-readiness-scanner",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "新工具可扫描网站对 AI 智能体的兼容性",
+        "en": "New Tool Scans Websites for AI Agent Compatibility"
+      },
+      "summary": {
+        "zh": "「Is It Agent Ready」的发布为网站所有者提供了一个诊断工具，用于评估自主 AI 智能体导航和处理其网页内容的效率。该扫描器评估关键因素，如语义化 HTML 结构、robots.txt 权限以及机器可读元数据或 API 的可用性。随着数字生态系统向「智能体优先」范式转变，该工具凸显了「智能体体验」(AX) 优化的日益必要性。确保网站能被基于大模型的爬虫读取，正变得与传统 SEO 对搜索引擎一样重要。",
+        "en": "The launch of 'Is It Agent Ready' provides website owners with a diagnostic tool to evaluate how effectively autonomous AI agents can navigate and process their web content. The scanner assesses critical factors such as semantic HTML structure, robots.txt permissions, and the availability of machine-readable metadata or APIs. As the digital ecosystem shifts toward an agent-first paradigm, this tool highlights the growing necessity of 'Agent Experience' (AX) optimization. Ensuring that sites are readable by LLM-based crawlers is becoming as vital for traffic as traditional SEO was for search engines."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://isitagentready.com",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "m-flow-graph-rag",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "m_flow 框架将 RAG 重心从相似性转向相关性",
+        "en": "m_flow Framework Shifts RAG Focus from Similarity to Relevance"
+      },
+      "summary": {
+        "zh": "FlowElement-ai 开源了 m_flow，这是一个旨在增强图检索增强生成 (RAG) 的新框架，它优先考虑上下文相关性而非简单的向量相似性。该项目认为，传统 RAG 经常检索到冗余或主题相关但无用的信息。通过在知识图谱中实现更精细的导航逻辑，m_flow 旨在提取直接针对用户特定意图的数据。这种技术转变对于减少幻觉和提高大模型在复杂企业知识管理系统中的响应精度至关重要。",
+        "en": "FlowElement-ai has open-sourced m_flow, a new framework designed to enhance Graph Retrieval-Augmented Generation (RAG) by prioritizing contextual relevance over simple vector similarity. The project argues that traditional RAG often retrieves redundant or topically related but unhelpful information. By implementing a more nuanced navigation logic within knowledge graphs, m_flow aims to extract data that directly addresses the user's specific intent. This technical shift is crucial for reducing hallucinations and improving the precision of LLM responses in complex enterprise knowledge management systems."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/FlowElement-ai/m_flow",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "claude-opus-malware-check",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Claude Code Opus 4.7 执行激进的恶意软件扫描",
+        "en": "Claude Code Opus 4.7 Implements Aggressive Malware Scanning"
+      },
+      "summary": {
+        "zh": "由 Opus 4.7 模型驱动的最新 Claude Code 迭代版用户报告称，该 AI 现在在开发任务期间频繁执行主动的恶意软件和漏洞安全检查。此更新反映了 Anthropic 对安全对齐的承诺，旨在防止生成有害代码或意外执行恶意脚本。虽然一些开发者赞赏这种集成安全层，但也有人对性能延迟和潜在的误报表示担忧，认为这可能会干扰合法的底层编程或安全研究活动。",
+        "en": "Users of the latest Claude Code iteration, powered by the Opus 4.7 model, have reported that the AI is now frequently performing proactive security checks for malware and vulnerabilities during development tasks. This update reflects Anthropic's commitment to safety alignment, aiming to prevent the generation of harmful code or the accidental execution of malicious scripts. While some developers appreciate the integrated security layer, others have expressed concerns regarding performance latency and potential false positives that could disrupt legitimate low-level programming or security research activities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=47814832",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "startup-slack-data-sale",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 公司购买破产初创公司的 Slack 数据",
+        "en": "AI Firms Purchase Slack Data from Bankrupt Startups"
+      },
+      "summary": {
+        "zh": "一种新的行业趋势是 AI 公司购买倒闭初创公司的 Slack 通讯存档，作为组织级大模型的高质量训练数据。这些数据集包含内部技术讨论、项目管理和专业人际动态的宝贵真实案例。然而，这种做法引发了关于前员工隐私的重大伦理和法律辩论，因为他们的私人职场对话在未经明确同意的情况下被商品化。这凸显了在生成式 AI 时代，公司清算过程中个人数据处理方式存在的监管空白。",
+        "en": "A new industry trend involves AI companies purchasing the Slack communication archives of failed startups as high-quality training data for organizational LLMs. These datasets contain invaluable real-world examples of internal technical discussions, project management, and professional interpersonal dynamics. However, the practice has sparked significant ethical and legal debates regarding the privacy of former employees whose private workplace conversations are being commodified without explicit consent. This highlights a regulatory gap in how personal data is handled during corporate liquidations in the age of generative AI."
+      },
+      "source": "X (Twitter)",
+      "sourceUrl": "https://twitter.com/_iainmartin/status/2044758204773486925",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "lidarlearn-pytorch-library",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "LIDARLearn：统一的 3D 深度学习 PyTorch 库",
+        "en": "LIDARLearn: A Unified PyTorch Library for 3D Deep Learning"
+      },
+      "summary": {
+        "zh": "研究人员发布了 LIDARLearn，这是一个旨在标准化 3D 点云深度学习的开源 PyTorch 库。该框架包含 56 种现成的配置，涵盖了监督学习、自监督学习和参数高效微调 (PEFT) 方法。它是同类框架中首个在单一位置支持如此庞大模型集合并内置交叉验证的框架。通过为基准测试和训练提供一致的接口，LIDARLearn 旨在加速自动驾驶、机器人和空间计算等以 3D 数据处理为基础的研究领域。",
+        "en": "Researchers have released LIDARLearn, an open-source PyTorch library designed to standardize 3D point cloud deep learning. The framework includes 56 ready-to-use configurations covering supervised, self-supervised, and parameter-efficient fine-tuning (PEFT) methods. It is the first framework of its kind to support such a vast collection of models in a single location with built-in cross-validation. By providing a consistent interface for benchmarking and training, LIDARLearn aims to accelerate research in autonomous driving, robotics, and spatial computing where 3D data processing is fundamental."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sou5u1/were_proud_to_opensource_lidarlearn_r_d_p/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "zero-shot-world-models-efficiency",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ZWM：以人类水平的数据效率实现视觉认知",
+        "en": "ZWM: Achieving Visual Competence with Human-Level Data Efficiency"
+      },
+      "summary": {
+        "zh": "研究人员推出了零样本世界模型（ZWM），这是数据高效学习领域的一项突破，旨在缩小 AI 与人类视觉发育之间的差距。目前的顶级模型需要海量数据，而 BabyZWM 仅通过单个儿童的视觉经验就实现了相当的视觉认知能力。该方法无需特定任务的训练，证明了世界模型可以用比以往认为的少几个数量级的数据来学习基础视觉概念，对未来低资源环境下的 AI 训练具有重要意义。",
+        "en": "Researchers introduced the Zero-shot World Model (ZWM), a breakthrough in data-efficient learning that aims to bridge the gap between AI and human visual development. While current SOTA models require massive datasets, BabyZWM achieves comparable visual-cognitive competence using only the visual experience of a single child. This approach eliminates the need for task-specific training, demonstrating that world models can learn fundamental visual concepts with orders of magnitude less data than previously thought possible."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "qwen-3-6-performance-boost",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen 3.6 在本地基准测试中展现显著性能提升",
+        "en": "Qwen 3.6 Shows Significant Performance Gains in Local Benchmarks"
+      },
+      "summary": {
+        "zh": "社区报告确认 Qwen 3.6 性能大幅提升，使其成为此前仅由 GPT-4 Opus 等模型处理的复杂工作负载的可行替代方案。用户指出，在正确配置（特别是开启「preserve_thinking」设置）后，该模型在专业任务中跨越了「可用性门槛」。在 M5 Max 等硬件上，通过 oMLX 进行 8 位量化运行，其速度可达每秒 100 个 token，标志着高性能本地大模型进入了新阶段。",
+        "en": "Community reports confirm a significant performance jump in Qwen 3.6, positioning it as a viable alternative for complex workloads previously reserved for models like GPT-4 Opus. Users highlight that the model crosses the 'barrier of usefulness' for professional tasks when properly configured, particularly with the 'preserve_thinking' setting enabled. Running on hardware like the M5 Max with 128GB RAM, the model achieves impressive speeds of 100 tokens/sec using 8-bit quantization via oMLX, signaling a new era for high-performance local LLMs."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1soq1es/qwen36_performance_jump_is_real_just_make_sure/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "qwen-3-6-consumer-hardware-agentic-tuning",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude 4.7 自动优化消费级 GPU 上的 Qwen 3.6 部署",
+        "en": "Claude 4.7 Autonomously Optimizes Qwen 3.6 on Consumer GPUs"
+      },
+      "summary": {
+        "zh": "用户在消费级硬件（RTX 5070 Ti 和 Ryzen 9800X3D）上成功运行了 Qwen 3.6-35B-A3B，在 128K 上下文下达到了每秒 79 个 token。值得注意的是，整个优化过程（包括配置、服务器部署、基准测试和 VRAM 调优）均由 Claude 4.7 Opus 自动完成。通过使用 llama.cpp 的「--n-cpu-moe」标志，该案例展示了先进 AI 智能体如何管理复杂的本地硬件编排，使非专业人士也能轻松部署高端大模型。",
+        "en": "A user successfully ran Qwen 3.6-35B-A3B on consumer-grade hardware (RTX 5070 Ti and Ryzen 9800X3D), achieving 79 tokens/sec with a 128K context window. Notably, the entire optimization process—including configuration, server deployment, benchmarking, and VRAM tuning—was handled autonomously by Claude 4.7 Opus. By using the '--n-cpu-moe' flag in llama.cpp, the setup demonstrates how advanced AI agents can now manage complex local hardware orchestration, making high-end LLM deployment accessible to non-experts."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sor55y/rtx_5070_ti_9800x3d_running_qwen3635ba3b_at_79_ts/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "cloudflare-unweight-lossless-compression",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Cloudflare 开源 Unweight：实现大模型无损压缩",
+        "en": "Cloudflare Open-Sources Unweight for Lossless LLM Compression"
+      },
+      "summary": {
+        "zh": "Cloudflare 开源了名为「Unweight」的无损大模型压缩工具，可在不损失输出准确性的情况下将模型大小减少 15-22%。在 Meta 的 Llama-3.1-8B 测试中，该工具通过压缩 MLP 权重，在 Nvidia H100 GPU 上成功节省了约 3 GB 的显存。Cloudflare 已在 GitHub 上发布了 GPU 内核，并计划将该技术扩展到注意力权重，为显存带宽受限的企业级大模型部署提供了显著的效率提升。",
+        "en": "Cloudflare has open-sourced 'Unweight,' a lossless LLM compression tool that reduces model size by 15–22% without any loss in output accuracy. Tested on Meta's Llama-3.1-8B, the tool successfully saved approximately 3 GB of VRAM on Nvidia H100 GPUs by compressing MLP weights. Cloudflare has released the GPU kernels on GitHub and plans to expand the technology to attention weights, offering a significant efficiency boost for enterprise-scale LLM deployments where memory bandwidth is a primary bottleneck."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sor438/cloudflare_opensources_lossless_llm_compression/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "ltx-2-3-audio-model-outputs",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "LTX-2.3 音频模型展示高保真戏剧化语音输出",
+        "en": "LTX-2.3 Audio Model Showcases High-Fidelity Theatrical Speech"
+      },
+      "summary": {
+        "zh": "基于 LTX-2.3 模型的新音频输出已发布，展示了高保真的表现力语音和戏剧化细节。该模型能够处理复杂的情感线索，例如「反派笑声」，实现了从轻笑到狂笑的真实过渡。这一发布突显了本地音频生成技术的持续进步，模型正日益擅长捕捉人类细微的声线特征（如呼吸停顿和语调转变），从平淡的文字转语音向真正的角色表演演进。",
+        "en": "New audio outputs based on the LTX-2.3 model have surfaced, demonstrating high-fidelity expressive speech and theatrical nuance. The model showcases an ability to handle complex emotional cues, such as a 'villainous laugh' with realistic transitions from soft chuckling to full-blown theatrical menace. This release highlights the ongoing progress in local audio generation, where models are increasingly capable of capturing subtle human vocal traits like breath catches and shifts in tone, moving beyond flat text-to-speech toward genuine character performance."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sopvs6/ltx23_based_audio_model_outputs/",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "openai-sora-lead-departure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI Sora 负责人 Bill Peebles 在战略转型中离职",
+        "en": "OpenAI Sora Lead Bill Peebles Departs Amid Strategic Pivot"
+      },
+      "summary": {
+        "zh": "OpenAI Sora 视频生成团队负责人 Bill Peebles 宣布离职，此前该公司已于上月决定降低该工具的优先级。这一变动标志着 OpenAI 战略的重大转向：从创意视频生成等「支线任务」转向更专注于编程助手和企业级 AI 解决方案。Peebles 的离职是 OpenAI 近期领导层变动浪潮的一部分，反映了该公司正从实验性媒体工具转向商业化和实用性更强的领域。",
+        "en": "Bill Peebles, the leader of OpenAI's Sora video generation team, has announced his departure following the company's decision to deprioritize the tool last month. This exit marks a significant shift in OpenAI's strategy as it moves away from 'side quests' like creative video generation to focus more heavily on coding assistants and enterprise-grade AI solutions. Peebles' departure is part of a broader wave of leadership changes at OpenAI, reflecting the organization's pivot toward commercialization and practical utility over experimental media tools."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+      "date": "2026-04-18"
+    }
+  ]
+}
