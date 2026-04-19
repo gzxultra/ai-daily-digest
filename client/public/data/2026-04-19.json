@@ -1,0 +1,251 @@
+{
+  "date": "2026-04-19",
+  "dateLabel": {
+    "zh": "2026年4月19日",
+    "en": "April 19, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-19T15:42:21Z",
+    "elapsedSeconds": 153,
+    "rawArticles": 39,
+    "afterFilter": 34,
+    "afterDedup": 30,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit": 7
+    }
+  },
+  "news": [
+    {
+      "id": "wasm-gpu-apple-silicon",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "在 Apple Silicon 上实现 WebAssembly 零拷贝 GPU 推理",
+        "en": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon"
+      },
+      "summary": {
+        "zh": "一项新技术实现了在 Apple Silicon 上通过 WebAssembly (Wasm) 进行零拷贝 GPU 推理。通过绕过 CPU 和 GPU 之间传统的内存复制开销，该实现显著降低了基于浏览器的机器学习的延迟和功耗。这一进展对于「本地 AI」运动至关重要，使复杂模型能够在 Web 环境中以接近原生的速度运行，同时兼顾隐私和性能。",
+        "en": "A new technical breakthrough enables zero-copy GPU inference from WebAssembly (Wasm) specifically optimized for Apple Silicon. By bypassing the traditional memory copying overhead between the CPU and GPU, this implementation significantly reduces latency and power consumption for browser-based machine learning. This development is crucial for the Local AI movement, allowing complex models to run at near-native speeds within web environments without sacrificing privacy or performance."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "state-of-ai-2026-graphs",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "通过图表解读 2026 年 AI 发展现状",
+        "en": "Graphs that Explain the State of AI in 2026"
+      },
+      "summary": {
+        "zh": "IEEE Spectrum 的 2026 年 AI 指数报告揭示了行业的关键转变，包括原始算力扩展进入平台期以及专用架构效率的兴起。数据显示，尽管资本支出依然高企，但重点已转向能效推理和智能体自主性。这些图表全面展示了 AI 格局如何从实验性大语言模型演变为占据全球企业基础设施主导地位的集成多模态系统。",
+        "en": "IEEE Spectrum's 2026 AI Index highlights critical shifts in the industry, including the plateauing of raw compute scaling and the rise of specialized architectural efficiency. The data shows that while capital expenditure remains high, the focus has shifted toward energy-efficient inference and agentic autonomy. These graphs provide a comprehensive look at how the AI landscape has matured from experimental LLMs to integrated, multi-modal systems that dominate global enterprise infrastructure."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "claude-opus-4-7-analysis",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Claude Opus 4.7 智能、性能与价格深度分析",
+        "en": "Claude Opus 4.7 Intelligence, Performance and Price Analysis"
+      },
+      "summary": {
+        "zh": "Artificial Analysis 发布了对 Anthropic Claude 4.7 Opus 的深度评测，评估了其智能、速度和定价结构。该模型在复杂推理任务上比前代提升了 15%，同时在高端前沿模型市场中保持了极具竞争力的性价比。分析强调了其在长文本检索和代码辅助方面的卓越表现，使其成为企业级智能体工作流的首选。",
+        "en": "Artificial Analysis has released a deep dive into Anthropic's Claude 4.7 Opus, evaluating its intelligence, speed, and pricing structure. The model demonstrates a 15% improvement in complex reasoning tasks over its predecessor while maintaining a competitive price-to-performance ratio in the high-end frontier model market. The analysis highlights its superior performance in long-context retrieval and coding assistance, positioning it as a top-tier choice for enterprise-grade agentic workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://artificialanalysis.ai/models/claude-opus-4-7",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "iran-ai-propaganda-war",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "在 AI 宣传战中，伊朗正占据上风",
+        "en": "In the AI Propaganda War, Iran is Winning"
+      },
+      "summary": {
+        "zh": "《经济学人》的一篇报告详细描述了伊朗如何有效利用生成式 AI 在数字宣传领域占据优势。通过自动化创建超写实的深度伪造内容和本地化的影响力行动，伊朗国家行为体以前所未有的效率扩大了其信息战规模。这一进展凸显了民主机构在对抗 AI 驱动的虚假信息方面面临的日益严峻的挑战，因为高质量心理战的成本正在持续下降。",
+        "en": "A report by The Economist details how Iran is effectively leveraging generative AI to dominate the digital propaganda landscape. By automating the creation of hyper-realistic deepfakes and localized influence campaigns, Iranian state actors have scaled their information operations with unprecedented efficiency. This development underscores the growing challenge for democratic institutions to combat AI-driven disinformation, as the cost of high-quality psychological warfare continues to plummet."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.economist.com/culture/2026/04/17/in-the-ai-propaganda-war-iran-is-winning",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "fake-claude-malware-scam",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "虚假 Claude 网站通过钓鱼攻击安装恶意软件",
+        "en": "Fake Claude Site Installs Malware via Phishing"
+      },
+      "summary": {
+        "zh": "安全研究人员发现了一项复杂的网络钓鱼活动，利用虚假的 Claude AI 网站分发恶意软件。该网站模仿 Anthropic 的界面，诱骗用户下载桌面客户端，而该客户端实际上会安装远程访问木马 (RAT)。这一事件凸显了攻击者利用知名 AI 品牌的流行度来入侵个人和企业系统的趋势日益增长，强调了提高用户警惕和验证官方来源的必要性。",
+        "en": "Security researchers have identified a sophisticated phishing campaign using a fraudulent Claude AI website to distribute malware. The site mimics Anthropic's interface to trick users into downloading a desktop client that actually installs a remote access trojan (RAT). This incident highlights the increasing trend of attackers exploiting the popularity of leading AI brands to compromise personal and corporate systems, emphasizing the need for heightened user vigilance and official source verification."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "iclr-2026-open-source-papers",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "1,200 篇 ICLR 2026 论文已公开代码或数据",
+        "en": "1,200 ICLR 2026 Papers with Public Code or Data"
+      },
+      "summary": {
+        "zh": "一份全面的汇总显示，在 ICLR 2026 接收的 5,300 多篇论文中，约有 1,200 篇（22%）发布了公开代码、数据或演示。该数据集直接从提交内容中提取，为希望复现结果并基于最新机器学习进展进行开发的学者提供了重要资源。开源成果比例相对较低，也引发了学术界关于现代 AI 研究可复现性和「开放性」的持续讨论。",
+        "en": "A comprehensive compilation reveals that approximately 1,200 out of 5,300 accepted papers (22%) for ICLR 2026 have released public code, data, or demos. This dataset, extracted directly from submissions, provides a vital resource for researchers looking to reproduce results and build upon the latest advancements in machine learning. The relatively low percentage of open-source artifacts highlights ongoing discussions within the academic community regarding reproducibility and the openness of modern AI research."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "gemma-4-finetuning-challenges",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "自定义层架构阻碍 Gemma-4 微调适配",
+        "en": "Gemma-4 Fine-tuning Blocked by Custom Layer Architecture"
+      },
+      "summary": {
+        "zh": "机器学习团队在对谷歌 Gemma-4 进行微调时遇到了显著障碍，主要原因是 PEFT 库无法识别其自定义层。谷歌在视觉和音频投影中采用了全新的 「ClippableLinear」 类，由于该类未继承自 「nn.Linear」，导致 LoRA 无法正常挂载。这一架构变动意味着现有的微调工具链需要针对多模态组件进行手动适配或更新，凸显了新颖模型架构在集成过程中的挑战。",
+        "en": "Machine learning teams report significant friction fine-tuning Google's Gemma-4 using standard PEFT libraries. The issue stems from Google's use of a new ClippableLinear class for vision and audio projections, which does not inherit from nn.Linear, causing LoRA attachment failures. This architectural change requires manual intervention or updates to the PEFT framework to support multimodal fine-tuning, highlighting the ongoing integration challenges with novel model architectures."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "easyaligner-gpu-forced-alignment",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "easyaligner：支持 GPU 加速的语音强制对齐工具",
+        "en": "easyaligner: GPU-Accelerated Forced Alignment for Speech Data"
+      },
+      "summary": {
+        "zh": "开源社区推出了名为 easyaligner 的强制对齐库，旨在优化语音转文本预处理流程。该工具支持 GPU 加速和灵活的文本归一化，并全面兼容 Hugging Face 上的所有 Wav2Vec 2.0 模型。它解决了在大规模语音训练（数十万小时数据）中常见的性能瓶颈，为开发者提供了一个比现有开源方案更高效的选择。",
+        "en": "A new open-source library called easyaligner has been released to streamline forced alignment for speech-to-text preprocessing. It features GPU acceleration and flexible text normalization, supporting all Wav2Vec 2.0 models available on the Hugging Face Hub. The tool aims to solve performance bottlenecks when processing hundreds of thousands of hours of audio data for model training, offering a more performant alternative to existing open-source solutions."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1soyqfw/easyaligner_forced_alignment_with_gpu/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "llamacpp-speculative-checkpointing",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 合并投机采样功能显著提升推理速度",
+        "en": "llama.cpp Merges Speculative Checkpointing for Inference Speedup"
+      },
+      "summary": {
+        "zh": "llama.cpp 项目正式合并了投机采样（Speculative Checkpointing）功能（PR #19493），显著提升了本地大模型的推理速度。在编程任务中，通过配置 「--spec-type ngram-mod」 等参数，用户观察到最高达 50% 的提速。尽管如此，提速效果高度依赖于任务类型和重复模式，在草稿接受率较低的情况下，性能提升并不明显。",
+        "en": "The llama.cpp project has officially merged speculative checkpointing (PR #19493), offering a significant performance boost for local LLM inference. Users report speedups of up to 50% in coding tasks using specific parameters like --spec-type ngram-mod and large draft windows. However, the efficiency gains are highly dependent on task type and repetition patterns, with low draft acceptance streaks yielding minimal improvements in non-repetitive prompts."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sprdm8/llamacpp_speculative_checkpointing_was_merged/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "qwen-3-6-35b-performance-mac",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen 3.6 35B 在 Mac M5 Max 测试中表现媲美 Claude",
+        "en": "Qwen 3.6 35B Rivals Claude in Local Mac M5 Max Testing"
+      },
+      "summary": {
+        "zh": "在 Apple M5 Max 芯片上的初步测试显示，Qwen 3.6 35B 模型的表现已可媲美 Claude。该模型在 8-bit 量化和 64k 上下文窗口下运行，在复杂调研任务和多步工具调用中表现出色。它成功诊断了 Android 应用中复杂的序列化问题，证明了中等规模本地模型在专业软件开发工作流中的巨大潜力。",
+        "en": "Early testing of the Qwen 3.6 35B model on Apple Silicon (M5 Max) shows performance levels rivaling Claude for complex engineering tasks. Running with 8-bit quantization and a 64k context window, the model demonstrated high proficiency in multi-step tool calls and long-context research. Specifically, it successfully diagnosed intricate Android serialization issues, highlighting the growing viability of mid-sized local models for professional software development workflows."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1spdvpo/im_running_qwen3635ba3b_with_8_bit_quant_and_64k/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "qwen-9b-scaffold-optimization",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "优化框架使 Qwen 9B 编程基准测试得分提升 2.4 倍",
+        "en": "Optimized Scaffold Boosts Qwen 9B Coding Score by 2.4x"
+      },
+      "summary": {
+        "zh": "一项针对 Qwen 3.5 9B 的对比研究表明，编程智能体的表现乏力往往源于框架（Scaffold）不匹配而非模型本身。通过将原生 Aider 框架更换为针对小型本地模型优化的框架，其在 Polyglot 基准测试中的得分从 19.1% 飙升至 45.6%。这种 2.4 倍的提升证明，对于小模型而言，提示词工程和智能体结构的设计与参数规模同样重要。",
+        "en": "A comparative study using Qwen 3.5 9B weights reveals that model weakness in coding agents is often a result of scaffold mismatch. By switching from vanilla Aider to a scaffold optimized for small local models, performance on the Polyglot benchmark jumped from 19.1% to 45.6%. This massive improvement suggests that prompt engineering and agentic structure are as critical as raw parameter count for maximizing the utility of small-scale models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1spufzz/same_9b_qwen_weights_191_in_aider_vs_456_with_a/",
+      "date": "2026-04-19"
+    },
+    {
+      "id": "qwen-3-6-browser-os",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen 3.6 35B 成功实现功能性浏览器操作系统",
+        "en": "Qwen 3.6 35B Successfully Implements Functional Browser OS"
+      },
+      "summary": {
+        "zh": "开发者利用 Qwen 3.6 35B 成功实现了一个功能性的「浏览器操作系统」（Browser OS），这标志着本地模型推理能力的又一里程碑。该成果突显了该模型在代码生成方面相较于前代开源模型的显著进步。该项目证明，35B 级别的模型现在已具备构建复杂交互式软件环境的能力，而此类任务此前通常需要顶尖的闭源模型才能完成。",
+        "en": "A developer has successfully used Qwen 3.6 35B to implement a functional Browser OS, marking a milestone for local model reasoning capabilities. This achievement highlights the model's superior code generation abilities compared to previous open-source iterations. The project demonstrates that 35B-class models are now capable of architecting complex, interactive software environments that were previously only achievable by the largest proprietary frontier models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1spubyp/browser_os_implemented_by_qwen_36_35b_the_best/",
+      "date": "2026-04-19"
+    }
+  ]
+}
