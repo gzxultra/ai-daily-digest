@@ -1,0 +1,255 @@
+{
+  "date": "2026-04-22",
+  "dateLabel": {
+    "zh": "2026年4月22日",
+    "en": "April 22, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-22T16:12:20Z",
+    "elapsedSeconds": 153,
+    "rawArticles": 56,
+    "afterFilter": 47,
+    "afterDedup": 41,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Reuters": 1,
+      "Bluesky": 1,
+      "Brex": 1,
+      "LWN.net": 1,
+      "Reddit": 5,
+      "The Verge AI": 3
+    }
+  },
+  "news": [
+    {
+      "id": "meta-employee-monitoring-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta 将记录员工按键与鼠标轨迹用于 AI 训练",
+        "en": "Meta to Capture Employee Keystrokes for AI Training"
+      },
+      "summary": {
+        "zh": "Meta 宣布了一项备受争议的政策，将开始记录员工的鼠标移动和按键记录，用于训练其内部 AI 模型。该计划旨在捕捉资深工程师的「隐性知识」和工作流，以提升 AI 智能体的推理和自动化能力。尽管 Meta 声称数据将被匿名化处理，但此举引发了关于职场监控和隐私权的巨大争议。这反映出随着公共数据资源趋于枯竭，科技巨头正采取极端手段来获取高质量、专有的真人交互数据。",
+        "en": "Meta has announced a controversial policy to capture employee mouse movements and keystrokes to generate high-quality training data for its internal AI models. This initiative aims to capture the 'tacit knowledge' and workflows of experienced engineers to improve agentic reasoning and automation. While Meta claims the data will be anonymized, the move has sparked significant privacy concerns and internal debate regarding workplace surveillance. This highlights the extreme measures tech giants are taking to secure proprietary, high-fidelity human interaction data as public data sources become exhausted."
+      },
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "claude-code-pro-removal",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 或将 Claude Code 移出 Pro 订阅计划",
+        "en": "Anthropic May Remove Claude Code from Pro Plan"
+      },
+      "summary": {
+        "zh": "有报道称 Anthropic 可能计划将专门的编程接口「Claude Code」从每月 20 美元的 Claude Pro 标准订阅中移除。这一潜在转变表明，随着长上下文编程任务的计算成本不断攀升，该公司正转向按需计费模式或更高等级的「开发者」计划。社区对此反应激烈，用户对原本捆绑的功能被拆分表示不满。这反映了 AI 行业的一个普遍趋势：面对高算力消耗的智能体工具，各大实验室正难以维持固定费率的定价模式。",
+        "en": "Reports suggest Anthropic may be planning to remove 'Claude Code,' its specialized coding interface, from the standard $20/month Claude Pro subscription. This potential shift indicates a move toward a usage-based pricing model or a higher-tier 'Developer' plan as the computational costs of long-context coding tasks escalate. The community response has been largely critical, with users expressing frustration over the fragmentation of features that were previously bundled. This reflects a broader industry trend where AI labs are struggling to maintain flat-rate pricing for high-compute agentic tools."
+      },
+      "source": "Bluesky",
+      "sourceUrl": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "brex-crabtrap-agent-security",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Brex 发布 CrabTrap：基于 LLM 裁判的智能体安全代理",
+        "en": "Brex Releases CrabTrap: LLM-as-a-Judge Security Proxy"
+      },
+      "summary": {
+        "zh": "Brex 推出了 CrabTrap，这是一个开源的 HTTP 代理，旨在通过「LLM 作为裁判」的架构确保生产环境中 AI 智能体的安全。CrabTrap 会拦截智能体发出的请求，并利用一个较小的辅助 LLM 在请求发送到互联网前验证其是否符合安全策略。这为防止提示词注入和智能体行为偏移提供了关键防御层，且无需修改智能体的核心逻辑。通过将安全检查外部化，Brex 为企业部署高可信度的自主系统提供了一种可扩展的模式。",
+        "en": "Brex has introduced CrabTrap, an open-source HTTP proxy designed to secure AI agents in production using an 'LLM-as-a-judge' architecture. CrabTrap intercepts outgoing requests from agents and uses a secondary, smaller LLM to validate that the actions align with safety policies before they reach the internet. This provides a critical layer of defense against prompt injection and autonomous agent drift without requiring changes to the agent's core logic. By externalizing safety checks, Brex offers a scalable pattern for enterprises to deploy autonomous systems with higher confidence."
+      },
+      "source": "Brex",
+      "sourceUrl": "https://www.brex.com/crabtrap",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "linux-kernel-llm-security-removals",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "LLM 生成的安全报告引发 Linux 内核代码删除潮",
+        "en": "LLM-Generated Security Reports Drive Kernel Code Removals"
+      },
+      "summary": {
+        "zh": "Linux 内核社区近期出现了由大语言模型（LLM）生成的安全漏洞报告驱动的代码删除潮。虽然部分报告识别出了真实的遗留漏洞，但维护者对大量需要人工筛选的「幻觉」或低质量报告表示担忧。这种情况凸显了 AI 在网络安全中的双刃剑效应：虽然 LLM 能快速扫描大规模代码库，但也可能给开源维护者带来海量的自动化噪音。这一现状正迫使关键基础设施项目重新评估如何处理自动化的安全披露。",
+        "en": "The Linux kernel community is seeing an uptick in code removals driven by security vulnerability reports generated by Large Language Models. While some reports identify legitimate legacy bugs, maintainers are raising concerns about the volume of 'hallucinated' or low-quality reports that require manual triage. This friction highlights the double-edged sword of AI in cybersecurity: while LLMs can rapidly scan massive codebases for patterns, they also risk overwhelming open-source maintainers with automated noise. The situation is forcing a re-evaluation of how automated security disclosures are handled in critical infrastructure projects."
+      },
+      "source": "LWN.net",
+      "sourceUrl": "https://lwn.net/Articles/1068928/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "spiral-int3-metal-kernels",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Spiral：针对 Mac 优化的 INT3 压缩与融合 Metal 内核",
+        "en": "Spiral: INT3 Compression and Fused Metal Kernels for Mac"
+      },
+      "summary": {
+        "zh": "一位独立研究员发布了「Spiral」框架，其特点是采用 INT3 模型压缩技术，并针对苹果 M 系列芯片优化了自定义融合 Metal 内核。该项目实现了高保真压缩，困惑度仅增加 0.14 nats，并为长程任务引入了 2-bit KV 缓存。目前该框架已支持 Qwen 7B，通过绕过标准量化瓶颈，在本地硬件上实现了显著的性能提升。这项工作突显了通过专门的内核工程，在消费级芯片上运行复杂低比特推理的可行性正日益增强。",
+        "en": "A solo researcher has released 'Spiral,' a framework featuring INT3 model compression and custom-fused Metal kernels optimized for Apple M-series chips. The project achieves high-fidelity compression with only a +0.14 nats increase in perplexity and introduces a 2-bit KV cache for long-horizon tasks. Currently supporting Qwen 7B, the implementation demonstrates significant performance gains on local hardware by bypassing standard quantization bottlenecks. This work highlights the growing viability of sophisticated, low-bit inference on consumer-grade silicon through specialized kernel engineering."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ssdt0z/int3_compressionfused_metal_kernels_r/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "chaperone-thinking-deepseek-r1",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Chaperone 开源 32B 推理模型：MedQA 准确率达 84%",
+        "en": "Chaperone-Thinking-LQ-1.0: 32B Model Hits 84% on MedQA"
+      },
+      "summary": {
+        "zh": "Chaperone 团队开源了 Chaperone-Thinking-LQ-1.0，这是一个基于 DeepSeek-R1 的 32B 推理模型，在 MedQA 基准测试中达到了 84% 的准确率。该模型采用 4-bit GPTQ 量化结合量化感知训练（QAT），将原始 60GB 的体积压缩至 20GB，同时保持了高精度。通过在量化基础上应用 QLoRA 微调，研究人员成功以显存高效的格式保留了模型的复杂推理能力。该发布为 RTX 3090/4090 等单块消费级 GPU 运行强大的医疗领域推理工具提供了可能。",
+        "en": "The Chaperone team has open-sourced Chaperone-Thinking-LQ-1.0, a 32B reasoning model based on DeepSeek-R1 that achieves 84% on the MedQA benchmark. The model utilizes 4-bit GPTQ quantization combined with Quantization-Aware Training (QAT) to compress the original 60GB footprint down to 20GB while maintaining high accuracy. By applying QLoRA fine-tuning on top of the quantized base, the researchers successfully preserved the model's complex reasoning capabilities in a memory-efficient format. This release provides a powerful medical-domain reasoning tool capable of running on single consumer GPUs like the RTX 3090/4090."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1srz54u/we_opensourced_chaperonethinkinglq10_a_4bit_gptq/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "qwen-3-6-27b-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "阿里巴巴发布 Qwen 3.6 27B 模型",
+        "en": "Alibaba Releases Qwen 3.6 27B Model"
+      },
+      "summary": {
+        "zh": "阿里巴巴正式发布了 Qwen 3.6 27B，这是其开源模型系列的最新迭代版本。该模型已在 Hugging Face 上架，旨在参数量与本地执行性能之间取得平衡。社区初步反馈显示，与 3.5 系列相比，新版本在推理能力和多语言支持方面有显著提升。此次发布进一步巩固了 Qwen 作为开发者寻求高性能、可部署本地大模型首选的地位。",
+        "en": "Alibaba has officially released Qwen 3.6 27B, the latest iteration in its open-source model series. Available on Hugging Face, this model aims to provide a high-performance balance between parameter count and local execution capabilities. Early community feedback suggests significant improvements in reasoning and multilingual support compared to the 3.5 series. This release reinforces Qwen's position as a leading choice for developers seeking powerful, deployable local LLMs."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ssl1xh/qwen_36_27b_is_out/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "qwen-3-6-agentic-performance",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Qwen 3.6 35B 通过智能体架构比肩云端模型",
+        "en": "Qwen 3.6 35B Matches Cloud Models via Agentic Scaffolding"
+      },
+      "summary": {
+        "zh": "最新基准测试显示，Qwen 3.6 35B 在配合「little-coder」智能体架构时，在 Polyglot 排行榜上取得了 78.7% 的成功率。这一表现使该中型模型跻身前十，足以与更大型的闭源云端模型竞争。研究结果强调了行业趋势：复杂的智能体工作流可以弥补本地模型与前沿模型之间的差距。实验表明，通过优化架构封装，同系列模型的性能从 19.11% 大幅提升至 45% 以上。",
+        "en": "New benchmarks reveal that Qwen 3.6 35B, when paired with the 'little-coder' agentic scaffold, achieves a 78.7% success rate on the Polyglot leaderboard. This performance places the mid-sized model in the top 10, making it competitive with much larger proprietary cloud models. The results highlight a shift in the industry where sophisticated agentic workflows can bridge the gap between local and frontier models. This 'scaffolding effect' saw performance jump from 19.11% to over 45% in previous iterations of the same architecture."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ssilc3/qwen3635b_becomes_competitive_with_cloud_models/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "mit-imo-mathnet-dataset",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "MIT 与 IMO 发布全球最大奥数数据集 MathNet",
+        "en": "MIT and IMO Launch MathNet, the Largest Olympiad Dataset"
+      },
+      "summary": {
+        "zh": "MIT CSAIL 与国际数学奥林匹克 (IMO) 联合发布了 MathNet，这是全球最大的数学推理数据集。MathNet 的规模是此前同类数据集的 5 倍，涵盖了过去 40 年间来自 40 多个国家的竞赛题目及解答。这一开源贡献预计将显著加速具备复杂多步逻辑推理能力的 AI 模型的开发。该数据集为测试当前大语言模型数学能力的极限提供了严苛的基准。",
+        "en": "MIT CSAIL and the International Mathematical Olympiad (IMO) have released MathNet, the largest dataset of its kind for mathematical reasoning. MathNet is five times larger than previous datasets, containing problems and solutions sourced from over 40 countries spanning four decades. This open-source contribution is expected to significantly accelerate the development of AI models capable of complex, multi-step logical reasoning. The dataset provides a rigorous benchmark for testing the limits of current LLM mathematical capabilities."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ssirpf/mit_the_imo_released_mathnet_the_worlds_largest/",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "anthropic-mythos-security-breach",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 的 Mythos 网络安全模型遭未经授权访问",
+        "en": "Anthropic's Mythos Cybersecurity Model Accessed by Unauthorized Users"
+      },
+      "summary": {
+        "zh": "据报道，Anthropic 专门开发的网络安全模型「Mythos」因第三方外包人员的安全疏漏，被一小群未经授权的用户访问。Mythos 原本设计为强大的防御性安全工具，但 Anthropic 此前曾警告称，若被用于攻击目的将极具危险性。此次泄露是通过私人论坛中的社交工程和技术手段实现的。该事件引发了公众对顶尖 AI 实验室在处理敏感前沿模型时的安全协议及供应链安全的严重质疑。",
+        "en": "Anthropic's specialized cybersecurity model, 'Mythos,' has reportedly been accessed by unauthorized users following a security lapse involving a third-party contractor. Mythos was designed as a powerful tool for defensive security, but Anthropic previously warned of its potential danger if misused for offensive purposes. The breach occurred through a mix of social engineering and technical tactics within a private online forum. This incident raises critical questions about the safety protocols and supply chain security of leading AI labs handling sensitive frontier models."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "spacex-cursor-acquisition-deal",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "SpaceX 拟以 600 亿美元收购 AI 编程平台 Cursor",
+        "en": "SpaceX Eyes $60 Billion Acquisition of AI Coding Platform Cursor"
+      },
+      "summary": {
+        "zh": "SpaceX 宣布了一项价值 600 亿美元的巨额交易，计划收购领先的 AI 编程平台 Cursor，作为其整合 xAI 和 X 业务版图的一部分。该协议包含一项独特条款：SpaceX 可以选择完成收购，或者支付 100 亿美元的解约费。此举被视为增强 xAI 编程能力的战略布局，旨在直接挑战 Anthropic 在 AI 编程领域的领先地位。该交易正值埃隆·马斯克为其科技企业联合上市做准备之际。",
+        "en": "SpaceX has announced a massive $60 billion deal to potentially acquire Cursor, the leading AI-powered coding platform, as part of a broader consolidation involving xAI and X. The arrangement includes a unique clause where SpaceX can either finalize the acquisition or pay a $10 billion termination fee. This move is seen as a strategic play to bolster xAI's coding capabilities and directly challenge Anthropic's dominance in the AI programming space. The deal comes as Elon Musk prepares for a massive combined IPO of his technology ventures."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "ai-backlash-midterm-elections",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 抵制情绪成为中期选举的关键影响因素",
+        "en": "AI Backlash Emerges as Key Factor in Upcoming Midterm Elections"
+      },
+      "summary": {
+        "zh": "随着美国中期选举临近，公众对 AI 的抵制情绪日益高涨，主要体现在对数据中心建设的阻挠以及对失业的担忧。尽管社交媒体上的情绪极度负面，但 AI 尚未成为大多数政治竞选活动的核心议题。专家指出，AI 基础设施的快速扩张与候选人的立法重点之间存在脱节。美国各地社区因环境和资源问题频频叫停数据中心项目，这可能为 AI 行业的发展带来物理层面的瓶颈。",
+        "en": "As the US midterm elections approach, a growing public backlash against AI is manifesting through resistance to data center construction and concerns over job displacement. While social media sentiment remains highly critical, AI has yet to become a central pillar of most political campaign platforms. Experts note a disconnect between the rapid physical expansion of AI infrastructure and the legislative focus of candidates. Communities across the US are increasingly stalling data center projects, citing environmental and resource concerns, which could create a physical bottleneck for the industry."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/916210/ai-midterm-elections-data-centers-jobs",
+      "date": "2026-04-22"
+    }
+  ]
+}
