@@ -1,0 +1,251 @@
+{
+  "date": "2026-04-25",
+  "dateLabel": {
+    "zh": "2026年4月25日",
+    "en": "April 25, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-25T15:44:49Z",
+    "elapsedSeconds": 180,
+    "rawArticles": 54,
+    "afterFilter": 51,
+    "afterDedup": 45,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 9,
+      "Reddit": 3
+    }
+  },
+  "news": [
+    {
+      "id": "scientific-theory-deep-learning",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "深度学习正从「炼金术」转向严谨的科学理论",
+        "en": "Deep Learning Transitions from Alchemy to Scientific Theory"
+      },
+      "summary": {
+        "zh": "ArXiv 最新论文（2604.21691）指出，深度学习正从经验主义的「炼金术」阶段转向严谨的科学学科。作者提出了一个可以在训练开始前预测模型行为和泛化能力的框架，这有望大幅降低与试错缩放相关的巨额计算成本。这一转变对行业至关重要，因为它标志着 AI 开发正朝着更具可预测性和可解释性的方向迈进，试图打破当前神经网络的「黑盒」局限。",
+        "en": "A new paper on ArXiv (2604.21691) argues that the field of deep learning is transitioning from an empirical trial-and-error phase to a rigorous scientific discipline. The authors propose a framework for predicting model behavior and generalization capabilities before training begins, potentially reducing the massive compute costs associated with trial-and-error scaling. This shift is crucial for the industry as it moves toward more predictable and interpretable AI systems, moving beyond the black box nature of current neural networks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2604.21691",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "openai-gpt-5-5-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 在 API 中发布 GPT-5.5 和 GPT-5.5 Pro",
+        "en": "OpenAI Launches GPT-5.5 and GPT-5.5 Pro via API"
+      },
+      "summary": {
+        "zh": "OpenAI 正式更新了其 API 变更日志，推出了 GPT-5.5 和 GPT-5.5 Pro，标志着其旗舰模型系列的重大中期演进。虽然具体基准测试仍在分析中，但「Pro」版本预计将为企业级任务提供更高的上下文窗口和增强的推理能力。此次发布强化了 OpenAI 通过快速迭代部署来保持竞争优势的策略，以应对来自 Anthropic 和 Google 等对手在高性能 LLM 领域的挑战。",
+        "en": "OpenAI has officially updated its API changelog to include GPT-5.5 and GPT-5.5 Pro, marking a significant mid-cycle advancement in its flagship model series. While specific benchmarks are still being analyzed, the Pro version is expected to offer higher context windows and enhanced reasoning capabilities for enterprise-grade tasks. This release reinforces OpenAI's strategy of rapid iterative deployment to maintain its competitive edge against rivals like Anthropic and Google in the high-performance LLM market."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://developers.openai.com/api/docs/changelog",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "south-korea-ai-wolf-arrest",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "韩国男子因发布 AI 生成的「逃跑野狼」虚假照片被捕",
+        "en": "South Korea Arrests Man for AI-Generated Public Alarm"
+      },
+      "summary": {
+        "zh": "韩国警方逮捕了一名散布 AI 生成的「逃跑野狼」逼真图像的男子，该行为引发了公众恐慌和局部紧急响应。此案例突显了与 AI 生成的虚假信息相关的日益增长的法律风险，以及当局对影响公共安全的数字造假行为进行起诉的意愿。这为各国政府如何监管导致现实世界混乱和资源浪费的合成媒体提供了一个重要的法律先例。",
+        "en": "South Korean police have arrested a man for disseminating a realistic AI-generated image of a runaway wolf, which triggered public panic and a localized emergency response. This case highlights the growing legal risks associated with AI-generated misinformation and the increasing willingness of authorities to prosecute individuals for digital fabrications that impact public safety. It serves as a significant precedent for how governments may regulate synthetic media that causes real-world disruption and resource strain."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "wuphf-agent-wiki",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Wuphf：由智能体通过 Git 维护的 Markdown 维基",
+        "en": "Wuphf: An Agent-Maintained Markdown Wiki via Git"
+      },
+      "summary": {
+        "zh": "名为 Wuphf 的新开源项目推出了一种「Karpathy 风格」的 LLM 维基，由 AI 智能体使用 Markdown 和 Git 自主维护。该系统允许智能体协作记录、更新和对知识库进行版本控制，模仿人类开发者的工作流。通过集成 Git 进行版本管理，它为智能体内部知识随时间的演变提供了透明且可审计的轨迹，解决了智能体透明度和长期知识管理方面的一个关键挑战。",
+        "en": "A new open-source project called Wuphf introduces a Karpathy-style LLM wiki that is autonomously maintained by AI agents using Markdown and Git. The system allows agents to collaboratively document, update, and version-control knowledge bases, mirroring human developer workflows. By integrating Git for versioning, it provides a transparent and auditable trail of how an agent's internal knowledge evolves over time, solving a key challenge in agentic transparency and long-term knowledge management."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/nex-crm/wuphf",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "stash-ai-memory-layer",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Stash：为 AI 智能体打造的开源内存层",
+        "en": "Stash: Open Source Memory Layer for AI Agents"
+      },
+      "summary": {
+        "zh": "Stash 是一个全新的开源内存层，旨在为任何 AI 智能体提供类似于 Claude.ai 和 ChatGPT 的长期持久化能力。它提供了一种标准化的方式来跨会话存储和检索用户偏好、过往交互和上下文，这对于构建个性化 AI 助手至关重要。该工具降低了开发者实现复杂内存架构的门槛，使开发者无需依赖特定厂商的闭源生态功能即可实现高级记忆功能。",
+        "en": "Stash is a new open-source memory layer designed to provide any AI agent with long-term persistence capabilities similar to those found in Claude.ai and ChatGPT. It offers a standardized way to store and retrieve user preferences, past interactions, and context across sessions, which is essential for building personalized AI assistants. This tool lowers the barrier for developers to implement sophisticated memory architectures without relying on proprietary ecosystem features or closed-source platforms."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://alash3al.github.io/stash?_v01",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "browser-harness-llm",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Browser Harness：赋予 LLM 执行浏览器任务的能力",
+        "en": "Browser Harness: Enabling LLMs to Execute Web Tasks"
+      },
+      "summary": {
+        "zh": "Browser Harness 是一款新工具，为 LLM 提供了一个受控环境，使其能直接在浏览器中执行复杂任务。通过将浏览器交互抽象为模型可以可靠操作的格式，它使智能体能够自主进行研究、填写表单和操作 Web 应用。这一进展加速了「行动导向型 AI」的趋势，即模型不再局限于文本生成，而是开始执行端到端的数字劳动，并与更广泛的 Web 生态系统进行交互。",
+        "en": "Browser Harness is a new tool that provides LLMs with a controlled environment to execute complex tasks directly within a web browser. By abstracting browser interactions into a format models can reliably manipulate, it enables agents to perform research, fill forms, and navigate web apps autonomously. This development accelerates the trend toward Action-Oriented AI, where models move beyond text generation to performing end-to-end digital labor and interacting with the broader web ecosystem."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/browser-use/browser-harness",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "tesla-ai-hardware-acquisition",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "特斯拉披露 20 亿美元收购 AI 硬件公司",
+        "en": "Tesla Discloses $2B Acquisition of AI Hardware Firm"
+      },
+      "summary": {
+        "zh": "特斯拉在最新的 10-Q 季度财报中披露，已斥资 20 亿美元收购了一家未公开名称的 AI 硬件公司。此举标志着马斯克在垂直整合特斯拉 AI 技术栈方面的重大升级，旨在加速 Dojo 超级计算集群和 FSD 自动驾驶硬件的研发。随着特斯拉将战略重心从传统汽车制造转向 AI 和机器人领域，这项数十亿美元的投资凸显了在定制芯片领域保持竞争力所需的巨大资金投入。",
+        "en": "Tesla has quietly disclosed a $2 billion acquisition of an undisclosed AI hardware company in its latest 10-Q filing. This move signals a significant escalation in Elon Musk's strategy to vertically integrate Tesla's AI stack, likely aimed at accelerating the development of Dojo supercomputing clusters and FSD hardware. The acquisition comes at a time when Tesla is shifting its primary focus from automotive manufacturing to becoming a dominant player in AI and robotics. This multi-billion dollar investment underscores the immense capital requirements for staying competitive in the custom silicon race."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "lambench-lambda-calculus-benchmark",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Lambench：基于 Lambda 演算的 AI 推理新基准",
+        "en": "Lambench: A New Lambda Calculus Benchmark for AI Reasoning"
+      },
+      "summary": {
+        "zh": "Victor Taelin 推出了名为「Lambench」的新型基准测试，旨在通过 Lambda 演算评估 AI 模型的逻辑能力。与依赖自然语言或常见编程任务的传统基准不同，Lambench 测试 AI 执行符号推理和函数式计算的基础能力。这种方法旨在规避模型通过记忆现有代码片段而产生的「数据污染」问题，迫使模型解决纯逻辑难题。初步结果显示，当前的 LLM 在函数式编程环境中的逻辑一致性与人类水平仍存在显著差距。",
+        "en": "Victor Taelin has introduced 「Lambench」, a novel benchmark designed to evaluate AI models through the lens of lambda calculus. Unlike traditional benchmarks that rely on natural language or common coding tasks, Lambench tests an AI's fundamental ability to perform symbolic reasoning and functional computation. This approach aims to bypass the 「data contamination」 issue where models memorize existing code snippets, instead forcing them to solve pure logical puzzles. Early results suggest a significant performance gap between current LLMs and human-level logical consistency in functional programming environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://victortaelin.github.io/lambench/",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "atomic-local-first-ai-kb",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Atomic：本地优先的 AI 增强型个人知识库发布",
+        "en": "Atomic: Local-First AI-Augmented Knowledge Base Launched"
+      },
+      "summary": {
+        "zh": "Atomic 推出了一款本地优先、AI 增强的个人知识库，专为注重隐私和性能的用户设计。该应用将本地 LLM 直接集成到笔记工作流中，支持智能搜索、摘要和内容生成，且无需将数据上传至云端。通过采用本地优先架构，Atomic 确保了用户的「第二大脑」在离线状态下依然可用并保持完全加密。这一发布反映了行业向去中心化 AI 工具发展的趋势，在赋能个人的同时降低了中心化数据泄露的风险。",
+        "en": "Atomic has launched as a local-first, AI-augmented personal knowledge base designed for users who prioritize privacy and performance. The application integrates local LLMs directly into the note-taking workflow, allowing for intelligent search, summarization, and content generation without sending data to the cloud. By utilizing a local-first architecture, Atomic ensures that the user's 「second brain」 remains accessible offline and fully encrypted. This release reflects a growing industry trend toward decentralized AI tools that empower individual users while mitigating the risks of centralized data silos."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://atomicapp.ai/",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "dharma-ocr-slm-benchmark",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "DharmaOCR：3B 小模型在特定 OCR 任务中超越 GPT-5.4",
+        "en": "DharmaOCR: 3B SLM Outperforms GPT-5.4 in Specialized OCR"
+      },
+      "summary": {
+        "zh": "DharmaOCR 项目开源了一个专门的 3B 参数小语言模型（SLM），在 OCR 任务中展现了极高的性价比。该模型通过 SFT 和 DPO 技术进行微调，在与 GPT-5.4 和 Gemini 3.1 Pro 等巨头的对比测试中表现出色，证明了专用小模型在特定领域可以达到甚至超越通用大模型的准确度。此次发布包含了完整的训练数据集和方法论，为开发者构建高效、特定任务模型提供了蓝图，凸显了企业级应用向「小而精」AI 转型的趋势。",
+        "en": "The DharmaOCR project has open-sourced a specialized 3B parameter Small Language Model (SLM) that demonstrates exceptional cost-performance in optical character recognition tasks. Fine-tuned using SFT and DPO techniques, the model was benchmarked against industry giants including GPT-5.4 and Gemini 3.1 Pro, showing that specialized small models can match or exceed the accuracy of general-purpose LLMs for specific domains. The release includes the full dataset and methodology, providing a blueprint for developers to build high-efficiency, task-specific models. This highlights the shift toward 「smaller but smarter」 AI for enterprise applications."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sun6wt/dharmaocr_opensource_specialized_slm_3b/",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "xiaomi-mimo-v2-5-pro",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "小米 MiMo V2.5 Pro 位列全球 AI 智能指数第 54 名",
+        "en": "Xiaomi MiMo V2.5 Pro Ranks 54th in Global AI Index"
+      },
+      "summary": {
+        "zh": "小米的 MiMo V2.5 Pro 正式进入 Artificial Analysis 智能指数，位列全球第 54 位。小米已确认将很快发布该模型的权重，显示了其对开源社区和本地 LLM 生态的支持。MiMo 系列代表了小米进军高端 AI 研究的战略意图，旨在将其先进的推理能力集成到庞大的智能设备生态系统中。这一排名使小米跻身全球 AI 开发者的第一梯队，也加剧了智能手机厂商在端侧智能领域的竞争。",
+        "en": "Xiaomi's MiMo V2.5 Pro has officially entered the Artificial Analysis Intelligence Index, securing the 54th position globally. Xiaomi has confirmed that the model weights will be released soon, signaling a commitment to the open-source community and local LLM ecosystem. The MiMo series represents Xiaomi's strategic push into high-end AI research, aiming to integrate advanced reasoning capabilities into its vast ecosystem of smart devices. This ranking places Xiaomi among the top tier of global AI developers, intensifying competition among smartphone manufacturers to provide on-device intelligence."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sv9q8f/weights_are_comingxiaomis_mimo_v25_pro_has_landed/",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "qwen-3-6-rtx-5090-performance",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Qwen3.6-27B 在 RTX 5090 上实现 80 TPS 及超长上下文",
+        "en": "Qwen3.6-27B Hits 80 TPS with 218k Context on RTX 5090"
+      },
+      "summary": {
+        "zh": "开发者成功在单块 NVIDIA RTX 5090 显卡上以每秒 80 个 token (tps) 的速度运行了全新的 Qwen3.6-27B 模型，并支持高达 21.8 万字的上下文窗口。这一性能是通过最新的 vLLM 0.19 版本、NVFP4 量化以及多 Token 预测（MTP）技术实现的。在消费级硬件上处理如此巨大的上下文窗口，标志着本地 AI 爱好者和研究人员取得了重大突破，展示了推理引擎的快速优化以及在非企业级集群上运行长文本复杂模型的可行性。",
+        "en": "Developers have successfully run the new Qwen3.6-27B model at 80 tokens per second (tps) on a single NVIDIA RTX 5090 GPU, utilizing a 218k context window. This performance was achieved using the latest vLLM 0.19 build and NVFP4 quantization with Multi-Token Prediction (MTP) support. The ability to handle such a massive context window on consumer-grade hardware marks a breakthrough for local AI enthusiasts and researchers. It demonstrates the rapid optimization of inference engines and the increasing viability of running sophisticated, long-context models without enterprise-grade server clusters."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sv8eua/qwen3627b_at_80_tps_with_218k_context_window_on/",
+      "date": "2026-04-25"
+    }
+  ]
+}
