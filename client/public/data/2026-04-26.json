@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-26",
+  "dateLabel": {
+    "zh": "2026年4月26日",
+    "en": "April 26, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-26T15:48:56Z",
+    "elapsedSeconds": 202,
+    "rawArticles": 34,
+    "afterFilter": 32,
+    "afterDedup": 29,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit": 1,
+      "Reddit / r/MachineLearning": 2,
+      "Reddit / r/LocalLLaMA": 4
+    }
+  },
+  "news": [
+    {
+      "id": "ai-public-backlash",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 行业正面临日益严重的公众抵制",
+        "en": "The AI Industry Faces Growing Public Hostility"
+      },
+      "summary": {
+        "zh": "最近的报告指出公众情绪发生了重大转变，普通民众对 AI 技术的快速部署表现出日益增长的敌意。担忧范围涵盖了从工作岗位流失、数据隐私到大型科技公司缺乏问责制等多个方面。这种抵制情绪是行业面临的关键障碍，因为监管压力通常紧随公众舆论而至，这可能会减缓 AI 在各行各业的商业化和集成步伐。",
+        "en": "Recent reports highlight a significant shift in public sentiment, suggesting that the general population is increasingly hostile toward the rapid deployment of AI technologies. Concerns range from job displacement and data privacy to the perceived lack of accountability among major tech firms. This backlash represents a critical hurdle for the industry, as regulatory pressure often follows public outcry, potentially slowing down the pace of commercialization and integration across various sectors."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "gpt-5-5-bio-bug-bounty",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 为 GPT-5.5 推出生物风险漏洞赏金计划",
+        "en": "OpenAI Launches Bio-Risk Bug Bounty for GPT-5.5"
+      },
+      "summary": {
+        "zh": "OpenAI 正式宣布了针对 GPT-5.5 的专项漏洞赏金计划，重点关注识别生命科学领域的生物风险和潜在滥用。该计划旨在激励研究人员发现可能导致合成有害生物制剂或其他生物安全威胁的漏洞。通过对其最新模型进行众包安全测试，OpenAI 试图在保持前沿模型竞争优势的同时，主动应对生存风险。",
+        "en": "OpenAI has officially announced a specialized bug bounty program for GPT-5.5, focusing specifically on identifying biological risks and potential misuse in life sciences. This initiative aims to incentivize researchers to find vulnerabilities that could lead to the synthesis of harmful biological agents or other biosecurity threats. By crowdsourcing safety testing for its latest model, OpenAI attempts to proactively address existential risks while maintaining its competitive edge in the frontier model race."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "eden-ai-european-alternative",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Eden AI 崛起，成为 OpenRouter 的欧洲替代方案",
+        "en": "Eden AI Emerges as European Alternative to OpenRouter"
+      },
+      "summary": {
+        "zh": "Eden AI 作为 OpenRouter 等模型聚合器的欧洲强力替代方案正受到关注，它提供了一个访问多种 AI 模型的统一 API。该平台强调数据主权和对欧盟法规的合规性，使其成为对美国中心化基础设施持谨慎态度的欧洲企业的理想选择。通过为各种大语言模型和计算机视觉模型提供单一集成点，Eden AI 在确保满足区域数据保护标准的同时，简化了开发工作流。",
+        "en": "Eden AI is gaining traction as a robust European alternative to model aggregators like OpenRouter, offering a unified API to access multiple AI models. The platform emphasizes data sovereignty and compliance with EU regulations, making it an attractive choice for European enterprises wary of US-centric infrastructure. By providing a single point of integration for various LLMs and computer vision models, Eden AI simplifies the development workflow while ensuring regional data protection standards are met."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.edenai.co",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "hats-arguing-ai-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "HATS：通过多智能体辩论提升决策质量",
+        "en": "HATS: Improving Decision-Making via Multi-Agent Debates"
+      },
+      "summary": {
+        "zh": "HATS（分层辩论工具系统）框架引入了一种新颖的方法，让 AI 智能体通过结构化辩论来优化决策过程。通过模拟对抗性推理，该系统迫使智能体证明其逻辑的合理性并识别对方观点的缺陷，从而产生更稳健、更准确的结果。这项研究强调了多智能体协作（以及冲突）作为克服复杂推理任务中单个模型幻觉和偏见的手段的潜力。",
+        "en": "The HATS (Hierarchical Argumentative Tool System) framework introduces a novel approach where AI agents engage in structured arguments to refine decision-making processes. By simulating adversarial reasoning, the system forces agents to justify their logic and identify flaws in opposing viewpoints, leading to more robust and accurate outcomes. This research highlights the potential of multi-agent collaboration—and conflict—as a means to overcome individual model hallucinations and biases in complex reasoning tasks."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/rockcat/HATS",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "eff-california-surveillance-tower",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "EFF 敦促加州社区拒绝 AI 驱动的监控塔",
+        "en": "EFF Urges Rejection of AI-Powered Surveillance in California"
+      },
+      "summary": {
+        "zh": "电子前哨基金会（EFF）正呼吁加利福尼亚州的一个沿海社区拒绝海关及边境保护局（CBP）提议的 AI 驱动监控塔。批评者认为，该技术对隐私和公民自由构成了重大威胁，可能为国内监控创下危险先例。此案例凸显了随着 AI 驱动的监控工具变得日益复杂和普及，国家安全利益与个人隐私权之间持续存在的紧张关系。",
+        "en": "The Electronic Frontier Foundation (EFF) is calling on a California coastal community to reject a proposed AI-powered surveillance tower by Customs and Border Protection (CBP). Critics argue that the technology poses a significant threat to privacy and civil liberties, potentially setting a dangerous precedent for domestic surveillance. This case underscores the ongoing tension between national security interests and individual privacy rights as AI-driven monitoring tools become increasingly sophisticated and pervasive."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/04/california-coastal-community-must-reject-cbps-ai-powered-surveillance-tower",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "nemotron-3-nano-finetuning",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "转向 Nemotron 3 Nano 以实现多任务推理",
+        "en": "Transitioning to Nemotron 3 Nano for Multi-Task Reasoning"
+      },
+      "summary": {
+        "zh": "Reddit 上的一项新讨论探索了从稠密 3B/7B 模型转向 NVIDIA Nemotron 3 Nano 的技术转变，后者是一种 30B-A3B 混合 Mamba-Attention-MoE 架构。用户强调了这种混合结构相比传统稠密模型如何更好地匹配多任务推理需求。讨论集中在为适应专家混合（MoE）和 Mamba 组件而需要对微调方案进行的具体更改，反映了向更高效、非纯 Transformer 架构发展的广泛趋势。",
+        "en": "A new discussion on Reddit explores the technical shift from dense 3B/7B models to NVIDIA's Nemotron 3 Nano, a 30B-A3B hybrid Mamba-Attention-MoE architecture. The user highlights how this hybrid structure better maps to multi-task reasoning requirements compared to traditional dense models. The conversation focuses on the specific changes needed in the fine-tuning playbook to accommodate the Mixture-of-Experts (MoE) and Mamba components, reflecting a broader trend toward more efficient, non-transformer-only architectures."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sw5b44/going_from_3b7b_dense_to_nemotron_3_nano_hybrid/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "automuon-optimizer-drop-in",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AutoMuon：AdamW 优化器的单行代码无缝替代方案",
+        "en": "AutoMuon: A One-Line Drop-in Replacement for AdamW"
+      },
+      "summary": {
+        "zh": "AutoMuon 是一个全新的 Python 软件包，旨在简化将 Muon 优化器集成到现有 PyTorch 训练流水线的过程。虽然 Muon 在优化线性投影和卷积层等二维权重矩阵方面表现出色，但通常需要与 AdamW 配合使用以处理嵌入、归一化和偏置项。AutoMuon 实现了这一逻辑的自动化，允许开发者通过单行代码替换 AdamW。该工具降低了研究人员在大规模模型训练中实验先进二阶优化技术的门槛。",
+        "en": "AutoMuon is a new Python package designed to simplify the integration of the Muon optimizer into existing PyTorch training pipelines. While Muon excels at optimizing 2D weight matrices like linear projections and convolutional layers, it typically requires a hybrid approach where AdamW handles embeddings, norms, and biases. AutoMuon automates this logic, allowing developers to swap AdamW with a single line of code. This tool lowers the barrier for researchers to experiment with advanced second-order optimization techniques in large-scale model training."
+      },
+      "source": "Reddit / r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "coding-agent-rag-benchmark",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "开源编程智能体检索增强 9 项任务基准测试",
+        "en": "Open-Source 9-Task Benchmark for Coding-Agent Retrieval Augmentation"
+      },
+      "summary": {
+        "zh": "一个名为 paper-lantern-challenges 的全新开源基准测试套件正式发布，旨在衡量检索增强技术对编程智能体性能的影响。该基准涵盖了九项日常软件任务，并报告了在使用 RAG 技术后，性能提升幅度在 +0.010 到 +0.320 之间。所有评估均设计为完全可复现，为评估检索系统如何辅助智能体处理复杂代码库提供了标准化方法。这一发布解决了自主软件工程领域对客观衡量指标日益增长的需求。",
+        "en": "A new open-source benchmark suite, paper-lantern-challenges, has been released to measure the impact of retrieval-augmented technique selection in coding agents. The benchmark covers nine everyday software tasks and reports performance improvements (deltas) ranging from +0.010 to +0.320 when using RAG. All evaluations are designed to be fully reproducible, providing a standardized way to assess how retrieval systems help agents navigate complex codebases. This release addresses the growing need for objective metrics in the rapidly evolving field of autonomous software engineering."
+      },
+      "source": "Reddit / r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1suzqxe/opensource_9task_benchmark_for_coding_agent/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "hauhaucs-plagiarism-controversy",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "知名模型创作者 HauhauCS 被指控剽窃及违反开源协议",
+        "en": "Popular Model Creator HauhauCS Accused of Plagiarism and License Violation"
+      },
+      "summary": {
+        "zh": "在 LocalLLaMA 社区颇具影响力的创作者 HauhauCS（以「Uncensored Aggressive」系列模型闻名，月下载量超 500 万）正面临剽窃指控。社区发现其近期发布的消融（abliteration）工具包涉嫌在未注明出处的情况下抄袭「Heretic」项目，违反了开源协议。尽管其声称使用的是「私有方法和工具」，但技术分析显示其与现有社区成果高度重合。这一争议凸显了去中心化开源 AI 生态系统中知识产权和署名权所面临的持续挑战。",
+        "en": "HauhauCS, a prominent figure in the LocalLLaMA community known for 'Uncensored Aggressive' models with over 5 million monthly downloads, is facing allegations of plagiarism. The community has discovered that a recently published abliteration package appears to copy the 'Heretic' project without proper attribution, violating its open-source license. Despite claims of using 'private methods and tools,' technical analysis suggests significant overlap with existing community work. This controversy highlights the ongoing challenges of intellectual property and attribution within the decentralized open-source AI ecosystem."
+      },
+      "source": "Reddit / r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sw77p0/hauhaucs_of_uncensored_aggressive_fame_published/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "qwen36-35b-heretic-review",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.6 35B A3B Heretic：低 KLD 散度的高性能无审查模型",
+        "en": "Qwen3.6 35B A3B Heretic: High-Performance Uncensored Model with Low KLD"
+      },
+      "summary": {
+        "zh": "Qwen3.6 35B A3B Heretic 模型作为阿里巴巴最新架构的高级无审查变体，正受到广泛关注。用户反馈显示，该模型保持了 0.0015 的极低 KL 散度（KLD），表明其在移除安全拒绝机制的同时，极好地保留了原模型的智能水平。在 IQ4XS 量化和 8-bit KV 缓存配置下，该模型可装入 24GB 显存并支持 262K 上下文长度，在多轮工具调用中表现出色。该版本的发布展示了社区在不牺牲推理能力的前提下，为特定本地部署场景优化大规模模型的能力。",
+        "en": "The Qwen3.6 35B A3B Heretic model is gaining traction as a top-tier uncensored variant of Alibaba's latest architecture. Users report that the model maintains an exceptionally low Kullback-Leibler Divergence (KLD) of 0.0015, indicating it stays very close to the original model's intelligence while removing safety refusals. When quantized to IQ4XS with an 8-bit KV cache, it fits within 24GB of VRAM and supports a 262K context length, excelling at multi-turn tool calls. This release demonstrates the community's ability to refine large-scale models for specialized local deployment without sacrificing reasoning capabilities."
+      },
+      "source": "Reddit / r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sw5fb7/qwen36_35b_a3b_heretic_kld_00015_incredible_model/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "qwen36-27b-rtx5090-performance",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Qwen3.6-27B-INT4 在 RTX 5090 上实现 100 TPS 及 256k 上下文",
+        "en": "Qwen3.6-27B-INT4 Hits 100 TPS with 256k Context on RTX 5090"
+      },
+      "summary": {
+        "zh": "Qwen3.6-27B-INT4 的最新性能基准测试显示，在使用 vLLM 0.19 的单块 NVIDIA RTX 5090 显卡上，该模型实现了超过 100 TPS 的生成速度。通过采用 AutoRound 量化技术并支持多 Token 预测（MTP），该配置在保持 256k 超长上下文窗口的同时实现了极高性能。相比 NVFP4，INT4 量化在模型大小和精度之间取得了更好的平衡，允许在消费级硬件上实现更快的推理和更大的 KV 缓存。这一里程碑突显了 Qwen 3.6 系列在高吞吐量本地推理方面的快速优化。",
+        "en": "New performance benchmarks for Qwen3.6-27B-INT4 show the model achieving over 100 tokens per second (TPS) on a single NVIDIA RTX 5090 GPU using vLLM 0.19. By utilizing AutoRound for quantization and Multi-Token Prediction (MTP) support, the setup maintains a high context window of 256k tokens. The INT4 quantization provides a better balance of model size and accuracy compared to NVFP4, allowing for faster inference and larger KV caches on consumer hardware. This milestone highlights the rapid optimization of the Qwen 3.6 series for high-throughput local inference."
+      },
+      "source": "Reddit / r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sw21op/qwen3627bint4_clocking_100_tps_with_256k_context/",
+      "date": "2026-04-26"
+    },
+    {
+      "id": "openai-pii-detection-model",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 发布用于检测和脱敏个人隐私信息（PII）的新模型",
+        "en": "OpenAI Releases New Model for PII Detection and Masking"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了一款专门用于检测和脱敏文本数据集中个人身份信息（PII）的模型。该工具旨在帮助开发者和企业在数据用于训练或由大模型处理之前，自动清理敏感信息，从而满足关键的隐私和合规性要求。虽然关于底层架构的细节较少，但这一发布标志着 OpenAI 正在努力为 AI 生命周期提供更强大的数据治理工具。社区目前正在评估其与 Presidio 等现有开源替代方案相比的有效性。",
+        "en": "OpenAI has introduced a specialized model designed to detect and mask Personally Identifiable Information (PII) within text datasets. This tool aims to help developers and enterprises automate the sanitization of sensitive data before it is used for training or processed by LLMs, addressing critical privacy and compliance requirements. While details on the underlying architecture are sparse, the release signifies OpenAI's push into providing more robust data governance tools for the AI lifecycle. The community is currently evaluating its effectiveness compared to existing open-source alternatives like Presidio."
+      },
+      "source": "Reddit / r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sw000s/new_model_for_detecting_and_masking_pii_from/",
+      "date": "2026-04-26"
+    }
+  ]
+}
