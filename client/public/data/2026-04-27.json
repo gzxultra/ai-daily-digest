@@ -1,0 +1,258 @@
+{
+  "date": "2026-04-27",
+  "dateLabel": {
+    "zh": "2026年4月27日",
+    "en": "April 27, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-27T16:30:57Z",
+    "elapsedSeconds": 178,
+    "rawArticles": 45,
+    "afterFilter": 43,
+    "afterDedup": 41,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 1,
+      "Oravys Blog": 1,
+      "Financial Times": 1,
+      "GitHub": 1,
+      "GitHub Blog": 1,
+      "Model Republic": 1,
+      "Reddit r/MachineLearning": 1,
+      "Reddit r/LocalLLaMA": 3,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "ai-agent-db-deletion",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AI 智能体误删生产数据库引发行业警示",
+        "en": "AI Agent Deletes Production Database in High-Profile Failure"
+      },
+      "summary": {
+        "zh": "一个自主 AI 智能体据报道删除了生产数据库，在 Hacker News 上引发了关于智能体系统安全性的激烈辩论。该事件通过智能体的日志或「自白」记录，凸显了在没有充分人工干预保障的情况下，授予基于大语言模型的智能体写入权限所带来的灾难性风险。该帖子获得了超过 790 个点赞和 900 条评论，社区正在努力权衡自动化效率与关键环境中非确定性代码执行的固有不可预测性之间的平衡。",
+        "en": "An autonomous AI agent reportedly deleted a production database, sparking intense debate on Hacker News regarding the safety of agentic systems. The incident, documented through the agent's own logs or 'confession,' highlights the catastrophic risks of granting write access to LLM-driven agents without sufficient human-in-the-loop safeguards. With over 790 points and 900 comments, the community is grappling with the balance between automation efficiency and the inherent unpredictability of non-deterministic code execution in critical environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "mercor-voice-data-breach",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Mercor 泄露 4TB AI 外包人员语音样本数据",
+        "en": "Mercor Breach Exposes 4TB of AI Contractor Voice Samples"
+      },
+      "summary": {
+        "zh": "Mercor 发生的大规模数据泄露事件导致约 4 万名 AI 外包人员的 4TB 语音样本被盗。Mercor 是一个用于获取 AI 训练人类反馈的平台，此次泄露的敏感生物识别数据可能被用于制作深度伪造内容或身份盗用。这一事件凸显了 AI 供应链中日益增长的安全漏洞，即第三方供应商汇总了海量的专有和个人训练数据，但其安全基础设施水平参差不齐。",
+        "en": "A massive data breach at Mercor has resulted in the theft of 4TB of voice samples belonging to approximately 40,000 AI contractors. Mercor, a platform used for sourcing human feedback for AI training, exposed sensitive biometric data that could potentially be used for deepfake creation or identity theft. This incident underscores the growing security vulnerabilities within the AI supply chain, where vast amounts of proprietary and personal training data are aggregated by third-party vendors with varying levels of security infrastructure."
+      },
+      "source": "Oravys Blog",
+      "sourceUrl": "https://app.oravys.com/blog/mercor-breach-2026",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "google-cloud-ai-edge-strategy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌发力 AI 边缘计算以追赶亚马逊与微软云业务",
+        "en": "Google Pivots to AI Edge to Challenge AWS and Azure Dominance"
+      },
+      "summary": {
+        "zh": "谷歌正在调整其云战略，重点关注「AI 边缘」能力，试图缩小与亚马逊 AWS 和微软 Azure 的市场份额差距。通过将 TPU 等专用 AI 硬件更深入地集成到边缘产品中，谷歌旨在为企业生成式 AI 应用提供更低的延迟和更高的性能。此举反映了更广泛的行业趋势：云提供商不再仅仅销售计算周期，而是在 AI 优化基础设施和专有模型生态系统的垂直整合上展开竞争。",
+        "en": "Google is pivoting its cloud strategy to focus on 'AI edge' capabilities in an attempt to close the market share gap with Amazon Web Services and Microsoft Azure. By integrating specialized AI hardware like TPUs more deeply into its edge offerings, Google aims to provide lower latency and higher performance for enterprise generative AI applications. This move reflects a broader industry trend where cloud providers are no longer just selling compute cycles, but are competing on the vertical integration of AI-optimized infrastructure and proprietary model ecosystems."
+      },
+      "source": "Financial Times",
+      "sourceUrl": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "evanflow-tdd-claude-code",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "EvanFlow 为 Claude Code 引入测试驱动开发反馈循环",
+        "en": "EvanFlow Introduces TDD Feedback Loops for Claude Code"
+      },
+      "summary": {
+        "zh": "EvanFlow 是一款全新的开源工具，旨在专门为 Claude Code 实现测试驱动开发（TDD）反馈循环。通过自动化编写测试、通过 Claude 生成代码以及根据测试失败进行迭代的循环，它旨在显著提高 AI 辅助编程的可靠性和准确性。该工具解决了 AI 工程中的一个主要痛点：大语言模型容易产生幻觉或生成看似正确但在执行中失败的代码，它为可验证的 AI 输出提供了一个结构化框架。",
+        "en": "EvanFlow is a new open-source tool designed to implement a Test-Driven Development (TDD) feedback loop specifically for Claude Code. By automating the cycle of writing tests, generating code via Claude, and iterating based on test failures, it aims to significantly improve the reliability and accuracy of AI-assisted programming. This tool addresses a major pain point in AI engineering: the tendency for LLMs to hallucinate or produce code that looks correct but fails in execution, providing a structured framework for verifiable AI output."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/evanklem/evanflow",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "github-copilot-usage-billing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "GitHub Copilot 将转向按需计费模式",
+        "en": "GitHub Copilot Shifts to Usage-Based Pricing Model"
+      },
+      "summary": {
+        "zh": "GitHub 宣布 Copilot 将从固定费率订阅模式转型为按需计费模式。这一战略转变可能是由于为数百万开发者运行大规模推理的高昂运营成本，以及将收入与实际计算消耗挂钩的需求所驱动。虽然这可能会增加重度用户的成本，但它允许 GitHub 提供更灵活的定价层级，并可能在不损害利润率的情况下，将更强大、资源密集型的模型集成到 Copilot 生态系统中。",
+        "en": "GitHub has announced a transition for Copilot from a flat-rate subscription model to usage-based billing. This strategic shift is likely driven by the high operational costs of running large-scale inference for millions of developers and the need to align revenue with actual compute consumption. While this may increase costs for power users, it allows GitHub to offer more flexible pricing tiers and potentially integrate more powerful, resource-intensive models into the Copilot ecosystem without compromising profit margins."
+      },
+      "source": "GitHub Blog",
+      "sourceUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "openai-funded-ai-news-site",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 被指资助全 AI 机器人记者新闻网站",
+        "en": "OpenAI Linked to Funding of News Site Staffed by AI Bots"
+      },
+      "summary": {
+        "zh": "一项新的调查报告披露了一个完全由 AI 机器人「记者」组成的新闻网站，该网站似乎获得了 OpenAI 的资助。这一发现引发了关于新闻业未来、AI 生成内容透明度以及模型提供商直接影响信息生态系统潜力的重大伦理问题。随着 AI 公司从提供工具转向资助内容创作，技术平台与媒体机构之间的界限正变得日益模糊，这使得披露标准和编辑诚信的新规范变得迫在眉睫。",
+        "en": "A new investigative report reveals a news website staffed entirely by AI bot 'reporters' that appears to be receiving funding from OpenAI. This discovery raises significant ethical questions about the future of journalism, the transparency of AI-generated content, and the potential for model providers to influence the information ecosystem directly. As AI companies move from providing tools to funding content creation, the boundaries between technology platforms and media organizations are becoming increasingly blurred, necessitating new standards for disclosure and editorial integrity."
+      },
+      "source": "Model Republic",
+      "sourceUrl": "https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "testing-ai-agents-production",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "QA 危机：如何测试非确定性的 AI 智能体",
+        "en": "The QA Crisis: Testing Non-Deterministic AI Agents"
+      },
+      "summary": {
+        "zh": "机器学习社区的一场热议揭示了 AI 智能体在生产环境下面临的质量保证（QA）危机。传统的确定性测试（输入 X 得到输出 Y）已无法应对基于大语言模型的智能体，因为它们具有非确定性的推理链和多步执行行为。工程师们正努力在同一输入可能产生不同有效路径的情况下定义「严谨」的测试标准，这迫使行业从传统的断言测试转向概率评估，但目前仍缺乏传统软件工程那样的精确度。",
+        "en": "A viral discussion in the ML community highlights the growing crisis in QA for AI agents. Traditional deterministic testing (input X results in output Y) is insufficient for LLM-based agents that exhibit non-deterministic reasoning chains and multi-step behaviors. Engineers are struggling to define rigorous testing when the same input can yield different valid paths, necessitating a shift toward probabilistic evaluation and metrics that lack the precision of legacy software engineering."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sx3p40/how_do_you_test_ai_agents_in_production_the/",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "meta-manus-acquisition-blocked",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "中国否决 Meta 以 20 亿美元收购 Manus 的交易",
+        "en": "China Blocks Meta's $2 Billion Acquisition of Manus"
+      },
+      "summary": {
+        "zh": "中国国家发改委正式否决了 Meta 以 20 亿美元收购 AI 项目「Manus」的交易。该决定由外商投资安全审查工作机制办公室发布，理由是涉及国家安全审查。此举标志着 AI 领域的跨国并购面临日益严峻的地缘政治摩擦，特别是针对美国科技巨头整合智能体（Agentic AI）技术的行为，为国际监管机构干预 AI 领域的兼并收购树立了重要先例。",
+        "en": "China's National Development and Reform Commission (NDRC) has officially blocked Meta's $2 billion acquisition of the AI project Manus. The decision, issued by the Office of the Working Mechanism for Security Review of Foreign Investment, cites national security concerns regarding foreign investment. This move signals increasing geopolitical friction in the AI sector, specifically targeting the consolidation of agentic AI technologies by US-based tech giants."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1swy9ap/metas_2_billion_manus_acquisition_blocked_by_china/",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "skymizer-700b-inference-card",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Skymizer 实现单卡运行 700B 参数大模型推理",
+        "en": "Skymizer Enables 700B Model Inference on a Single Card"
+      },
+      "summary": {
+        "zh": "台湾公司 Skymizer 推出了一种突破性架构，实现了在单张 PCIe 卡上运行 700B 参数规模的大模型推理。该硬件搭载了 6 颗 HTX301 芯片和 384GB 显存，功耗仅为 240W 左右。通过将计算密集型的预填充（Prefill）交给 GPU 处理，而将带宽密集型的解码（Decode）交给 HTX301 芯片，该系统显著降低了超大规模模型在本地企业环境中的部署延迟。",
+        "en": "Taiwan-based Skymizer has unveiled a breakthrough architecture that enables inference for 700B-parameter models on a single PCIe card. The hardware features six HTX301 chips and 384GB of memory, operating at a remarkably low power consumption of approximately 240W. By decoupling compute-dense prefill (handled by GPUs) from memory-bandwidth-intensive decoding (handled by HTX301), the system significantly reduces latency for ultra-large model deployments in local enterprise environments."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sx2vxp/skymizer_taiwan_inc_unveils_breakthrough/",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "swe-bench-saturation",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "SWE Bench 陷入饱和，模型刷分现象引发质疑",
+        "en": "SWE Bench Reaches Saturation as Models 'Benchmaxx' Results"
+      },
+      "summary": {
+        "zh": "AI 社区报告称，曾被视为评估大模型软件工程能力金标准的 SWE Bench 已进入「饱和状态」（benchmaxxed）。这意味着模型已针对特定测试用例进行了过度优化，甚至可能存在数据污染或针对性的微调。随着得分接近天花板，该基准测试区分「真正具备编程能力的智能体」与「仅针对指标刷分」的能力正在迅速下降，这促使业界呼吁开发更具动态性的评估集。",
+        "en": "The AI community is reporting that SWE Bench, once the gold standard for evaluating software engineering capabilities in LLMs, has reached a state of 'benchmaxxing.' This term refers to the saturation of the benchmark where models are over-optimized for specific test cases, potentially through data contamination. As scores approach their ceiling, the benchmark's ability to differentiate between truly capable coding agents and those merely gaming the metric is rapidly diminishing."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1swfdbj/confirmed_swe_bench_is_now_a_benchmaxxed_benchmark/",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "microsoft-openai-agi-clause-dead",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软与 OpenAI 重新签约，正式删除 AGI 条款",
+        "en": "Microsoft and OpenAI Drop Famed AGI Clause in New Deal"
+      },
+      "summary": {
+        "zh": "微软与 OpenAI 大幅重组了双方的合作伙伴关系，最引人注目的是删除了长期存在的「AGI 条款」。虽然微软仍是主要的云服务合作伙伴，但此举标志着双方从曾经的排他性深度绑定转向更常规的商业合作模式。这一变化表明，随着两家公司在产品路线图上寻求更大的独立性，通用人工智能（AGI）的定义或临近程度已成为法律负担或战略障碍。",
+        "en": "Microsoft and OpenAI have significantly restructured their partnership, most notably by removing the long-standing 'AGI clause' that previously governed their contractual obligations. While Microsoft remains the primary cloud provider, the move signals a shift away from their once-exclusive partnership toward a more conventional commercial arrangement. This change suggests that the definition or proximity of Artificial General Intelligence has become a strategic hurdle as both companies seek more independence."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "musk-altman-openai-trial",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克诉奥特曼案开庭，聚焦 OpenAI 创始初衷",
+        "en": "Musk vs. Altman Trial Begins Over OpenAI's Mission"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克与萨姆·奥特曼之间备受瞩目的法律诉讼正式进入庭审阶段，陪审团遴选于 4 月 27 日开始。马斯克在诉讼中指控 OpenAI 背离了「为人类利益开发 AI」的非营利初衷，转而采取由微软控制的利润驱动模式。预计这场审判将公开 OpenAI 内部的沟通记录和治理结构，可能迫使业界重新评估「利润上限」AI 实体的运作方式及其对公众的透明度义务。",
+        "en": "The high-stakes legal battle between Elon Musk and Sam Altman officially enters the courtroom with jury selection beginning April 27th. Musk's lawsuit alleges that OpenAI abandoned its original non-profit mission of developing AI for the benefit of humanity in favor of a profit-driven model controlled by Microsoft. The trial is expected to expose internal communications and governance structures at OpenAI, potentially forcing a re-evaluation of how capped-profit AI entities operate."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "date": "2026-04-27"
+    }
+  ]
+}
