@@ -1,0 +1,256 @@
+{
+  "date": "2026-04-28",
+  "dateLabel": {
+    "zh": "2026年4月28日",
+    "en": "April 28, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-04-28T16:57:30Z",
+    "elapsedSeconds": 185,
+    "rawArticles": 58,
+    "afterFilter": 51,
+    "afterDedup": 44,
+    "dedupRemoved": 7,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 3,
+      "Reddit": 1,
+      "r/LocalLLaMA": 2,
+      "The Verge AI": 3,
+      "Google AI Blog": 1
+    }
+  },
+  "news": [
+    {
+      "id": "gpt-5-5-release-analysis",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GPT-5.5 亮相：推理与多模态能力大幅提升",
+        "en": "GPT-5.5 Debuts with Major Reasoning and Multimodal Gains"
+      },
+      "summary": {
+        "zh": "Ben's Bites 报道称，GPT-5.5 已成为大模型领域强大的继任者，在逻辑推理和复杂任务规划方面取得了显著进步。早期基准测试表明，该模型在编程和数学解题方面表现出色，而这些正是前代版本面临局限的领域。此次发布代表了 OpenAI 在行业向更自主、更可靠的 AI 智能体迈进之际，为保持竞争优势而采取的战略举措，其特点是显著减少了幻觉并提升了长文本处理能力。",
+        "en": "Ben's Bites reports that GPT-5.5 has established itself as a formidable successor in the LLM space, offering significant gains in logical reasoning and complex task planning. Early benchmarks suggest the model excels in coding and mathematical problem-solving, areas where previous iterations faced limitations. This release represents a strategic move by OpenAI to maintain its competitive edge as the industry moves toward more autonomous and reliable AI agents, featuring a significant reduction in hallucinations and improved long-context handling."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/builders",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "ubuntu-ai-os-integration",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Ubuntu 转向「本地优先」的 AI 操作系统战略",
+        "en": "Ubuntu Pivots to Local-First AI Operating System Strategy"
+      },
+      "summary": {
+        "zh": "Canonical 正在将先进的 AI 功能直接集成到 Ubuntu 中，标志着向 AI 原生操作系统的重大转变。该计划专注于「本地优先」的大语言模型，允许用户在自有硬件上运行强大模型，而无需依赖云端 API。通过将 AI 嵌入核心操作系统工作流，Ubuntu 旨在提供更具隐私性和响应性的用户体验，这可能为 Linux 发行版处理智能自动化和设备端处理设定新标准。",
+        "en": "Canonical is integrating advanced AI capabilities directly into Ubuntu, signaling a major shift toward AI-native operating systems. This initiative focuses on local-first LLMs, allowing users to run powerful models on their own hardware without relying on cloud APIs. By embedding AI into the core OS workflow, Ubuntu aims to provide a more private and responsive user experience, potentially setting a new standard for how Linux distributions handle intelligent automation and on-device processing."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "meta-manus-acquisition-blocked",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "中国监管机构阻止 Meta 收购 AI 初创公司 Manus",
+        "en": "China Blocks Meta's Acquisition of AI Startup Manus"
+      },
+      "summary": {
+        "zh": "中国监管机构以反垄断和 AI 技术战略重要性为由，正式阻止了 Meta 收购 AI 初创公司 Manus 的计划。这笔交易在科技界备受关注，原本被视为 Meta 增强其智能体 AI 能力的关键举措。此次干预不仅反映了全球监管机构对 AI 领域并购活动日益严苛的审查态度，也进一步凸显了中美两国在人工智能核心资产和人才争夺上的地缘政治博弈。",
+        "en": "Chinese regulators have officially blocked Meta's attempted acquisition of the AI startup Manus, citing antitrust concerns and the strategic importance of AI technology. The deal, which was highly anticipated in the tech sector, was seen as Meta's attempt to bolster its agentic AI capabilities. This intervention highlights the growing regulatory scrutiny over AI-related M&A activities and the intensifying technological rivalry between the US and China regarding core AI intellectual property and talent."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "microsoft-vibevoice-open-source",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "微软开源 VibeVoice 前沿语音 AI 模型",
+        "en": "Microsoft Open-Sources VibeVoice Frontier Audio AI"
+      },
+      "summary": {
+        "zh": "微软发布了 VibeVoice，这是一款开源的前沿语音 AI 模型，在情感韵律和零样本语音克隆方面树立了新标准。该模型采用了一种新型神经架构，以极低的延迟实现高保真语音合成，非常适合实时应用场景。通过在 GitHub 上开源权重和代码，微软正在挑战闭源的商业方案，并鼓励社区驱动的高保真音频 AI 技术创新。",
+        "en": "Microsoft has released VibeVoice, an open-source frontier voice AI model that sets new standards for emotional prosody and zero-shot voice cloning. The model utilizes a novel neural architecture to achieve high-fidelity speech synthesis with minimal latency, making it suitable for real-time applications. By open-sourcing the weights and code on GitHub, Microsoft is challenging proprietary alternatives and encouraging community-driven development in the high-fidelity audio AI space."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/microsoft/VibeVoice",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "google-pentagon-ai-contract",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌与五角大楼达成「任何合法」用途的 AI 协议",
+        "en": "Google and Pentagon Agree on 'Any Lawful' AI Use Deal"
+      },
+      "summary": {
+        "zh": "据报道，谷歌已与美国国防部签署了一项机密协议，允许美军将其 AI 工具用于「任何合法」用途。该协议标志着自数年前 Project Maven 引发内部摩擦以来，谷歌正式全面回归国防领域。该交易涵盖了从物流到数据分析的广泛应用，凸显了商业 AI 在现代国家安全基础设施和国防现代化中不可或缺的关键作用。",
+        "en": "Google has reportedly signed a classified deal with the Pentagon, allowing the US military to use its AI tools for any lawful purpose. This agreement marks a definitive end to the internal friction that began with Project Maven years ago, signaling Google's full re-entry into the defense sector. The deal covers a wide range of applications, from logistics to data analysis, and underscores the critical role of commercial AI in modern national security infrastructure and defense modernization."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "icml-2026-research-trends",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ICML 2026 结果揭晓：AI 研究重心发生转向",
+        "en": "ICML 2026 Results Reveal Shifts in AI Research Focus"
+      },
+      "summary": {
+        "zh": "2026 年国际机器学习大会（ICML）结果揭晓，揭示了机器学习研究格局的重大转变。今年的入选论文显示出研究重心正大规模转向 AI 安全、机械可解释性以及小语言模型（SLM）的优化。作为顶级 AI 会议之一，ICML 2026 呈现的趋势将主导未来一年学术界和工业界的研究方向，特别是在硬件感知算法设计和高效训练方法领域。",
+        "en": "The results for ICML 2026 have been announced, revealing key shifts in the machine learning research landscape. This year's accepted papers show a massive pivot toward AI safety, mechanistic interpretability, and the optimization of small language models (SLMs). As one of the premier AI conferences, the trends emerging from ICML 2026 will likely dictate the direction of academic and industrial research for the next year, particularly in hardware-aware algorithm design and efficient training methods."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sy66el/icml_2026_results_d/",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "qwen-3-6-evaluation",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Qwen 3.6 27B 评测：BF16 与 GGUF 量化性能对比",
+        "en": "Qwen 3.6 27B Benchmark: BF16 vs GGUF Quantization Performance"
+      },
+      "summary": {
+        "zh": "社区对新款 Qwen 3.6 27B 模型进行了评测，对比了 BF16 原版与 Q4_K_M 和 Q8_0 GGUF 量化版本的性能。在 Neo AI Engineer 框架下，BF16 版本在 HumanEval 代码生成测试中达到 56.10%，在 HellaSwag 常识推理中达到 90.00%。该评测为本地 LLM 部署提供了重要参考，揭示了量化在节省内存的同时对复杂函数调用（BFCL 得分 63.25%）的影响。",
+        "en": "A community evaluation of the new Qwen 3.6 27B model compares the BF16 original against Q4_K_M and Q8_0 GGUF quantizations. Using the Neo AI Engineer framework, the BF16 variant achieved 56.10% on HumanEval for coding and 90.00% on HellaSwag for reasoning. The results highlight the performance trade-offs in local LLM deployment, showing that while quantization saves memory, it impacts complex function calling, with a BFCL score of 63.25% for the base model."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sxzqry/qwen_36_27b_bf16_vs_q4_k_m_vs_q8_0_gguf_evaluation/",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "nemotron-3-nano-omni",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "NVIDIA 发布 Nemotron-3-Nano-Omni 30B 多模态模型",
+        "en": "NVIDIA Releases Nemotron-3-Nano-Omni 30B Multimodal Model"
+      },
+      "summary": {
+        "zh": "NVIDIA 发布了 Nemotron-3-Nano-Omni-30B-A3B-Reasoning，这是一款能够处理音频、图像、视频和文本输入并输出文本的先进多模态模型。该模型拥有 300 亿参数，专为跨媒体格式的高级推理任务而设计。目前已提供 BF16 和 GGUF 格式，后者由 Unsloth 优化以支持本地运行。这一发布标志着 NVIDIA 正在发力适用于边缘和本地部署的小型化、全能型「Omni」模型。",
+        "en": "NVIDIA has released Nemotron-3-Nano-Omni-30B-A3B-Reasoning, a sophisticated multimodal model capable of processing audio, images, video, and text into text outputs. This 30B parameter model is designed for advanced reasoning tasks across different media formats and is available in both BF16 and GGUF formats. The release signifies NVIDIA's push into compact yet powerful 'omni' models optimized for local execution and edge deployment via tools like Unsloth."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1sy5xr1/nemotron3nanoomni30ba3breasoning_new_model/",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "claude-creative-connectors",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Anthropic 为 Adobe 和 Blender 推出 Claude 连接器",
+        "en": "Anthropic Launches Claude Connectors for Adobe and Blender"
+      },
+      "summary": {
+        "zh": "Anthropic 推出了一套「连接器」，使 Claude 能够直接与 Adobe Photoshop、Blender 和 Ableton 等行业标准软件对接。通过这些集成，AI 可以直接在聊天界面中执行复杂任务，如在 Blender 中调试 3D 场景或批量应用对象更改。此举标志着 Claude 从一个独立的聊天机器人转变为创意专业人士的集成工作流助手，代表了 AI 驱动的创意自动化演进中的重要一步。",
+        "en": "Anthropic has introduced a suite of connectors that allow Claude to interface directly with industry-standard software like Adobe Photoshop, Blender, and Ableton. These integrations enable the AI to perform complex tasks such as debugging 3D scenes or batch-applying object changes directly from the chat interface. This move shifts Claude from a standalone chatbot to an integrated workflow assistant for creative professionals, representing a significant step in AI-driven creative automation."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "musk-openai-trial",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克诉 OpenAI 案开庭：一场关于 AI 根基的较量",
+        "en": "Musk vs. OpenAI Trial Begins: A Battle Over AI's Foundations"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克与 OpenAI 之间备受瞩目的法律诉讼正式进入审判阶段，预计将公开这家 AI 巨头的内部机密。马斯克的诉讼核心在于指控 OpenAI 背离了其最初的非营利使命，并争论其在公司创立中的角色。审判预计将有行业关键人物出庭作证，并可能披露关于 GPT 模型早期开发的敏感通信。此案对 AI 治理和商业化路径具有深远影响。",
+        "en": "The high-profile legal battle between Elon Musk and OpenAI has officially entered the trial phase, promising to expose internal secrets of the AI giant. Musk's lawsuit centers on claims regarding OpenAI's departure from its original non-profit mission and his disputed role in its founding. The trial is expected to feature testimony from key industry figures and could reveal sensitive communications about the early development of GPT models, with profound implications for AI governance."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/919534/musk-openai-trial-vergecast",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "ai-cybersecurity-darpa",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "DARPA AIxCC 挑战赛揭示 AI 驱动型「脚本小子」的崛起",
+        "en": "DARPA AIxCC Highlights Rise of AI-Powered 'Script Kiddies'"
+      },
+      "summary": {
+        "zh": "关于 DARPA 人工智能网络挑战赛 (AIxCC) 的报告强调了 AI 在网络安全中的双刃剑性质，自动化系统扫描了 5400 万行代码以识别漏洞。尽管 AI 工具成功发现了大部分人工注入的漏洞，但利用 AI 自动化攻击的「脚本小子」的兴起对软件基础设施构成了日益严重的威胁。挑战赛表明，虽然 AI 能加速漏洞搜寻，但防御优势仍取决于与 AI 增强型攻击手段的赛跑。",
+        "en": "A report on DARPA's AI Cyber Challenge (AIxCC) highlights the dual-edged nature of AI in cybersecurity, where systems scanned 54 million lines of code to identify vulnerabilities. While AI tools successfully found most synthetic bugs, the rise of 'script kiddies' using AI to automate attacks poses a growing threat to software infrastructure. The challenge demonstrates that while AI can accelerate bug hunting, the defensive advantage remains a race against AI-augmented adversarial tactics."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/915660/mythos-script-kiddies-hackers-attack-cybersecurity-ai",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "google-kaggle-vibe-coding",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Google 与 Kaggle 推出「Vibe Coding」AI 智能体课程",
+        "en": "Google and Kaggle Launch 'Vibe Coding' AI Agents Course"
+      },
+      "summary": {
+        "zh": "Google 和 Kaggle 宣布回归其为期 5 天的 AI Agent 强化课程，重点关注新兴的「Vibe Coding」（氛围编程）趋势。该计划旨在教授开发者如何利用最新的生成式 AI 工具和 Kaggle 的协作环境构建并部署自主 AI 智能体。2026 年 6 月班次的注册现已开放，反映了行业向 AI 处理复杂多步任务的「智能体工作流」转变的趋势。",
+        "en": "Google and Kaggle have announced the return of their 5-Day AI Agents Intensive Course, focusing on the emerging trend of 'Vibe Coding.' The program aims to teach developers how to build and deploy autonomous AI agents using the latest generative AI tools and Kaggle's collaborative environment. Registration is now open for the June 2026 session, reflecting the industry's shift toward agentic workflows where AI handles complex, multi-step tasks autonomously."
+      },
+      "source": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "date": "2026-04-28"
+    }
+  ]
+}
