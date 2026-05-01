@@ -1,0 +1,253 @@
+{
+  "date": "2026-05-01",
+  "dateLabel": {
+    "zh": "2026年5月1日",
+    "en": "May 01, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-01T16:02:20Z",
+    "elapsedSeconds": 179,
+    "rawArticles": 56,
+    "afterFilter": 46,
+    "afterDedup": 41,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 4,
+      "The Verge AI": 3,
+      "Simon Willison": 1
+    }
+  },
+  "news": [
+    {
+      "id": "pytorch-lightning-malware",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "PyTorch Lightning 库中发现 Shai-Hulud 主题恶意软件",
+        "en": "Shai-Hulud Malware Discovered in PyTorch Lightning Library"
+      },
+      "summary": {
+        "zh": "在广受欢迎的 AI 模型训练库 PyTorch Lightning 中发现了名为「Shai-Hulud」的恶意依赖项。该恶意软件旨在从开发人员机器和 CI/CD 流水中窃取环境变量和敏感数据。这一事件凸显了 AI 软件供应链日益增长的脆弱性，因为研究人员经常在没有严格审计的情况下安装大量第三方包。Semgrep 的安全研究人员识别并缓解了这一威胁，但该事件为整个行业敲响了警钟，提醒开发者必须加强 AI 工具链的安全防护。",
+        "en": "A malicious dependency themed after 'Shai-Hulud' was discovered within the popular PyTorch Lightning library, a critical tool for AI model training. The malware was designed to exfiltrate environment variables and sensitive data from developer machines and CI/CD pipelines. This incident highlights the growing vulnerability of the AI software supply chain, where researchers often install numerous third-party packages without rigorous auditing. Security researchers at Semgrep identified the threat, which has since been mitigated, but the event serves as a wake-up call for the industry regarding the security of AI development environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "apple-support-claude-leak",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "苹果应用泄露文件暗示其集成了 Anthropic 的 Claude 模型",
+        "en": "Apple Leak Suggests Integration of Anthropic's Claude Models"
+      },
+      "summary": {
+        "zh": "苹果公司在对其「Apple Support」应用的公开更新中意外包含了「Claude.md」文件，这为该公司在其生态系统中集成 Anthropic 的 Claude 模型提供了有力证据。虽然苹果公开讨论了其「Apple Intelligence」以及与 OpenAI 的合作，但此次泄露表明其在内部和面向客户的支持工具中采用了更广泛的多模型策略。这些文件可能包含 LLM 的系统提示词或集成指令。这一发现进一步证实了科技巨头正在通过多样化 AI 供应商来避免供应商锁定，并针对不同任务进行优化。",
+        "en": "Apple accidentally included 'Claude.md' files in a public update to its Apple Support application, providing concrete evidence that the company is integrating Anthropic's Claude models into its ecosystem. While Apple has publicly discussed its 'Apple Intelligence' and partnerships with OpenAI, this leak suggests a broader multi-model strategy for internal and customer-facing support tools. The files likely contained system prompts or integration instructions for the LLM. This discovery reinforces the trend of tech giants diversifying their AI providers to avoid vendor lock-in and optimize for specific tasks across different services."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://x.com/aaronp613/status/2049986504617820551",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "vscode-copilot-coauthor",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "VS Code v1.117.0 自动将 GitHub Copilot 列为共同作者",
+        "en": "VS Code v1.117.0 Automatically Credits Copilot as Co-author"
+      },
+      "summary": {
+        "zh": "VS Code v1.117.0 版本引入了一项争议性功能：在 Git 提交信息中自动将 GitHub Copilot 添加为「Co-authored-by」（共同作者）。这一变化在开发者社区引发了关于 AI 生成代码归属权的法律和伦理问题的激烈讨论。支持者认为这为代码来源提供了必要的透明度，而批评者则担心这会扰乱提交历史并带来潜在的许可复杂性。此举标志着行业正转向将 AI 智能体视为软件开发生命周期中的正式参与者，而非仅仅是辅助工具。",
+        "en": "VS Code version 1.117.0 has introduced a controversial feature that automatically adds GitHub Copilot as a 'Co-authored-by' contributor in Git commit messages. This change has sparked intense debate within the developer community regarding the legal and ethical implications of AI-generated code attribution. Proponents argue it provides necessary transparency for code provenance, while critics worry about cluttering commit histories and potential licensing complications. The move signals a shift toward treating AI agents as formal participants in the software development lifecycle rather than just passive tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=47958353",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "intel-auto-round-quantization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "英特尔发布 Auto-round：先进的 LLM 量化算法",
+        "en": "Intel Releases Auto-round: Advanced Quantization for LLMs"
+      },
+      "summary": {
+        "zh": "英特尔发布了「Auto-round」，这是一种先进的仅权重（weight-only）量化算法，旨在优化大语言模型（LLM）在各种硬件后端上的推理性能。通过利用符号梯度下降来微调舍入值，与 GPTQ 等传统方法相比，Auto-round 在保持极低精度损失的同时实现了显著的压缩效果。该工具已集成到 Intel Extension for Transformers 中，并支持包括 Llama-3 和 Mistral 在内的多种模型。此发布是英特尔致力于让高性能 AI 推理在 CPU 和 GPU 架构上更易普及的努力之一。",
+        "en": "Intel has released 'Auto-round,' an advanced weight-only quantization algorithm designed to optimize Large Language Models (LLMs) for inference on various hardware backends. By utilizing sign-gradient descent to fine-tune rounding values, Auto-round achieves significant compression with minimal accuracy loss compared to traditional methods like GPTQ. The tool is integrated with the Intel Extension for Transformers and supports a wide range of models, including Llama-3 and Mistral. This release is part of Intel's broader effort to make high-performance AI inference more accessible on CPU and GPU architectures."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/intel/auto-round",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "icml-2026-review-controversy",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ICML 2026 因拒绝高分论文引发社区争议",
+        "en": "ICML 2026 Faces Backlash Over Rejection of High-Rated Papers"
+      },
+      "summary": {
+        "zh": "机器学习社区对 ICML 2026 的决策过程表示不满，有报道称许多尽管获得了审稿人一致好评（如「4444」满分）的论文仍被拒绝。Reddit 上的讨论指出，审稿人评分与领域主席（AC）决策之间存在明显的错位，这可能是由于过于激进的反驳阶段或严格的名额管理造成的。在 AI 研究投稿量呈指数级增长的背景下，这一趋势引发了人们对同行评审系统可扩展性和公平性的担忧。研究人员呼吁在审稿人意见一致时，应提高最终裁定过程的透明度。",
+        "en": "The machine learning community is expressing frustration over the ICML 2026 decision process, with reports of numerous papers being rejected despite receiving unanimous positive scores (e.g., '4444') from reviewers. Discussions on Reddit highlight a perceived misalignment between reviewer scores and Area Chair (AC) decisions, possibly due to overly aggressive rebuttal phases or strict quota management. This trend raises concerns about the scalability and fairness of the peer-review system in an era of exponential growth in AI research submissions. Researchers are calling for more transparency in how final decisions are arbitrated when reviewers are in agreement."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t04vk3/seems_icml_is_rejecting_many_unanimous_positively/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "pflash-speculative-prefill",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "PFlash 实现长上下文 LLM 预填充速度提升 10 倍",
+        "en": "PFlash Achieves 10x Prefill Speedup for Long-Context LLMs"
+      },
+      "summary": {
+        "zh": "一款名为「PFlash」的新型推理优化工具在单个 NVIDIA RTX 3090 上处理 128K 上下文窗口时，展示了比 llama.cpp 快 10 倍的预填充（prefill）速度。PFlash 通过在量化的 27B 参数模型上实现针对长上下文解码的推测性预填充，并采用纯 C++/CUDA 栈来实现这一目标。一个内置的小型草稿模型负责评估整个提示词中的 Token 重要性，从而允许系统跳过冗余计算。这一突破显著降低了初始提示词处理的延迟，使消费级硬件上的长上下文本地 LLM 交互变得更加实用。",
+        "en": "A new inference optimization tool called 'PFlash' has demonstrated a 10x prefill speedup compared to llama.cpp when processing 128K context windows on a single NVIDIA RTX 3090. PFlash achieves this by implementing speculative prefill for long-context decoding on quantized 27B parameter models using a C++/CUDA-only stack. A small, in-process drafter model identifies token importance across the full prompt, allowing the system to skip redundant computations. This breakthrough significantly reduces the latency of initial prompt processing, making long-context local LLM interactions much more viable for consumer-grade hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t0vp3w/pflash_10x_prefill_speedup_over_llamacpp_at_128k/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "qwen-gemma-gamedev-battle",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Gemma 4 31B 在本地开发测试中击败 Qwen 3.6",
+        "en": "Gemma 4 31B Outperforms Qwen 3.6 in Local GameDev Test"
+      },
+      "summary": {
+        "zh": "在 r/LocalLLaMA 社区的一项测评中，谷歌的 Gemma 4 31B 在游戏开发任务中显著超越了阿里巴巴的 Qwen 3.6 27B。在 MacBook Pro M5 Max 上的测试显示，Gemma 仅用 3 分 51 秒和 6209 个 token 就完成了吃豆人游戏的编写，而 Qwen 则耗时 18 分钟并生成了近 3.4 万个 token。尽管 Qwen 在视觉创意上表现更优，但 Gemma 的高效和精准指令遵循能力体现了新一代本地模型在实用性上的巨大进步。",
+        "en": "A head-to-head comparison on Reddit's r/LocalLLaMA reveals that Google's Gemma 4 31B significantly outperformed Alibaba's Qwen 3.6 27B in a game development task. Running on a MacBook Pro M5 Max, Gemma completed a Pacman game in just 3 minutes and 51 seconds using 6,209 tokens, whereas Qwen took over 18 minutes and generated nearly 34,000 tokens. While Qwen exhibited more visual creativity, Gemma's efficiency and directness highlight a shift toward high-precision instruction following in the latest local model generation."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t0epei/qwen_36_27b_vs_gemma_4_31b_making_packman_game/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "nvidia-gemma4-nvfp4-benchmarks",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "英伟达发布 NVFP4 量化版 Gemma 4，实现近乎无损性能",
+        "en": "Nvidia Releases NVFP4 Quantized Gemma 4 with Near-Lossless Performance"
+      },
+      "summary": {
+        "zh": "英伟达发布了 Gemma 4 26B 的 NVFP4 量化版本，展示了在消费级硬件上近乎无损的性能表现。在配备 32GB 显存的 RTX 5090 上测试，该模型在保持 5 万上下文窗口的同时，AIME 2025 评分达 90%，MMLU Pro 达 84.8%。这一发布证明了 4 位浮点量化（NVFP4）正成为在本地工作站部署前沿推理模型的标准，能够在不显著牺牲准确性的情况下大幅降低硬件门槛。",
+        "en": "Nvidia has released an NVFP4 quantized version of Gemma 4 26B, demonstrating near-lossless performance on consumer-grade hardware. Tested on an RTX 5090 with 32GB VRAM, the model maintains high benchmark scores, including 90% on AIME 2025 and 84.8% on MMLU Pro, while allowing for a 50k context window. This release proves that 4-bit floating-point quantization is becoming the standard for deploying frontier-level reasoning models on local workstations without sacrificing significant accuracy."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t0i18e/nvidiagemma426ba4bnvfp4/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "pentagon-classified-ai-deals",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国国防部与科技巨头签署机密 AI 协议，Anthropic 被排除",
+        "en": "Pentagon Signs Classified AI Deals with Tech Giants, Excludes Anthropic"
+      },
+      "summary": {
+        "zh": "美国国防部已与 OpenAI、谷歌、微软、英伟达以及马斯克的 xAI 等科技巨头签署了机密级 AI 使用协议。值得注意的是，此前曾参与国防项目的 Anthropic 因被认定存在「供应链风险」而被排除在外。这一战略举措标志着美军正加速将生成式 AI 整合到敏感业务中，同时也对核心模型供应商提出了更严苛的安全审查要求。",
+        "en": "The Pentagon has finalized major classified AI contracts with a roster of tech giants including OpenAI, Google, Microsoft, and Nvidia, as well as Elon Musk's xAI. Notably, Anthropic was excluded from these deals due to cited 「supply-chain risks,」 despite its previous involvement in defense projects. This strategic move signals the U.S. military's aggressive integration of generative AI into sensitive operations while tightening security requirements for its primary model providers."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "musk-openai-trial-testimony",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克在起诉 OpenAI 案中面临严苛出庭质询",
+        "en": "Elon Musk Faces Tough Questioning in OpenAI Lawsuit Testimony"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克起诉 OpenAI 的法律诉讼本周进入关键阶段，他亲自出庭就该公司「窃取非营利组织」使命的指控作证。庭审迹象表明，马斯克在证明其对公司现状具有决定性贡献方面表现不佳，这可能导致其诉讼请求难以获得支持。该案的结果将为 AI 机构的治理结构以及科技行业非营利章程的法律效力设定重要先例。",
+        "en": "Elon Musk's legal battle against OpenAI reached a critical juncture this week as he took the stand to testify regarding his claims that the company 「stole a nonprofit」 mission. Reports from the trial suggest Musk struggled to provide compelling evidence for his central role in the company's current success, potentially weakening his case. The outcome of this trial could set a major precedent for the governance of AI organizations and the legal enforceability of non-profit founding charters in the tech industry."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/922009/musk-openai-trial-testimony-vergecast",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "microsoft-word-legal-ai-agent",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "微软在 Word 中推出专业级法律 AI 智能体",
+        "en": "Microsoft Launches Specialized AI Legal Agent for Word"
+      },
+      "summary": {
+        "zh": "微软在 Word 中推出了一款专门针对法律专业人士的 AI 智能体，标志着其从通用聊天界面向专业化工具的转变。该智能体能够根据实际法律实务的结构化工作流，处理复杂的文档编辑、追踪谈判历史并审查合同。通过在主流文字处理软件中嵌入特定领域逻辑，微软旨在通过深度集成而非简单的提示词交互，抢占高价值的法律科技市场。",
+        "en": "Microsoft is introducing a specialized AI agent within Word tailored for legal professionals, moving beyond general-purpose chat interfaces. The agent is designed to manage complex document edits, track negotiation histories, and review contracts using structured workflows based on actual legal practices. By embedding domain-specific logic directly into the world's most used word processor, Microsoft aims to capture the high-value legal tech market through deeper integration rather than simple prompt-based interactions."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "gpt-5-5-cyber-eval",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "GPT-5.5 评估报告揭示其先进的自主网络攻击能力",
+        "en": "Evaluation of GPT-5.5 Reveals Advanced Autonomous Cyber Capabilities"
+      },
+      "summary": {
+        "zh": "安全研究员 Simon Willison 发布了针对 OpenAI GPT-5.5 网络安全能力的最新评估报告。该评估重点考察了模型在识别漏洞和执行多步黑客任务方面的自主能力，引发了关于前沿模型「双重用途」风险的讨论。随着模型推理能力接近人类水平，此类评估正成为决定模型是应公开分发还是受限访问的强制性基准。",
+        "en": "Security researcher Simon Willison has highlighted a new evaluation of OpenAI's GPT-5.5, focusing specifically on its autonomous cyber capabilities. The assessment explores the model's proficiency in identifying vulnerabilities and executing multi-step hacking tasks, raising concerns about the dual-use nature of frontier models. As models approach human-level reasoning, these evaluations are becoming mandatory benchmarks for determining whether a model is safe for public release or requires restricted access."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+      "date": "2026-05-01"
+    }
+  ]
+}
