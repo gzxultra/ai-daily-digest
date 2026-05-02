@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-02",
+  "dateLabel": {
+    "zh": "2026年5月2日",
+    "en": "May 02, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-02T15:54:02Z",
+    "elapsedSeconds": 190,
+    "rawArticles": 51,
+    "afterFilter": 44,
+    "afterDedup": 38,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Briefs.co": 1,
+      "BBC News": 1,
+      "GitHub": 2,
+      "Reddit": 6,
+      "MIT Tech Review": 2
+    }
+  },
+  "news": [
+    {
+      "id": "uber-claude-code-budget-burn",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Uber 四个月耗尽 2026 全年 AI 预算，主因 Claude Code 消耗过快",
+        "en": "Uber Exhausts 2026 AI Budget in Four Months via Claude Code"
+      },
+      "summary": {
+        "zh": "据报道，由于大规模采用 Anthropic 的 Claude Code 编程助手，Uber 在 2026 年的前四个月内就耗尽了全年的 AI 预算。这种史无前例的资金消耗速度凸显了在企业级规模部署高频智能代理工具的巨大运营成本。尽管这可能带来了显著的生产力提升，但财务压力也揭示了管理层面临的严峻挑战：如何在自主代理的变革潜力与基于 Token 消费的不稳定经济效益之间取得平衡。",
+        "en": "Uber has reportedly depleted its entire 2026 AI budget within the first four months of the year, driven by the massive internal adoption of Anthropic's Claude Code. This unprecedented burn rate highlights the significant operational costs of deploying high-frequency agentic coding tools at an enterprise scale. While the productivity gains are likely substantial, the financial strain underscores a growing challenge for the C-suite: balancing the transformative potential of autonomous agents with the volatile unit economics of token-based consumption."
+      },
+      "source": "Briefs.co",
+      "sourceUrl": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "spotify-verified-human-artist-badges",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Spotify 推出「已验证」徽章，旨在区分人类艺术家与 AI 创作",
+        "en": "Spotify Launches 'Verified' Badges to Distinguish Human Artists"
+      },
+      "summary": {
+        "zh": "Spotify 正式推出全新的「已验证」徽章系统，旨在明确标识由人类艺术家创作的音乐，从而将其与日益增长的 AI 生成内容区分开来。此举回应了行业内关于版税稀释以及流媒体时代人类创意可能贬值的担忧。通过建立这种明确的界限，Spotify 试图维护人类音乐家的品牌价值，并为那些在算法输出泛滥的环境中优先选择真实人类表达的听众提供信任信号。",
+        "en": "Spotify has introduced a new 'Verified' badge system designed to explicitly label music created by human artists, separating it from the growing wave of AI-generated content. This move addresses industry concerns regarding royalty dilution and the potential devaluation of human creativity in the streaming era. By creating a clear distinction, Spotify is attempting to preserve the brand value of human musicians and provide a trust signal for listeners who prioritize authentic human expression over algorithmic output."
+      },
+      "source": "BBC News",
+      "sourceUrl": "https://www.bbc.com/news/articles/c5yerr4m1yno",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "agent-desktop-cli-automation",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Agent-desktop：为 AI 代理打造的原生桌面自动化命令行工具",
+        "en": "Agent-desktop: Native CLI for AI Agent OS Interaction"
+      },
+      "summary": {
+        "zh": "Agent-desktop 是一款原生桌面自动化命令行工具（CLI），为 AI 代理直接与操作系统交互提供了桥梁。它为大语言模型提供了一个标准接口，用于执行终端命令、管理文件和控制 GUI 元素，从而以极低的延迟实现「计算机使用」能力。该工具是迈向更强大自主代理的重要一步，允许开发者构建让 AI 能够像原生用户一样在复杂桌面环境中导航的工作流。",
+        "en": "Agent-desktop is a native desktop automation CLI that provides a bridge for AI agents to interact directly with operating systems. It offers a standardized interface for LLMs to execute terminal commands, manage files, and control GUI elements, effectively enabling 'Computer Use' capabilities with minimal latency. This tool is a significant step toward more robust autonomous agents, allowing developers to build workflows where AI can navigate complex desktop environments as a native user would."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/lahfir/agent-desktop",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "loopsy-cross-machine-agent-talk",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Loopsy 实现跨机器的终端与 AI 代理协同通信",
+        "en": "Loopsy Enables Cross-Machine Communication for AI Agents"
+      },
+      "summary": {
+        "zh": "Loopsy 是一款开源工具，旨在促进不同物理或虚拟机上的终端与 AI 代理之间的无缝通信。通过简化代理交互的网络层，它允许在无需复杂基础设施设置的情况下编排分布式工作流。该项目解决了多代理系统在不同硬件环境下协作的日益增长的需求，使开发者能够更轻松地实现自主任务的远程执行和监控。",
+        "en": "Loopsy is an open-source utility that facilitates seamless communication between terminals and AI agents across different physical or virtual machines. By simplifying the networking layer for agentic interactions, it allows for the orchestration of distributed workflows without complex infrastructure setup. This project addresses the increasing need for multi-agent systems to collaborate across diverse hardware environments, making remote execution and monitoring of autonomous tasks more accessible to developers."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/leox255/loopsy",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "icml-2026-review-crisis-rant",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ICML 2026 录取结果引发热议，折射同行评审的扩展性危机",
+        "en": "ICML 2026 Acceptance Rant Highlights Peer-Review Scalability Crisis"
+      },
+      "summary": {
+        "zh": "AI 研究社区对 ICML 2026 的最终录取结果反应强烈，在惊人的 2.4 万篇投稿中仅有 6500 篇被录取。Reddit 上的批评者指出评审系统正面临「危机」，理由是反馈不足以及评审标准随意，未能体现复杂研究的细微差别。这种由投稿量驱动的压力产生了级联效应，被拒论文将涌向 NeurIPS 等后续会议，威胁到当前学术出版模式的可持续性以及该领域科学讨论的质量。",
+        "en": "The AI research community is reacting to ICML 2026's final decisions, where only 6,500 papers were accepted out of a staggering 24,000 submissions. Critics on Reddit highlight a 'review crisis,' citing inadequate feedback and arbitrary rejection criteria that fail to account for the nuance of complex research. This volume-driven pressure creates a cascade effect where rejected papers flood subsequent conferences like NeurIPS, threatening the sustainability of the current academic publishing model and the quality of scientific discourse in the field."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1393a/icml_final_decisions_rant_d/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "usenet-103b-token-pre-llm-corpus",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "研究员发布 1030 亿 Token 的 Usenet 语料库（1980-2013）",
+        "en": "Researcher Releases 103B-Token Usenet Corpus (1980-2013)"
+      },
+      "summary": {
+        "zh": "一个涵盖 33 年（1980-2013）的 1031 亿 Token 的 Usenet 语料库正式发布，为前 LLM 时代的人类对话提供了罕见且高质量的档案。该数据集包含 1.8 万个新闻组的 4.08 亿条帖子，涵盖了广泛的技术和社会讨论。随着行业面临「数据枯竭」以及 AI 生成内容对互联网数据的污染，这一历史档案成为训练模型理解真实人类推理和长期文化背景的关键资源。",
+        "en": "A massive 103.1-billion-token Usenet corpus spanning 33 years (1980-2013) has been released, offering a rare, high-quality archive of pre-LLM human conversation. The dataset comprises 408 million posts across 18,347 newsgroups, providing a diverse range of technical and social discourse. As the industry faces 'data exhaustion' and the contamination of the web with AI-generated text, this historical archive serves as a critical resource for training models on authentic human reasoning and long-term cultural context."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "meta-scaling-test-time-compute",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Meta 扩展推理时算力论文首个公开实现发布",
+        "en": "First Public Implementation of Meta's Scaling Test-Time Compute Paper Released"
+      },
+      "summary": {
+        "zh": "一位开发者发布了 Meta AI 最新论文（arXiv:2604.16529v1）的首个公开实现，重点在于扩展智能编程代理的推理时算力。该实现构建了一个精简的 PDR+RTV 流水线，并在 SWE 基准测试中结合 Gemini 3.1 Pro 进行了验证。该项目的重要意义在于为研究人员提供了一个实际框架，用于探索如何通过增加推理阶段的计算量来提升编程代理的逻辑推理能力，填补了理论研究与实际应用之间的空白。",
+        "en": "A developer has released the first public implementation of Meta AI's recent paper (arXiv:2604.16529v1) focusing on scaling test-time compute for agentic coding. The implementation features a minimal PDR+RTV pipeline and was tested using Gemini 3.1 Pro on the SWE benchmark. This project is significant as it provides a tangible framework for researchers to explore how additional inference-time computation can improve the reasoning capabilities of coding agents, bridging the gap between theoretical research and practical application."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1rni9/i_implemented_meta_paper_p/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "qwen-36-agentic-search",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.6-27B 结合智能搜索在单块 3090 上实现 95.7% SimpleQA 准确率",
+        "en": "Qwen3.6-27B with Agentic Search Hits 95.7% on SimpleQA via Single RTX 3090"
+      },
+      "summary": {
+        "zh": "LocalLLaMA 社区报告了一项突破：通过将 Qwen3.6-27B 模型与智能搜索（Agentic Search）相结合，在 SimpleQA 基准测试中达到了 95.7% 的准确率。令人瞩目的是，该配置仅需单块 NVIDIA RTX 3090（24GB 显存）即可通过 Ollama 后端完全在本地运行。这一里程碑证明了复杂的智能工作流可以使中型模型在事实准确性上超越大型模型，同时保持个人用户在消费级硬件上的可访问性。",
+        "en": "The LocalLLaMA community reports a breakthrough with Qwen3.6-27B combined with agentic search, achieving a 95.7% score on the SimpleQA benchmark. Remarkably, this setup runs entirely locally on a single NVIDIA RTX 3090 (24GB VRAM) using the Ollama backend. This milestone demonstrates that sophisticated agentic workflows can enable mid-sized models to outperform much larger counterparts in factual accuracy while remaining accessible to individual users on consumer-grade hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1n6o8/we_are_finally_there_qwen3627b_agentic_search_957/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "dark-money-ai-campaign",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "黑金政治活动据传正将中国 AI 描绘为国家威胁",
+        "en": "Dark-Money Campaign Allegedly Targeting Chinese AI as National Threat"
+      },
+      "summary": {
+        "zh": "有报告披露了一场由非营利组织「Build American AI」资助的「黑金」宣传活动，据称该组织与 OpenAI 和 Andreessen Horowitz 的高管有关。该活动通过资助影响力人物，将中国 AI 的发展描述为国家安全威胁，同时推广亲美的 AI 叙事。这凸显了日益加剧的全球 AI 地缘政治竞争，以及利用影响力行动来塑造公众认知和政策导向的策略，尤其是在开源模型分发方面。",
+        "en": "Reports have surfaced regarding a 'dark-money' campaign funded by the nonprofit Build American AI, which is allegedly linked to executives at OpenAI and Andreessen Horowitz. The campaign pays influencers to frame Chinese AI developments as a national security threat while promoting pro-American AI narratives. This highlights the intensifying geopolitical competition and the strategic use of influence operations to shape public perception and policy around global AI leadership and open-source model distribution."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1i4yg/a_darkmoney_campaign_is_paying_influencers_to/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "unsloth-mistral-35-fix",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Unsloth 修复 Mistral Medium 3.5 关键 YaRN 解析漏洞",
+        "en": "Unsloth Fixes Critical YaRN Parsing Bug in Mistral Medium 3.5"
+      },
+      "summary": {
+        "zh": "Unsloth 修复了 Mistral Medium 3.5 实现中的一个关键推理漏洞，该漏洞曾影响包括 transformers 和 llama.cpp 在内的多个平台。问题源于与「mscale_all_dim」参数相关的 YaRN 解析异常，目前已在更新后的 GGUF 版本中得到修正。此次修复确保了这一行业主流中型模型在本地 LLM 生态系统中的性能稳定性和准确性，防止了长上下文任务中可能出现的性能下降。",
+        "en": "Unsloth has resolved a critical inference bug in the Mistral Medium 3.5 implementation that affected several platforms, including transformers and llama.cpp. The issue stemmed from a YaRN parsing quirk related to the 'mscale_all_dim' parameter, which has now been corrected in updated GGUF releases. This fix ensures stable and accurate performance for one of the industry's most popular medium-sized models across the local LLM ecosystem, preventing potential degradation in long-context tasks."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t1itn1/unsloth_solved_bug_in_mistral_medium_35/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "musk-altman-trial-week-1",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克诉奥特曼案首周：马斯克承认 xAI 蒸馏了 OpenAI 模型",
+        "en": "Musk v. Altman Trial: Musk Admits xAI Distills OpenAI Models"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克与 OpenAI 之间的里程碑式诉讼开庭。马斯克在首周作证称，他被 Sam Altman 和 Greg Brockman 误导，在虚假前提下提供了早期资金。马斯克重申了 AI 可能威胁人类生存的警告，同时也承认其公司 xAI 存在对 OpenAI 模型进行蒸馏的行为。庭审揭示了 AI 行业顶层深层的个人恩怨与职业裂痕，以及领先实验室之间复杂的竞争动态。",
+        "en": "The landmark trial between Elon Musk and OpenAI began with Musk testifying that he was deceived by Sam Altman and Greg Brockman into providing early funding under false pretenses. Musk reiterated his warnings that AI poses an existential threat to humanity while also admitting that his company, xAI, utilizes distillation from OpenAI's models. The proceedings shed light on the deep-seated personal and professional rifts at the top of the AI industry and the complex competitive dynamics between leading labs."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "ai-cyber-insecurity",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "麻省理工 EmTech AI 会议：重新思考 AI 时代下的网络安全",
+        "en": "MIT EmTech AI: Rethinking Cybersecurity for the AI Era"
+      },
+      "summary": {
+        "zh": "在麻省理工科技评论的 EmTech AI 会议上，专家强调 AI 的集成正在急剧扩大网络攻击面，使传统安全方法失效。讨论指出，AI 为技术栈增加了新的复杂性，必须从根本上重新思考安全架构，将 AI 作为核心组件而非事后补丁。随着组织面临日益复杂的、同时利用模型漏洞和传统基础设施的 AI 驱动威胁，这种范式转变至关重要。",
+        "en": "At MIT Technology Review’s EmTech AI conference, experts emphasized that the integration of AI is drastically expanding the cyberattack surface, rendering legacy security approaches obsolete. The discussion highlighted how AI adds new layers of complexity to the tech stack, necessitating a fundamental rethink of security where AI is a core component rather than an afterthought. This shift is critical as organizations face increasingly sophisticated AI-driven threats that exploit both model vulnerabilities and traditional infrastructure."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+      "date": "2026-05-02"
+    }
+  ]
+}
