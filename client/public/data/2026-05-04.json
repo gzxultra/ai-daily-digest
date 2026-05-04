@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-04",
+  "dateLabel": {
+    "zh": "2026年5月4日",
+    "en": "May 04, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-04T16:51:27Z",
+    "elapsedSeconds": 165,
+    "rawArticles": 42,
+    "afterFilter": 37,
+    "afterDedup": 34,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 4,
+      "Reddit": 1,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 4
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-automated-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 455：自动化 AI 研究的黎明",
+        "en": "Import AI 455: The Dawn of Automated AI Research"
+      },
+      "summary": {
+        "zh": "Jack Clark 在最新一期通讯中探讨了「自动化 AI 研究」的趋势，即 AI 系统开始设计和构建其继任者。这一转变标志着行业从人类主导的实验转向递归自我改进循环的关键时刻。文章强调，随着模型获得编写代码和设计架构的能力，AI 的进步速度可能会摆脱人类劳动力的限制，实现指数级增长。这意味着未来 AI 开发的瓶颈将从人类的创造力转向原始算力和数据的可用性。",
+        "en": "Jack Clark discusses the pivotal shift toward 'Automating AI Research,' where AI systems begin to design and build their own successors. This transition marks a move from human-led experimentation to recursive self-improvement loops. The newsletter highlights that as models gain the ability to write code and design architectures, the speed of progress could decouple from human labor constraints, potentially leading to an intelligence explosion. This suggests a future where the bottleneck for AI development shifts from human ingenuity to raw compute and data availability."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "deepclaude-agent-loop",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "DeepClaude：将 DeepSeek V4 Pro 与 Claude Code 深度集成",
+        "en": "DeepClaude: Integrating DeepSeek V4 Pro with Claude Code"
+      },
+      "summary": {
+        "zh": "DeepClaude 是一款全新的开源智能体工作流，将 DeepSeek V4 Pro 的高级推理能力与 Claude Code 的代码执行精准度相结合。通过利用 DeepSeek 的逻辑进行复杂规划，并使用 Claude 的可靠性进行实施，该工具在自主软件工程任务中表现优异。这种集成反映了行业通过「模型链」优化成本和性能的日益增长的趋势。该项目在 Hacker News 上获得了极高关注，突显了社区对开发者工具混合模型架构的浓厚兴趣。",
+        "en": "DeepClaude is a new open-source agentic workflow that combines the advanced reasoning capabilities of DeepSeek V4 Pro with the coding execution precision of Claude Code. By leveraging DeepSeek's logic for complex planning and Claude's reliability for implementation, the tool achieves superior performance in autonomous software engineering tasks. This integration reflects a growing industry trend of 'model chaining' to optimize both cost and performance. The project has gained significant traction on Hacker News, highlighting the community's interest in hybrid model architectures for developer tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/aattaran/deepclaude",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "oscars-ai-ban",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "奥斯卡禁止 AI 入围表演及编剧奖项",
+        "en": "Oscars Ban AI from Acting and Writing Award Eligibility"
+      },
+      "summary": {
+        "zh": "美国电影艺术与科学学院正式更新规则，禁止 AI 生成的内容获得表演和编剧类奖项。虽然 AI 可以作为制作辅助工具使用，但要获得这些特定类别的资格，「创作核心」必须保持为人类。在生成式媒体兴起的背景下，这一政策为保护娱乐行业的人类劳动力设定了重要的法律和文化先例。它回应了美国演员工会（SAG-AFTRA）和美国编剧工会（WGA）关于合成实体取代创意专业人士的日益增长的担忧。",
+        "en": "The Academy of Motion Picture Arts and Sciences has officially updated its rules to ban AI-generated content from winning acting and writing awards. While AI can be utilized as a supportive tool in production, the 'creative core' must remain human to qualify for these specific categories. This policy sets a significant legal and cultural precedent for the protection of human labor in the entertainment industry amidst the rise of generative media. It addresses growing concerns from unions like SAG-AFTRA and the WGA regarding the displacement of creative professionals by synthetic entities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://gizmodo.com/the-oscars-just-banned-ai-from-winning-acting-and-writing-awards-2000753740",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "xai-gpu-utilization",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "报告称 xAI 对 55 万块 GPU 集群的利用率仅为 11%",
+        "en": "xAI Reportedly Utilizing Only 11% of 550k GPU Cluster"
+      },
+      "summary": {
+        "zh": "报告显示，埃隆·马斯克的 xAI 目前仅利用了其庞大的 550,000 块英伟达 GPU 集群中的 11%，显著落后于 Meta 和谷歌等竞争对手的效率。这种利用率不足表明在扩展 Grok 训练流水线时存在严重的基础设施瓶颈或软件优化挑战。随着「算力大战」升级，从现有硬件中有效提取性能的能力正变得与原始 GPU 数量一样关键。这些数据引发了人们对 xAI 激进的硬件采购策略与成熟 AI 实验室相比即时投资回报率（ROI）的质疑。",
+        "en": "Reports indicate that Elon Musk's xAI is currently utilizing only 11% of its massive 550,000 Nvidia GPU cluster, significantly trailing the efficiency of competitors like Meta and Google. This underutilization suggests major infrastructure bottlenecks or software optimization challenges in scaling Grok's training pipeline. As the 'compute war' intensifies, the ability to effectively extract performance from existing hardware is becoming as critical as the raw GPU count. The data raises questions about the immediate ROI of xAI's aggressive hardware acquisition strategy compared to more established AI labs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://wccftech.com/xai-using-just-11-percent-gpus-while-meta-google-squeeze-out-much-more/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "asu-ai-course-controversy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚利桑那州立大学因 AI 生成课程面临抵制",
+        "en": "ASU Faces Backlash Over AI-Generated Courses"
+      },
+      "summary": {
+        "zh": "亚利桑那州立大学（ASU）因涉嫌使用 AI 工具在未经教授明确知情或同意的情况下，利用其过往作品生成完整的课程大纲而面临批评。这一事件突显了在 LLM 时代，学术机构与教职员工之间关于知识产权日益紧张的关系。它引发了关于教育内容所有权以及通过自动合成可能导致人类教学贬值的关键问题。此次争议可能会促使教育工作者寻求新的合同保护，以防止其智力劳动在未经授权的情况下被 AI 重新利用。",
+        "en": "Arizona State University (ASU) is facing criticism for allegedly using AI tools to generate entire course curricula from professors' previous work without their explicit knowledge or consent. This incident highlights the growing tension between academic institutions and faculty regarding intellectual property rights in the age of LLMs. It raises critical questions about the ownership of educational content and the potential devaluation of human instruction through automated synthesis. The controversy may lead to new contractual protections for educators against the unauthorized AI-driven repurposing of their intellectual labor."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://azfreenews.com/2026/05/asu-using-ai-tool-to-create-courses-from-professors-work-without-their-knowledge/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "ssm-vs-transformer-constraints",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "为什么状态空间模型在参数受限训练中表现不佳",
+        "en": "Why SSMs Struggle in Parameter-Constrained Training"
+      },
+      "summary": {
+        "zh": "来自「参数高尔夫」竞赛的最新实证研究揭示了为什么状态空间模型（SSM）在参数受限环境（25M 参数、16MB 限制）中表现不如 Transformer。研究发现，SSM 在结构上处于劣势，因为其投影权重压缩率高达 3.26 倍，在模型大小受到严格限制时限制了其表达能力。虽然 SSM 在大规模下具有效率优势，但在超紧凑、高性能的边缘部署中，Transformer 仍然更有效。这些发现为根据特定硬件和尺寸限制选择模型架构提供了细致的见解。",
+        "en": "New empirical research from the 'Parameter Golf' competition reveals why State Space Models (SSMs) struggle compared to Transformers in parameter-constrained environments (25M parameters, 16MB limit). The study found that SSMs are structurally disadvantaged because their projection weights compress up to 3.26x, limiting their expressive capacity when model size is strictly capped. While SSMs offer superior efficiency at scale, Transformers remain more effective for ultra-compact, high-performance edge deployments. These findings provide a nuanced view of model architecture selection based on specific hardware and size constraints."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "torch-nvenc-compress-gpu-bandwidth",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "利用 NVENC 硬件单元实现多显卡并行 PCIe 带宽倍增",
+        "en": "NVENC Silicon Used as PCIe Bandwidth Multiplier for Multi-GPU LLMs"
+      },
+      "summary": {
+        "zh": "新推出的 Python 库 torch-nvenc-compress 利用消费级 GPU 上闲置的 NVENC/NVDEC 硬件单元来压缩激活值和 KV 缓存，从而充当 PCIe 带宽倍增器。该工具旨在解决 RTX 4090/5090 等取消了 NVLink 的显卡在多卡并行时的 PCIe 瓶颈问题（P2P 速度通常限制在 30 GB/s 左右）。在真实的 GEMM 和编码负载测试中，其并行路径重叠度达到了理论最大值的 67%。这一突破对于在多张消费级显卡上高效运行 70B 等大型模型具有重要意义，有效降低了原本会严重拖慢性能的通信开销。",
+        "en": "A new Python library, torch-nvenc-compress, leverages idle NVENC/NVDEC silicon on consumer GPUs to compress activations and KV cache, effectively acting as a PCIe bandwidth multiplier. This addresses the bottleneck in multi-GPU setups like the RTX 4090/5090 where NVLink is absent, limiting peer-to-peer speeds to ~30 GB/s. Real-world tests show parallel-path overlap reaching 67% of the theoretical maximum during GEMM and encoding workloads. This innovation is crucial for running large models (e.g., 70B) across multiple consumer-grade cards by reducing the communication overhead that typically cripples performance."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2zy4h/torchnvenccompress_gpu_nvenc_silicon_as_a_pcie/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "autobe-backend-generation-benchmark",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AutoBe 基准测试：结构化框架缩小前沿与本地模型差距",
+        "en": "AutoBe Benchmark: Structured Harness Narrows Frontier-vs-Local Gap"
+      },
+      "summary": {
+        "zh": "AutoBe 基准测试引入了一套结构化框架来评估端到端后端生成能力，显著缩小了前沿模型与本地模型之间的差距。该基准不再生成非结构化代码，而是要求模型通过结构化函数调用，在需求分析、实体关系图（ERD）和 OpenAPI 规范等六个阶段填充预定义的抽象语法树（AST）。评分完全由静态分析驱动（满分 100 分），为智能编程工作流提供了更客观的衡量标准。这种向结构化输出的转变标志着 AI 驱动的软件工程方法正趋于成熟，强调架构一致性而非单纯的文本生成。",
+        "en": "The AutoBe benchmark introduces a structured harness for evaluating end-to-end backend generation, significantly narrowing the performance gap between frontier and local models. Instead of generating unstructured code, it requires models to fill predefined Abstract Syntax Trees (AST) via structured function calling across six phases, including requirements analysis, ERD, and OpenAPI specs. Scoring is entirely driven by static analysis across 100 points, providing a more objective metric for agentic coding workflows. This shift toward structured output represents a maturing approach to AI-driven software engineering, emphasizing architectural consistency over raw text generation."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t3hks9/autobe_benchmark_structured_harness_narrows/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "llamacpp-mtp-support-beta",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Llama.cpp 开启多 Token 预测（MTP）支持测试",
+        "en": "Llama.cpp Beta Adds Multi-Token Prediction (MTP) Support"
+      },
+      "summary": {
+        "zh": "llama.cpp 正式开启了多 Token 预测（MTP）支持的测试版，这是本地 LLM 推理效率提升的一个重要里程碑。该功能最初支持 Qwen 3.5 MTP，允许模型在单次前向传播中预测多个 Token，从而大幅提高生成速度。结合日益成熟的张量并行（Tensor-Parallel）支持，此次更新旨在消除本地推理引擎与高端闭源后端之间的性能差距。开发者预计该功能将很快合并到主分支，并随后支持包括未来 Llama 系列在内的更多模型。",
+        "en": "Multi-Token Prediction (MTP) support has officially entered beta for llama.cpp, marking a significant milestone for local LLM inference efficiency. Initially supporting Qwen 3.5 MTP, the implementation allows models to predict multiple tokens per forward pass, which can drastically increase generation speed. Combined with maturing tensor-parallel support, this update aims to close the performance gap between local inference engines and high-end proprietary backends. Developers expect this feature to be merged into the main branch soon, with support for more models like the upcoming Llama series likely to follow suit."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t3guzw/llamacpp_mtp_support_now_in_beta/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "gemma-4-gguf-updates",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemma 4 GGUF 模型更新：修复关键聊天模板问题",
+        "en": "Gemma 4 GGUF Models Updated with Critical Chat Template Fixes"
+      },
+      "summary": {
+        "zh": "谷歌 Gemma 4 模型系列的 GGUF 格式在 Hugging Face 上迎来了关键更新，专门修复了此前影响指令遵循性能的聊天模板（Chat Template）问题。更新后的权重涵盖了 2B、26B (A4B) 和 31B 等多种规格，由 Bartowski 和 Unsloth 等社区主流贡献者提供。这些修复确保了模型在本地推理环境中能正确遵循指令、理解系统提示并保持对话连贯性。建议用户重新下载最新版本，以在 RAG 和智能体任务中充分发挥 Gemma 4 架构的能力。",
+        "en": "Google's Gemma 4 model family has received critical updates to its GGUF formats on Hugging Face, specifically fixing chat template issues that previously hindered instruction-following performance. The updated weights cover a range of sizes, including the 2B, 26B (A4B), and 31B variants, provided by community mainstays like Bartowski and Unsloth. These fixes ensure that the models maintain conversational coherence and correctly interpret system prompts in local inference environments. Users are encouraged to re-download these latest versions to leverage the full capabilities of the Gemma 4 architecture for RAG and agentic tasks."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t3dfvp/its_time_to_update_your_gemma_4_ggufs/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "ryzen-ai-max-gorgon-halo-192gb",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AMD Ryzen AI Max+ 泄露：拥有 192GB 显存的本地 AI 利器",
+        "en": "AMD Ryzen AI Max+ Leak Points to 192GB VRAM APU for Local AI"
+      },
+      "summary": {
+        "zh": "AMD Ryzen AI Max+ 495（代号 Gorgon Halo）的泄露规格显示，本地 AI 硬件将迎来巨大飞跃，其集成的显存（VRAM）容量高达 192GB。这款高容量 APU 旨在本地处理超大型 LLM，无需昂贵的多显卡配置，尽管受持续的存储市场危机影响，其价格预计将较为昂贵。此次泄露还引发了对 2027 年「Medusa Halo」继任者可能达到 256GB 显存的猜测。这一趋势表明，统一内存架构正成为提升消费级本地 AI 性能的核心驱动力，可能会对独立显卡市场产生冲击。",
+        "en": "Leaked specifications for the AMD Ryzen AI Max+ 495 (codenamed Gorgon Halo) suggest a massive leap for local AI hardware, featuring up to 192GB of integrated VRAM. This high-capacity APU is designed to handle massive LLMs locally without the need for expensive multi-GPU setups, though pricing is expected to be high due to the ongoing storage crisis. The leak also fuels speculation that the 2027 'Medusa Halo' successor could reach 256GB of VRAM. This trend indicates a shift toward unified memory architectures as the primary driver for consumer-grade local AI performance, potentially disrupting the dedicated GPU market."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t3duwm/ryzen_ai_max_495_gorgon_halo_with_192gb_vram/",
+      "date": "2026-05-04"
+    },
+    {
+      "id": "qwen-3-6-vs-gpt-5-5-coding",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Qwen 3.6 (27B) 在调试任务中击败 GPT-5.5 和 Claude 4.7",
+        "en": "Qwen 3.6 (27B) Outperforms GPT-5.5 and Claude 4.7 in Debugging Task"
+      },
+      "summary": {
+        "zh": "一项社区对比凸显了 Qwen 3.6 (27B) 令人惊讶的编程能力。据报告，该模型发现了一个 GPT-5.5 和 Claude 4.7 都遗漏的关键 Bug。在案例中，本地运行的 Qwen 提供了详尽的逻辑证明，最终迫使原本坚持错误立场的前沿大模型承认了错误。这一轶事凸显了中型开源模型在调试和逻辑推理等专业任务中的飞速进步。这表明在特定的技术工作流中，本地模型正逐渐具备与行业顶级闭源系统一较高下的竞争实力。",
+        "en": "A community comparison has highlighted the surprising coding proficiency of Qwen 3.6 (27B), which reportedly identified a critical bug that both GPT-5.5 and Claude 4.7 missed. In the reported case, the local Qwen model provided detailed proof of its logic, eventually forcing the larger frontier models to admit their errors after they initially stood their ground. This anecdote underscores the rapid advancement of mid-sized open-weight models in specialized tasks like debugging and logical reasoning. It suggests that for specific technical workflows, local models are becoming increasingly competitive with the industry's largest proprietary systems."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t3i219/the_more_i_use_it_the_more_im_impressed/",
+      "date": "2026-05-04"
+    }
+  ]
+}
