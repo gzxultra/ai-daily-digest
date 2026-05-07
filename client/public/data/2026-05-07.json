@@ -1,0 +1,258 @@
+{
+  "date": "2026-05-07",
+  "dateLabel": {
+    "zh": "2026年5月7日",
+    "en": "May 07, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-07T16:56:31Z",
+    "elapsedSeconds": 192,
+    "rawArticles": 53,
+    "afterFilter": 48,
+    "afterDedup": 44,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 3,
+      "Reddit": 2,
+      "Reddit r/LocalLLaMA": 1,
+      "Zyphra": 1,
+      "TechCrunch / FT": 1,
+      "GitHub / llama.cpp": 1,
+      "Hugging Face / Qwen": 1,
+      "The Verge": 1
+    }
+  },
+  "news": [
+    {
+      "id": "anthropic-capacity-shortage-meta-labeling",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 面临算力短缺；Meta 强制工程师转岗标注",
+        "en": "Anthropic Faces Capacity Shortage; Meta Reassigns Engineers to Labeling"
+      },
+      "summary": {
+        "zh": "据报道，Anthropic 正面临严重的计算资源短缺，因优先保障高价值合作伙伴而对普通开发者表现出「敌对」态度。与此同时，亚马逊终于批准内部使用 Claude Code 和 Codex，标志着其 AI 工具政策的重大转变。Meta 则被曝强制将工程师分配到手动数据标注工作，此举被广泛解读为裁员前的预兆。这些动态突显了算力供应的紧张局势以及 AI 时代工程师职能的深刻演变。",
+        "en": "Anthropic is reportedly grappling with severe compute capacity shortages, leading to a perceived 'hostile' stance toward developers as resources are prioritized for high-value partners. Simultaneously, Amazon has finally authorized internal use of Claude Code and Codex, signaling a major shift in its AI tool policy. Meanwhile, Meta is forcefully reassigning engineers to manual data labeling tasks, a move widely interpreted as a precursor to upcoming layoffs. These developments highlight the intensifying pressure on compute availability and the shifting nature of engineering roles in the AI era."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-pulse-did-capacity-shortages",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "unsloth-nvidia-llm-training-collab",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Unsloth 与 NVIDIA 合作加速大模型训练",
+        "en": "Unsloth and NVIDIA Partner to Accelerate LLM Training"
+      },
+      "summary": {
+        "zh": "Unsloth 宣布与 NVIDIA 达成战略合作，旨在通过深度内核优化大幅提升大语言模型（LLM）的训练速度。通过利用 NVIDIA 最新的硬件特性，该合作致力于减少 Llama 3 等流行开源模型的内存开销并缩短训练时间。这一合作对微调社区尤为重要，因为效率的提升直接意味着运营成本的降低。此次集成有望让独立研究人员和小型实验室更容易获得高性能的模型训练能力。",
+        "en": "Unsloth has announced a strategic collaboration with NVIDIA to significantly boost LLM training speeds through deep kernel optimizations. By leveraging NVIDIA's latest hardware features, the partnership aims to reduce memory overhead and training time for popular open-source models like Llama 3. This collaboration is particularly impactful for the fine-tuning community, where efficiency gains directly translate to lower operational costs. The integration promises to make high-performance model training more accessible to independent researchers and smaller labs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://unsloth.ai/blog/nvidia-collab",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "motherboard-market-collapse-ai-demand",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "芯片商优先供应 AI 芯片，全球主板销量暴跌",
+        "en": "Motherboard Sales Collapse as Chipmakers Prioritize AI Silicon"
+      },
+      "summary": {
+        "zh": "由于前所未有的组件短缺，发烧级 PC 市场正面临危机，主板销量暴跌超过 25%。据报道，芯片制造商正在「扼杀」消费级市场，将产能转向高利润的 AI 芯片。华硕、技嘉和微星等主要厂商预计销量将大幅下降，仅华硕一家就预计 2025 年将减产 500 万块主板。这一趋势突显了 AI 基础设施的繁荣正在如何蚕食传统计算硬件领域，可能永久改变 PC 产业格局。",
+        "en": "The enthusiast PC market is facing a crisis as motherboard sales have collapsed by over 25% due to unprecedented component shortages. Chipmakers are reportedly 'strangling' the consumer market to divert production capacity toward high-margin AI chips. Major manufacturers like ASUS, Gigabyte, and MSI are projecting significant sales declines, with ASUS alone expected to sell 5 million fewer boards in 2025. This trend underscores how the AI infrastructure boom is cannibalizing traditional computing hardware sectors, potentially permanently altering the PC landscape."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "chrome-silent-gemini-nano-install",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google Chrome 静默安装 4GB Gemini Nano 模型",
+        "en": "Google Chrome Silently Installs 4GB Gemini Nano Model"
+      },
+      "summary": {
+        "zh": "Google Chrome 已开始在未经用户明确同意的情况下，在后台静默安装 4 GB 的 Gemini Nano AI 模型，引发了隐私和存储空间的担忧。此举是 Google 将本地 AI 能力直接集成到浏览器（如「帮我写」功能）战略的一部分。虽然本地执行通过将数据保留在设备上提供了隐私优势，但这种数 GB 级别的后台下载缺乏透明度，遭到了批评。这反映了行业为降低服务器成本，将 AI 推理从云端转向边缘端的普遍趋势。",
+        "en": "Google Chrome has begun silently installing the 4 GB Gemini Nano AI model on users' devices without explicit consent, sparking privacy and storage concerns. This move is part of Google's strategy to integrate local AI capabilities directly into the browser for features like 'Help Me Write.' While local execution offers privacy benefits by keeping data on-device, the lack of transparency regarding the multi-gigabyte background download has drawn criticism. It reflects a broader industry push to move AI inference from the cloud to the edge to reduce server costs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://alternativeto.net/news/2026/5/google-chrome-silently-installs-4-gb-gemini-nano-ai-model-to-user-device-without-consent/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "meta-programbench-superintelligence-lab",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Meta 发布 ProgramBench：挑战从零重建复杂软件",
+        "en": "Meta Presents ProgramBench: Recreating Complex Software from Scratch"
+      },
+      "summary": {
+        "zh": "Meta 超级智能实验室推出了 ProgramBench，这是一个严苛的新基准测试，旨在测试顶尖 AI 能否从零开始重建 ffmpeg、SQLite 和 ripgrep 等复杂的、可执行的程序。与传统的编码基准不同，ProgramBench 要求模型在不联网的情况下生成功能性软件，以测试其真实的逻辑和架构理解能力。该基准旨在挑战 AI 处理大规模真实世界工程任务的能力。结果显示，虽然 AI 正在进步，但在没有外部文档的情况下重建复杂系统仍是一项重大挑战。",
+        "en": "Meta's Superintelligence Lab has introduced ProgramBench, a rigorous benchmark designed to test if SOTA AI can recreate complex, executable programs like ffmpeg, SQLite, and ripgrep from scratch. Unlike traditional coding benchmarks, ProgramBench requires models to generate functional software without internet access, testing true logic and architectural understanding. The benchmark aims to push the boundaries of AI's ability to handle large-scale, real-world engineering tasks. Results indicate that while AI is improving, recreating intricate systems without external documentation remains a significant frontier."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "amd-instinct-mi350p-pcie-launch",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AMD 发布 Instinct MI350P：CDNA 4 架构登陆 PCIe 插卡",
+        "en": "AMD Intros Instinct MI350P: CDNA 4 Architecture Comes to PCIe"
+      },
+      "summary": {
+        "zh": "AMD 正式推出了 Instinct MI350P 加速器，将其先进的 CDNA 4 架构引入 PCIe 插卡形态。此举旨在满足对本地 LLM 推理和需要灵活部署方案的企业级 AI 工作负载日益增长的需求。虽然尚未公布具体的定价和上市日期，但 MI350P 的定位是 NVIDIA 高端企业级产品的直接竞争对手。此次发布标志着 AMD 致力于将其在 AI 硬件生态系统中的影响力扩展到本地化和边缘侧重型应用领域。",
+        "en": "AMD has officially introduced the Instinct MI350P accelerator, bringing its advanced CDNA 4 architecture to the PCIe card form factor. This move targets the growing demand for local LLM inference and enterprise-grade AI workloads that require flexible deployment options beyond massive OAM clusters. While specific pricing and availability dates have not yet been disclosed, the MI350P is positioned as a direct competitor to NVIDIA's high-end enterprise offerings. The release signifies AMD's commitment to expanding its footprint in the AI hardware ecosystem for localized and edge-heavy applications."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.servethehome.com/amd-intros-instinct-mi350p-accelerator-cdna-4-comes-to-pcie-cards/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "malware-warning-open-oss",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "恶意软件警报：Hugging Face 发现伪装成隐私过滤器的病毒",
+        "en": "Malware Alert: Malicious Privacy Filter Discovered on Hugging Face"
+      },
+      "summary": {
+        "zh": "Hugging Face 上发现了一个名为「Open-OSS/privacy-filter」的恶意仓库，该仓库伪装成 OpenAI 的隐私过滤工具。该恶意软件利用 Python 编写的下载器（loader.py）执行 PowerShell 命令，进而通过任务计划程序下载并运行外部可执行文件。此事件凸显了开源 AI 生态系统中日益增长的供应链攻击风险，攻击者正利用开发者对隐私增强工具的需求进行渗透。建议用户避开此仓库并审计相关的本地开发环境。",
+        "en": "A malicious repository titled 'Open-OSS/privacy-filter' has been identified on Hugging Face, masquerading as an OpenAI privacy tool. The attack utilizes a Python-based dropper (loader.py) to execute PowerShell commands that download and run an external executable via Task Scheduler. This incident highlights the growing risk of supply chain attacks within the open-source AI ecosystem, where attackers exploit the trust of developers seeking privacy-enhancing tools. Users are urged to avoid this repository and audit any local environments where it was cloned."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6febk/warning_openossprivacyfilter_malware/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "zaya1-8b-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Zyphra 发布 ZAYA1-8B：高密度前沿智能模型",
+        "en": "Zyphra Releases ZAYA1-8B: High-Density Frontier Intelligence"
+      },
+      "summary": {
+        "zh": "Zyphra 推出了 ZAYA1-8B 模型，声称在 80 亿参数的紧凑规模内实现了「前沿智能密度」。虽然社区正在对其具体基准测试进行分析，但该模型旨在挑战消费级硬件本地推理的性能极限。该模型权重已在 Hugging Face 上发布，标志着高性能小语言模型（SLM）在效率和推理能力上挑战大型模型的趋势仍在继续。该模型主要面向寻求在本地部署中实现 GPT-4 级别推理能力的开发者。",
+        "en": "Zyphra has launched ZAYA1-8B, a new model claiming to offer 'frontier intelligence density' in a compact 8-billion parameter package. While specific benchmark comparisons are being analyzed by the community, the model aims to push the boundaries of what is possible for local inference on consumer hardware. The release includes weights on Hugging Face, signaling a continued trend of high-performance small language models (SLMs) challenging larger counterparts in efficiency and reasoning capabilities. This model targets developers looking for GPT-4 class reasoning in a local-first deployment."
+      },
+      "source": "Zyphra",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6eydr/zaya18b_frontier_intelligence_density/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "deepseek-45bn-valuation",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "DeepSeek 估值接近 450 亿美元，获中国大基金领投支持",
+        "en": "DeepSeek Nears $45B Valuation with Support from China's Big Fund"
+      },
+      "summary": {
+        "zh": "据报道，中国 AI 巨头 DeepSeek 正就新一轮融资进行谈判，估值可能达到 450 亿美元，由中国国家集成电路产业投资基金（简称“大基金”）领投。这一巨额估值反映了 DeepSeek 在其颠覆性的效率突破后，在全球大模型领域发挥的关键作用。大基金的参与进一步强调了 AI 与国产芯片协同在中国国家技术路线图中的战略地位。如果交易达成，这将成为全球估值最高的私有 AI 公司之一，足以与美国顶尖实验室抗衡。",
+        "en": "Chinese AI powerhouse DeepSeek is reportedly in talks for a funding round that could value the company at $45 billion, led by China's Integrated Circuit Industry Investment Fund (known as the 'Big Fund'). This massive valuation reflects DeepSeek's pivotal role in the global LLM landscape following its disruptive efficiency breakthroughs. The involvement of the Big Fund underscores the strategic importance of AI and domestic chip synergy in China's national technology roadmap. If finalized, this would represent one of the largest private AI valuations globally, rivaling top-tier US labs."
+      },
+      "source": "TechCrunch / FT",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t66dau/deepseek_nears_45bn_valuation_as_chinas_big_fund/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "llama-cpp-mimo-v25",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 新增对小米 MiMo v2.5 310B MoE 模型支持",
+        "en": "llama.cpp Adds Support for Xiaomi's MiMo v2.5 310B MoE Model"
+      },
+      "summary": {
+        "zh": "llama.cpp 仓库的新拉取请求增加了对小米 MiMo v2.5 的支持。这是一个拥有 3100 亿总参数（150 亿激活参数）的大型稀疏专家混合（MoE）模型。该模型具备 100 万 token 的上下文窗口，支持文本、图像、视频和音频的多模态处理。技术亮点包括 7.29 亿参数的视觉编码器和 2.61 亿参数的音频 Transformer，并采用多 Token 预测（MTP）技术以提升效率。此次集成使社区能够在本地硬件上运行最先进的开源多模态 MoE 模型之一。",
+        "en": "A new pull request in the llama.cpp repository adds support for Xiaomi's MiMo v2.5, a massive Sparse Mixture of Experts (MoE) model with 310 billion total parameters and 15 billion activated parameters. The model features a 1-million token context window and multimodal capabilities across text, image, video, and audio. Technical highlights include a 729M-param Vision Encoder and a 261M-param Audio Transformer, utilizing Multi-Token Prediction (MTP) for enhanced efficiency. This integration allows the community to run one of the most advanced open-weight multimodal MoEs on local hardware."
+      },
+      "source": "GitHub / llama.cpp",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t67lvx/feat_add_mimo_v25_model_support_by_aessedai_pull/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "qwen-webworld-agent-model",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "阿里发布 WebWorld：基于 Qwen3 的 Web 智能体世界模型",
+        "en": "Alibaba Releases WebWorld: Qwen3-Based World Models for Web Agents"
+      },
+      "summary": {
+        "zh": "阿里巴巴 Qwen 团队推出了 WebWorld 系列世界模型（32B/14B/8B），该系列基于 Qwen3 微调，专门用于训练和评估 Web 智能体。模型在超过 100 万条真实世界交互轨迹上进行训练，支持超过 30 步的长跨度模拟，并兼容 HTML 和 A11y Tree 等多种状态表示。通过利用思维链（CoT）推理进行状态转移预测，WebWorld 为自主网页浏览智能体提供了更强大的评估和训练环境。该发布填补了静态评估与真实动态网页交互之间的空白。",
+        "en": "Alibaba's Qwen team has introduced WebWorld, a series of world models (32B/14B/8B) fine-tuned from Qwen3 specifically for training and evaluating web agents. Trained on over 1 million real-world interaction trajectories, the models support long-horizon simulations exceeding 30 steps and multiple state representations like HTML and A11y Tree. By utilizing Chain-of-Thought reasoning for transition prediction, WebWorld enables more robust evaluation and training of autonomous web-browsing agents. This release bridges the gap between static evaluation and real-world dynamic web interaction."
+      },
+      "source": "Hugging Face / Qwen",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t6c6vs/qwenwebworld_32b14b8b_qwen3_finetune/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": "musk-altman-trial-zilis",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Shivon Zilis 在马斯克诉奥特曼案中出庭作证，引发利益冲突质疑",
+        "en": "Shivon Zilis Testifies in Musk v. Altman Trial Amid Conflict Questions"
+      },
+      "summary": {
+        "zh": "在埃隆·马斯克与萨姆·奥特曼持续进行的法律诉讼中，Neuralink 高管 Shivon Zilis 就其作为马斯克长期顾问的身份以及在 OpenAI 早期阶段的参与情况出庭作证。Zilis 在证词中确认她是马斯克四个孩子的母亲，这凸显了 AI 行业精英圈子内复杂的个人与职业关系。该审判继续揭示了导致 OpenAI 创始成员分裂的内部裂痕和意识形态转变。她的证词被认为是确定马斯克对该非营利组织影响力及其最终离开时间线的关键证据。",
+        "en": "In the ongoing legal battle between Elon Musk and Sam Altman, Neuralink executive Shivon Zilis testified regarding her role as a long-time Musk advisor and her involvement in the early days of OpenAI. The testimony highlighted the complex personal and professional ties within the AI industry's elite circles, as Zilis confirmed she is the mother of four of Musk's children. The trial continues to expose the internal fractures and ideological shifts that led to the split between OpenAI's founding members. Her testimony is seen as critical in establishing the timeline of Musk's influence and eventual departure from the non-profit."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+      "date": "2026-05-07"
+    }
+  ]
+}
