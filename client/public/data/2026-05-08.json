@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-08",
+  "dateLabel": {
+    "zh": "2026年5月8日",
+    "en": "May 08, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-08T16:18:21Z",
+    "elapsedSeconds": 143,
+    "rawArticles": 55,
+    "afterFilter": 47,
+    "afterDedup": 44,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 3,
+      "The Verge AI": 3,
+      "Ars Technica": 1,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "anthropic-nl-autoencoders",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "自然语言自编码器：将 Claude 的「思想」转化为文本",
+        "en": "Natural Language Autoencoders: Turning Claude's Thoughts into Text"
+      },
+      "summary": {
+        "zh": "Anthropic 推出了自然语言自编码器（NLAE），这是一种创新的可解释性方法，可将 Claude 的内部激活状态转换为人类可读的文本。通过训练自编码器将高维神经状态映射到自然语言描述，研究人员现在可以「读取」模型的中间推理步骤。这一突破超越了稀疏自编码器（SAE），提供了语义透明度，能够更好地监控模型意图和安全性。这标志着在解决大语言模型「黑盒」问题上迈出了重要一步。",
+        "en": "Anthropic has introduced Natural Language Autoencoders (NLAEs), a novel approach to interpretability that translates the internal activations of Claude into human-readable text. By training an autoencoder to map high-dimensional neural states to natural language descriptions, researchers can now read the model's intermediate reasoning steps. This breakthrough moves beyond sparse autoencoders (SAEs) by providing semantic transparency, allowing for better monitoring of model intent and safety. It marks a significant step toward solving the black box problem in large language models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "gpt-5-5-pricing-surge",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GPT-5.5 价格上涨：详细成本分析",
+        "en": "GPT-5.5 Price Increase: Detailed Cost Analysis"
+      },
+      "summary": {
+        "zh": "OpenRouter 在 GPT-5.5 发布后发布了详细的成本分析，揭示了其价格较前代产品大幅上涨。新模型的 Token 成本增加了约 40%，反映了其增强的推理和多模态功能对算力的巨大需求。这一转变标志着 API 成本持续下降趋势的终结，迫使开发者优化提示词工程和上下文窗口的使用。分析指出，虽然性能提升显著，但高吞吐量应用的投资回报率（ROI）将需要重新评估。",
+        "en": "OpenRouter has released a detailed cost analysis following the launch of GPT-5.5, revealing a significant price hike compared to its predecessors. The new model's token costs have increased by approximately 40%, reflecting the massive compute requirements for its enhanced reasoning and multimodal capabilities. This shift signals a departure from the trend of declining API costs, forcing developers to optimize prompt engineering and context window usage. The analysis suggests that while performance gains are substantial, the ROI for high-volume applications will require careful re-evaluation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "home-affairs-ai-hallucination-suspension",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "因官方记录中出现 AI 「幻觉」，两名官员被停职",
+        "en": "Officials Suspended Over AI Hallucinations in Official Records"
+      },
+      "summary": {
+        "zh": "南非内政部两名官员因被发现依赖 AI 生成的「幻觉」信息处理官方文件而被停职。该事件在法律记录中发现不一致之处后曝光，经查这些错误源于官员为加快积压案件处理而使用了未经核实的 AI 输出。此案例突显了在缺乏严格的人工审核机制或专业培训的情况下，将 AI 集成到政府工作流中的风险。这为公共部门的数字化转型计划敲响了警钟，特别是在问责制和 AI 错误的法律后果方面。",
+        "en": "Two South African Home Affairs officials have been suspended after it was discovered they relied on AI-generated hallucinations to process official documentation. The incident came to light when inconsistencies in legal records were traced back to unverified AI outputs used to expedite case backlogs. This case highlights the growing risks of integrating AI into government workflows without robust human-in-the-loop verification or specialized training. It serves as a stark warning for public sector digital transformation initiatives regarding accountability and the legal implications of AI errors."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "claude-code-sandbox-escape-cve",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 严重漏洞：通过符号链接实现沙箱逃逸",
+        "en": "Claude Code CVE-2026-39861: Critical Sandbox Escape via Symlink"
+      },
+      "summary": {
+        "zh": "Anthropic 的智能编程工具 Claude Code 被发现存在一个严重的安全漏洞（CVE-2026-39861）。该漏洞允许通过符号链接（symlink）操作实现沙箱逃逸，可能导致 AI 代理在指定工作目录之外获得对主机文件系统的未经授权访问。这一发现强调了执行 Shell 命令或修改本地文件的自主编程代理所面临的固有安全挑战。官方敦促开发者立即更新到最新版本，以降低恶意代码执行或数据泄露的风险。",
+        "en": "A critical security vulnerability, CVE-2026-39861, has been identified in Claude Code, Anthropic's agentic coding tool. The flaw allows for a sandbox escape via a symlink manipulation, potentially giving the AI agent unauthorized access to the host file system outside its designated working directory. This discovery underscores the inherent security challenges in autonomous coding agents that execute shell commands or modify local files. Developers are urged to update to the latest version immediately to mitigate the risk of malicious code execution or data exfiltration."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "lean4-statistical-learning-theory",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "在 Lean 4 中形式化统计学习理论",
+        "en": "Formalizing Statistical Learning Theory in Lean 4"
+      },
+      "summary": {
+        "zh": "一个新的开源项目成功使用 Lean 4 定理证明器形式化了统计学习理论（SLT）的核心组件。该名为 FormalSLT 的仓库包含了有限类经验风险最小化（ERM）界限、Rademacher 对称化和 VC 维桥接等严谨的数学证明。通过弥合理论机器学习与形式化验证之间的鸿沟，这项工作确保了基础学习界限的绝对正确性。这一贡献对「AI for Math」社区具有重要价值，为验证复杂的统计特性提供了结构化框架。",
+        "en": "A new open-source project has successfully formalized core components of Statistical Learning Theory (SLT) using the Lean 4 proof assistant. The repository, FormalSLT, includes rigorous mathematical proofs for finite-class Empirical Risk Minimization (ERM) bounds, Rademacher symmetrization, and VC-dimension bridges. By bridging the gap between theoretical machine learning and formal verification, this work ensures the absolute correctness of foundational learning bounds. This contribution is particularly valuable for the AI for Math community, providing a structured framework for verifying complex statistical properties."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t7bgve/formalizing_statistical_learning_theory_in_lean_4/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "gemma-4-rtx-5090-performance",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Gemma 4 26B 在单块 RTX 5090 上达到 600 Tok/s",
+        "en": "Gemma 4 26B Hits 600 Tok/s on One RTX 5090"
+      },
+      "summary": {
+        "zh": "针对新发布的 Gemma 4 26B 模型的基准测试显示，在单块 NVIDIA RTX 5090 显卡上，其生成速度达到了惊人的每秒 600 个 Token（tok/s）。这一性能得益于 vLLM 中集成的「DFlash」投机采样技术，该技术利用较小的草稿模型来加速 26B 参数主模型的推理。测试采用了 4-bit AWQ 量化，使模型能轻松放入 5090 的 32GB 显存中并保持高吞吐量。这一里程碑展示了本地大模型效率的飞速进步，使消费级硬件也能实现高端推理能力。",
+        "en": "Benchmarks for the newly released Gemma 4 26B model show it achieving a staggering 600 tokens per second (tok/s) on a single NVIDIA RTX 5090 GPU. This performance is enabled by DFlash speculative decoding integrated into vLLM, which utilizes a smaller draft model to accelerate the inference of the 26B parameter main model. The setup uses 4-bit AWQ quantization, allowing the model to fit comfortably within the 5090's 32GB VRAM while maintaining high throughput. This milestone demonstrates the rapid advancement of local LLM efficiency, making high-end reasoning accessible on consumer-grade hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t796qe/gemma_4_26b_hits_600_toks_on_one_rtx_5090/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "deepseek-funding-v4-1",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "DeepSeek 寻求 73.5 亿美元融资并计划发布 V4.1 更新",
+        "en": "DeepSeek seeks $7.35B funding and plans V4.1 release"
+      },
+      "summary": {
+        "zh": "据报道，DeepSeek 正在寻求超过 500 亿人民币（约 73.5 亿美元）的首轮融资，旨在加速其商业化和变现进程。创始人兼 CEO 梁文锋计划在本次融资中投入个人出资上限，显示出极强的内部信心。除了资本运作，DeepSeek 还计划于下月发布 V4.1 版本更新，保持其快速迭代的节奏。此举标志着该公司正从研究导向型实验室转型为全球大模型市场中极具竞争力的商业实体。",
+        "en": "DeepSeek is reportedly seeking over RMB 50 billion (approx. $7.35 billion) in its first major funding round to accelerate commercialization. Founder Liang Wenfeng intends to contribute the maximum allowable personal investment, signaling strong internal confidence. Alongside the capital raise, the company plans to release its V4.1 update next month, continuing its rapid iteration cycle. This move marks a transition from a research-focused lab to a major commercial competitor in the global LLM market."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7bfpw/reports_suggest_deepseek_is_seeking_735_billion/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "microsoft-openai-amazon-tensions",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "法庭文件揭示微软曾担心 OpenAI 倒向亚马逊",
+        "en": "Trial docs reveal Microsoft fear of OpenAI-Amazon alliance"
+      },
+      "summary": {
+        "zh": "马斯克起诉奥特曼案的法庭文件披露了微软在与 OpenAI 建立合作初期的焦虑。微软 CEO 萨提亚·纳德拉和 CTO 凯文·斯科特曾担心，如果微软不尽快达成协议，OpenAI 可能会转向亚马逊，并可能公开贬低 Azure 的能力。这些披露揭示了定义这笔 130 亿美元联盟背后的脆弱权力博弈和竞争压力。文件强调了对竞争对手的战略恐惧如何驱动了 AI 领域巨额的基础设施投资。",
+        "en": "Court documents from the Musk v. Altman trial reveal early anxieties within Microsoft regarding its partnership with OpenAI. CEO Satya Nadella and CTO Kevin Scott were reportedly concerned that OpenAI might pivot to Amazon if Microsoft did not secure the partnership, potentially leading to OpenAI disparaging Azure's capabilities. These revelations highlight the fragile power dynamics and competitive pressures that defined the foundational $13 billion alliance. The documents underscore how strategic fear of rivals often drives massive infrastructure investments in the AI sector."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "mira-murati-deposition-altman",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "米拉·穆拉蒂证词揭开奥特曼罢免事件内幕",
+        "en": "Mira Murati deposition clarifies Sam Altman's 2023 ouster"
+      },
+      "summary": {
+        "zh": "前 OpenAI CTO 米拉·穆拉蒂在马斯克诉奥特曼案中的证词，为 2023 年 11 月萨姆·奥特曼被罢免事件提供了新的细节。证词深入探讨了董事会关于奥特曼「沟通不诚实」的指控，揭示了公司内部在产品安全和治理方面的摩擦。这些细节让公众得以窥见这场行业重大「宫斗剧」的幕后真相，展示了快速商业化与安全优先研究之间的紧张关系。该证词是了解顶尖 AI 实验室治理挑战的关键记录。",
+        "en": "Former OpenAI CTO Mira Murati's deposition in the Musk v. Altman trial provides new clarity on the November 2023 ouster of Sam Altman. The testimony explores the board's claim that Altman was not consistently candid, shedding light on internal friction regarding product safety and governance. These details offer a rare look behind the scenes of the industry's most significant corporate drama, illustrating the tension between rapid commercialization and safety-first research. The deposition serves as a critical record of the governance challenges facing leading AI labs."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "spacex-terafab-ai-chips",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "SpaceX 计划在德州投资 550 亿美元建设 Terafab 芯片厂",
+        "en": "SpaceX plans $55B 'Terafab' AI chip plant in Texas"
+      },
+      "summary": {
+        "zh": "SpaceX 计划投资 550 亿美元在德克萨斯州奥斯汀建造名为「Terafab」的大型 AI 芯片制造厂。申请税收减免的公开文件揭示了埃隆·马斯克构建 AI 硬件垂直供应链、减少对英伟达等外部供应商依赖的雄心。该项目是近年来规模最大的私人工业投资之一，旨在将先进芯片生产与 SpaceX 现有的工程生态系统整合。此举标志着马斯克旗下 AI 事业向硬件自主权迈出的重大一步。",
+        "en": "SpaceX is planning a massive $55 billion investment to build a specialized AI chip manufacturing plant, dubbed 'Terafab,' in Austin, Texas. Public filings for tax breaks reveal the scale of Elon Musk's ambition to secure a vertical supply chain for AI hardware, reducing reliance on external vendors like Nvidia. The project represents one of the largest private industrial investments in recent history, aiming to integrate advanced chip production with SpaceX's existing engineering ecosystem. This move signals a significant shift toward hardware sovereignty for Musk's AI ventures."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "mozilla-mythos-vulnerabilities",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Mozilla AI 工具发现 271 个漏洞，误报率几近为零",
+        "en": "Mozilla's AI tool finds 271 bugs with near-zero false positives"
+      },
+      "summary": {
+        "zh": "Mozilla 宣布其 AI 辅助漏洞发现工具 Mythos 已成功在 Firefox 中识别出 271 个漏洞，且「几乎没有误报」。开发团队表示已「完全认可」利用 AI 增强软件安全性的做法，并强调了其相比传统人工审计的效率优势。这一里程碑展示了大语言模型在自动化安全研究中的实用价值，显著缩短了修复关键漏洞所需的时间。这为其他大型软件厂商将 AI 智能体集成到安全开发生命周期中树立了先例。",
+        "en": "Mozilla has announced that its AI-assisted bug discovery tool, Mythos, successfully identified 271 vulnerabilities in Firefox with almost no false positives. The developer stated it has completely bought in on using AI to enhance software security, highlighting the efficiency gains over traditional manual auditing. This milestone demonstrates the practical utility of LLMs in automated security research, significantly reducing the time required to patch critical flaws. It sets a precedent for other major software vendors to integrate AI agents into their security development lifecycles."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "openai-gpt-realtime-2-apis",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 发布 GPT-Realtime-2 及全新语音 API 系列",
+        "en": "OpenAI launches GPT-Realtime-2 and new voice APIs"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了全新的 SOTA 实时语音 API 系列，包括 GPT-Realtime-2、GPT-Translate 和 GPT-Whisper。这些更新代表了 GPT-5 级别能力在多模态接口中的持续部署，为实时交互提供了更低的延迟和更高的准确度。这些 API 旨在让第三方应用实现无缝、类人的语音体验，进一步巩固了 OpenAI 在语音 AI 市场的领先地位。此次发布强调了行业正转向将「实时」智能作为用户交互的新标准。",
+        "en": "OpenAI has launched a new suite of SOTA realtime voice APIs, including GPT-Realtime-2, GPT-Translate, and GPT-Whisper. These updates represent the continued deployment of GPT-5 class capabilities into multimodal interfaces, offering lower latency and higher accuracy for live interactions. The APIs are designed to enable seamless, human-like voice experiences in third-party applications, further solidifying OpenAI's lead in the voice AI market. This release emphasizes the industry's shift toward real-time intelligence as the new standard for user engagement."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
+      "date": "2026-05-08"
+    }
+  ]
+}
