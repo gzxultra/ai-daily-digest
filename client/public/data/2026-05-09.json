@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-09",
+  "dateLabel": {
+    "zh": "2026年5月9日",
+    "en": "May 09, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-09T15:58:42Z",
+    "elapsedSeconds": 171,
+    "rawArticles": 53,
+    "afterFilter": 43,
+    "afterDedup": 37,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Ben's Bites": 1,
+      "Hacker News": 6,
+      "Reddit r/MachineLearning": 1,
+      "Reddit r/LocalLLaMA": 3,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "chatgpt-free-tier-limit-increase",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 将免费版 ChatGPT 使用限制翻倍",
+        "en": "OpenAI Doubles Usage Limits for Free ChatGPT Users"
+      },
+      "summary": {
+        "zh": "OpenAI 大幅提高了免费版 ChatGPT 的使用限制，使 GPT-4o 等高端模型功能对普通用户更加触手可及。此举是在 AI 行业竞争压力日益增大的背景下做出的，旨在通过降低高级功能的使用门槛来吸引更广泛的用户群体。通过将限制翻倍，OpenAI 让普通用户无需订阅即可体验复杂的推理和多模态工具。这一战略转变表明，公司正转向一个更注重数据积累和用户规模的生态系统，而非单纯追求短期的订阅增长。",
+        "en": "OpenAI has significantly increased the usage limits for free ChatGPT users, making high-end model capabilities like GPT-4o more accessible to the general public. This strategic move follows increasing competitive pressure in the AI space and aims to capture a broader user base by reducing friction for advanced features. By doubling these limits, OpenAI allows casual users to experience sophisticated reasoning and multimodal tools without a subscription. This shift suggests a transition toward a more data-rich ecosystem where user scale is prioritized over immediate subscription growth."
+      },
+      "source": "Ben's Bites",
+      "sourceUrl": "https://www.bensbites.com/p/elon-doubled-limits",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "ai-security-vulnerability-cultures",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 正在打破传统的软件漏洞披露文化",
+        "en": "AI Disrupts Traditional Software Vulnerability Disclosure Cultures"
+      },
+      "summary": {
+        "zh": "AI 的兴起正在打破两种传统的安全漏洞文化：「修补并披露」模式和「通过模糊实现安全」的方法。AI 快速扫描代码缺陷的能力加速了漏洞发现过程，使传统的手动修补周期变得日益过时。这种转变迫使组织采用自动化防御机制，以跟上能在几秒钟内识别漏洞的 AI 驱动攻击手段。文章强调，漏洞发现与被利用之间的时间窗口正在缩小，这要求全球网络安全政策和响应机制进行根本性的重新思考。",
+        "en": "The rise of AI is disrupting two traditional security vulnerability cultures: the 'patch-and-disclose' model and 'security through obscurity.' AI's ability to rapidly scan code for flaws accelerates the discovery process, rendering traditional manual patching cycles increasingly obsolete. This shift forces organizations to adopt automated defense mechanisms to keep pace with AI-driven exploits that can identify bugs in seconds. The article highlights that the window between vulnerability discovery and exploitation is shrinking, necessitating a fundamental rethink of global cybersecurity policies and response times."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "claude-code-html-effectiveness",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude Code 揭示了 HTML 对 AI 意想不到的高效性",
+        "en": "Claude Code Reveals the Unreasonable Effectiveness of HTML for AI"
+      },
+      "summary": {
+        "zh": "使用 Claude Code 的开发人员发现，与 JSON 或其他结构化格式相比，HTML 作为 AI 智能体的接口具有出奇的效果。这种「不合理的有效性」源于 HTML 的语义特性以及 LLM 训练所使用的大量网页数据，使智能体能更好地理解 UI 层级和意图。通过使用 HTML，智能体可以以更高的可靠性和更少的结构错误来生成和操作代码。这一发现预示着一种范式转变，即标准 Web 技术可能成为人类与 AI 协作编程及智能体接口的主要语言。",
+        "en": "Developers using Claude Code have discovered that HTML is surprisingly effective as an interface for AI agents compared to JSON or other structured formats. This 'unreasonable effectiveness' stems from HTML's semantic nature and the vast amount of web data LLMs were trained on, allowing agents to better understand UI hierarchy and intent. By using HTML, agents can generate and manipulate code with higher reliability and fewer structural errors. This discovery suggests a paradigm shift where standard web technologies become the primary language for human-AI collaborative programming and agentic interfaces."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/trq212/status/2052809885763747935",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "anthropic-teaching-claude-why",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Anthropic 研究重点：教导 Claude 理解「为什么」",
+        "en": "Anthropic Research Focuses on Teaching Claude Internal Reasoning"
+      },
+      "summary": {
+        "zh": "Anthropic 发布了名为「Teaching Claude Why」的新研究，重点在于改进模型的内部推理和对齐。通过训练模型理解指令背后的基本原理，而不仅仅是遵循表面模式，旨在减少幻觉并提高安全性。研究表明，显式的推理步骤有助于模型以显著更高的准确度处理复杂且模糊的提示。这一进展标志着向更透明的 AI 系统迈出了重要一步，使系统能够向人类监督者解释其决策过程。",
+        "en": "Anthropic released new research titled 'Teaching Claude Why,' focusing on improving the model's internal reasoning and alignment. By training the model to understand the underlying principles behind instructions rather than just following surface patterns, they aim to reduce hallucinations and improve safety. The research demonstrates that explicit reasoning steps help the model handle complex, ambiguous prompts with significantly higher accuracy. This development marks a major step toward more transparent AI systems that can explain their decision-making processes to human supervisors."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/research/teaching-claude-why",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "llm-document-corruption-risks",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究警告：LLM 在处理委托任务时可能会损坏文档",
+        "en": "Study Warns LLMs May Corrupt Documents During Task Delegation"
+      },
+      "summary": {
+        "zh": "Arxiv 上的一篇新研究论文警告称，将文档编辑或摘要任务委托给 LLM 可能会导致信息出现微妙但危险的「损坏」。研究发现，在跨多个步骤处理大量文本时，模型经常会引入事实错误或改变原意。这种现象在对精度要求极高的法律和医疗背景下尤为严重。研究结果表明，当前的 AI 委托工作流需要严格的人机协作验证，以防止随着时间的推移而导致数据完整性受损。",
+        "en": "A new research paper on Arxiv warns that delegating document editing or summarization tasks to LLMs can lead to subtle but dangerous 'corruption' of information. The study found that models often introduce factual errors or alter the original meaning when tasked with managing large volumes of text across multiple steps. This phenomenon is particularly problematic in legal and medical contexts where data precision is paramount. The findings suggest that current AI delegation workflows require rigorous human-in-the-loop verification to prevent the loss of data integrity over time."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2604.15597",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "git-for-ai-agents-regent",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Re_gent：专为 AI 智能体设计的版本控制系统",
+        "en": "Re_gent: A Version Control System Specifically for AI Agents"
+      },
+      "summary": {
+        "zh": "「re_gent」项目推出了一款专为 AI 智能体迭代和自主工作流设计的版本控制系统。与跟踪人工编写代码的传统 Git 不同，该工具实时管理自主智能体的状态、内存和决策历史。它允许开发人员回滚智能体操作、调试推理路径，并为对比测试分支不同的智能体行为。这种基础设施对于构建可靠的智能体系统至关重要，使其在独立运行的同时，仍能被人类开发人员全面审计和管理。",
+        "en": "The 're_gent' project introduces a version control system specifically designed for the iterative and autonomous workflows of AI agents. Unlike traditional Git, which tracks human-authored code, this tool manages the state, memory, and decision history of autonomous agents in real-time. It allows developers to roll back agent actions, debug reasoning paths, and branch different agent behaviors for comparative testing. This infrastructure is essential for building reliable agentic systems that can operate independently while remaining fully auditable and manageable by human developers."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/regent-vcs/re_gent",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "llm-tla-modeling",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "评估 LLM 在 TLA+ 形式化建模中的能力",
+        "en": "Evaluating LLM Capabilities in TLA+ Formal Modeling"
+      },
+      "summary": {
+        "zh": "一项新研究探讨了大型语言模型（LLM）是否能利用 TLA+ 对现实世界的分布式系统进行有效建模。虽然 LLM 在生成语法正确的形式化规范方面表现出色，但研究指出其在复杂系统不变性的零样本逻辑推理中存在显著局限。这项评估对于理解代码生成与任务关键型基础设施所需的严谨验证之间的差距至关重要。",
+        "en": "A new study explores whether Large Language Models can effectively model real-world distributed systems using TLA+. While LLMs demonstrate a surprising ability to generate syntactically correct formal specifications, the research highlights significant limitations in zero-shot logical reasoning for complex system invariants. This evaluation is crucial for understanding the gap between code generation and the rigorous verification required for mission-critical infrastructure."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "deepseek-v4-full-paper",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "DeepSeek V4 完整论文发布：详解 FP4 QAT 与稳定性技巧",
+        "en": "DeepSeek V4 Full Paper Details FP4 QAT and Stability Tricks"
+      },
+      "summary": {
+        "zh": "DeepSeek 发布了长达 58 页的 V4 完整技术论文，详细介绍了在训练后期使用 FP4 量化感知训练（QAT）的创新方法。通过将 MoE 专家权重和 QK 路径激活量化为 FP4，团队在保持模型稳定性的同时，使 QK 选择器速度提升了 2 倍。这些技术突破展示了在大规模 MoE 架构中，如何在不牺牲性能的前提下实现极高的显存效率和推理加速。",
+        "en": "DeepSeek has released the full 58-page technical paper for V4, detailing its innovative use of FP4 Quantization Aware Training (QAT) during late-stage training. By quantizing MoE expert weights and QK path activations to FP4, the team achieved a 2x speedup on the QK selector while maintaining model stability. These technical breakthroughs demonstrate a path toward massive memory efficiency and inference acceleration without sacrificing performance in large-scale MoE architectures."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "qwen-3-6-uncensored",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.6 35B 无审查版发布：保留原生多 Token 预测",
+        "en": "Qwen3.6 35B Uncensored Released with Native MTP Preservation"
+      },
+      "summary": {
+        "zh": "社区发布了 Qwen3.6-35B 的「不加限制」微调版本，其特点是完整保留了 19 个原生多 Token 预测（MTP）层。该模型实现了 0.0015 的极低 KLD 指标，拒绝率仅为 10/100，使其在处理各类提示词时响应度极高。目前已提供 GGUF 和 NVFP4 等多种格式，满足了本地用户在消费级硬件上运行高性能、无限制模型的需求。",
+        "en": "The community has released an uncensored 'heretic' version of Qwen3.6-35B, notable for preserving all 19 Native Multi-Token Prediction (MTP) layers. The model achieves an impressive KLD of 0.0015 and a low refusal rate of 10/100, making it highly responsive for diverse prompts. It is available in multiple formats including GGUF and NVFP4, catering to local LLM users who require high-performance, unrestricted models on consumer hardware."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7qfaq/qwen36_35b_a3b_uncensored_heretic_native_mtp/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "deepseek-alibaba-independence",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "DeepSeek 拒绝阿里巴巴投资：坚持公司独立性",
+        "en": "DeepSeek Rejects Alibaba Investment to Maintain Independence"
+      },
+      "summary": {
+        "zh": "据报道，DeepSeek 在最新一轮大规模融资中拒绝了阿里巴巴的投资邀约，这表明该公司在战略上更倾向于保持独立，而非融入大厂生态系统。尽管腾讯和阿里均表现出兴趣，但由于在具体投资条款上存在分歧，与阿里的谈判最终破裂。此举凸显了独立 AI 实验室与既有科技巨头在争夺 LLM 主导权过程中日益增长的张力。",
+        "en": "DeepSeek has reportedly declined an investment offer from Alibaba during its latest massive financing round, signaling a strategic preference for corporate independence over big tech ecosystem integration. While both Tencent and Alibaba expressed interest, negotiations with Alibaba collapsed due to disagreements over specific investment terms. This move highlights the growing tension between independent AI labs and established tech giants in the race for LLM dominance."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t81u76/deepseek_rejects_alibaba_prioritizing_corporate/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "vllm-rocm-lemonade",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Lemonade 本地运行器集成 vLLM ROCm 后端",
+        "en": "vLLM ROCm Backend Integrated into Lemonade Local Runner"
+      },
+      "summary": {
+        "zh": "本地模型运行工具 Lemonade 已将 vLLM ROCm 作为实验性后端集成，使用户能够轻松地在 AMD 硬件上直接运行 .safetensors 模型。此次集成支持通过简单的安装命令实现高性能推理，无需进行 GGUF 格式转换。这一进展显著降低了 AMD 用户使用优化推理引擎的门槛，而此类工具此前主要由以 CUDA 为中心的生态主导。",
+        "en": "The Lemonade local LLM runner has added vLLM ROCm as an experimental backend, enabling users to run .safetensors models directly on AMD hardware with ease. This integration allows for high-performance inference without the need for GGUF conversion, using a simple installation command. This development significantly lowers the barrier for AMD users to access optimized inference engines previously dominated by CUDA-centric tools."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t7g70j/vllm_rocm_has_been_added_to_lemonade_as_an/",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "ai-data-center-expansion",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 数据中心电力需求引发全球摩擦",
+        "en": "Global Friction Rises Over AI Data Center Power Demands"
+      },
+      "summary": {
+        "zh": "AI 数据中心的激进扩张正引发全球范围内关于其对电网、公用事业成本及环境影响的争议。随着科技公司争相构建下一代 AI 的物理基础设施，它们正面临越来越多关于污染和能源消耗的法律挑战及社区抵制。一些公司甚至在探索将数据中心部署到太空等大胆方案，以绕过地球资源的限制。",
+        "en": "The aggressive expansion of AI data centers is sparking global controversies over their impact on power grids, utility costs, and the environment. As tech companies scramble to build the physical infrastructure for next-gen AI, they face increasing legal challenges and community resistance regarding pollution and energy consumption. Some firms are even exploring audacious alternatives, such as space-based data centers, to bypass terrestrial resource constraints."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "date": "2026-05-09"
+    }
+  ]
+}
