@@ -1,0 +1,257 @@
+{
+  "date": "2026-05-10",
+  "dateLabel": {
+    "zh": "2026年5月10日",
+    "en": "May 10, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-10T16:00:03Z",
+    "elapsedSeconds": 163,
+    "rawArticles": 39,
+    "afterFilter": 30,
+    "afterDedup": 26,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The New York Times": 1,
+      "Adele's Blog": 1,
+      "McCue.dev": 1,
+      "Walton Family Foundation": 1,
+      "arXiv": 1,
+      "GitHub": 1,
+      "Reddit": 5,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "meta-ai-employee-morale",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta 全面转向 AI 引发员工士气危机",
+        "en": "Meta's AI Pivot Causes Internal Employee Distress"
+      },
+      "summary": {
+        "zh": "Meta 激进的 AI 转型据报道正导致其员工陷入严重的职业倦怠。在「效率之年」后，员工面临着将 AI 整合到所有产品中的巨大压力，这导致了内部士气低落以及对公司原始社交使命迷失的担忧。该话题在 Hacker News 上获得了广泛关注，凸显了大厂 AI 军备竞赛背后的人力成本，即快速的技术转型往往超出了企业文化的适应能力和员工的承受范围。",
+        "en": "Meta's aggressive pivot toward artificial intelligence is reportedly causing significant distress among its workforce. Following the 'Year of Efficiency,' employees face intense pressure to integrate AI into every product, leading to burnout and a perceived loss of the company's original social mission. With over 400 points on Hacker News, the story highlights the human cost of the Big Tech AI arms race, where rapid structural shifts often outpace cultural adaptation and employee well-being."
+      },
+      "source": "The New York Times",
+      "sourceUrl": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "client-ai-chatbot-trend",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "从轮播图到无处不在的 AI 聊天机器人",
+        "en": "The Shift from UI Carousels to Ubiquitous AI Chatbots"
+      },
+      "summary": {
+        "zh": "一篇热门博客文章详细描述了客户需求从轮播图等传统 UI 组件向无处不在的 AI 聊天机器人的转变。作者指出，许多企业将 LLM 集成视为提升参与度的「灵丹妙药」，但往往缺乏明确的使用场景或数据策略。这一趋势反映了行业中普遍存在的「AI 洗白」现象，即为了追求「AI 优先」而牺牲功能性设计，在缺乏实际效用的情况下可能导致用户体验的下降。",
+        "en": "A viral blog post details a shift in client demands from traditional UI components like carousels to ubiquitous AI chatbots. The author argues that many businesses are requesting LLM integrations as a 'magic bullet' for engagement, often without a clear use case or data strategy. This trend reflects a broader industry pattern where 'AI-washing' replaces functional design, potentially leading to degraded user experiences in the pursuit of being AI-first regardless of actual utility."
+      },
+      "source": "Adele's Blog",
+      "sourceUrl": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "public-sentiment-ai-art",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "分析公众对 AI 生成艺术的抵触情绪",
+        "en": "Analyzing Public Backlash Against AI-Generated Art"
+      },
+      "summary": {
+        "zh": "该评论探讨了公众对 AI 生成图像日益增长的抵触情绪，理由是其缺乏意图感和「恐怖谷」效应。尽管技术在进步，许多用户仍将 AI 艺术视为贬低人类创造力的「廉价产出」，让数字空间充斥着低成本内容。讨论强调，虽然 AI 可以模仿风格，但缺乏人类的情感挣扎和背景故事，使得输出结果对许多受众而言显得空洞无物，从而引发了巨大的文化分歧。",
+        "en": "This critique explores the growing public backlash against AI-generated imagery, citing a lack of intentionality and the 'uncanny valley' effect. Despite technical advancements, many users perceive AI art as 'slop' that devalues human creativity and fills digital spaces with low-effort content. The discussion emphasizes that while AI can mimic styles, the absence of human struggle and context makes the output feel hollow to many audiences, leading to a significant cultural divide."
+      },
+      "source": "McCue.dev",
+      "sourceUrl": "https://mccue.dev/pages/5-8-26-ai-art",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "gen-z-ai-resentment",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "随着 AI 采用进入平台期，Z 世代的怨恨情绪蔓延",
+        "en": "Gen Z Resentment Grows as AI Adoption Stagnates"
+      },
+      "summary": {
+        "zh": "最新数据显示出一个令人惊讶的趋势：随着 AI 采用率进入平台期，Z 世代对 AI 的怨恨正在增加。年轻从业者对职业取代以及传统技能培养类初级岗位的流失表示深切担忧。这一曾被预期为 AI 主要采用者的群体，现在正带头反对职场中被认为过度的自动化趋势，并对目前 AI 工具缺乏实质性效用感到不满。",
+        "en": "New data reveals a surprising trend: Gen Z's resentment toward AI is increasing as adoption rates plateau. Young workers express deep-seated fears regarding job displacement and the erosion of entry-level roles traditionally used for skill-building. This demographic, once expected to be the primary adopters, is now leading a skeptical movement against the perceived over-automation of the workplace and the lack of meaningful utility in current AI tools."
+      },
+      "source": "Walton Family Foundation",
+      "sourceUrl": "https://www.waltonfamilyfoundation.org/about-us/newsroom/gen-z-resentment-toward-ai-grows-as-adoption-stagnates-and-workplace-fears-mount",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "llmorphism-human-perception",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "LLMorphism：人类开始将自己视作语言模型",
+        "en": "LLMorphism: Humans Modeling Themselves After AI"
+      },
+      "summary": {
+        "zh": "一篇最新的研究论文提出了「LLMorphism」的概念，描述了人类如何开始通过大语言模型的视角来解释自己的认知过程。研究表明，随着人们与 AI 互动的增多，他们开始采用类似 LLM 的术语和框架来描述人类思维，这可能会改变自我认知和身份认同。这种心理转变标志着人机交互的一个重要里程碑，即工具开始重塑用户对认知的内在模型。",
+        "en": "A new research paper introduces the concept of 'LLMorphism,' describing how humans are beginning to interpret their own cognitive processes through the lens of Large Language Models. The study suggests that as people interact more with AI, they adopt LLM-like terminology and frameworks to describe human thought, potentially altering self-perception and identity. This psychological shift marks a significant milestone in human-computer interaction, where the tool begins to reshape the user's internal model of cognition."
+      },
+      "source": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2605.05419",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "claude-code-research-skills",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "为 Claude Code 增强学术研究技能",
+        "en": "Enhancing Claude Code with Academic Research Skills"
+      },
+      "summary": {
+        "zh": "「Claude Code 学术研究技能」项目推出了一套专门的工具包，旨在增强 Anthropic 编码代理的研究能力。通过提供结构化的提示词和工作流模式，它使 Claude 能够在开发环境中执行更严谨的文献综述、数据综合和引用管理。该工具代表了将编码助手转变为能够处理复杂学术和分析任务的全方位知识工作代理的增长趋势。",
+        "en": "The 'Academic Research Skills for Claude Code' project introduces a specialized toolkit designed to enhance the research capabilities of Anthropic's coding agent. By providing structured prompts and workflow patterns, it enables Claude to perform more rigorous literature reviews, data synthesis, and citation management within a development environment. This tool represents the growing trend of turning coding assistants into comprehensive knowledge-work agents capable of handling complex academic and analytical tasks."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/Imbad0202/academic-research-skills",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "parax-v07-jax-modeling",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Parax v0.7 发布：弥合 JAX 中的 PyTrees 与面向对象建模",
+        "en": "Parax v0.7 Released: Bridging PyTrees and OOP in JAX"
+      },
+      "summary": {
+        "zh": "Parax v0.7 正式发布，这是一个专为 JAX 生态系统设计的参数化建模库。它旨在弥合纯 JAX PyTrees 与 Equinox 等面向对象建模方法之间的差距，为处理复杂模型结构提供了更精简的 API。该版本的主要特性包括支持带有元数据的派生和约束参数，为使用 JAX 的研究人员和工程师提供了更具鲁棒性和可读性的模型定义方式。",
+        "en": "Parax v0.7 has been released, offering a refined library for parametric modeling within the JAX ecosystem. It aims to bridge the gap between pure JAX PyTrees and object-oriented approaches like Equinox, providing a more polished API for handling complex model structures. Key features include support for derived and constrained parameters with integrated metadata, facilitating more robust and readable model definitions for researchers and engineers working with JAX."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t929x3/parax_v07_parametric_modeling_in_jax_p/",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "deepseek-v4-pro-local-workstation",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "DeepSeek V4 Pro 在本地 Epyc 工作站成功部署",
+        "en": "DeepSeek V4 Pro Successfully Deployed on Local Epyc Workstation"
+      },
+      "summary": {
+        "zh": "一位社区成员利用修改后的 CUDA 实现，在本地 Epyc 工作站上成功部署了 DeepSeek V4 Pro（Q4_K_M 量化版）。该配置使用了 AMD Genoa 9374F 处理器、1.1TB 内存和单块 RTX PRO 6000 Max-Q 显卡，证明了顶级大模型可以在数据中心之外运行。这一成果凸显了拥有高端硬件的个人研究者和小型实验室在运行前沿模型方面正获得越来越高的可访问性。",
+        "en": "A community member successfully deployed DeepSeek V4 Pro (Q4_K_M quantization) on a local Epyc workstation using a modified CUDA implementation. The setup utilized an AMD Genoa 9374F processor with 1.1TB of RAM and a single RTX PRO 6000 Max-Q, demonstrating that massive state-of-the-art models can be run outside of data centers. This achievement highlights the increasing accessibility of frontier-class models for individual researchers and small labs with high-end hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t94ito/i_have_deepseek_v4_pro_at_home/",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "llama-cpp-nccl-free-blackwell",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp b9095 实现 Blackwell 显卡无 NCCL 张量并行",
+        "en": "llama.cpp b9095 Enables NCCL-Free Tensor Parallelism on Blackwell"
+      },
+      "summary": {
+        "zh": "llama.cpp b9095 版本发布，引入了针对双 Blackwell PCIe 显卡的无 NCCL 张量并行支持。此更新允许用户在 RTX 5060 Ti 等消费级硬件上使用「-sm」张量拆分标志，而无需通常用于多 GPU 同步的复杂软件依赖。这是本地 LLM 社区的一个重要里程碑，使得在多 GPU 消费级配置上以极简配置实现高性能并行推理成为可能。",
+        "en": "The release of llama.cpp b9095 introduces NCCL-free tensor parallelism support for dual Blackwell PCIe GPUs. This update allows users to utilize the -sm tensor split flag on consumer-grade hardware like the RTX 5060 Ti without the complex software dependencies typically required for multi-GPU synchronization. This is a significant milestone for the local LLM community, enabling high-performance parallel inference on multi-GPU consumer setups with minimal configuration."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t96l6r/ncclfree_tensor_parallelism_on_dual_blackwell/",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "ds4-antirez-deepseek-v4-mac",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Redis 创始人发布 DS4：在 Mac 上实现百万上下文 DeepSeek V4",
+        "en": "Redis Creator Releases DS4: 1M Context DeepSeek V4 on Mac"
+      },
+      "summary": {
+        "zh": "Redis 创始人 Salvatore Sanfilippo 发布了新项目 DS4，专门针对在 Mac Metal 硬件上运行 DeepSeek V4 Flash 进行了优化。通过采用新颖的内存管理和推理技术，DS4 实现了惊人的 100 万 token 上下文窗口。该项目还在企业级 DGX 系统上展示了高性能表现，体现了其在扩展 DeepSeek 架构上下文长度方面的通用性和技术突破。",
+        "en": "Salvatore Sanfilippo, the creator of Redis, has unveiled DS4, a new project optimized for running DeepSeek V4 Flash on Mac Metal hardware. DS4 achieves an impressive 1-million-token context window by employing novel memory management and inference techniques. The project has also demonstrated high performance on enterprise DGX systems, showcasing a versatile implementation that pushes the boundaries of context length for the DeepSeek architecture."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t95k73/ds4/",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "beellamacpp-qwen-optimization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "BeeLlama.cpp：单块 3090 实现 135 TPS 与 20 万上下文",
+        "en": "BeeLlama.cpp: 135 TPS and 200k Context on Single RTX 3090"
+      },
+      "summary": {
+        "zh": "BeeLlama.cpp 作为 llama.cpp 的新分支，引入了专为 Windows 环境设计的 DFlash 和 TurboQuant 高级优化。它支持在单块 RTX 3090 上运行具有 20 万上下文窗口的 Qwen 3.6 27B（Q5 量化），峰值速度达到每秒 135 个 token。这一性能比基准实现提升了 2-3 倍，同时保持了对推理和视觉功能的支持，显著降低了高上下文任务的硬件门槛。",
+        "en": "BeeLlama.cpp, a new fork of llama.cpp, introduces advanced DFlash and TurboQuant optimizations specifically designed for Windows environments. It enables running Qwen 3.6 27B (Q5 quantization) with a 200k context window on a single RTX 3090, achieving peak speeds of 135 tokens per second. This performance represents a 2-3x improvement over baseline implementations while maintaining support for reasoning and vision capabilities, significantly lowering the hardware barrier for high-context tasks."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t88zvv/beellamacpp_advanced_dflash_turboquant_with/",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "anthropic-growth-vs-layoffs",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 报告 10 倍年增长，与科技行业裁员潮形成对比",
+        "en": "Anthropic Reports 10x Annual Growth Amidst Tech Sector Layoffs"
+      },
+      "summary": {
+        "zh": "据报道，Anthropic 正以每年 10 倍的速度增长，这与广泛的科技行业形成鲜明对比，后者许多公司的裁员比例已超过 10%。这种分化凸显了顶级 AI 实验室在竞相扩展前沿模型时，资金和人才的高度集中。尽管通用科技领域面临经济逆风，但对先进 AI 能力的需求继续推动着生成式 AI 领域关键参与者的指数级扩张。",
+        "en": "Anthropic is reportedly experiencing a 10x annual growth rate, standing in stark contrast to the broader tech industry where many firms are implementing layoffs exceeding 10%. This divergence underscores the massive concentration of capital and talent within the leading AI labs as they race to scale frontier models. While the general tech sector faces economic headwinds, the demand for advanced AI capabilities continues to drive exponential expansion for key players in the generative AI space."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/ainews-anthropic-growing-10xyear",
+      "date": "2026-05-10"
+    }
+  ]
+}
