@@ -1,0 +1,252 @@
+{
+  "date": "2026-05-11",
+  "dateLabel": {
+    "zh": "2026年5月11日",
+    "en": "May 11, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-11T17:29:27Z",
+    "elapsedSeconds": 173,
+    "rawArticles": 48,
+    "afterFilter": 41,
+    "afterDedup": 36,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 8,
+      "Reddit": 3
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-radical-optionality",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Import AI 456：激进选择权与经济增长",
+        "en": "Import AI 456: Radical Optionality and Economic Growth"
+      },
+      "summary": {
+        "zh": "Jack Clark 在最新一期通讯中提出了「激进选择权」（Radical Optionality）政策框架，建议政府应立即投资技术性监管工具，以应对未来可能出现的 AI 危机。文章还探讨了递归自我改进（RSI）与经济增长之间的联系，指出 AI 的快速演进可能会颠覆传统经济模型。通过提前建立技术能力，监管机构可以在 AI 能力发生突变时保持有效的干预能力。这种方法强调长期准备，而非仓促出台可能过时的限制性立法。",
+        "en": "Jack Clark introduces the concept of Radical Optionality, a policy framework suggesting governments should invest in technical regulatory tools now to prepare for future AI crises. The newsletter also examines the link between recursive self-improvement (RSI) and economic growth, noting that rapid AI progress could disrupt traditional economic models. By building technical capacity today, regulators can maintain the ability to intervene effectively if AI capabilities shift suddenly. This approach prioritizes long-term preparedness over immediate, potentially premature, restrictive legislation."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "local-ai-norm-advocacy",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "本地 AI 应成为行业标准的倡议",
+        "en": "The Case for Local AI as the Industry Standard"
+      },
+      "summary": {
+        "zh": "一篇在 Hacker News 上引发热议的文章指出，本地运行 AI 必须成为行业标准，以保护用户隐私并确保数据主权。作者强调，依赖云端大模型会带来延迟和安全漏洞，而通过在边缘设备上运行模型可以有效缓解这些问题。该帖获得了超过 1600 点赞，反映了开发者情绪正向去中心化 AI 发生重大转变。这一运动倡导由用户控制的智能，挑战了目前中心化、私有 API 服务商的主导地位。",
+        "en": "A highly engaged Hacker News post argues that local AI execution must become the norm to protect user privacy and ensure data sovereignty. The author highlights that relying on cloud-based LLMs introduces latency and security vulnerabilities that can be mitigated by running models on edge devices. With over 1,600 points, the discussion reflects a significant shift in developer sentiment toward decentralized AI. This movement advocates for user-controlled intelligence over the current dominance of centralized, proprietary API providers."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "ai-coding-maintenance-costs",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AI 编程智能体必须优先降低维护成本",
+        "en": "AI Coding Agents Must Prioritize Lower Maintenance Costs"
+      },
+      "summary": {
+        "zh": "软件专家 James Shore 指出，AI 编程智能体的真正价值在于降低长期维护成本，而非仅仅提高初始开发速度。虽然 AI 可以快速生成代码，但产出的结果往往缺乏可持续软件工程所需的读性及可测试性。Shore 警告称，如果 AI 智能体增加了技术债，那么短期内的生产力提升将被未来修复低质量代码的负担所抵消。开发重点应转向能够生成简洁、可维护架构的智能体。",
+        "en": "Software expert James Shore argues that the true value of AI coding agents lies in reducing long-term maintenance costs rather than just increasing initial development speed. While AI can generate code quickly, the resulting output often lacks the readability and testability required for sustainable software engineering. Shore warns that if AI agents increase technical debt, the short-term productivity gains will be negated by the future burden of fixing low-quality code. The focus should shift toward agents that produce clean, maintainable architectures."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "maryland-ai-power-grid-cost",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马里兰州居民面临 20 亿美元 AI 数据中心电网账单",
+        "en": "Maryland Residents Face $2B Bill for AI Data Center Power"
+      },
+      "summary": {
+        "zh": "马里兰州居民正面临高达 20 亿美元的电网升级费用，这笔开支旨在支持州外的 AI 数据中心。该州官员已向联邦监管机构投诉，称这种成本分配违反了费率支付者保护承诺。这一局面凸显了 AI 产业对物理基础设施的巨大需求，以及由此引发的与当地社区的经济摩擦。它提出了一个关键问题：究竟谁应该为支持全球 AI 热潮所需的能源扩张买单。",
+        "en": "Maryland citizens are being hit with a $2 billion bill for power grid upgrades required to support out-of-state AI data centers. State officials have filed complaints with federal regulators, claiming the cost allocation violates ratepayer protection pledges. This situation highlights the massive physical infrastructure demands of the AI industry and the resulting economic friction with local communities. It raises critical questions about who should bear the cost of the energy expansion needed to fuel the global AI boom."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "ps3-emulator-ai-prs-ban",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "PS3 模拟器开发者请求停止提交低质量 AI PR",
+        "en": "PS3 Emulator Devs Request End to Low-Quality AI Pull Requests"
+      },
+      "summary": {
+        "zh": "PS3 模拟器 RPCS3 的维护者请求贡献者停止向项目提交大量 AI 生成的拉取请求（PR）。开发者指出，虽然 AI 辅助生成的代码表面上可行，但往往包含细微的 Bug 或低效逻辑，增加了审查难度。这一事件反映了开源软件领域的一个普遍趋势：LLM 的易用性导致不达标的贡献激增。为了维护软件完整性，项目负责人正越来越多地被迫制定针对 AI 生成代码的限制政策。",
+        "en": "Maintainers of the RPCS3 PlayStation 3 emulator have asked contributors to stop flooding the project with AI-generated pull requests. The developers noted that while AI-assisted code appears functional, it often contains subtle bugs or inefficient logic that complicates the review process. This incident reflects a broader trend in open-source software where the ease of using LLMs is leading to a surge in substandard contributions. Project leaders are increasingly forced to implement policies against AI-generated code to maintain software integrity."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "swift-llm-matrix-mult-optimization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "在 Swift 中优化 LLM 训练：从 Gflop/s 到 Tflop/s",
+        "en": "Optimizing LLM Training in Swift: From Gflop/s to Tflop/s"
+      },
+      "summary": {
+        "zh": "一项技术研究展示了如何在 Apple Silicon 上使用 Swift 语言优化 LLM 训练中的矩阵乘法。通过利用 Metal 和特定硬件优化，作者成功将性能从 Gflop/s 提升至 Tflop/s。这一成就表明，在 Apple 硬件上，Swift 有望成为机器学习任务中 Python 的高性能替代方案。该文章为希望在非传统 AI 开发环境中最大化计算效率的开发者提供了详细的技术路线图。",
+        "en": "A technical study demonstrates how to optimize matrix multiplication for LLM training using the Swift programming language on Apple Silicon. By leveraging Metal and hardware-specific optimizations, the author successfully scaled performance from Gflop/s to Tflop/s. This achievement suggests that Swift could become a high-performance alternative to Python for machine learning tasks on Apple hardware. The post provides a detailed roadmap for developers looking to maximize computational efficiency in non-traditional AI development environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "chrome-ai-storage-usage",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Chrome 集成的 Gemini Nano 可能占用 4GB 本地存储",
+        "en": "Chrome's Gemini Nano Integration May Consume 4GB of Local Storage"
+      },
+      "summary": {
+        "zh": "Google Chrome 集成的 Gemini Nano 本地 AI 功能据报正占用高达 4GB 的存储空间。这一巨大的存储占用源于运行「帮我写」和标签页整理等本地功能所需的模型权重及运行时环境。虽然本地处理提升了隐私保护并降低了延迟，但对于使用入门级硬件、磁盘空间有限的用户来说，这一存储需求引发了担忧。这凸显了本地 AI 能力与消费级设备硬件限制之间日益增长的矛盾。",
+        "en": "Google Chrome's integration of Gemini Nano for on-device AI features is reportedly consuming up to 4GB of local storage. This significant footprint stems from the model weights and associated runtime environments required to power features like 'Help me write' and tab organization locally. While on-device processing enhances privacy and reduces latency, the storage demand raises concerns for users with limited disk space on entry-level hardware. This highlights the ongoing tension between local AI capabilities and the hardware constraints of consumer devices."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "hollywood-workers-ai-training",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "行业转型之际，好莱坞专业人士转向 AI 训练工作",
+        "en": "Hollywood Professionals Pivot to AI Training Amid Industry Shifts"
+      },
+      "summary": {
+        "zh": "越来越多的好莱坞专业人士（包括编剧和剪辑师）正从传统的影视制作转向 AI 模型训练工作。这种转变涉及数据标注、为大语言模型精炼剧本以及提供专家反馈，以提升生成式系统的创意输出。虽然在行业罢工和预算削减期间这提供了一定的收入来源，但也引发了关于创意劳动未来的生存危机。这一趋势表明，随着人类专业知识被用于自动化未来的影视生产，娱乐行业正在发生根本性的结构重组。",
+        "en": "A growing number of Hollywood professionals, including writers and editors, are transitioning from traditional content creation to training AI models. This shift involves labeling data, refining scripts for LLMs, and providing expert feedback to improve the creative output of generative systems. While it provides a temporary income stream amidst industry strikes and budget cuts, it raises existential questions about the future of creative labor. The trend underscores how the entertainment industry is being fundamentally restructured as human expertise is harvested to automate future production."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "adamsreview-claude-code",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "adamsreview：针对 Claude Code 的多智能体 PR 审查工具",
+        "en": "adamsreview: Multi-Agent PR Reviews for Claude Code"
+      },
+      "summary": {
+        "zh": "「adamsreview」是一款专为 Claude Code 设计的新型开源工具，旨在增强多智能体拉取请求（PR）审查。通过利用多个专业化智能体，该工具能提供比标准单次 AI 审查更细致、更具上下文感知能力的反馈。它旨在通过在人工检查前识别 Bug、风格不一致和架构缺陷，减轻人类审查者的认知负担。该项目反映了基于 Anthropic 编程助手的智能体工具生态系统正趋于成熟，致力于简化软件开发生命周期。",
+        "en": "adamsreview is a new open-source tool designed to enhance multi-agent Pull Request (PR) reviews specifically for Claude Code. By leveraging multiple specialized agents, the tool provides more granular and context-aware feedback compared to standard single-pass AI reviews. It aims to reduce the cognitive load on human reviewers by identifying bugs, style inconsistencies, and architectural flaws before manual inspection. This project reflects the maturing ecosystem of agentic tools built on top of Anthropic's coding assistants to streamline the software development lifecycle."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/adamjgmiller/adamsreview",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "signals-agent-trace-analysis",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Signals：无需 LLM 评判即可发现高信息量智能体轨迹",
+        "en": "Signals: Finding Informative Agent Traces Without LLM Judges"
+      },
+      "summary": {
+        "zh": "来自 Katanemo Labs 的研究人员推出了「Signals」框架，旨在无需依赖昂贵的 LLM 评判或人工干预的情况下，识别最具信息量的智能体轨迹。该系统解决了智能体系统中审查数千条轨迹成本过高的可扩展性瓶颈。通过使用信息论指标过滤轨迹，Signals 允许开发者专注于最关键的失败模式或成功模式。这项研究对于以低成本方式优化智能体性能和微调数据集至关重要。",
+        "en": "Researchers from Katanemo Labs introduced Signals, a framework for identifying the most informative agent traces without relying on expensive LLM judges or human intervention. The system addresses the scalability bottleneck in agentic systems where reviewing thousands of trajectories is cost-prohibitive. By using information-theoretic metrics to filter traces, Signals allows developers to focus on the most critical failure modes or successful patterns. This research is pivotal for optimizing agent performance and fine-tuning datasets in a cost-effective manner."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "unsloth-mtp-qwen-3-6",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Unsloth 发布支持 MTP 的 Qwen 3.6 GGUF 模型",
+        "en": "Unsloth Releases Qwen 3.6 GGUF Models with MTP Support"
+      },
+      "summary": {
+        "zh": "Unsloth 发布了 Qwen 3.6（27B 和 35B 变体）的优化版 GGUF 模型，保留了多 Token 预测（MTP）层。MTP 是一种旨在通过同时预测多个未来 Token 而非逐个预测，从而提高推理速度和模型连贯性的技术。虽然模型已在 Hugging Face 上线，但用户目前需要构建 llama.cpp 的特定分支才能利用 MTP 功能。此次发布标志着将高端研究模型中的先进架构优化引入本地 LLM 社区迈出了重要一步。",
+        "en": "Unsloth has released optimized GGUF versions of Qwen 3.6 (27B and 35B variants) that preserve the Multi-Token Prediction (MTP) layer. MTP is a technique designed to improve inference speed and model coherence by predicting multiple future tokens simultaneously rather than one by one. While the models are available on Hugging Face, users currently need to build a specific branch of llama.cpp to leverage the MTP functionality. This release marks a significant step in bringing advanced architectural optimizations from high-end research models to the local LLM community."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ta4rvs/mtp_on_unsloth/",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "exllamav3-dflash-update",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "ExLlamaV3 重大更新：引入 DFlash 实现 1.6 倍提速",
+        "en": "ExLlamaV3 Major Update Introduces DFlash for 1.6x Speedup"
+      },
+      "summary": {
+        "zh": "ExLlamaV3 推理库迎来了重大更新，新增了「DFlash」支持，显著提升了本地 LLM 的执行性能。基准测试显示，在智能体和编程任务中，DFlash 可将吞吐量从 55.98 t/s 提升至 89.58 t/s，相比基准速度提升了 1.6 倍。此次更新还包括对 Gemma 4 的支持以及改进的 KV 缓存效率，允许用户在消费级 GPU 上以更低的开销运行更大的模型。这些优化持续突破了高速本地 AI 推理的极限。",
+        "en": "The ExLlamaV3 inference library has received a major update featuring DFlash support, significantly boosting performance for local LLM execution. Benchmarks show that for agentic and coding tasks, DFlash can increase throughput from 55.98 t/s to 89.58 t/s, representing a 1.6x speedup over the baseline. The update also includes support for Gemma 4 and improved KV cache efficiency, allowing users to run larger models on consumer-grade GPUs with less overhead. These optimizations continue to push the boundaries of what is possible for high-speed local AI inference."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1t9voxs/exllamav3_major_updates/",
+      "date": "2026-05-11"
+    }
+  ]
+}
