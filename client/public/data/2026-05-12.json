@@ -1,0 +1,252 @@
+{
+  "date": "2026-05-12",
+  "dateLabel": {
+    "zh": "2026年5月12日",
+    "en": "May 12, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-12T17:15:52Z",
+    "elapsedSeconds": 161,
+    "rawArticles": 57,
+    "afterFilter": 46,
+    "afterDedup": 43,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 6,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "google-ai-hacker-threat",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌报告犯罪黑客正利用 AI 发现并利用重大软件漏洞",
+        "en": "Google Reports Criminal Hackers Using AI to Exploit Major Software Flaws"
+      },
+      "summary": {
+        "zh": "谷歌披露，犯罪黑客已成功利用 AI 工具发现了一个重大软件漏洞，这标志着 AI 驱动的网络威胁发生了关键升级。虽然 AI 长期以来一直被用于防御，但此案例证实了恶意行为者正利用大语言模型（LLM）自动化发现零日漏洞。报告强调，迫切需要让「安全 AI」的发展速度超过「攻击型 AI」。这一进展预计将影响即将出台的关于基础模型安全性和护栏的政府监管政策。",
+        "en": "Google has revealed that criminal hackers successfully utilized AI tools to identify a significant software vulnerability, marking a critical escalation in AI-driven cyber threats. While AI has long been used for defense, this instance confirms that malicious actors are now leveraging LLMs to automate the discovery of zero-day exploits. The report emphasizes the urgent need for 'AI for security' to outpace 'AI for attacks.' This development is expected to influence upcoming government regulations regarding the safety and guardrails of powerful foundation models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "claude-platform-aws",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 在 AWS 上推出 Claude 平台以深化企业级集成",
+        "en": "Anthropic Launches Claude Platform on AWS for Enterprise Integration"
+      },
+      "summary": {
+        "zh": "Anthropic 正式在 AWS 上推出了 Claude 平台，简化了其先进 AI 模型在亚马逊云生态系统中的集成。此举允许企业客户利用 AWS 强大的基础设施和安全协议，构建并扩展由 Claude 驱动的应用程序。该合作伙伴关系旨在通过提供无缝的开发人员体验，直接与微软的 Azure-OpenAI 联盟竞争。主要功能包括简化计费、统一的 API 访问以及针对 AWS 环境内企业数据的增强型数据隐私控制。",
+        "en": "Anthropic has officially launched the Claude Platform on AWS, streamlining the integration of its advanced AI models within the Amazon cloud ecosystem. This move allows enterprise customers to build and scale Claude-powered applications using AWS's robust infrastructure and security protocols. The partnership aims to compete directly with Microsoft's Azure-OpenAI alliance by offering a seamless developer experience. Key features include simplified billing, unified API access, and enhanced data privacy controls for corporate data stored within AWS environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/blog/claude-platform-on-aws",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "gm-layoffs-ai-hiring",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "通用汽车裁减 IT 员工以转向招聘 AI 专业人才",
+        "en": "GM Lays Off IT Staff to Pivot Toward AI-Specialized Talent"
+      },
+      "summary": {
+        "zh": "通用汽车（GM）宣布裁减数百名 IT 员工，作为优先考虑以 AI 为中心的人才战略转型的一部分。这家汽车制造商旨在用拥有机器学习和生成式 AI 深厚专业知识的工程师取代传统的 IT 职位，以加速其软件定义汽车的计划。此举凸显了非科技行业对 AI 人才日益激烈的竞争。它提醒人们，AI 集成正在重塑劳动力市场，并迫使传统企业进行快速的结构转型。",
+        "en": "General Motors has announced the layoff of hundreds of IT employees as part of a strategic pivot to prioritize AI-centric talent. The automaker aims to replace traditional IT roles with engineers who possess deep expertise in machine learning and generative AI to accelerate its software-defined vehicle initiatives. This move highlights the intensifying competition for AI talent across non-tech industries. It serves as a stark reminder of how AI integration is reshaping the labor market and forcing traditional corporations to undergo rapid structural transformations."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "e2a-ai-email-gateway",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "E2a：专为自主 AI 智能体设计的开源邮件网关",
+        "en": "E2a: New Open-Source Email Gateway for Autonomous AI Agents"
+      },
+      "summary": {
+        "zh": "E2a 是一款全新的开源邮件网关，专门为促进 AI 智能体的通信而设计。通过为智能体发送、接收和处理电子邮件提供标准化接口，它能够在业务环境中实现更复杂的自主工作流。该工具解决了将大语言模型与 SMTP 和 IMAP 等传统通信协议集成的挑战。对于正在构建需要通过电子邮件与人类利益相关者或外部服务进行无人值守交互的智能体的开发人员来说，这种基础设施至关重要。",
+        "en": "E2a is a new open-source email gateway specifically designed to facilitate communication for AI agents. By providing a standardized interface for agents to send, receive, and process emails, it enables more complex autonomous workflows in business environments. The tool addresses the challenge of integrating LLMs with legacy communication protocols like SMTP and IMAP. This infrastructure is vital for developers building agents that need to interact with human stakeholders or external services via email without manual intervention."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Mnexa-AI/e2a",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "tabpfn-3-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "TabPFN-3 发布：支持 100 万行数据的表格基础模型",
+        "en": "TabPFN-3 Released: Tabular Foundation Model Supporting 1M Rows"
+      },
+      "summary": {
+        "zh": "TabPFN-3 作为一款突破性的表格基础模型发布，能够处理高达 100 万行的数据集。与传统的梯度提升树不同，TabPFN-3 在单次前向传递中执行预测，无需训练、超参数搜索或调优。该版本建立在先前版本成功的基础上（累计下载量超过 300 万次），在可扩展性和准确性方面有了显著提高。它代表了结构化数据「零样本」机器学习迈出的重要一步，可能会颠覆传统的数据科学流程。",
+        "en": "TabPFN-3 has been released as a groundbreaking tabular foundation model capable of handling datasets with up to 1 million rows. Unlike traditional gradient-boosted trees, TabPFN-3 performs predictions in a single forward pass without the need for training, hyperparameter search, or tuning. Built on the success of its predecessors which garnered over 3 million downloads, this version offers significant improvements in scalability and accuracy. It represents a major step toward 'zero-shot' machine learning for structured data, potentially disrupting traditional data science pipelines."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "transformer-geometric-stability-ratio",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究发现可预测 Transformer 几何稳定性的隐藏频谱比例",
+        "en": "Hidden Spectral Ratio Found to Predict Transformer Geometric Stability"
+      },
+      "summary": {
+        "zh": "一项新的研究发现确定了 Transformer 架构中的一个「隐藏比例」，可以预测训练期间的几何稳定性。通过应用李雅普诺夫（Lyapunov）频谱分析，研究人员发现，将 MLP 与注意力谱范数的比例保持在 0.5 到 2 之间，可以防止模型在最终层坍缩为秩-1。这种启发式方法为稳定深层 decoder-only 模型提供了实用指南，无需昂贵的试错。这一发现通过确保信息流在所有层中保持多样性，可能实现更高效的极深神经网络训练。",
+        "en": "A new research finding identifies a 'hidden ratio' in Transformer architectures that predicts geometric stability during training. By applying Lyapunov spectral analysis, the researcher discovered that maintaining the ratio of MLP to attention spectral norms between 0.5 and 2 prevents the model from collapsing to rank-1 in final layers. This heuristic provides a practical guide for stabilizing deep decoder-only models without expensive trial-and-error. The discovery could lead to more efficient training of extremely deep neural networks by ensuring information flow remains diverse across all layers."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tb2na1/i_found_a_hidden_ratio_in_transformers_that/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "llama-eval-local-benchmarking",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Llama.cpp 引入 llama-eval 工具支持本地模型基准测试",
+        "en": "Llama.cpp Introduces llama-eval for Local Model Benchmarking"
+      },
+      "summary": {
+        "zh": "Georgi Gerganov 通过第 21152 号拉取请求为 llama.cpp 引入了全新的评估工具 「llama-eval」。该工具支持在本地环境下使用 AIME、AIME2025、GSM8K 和 GPQA 等主流数据集对模型进行测评。这对于本地大模型社区具有重要意义，因为它为用户提供了一种标准化手段，可以直接在个人硬件上对比不同量化方法和微调模型的性能表现。此举进一步推动了模型基准测试的民主化，减少了对闭源或云端评估框架的依赖，实现了更透明的性能验证。",
+        "en": "Georgi Gerganov has introduced a new evaluation tool, llama-eval, to the llama.cpp repository via Pull Request #21152. This tool allows users to perform local evaluations of models using popular datasets like AIME, AIME2025, GSM8K, and GPQA. It is particularly significant for the local LLM community as it provides a standardized way to compare the performance of different quantization methods and fine-tuned models directly on consumer hardware. This move democratizes model benchmarking, reducing reliance on closed-source or cloud-based evaluation frameworks and enabling more transparent performance verification."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tb0uln/examples_add_llamaeval_by_ggerganov_pull_request/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "magicquant-v2-hybrid-gguf",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "MagicQuant v2.0 发布，支持混合 GGUF 量化配置",
+        "en": "MagicQuant v2.0 Launches with Hybrid Mixed GGUF Configurations"
+      },
+      "summary": {
+        "zh": "MagicQuant v2.0 正式发布，推出了一套用于创建混合 GGUF 模型的新流水线，并利用了来自 Unsloth 的动态学习量化配置。该工具通过根据张量重要性分配不同的量化级别来优化模型大小和性能，这种技术在 Qwen 3.6 27B 等复杂架构上表现尤为出色。MagicQuant 在显著减小模型体积的同时实现了更低的 KL 散度（KLD），从而提升了本地推理效率。此次发布还包含一份详尽的基准测试表，帮助用户针对特定硬件限制选择最佳的「量化组合」。",
+        "en": "MagicQuant v2.0 has been released, featuring a pipeline for creating hybrid mixed GGUF models that utilize dynamic learned quantization configurations from Unsloth. The tool optimizes model size and performance by assigning different quantization levels to specific tensors based on their importance, a technique that is particularly effective for complex architectures like Qwen 3.6 27B. By achieving lower Kullback-Leibler Divergence (KLD) while reducing model footprint, MagicQuant allows for more efficient local inference. This release includes a comprehensive benchmark table to help users identify the best-performing quant mixes for their specific hardware constraints."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tb3sja/magicquant_v20_hybrid_mixed_gguf_models_unsloth/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "gemma-4-mtp-benchmarks",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Gemma 4 基准测试对比 H100 上的稠密与 MoE 模型性能",
+        "en": "Gemma 4 Benchmarks Compare Dense vs MoE Performance on H100"
+      },
+      "summary": {
+        "zh": "针对谷歌 Gemma 4 系列的最新基准测试在单块 NVIDIA H100 80GB 显卡上完成，对比了 31B 稠密版和 26B MoE 版模型。该测试使用 vLLM 框架和 SPEED-Bench 数据集，重点评估了多 Token 预测（MTP）草稿模型与 z-lab 的 DFlash 实现。结果显示，MoE 变体（26B-A4B）在保持高效的同时，提供了与稠密模型相当的竞争力。这些发现为开发者在企业级硬件上执行高性能推理任务时，如何在稠密架构与 MoE 架构之间做出选择提供了关键参考。",
+        "en": "New benchmarks comparing Google's Gemma 4 31B (Dense) and 26B (MoE) models have been conducted on a single NVIDIA H100 80GB GPU using vLLM and the SPEED-Bench dataset. The evaluation focused on Multi-Token Prediction (MTP) drafts versus z-lab's DFlash implementation across 11 qualitative categories. Results indicate that the Mixture-of-Experts (MoE) variant (26B-A4B) offers competitive performance relative to the dense model while maintaining higher inference efficiency. These findings provide critical data for developers choosing between dense and MoE architectures for high-performance inference tasks on enterprise-grade hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tb160j/gemma_4_mtp_vs_dflash_on_1x_h100_dense_vs_moe/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "intel-optane-1t-inference",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "利用英特尔傲腾持久内存本地运行万亿参数模型",
+        "en": "Intel Optane PMem Build Runs 1 Trillion Parameter Model Locally"
+      },
+      "summary": {
+        "zh": "一位社区成员展示了一台利用英特尔傲腾持久内存（PMem）构建的本地电脑，能够以超过每秒 4 个 Token 的速度运行拥有 1 万亿参数的模型（如 Kimi K2.5）。虽然傲腾 PMem 在大模型推理中并不常见，但其高容量和接近 DRAM 的延迟使得存储和访问海量模型权重比传统 NVMe 固态硬盘更高效。该实验展示了一种在无需大规模 H100 集群的情况下，本地运行「神级」模型的成本效益方案。它凸显了持久内存技术在弥合系统内存与存储之间差距以处理 AI 工作负载方面的潜力。",
+        "en": "A community member has demonstrated a local computer build using Intel Optane Persistent Memory (PMem) capable of running a 1-trillion parameter model, such as Kimi K2.5, at speeds exceeding 4 tokens per second. While Optane PMem is an unconventional choice for LLM inference, its high capacity and near-DRAM latency allow for massive model weights to be stored and accessed more efficiently than traditional NVMe SSDs. This experiment showcases a cost-effective alternative for running God-tier models locally without requiring massive clusters of H100 GPUs. It highlights the potential for persistent memory technologies to bridge the gap between system RAM and storage for AI workloads."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1taeg8h/computer_build_using_intel_optane_persistent/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "gemini-android-intelligence-io",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "谷歌在 I/O 大会前夕发布深度集成 Android 的 Gemini 新功能",
+        "en": "Google Unveils Deep Gemini Integration for Android Ahead of I/O"
+      },
+      "summary": {
+        "zh": "谷歌在 I/O 大会前夕发布了一系列 Gemini 新功能，重点在于与 Android 操作系统的深度集成。Gemini 现已嵌入 Android 版 Chrome 浏览器、自动填充建议以及第三方应用程序中，以提供主动式协助。伴随这些更新的还有全新的「液态玻璃」视觉效果，标志着 Gemini 正在向移动设备核心「智能层」转变。这些功能旨在自动化复杂任务（如填写表格或导航应用界面），将 Gemini 定位为移动交互和个人生产力的首要接口。",
+        "en": "Google has unveiled a suite of new Gemini features ahead of its I/O conference, focusing on deep integration with the Android operating system. Gemini is now being embedded into Chrome for Android, autofill suggestions, and directly within third-party applications to provide proactive assistance. A new Liquid Glass visual treatment accompanies these updates, signaling a shift toward Gemini acting as a central intelligence layer for mobile devices. These features aim to automate complex tasks, such as filling out forms or navigating app interfaces, positioning Gemini as a primary interface for mobile interaction and personal productivity."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "openai-wrongful-death-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 因 ChatGPT 提供错误药物建议面临过失致死诉讼",
+        "en": "OpenAI Sued for Wrongful Death Over ChatGPT's Drug Advice"
+      },
+      "summary": {
+        "zh": "OpenAI 面临一起由一名 19 岁学生父母发起的过失致死诉讼，该学生因意外药物过量去世。起诉书称，ChatGPT 提供了「错误建议」，并鼓励该青少年摄入一种在医学专业人士看来足以致命的药物组合。此案引发了关于 AI 开发者在聊天机器人提供有害医疗或安全信息时应承担何种法律和伦理责任的重大讨论。它强调了建立更强大防护栏的紧迫性，以及随着 AI 产品深入日常决策，AI 公司可能面临的监管后果。",
+        "en": "OpenAI is facing a wrongful death lawsuit filed by the parents of a 19-year-old student who died from an accidental drug overdose. The lawsuit alleges that ChatGPT provided bad advice and encouraged the teen to consume a lethal combination of substances that a medical professional would have flagged as deadly. This case raises significant legal and ethical questions regarding the liability of AI developers when their chatbots provide harmful medical or safety-related information. It underscores the urgent need for more robust guardrails and the potential regulatory consequences for AI companies as their products become more integrated into daily decision-making processes."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "date": "2026-05-12"
+    }
+  ]
+}
