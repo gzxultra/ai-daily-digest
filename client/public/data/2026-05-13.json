@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-13",
+  "dateLabel": {
+    "zh": "2026年5月13日",
+    "en": "May 13, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-13T17:21:19Z",
+    "elapsedSeconds": 157,
+    "rawArticles": 46,
+    "afterFilter": 39,
+    "afterDedup": 36,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 4,
+      "Reddit": 1,
+      "r/LocalLLaMA": 3,
+      "The Verge AI": 3
+    }
+  },
+  "news": [
+    {
+      "id": "hejlsberg-ai-engineering",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Anders Hejlsberg 谈 AI 时代的编程未来",
+        "en": "Anders Hejlsberg on the Future of Programming with AI"
+      },
+      "summary": {
+        "zh": "Turbo Pascal、C# 和 TypeScript 的传奇架构师 Anders Hejlsberg 在深度访谈中回顾了软件开发的演进。他认为，尽管 AI 将越来越多地处理样板代码和常规实现，但软件工程的核心价值仍在于高层架构设计和精确的逻辑定义。Hejlsberg 特别指出，TypeScript 的结构化类型系统非常适合为大语言模型（LLM）提供必要的约束，从而生成更可靠的代码。这一观点预示着开发者角色将从手动编写代码转向 AI 驱动意图的「编排者」。",
+        "en": "In a deep-dive interview, the legendary architect behind Turbo Pascal, C#, and TypeScript, Anders Hejlsberg, reflects on the evolution of software development. He argues that while AI will increasingly handle boilerplate code and routine implementation, the core value of software engineering remains in high-level architectural design and precise logic definition. Hejlsberg highlights how TypeScript's structural type system is uniquely positioned to provide the necessary constraints for LLMs to generate more reliable code. This perspective suggests a shift where developers move from manual coding to being 'orchestrators' of AI-driven intent."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "deepmind-ai-pointer",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Google DeepMind 为 AI 时代重塑鼠标指针",
+        "en": "Google DeepMind Reimagines the Mouse Pointer for AI"
+      },
+      "summary": {
+        "zh": "Google DeepMind 提出了一项新概念，旨在将传统的鼠标指针转变为能够理解屏幕上下文的主动 AI 智能体。与被动光标不同，这种「AI 指针」可以预测用户意图，自主与 UI 元素交互，并弥合多模态感知与数字化执行之间的鸿沟。通过将 AI 直接集成到操作系统输入层，该系统旨在减轻用户导航复杂界面的认知负担。这项研究代表了人机交互（HCI）的根本转变，正朝着能够实时预测用户需求的主动式界面迈进。",
+        "en": "Google DeepMind has introduced a concept to transform the traditional mouse pointer into an active AI agent capable of understanding screen context. Unlike a passive cursor, this 'AI pointer' can predict user intent, interact with UI elements autonomously, and bridge the gap between multimodal perception and digital execution. By integrating AI directly into the OS input layer, the system aims to reduce the cognitive load of navigating complex interfaces. This research represents a fundamental shift in Human-Computer Interaction (HCI), moving toward proactive interfaces that anticipate user needs in real-time."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://deepmind.google/blog/ai-pointer/",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "statewright-ai-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Statewright：通过可视化状态机提升 AI 智能体可靠性",
+        "en": "Statewright: Visual State Machines for Reliable AI Agents"
+      },
+      "summary": {
+        "zh": "Statewright 是一个新的开源框架，它将可视化状态机应用于 AI 智能体开发，以解决不可预测性和「幻觉循环」问题。通过将智能体工作流定义为确定性的状态和转换，开发者可以强制执行严格的业务逻辑并提高可观察性。该工具允许对复杂的多步任务进行可视化调试，确保智能体保持在预定义的运行边界内。这种方法将传统软件工程的可靠性与现代 LLM 的灵活性相结合，使得为企业级场景部署生产级智能体变得更加容易。",
+        "en": "Statewright is a new open-source framework that applies visual state machines to AI agent development to solve the problem of unpredictability and 'hallucination loops.' By defining agentic workflows as deterministic states and transitions, developers can enforce strict business logic and improve observability. The tool allows for visual debugging of complex multi-step tasks, ensuring that agents remain within predefined operational boundaries. This approach bridges traditional software engineering reliability with the flexibility of modern LLMs, making it easier to deploy production-grade agents for enterprise use cases."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/statewright/statewright",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "ai-backlash-atlantic",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "《大西洋月刊》警告社会对 AI 的抵制情绪日益高涨",
+        "en": "The Atlantic Warns of Growing Societal Backlash Against AI"
+      },
+      "summary": {
+        "zh": "《大西洋月刊》的一篇深度报告指出，围绕数据中心的环保和社会成本，社会对 AI 行业的抵制情绪正在酝酿。随着大规模计算集群消耗越来越多的当地水资源和能源，社区的抗议活动正在升级，甚至可能导致政治动荡。文章认为，AI 的「物理性」（即运行它所需的有形基础设施）正成为主要的政治导火索。这一转变表明，该行业的未来可能不仅受限于技术瓶颈，还受限于公众的容忍度以及监管机构对资源消耗的严厉打击。",
+        "en": "A provocative report from The Atlantic highlights a brewing backlash against the AI industry, centered on the environmental and social costs of data centers. As massive compute clusters consume increasing amounts of local water and energy, community resistance is escalating, potentially leading to political instability or localized violence. The article argues that the 'physicality' of AI—the tangible infrastructure required to run it—is becoming a major political flashpoint. This shift suggests that the industry's future may be constrained not just by technical limits, but by public tolerance and regulatory crackdowns on resource consumption."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "gliguard-safety-model",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Pioneer.ai 发布 GLiGuard：高速 LLM 内容审核模型",
+        "en": "Pioneer.ai Releases GLiGuard for High-Speed LLM Moderation"
+      },
+      "summary": {
+        "zh": "GLiNER 模型背后的团队 Pioneer.ai 发布了 GLiGuard，这是一个专为 LLM 安全护栏优化的开源小语言模型（SLM）。据报道，GLiGuard 的运行速度比现有的安全审核模型快 16 倍，能够以极低的延迟实时过滤有害内容。通过本地运行，它为外部审核 API 提供了一个具有成本效益且保护隐私的替代方案。对于需要平衡安全需求与交互式 AI 系统性能要求的开发者来说，这一发布具有重要意义。",
+        "en": "Pioneer.ai, the team behind the GLiNER model, has released GLiGuard, an open-source small language model (SLM) optimized for LLM safety guardrails. GLiGuard is reportedly 16x faster than existing safety moderation models, allowing for real-time filtering of harmful content with minimal latency. By running locally, it provides a cost-effective and privacy-preserving alternative to external moderation APIs. This release is significant for developers building production applications who need to balance safety requirements with the performance demands of interactive AI systems."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://pioneer.ai/blog/gliguard-16x-faster-safety-moderation-with-a-small-language-model",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "textgen-native-app",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "TextGen 演进为本地运行 LLM 的原生桌面应用",
+        "en": "TextGen Evolves into a Native Desktop App for Local LLMs"
+      },
+      "summary": {
+        "zh": "由 oobabooga 创建的广泛使用的开源项目「text-generation-webui」已正式更名为 TextGen，并转型为原生桌面应用程序。该应用现在支持 Windows、Linux 和 macOS，提供「免安装」体验，旨在通过更友好的界面与 LM Studio 等工具直接竞争。TextGen 保持了其对可扩展性的核心关注，支持包括 llama.cpp 和 ExLlamaV2 在内的多种后端。此次更新是让非技术用户也能便捷使用高性能本地 AI 的重要里程碑，同时保留了本地执行的隐私优势。",
+        "en": "The widely used 'text-generation-webui' project, created by oobabooga, has officially rebranded as TextGen and transitioned into a native desktop application. Now supporting Windows, Linux, and macOS with a 'no-install' experience, it aims to compete directly with tools like LM Studio by offering a more user-friendly interface for running local models. The app maintains its core focus on extensibility, supporting various backends including llama.cpp and ExLlamaV2. This update marks a major milestone in making high-performance local AI accessible to non-technical users while preserving the privacy of local execution."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tbyyee/textgen_is_now_a_native_desktop_app_opensource/",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "ovis-2-6-moe-mllm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "AIDC-AI 发布 Ovis2.6-80B-A3B 多模态 MoE 模型",
+        "en": "AIDC-AI Releases Ovis2.6-80B-A3B Multimodal MoE Model"
+      },
+      "summary": {
+        "zh": "AIDC-AI 发布了 Ovis2.6-80B-A3B，这是其多模态大语言模型（MLLM）系列的最新进展。通过将底层架构升级为混合专家模型（MoE），该模型在显著降低推理成本的同时，实现了超越前代的多模态性能。新版本在长文本处理和高分辨率图像理解方面有重大提升。这标志着多模态领域正加速转向 MoE 架构，以在保持高性能的同时优化实际部署的经济性。",
+        "en": "AIDC-AI has released Ovis2.6-80B-A3B, a significant update to its multimodal large language model series. By transitioning to a Mixture-of-Experts (MoE) architecture, the model achieves superior performance in multimodal tasks while drastically reducing inference costs compared to dense models. Key enhancements include improved long-context handling and high-resolution image processing capabilities. This release highlights the industry's shift toward MoE to balance high-parameter capacity with operational efficiency in multimodal domains."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tby79g/aidcaiovis2680ba3b_hugging_face/",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "sensenova-u1-unified-multimodal",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "商汤 SenseNova-U1 实现多模态理解与生成的深度统一",
+        "en": "SenseNova-U1 Unifies Multimodal Understanding and Generation"
+      },
+      "summary": {
+        "zh": "商汤科技推出了 SenseNova-U1 系列原生多模态模型，采用了创新的 NEO-unify 架构。不同于传统模型通过集成多个独立模态编码器的方式，SenseNova-U1 在单一架构内实现了多模态理解、推理和生成的深度统一。这种从「模态集成」到「真正统一」的范式转变，旨在提供更流畅、连贯的多模态交互体验。该模型代表了 AI 处理多样化数据方式的根本性变革，标志着从模块化组合向整体架构设计的演进。",
+        "en": "SenseTime has introduced SenseNova-U1, a native multimodal model series utilizing the innovative NEO-unify architecture. Unlike traditional models that integrate separate modality encoders, SenseNova-U1 unifies understanding, reasoning, and generation within a single monolithic framework. This 'true unification' paradigm shift aims to provide more seamless and coherent multimodal interactions. The model represents a fundamental change in how AI processes diverse data types, moving away from modular integration toward holistic architectural design."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tc47q0/sensenovasensenovau1a3bmot_hugging_face/",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "sipeed-k3-riscv-sbc",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Sipeed K3 RISC-V 开发板支持 30B 模型，算力达 60 TOPS",
+        "en": "Sipeed K3 RISC-V Board Runs 30B LLMs with 60 TOPS NPU"
+      },
+      "summary": {
+        "zh": "Sipeed 推出了 K3，这是一款专为高性能本地 AI 运行设计的紧凑型 RISC-V 单板计算机（SBC）。该开发板配备 32GB LPDDR5 内存，其 NPU 可提供 60 TOPS 的 INT4 算力，能够以每秒 15 个 token 的速度运行 30B 参数规模的大模型。它支持 BF16、FP16 和 INT4 等多种数据格式，是边缘计算的理想工具。这一进展突显了 RISC-V 架构在 AI 硬件领域日益增长的竞争力，为本地大模型部署提供了强有力的替代方案。",
+        "en": "Sipeed has unveiled the K3, a compact RISC-V single-board computer (SBC) designed for high-performance local AI execution. Equipped with 32GB of LPDDR5 memory and an NPU delivering 60 TOPS of INT4 performance, the board can run 30B-parameter LLMs at speeds up to 15 tokens per second. It supports various data formats including BF16, FP16, and INT4, making it a versatile tool for edge computing. This development underscores the growing viability of the RISC-V architecture in the competitive AI hardware landscape."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tc3s8c/sipeeds_k3_riscv_sbcs_can_run_30bparameter_llms/",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "meta-ai-incognito-encryption",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta 推出支持端到端加密的 AI 隐身聊天功能",
+        "en": "Meta Launches End-to-End Encrypted Incognito AI Chat"
+      },
+      "summary": {
+        "zh": "Meta 首席执行官马克·扎克伯格宣布为 Meta AI 推出「隐身聊天」（Incognito Chat）功能，这是一项利用端到端加密（E2EE）保护隐私的重大更新。与标准的 AI 交互不同，这些聊天记录不会在 Meta 的服务器上留存或记录，确保对话历史对用户完全私密。此举使 Meta 在 AI 隐私领域处于领先地位，与通常保留用户数据用于模型训练的竞争对手形成鲜明对比。通过将端到端加密集成到 AI 产品中，Meta 旨在建立用户信任并解决数据安全担忧。",
+        "en": "Meta CEO Mark Zuckerberg has announced 'Incognito Chat' for Meta AI, a privacy-centric feature that utilizes end-to-end encryption (E2EE). Unlike standard AI interactions, these chats are not logged or stored on Meta's servers, ensuring that conversation history remains entirely private to the user. This move positions Meta as a leader in AI privacy, contrasting with competitors who typically retain user data for model refinement. By integrating E2EE into its AI products, Meta aims to build user trust and address growing concerns regarding data security."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "musk-altman-openai-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克与奥特曼就 OpenAI 使命展开法庭对决",
+        "en": "Musk and Altman Face Off in Trial Over OpenAI's Mission"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克与萨姆·奥特曼之间关于 OpenAI 未来的高风险法律诉讼已进入审判阶段。马斯克的诉讼指控 OpenAI 背离了其最初为全人类利益开发 AI 的非营利使命，转而优先考虑商业利润及其与微软的合作关系。审判将涉及包括马斯克和 OpenAI 领导层在内的关键人物证词，可能披露内部通信和战略决策。此案的结果可能对全球领先 AI 机构的治理模式、透明度和运营结构产生深远影响。",
+        "en": "The high-stakes legal battle between Elon Musk and Sam Altman over the future of OpenAI has moved into the trial phase. Musk's lawsuit alleges that OpenAI has strayed from its original non-profit mission of developing AI for the benefit of humanity, instead prioritizing commercial profits and its partnership with Microsoft. The trial features testimony from key figures including Musk and OpenAI leadership, potentially exposing internal communications and strategic decisions. The outcome could have profound implications for the governance and transparency of leading AI organizations."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "date": "2026-05-13"
+    },
+    {
+      "id": "amazon-alexa-shopping-integration",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "亚马逊将 Alexa Plus 大模型集成至核心购物体验",
+        "en": "Amazon Integrates Alexa Plus LLM into Core Shopping Experience"
+      },
+      "summary": {
+        "zh": "亚马逊正式将由 Alexa Plus 大模型驱动的「Alexa 购物助手」集成到 Amazon.com 平台中。这款全新的 AI 助手将传统的关键词搜索转变为对话式交互，能够理解复杂查询并提供个性化的产品建议。Alexa 购物助手超越了基础的语音指令，利用高级推理能力在整个购买过程中辅助用户。这一集成代表了亚马逊将生成式 AI 投资变现的重要一步，旨在将核心电商体验转型为由 AI 驱动的主动式助手服务。",
+        "en": "Amazon has officially integrated 'Alexa for Shopping,' powered by the Alexa Plus LLM, directly into the Amazon.com platform. This new AI assistant replaces traditional keyword search with a conversational interface capable of understanding complex queries and providing personalized product recommendations. Moving beyond basic voice commands, Alexa for Shopping leverages advanced reasoning to assist users throughout the entire purchasing journey. This integration represents a major step in Amazon's strategy to monetize its generative AI investments by transforming e-commerce into a proactive assistant service."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
+      "date": "2026-05-13"
+    }
+  ]
+}
