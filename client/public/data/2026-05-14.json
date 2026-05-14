@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-14",
+  "dateLabel": {
+    "zh": "2026年5月14日",
+    "en": "May 14, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-14T17:04:48Z",
+    "elapsedSeconds": 139,
+    "rawArticles": 56,
+    "afterFilter": 47,
+    "afterDedup": 43,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 2,
+      "Reddit": 3,
+      "r/LocalLLaMA": 4,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "forward-deployed-engineering-trends",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "前置部署工程的兴起与智能体工程趋势",
+        "en": "The Rise of Forward Deployed Engineering and Agentic Workflows"
+      },
+      "summary": {
+        "zh": "Gergely Orosz 指出，随着企业优先考虑定制化 AI 实施，前置部署工程 (FDE) 正在重新升温。报告提到，在科技行业裁员增加的同时，大公司员工自发报告在编程任务中 100% 使用 AI 的比例也在上升。关键趋势是「氛围编程」(vibe coding) 与智能体工程正在融合，标志着从手动编写代码向高层级编排的转变。这反映了行业的重大转型：工程师正逐渐演变为复杂 AI 集成的解决方案架构师。",
+        "en": "Gergely Orosz highlights the resurgence of Forward Deployed Engineering (FDE) as companies prioritize custom AI implementations. The report notes rising tech job losses alongside a trend where employees at major firms self-report 100% AI usage for coding tasks. Crucially, vibe coding and agentic engineering are merging, signaling a shift toward high-level orchestration over manual syntax. This reflects a broader industry pivot where engineers act more as solutions architects for complex AI integrations."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineering",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "claude-for-small-business",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 推出面向小型企业的 Claude 订阅方案",
+        "en": "Anthropic Launches Claude for Small Business"
+      },
+      "summary": {
+        "zh": "Anthropic 推出了全新的「Claude 小型企业版」计划，旨在以更低的门槛为小型团队提供企业级 AI 能力。该方案包括对 Claude 3 系列模型的访问权限、管理控制功能以及此前仅供大型组织使用的增强安全特性。此举旨在推动先进大语言模型的普及，让小团队也能高效地自动化工作流并管理内部知识库。该发布在 Hacker News 上引发了广泛讨论，凸显了中小企业市场对可扩展 AI 工具的强烈需求。",
+        "en": "Anthropic has introduced a new Claude for Small Business plan designed to provide smaller teams with enterprise-grade AI capabilities at a lower entry point. The offering includes access to the Claude 3 model family, administrative controls, and enhanced security features previously reserved for larger organizations. This move aims to democratize advanced LLM usage, allowing small teams to automate workflows and manage internal knowledge bases effectively. The launch received significant traction on Hacker News, highlighting the demand for scalable AI tools in the SMB sector."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-for-small-business",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "medicare-ai-payment-model",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国医保新支付模型正为 AI 铺路",
+        "en": "Medicare's New Payment Model Quietly Prepares for AI Integration"
+      },
+      "summary": {
+        "zh": "据报道，美国医保 (Medicare) 的一种新支付模型正在悄然构建，其结构本质上利好 AI 驱动的医疗服务，但科技界对此知之甚少。通过向「基于价值的护理」和数据密集型报销结构转型，该模型为医疗机构使用 AI 进行预测性诊断和提高行政效率提供了财务激励。这一政策转变可能会促使大量 AI 初创公司涌入医疗领域，以对齐联邦报销政策。这代表了公共政策与技术应用在美国医疗体系中的关键交汇。",
+        "en": "A new Medicare payment model is reportedly being structured in a way that inherently favors AI-driven healthcare delivery, though much of the tech industry remains unaware. By shifting toward value-based care and data-intensive reimbursement structures, the model creates a financial incentive for providers to use AI for predictive diagnostics and administrative efficiency. This policy shift could catalyze a massive influx of AI startups into the healthcare sector as they align with federal reimbursement incentives. It represents a critical intersection of public policy and technological adoption in the US medical system."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "elastic-attention-cores-vit",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "弹性注意力核心：实现视觉 Transformer 的高效扩展",
+        "en": "Elastic Attention Cores: Scaling Vision Transformers Efficiently"
+      },
+      "summary": {
+        "zh": "研究人员引入了「弹性注意力核心」(Elastic Attention Cores)，这是一种专为视觉 Transformer (ViTs) 设计的新型构建模块，旨在克服传统密集自注意力的二次方计算成本。该架构采用核心-外围块稀疏结构，使计算量随分辨率线性扩展，显著降低了高分辨率图像下的计算开销。基准测试表明，该方法在保持高精度和密集特征表示的同时，速度远快于标准 ViT。这项研究对于在资源受限的硬件上部署高分辨率计算机视觉模型至关重要。",
+        "en": "Researchers have introduced Elastic Attention Cores, a novel building block for Vision Transformers (ViTs) designed to overcome the quadratic cost of traditional dense self-attention. The proposed architecture utilizes a core-periphery block-sparse structure that scales linearly with resolution, significantly reducing computational overhead at high image resolutions. Benchmarks demonstrate that this approach maintains high accuracy and dense feature representation while being much faster than standard ViTs. This research is pivotal for deploying high-resolution computer vision models on resource-constrained hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tbxbfp/elastic_attention_cores_for_scalable_vision/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "llm-continual-adaptation-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "快慢学习：缓解大语言模型中的灾难性遗忘",
+        "en": "Learning, Fast and Slow: Mitigating Catastrophic Forgetting in LLMs"
+      },
+      "summary": {
+        "zh": "一篇名为《快慢学习》(Learning, Fast and Slow) 的新论文探讨了 LLM 在不丧失通用塑性的情况下持续适应下游任务的方法。传统的通过强化学习进行的参数更新通常会导致「灾难性遗忘」，即模型在吸收新信息时会丢失原有能力。研究人员提出了一种双过程方法，将快速的情境学习 (In-context learning) 与更慢、更稳定的参数更新相结合。该框架使模型能够保持多功能性和高效性，解决了自适应 AI 系统长期部署中的主要瓶颈。",
+        "en": "A new research paper titled Learning, Fast and Slow explores methods for LLMs to adapt continually to downstream tasks without losing general plasticity. Traditional parameter updates via Reinforcement Learning often lead to catastrophic forgetting, where the model loses its original capabilities while absorbing new information. The researchers propose a dual-process approach that combines rapid in-context learning with slower, more stable parameter updates. This framework allows models to remain versatile and efficient, addressing a major bottleneck in the long-term deployment of adaptive AI systems."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tbvsxo/learning_fast_and_slow_towards_llms_that_adapt/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "nvidia-kimi-nvfp4-quantization",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "英伟达发布 Moonshot AI Kimi 2.6 的 NVFP4 量化版本",
+        "en": "Nvidia Releases NVFP4 Quantized Versions of Moonshot AI's Kimi 2.6"
+      },
+      "summary": {
+        "zh": "英伟达发布了 Moonshot AI (月之暗面) Kimi-K2.6 和 K2.5 模型的量化版本，采用了 NVFP4 (4位浮点) 格式。这些模型利用优化的 Transformer 架构，并通过 Nvidia Model Optimizer 进行处理，以确保在本地硬件上的高性能表现。NVFP4 量化显著降低了显存需求并提升了推理速度，同时保持了极具竞争力的准确度基准。这些模型支持商业和非商业用途，使 LocalLLaMA 社区能够在消费级 GPU 上运行最先进的中文大模型。",
+        "en": "Nvidia has released quantized versions of Moonshot AI's Kimi-K2.6 and K2.5 models using the NVFP4 (4-bit floating point) format. These models utilize an optimized transformer architecture and have been processed with Nvidia's Model Optimizer to ensure high performance on local hardware. The NVFP4 quantization significantly reduces memory requirements and increases inference speed while maintaining competitive accuracy benchmarks. Available for both commercial and non-commercial use, these releases empower the LocalLLaMA community to run state-of-the-art Chinese-centric models on consumer-grade GPUs."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tcxb77/nvfp4_kimi26_and_kimi_25_released_by_nvidia/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "qwen-mtp-llamacpp-turboquant",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "MTP 实现助力 Qwen 在 LLaMA.cpp 上性能提升 40%",
+        "en": "MTP Implementation Boosts Qwen Performance by 40% on LLaMA.cpp"
+      },
+      "summary": {
+        "zh": "针对 Qwen 模型的「多 Token 预测」(MTP) 已在 LLaMA.cpp 和 TurboQuant 框架上实现，带来了显著的 40% 性能提升。在 MacBook Pro M5 Max 上的测试显示，推理速度从每秒 21 个 token 提升至 34 个，且接受率高达 90%。该优化通过 AtomicBot-ai 仓库开源，展示了利用先进的投机采样技术在消费级硬件上提升本地大模型运行效率的巨大潜力。",
+        "en": "A new implementation of Multi-Token Prediction (MTP) for Qwen models on LLaMA.cpp using TurboQuant has achieved a significant 40% performance boost. Running locally on a MacBook Pro M5 Max, inference speeds increased from 21 tokens/s to 34 tokens/s with a high 90% acceptance rate. This optimization, shared via the AtomicBot-ai repository, demonstrates the growing efficiency of local LLM execution on consumer-grade hardware through advanced speculative decoding techniques."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tckzy2/multitoken_prediction_mtp_for_qwen_on_llamacpp/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "ring-2-6-1t-model-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "InclusionAI 发布 Ring-2.6-1T 万亿参数推理模型",
+        "en": "InclusionAI Releases Ring-2.6-1T Trillion-Parameter Reasoning Model"
+      },
+      "summary": {
+        "zh": "InclusionAI 发布了 Ring-2.6-1T，这是一款拥有万亿参数的旗舰级推理模型，专为解决现实世界中的复杂任务场景而设计。该模型不单纯追求参数规模，而是侧重于满足企业和研究环境中的实际生产需求。目前该模型已在 Hugging Face 上线，供开发者进行验证和二次开发，标志着万亿级参数规模的智能模型正走向开放与实用化。",
+        "en": "InclusionAI has introduced Ring-2.6-1T, a flagship reasoning model featuring one trillion parameters designed for complex, real-world task scenarios. Unlike models focused solely on scale, Ring-2.6-1T prioritizes practical application in enterprise and research environments for validation and adaptation. The model is now available on Hugging Face, marking a significant milestone in making trillion-parameter scale intelligence accessible to the broader developer community."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1td3fhc/inclusionairing261t_hugging_face/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "mit-rlcr-uncertainty-training",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "MIT 研究人员利用 RLCR 教会 AI 模型承认不确定性",
+        "en": "MIT Researchers Use RLCR to Teach AI Models to Admit Uncertainty"
+      },
+      "summary": {
+        "zh": "麻省理工学院 (MIT) CSAIL 的研究人员开发了一种名为 RLCR 的方法，旨在解决 AI 的「过度自信」问题，教导模型在不确定时明确表示「我不确定」。目前的推理模型无论答案正确与否，往往都以同样的确定语气输出，容易产生误导。通过追踪并修正这种过度自信，MIT 团队希望使 AI 系统更加可靠，仅在真正准确时才表现出说服力。",
+        "en": "Researchers at MIT CSAIL have developed a method called RLCR to address the issue of AI overconfidence, teaching models to explicitly state 'I'm not sure' when appropriate. Current reasoning models often deliver incorrect answers with the same unshakable certainty as correct ones, leading to potential misinformation. By tracing and correcting this overconfidence, the MIT team aims to make AI systems more reliable and persuasive only when they are actually accurate."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tczrop/mit_rlcr_teaching_ai_models_to_say_im_not_sure/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "ml-intern-automated-researcher",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Hugging Face 推出 ml-intern 支持本地自动化 AI 研究",
+        "en": "Hugging Face Launches ml-intern for Local Automated AI Research"
+      },
+      "summary": {
+        "zh": "新项目「ml-intern」提供了一个自动化的 AI 研究员框架，支持通过 llama.cpp 在本地运行，并与 Hugging Face 的生态系统（如 transformers 和 datasets）深度集成。该工具最初为 Claude Opus 设计，现已支持开源模型执行复杂的机器学习研究任务。这一发布简化了本地智能体工作流的构建，降低了研究过程中对闭源云端 API 的依赖。",
+        "en": "The new 'ml-intern' project provides an automated AI researcher harness that runs locally using llama.cpp, enabling tight integration with Hugging Face's ecosystem including transformers and datasets. Originally designed for Claude Opus, the tool now supports open-source models to perform complex machine learning research tasks via a simple tools and system prompt interface. This release simplifies the creation of local agentic workflows, reducing reliance on proprietary cloud APIs for research."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tcu5r8/automated_ai_researcher_running_locally_with/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "gallup-ai-datacenter-opposition",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "盖洛普调查：70% 的美国人反对在当地建设 AI 数据中心",
+        "en": "Gallup Survey: 70% of Americans Oppose Local AI Data Centers"
+      },
+      "summary": {
+        "zh": "盖洛普 (Gallup) 的最新调查显示，超过 70% 的美国人反对在居住地附近建设 AI 数据中心，仅有 7% 表示强烈支持。调查数据甚至表明，美国人宁愿住在核电站附近也不愿靠近数据中心，这凸显了公众对资源消耗和社区影响的深度担忧。这种广泛的「邻避效应」为 AI 行业的基础设施扩张和能源保障带来了严峻挑战。",
+        "en": "A new Gallup survey reveals that over 70% of Americans oppose the construction of AI data centers in their local areas, with only 7% strongly in favor. Surprisingly, the data suggests that Americans would prefer living near a nuclear power plant rather than a data center, highlighting deep public concern over resource consumption and local impact. This widespread 'NIMBY' sentiment poses a significant infrastructure challenge for the AI industry's continued expansion and energy needs."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/930477/ai-data-centers-gallup-survey-70-percent-opposition",
+      "date": "2026-05-14"
+    },
+    {
+      "id": "edge-copilot-cross-tab-update",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "微软 Edge Copilot 现支持跨标签页整合信息",
+        "en": "Microsoft Edge Copilot Now Synthesizes Info Across All Open Tabs"
+      },
+      "summary": {
+        "zh": "微软更新了 Edge 浏览器的 Copilot 功能，使其能够跨所有打开的标签页获取并整合信息。用户现在可以要求 Copilot 对比不同页面中的产品、总结多篇文章，或基于当前会话的全局上下文回答问题。此次更新通过将浏览器转化为统一的工作空间，显著提升了生产力，使 AI 能够作为跨上下文的助手协助用户处理复杂任务，并提供隐私控制选项。",
+        "en": "Microsoft has updated Edge Copilot with a new feature that allows the AI chatbot to access and synthesize information across all open browser tabs. Users can now ask Copilot to compare products, summarize multiple articles, or answer questions based on the collective context of their active session. This update enhances productivity by transforming the browser into a unified workspace where the AI acts as a cross-contextual assistant with user-selectable privacy controls."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+      "date": "2026-05-14"
+    }
+  ]
+}
