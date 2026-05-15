@@ -1,0 +1,257 @@
+{
+  "date": "2026-05-15",
+  "dateLabel": {
+    "zh": "2026年5月15日",
+    "en": "May 15, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-15T16:55:19Z",
+    "elapsedSeconds": 159,
+    "rawArticles": 56,
+    "afterFilter": 44,
+    "afterDedup": 41,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Register": 1,
+      "Anthropic Blog": 1,
+      "GitHub": 1,
+      "Fast Company": 1,
+      "Reddit / r/MachineLearning": 2,
+      "r/LocalLLaMA": 2,
+      "Hugging Face": 2,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "ontario-ai-medical-audit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "安大略省审计发现 AI 医疗笔记工具频繁捏造基本事实",
+        "en": "Ontario Auditors Warn of AI Scribes Hallucinating Medical Facts"
+      },
+      "summary": {
+        "zh": "安大略省审计人员发布警告，发现医生使用的 AI 医疗笔记工具经常出现幻觉或遗漏关键患者信息。审计显示，这些旨在减轻行政负担的工具在处理基本事实时经常出错，如果不经过严格的人工审查，可能会导致危险的医疗错误。该报告强调了 AI 效率与临床安全之间日益紧张的关系，并重申在医疗等高风险环境中，人工监督是不可或缺的，准确性永远是第一位的。",
+        "en": "Ontario auditors have issued a warning after finding that AI-powered medical note-taking tools used by doctors frequently hallucinate or omit critical patient information. The audit revealed that these tools, intended to reduce administrative burden, often blow basic facts, potentially leading to dangerous medical errors if not meticulously reviewed. This report underscores the growing tension between AI efficiency and clinical safety, emphasizing that human oversight remains non-negotiable in high-stakes healthcare environments where accuracy is paramount."
+      },
+      "source": "The Register",
+      "sourceUrl": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note_takers-routinely-blow-basic-facts/5240771",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "claude-code-large-repos",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 详解 Claude Code 在大规模代码库中的应用实践",
+        "en": "Anthropic Details Best Practices for Claude Code in Large Codebases"
+      },
+      "summary": {
+        "zh": "Anthropic 发布了一份关于针对大规模企业级代码库优化 「Claude Code」 的全面指南。该技术博客详细介绍了上下文管理的最佳实践，包括智能体如何导航复杂的文件结构，以及如何利用专用工具在数千个文件中保持逻辑一致性。通过专注于迭代优化和精确的工具调用，Anthropic 旨在从简单的代码补全转向能够处理架构级变更和复杂重构任务的自主智能体工作流。",
+        "en": "Anthropic has released a comprehensive guide on optimizing Claude Code for large-scale enterprise repositories. The technical blog details best practices for context management, including how the agent navigates complex file structures and utilizes specialized tools to maintain coherence across thousands of files. By focusing on iterative refinement and precise tool-calling, Anthropic aims to move beyond simple code completion toward autonomous agentic workflows that can handle architectural-level changes and complex refactoring tasks."
+      },
+      "source": "Anthropic Blog",
+      "sourceUrl": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "claude-for-legal-github",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Anthropic 在 GitHub 开源 Claude for Legal 法律专用框架",
+        "en": "Anthropic Open-Sources Claude for Legal Framework on GitHub"
+      },
+      "summary": {
+        "zh": "Anthropic 在 GitHub 上开源了 「Claude for Legal」，为将大语言模型应用于复杂的法律工作流提供了一个专门的框架。该仓库包含了针对合同分析、合规性检查和法律研究优化的提示词和模板，并专门针对 Claude 的长上下文能力进行了调整。此举标志着 AI 向垂直领域应用的战略推进，为律师事务所提供了一种结构化的方式来集成 AI，同时保持法律文件所需的严谨性与精确度。",
+        "en": "Anthropic has open-sourced Claude for Legal on GitHub, providing a specialized framework for applying LLMs to complex legal workflows. The repository includes optimized prompts and templates for contract analysis, regulatory compliance checks, and legal research, specifically tuned for Claude's long-context capabilities. This move signals a strategic push into vertical-specific AI applications, offering law firms a structured way to integrate AI while maintaining the rigor and precision required for professional legal documentation."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/anthropics/claude-for-legal",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "amazon-ai-usage-pressure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚马逊员工为应对公司考核压力而虚构 AI 使用任务",
+        "en": "Amazon Workers Invent Tasks to Meet Corporate AI Usage Quotas"
+      },
+      "summary": {
+        "zh": "一份新报告披露，亚马逊员工在面临公司要求提高 AI 使用率的巨大压力下，正在虚构「额外任务」以虚增使用指标。这种「AI 演戏」现象表明，自上而下的 AI 集成指令可能会适得其反，导致表演性工作而非真正的生产力提升。这一情况突显了一个关键的管理挑战：当指标变成目标时，员工可能会优先考虑达成数字，而非进行有意义的技术应用，这可能会误导公司对 AI 投资回报率的判断。",
+        "en": "A new report reveals that Amazon employees, facing intense corporate pressure to demonstrate AI adoption, are inventing extraneous tasks to inflate their usage metrics. This phenomenon of AI theater suggests that top-down mandates for AI integration may be backfiring, leading to performative work rather than genuine productivity gains. The situation highlights a critical management challenge: when metrics become targets, workers may prioritize hitting numbers over meaningful technological implementation, potentially skewing ROI data for AI investments."
+      },
+      "source": "Fast Company",
+      "sourceUrl": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "arxiv-llm-error-ban",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "arXiv 对包含未经检查的 LLM 错误的论文实施一年禁投令",
+        "en": "arXiv Implements 1-Year Ban for Papers with Unchecked LLM Errors"
+      },
+      "summary": {
+        "zh": "arXiv 实施了一项严格政策：对提交包含「无可辩驳的证据」证明存在未经检查的 LLM 生成错误（如幻觉引用或虚假结果）的论文作者，处以一年禁投处罚。版主 Thomas G. Dietterich 强调，无论在写作过程中使用了什么工具，作者必须对所有内容承担全部责任。此举旨在应对激增的低质量 AI 辅助投稿，保护科学文献的完整性，防止研究生态系统受到污染并损害学术信任。",
+        "en": "arXiv has implemented a strict policy imposing a one-year ban on authors who submit papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated citations or fabricated results. Moderator Thomas G. Dietterich emphasized that authors must take full responsibility for all content, regardless of the tools used in the writing process. This move aims to preserve the integrity of scientific literature amidst a surge in low-quality, AI-assisted submissions that threaten to pollute the research ecosystem and undermine academic trust."
+      },
+      "source": "Reddit / r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "continual-harness-agents",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Continual Harness：用于自我改进基础智能体的新型框架",
+        "en": "Continual Harness: New Framework for Self-Improving Foundation Agents"
+      },
+      "summary": {
+        "zh": "来自 GPP 和 PokeAgent 团队的研究人员推出了 「Continual Harness」，这是一个用于自我改进基础智能体在线适配的框架。该论文基于 「Gemini Plays Pokémon」 的成功经验（该系统在不输掉战斗的情况下完成了困难模式的游戏），探讨了迭代式 Harness 开发如何让智能体从环境反馈中实时学习。这项研究标志着智能体向自主优化策略和内部模型迈出了重要一步，使其能够通过与复杂动态环境的持续交互进行自我完善，而无需离线重新训练。",
+        "en": "Researchers from the GPP and PokeAgent teams have introduced Continual Harness, a framework for online adaptation in self-improving foundation agents. Building on the success of Gemini Plays Pokémon, which completed games on hard mode without losing battles, the paper explores how iterative harness development allows agents to learn from environment feedback in real-time. This research represents a significant step toward agents that can autonomously refine their strategies and internal models through continuous interaction with complex, dynamic environments without requiring offline retraining."
+      },
+      "source": "Reddit / r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tcmj6v/continual_harness_online_adaptation_for/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "offline-suitcase-robot-gemma-4",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "开发者利用 Gemma 4 和 Jetson Orin 打造全离线行李箱机器人",
+        "en": "Developer Builds Fully Offline Suitcase Robot Using Gemma 4 and Jetson Orin"
+      },
+      "summary": {
+        "zh": "开发者基于 Jetson Orin NX SUPER 16GB 打造了一款名为「Sparky」的全离线行李箱机器人，运行 Gemma 4 E4B 模型。该系统利用 llama.cpp 和 Flash Attention 技术，实现了约 200ms 的首字延迟（TTFT）和每秒 14-15 个 token 的持续生成速度。机器人集成了 SenseVoiceSmall 语音转文字和 Piper 语音合成技术，并能实现 43Hz 的口型同步。该项目展示了在无需云端连接的情况下，利用高效小模型在边缘硬件上实现复杂机器人交互的可行性。",
+        "en": "A developer has built 'Sparky,' a fully offline suitcase robot powered by a Jetson Orin NX SUPER 16GB running Gemma 4 E4B. The system achieves a cached Time To First Token (TTFT) of ~200ms and a sustained generation speed of 14-15 tokens per second using llama.cpp and flash attention. It integrates SenseVoiceSmall for speech-to-text and Piper for text-to-speech with synchronized mouth movements. This project highlights the viability of sophisticated, low-latency edge AI for robotics without relying on cloud connectivity."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tdz5gr/built_a_fully_offline_suitcase_robot_around_a/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "internlm-s2-preview-scientific-model",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "书生·浦语发布 Intern-S2-Preview：35B 科学多模态大模型",
+        "en": "InternLM Releases Intern-S2-Preview: A 35B Scientific Multimodal Model"
+      },
+      "summary": {
+        "zh": "InternLM 发布了 Intern-S2-Preview，这是一个拥有 35B 参数的科学多模态基座模型，旨在处理复杂的科研任务。该模型超越了传统的参数和数据缩放，转而探索「任务缩放」（task scaling），即通过增加科学任务的难度、多样性和覆盖范围来激发模型潜力。通过将专业科学任务扩展到全链路训练流程中，该模型旨在提升 STEM 领域的深层推理能力。这一预览版的发布标志着面向全球科学界的专业 AI 助手迈出了重要一步。",
+        "en": "InternLM has released Intern-S2-Preview, a 35B parameter scientific multimodal foundation model designed for complex research tasks. The model moves beyond traditional parameter scaling by focusing on 'task scaling,' which involves increasing the difficulty and coverage of scientific problems during training. By extending professional scientific tasks into a full-chain training pipeline, it aims to unlock deeper reasoning capabilities in STEM fields. This preview marks a significant step toward specialized AI assistants for the global scientific community."
+      },
+      "source": "Hugging Face",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tdrw0s/internlminterns2preview_hugging_face/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "bytedance-cola-dlm-diffusion",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "字节跳动推出 Cola-DLM：连续潜空间扩散语言模型",
+        "en": "ByteDance Introduces Cola-DLM: A Continuous Latent Diffusion Language Model"
+      },
+      "summary": {
+        "zh": "字节跳动（ByteDance-Seed）推出了 Cola-DLM（连续潜空间扩散语言模型），这是一种偏离标准自回归架构的分层模型。它利用 Text VAE 将文本映射到连续潜空间，并结合块因果扩散 Transformer（DiT）先验，通过流匹配（Flow Matching）执行潜空间传输。这种架构允许非自回归生成，并可能实现更灵活的文本处理。该模型已在 Hugging Face 上发布，展示了生成式语言模型领域的一个新颖研究方向。",
+        "en": "ByteDance-Seed has introduced Cola-DLM (Continuous Latent Diffusion Language Model), a hierarchical model that departs from standard autoregressive architectures. It utilizes a Text VAE to map tokens into a continuous latent space, coupled with a block-causal Diffusion Transformer (DiT) prior that performs latent transport via Flow Matching. This architecture allows for non-autoregressive generation and potentially more flexible text manipulation. The release includes the model repository on Hugging Face, showcasing a novel direction in generative language modeling."
+      },
+      "source": "Hugging Face",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tdtaqt/bytedanceseedcoladlm_hugging_face/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "qwen-3-6-mtp-performance",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen 3.6 35B MTP 版本在社区测试中显示速度提升 1.5 倍",
+        "en": "Qwen 3.6 35B MTP Version Shows 1.5x Speed Boost in Community Tests"
+      },
+      "summary": {
+        "zh": "社区对 Qwen 3.6 35B 多 token 预测（MTP）版本的早期测试显示，本地 LLM 的性能有了显著提升。测试者报告称，与之前的版本相比，生成速度提升了 1.5 倍，即使在 Q4_0 量化下处理高达 300k 的上下文窗口时也是如此。在实际编程任务（如逐步构建 Pygame 项目）中，MTP 架构展示了更高的效率和连贯性。这表明 MTP 正在成为在消费级硬件上运行中型模型的关键优化技术。",
+        "en": "Early community testing of the new Qwen 3.6 35B Multi-token Prediction (MTP) version shows a significant performance leap for local LLM users. Testers report a 1.5x increase in token generation speed compared to previous versions, even when handling context windows up to 300k tokens at Q4_0 quantization. In practical coding tasks, such as building a step-by-step Pygame project, the MTP architecture demonstrated improved efficiency and coherence. This suggests that MTP is becoming a critical optimization for running mid-sized models on consumer-grade hardware."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tdns1i/used_over_a_million_tokens_in_three_separate/",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "google-search-ai-spam-policy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌更新垃圾内容政策，打击操纵 AI 搜索结果的行为",
+        "en": "Google Updates Spam Policy to Combat AI Search Result Manipulation"
+      },
+      "summary": {
+        "zh": "谷歌更新了其搜索垃圾内容政策，明确针对试图「操纵」其 AI 搜索功能（包括 AI 概览和 AI 模式）的行为。该政策将垃圾内容定义为：通过欺骗用户或利用对抗性手段操纵搜索系统，从而使内容获得显著展示的技术。随着「AI SEO」逐渐成为一个新兴行业，许多网站试图逆向工程谷歌大模型提取信息的方式，此举正是对此的回应。该更新赋予了谷歌更多权限，去惩罚那些利用合成内容或过度优化内容来博取 AI 生成摘要权重的网站。",
+        "en": "Google has updated its search spam policies to explicitly target attempts to 'manipulate' its AI-driven search features, including AI Overviews and AI Mode. The policy defines spam as techniques used to deceive users or manipulate search systems to feature content prominently through adversarial means. This move comes as 'AI SEO' becomes a growing industry, with websites attempting to reverse-engineer how Google's LLMs surface information. The update grants Google more authority to penalize sites that use synthetic or optimized content to game AI-generated summaries."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "openai-chatgpt-plaid-integration",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 集成 Plaid，允许 ChatGPT 直接访问银行账户",
+        "en": "OpenAI Integrates ChatGPT with Plaid for Direct Bank Account Access"
+      },
+      "summary": {
+        "zh": "OpenAI 宣布了一项预览功能，允许 ChatGPT 用户通过 Plaid 安全地连接其银行账户，Plaid 是一个支持超过 1.2 万家金融机构的平台。通过此次集成，聊天机器人可以访问实时财务数据（包括账户余额和信用卡债务），从而提供个性化的财务建议或分析。虽然这为个人财务管理提供了极大的便利，但也引发了关于 AI 模型处理敏感财务数据的重大隐私担忧。这标志着 OpenAI 正在激进地向「金融智能体」领域扩张。",
+        "en": "OpenAI has announced a preview feature allowing ChatGPT users to securely connect their bank accounts via Plaid, a platform supporting over 12,000 financial institutions. This integration enables the chatbot to access real-time financial data, including account balances and credit card debt, to provide personalized financial advice or analysis. While offering high utility for personal finance management, the move raises significant privacy concerns regarding the handling of sensitive financial data by AI models. This marks OpenAI's aggressive expansion into the 'financial agent' space."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
+      "date": "2026-05-15"
+    }
+  ]
+}
