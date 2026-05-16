@@ -1,0 +1,253 @@
+{
+  "date": "2026-05-16",
+  "dateLabel": {
+    "zh": "2026年5月16日",
+    "en": "May 16, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-16T16:02:33Z",
+    "elapsedSeconds": 167,
+    "rawArticles": 53,
+    "afterFilter": 42,
+    "afterDedup": 37,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 4,
+      "The Verge AI": 3,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "frontier-ai-breaks-ctf",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "前沿 AI 模型使传统夺旗赛 (CTF) 格式失效",
+        "en": "Frontier AI Models Render Traditional CTF Formats Obsolete"
+      },
+      "summary": {
+        "zh": "前沿 AI 模型已有效「破解」了传统的夺旗赛（CTF）安全竞赛，使得开放格式变得过时。分析指出，大语言模型现在可以自动执行复杂的漏洞利用和逆向工程任务，而这些任务以前需要人类专家。这一转变迫使网络安全社区重新思考竞赛设计，转向更具动态性或具备 AI 抗性的挑战。Hacker News 上 250 分的热议反映了人们对进攻性安全能力快速自动化的普遍担忧。",
+        "en": "Frontier AI models have effectively 'solved' traditional Capture The Flag (CTF) security competitions, rendering the open format obsolete. The analysis highlights that LLMs can now automate complex exploitation and reverse-engineering tasks that previously required human expertise. This shift forces the cybersecurity community to rethink competition design, moving toward more dynamic or AI-resistant challenges. The 250-point HN discussion reflects a broader anxiety about the rapid automation of offensive security capabilities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "frontier-ai-access-constraints",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "经济与安全限制将收紧前沿 AI 的获取权限",
+        "en": "Economic and Security Constraints to Limit Frontier AI Access"
+      },
+      "summary": {
+        "zh": "一项最新分析表明，受计算成本飙升和国家安全指令的推动，普遍获取前沿 AI 模型的时代即将结束。作者认为，「前沿」能力很快将被经济壁垒或政府控制的「主权」云所隔离。这将创建一个分层生态系统，只有资金雄厚的公司或国家才能负担得起最先进的智能。文章警告说，在拥有和不拥有顶级算力资源的人群之间，正在形成日益扩大的「智能鸿沟」。",
+        "en": "A new analysis suggests that the era of ubiquitous access to frontier AI models is ending, driven by escalating compute costs and national security mandates. The author argues that 'frontier' capabilities will soon be gated behind economic barriers or government-controlled 'sovereign' clouds. This creates a tiered ecosystem where only well-funded corporations or nation-states can afford the most advanced intelligence. The piece warns of a widening 'intelligence gap' between those with and without access to top-tier compute resources."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://writing.antonleicht.me/p/cut-off",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "uk-sovereign-llm-inference",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英国推出主权 LLM 推理基础设施",
+        "en": "UK Launches Sovereign LLM Inference Infrastructure"
+      },
+      "summary": {
+        "zh": "Relax.ai 发布了其基于英国的主权 LLM 推理平台文档，旨在为以美国为中心的供应商提供安全、本土的替代方案。该服务强调数据驻留和符合英国监管标准，专门面向政府和受高度监管的行业。通过在本地托管推理，该计划寻求增强英国在 AI 时代的战略自主权。此举符合各国建设「主权 AI」基础设施以保护敏感国家数据的全球趋势。",
+        "en": "Relax.ai has released documentation for its UK-based sovereign LLM inference platform, aiming to provide a secure, domestic alternative to US-centric providers. The service emphasizes data residency and compliance with UK regulatory standards, catering specifically to government and highly regulated industries. By hosting inference locally, the initiative seeks to bolster the UK's strategic autonomy in the AI era. This move aligns with global trends of nations building 'sovereign AI' infrastructure to protect sensitive national data."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://relax.ai/docs",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "ai-disinformation-uk-decline",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "BBC 揭露针对英国稳定性的 AI 生成虚假信息",
+        "en": "BBC Uncovers AI-Generated Disinformation Targeting UK Stability"
+      },
+      "summary": {
+        "zh": "BBC 的一项调查揭露了海外协调的虚假信息活动，利用 AI 生成的视频来描绘英国社会和经济衰退的叙事。这些深度伪造和合成媒体资产旨在操纵公众情绪并加剧社会分裂。报告强调了检测高质量 AI 宣传的难度日益增加，及其对民主进程的潜在影响。这提醒人们，生成式视频工具的民主化所带来的地缘政治风险正日益严峻。",
+        "en": "A BBC investigation has uncovered coordinated overseas disinformation campaigns using AI-generated videos to portray a narrative of social and economic decline in the UK. These deepfakes and synthetic media assets are designed to manipulate public sentiment and exacerbate social divisions. The report highlights the increasing difficulty in detecting high-quality AI propaganda and its potential impact on democratic processes. It serves as a stark reminder of the geopolitical risks posed by the democratization of generative video tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckgpyn30dp3o",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "rocm-pytorch-research-friction",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AMD ROCm 在 AI 研究工作流中仍面临摩擦",
+        "en": "AMD ROCm Still Faces Friction in AI Research Workflows"
+      },
+      "summary": {
+        "zh": "尽管经过多年的开发，AMD 的 ROCm 堆栈在研究社区中仍因其与 NVIDIA CUDA 相比的摩擦而面临批评。r/MachineLearning 上的一份最新用户报告详细描述了在训练流匹配模型（SANA 架构）时，使用 RX 7900XTX 配合 PyTorch 和 PyTorch Lightning 遇到的持续问题。虽然基础任务可以运行，但专门的研究架构经常遇到稳定性和性能瓶颈。这凸显了保护 NVIDIA 在 AI 硬件市场主导地位的持续存在的「软件护城河」。",
+        "en": "Despite years of development, AMD's ROCm stack continues to face criticism from the research community for its friction compared to NVIDIA's CUDA. A recent user report on r/MachineLearning detailed persistent issues using an RX 7900XTX with PyTorch and PyTorch Lightning for training flow matching models (SANA architecture). While basic tasks work, specialized research architectures often encounter stability and performance bottlenecks. This highlights the ongoing 'software moat' that protects NVIDIA's dominance in the AI hardware market."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tedjwo/rocm_with_pytorch_and_pytorch_lightning_seems_to/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "orthrus-diffusion-token-generation",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Orthrus：通过双视图扩散实现内存高效的并行生成",
+        "en": "Orthrus: Memory-Efficient Parallel Generation via Dual-View Diffusion"
+      },
+      "summary": {
+        "zh": "研究人员推出了 Orthrus，这是一种使用双视图扩散方法进行内存高效并行令牌生成的方案。通过在冻结的自回归（AR）Transformer 中注入可训练的扩散注意力模块，Orthrus 可以并行投影多达 32 个令牌。随后，AR 头在第二次传递中验证这些令牌，并接受最长的匹配前缀以确保输出质量。这种混合方法显著加快了推理速度，且没有通常与并行生成技术相关的巨大内存开销。",
+        "en": "Researchers have introduced Orthrus, a memory-efficient method for parallel token generation using a dual-view diffusion approach. By injecting a trainable diffusion attention module into a frozen autoregressive (AR) Transformer, Orthrus can project up to 32 tokens in parallel. The AR head then verifies these tokens in a second pass, accepting the longest matching prefix to ensure output quality. This hybrid approach significantly speeds up inference without the massive memory overhead typically associated with parallel generation techniques."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "llama-cpp-mtp-support",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 批准支持多标记预测 (MTP)",
+        "en": "llama.cpp Approves Multi-Token Prediction Support"
+      },
+      "summary": {
+        "zh": "llama.cpp 官方已批准支持多标记预测（MTP），这是本地大模型社区的一个重要里程碑。MTP 允许模型在单次前向传递中预测多个未来的 Token，从而显著提高推理吞吐量并降低消费级硬件上的延迟。此次更新为支持利用投机采样和并行 Token 生成技术的下一代模型架构奠定了基础，使大模型的本地部署比以往任何时候都更加高效。",
+        "en": "llama.cpp has officially approved Multi-Token Prediction (MTP) support, a major milestone for the local LLM community. MTP allows models to predict multiple future tokens in a single forward pass, significantly boosting inference throughput and reducing latency on consumer hardware. This update prepares the popular inference engine for next-generation architectures that leverage speculative decoding and parallel token generation, making local deployment of large models more efficient than ever."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1teqnf2/thats_a_good_news/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "qwen-3-6-terminal-bench",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Qwen3.6-35B 在 Terminal-Bench 2.0 上超越 Gemini 2.5 Pro",
+        "en": "Qwen3.6-35B Outperforms Gemini 2.5 Pro on Terminal-Bench 2.0"
+      },
+      "summary": {
+        "zh": "Qwen3.6-35B-A3B 和 9B 模型正式登上 Terminal-Bench 2.0 排行榜，展现了卓越的代码和终端命令处理能力。其中 little-coder x Qwen3.6-35B-A3B 变体达到了 24.6% 的成功率，显著超过了 Gemini 2.5 Pro（19.6%）甚至体量更大的 Qwen3-Coder-480B（23.9%）。这突显了「脚手架模型」优化趋势，即较小的专业化模型在复杂技术环境中能发挥出超越其参数规模的实力。",
+        "en": "The Qwen3.6-35B-A3B and 9B models have debuted on the Terminal-Bench 2.0 leaderboard, showcasing exceptional coding and terminal command capabilities. The little-coder x Qwen3.6-35B-A3B variant achieved a 24.6% success rate, notably outperforming Gemini 2.5 Pro (19.6%) and even the much larger Qwen3-Coder-480B (23.9%). This highlights the growing trend of scaffold-model optimization where smaller, specialized models punch far above their weight class in complex technical environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1temio0/qwen3635ba3b_and_9b_are_officially_on_the_public/",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "youtube-deepfake-detection-expansion",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "YouTube 向所有成年用户开放 AI 深度伪造检测工具",
+        "en": "YouTube Expands AI Deepfake Detection to All Adult Users"
+      },
+      "summary": {
+        "zh": "YouTube 正在将其 AI 肖像检测计划扩展至所有成年用户，允许个人监控平台是否存在未经授权的深度伪造（Deepfake）视频。该系统通过自拍式扫描来识别匹配项，并为用户提供请求删除侵权内容的机制。随着合成媒体变得越来越真假难辨，此举标志着数字身份保护工具的大规模扩张，将更多控制权交到了创作者和普通公众手中。",
+        "en": "YouTube is expanding its AI likeness detection program to all users over the age of 18, allowing individuals to monitor the platform for unauthorized deepfakes of their faces. The system uses a selfie-style scan to identify matches and provides a mechanism for users to request the removal of infringing content. This move represents a significant expansion of digital identity protection tools as synthetic media becomes increasingly indistinguishable from reality, placing more control in the hands of creators and the general public."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "arxiv-ai-slop-ban",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "ArXiv 将禁止提交 AI 生成「废料」论文的研究员",
+        "en": "ArXiv to Ban Researchers for Submitting AI-Generated Slop"
+      },
+      "summary": {
+        "zh": "ArXiv 宣布了一项严格政策：如果研究人员提交包含「无可辩驳」的未经核实 AI 生成内容的论文，将被禁言一年。判定依据包括虚假的参考文献或文中遗留的 AI 提示词（如「作为 AI 语言模型...」），这些都表明作者完全缺乏人工审核。该举措旨在应对自动化学术投稿激增的现状，防止低质量内容淹没科学界，维护预印本库的学术诚信。",
+        "en": "ArXiv has announced a strict policy to ban researchers for one year if they submit papers containing incontrovertible evidence of unchecked AI generation. Evidence for a ban includes hallucinated citations or meta-comments like 'As an AI language model' left in the text, indicating a total lack of human oversight. This initiative aims to preserve the integrity of the preprint repository amidst a surge in low-quality, automated academic submissions that threaten to overwhelm the scientific community."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "openai-exec-shuffle-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "OpenAI 调整高管架构，全力冲刺 AI 智能体",
+        "en": "OpenAI Reorganizes Executives to Focus on AI Agents"
+      },
+      "summary": {
+        "zh": "OpenAI 进行了重大高管调整，任命总裁 Greg Brockman 领导所有产品项目，以加速 AI 智能体（Agents）的开发。公司计划将 ChatGPT 及其他服务整合为一个统一的智能体平台，标志着其战略重心从对话式 AI 转向能够执行复杂任务的自主系统。这种「全线投入」的策略旨在通过统一技术愿景和整合资源，确保 OpenAI 在新兴的智能体驱动经济中占据主导地位。",
+        "en": "OpenAI has undergone a major executive reorganization, appointing President Greg Brockman as the lead for all product initiatives to accelerate the development of AI agents. The company plans to merge ChatGPT and other services into a single agentic platform, signaling a strategic pivot from conversational AI to autonomous systems capable of executing complex tasks. This all-in approach aims to secure OpenAI's dominance in the emerging agent-driven economy by consolidating resources under a unified technical vision."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
+      "date": "2026-05-16"
+    },
+    {
+      "id": "musk-altman-trial-week-3",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克诉奥特曼案：第三周审理聚焦诚信对决",
+        "en": "Musk v. Altman Trial: Credibility Battles Conclude Week 3"
+      },
+      "summary": {
+        "zh": "备受瞩目的马斯克诉奥特曼案结束了第三周的审理，双方领导人的诚信问题成为辩论焦点。律师就涉嫌关联交易和历史透明度问题对萨姆·奥特曼进行了严厉质询，而奥特曼团队则将埃隆·马斯克描绘成一个试图控制 OpenAI 发展轨迹的权力追求者。随着案件交由陪审团裁决，其结果将对顶尖 AI 机构的治理模式、非营利地位以及商业边界产生深远影响。",
+        "en": "The high-profile Musk v. Altman trial concluded its third week with intense cross-examinations regarding the credibility of both leaders. Lawyers grilled Sam Altman on alleged self-dealing and historical lack of transparency, while Altman's team characterized Elon Musk as a power-hungry individual seeking to control OpenAI's development. As the case heads to the jury, the verdict will likely have profound implications for the governance, non-profit status, and commercial boundaries of leading AI organizations."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+      "date": "2026-05-16"
+    }
+  ]
+}
