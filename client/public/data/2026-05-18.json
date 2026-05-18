@@ -1,0 +1,259 @@
+{
+  "date": "2026-05-18",
+  "dateLabel": {
+    "zh": "2026年5月18日",
+    "en": "May 18, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-18T17:33:36Z",
+    "elapsedSeconds": 189,
+    "rawArticles": 28,
+    "afterFilter": 25,
+    "afterDedup": 22,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "NBC News": 1,
+      "Archestra.ai": 1,
+      "Industry Report": 1,
+      "Business Insider": 1,
+      "Axios": 1,
+      "The Verge AI": 2,
+      "MIT Tech Review": 2,
+      "Latent Space": 1,
+      "GitHub Copilot Blog": 1
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-457-stuxnet-muon",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 457：AI 版震网与 Muon 优化器",
+        "en": "Import AI 457: AI Stuxnet and Muon Optimizer"
+      },
+      "summary": {
+        "zh": "Jack Clark 在最新一期通讯中探讨了「AI 版震网」的概念，通过分析具有 20 多年历史的 fast16.sys 病毒，揭示了现代 AI 驱动网络武器的潜在演化路径。文章还重点介绍了名为「Muon」的新型优化器，旨在提升大规模模型的训练效率，并讨论了正向对齐策略。通过对曾用于武器计划的旧软件漏洞的研究，Clark 为未来自主 AI 系统的安全性和受控性提供了深刻的警示框架。",
+        "en": "Jack Clark's latest newsletter explores the concept of an AI Stuxnet by analyzing the historical fast16.sys virus, drawing parallels for modern AI-driven cyberweapons. The issue also highlights the Muon optimizer, a novel technique designed to improve training efficiency for large-scale models, and discusses strategies for positive alignment. By investigating legacy software bugs used in weapons programs, Clark provides a cautionary framework for the security and control of future autonomous AI systems."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "eric-schmidt-graduation-booed",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "埃里克·施密特在毕业典礼 AI 演讲中遭到嘘声",
+        "en": "Eric Schmidt Booed During AI-Focused Graduation Speech"
+      },
+      "summary": {
+        "zh": "前 Google 首席执行官埃里克·施密特（Eric Schmidt）在一次以 AI 变革力量为主题的大学毕业演讲中遭到了观众的强烈抵制。这一事件在 Hacker News 上引发了广泛讨论，反映出公众对科技行业强推 AI 集成的反感情绪日益高涨。现场观众的反应凸显了大众对就业流失、伦理问题的深层焦虑，以及硅谷高层的乐观愿景与普通民众恐惧感之间的严重脱节。",
+        "en": "Former Google CEO Eric Schmidt faced a hostile reception during a university graduation speech centered on the transformative power of AI. The incident, which gained significant traction on Hacker News, reflects a growing public backlash against the tech industry's push for rapid AI integration. The audience's reaction underscores a deep-seated anxiety regarding job displacement, ethical concerns, and the perceived disconnect between Silicon Valley leadership and the general public's fears."
+      },
+      "source": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "github-ai-bot-spam-filter",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "利用 Git Author 标志拦截 GitHub 中的 AI 机器人垃圾信息",
+        "en": "Blocking AI Bot Spam on GitHub via Git Author Flags"
+      },
+      "summary": {
+        "zh": "Archestra.ai 的开发人员分享了一种实用的工程方案，用于对抗开源仓库中日益增多的 AI 生成垃圾信息。通过利用 Git 原生的 --author 标志，他们实现了一套验证系统，有效过滤了令维护者不堪重负的低质量自动化拉取请求和议题。在 LLM 生成内容泛滥的时代，这种方法为项目负责人提供了一种轻量且有效的防御机制，有助于维护代码完整性并确保关注点留在真实的人类贡献上。",
+        "en": "Developers at Archestra.ai have shared a practical engineering solution to combat the rising tide of AI-generated spam in open-source repositories. By utilizing Git's native --author flag, they implemented a verification system to filter out low-quality automated pull requests and issues that were overwhelming maintainers. This approach offers a lightweight and effective defense mechanism for project leads to maintain code integrity and focus on genuine human contributions in an era of ubiquitous LLM-generated content."
+      },
+      "source": "Archestra.ai",
+      "sourceUrl": "https://archestra.ai/blog/only-responsible-ai",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "ai-eats-the-world-spring-2026",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 吞噬世界：2026 年春季行业报告",
+        "en": "AI Eats the World: Spring 2026 Industry Report"
+      },
+      "summary": {
+        "zh": "2026 年春季版《AI 吞噬世界》报告通过数据驱动的视角概述了当前的 AI 格局，强调了巨额的资本支出和深度的企业集成。分析指出，AI 已从一种投机性技术转变为金融、医疗和制造等行业全球生产力的核心驱动力。然而，报告同时也对基础设施供应商之间极度集中的权力和 AI 原生公司与传统企业之间日益扩大的差距提出了警告。",
+        "en": "The Spring 2026 edition of the 'AI Eats the World' report provides a data-driven overview of the current AI landscape, highlighting massive capital expenditures and deep enterprise integration. The analysis suggests that AI has transitioned from a speculative technology to a core driver of global productivity across finance, healthcare, and manufacturing. However, the report also cautions about the extreme concentration of power among infrastructure providers and the widening gap between AI-native firms and traditional incumbents."
+      },
+      "source": "Industry Report",
+      "sourceUrl": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "mistral-ceo-europe-warning",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Mistral CEO：欧洲实现 AI 主权的两年窗口期",
+        "en": "Mistral CEO: Europe's Two-Year Window for AI Sovereignty"
+      },
+      "summary": {
+        "zh": "Mistral AI 首席执行官 Arthur Mensch 向欧洲决策者发出了严厉警告，称欧洲仅剩两年时间来实现 AI 独立，否则将面临沦为美国技术「附庸国」的风险。Mensch 主张大力投资本土算力基础设施和主权大语言模型，以保护欧洲的经济利益和文化价值观。这一表态凸显了全球 AI 领导权竞争中日益加剧的地缘政治色彩，以及欧洲制定协调一致的工业战略的迫切需求。",
+        "en": "Mistral AI CEO Arthur Mensch has issued a stark warning to European policymakers, stating the continent has only two years to achieve AI independence or risk becoming a 'vassal state' to US technology. Mensch advocates for aggressive investment in local compute infrastructure and sovereign large language models to protect European economic interests and cultural values. This statement highlights the intensifying geopolitical competition over AI leadership and the urgent need for a coordinated European industrial strategy."
+      },
+      "source": "Business Insider",
+      "sourceUrl": "https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "ai-hate-wave-sentiment",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 仇恨浪潮已经到来",
+        "en": "The Arrival of the AI Hate Wave"
+      },
+      "summary": {
+        "zh": "最新的民意调查和情绪分析显示，公众认知发生了重大转变，被称为「AI 仇恨浪潮」。在深度伪造、就业安全以及创意产业被去人性化等担忧的驱动下，公众对 AI 公司的信任度正降至新低。这一趋势表明，随着生成式 AI 最初的新鲜感消退及其社会成本日益显现，该行业可能会面临更具敌意的监管环境，并在消费者普及方面遇到更大阻力。",
+        "en": "Recent polling and sentiment analysis indicate a significant shift in public perception, characterized as an 'AI Hate Wave.' Driven by concerns over deepfakes, job security, and the perceived dehumanization of creative industries, public trust in AI companies is hitting new lows. This trend suggests that the industry may face a more hostile regulatory environment and increased friction in consumer adoption as the initial novelty of generative AI wears off and its societal costs become more apparent."
+      },
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/05/17/ai-backlash-polling-sentiment",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "alexa-plus-ai-podcasts",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "亚马逊 Alexa Plus 推出按需生成 AI 播客功能",
+        "en": "Amazon Alexa Plus introduces AI-generated podcasts on demand"
+      },
+      "summary": {
+        "zh": "亚马逊宣布其升级版 Alexa Plus 助手现可针对几乎任何主题生成 AI 主持的播客。用户只需提供主题，即可查看讨论大纲，并在生成前调整对话方向和时长。这一更新标志着 Alexa 从单纯的语音接口向主动内容创作平台的转型，预示着智能家居生态将向个性化生成式音频媒体演进。",
+        "en": "Amazon has announced that its upgraded Alexa Plus assistant can now generate AI-hosted podcasts on virtually any topic. Users can provide a prompt, review an overview of the planned discussion, and adjust the length and tone before the AI hosts begin the episode. This move positions Alexa as a proactive content creator rather than just a voice interface, signaling a shift toward personalized, generative audio media in the smart home ecosystem."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "siri-autodelete-privacy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "苹果将在新版 Siri 中提供聊天记录自动删除功能",
+        "en": "Apple to offer autodeleting chat history in revamped Siri"
+      },
+      "summary": {
+        "zh": "据报道，苹果将在 iOS 27 的 Siri 中引入聊天记录自动删除功能，以强化其隐私优先的 AI 战略。用户可选择在 30 天、一年后自动清除对话，或永久保留。通过强调数据主权，苹果旨在将其「Apple Intelligence」与那些高度依赖持久用户数据进行模型训练的竞争对手区分开来，将隐私视为核心市场优势。",
+        "en": "Apple is reportedly integrating an autodelete feature for Siri chat histories in iOS 27 to bolster its privacy-centric AI strategy. Users will be able to set conversations to purge after 30 days, one year, or keep them indefinitely. By emphasizing data sovereignty and local processing, Apple aims to differentiate its 'Apple Intelligence' from competitors who rely on persistent user data for model training, leveraging privacy as a key market advantage."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "anduril-meta-warfare-glasses",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anduril 与 Meta 合作研发军事用途 AR 智能眼镜",
+        "en": "Anduril and Meta prototype AR smart glasses for military use"
+      },
+      "summary": {
+        "zh": "国防科技公司 Anduril 与 Meta 正在合作研发用于战场的增强现实（AR）头显。该原型机具备眼动追踪和语音指令功能，允许士兵通过界面直接执行复杂任务，例如指挥无人机打击。该项目由前特种作战人员领导，凸显了消费级 AR 硬件正加速集成到致命性军事应用中，以及 AI 在动能战争中日益增长的作用。",
+        "en": "Defense-tech firm Anduril and Meta are collaborating on augmented-reality headsets designed for battlefield applications. The prototype features eye-tracking and voice command capabilities that allow soldiers to perform complex tasks, such as ordering drone strikes, directly through the interface. Led by former Special Operations personnel, this project highlights the rapid militarization of consumer-grade AR hardware and the growing role of AI in kinetic warfare."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "musk-altman-trial-week-3",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克诉阿尔特曼案进入诚信对峙的最后一周",
+        "en": "Musk v. Altman trial enters final week of credibility battle"
+      },
+      "summary": {
+        "zh": "马斯克与阿尔特曼之间的法律诉讼已进入第三周，双方就 OpenAI 创始使命的诚信问题展开激烈交锋。随着陪审团准备裁决，审判揭示了 AGI 治理愿景中的深层内部裂痕。此案的结果预计将为非营利 AI 组织如何转型为价值数十亿美元的商业实体设定重要的法律先例。",
+        "en": "The legal battle between Elon Musk and Sam Altman has reached its third week, with both parties trading blows over their respective credibility regarding OpenAI's founding mission. As the jury prepares to deliberate, the trial has exposed deep internal rifts and conflicting visions for AGI governance. The outcome is expected to set a major legal precedent for how non-profit AI organizations transition into multi-billion dollar commercial entities."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "ukraine-ai-drone-warfare",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "乌克兰无人机创始人警告西方尚未为 AI 战争做好准备",
+        "en": "Ukrainian drone founder warns West is unprepared for AI warfare"
+      },
+      "summary": {
+        "zh": "乌克兰知名无人机公司创始人 Yaroslav Azhnyuk 指出，西方在 AI 引导武器领域正处于「打瞌睡」状态。通过将消费技术转向自主防御系统的实践，Azhnyuk 强调现代冲突的现实正被战场上的 AI 重新定义。他呼吁西方迫切需要彻底改革国防工业战略，以跟上快速演进的自主致命技术步伐。",
+        "en": "Yaroslav Azhnyuk, founder of a prominent Ukrainian drone company, argues that the West is 'asleep at the wheel' regarding AI-guided weaponry. Having transitioned from consumer tech to autonomous defense systems, Azhnyuk emphasizes that the realities of modern conflict are being redefined by AI on the battlefield today. He calls for an urgent overhaul of Western defense industrial strategies to keep pace with rapidly evolving autonomous lethal technologies."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/the-fourth-law",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "github-copilot-remote-sessions",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "GitHub Copilot 推出跨设备远程会话控制功能",
+        "en": "GitHub Copilot launches remote control for cross-device sessions"
+      },
+      "summary": {
+        "zh": "GitHub 宣布 Copilot 远程会话功能正式商用，允许开发者在 VS Code、命令行（CLI）和 GitHub 移动端之间同步 AI 辅助工作。该功能支持用户在本地机器开始编码任务并在移动设备上完成，确保了工作流的无缝连续性。通过将 AI 会话与特定硬件解耦，GitHub 提升了 AI 驱动开发环境的普及性和灵活性。",
+        "en": "GitHub has announced the general availability of remote control for Copilot sessions, enabling developers to sync their AI-assisted work across VS Code, the CLI, and GitHub Mobile. This feature allows users to start a coding task on a local machine and finish it from a mobile device, ensuring seamless workflow continuity. By decoupling AI sessions from specific hardware, GitHub is enhancing the ubiquity and flexibility of AI-driven development environments."
+      },
+      "source": "GitHub Copilot Blog",
+      "sourceUrl": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
+      "date": "2026-05-18"
+    }
+  ]
+}
