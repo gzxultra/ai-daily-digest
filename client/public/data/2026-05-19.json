@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-19",
+  "dateLabel": {
+    "zh": "2026年5月19日",
+    "en": "May 19, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-19T17:42:09Z",
+    "elapsedSeconds": 174,
+    "rawArticles": 53,
+    "afterFilter": 46,
+    "afterDedup": 38,
+    "dedupRemoved": 8,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 3,
+      "Reddit": 2,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 4
+    }
+  },
+  "news": [
+    {
+      "id": "ai-impact-software-engineers-2026",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "2026年AI对软件工程演进影响分析",
+        "en": "AI's Evolving Impact on Software Engineering in 2026"
+      },
+      "summary": {
+        "zh": "2026年AI调查分析的第二部分探讨了AI工具的复杂权衡以及企业级采用中的组织障碍。虽然个人生产力的提升显而易见，但由于遗留基础设施和安全顾虑，在大规模集成AI方面仍然困难重重。报告强调了过去两年格局的变化，即从实验性炒作转向务实的集成挑战。对于在速度与长期可维护性之间寻求平衡的工程领导者来说，这份分析至关重要。",
+        "en": "Part 2 of the 2026 AI survey analysis explores the complex trade-offs of AI tooling and the organizational hurdles in company-wide adoption. While individual productivity gains are evident, integrating AI at scale remains difficult due to legacy infrastructure and security concerns. The report highlights how the landscape has shifted over the last two years, moving from experimental hype to pragmatic integration challenges. This is crucial for engineering leaders navigating the balance between speed and long-term maintainability."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/ai-impact-on-software-engineers-part-2",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "voice-ai-hidden-audio-attacks",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "语音AI系统易受人类听不见的音频攻击",
+        "en": "Voice AI Systems Vulnerable to Inaudible Audio Attacks"
+      },
+      "summary": {
+        "zh": "研究人员发现语音AI系统存在严重漏洞，人类无法察觉的隐藏音频指令可以操纵AI行为。这些「对抗性攻击」利用了神经网络处理声音频率的方式，可能导致未经授权的访问或指令执行。随着2026年语音激活助手的普及，这一安全缺陷对用户隐私和设备完整性构成了重大风险。研究结果强调，AI硬件迫切需要更强大的音频过滤和身份验证机制。",
+        "en": "Researchers have identified critical vulnerabilities in Voice AI systems where hidden audio commands, imperceptible to humans, can manipulate AI behavior. These adversarial attacks exploit the way neural networks process sound frequencies, potentially allowing unauthorized access or command execution. With the proliferation of voice-activated assistants in 2026, this security flaw poses a significant risk to user privacy and device integrity. The findings underscore the urgent need for more robust audio filtering and authentication mechanisms in AI hardware."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://spectrum.ieee.org/voice-ai-audio-attacks",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "preschool-teacher-camera-ai-training",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "利用幼儿园教师记录仪训练AI引发伦理担忧",
+        "en": "Ethical Concerns Over AI Training via Preschool Body Cameras"
+      },
+      "summary": {
+        "zh": "一项备受争议的研究提议要求幼儿园教师佩戴执法记录仪，以收集数据用于训练关于早期儿童发育的AI模型。该计划引发了关于未成年人监控以及教室内儿童缺乏知情同意的严重伦理担忧。虽然目标是量化师生互动，但批评者认为隐私风险远超潜在的研究收益。此案例突显了AI开发对数据的渴求与敏感环境下基本隐私权之间日益增长的紧张关系。",
+        "en": "A controversial research proposal sought to have preschool teachers wear body cameras to collect data for training AI models on early childhood development. The initiative raised intense ethical concerns regarding the surveillance of minors and the lack of informed consent for children in the classroom. While the goal was to quantify teacher-student interactions, critics argue the privacy risks far outweigh the potential research benefits. This case highlights the growing tension between the data hunger of AI development and fundamental privacy rights in sensitive environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.404media.co/researchers-wanted-preschool-teachers-to-wear-cameras-to-train-ai/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "qwen-3-5-weight-censorship",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "技术分析：Qwen 3.5 模型权重内部的政治审查",
+        "en": "Analyzing Political Censorship Within Qwen 3.5 Model Weights"
+      },
+      "summary": {
+        "zh": "对 Qwen 3.5 模型权重的深入技术分析揭示了政治审查是如何直接嵌入神经架构的。通过检查特定的激活模式，研究人员识别出了在涉及敏感政治话题时触发的「拒绝向量」。这项研究为受严格监管环境约束的模型内部对齐机制提供了罕见的视角。它表明，审查不仅是一个系统提示层，而是深深集成在模型的学习表示中，影响了其在特定主题上的推理能力。",
+        "en": "An in-depth technical analysis of Qwen 3.5's model weights reveals how political censorship is embedded directly into the neural architecture. By examining specific activation patterns, researchers identified refusal vectors that trigger when sensitive political topics are broached. This study provides a rare look at the internal mechanics of alignment in models subject to strict regulatory environments. It demonstrates that censorship is not just a system prompt layer but is deeply integrated into the model's learned representations, affecting its reasoning capabilities."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://vas-blog.pages.dev/qwen-censorship/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "tabular-foundation-models-discussion",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "关于表格基础模型及其扩展性的社区辩论",
+        "en": "The Debate Over Tabular Foundation Models and Scalability"
+      },
+      "summary": {
+        "zh": "机器学习社区正在辩论 TabPFN-3 等表格基础模型的有效性，这些模型旨在将类 Transformer 架构应用于结构化数据。虽然这些模型在小数据集上表现出令人印象深刻的零样本性能，但批评者指出其存在显著的扩展限制，例如处理几MB数据却需要大型 GPU。讨论的核心在于，与 XGBoost 等传统梯度提升树相比，这些庞大模型的开销是否合理。这反映了行业试图将所有数据模态「基础模型化」的广泛趋势。",
+        "en": "The machine learning community is debating the efficacy of Tabular Foundation Models like TabPFN-3, which aim to apply transformer-like architectures to structured data. While these models show impressive zero-shot performance on small datasets, critics point out significant scaling limitations, such as the requirement for large GPUs to process only a few megabytes of data. The discussion centers on whether the overhead of these massive models is justified compared to traditional gradient-boosted trees like XGBoost. This reflects a broader industry trend of attempting to foundation-model-ize every data modality."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "backprop-free-pong-hebbian",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "无需反向传播：生物合理性智能体在 Pong 中达到 57% 胜率",
+        "en": "Bio-Plausible Agent Achieves 57% Win Rate in Pong Without Backprop"
+      },
+      "summary": {
+        "zh": "一个新项目展示了使用分布赫布塑性和预测编码而非传统反向传播的生物合理性智能体玩 Pong 游戏。该智能体实现了 57% 的胜率，非常接近标准 PPO 基准实现的 59%，且仅使用了 1500 行从零开始编写的代码。这项研究挑战了反向传播在强化学习任务中的必要性，并探索了更节能、受生物启发的学习机制。结果表明，在特定的控制环境中，局部学习规则可以与全局梯度下降相竞争。",
+        "en": "A new project demonstrates a bio-plausible agent playing Pong using distributional Hebbian plasticity and predictive coding instead of traditional backpropagation. The agent achieved a 57% win rate, remarkably close to the 59% achieved by a standard PPO baseline, using only 1500 lines of code from scratch. This research challenges the necessity of backpropagation for reinforcement learning tasks and explores more energy-efficient, biologically inspired learning mechanisms. The results suggest that local learning rules can compete with global gradient descent in specific control environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "huggingface-revives-paperswithcode",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Hugging Face 启动 PapersWithCode 平台复兴计划",
+        "en": "Hugging Face Initiates Revival of PapersWithCode Platform"
+      },
+      "summary": {
+        "zh": "Hugging Face 开源团队的 Niels 宣布启动 PapersWithCode 的复兴计划，该平台在被 Meta 收购后已停止维护。新版本利用 AI 智能体大规模解析研究论文并自动生成性能排行榜，目前由人工进行验证以确保数据准确性。该项目旨在为追踪机器学习领域最先进（SOTA）成果恢复这一至关重要的社区资源。通过自动化提取指标和代码链接，Hugging Face 力求在快速演进的 AI 研究环境中，为开发者提供一个透明且实时更新的知识库。",
+        "en": "Niels from Hugging Face's open-source team has announced an initiative to revive PapersWithCode, which had ceased active maintenance following its acquisition by Meta. The new version utilizes AI agents to parse research papers at scale and automatically generate performance leaderboards, with human verification currently ensuring data integrity. This project aims to restore a vital community resource for tracking state-of-the-art (SOTA) machine learning results. By automating the extraction of metrics and code links, Hugging Face seeks to provide a transparent, up-to-date repository for the rapidly evolving AI research landscape."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "sub-jepa-leworldmodel-fix",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Sub-JEPA：通过流形优化改进 LeCun 的世界模型",
+        "en": "Sub-JEPA: Enhancing LeCun's World Model via Manifold Optimization"
+      },
+      "summary": {
+        "zh": "研究人员推出了 Sub-JEPA，这是对纽约大学 Yann LeCun 团队开发的 LeWorldModel (LeWM) 的重要改进。原版 LeWM 使用全局各向同性高斯先验来维持训练稳定，但 Sub-JEPA 指出真实环境动力学通常存在于低维流形上，而非高维高斯空间。通过放宽这一僵化约束，Sub-JEPA 在规划和潜空间表示学习方面实现了持续的性能提升。这一进展优化了联合嵌入预测架构（JEPA），使其在无需像素重建计算开销的情况下，实现更精确的世界建模。",
+        "en": "Researchers have introduced Sub-JEPA, a significant refinement to the LeWorldModel (LeWM) developed by Yann LeCun's group at NYU. While the original LeWM uses a global isotropic Gaussian prior for stable training, Sub-JEPA addresses the limitation that real-world environment dynamics typically exist on low-dimensional manifolds rather than high-dimensional Gaussian spaces. By relaxing this rigid constraint, Sub-JEPA consistently improves performance in planning and latent representation learning. This advancement optimizes Joint-Embedding Predictive Architectures (JEPA) for more accurate world modeling without the computational overhead of pixel reconstruction."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "bytedance-lance-3b-multimodal",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "字节跳动发布 Lance：轻量级 3B 原生统一多模态模型",
+        "en": "ByteDance Releases Lance: A Lightweight 3B Unified Multimodal Model"
+      },
+      "summary": {
+        "zh": "字节跳动研究团队发布了 Lance，这是一个开源的 30 亿参数（3B）原生统一多模态模型，具备图像和视频的理解、生成及编辑能力。尽管体积精简，Lance 在多项基准测试中表现强劲，证明了在 3B 规模下也能高效实现高质量的多模态能力。该框架将多种任务整合至单一架构中，非常适合本地部署和边缘设备。此次发布凸显了行业趋势：即针对复杂的跨模态创作和分析工作流，不断优化更小、更高效的模型。",
+        "en": "ByteDance Research has unveiled Lance, an open-source 3B parameter native unified multimodal model capable of image and video understanding, generation, and editing. Despite its compact size, Lance delivers strong performance across multiple benchmarks, demonstrating that high-quality multimodal capabilities can be achieved efficiently at the 3B scale. The framework integrates diverse tasks into a single architecture, making it highly suitable for local deployment and edge devices. This release highlights the industry trend toward optimizing smaller models for complex, cross-modal creative and analytical workflows."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1thkwgk/bytedance_released_an_open_source_model_that/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "llamacpp-mtp-improvements",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 更新大幅提升多 Token 预测性能",
+        "en": "llama.cpp Update Boosts Multi-Token Prediction Performance"
+      },
+      "summary": {
+        "zh": "llama.cpp 项目的重大更新（PR #23269）为多 Token 预测（MTP）支持带来了显著改进。该优化允许推理引擎在单次前向传递中预测多个 Token，利用现代大语言模型的特定架构特性来提升吞吐量。此次更新对在消费级硬件上运行模型的用户尤为有利，为本地生成任务提供了切实的加速。通过完善 MTP 实现，llama.cpp 继续在推动高性能大模型推理普及至各类本地设备方面保持领先。",
+        "en": "A major update to the llama.cpp project (PR #23269) introduces significant improvements to Multi-Token Prediction (MTP) support. This optimization allows the inference engine to predict multiple tokens in a single forward pass, leveraging specific architectural traits of modern LLMs to increase throughput. The update is particularly beneficial for users running models on consumer-grade hardware, offering a tangible speedup for local generation tasks. By refining MTP implementation, llama.cpp continues to lead in making high-performance LLM inference accessible on a wide range of local devices."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1thlmsx/time_to_update_llamacpp_to_get_som_mtp/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "qwen-3-6-pacman-benchmark",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Qwen 3.6 27B 成功挑战「吃豆人」编程基准测试",
+        "en": "Qwen 3.6 27B Conquers Challenging Pacman Coding Benchmark"
+      },
+      "summary": {
+        "zh": "本地大模型社区发现 Qwen 3.6 27B (F16) 在智能编程领域取得突破，成功通过「单次提示生成吃豆人游戏」的挑战。这一「吃豆人基准测试」此前曾难倒 OpenAI、Anthropic 和 Google 的顶级闭源模型，它们通常无法维持游戏逻辑和空间一致性。Qwen 在 27B 参数规模下的成功表明，开源权重模型在复杂多步推理和代码生成方面正迅速缩小与前沿模型的差距。这一表现为寻求高性能本地编程智能体的开发者树立了新的里程碑。",
+        "en": "The local LLM community has identified Qwen 3.6 27B (F16) as a breakthrough model for agentic coding after it successfully one-shotted a functional Pacman game clone. This 'Pacman benchmark' has previously stumped top-tier proprietary models from OpenAI, Anthropic, and Google, which often failed to maintain game logic and spatial consistency. Qwen's success at the 27B parameter scale suggests that open-weight models are rapidly closing the gap with frontier models in complex, multi-step reasoning and code generation. This performance marks a significant milestone for local developers seeking viable, high-performance coding agents."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1thnnjs/the_pacman_benchmark_finally_a_viable_local/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "huggingface-carbon-dna-models",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Hugging Face 发布 Carbon：比现有 SOTA 快 275 倍的 DNA 基础模型",
+        "en": "Hugging Face Releases Carbon: DNA Foundation Models 275x Faster than SOTA"
+      },
+      "summary": {
+        "zh": "Hugging Face 推出了 Carbon 系列开源 DNA 基础模型，旨在利用大模型训练技术解码基因组序列。其中 Carbon-3B 模型在性能上追平了目前的 SOTA 模型 Evo2-7B，但运行速度快了 275 倍，显著降低了大模型在生物研究中的应用门槛。该模型由 SmolLM 团队开发，将现代 Transformer 优化技术应用于「生命之语言」，实现了快速的基因组分析与发现。此次发布为科学界提供了一个强大且高效的工具，助力计算生物学和精准医疗的发展。",
+        "en": "Hugging Face has launched Carbon, a family of open DNA foundation models designed to decode genomic sequences using LLM training techniques. The Carbon-3B model matches the performance of the current state-of-the-art Evo2-7B while being 275 times faster, significantly lowering the barrier for large-scale biological research. Developed by the team behind SmolLM, Carbon applies modern transformer optimizations to the 'language of life,' enabling rapid genomic analysis and discovery. This release provides the scientific community with a powerful, efficient tool for advancing computational biology and personalized medicine."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1thsw7b/carbon_decoding_the_language_of_life/",
+      "date": "2026-05-19"
+    }
+  ]
+}
