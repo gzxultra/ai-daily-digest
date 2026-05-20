@@ -1,0 +1,235 @@
+{
+  "date": "2026-05-20",
+  "dateLabel": {
+    "zh": "2026年5月20日",
+    "en": "May 20, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-20T17:57:40Z",
+    "elapsedSeconds": 219,
+    "rawArticles": 53,
+    "afterFilter": 48,
+    "afterDedup": 45,
+    "dedupRemoved": 3,
+    "finalStories": 11,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit": 2,
+      "Hugging Face": 1,
+      "The Verge AI": 2,
+      "Ars Technica": 1
+    }
+  },
+  "news": [
+    {
+      "id": "remove-ai-watermarks-tool",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "开源工具 Remove-AI-Watermarks 挑战 AI 图像溯源技术",
+        "en": "Open-Source Tool Released to Strip AI Watermarks from Images"
+      },
+      "summary": {
+        "zh": "一个名为「Remove-AI-Watermarks」的新开源命令行工具和库在 GitHub 上引发关注，该工具旨在移除 AI 生成图像中的数字水印。该项目揭示了当前隐形水印技术的脆弱性，这些技术通常容易受到简单的后期处理或对抗性攻击的影响。随着监管机构推动强制性 AI 标签，此类工具的出现使内容溯源标准的执行变得复杂。这一进展凸显了 AI 安全研究人员与开源社区之间在数字真实性方面持续的「猫鼠游戏」。",
+        "en": "A new open-source CLI tool and library, 'Remove-AI-Watermarks,' has gained significant traction on GitHub for its ability to strip digital watermarks from AI-generated images. The project highlights the inherent fragility of current invisible watermarking techniques, which are often susceptible to simple post-processing or adversarial attacks. As regulators push for mandatory AI labeling, the emergence of such tools complicates the enforcement of content provenance standards. This development underscores the ongoing 'cat-and-mouse' game between AI safety researchers and the open-source community regarding digital authenticity."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "openai-synthid-adoption",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 采用谷歌 SynthID 水印技术并发布验证工具",
+        "en": "OpenAI Integrates Google's SynthID for AI Image Provenance"
+      },
+      "summary": {
+        "zh": "OpenAI 正式将谷歌的 SynthID 水印技术整合到其图像生成流程中，并发布了专门的内容溯源验证工具。SynthID 将肉眼不可见的数字水印直接嵌入图像像素中，使其在裁剪或编辑后仍可被检测。此举标志着主要 AI 竞争对手之间罕见地达成合作，旨在建立识别合成媒体的行业标准。该计划旨在通过提供跨平台验证 AI 生成内容来源的可靠方法，打击深度伪造和虚假信息。",
+        "en": "OpenAI has officially integrated Google's SynthID watermarking technology into its image generation pipeline and released a dedicated verification tool for content provenance. SynthID embeds imperceptible digital watermarks directly into the pixels of images, making them detectable even after cropping or editing. This move represents a rare collaboration between major AI rivals to establish industry-wide standards for identifying synthetic media. The initiative aims to combat deepfakes and misinformation by providing a reliable way to verify the origin of AI-generated content across different platforms."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/advancing-content-provenance/",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "mistral-acquires-emmi-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Mistral AI 收购 Emmi AI 以增强企业级智能体能力",
+        "en": "Mistral AI Acquires Emmi AI to Bolster Enterprise Agent Capabilities"
+      },
+      "summary": {
+        "zh": "法国 AI 领军企业 Mistral AI 宣布收购 Emmi AI，此举旨在加强其在企业级 AI 和专业智能体市场的地位。虽然财务条款未披露，但此次收购使 Mistral 能够整合 Emmi 在特定领域推理和工作流自动化方面的专业知识。这种整合反映了领先模型提供商通过收购利基初创公司来构建全栈垂直解决方案的趋势。该交易预计将加速 Mistral 向医疗和金融等对精度和可靠性要求极高的行业扩张。",
+        "en": "French AI champion Mistral AI has announced the acquisition of Emmi AI, a move aimed at strengthening its position in the enterprise AI and specialized agent market. While financial terms were not disclosed, the acquisition allows Mistral to integrate Emmi's expertise in domain-specific reasoning and workflow automation. This consolidation reflects a broader trend of leading model providers acquiring niche startups to build full-stack vertical solutions. The deal is expected to accelerate Mistral's expansion into high-stakes industries like healthcare and finance where precision and reliability are paramount."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "college-ai-speech-backlash",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "大学毕业生集体嘘声抗议毕业典礼上的 AI 赞歌",
+        "en": "Graduating Students Protest AI-Praising Commencement Speeches"
+      },
+      "summary": {
+        "zh": "在 2026 年毕业季期间，多所大学的毕业典礼上出现了学生对赞扬 AI 变革力量的演讲者发出嘘声的情况。在一次备受关注的活动中，演讲者试图强调 AI 在未来劳动力中的作用，却遭到了持续起哄，迫使演讲者在台上回应「接受现实吧」。这种摩擦凸显了年轻一代对就业取代以及创意领域「去人性化」的深层焦虑。这些事件提醒人们，尽管企业在快速采用 AI，但公众对 AI 的情绪仍呈现高度两极分化。",
+        "en": "During the 2026 commencement season, several college graduation ceremonies saw students boisterously booing speakers who delivered speeches praising the transformative power of AI. At one notable event, a speaker's attempt to highlight AI's role in the future workforce was met with persistent heckles, prompting a sharp 'deal with it' retort from the podium. This friction highlights a growing generational divide and deep-seated anxiety among new graduates regarding job displacement and the perceived 'dehumanization' of creative fields. The incidents serve as a stark reminder that public sentiment toward AI remains highly polarized despite rapid corporate adoption."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "google-search-ai-spam-fight",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "谷歌秘密反击利用 AI 操纵搜索结果的行为",
+        "en": "Google Battles AI-Driven Manipulation of Search Results"
+      },
+      "summary": {
+        "zh": "据报道，谷歌正在与利用 AI 生成内容操纵搜索结果的复杂手段进行一场无声但激烈的战斗。恶意行为者正利用大语言模型创建庞大的「寄生 SEO」网站网络，模仿权威来源以博取排名算法。谷歌已通过部署新的基于 AI 的检测系统做出回应，旨在优先考虑原创报道并惩罚低质量的合成内容。这场持续的斗争凸显了 AI 对开放网络完整性构成的威胁，以及在生成式 AI 时代维护信息质量的日益艰巨。",
+        "en": "Google is reportedly engaged in a quiet but intensive battle against sophisticated attempts to manipulate its search results using AI-generated content. Malicious actors are leveraging large language models to create massive networks of 'parasite SEO' sites that mimic authoritative sources to game the ranking algorithms. Google has responded by deploying new AI-based detection systems designed to prioritize original reporting and penalize low-effort synthetic content. This ongoing struggle underscores the threat AI poses to the integrity of the open web and the increasing difficulty of maintaining information quality in the age of generative AI."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "amd-ryzen-ai-halo-pc",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AMD 发布售价 3999 美元的 Ryzen AI Halo 电脑，配备 128GB 内存",
+        "en": "AMD Unveils $3,999 Ryzen AI Halo PC with 128GB Unified Memory"
+      },
+      "summary": {
+        "zh": "AMD 推出了其「Ryzen AI Halo」电脑，这是一款售价 3999 美元的高性能工作站，配备了高达 128GB 的板载统一内存。该硬件配置专门针对「本地大模型 (Local LLM)」社区，使用户能够完全在设备上运行 Llama 3 400B 或高参数 MoE 模型。128GB 高带宽内存的加入解决了本地 AI 的主要瓶颈：消费级 GPU 的显存限制。这一发布标志着向专业级本地 AI 计算的转变，为注重隐私的开发者和研究人员减少了对云端 API 提供商的依赖。",
+        "en": "AMD has unveiled its 'Ryzen AI Halo' PC, a high-performance workstation priced at $3,999 featuring a massive 128GB of unified on-board memory. This hardware configuration is specifically targeted at the 'Local LLM' community, enabling users to run massive models like Llama 3 400B or high-parameter MoE models entirely on-device. The inclusion of 128GB of high-bandwidth memory addresses the primary bottleneck for local AI: VRAM limitations on consumer GPUs. This release signals a shift toward professional-grade local AI computing, reducing reliance on cloud-based API providers for privacy-conscious developers and researchers."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tinl98/amd_ryzen_ai_halo_pc_will_cost_3999_with_128gb/",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "qwen-37-max-ranking",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Qwen3.7 Max 跻身 Artificial Analysis 排行榜前五",
+        "en": "Qwen3.7 Max Hits Top 5 on Artificial Analysis Leaderboard"
+      },
+      "summary": {
+        "zh": "Qwen3.7 Max 在 Artificial Analysis 排行榜上正式跻身前五，表现与 OpenAI 的 GPT 5.4 (xhigh) 基本持平，并略高于刚发布的 Gemini 3.5 Flash。与此同时，社区对 27B 和 35B 版本的期待值极高，目前 Qwen3.6 27B 的评分比 Max 版本低 6 分。此次更新巩固了阿里巴巴在全球大模型竞赛中的地位，为开发者提供了除美国主流模型之外的强力竞争选项。",
+        "en": "Qwen3.7 Max has officially entered the top-tier rankings, securing the 5th position on the Artificial Analysis leaderboard. The model demonstrates performance parity with OpenAI's GPT 5.4 (xhigh) and slightly outperforms the newly released Gemini 3.5 Flash. Meanwhile, the community is closely watching the 27B and 35B variants, with the Qwen3.6 27B currently trailing the Max version by 6 points. This release reinforces Alibaba's position in the global LLM arms race, offering a competitive alternative to US-based frontier models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tie6gy/qwen37_max_scored_by_artificial_analysis_27b35b/",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "cohere-command-r-plus-update",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Cohere 发布 Command R+ 2026年5月更新版权重",
+        "en": "Cohere Releases Updated Command R+ (05-2026) Weights"
+      },
+      "summary": {
+        "zh": "Cohere 发布了其旗舰模型 Command R+ 的 2026 年 5 月更新版，并以 BF16 格式在 Hugging Face 上架。该版本延续了 Cohere 对企业级 RAG（检索增强生成）和工具调用能力的关注。此次发布允许开源社区以高精度本地运行该模型，满足了对隐私和智能体工作流控制有严格要求的开发者。随着百亿级参数模型竞争的加剧，这一更新确保了 Cohere 在复杂业务自动化领域的领先地位。",
+        "en": "Cohere has released an updated version of its flagship model, Command R+ (05-2026), now available on Hugging Face in BF16 format. This iteration continues Cohere's focus on enterprise-grade RAG (Retrieval-Augmented Generation) and tool-use capabilities. The release allows the open-source community to run the model locally with high precision, catering to developers who require privacy and control over their agentic workflows. As competition in the 100B+ parameter space intensifies, this update ensures Cohere remains a top choice for complex business automation."
+      },
+      "source": "Hugging Face",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tiphqe/coherelabscommandaplus052026bf16_hugging_face/",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "android-vibe-coding-io-2026",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "谷歌通过 AI Studio 为 Android 引入「氛围编程」",
+        "en": "Google Brings Vibe Coding to Android via AI Studio"
+      },
+      "summary": {
+        "zh": "在 Google I/O 2026 上，谷歌为移动设备引入了「氛围编程」（vibe coding），将 AI Studio 直接集成到 Android 系统中，允许用户通过自然语言构建自定义组件和快捷方式。这一转变超越了传统的应用商店模式，使用户能够即时生成高度个性化的微型应用。通过降低软件开发的门槛，谷歌旨在将智能手机从消费设备转变为生成式工具。这标志着通过智能体界面实现软件开发民主化的一个重要里程碑。",
+        "en": "At Google I/O 2026, the tech giant introduced 'vibe coding' for mobile devices, integrating AI Studio directly into Android to allow users to build custom widgets and shortcuts via natural language. This shift moves beyond the traditional app store model, enabling users to generate hyper-personalized mini-apps on the fly. By lowering the barrier to software creation, Google aims to transform the smartphone from a consumption device into a generative tool. This marks a significant milestone in the democratization of software development through agentic interfaces."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "google-vs-openclaw-agents",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "谷歌在 AI 智能体竞赛中追赶 OpenClaw 的成功",
+        "en": "Google Chases OpenClaw Success in AI Agent Race"
+      },
+      "summary": {
+        "zh": "随着开源平台 OpenClaw 的走红，AI 智能体的格局正在发生变化，谷歌正努力将其「笨拙的实习生」AI 转型为真正胜任的个人助手。尽管谷歌拥有 Android 和 Workspace 的生态优势，但 OpenClaw 在过去六个月中为智能体的自主性和可靠性设定了极高的标准。业界正密切关注谷歌的集成化方案能否战胜开源替代方案的灵活性。这些智能体的成功与否将决定下一代人机交互的形态。",
+        "en": "The landscape of AI agents is shifting as Google attempts to turn its 'clueless intern' AI into a truly capable personal assistant, spurred by the viral success of the open-source platform OpenClaw. While Google possesses the ecosystem advantage with Android and Workspace, OpenClaw has set a high bar for agentic autonomy and reliability over the last six months. The industry is watching closely to see if Google's integrated approach can overcome the flexibility of open-source alternatives. The success of these agents will determine the next era of human-computer interaction."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "cisa-credential-leak-github",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "CISA 在公共 GitHub 仓库泄露敏感凭据",
+        "en": "CISA Exposed Sensitive Credentials on Public GitHub Repo"
+      },
+      "summary": {
+        "zh": "美国网络安全和基础设施安全局 (CISA) 发生重大安全疏忽，包括 SSH 密钥和明文密码在内的敏感凭据被发现在公共 GitHub 仓库中。这些机密自 2025 年 11 月以来一直处于暴露状态，凸显了顶级联邦机构在基础安全维护方面的严重失败。该事件为自动化运维时代的凭据管理风险敲响了警钟。这引发了公众对政府网络安全协议监管力度的严重质疑。",
+        "en": "A major security lapse has been uncovered involving the Cybersecurity and Infrastructure Security Agency (CISA), where sensitive credentials including SSH keys and plaintext passwords were found in a public GitHub repository. These secrets had been exposed since November 2025, highlighting a critical failure in basic security hygiene within a top-tier federal agency. The incident serves as a stark reminder of the risks associated with manual credential management in the age of automated devops. It raises serious questions about the oversight of government cybersecurity protocols."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
+      "date": "2026-05-20"
+    }
+  ]
+}
