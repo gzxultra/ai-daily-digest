@@ -1,0 +1,255 @@
+{
+  "date": "2026-05-22",
+  "dateLabel": {
+    "zh": "2026年5月22日",
+    "en": "May 22, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-22T17:12:40Z",
+    "elapsedSeconds": 168,
+    "rawArticles": 59,
+    "afterFilter": 49,
+    "afterDedup": 47,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 2,
+      "Reddit": 4,
+      "The Verge AI": 2,
+      "Ars Technica": 1,
+      "MIT Tech Review": 2,
+      "Simon Willison": 1
+    }
+  },
+  "news": [
+    {
+      "id": "samsung-chip-bonuses-ai-boom",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 利润飙升，三星芯片部门员工将获人均 34 万美元奖金",
+        "en": "Samsung Chip Workers to Receive $340k Average Bonus Amid AI Profit Surge"
+      },
+      "summary": {
+        "zh": "三星电子向其半导体部门员工发放了平均 34 万美元的巨额奖金，这主要归功于 AI 驱动下利润的爆发式增长。这一史无前例的派息反映了高带宽内存（HBM）和先进逻辑芯片在当前 AI 基础设施建设中的核心地位。此举旨在与 SK 海力士和台积电等对手的激烈竞争中留住顶尖人才。随着 AI 需求持续超过供应，这些财务激励措施凸显了 AI 技术栈硬件层所蕴含的巨大价值。",
+        "en": "Samsung Electronics is awarding its semiconductor division employees an average bonus of $340,000 following a massive surge in AI-driven profits. This unprecedented payout reflects the critical role of High Bandwidth Memory (HBM) and advanced logic chips in the current AI infrastructure build-out. The move aims to retain top talent amidst fierce competition from rivals like SK Hynix and TSMC. As AI demand continues to outpace supply, these financial incentives highlight the immense value capture occurring at the hardware layer of the AI stack."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "multi-stream-llms-parallel-thinking",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Multi-Stream LLMs：实现提示词、思考与 I/O 的并行化",
+        "en": "Multi-Stream LLMs: Parallelizing Prompts, Thinking, and I/O"
+      },
+      "summary": {
+        "zh": "一篇新论文介绍了 Multi-Stream LLMs 架构，旨在实现提示词处理、内部「思考」步骤和 I/O 操作的并行化。通过分离这些流，该架构旨在降低延迟并提高复杂推理任务中的吞吐量，而传统的顺序处理在这些任务中往往会产生瓶颈。这种方法允许模型在生成输出的同时进行后台计算或信息检索。它代表了大规模模型推理模式向更加异步和高效方向的重要转变。",
+        "en": "A new research paper introduces Multi-Stream LLMs, a framework designed to parallelize the processing of prompts, internal 'thinking' steps, and I/O operations. By separating these streams, the architecture aims to reduce latency and improve throughput in complex reasoning tasks where sequential processing often creates bottlenecks. This approach allows the model to perform background computations or retrieve information while simultaneously generating output. It represents a significant shift toward more asynchronous and efficient inference patterns for large-scale models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2605.12460",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "nuextract3-vlm-structured-extraction",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "NuExtract3 发布：用于结构化文档提取的 4B 参数开源视觉语言模型",
+        "en": "NuExtract3 Released: Open-Weight 4B VLM for Structured Document Extraction"
+      },
+      "summary": {
+        "zh": "Numind 发布了 NuExtract3，这是一个基于 Qwen3.5-4B 架构的 4B 参数开源视觉语言模型（VLM），采用 Apache-2.0 协议。该模型专门针对复杂文档（如 PDF、截图、表格和发票）的结构化信息提取进行了优化，并支持直接输出 Markdown 格式。其紧凑的体积使其非常适合私有化部署和边缘计算，同时在 OCR 和视觉数据解析方面保持了高精度。该发布降低了企业实现私有、高性能文档处理工作流的门槛。",
+        "en": "Numind has released NuExtract3, an open-weight 4B Vision Language Model (VLM) based on the Qwen3.5-4B architecture under the Apache-2.0 license. The model is specifically optimized for structured information extraction from complex documents, including PDFs, screenshots, tables, and invoices, with the ability to output directly in Markdown. Its compact size makes it highly suitable for self-hosting and edge deployment while maintaining high accuracy in OCR and visual data parsing. This release lowers the barrier for enterprises to implement private, high-performance document processing workflows."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tkejqr/nuextract3_released_openweight_4b_vlm_for/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "mdlm-agentic-rl-world-models",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "掩码扩散语言模型：作为强化学习中可控的世界模型",
+        "en": "Masked Diffusion Language Models as Steerable World Models for RL"
+      },
+      "summary": {
+        "zh": "研究人员提出掩码扩散语言模型（MDLM），作为强化学习（RL）中基于文本的世界模型的更优选择。与按从左到右顺序生成状态的标准 LLM 不同，MDLM 使用任意顺序的去噪目标，使其能够基于工具模式和预期结果等全局相关的锚点进行条件化生成。这有效防止了智能体推演中常见的「前缀一致但全局不连贯」的失败。研究表明，MDLM 为在复杂环境中训练自主智能体提供了更稳定、更具可控性的模拟环境。",
+        "en": "Researchers have proposed Masked Diffusion Language Models (MDLMs) as a superior alternative to autoregressive models for text-based world modeling in Reinforcement Learning (RL). Unlike standard LLMs that generate states left-to-right, MDLMs use an any-order denoising objective that allows them to condition on globally interdependent anchors like tool schemas and expected outcomes. This prevents the 'prefix-consistent but globally incoherent' failures common in agentic rollouts. The study demonstrates that MDLMs provide more stable and steerable simulations for training autonomous agents in complex environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tj9tna/masked_diffusion_language_models_are_strong_and/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "deepseek-10b-financing-open-source",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "DeepSeek 推进 102.9 亿美元融资，坚持开源 AGI 路线",
+        "en": "DeepSeek Advancing $10.29B Financing Round to Pursue Open-Source AGI"
+      },
+      "summary": {
+        "zh": "据报道，DeepSeek 正在推进一轮高达 102.9 亿美元的巨额融资，标志着全球 AI 资本竞赛的重大升级。创始人梁文锋重申了公司致力于开发高性能开源 AI 模型的承诺，而非优先考虑短期商业化变现。这笔资金可能将用于获取海量算力资源并扩大对通用人工智能（AGI）的研究。DeepSeek 的战略通过向全球开发者社区提供最先进的模型权重，持续挑战西方实验室的闭源主导地位。",
+        "en": "DeepSeek is reportedly advancing a massive $10.29 billion financing round, signaling a major escalation in the global AI capital race. Founder Liang Wenfeng has reaffirmed the company's commitment to developing high-performance open-source AI models rather than prioritizing short-term commercial monetization. This funding will likely be used to secure massive compute resources and expand research into Artificial General Intelligence (AGI). DeepSeek's strategy continues to challenge the closed-source dominance of Western labs by providing state-of-the-art weights to the global developer community."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tkfvvj/deepseek_is_pushing_forward_with_1029_billion/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "openbmb-bitcpm-cann-1-58bit",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "OpenBMB 发布 BitCPM-CANN：针对华为昇腾优化的 1.58 位模型",
+        "en": "OpenBMB Debuts BitCPM-CANN 1.58-bit Model Optimized for Huawei Ascend"
+      },
+      "summary": {
+        "zh": "OpenBMB 推出了 BitCPM-CANN，这是一个利用 1.58 位量化技术的新模型，并针对华为昇腾（Ascend）910B NPU 进行了优化。该实现采用三值权重（-1, 0, 1），在保持竞争力的性能水平的同时，大幅降低了内存带宽需求和能耗。与华为 CANN（神经网络计算架构）的集成展示了非 CUDA 硬件在高推理性能 AI 生态中的日益壮大。这一进展对于在效率至上的本土硬件基础设施上扩展大模型至关重要。",
+        "en": "OpenBMB has introduced BitCPM-CANN, a new model leveraging 1.58-bit quantization optimized for the Huawei Ascend 910B NPU. This implementation utilizes ternary weights (-1, 0, 1) to drastically reduce memory bandwidth requirements and energy consumption while maintaining competitive performance levels. The integration with Huawei's CANN (Compute Architecture for Neural Networks) demonstrates the growing ecosystem for non-CUDA hardware in high-performance AI inference. This development is crucial for scaling large models on localized hardware infrastructure where efficiency is paramount."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tkjpsh/openbmb_presents_the_model_bitcpmcann_158_bit/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "google-ai-search-disregard-bug",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google AI 搜索出现逻辑故障，无法正确处理「忽略」指令",
+        "en": "Google AI Overviews Fail on Specific Keyword Disregard"
+      },
+      "summary": {
+        "zh": "Google 的 AI Overviews 功能在用户搜索「disregard」（忽略）一词时出现了严重的逻辑故障。系统未能按预期总结搜索结果，而是将该关键词误认为指令，像聊天机器人被要求忽略之前指令一样做出响应。这一现象凸显了集成到搜索引擎中的大语言模型（LLM）在区分用户查询与系统提示词方面仍存在脆弱性。该事件再次引发了业界对生产级 AI 部署中「提示词注入」风险的关注。",
+        "en": "Google's AI Overviews feature is experiencing a significant logic failure when users search for the term 'disregard.' Instead of summarizing search results, the system interprets the keyword as a direct command, responding like a chatbot being told to ignore previous instructions. This incident highlights ongoing vulnerabilities in how Large Language Models (LLMs) integrated into search engines distinguish between user queries and system prompts. It underscores the 'prompt injection' risks that continue to plague production-level AI deployments in 2026."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "musk-altman-openai-trial",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "马斯克与奥特曼就 OpenAI 创始使命展开法庭对决",
+        "en": "Musk and Altman Face Off in Landmark OpenAI Mission Trial"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克与 OpenAI 首席执行官萨姆·奥特曼之间的法律斗争于 2026 年 5 月进入关键庭审阶段。马斯克的诉讼指控 OpenAI 违背了最初的使命，将商业利润和微软的利益置于为人类开发开源通用人工智能（AGI）的目标之上。庭审涉及马斯克、奥特曼及微软高层的证词，可能导致法院强制重组 OpenAI 的公司治理结构。此案是 AI 行业的里程碑事件，可能在万亿级 AI 估值时代重新定义「非营利」初衷的法律边界。",
+        "en": "The legal battle between Elon Musk and OpenAI CEO Sam Altman has reached a critical trial phase in May 2026. Musk's lawsuit alleges that OpenAI breached its founding contract by prioritizing commercial profits and Microsoft's interests over its original mission to develop open-source AGI for humanity. The trial features high-profile testimony from industry leaders and could lead to a court-ordered restructuring of OpenAI's corporate governance. This case represents a landmark moment for the AI industry, potentially defining the legal boundaries of 'non-profit' origins in the age of trillion-dollar AI valuations."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "teampcp-open-source-poisoning",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "黑客组织 TeamPCP 发起前所未有的开源代码投毒攻击",
+        "en": "Hacker Group TeamPCP Launches Massive Open Source Supply Chain Attack"
+      },
+      "summary": {
+        "zh": "一个名为 TeamPCP 的黑客组织正以前所未有的规模对 GitHub 上的开源代码库进行投毒，实施大规模供应链攻击。该组织通过在广泛使用的库中注入恶意代码，旨在破坏数千个下游应用程序的软件开发生命周期。此次攻击的升级凸显了作为现代 AI 和软件基础设施基石的开源生态系统的极端脆弱性。安全专家呼吁对第三方依赖项进行更严格的自动化扫描和验证，以缓解此类系统性风险。",
+        "en": "A hacker collective known as TeamPCP is executing a massive supply chain attack by poisoning open-source repositories on GitHub at an unprecedented scale. By injecting malicious code into widely used libraries, the group aims to compromise the software development lifecycle of thousands of downstream applications. This escalation highlights the extreme vulnerability of the open-source ecosystem, which serves as the foundation for most modern AI and software infrastructure. Security experts are calling for more rigorous automated scanning and verification of third-party dependencies to mitigate these systemic risks."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "anthropic-code-with-claude",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 发布 Code with Claude，开启自动化编程新纪元",
+        "en": "Anthropic Unveils Code with Claude to Automate Software Engineering"
+      },
+      "summary": {
+        "zh": "在伦敦举行的开发者大会上，Anthropic 展示了「Code with Claude」，这是一套旨在突破 AI 辅助编程界限的新工具。演示重点展示了智能体工作流（Agentic Workflows），AI 不再仅仅提供代码片段建议，而是能主动管理复杂的编码任务并交付生产级代码。这一转变预示着人类开发者的角色将从编写语法转向高级系统架构和监督。会议还探讨了 AI 驱动的科学研究以及备受争议的「类固醇奥运会」概念。",
+        "en": "At a developer event in London, Anthropic showcased 'Code with Claude,' a new suite of tools designed to push the boundaries of AI-assisted programming. The demonstration focused on agentic workflows where AI doesn't just suggest snippets but actively manages complex coding tasks and ships production-ready code. This shift suggests a future where the role of the human developer moves from writing syntax to high-level system architecture and oversight. The event also touched upon the broader implications of AI-driven science and the controversial 'Steroid Olympics' concept."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "google-io-deepmind-singularity",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "DeepMind CEO 称人类正处于「人工智能奇点」的山脚下",
+        "en": "DeepMind CEO Claims AI is at the Foothills of the Singularity"
+      },
+      "summary": {
+        "zh": "在 Google I/O 2026 主旨演讲中，DeepMind 首席执行官 Demis Hassabis 宣布人类正处于「奇点的山脚下」。这一大胆表态反映了 Google AI 路线图的战略转型，即通过 AI 驱动的科学发现作为智能爆发式增长的核心催化剂。Hassabis 强调，AI 模型正从简单的模式识别转向解决生物学和物理学中的基础性难题。这一论调标志着 Google 意图引领从生成式助手向自主科学发现引擎的跨越。",
+        "en": "During the Google I/O 2026 keynote, DeepMind CEO Demis Hassabis declared that humanity is currently 'standing in the foothills of the singularity.' This bold statement reflects a strategic shift in Google's AI roadmap, focusing on AI-driven scientific discovery as a primary catalyst for rapid intelligence growth. Hassabis highlighted how AI models are now moving beyond simple pattern recognition to solving fundamental problems in biology and physics. The narrative signals Google's intent to lead the transition from generative assistants to autonomous scientific discovery engines."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "ftc-active-listening-settlement",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "FTC 就欺骗性 AI「主动监听」营销服务开出百万美元罚单",
+        "en": "FTC Fines Firms $1M Over Deceptive AI Active Listening Services"
+      },
+      "summary": {
+        "zh": "美国联邦贸易委员会（FTC）已与 Cox Media Group 及另外两家公司达成 100 万美元的结算协议，以解决有关欺骗性「主动监听」营销服务的指控。这些公司被指控在利用 AI 技术通过智能手机麦克风监听私人对话以进行定向广告方面误导了客户和消费者。此次执法行动标志着对私营部门侵入式 AI 监控行为的重大打击。它为 AI 驱动的数据收集必须遵循严格的透明度和知情同意标准树立了监管先例。",
+        "en": "The Federal Trade Commission (FTC) has reached a $1 million settlement with Cox Media Group and two other firms over allegations of deceptive 'Active Listening' marketing services. The companies were accused of misleading clients and consumers about using AI-powered technology to monitor private conversations via smartphone microphones for targeted advertising. This enforcement action marks a significant crackdown on invasive AI surveillance practices in the private sector. It sets a regulatory precedent for how AI-driven data collection must adhere to strict transparency and consent standards."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "date": "2026-05-22"
+    }
+  ]
+}
