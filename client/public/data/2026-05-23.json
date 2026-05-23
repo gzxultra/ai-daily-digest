@@ -1,0 +1,253 @@
+{
+  "date": "2026-05-23",
+  "dateLabel": {
+    "zh": "2026年5月23日",
+    "en": "May 23, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-23T16:05:39Z",
+    "elapsedSeconds": 155,
+    "rawArticles": 52,
+    "afterFilter": 49,
+    "afterDedup": 42,
+    "dedupRemoved": 7,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit": 5,
+      "The Verge AI": 1,
+      "Ars Technica": 1
+    }
+  },
+  "news": [
+    {
+      "id": "llms-txt-standard-proposal",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Anna's Archive 提议建立 llms.txt 标准以规范 AI 爬虫",
+        "en": "Anna's Archive Proposes llms.txt Standard for AI Crawlers"
+      },
+      "summary": {
+        "zh": "Anna's Archive 提议建立「llms.txt」标准，类似于传统的 robots.txt，旨在为 LLM 爬虫提供机器可读的指令和上下文。该倡议旨在帮助网站所有者定义其内容应如何被 AI 模型索引、总结或排除，以防止「遗漏式幻觉」。该提案在 Hacker News 上获得了超过 800 个点赞，引发了社区关于建立标准化协议以管理现代 AI 实验室大规模数据抓取需求，同时保护网站完整性的广泛讨论。",
+        "en": "Anna's Archive has introduced a proposal for a 'llms.txt' file, similar to the classic robots.txt, designed to provide machine-readable instructions and context specifically for LLM crawlers. The initiative aims to help site owners define how their content should be indexed, summarized, or excluded by AI models to prevent 'hallucination-by-omission.' With over 800 points on Hacker News, the community is actively debating the necessity of a standardized protocol to manage the massive data scraping demands of modern AI labs while protecting site integrity."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://annas-archive.gl/blog/llms-txt.html",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "antigravity-2-openscad-benchmark",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Antigravity 2.0 在 OpenSCAD 建筑 3D LLM 基准测试中夺冠",
+        "en": "Antigravity 2.0 Leads OpenSCAD Architectural 3D LLM Benchmark"
+      },
+      "summary": {
+        "zh": "Antigravity 2.0 在 OpenSCAD 建筑 3D LLM 基准测试中夺得榜首，展示了在空间推理和 3D 建模代码生成方面的显著进步。该模型通过在复杂建筑提示词中生成更高成功率的有效流形几何体，超越了之前的领先模型。这一突破表明，针对 CAD 特定数据集的专门训练正成为 LLM 有效处理精密工程和设计任务的关键，标志着 AI 从简单的文生图向生成功能性 3D 资产的跨越。",
+        "en": "Antigravity 2.0 has claimed the top spot on the OpenSCAD Architectural 3D LLM Benchmark, demonstrating significant improvements in spatial reasoning and code generation for 3D modeling. The model outperformed previous leaders by achieving higher success rates in generating valid, manifold geometry from complex architectural prompts. This breakthrough suggests that specialized training on CAD-specific datasets is becoming essential for LLMs to handle precision engineering and design tasks effectively, moving beyond simple text-to-image generation into functional 3D assets."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "microsoft-cancels-claude-code-licenses",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软在记事本集成 AI 后开始取消 Claude Code 许可",
+        "en": "Microsoft Cancels Claude Code Licenses Following Notepad Integration"
+      },
+      "summary": {
+        "zh": "据报道，在将 AI 功能集成到 Windows 记事本后，微软已开始取消 Anthropic 旗下的 AI 编程助手 Claude Code 的许可。此举凸显了微软 GitHub Copilot 生态系统与 Anthropic 开发者工具之间日益激烈的竞争。行业分析师认为，这是微软的一项战略转向，旨在巩固其开发环境，并减少其核心生产力套件对第三方模型提供商的依赖，这可能预示着 Windows 原生 AI 工具将走向更封闭的生态。",
+        "en": "Microsoft has reportedly begun canceling licenses for Claude Code, an AI-powered coding assistant from Anthropic, following its own aggressive integration of AI features into Windows Notepad. This move highlights the intensifying competition between Microsoft's GitHub Copilot ecosystem and Anthropic's developer tools. Industry analysts view this as a strategic pivot by Microsoft to consolidate its developer environment and reduce reliance on third-party model providers within its core productivity suite, potentially signaling a more closed ecosystem for Windows-native AI tools."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "microsoft-ai-cost-inversion-report",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软报告称 AI 运营成本已超过人力成本",
+        "en": "Microsoft Reports AI Operational Costs Exceeding Human Labor"
+      },
+      "summary": {
+        "zh": "微软的一份新报告指出，在某些复杂任务中，部署 AI 智能体和大规模 Token 处理的运营成本已超过了人力成本。分析指出，前沿模型的高能耗和计算需求是这种意外「成本倒置」的主要驱动因素。这一发现挑战了 AI 作为通用成本节约工具的主流叙事，并可能迫使企业在部署自主智能体时变得更加谨慎，将重点从简单任务自动化转向高价值推理。",
+        "en": "A new report from Microsoft indicates that the operational costs of deploying AI agents and high-volume token processing have surpassed the cost of human labor for certain complex tasks. The analysis points to the high energy and compute requirements of frontier models as a primary driver of this unexpected 'cost inversion.' This finding challenges the prevailing narrative of AI as a universal cost-saving tool and may force enterprises to be more selective in where they deploy autonomous agents, focusing on high-value reasoning rather than simple task automation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "models-dev-open-source-database",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Models.dev：全新的 AI 模型规格与定价开源数据库",
+        "en": "Models.dev: New Open-Source Database for AI Model Specs and Pricing"
+      },
+      "summary": {
+        "zh": "Models.dev 作为一个开源数据库上线，为各种 AI 模型提供全面的规格、定价和能力指标。该平台旨在为快速发展的模型领域带来透明度，允许开发者比较不同供应商的延迟、上下文窗口大小和单位 Token 成本。通过集中这些数据，该项目解决了当前模型文档碎片化的问题，有助于工程团队在为生产环境选择模型时做出明智的决策。",
+        "en": "Models.dev has launched as an open-source database providing comprehensive specifications, pricing, and capability metrics for a wide range of AI models. The platform aims to bring transparency to the rapidly evolving model landscape, allowing developers to compare latency, context window sizes, and cost-per-token across different providers. By centralizing this data, the project helps engineering teams make informed decisions when selecting models for production environments, addressing the fragmentation in current model documentation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/anomalyco/models.dev",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "sm1-mamba-blackwell-optimization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "SM1：针对 Blackwell 架构优化的纯 PyTorch 版 Mamba 变体",
+        "en": "SM1: Mamba Variant Optimized for Blackwell in Pure PyTorch"
+      },
+      "summary": {
+        "zh": "一位开发者推出了 SM1（标量 Mamba1），这是 Mamba 架构的一个变体，使用纯 PyTorch 针对 NVIDIA 的 Blackwell (sm_120) 架构进行了优化。通过设置 d_state=1，该实现使用原生的 torch.cumprod 和 torch.cumsum 操作取代了复杂的选择性扫描，实现了闭式解。这种优化绕过了标准 mamba-ssm 在 Windows 上的编译问题，并证明了在无需自定义 CUDA 内核的情况下，在最新硬件上也能实现高性能，降低了研究人员使用状态空间模型的门槛。",
+        "en": "A developer has introduced SM1 (Scalar Mamba1), a variant of the Mamba architecture optimized for NVIDIA's Blackwell (sm_120) architecture using pure PyTorch. By setting d_state=1, the implementation replaces complex selective scans with a closed-form solution using native torch.cumprod and torch.cumsum operations. This optimization bypasses the compilation issues of standard mamba-ssm on Windows and demonstrates high performance on the latest hardware without requiring custom CUDA kernels, making State Space Models more accessible to researchers."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "nvidia-removes-gaming-category",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达财务报表取消独立「游戏」营收类别",
+        "en": "NVIDIA Retires Gaming as Standalone Financial Category"
+      },
+      "summary": {
+        "zh": "英伟达（NVIDIA）在最新的财务报告结构中正式取消了「游戏」作为独立收入类别的地位，将其并入更广泛的业务板块。这一战略转变凸显了该公司已彻底转型为一家人工智能优先的基础设施提供商，其数据中心和 AI 计算业务的规模已远超传统的游戏显卡销售。分析师认为，这标志着英伟达作为「显卡公司」时代的终结，反映了其 Blackwell 及后续架构在市场中的绝对主导地位。此举表明 AI 不再仅仅是增长引擎，而是公司商业模式的核心基石。",
+        "en": "NVIDIA has officially removed 'Gaming' as a standalone revenue category in its latest financial reporting structure, merging it into broader segments. This strategic shift underscores the company's complete transformation into an AI-first infrastructure provider, where data center and AI compute now dwarf traditional GPU sales for gamers. Analysts view this as the definitive end of NVIDIA's identity as a graphics card company, reflecting the massive market capture of the Blackwell and subsequent architectures. The move signals that AI is no longer a growth wing but the core foundation of the company's business model."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tkw5ri/nvidia_removes_gaming_revenue_category_from/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "gpt-5-5-caveman-reasoning",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GPT-5.5 思维链泄露：内部推理疑似采用「原始人模式」",
+        "en": "Leaked GPT-5.5 Traces Reveal 'Caveman Mode' Reasoning"
+      },
+      "summary": {
+        "zh": "OpenAI GPT-5.5 的内部「思维链」泄露显示，该模型在内部推理过程中使用了简化的「原始人风格」语言结构。这一发现表明，当剥离复杂的语法、仅保留逻辑标记时，高级推理的 Token 效率会更高。目前社区正尝试对开源模型的推理轨迹进行「原始人化」处理，以期通过微调让小型模型获得类似的推理能力。如果属实，这可能代表了在不牺牲认知深度的情况下，优化复杂思维链任务推理成本的重大突破。",
+        "en": "A leaked internal 'thinking trace' from OpenAI's GPT-5.5 suggests the model utilizes a simplified, 'caveman-style' linguistic structure for its internal reasoning processes. This discovery implies that high-level reasoning may be more token-efficient when stripped of grammatical complexity, focusing purely on logical tokens. The community is now exploring 'caveman-izing' open-source model traces to fine-tune smaller models for similar reasoning performance. If verified, this could represent a major breakthrough in optimizing inference costs for complex chain-of-thought tasks without sacrificing cognitive depth."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tljrtk/gpt_55_secret_sauce_is_just_having_the_thinking/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "meituan-longcat-avatar-1-5",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "美团发布 LongCat-Video-Avatar 1.5 开源数字人框架",
+        "en": "Meituan Releases LongCat-Video-Avatar 1.5 for Digital Humans"
+      },
+      "summary": {
+        "zh": "美团发布了 LongCat-Video-Avatar 1.5，这是一个升级版的开源框架，旨在实现高稳定性、音频驱动的人物视频生成。该模型专注于「极端经验优化」，使其在商业化数字人合成和虚拟代言人任务中达到生产级标准。基于 LongCat-Video 基础模型，此次发布为开源社区提供了一个强大的工具，能够生成具有精确口型同步和自然肢体动作的逼真数字人。该框架旨在降低营销和客服应用中高质量视频合成的门槛。",
+        "en": "Meituan has released LongCat-Video-Avatar 1.5, an upgraded open-source framework designed for high-stability, audio-driven human video generation. The model focuses on 'extreme empirical optimization,' making it production-ready for commercial avatar synthesis and virtual spokesperson tasks. By building on the LongCat-Video foundation model, this release provides the open-source community with a robust tool for creating realistic digital humans with precise lip-syncing and natural body movements. The framework aims to lower the barrier for high-quality video synthesis in marketing and customer service applications."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tl4wpi/meituanlongcatlongcatvideoavatar15_hugging_face/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "apex-testing-agentic-benchmark",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Apex-Testing 更新：基于真实仓库的智能编程基准测试",
+        "en": "Apex-Testing Update: Real-World Agentic Coding Benchmark"
+      },
+      "summary": {
+        "zh": "Apex-Testing 基准测试发布重大更新，通过 65-70 个真实的私有 GitHub 仓库评估最新 AI 模型的智能体编程能力。与合成基准不同，Apex 侧重于智能体如何处理复杂的多文件代码库并解决实际工程问题。测试结果显示，GPT-5.5 和 Claude 4 等顶级模型在处理长上下文依赖管理和自主调试方面的差距正在拉大。与传统的编程谜题相比，此次更新更准确地反映了 AI 智能体在专业软件开发环境中的实际表现。",
+        "en": "The Apex-Testing benchmark has released a major update, evaluating the latest AI models across 65-70 private, real-world GitHub repositories to test agentic coding capabilities. Unlike synthetic benchmarks, Apex focuses on how agents navigate complex, multi-file codebases and resolve actual engineering issues. The results show a widening gap between top-tier models like GPT-5.5 and Claude 4 in handling long-context dependency management and autonomous debugging. This update provides a more accurate reflection of how AI agents perform in professional software development environments compared to traditional coding puzzles."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tlh4vq/apextesting_realworld_real_repos_agentic_coding/",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "google-gemini-omni-hands-on",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "谷歌 Gemini Omni 上手：全能型多模态 AI 表现惊人",
+        "en": "Hands-on with Google's Gemini Omni 'Anything-to-Anything' AI"
+      },
+      "summary": {
+        "zh": "谷歌的 Gemini Omni 模型展示了先进的「全对全」多模态能力，允许用户实时无缝转换文本、音频和视频。上手报告强调了其根据简单提示生成高度逼真的深度伪造风格视频的能力，例如将毛绒玩具动画化为生动的旅行博客。此举使谷歌在集成多模态助手市场中直接与 OpenAI 的 GPT-4o 和 Sora 展开竞争。该模型在视频合成方面的低延迟和高保真度代表了谷歌消费级 AI 生态系统的重大飞跃。",
+        "en": "Google's Gemini Omni model is demonstrating advanced 'anything-to-anything' multimodal capabilities, allowing users to seamlessly transform text, audio, and video in real-time. Hands-on reports highlight its ability to generate highly realistic deepfake-style videos from simple prompts, such as animating a stuffed animal into a lifelike travel vlog. This move positions Google to compete directly with OpenAI's GPT-4o and Sora in the integrated multimodal assistant market. The model's low latency and high fidelity in video synthesis represent a significant leap forward for Google's consumer AI ecosystem."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "date": "2026-05-23"
+    },
+    {
+      "id": "texas-ag-meta-whatsapp-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "德州总检察长起诉 Meta，质疑 WhatsApp 端到端加密",
+        "en": "Texas AG Sues Meta Over WhatsApp Encryption Claims"
+      },
+      "summary": {
+        "zh": "德克萨斯州总检察长 Ken Paxton 对 Meta 提起诉讼，指控 WhatsApp 关于端到端（E2E）加密的声明具有误导性，未能充分保护用户数据。诉讼认为 Meta 保留了对元数据和某些消息内容的访问权限，这与其对消费者的营销承诺相悖。尽管批评者指出起诉书中缺乏技术证据，但此案凸显了大型科技公司在隐私透明度和加密标准方面面临日益增长的法律压力。这一法律挑战可能迫使 Meta 披露更多关于其加密协议和数据处理实践的细节。",
+        "en": "Texas Attorney General Ken Paxton has filed a lawsuit against Meta, alleging that WhatsApp's claims of end-to-end (E2E) encryption are deceptive and do not fully protect user data. The lawsuit argues that Meta retains access to metadata and certain message contents, contradicting its marketing promises to consumers. While critics point to a lack of technical evidence in the filing, the case highlights increasing legal pressure on big tech regarding privacy transparency and encryption standards. This legal challenge could force Meta to disclose more granular details about its encryption protocols and data handling practices."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
+      "date": "2026-05-23"
+    }
+  ]
+}
