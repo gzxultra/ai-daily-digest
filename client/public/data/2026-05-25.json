@@ -1,0 +1,251 @@
+{
+  "date": "2026-05-25",
+  "dateLabel": {
+    "zh": "2026年5月25日",
+    "en": "May 25, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-25T17:10:27Z",
+    "elapsedSeconds": 145,
+    "rawArticles": 41,
+    "afterFilter": 28,
+    "afterDedup": 24,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 8
+    }
+  },
+  "news": [
+    {
+      "id": "ai-chip-memory-costs",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "内存组件现已占 AI 芯片成本的三分之二",
+        "en": "Memory Components Now Account for Two-Thirds of AI Chip Costs"
+      },
+      "summary": {
+        "zh": "Epoch AI 的最新报告显示，内存组件（特别是高带宽内存 HBM）目前已占尖端 AI 芯片总组件成本的近三分之二。这一转变标志着硬件制造正从「算力受限」转向「内存受限」的经济模式。随着大语言模型参数规模的增长，对海量内存带宽的需求已超过了逻辑处理速度的提升。这一趋势迫使 NVIDIA 等芯片设计商优先考虑内存集成，从而显著影响了企业级 GPU 的最终零售价格和供应链稳定性。",
+        "en": "A new report from Epoch AI reveals that memory components, specifically High Bandwidth Memory (HBM), now account for nearly two-thirds of the total component costs for state-of-the-art AI chips. This shift highlights a transition from compute-bound to memory-bound economics in hardware manufacturing. As LLMs grow in parameter count, the demand for massive memory bandwidth is outpacing improvements in logic processing speeds. This trend forces chip designers like NVIDIA to prioritize memory integration, significantly impacting the final retail price and supply chain stability of enterprise-grade GPUs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "claude-architect-critique",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "工程师警告：不要让 Claude 充当软件架构师",
+        "en": "Engineers Warn Against Using Claude as a Software Architect"
+      },
+      "summary": {
+        "zh": "软件工程师们正日益警告，不要将 Claude 等大语言模型视为主要的软件架构师，并指出虽然它们擅长编写样板代码，但在复杂系统设计方面往往表现不佳。该评论强调，AI 缺乏处理可持续架构所需的长期技术债背景和组织约束。在高级决策中过度依赖 AI 可能会导致产生看似有效但在生产负载下会失效的「幻觉」模式。行业共识建议将 AI 作为讨论对象而非主导设计者，以避免长期的维护噩梦。",
+        "en": "Software engineers are increasingly warning against treating LLMs like Claude as primary software architects, noting that while they excel at boilerplate, they often fail at complex system design. The critique emphasizes that AI lacks the long-term context of legacy technical debt and organizational constraints necessary for sustainable architecture. Relying on AI for high-level decisions can lead to hallucinated patterns that appear valid but fail under production loads. The consensus suggests using AI as a sounding board rather than a lead designer to avoid long-term maintenance nightmares."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "netherlands-cyberattack-seizure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "荷兰在重大网络犯罪打击行动中查封 800 台服务器",
+        "en": "Netherlands Seizes 800 Servers in Major Cybercrime Crackdown"
+      },
+      "summary": {
+        "zh": "荷兰执法部门查封了 800 多台服务器，并逮捕了两名涉嫌为大规模网络攻击提供基础设施的个人。此次行动针对的是「防弹托管」服务，这些服务曾允许网络罪犯在不受法律追诉的情况下运行。这次打击行动是国际社会拆解支持勒索软件和 DDoS 攻击的后端基础设施的更广泛努力的一部分。此次查封凸显了托管服务商面临的日益增长的压力，要求其执行更严格的「了解你的客户」(KYC) 协议，以防止云资源被犯罪分子滥用。",
+        "en": "Dutch law enforcement has seized over 800 servers and arrested two individuals suspected of providing infrastructure for large-scale cyberattacks. The operation targeted bulletproof hosting services that allowed cybercriminals to operate with perceived immunity from legal requests. This crackdown is part of a broader international effort to dismantle the backend infrastructure that supports ransomware and DDoS campaigns. The seizure highlights the growing pressure on hosting providers to implement stricter Know Your Customer (KYC) protocols to prevent criminal misuse of cloud resources."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "uber-ai-token-spending",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Uber 首席运营官质疑大规模 AI 代币支出的投资回报率",
+        "en": "Uber COO Questions ROI of Massive AI Token Spending"
+      },
+      "summary": {
+        "zh": "Uber 首席运营官 Andrew Macdonald 对「代币最大化」(tokenmaxxing)（即激进扩大 AI 模型使用规模）所需的大规模财务支出表示了日益增长的怀疑。随着最初的炒作周期降温，企业领导者正要求在简单的生产力提升之外提供更清晰的投资回报率 (ROI) 指标。Macdonald 指出，当额外代币的边际效用开始趋于平缓时，证明数百万美元的 AI 预算是合理的变得越来越困难。这种情绪反映了更广泛的行业转变，即企业正从实验性采用转向对 AI 集成的严格成本效益分析。",
+        "en": "Uber's COO Andrew Macdonald expressed growing skepticism regarding the massive financial outlays required for tokenmaxxing, or the aggressive scaling of AI model usage. As the initial hype cycle cools, enterprise leaders are demanding clearer ROI metrics beyond simple productivity gains. Macdonald noted that justifying multi-million dollar AI budgets is becoming difficult when the marginal utility of additional tokens starts to plateau. This sentiment reflects a broader industry shift where corporations are moving from experimental adoption to rigorous cost-benefit analysis of AI integration."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "ssl-hyperparameter-selection",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "非单调自监督学习中的超参数选择挑战",
+        "en": "Challenges in Hyperparameter Selection for Non-Monotonic SSL"
+      },
+      "summary": {
+        "zh": "机器学习从业者正在讨论为 BYOL 和 JEPA 等非对比自监督学习 (SSL) 方法选择超参数的复杂性。与监督学习不同，这些方法通常表现出非单调的损失函数，因此很难确定模型何时真正收敛或学习到了有用的表示。研究人员正在探索如「RankMe」之类的指标，以便在不依赖下游任务标签的情况下评估表示质量。该讨论凸显了「模型到底」的问题，即评估一个无监督模型往往需要另一套可能存在偏差的启发式模型。",
+        "en": "Machine learning practitioners are debating the complexities of hyperparameter selection for non-contrastive self-supervised learning (SSL) methods like BYOL and JEPA. Unlike supervised learning, these methods often exhibit non-monotonic loss functions, making it difficult to determine when a model has actually converged or learned useful representations. Researchers are exploring metrics like RankMe to evaluate representation quality without relying on downstream task labels. The discussion highlights the models all the way down problem, where evaluating an unsupervised model requires another set of potentially biased heuristic models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tmprdm/how_do_ml_practitioners_select_hyperparameters/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "heretic-llama-jailbreak",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Heretic 工具可在 10 分钟内移除 Llama 3.3 安全防护栏",
+        "en": "Heretic Tool Removes Llama 3.3 Guardrails in Under 10 Minutes"
+      },
+      "summary": {
+        "zh": "在《金融时报》报道了一款名为「Heretic」的工具能在不到十分钟内移除 Meta Llama 3.3 模型的安全防护栏后，该工具引起了广泛关注。据报道，这款在 GitHub 上公开的软件已被用于创建超过 3500 个热门开源模型的「去审查」版本。这一进展加剧了关于开源权重模型安全性的争论，因为它展示了微调技术可以多么轻易地绕过对齐努力。尽管 Meta 坚持认为开源能促进创新，但批评者认为此类工具降低了大规模生成恶意内容的门槛。",
+        "en": "A tool named Heretic has gained notoriety after the Financial Times reported its ability to strip safety guardrails from Meta's Llama 3.3 model in under ten minutes. The software, available on GitHub, has reportedly been used to create over 3,500 decensored versions of popular open-source models. This development intensifies the debate over the safety of open-weights models, as it demonstrates how easily fine-tuning can bypass alignment efforts. While Meta maintains that open-source fosters innovation, critics argue that such tools lower the barrier for generating malicious content at scale."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tna22m/the_financial_times_has_published_an_article/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "nuextract3-vlm-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "NuExtract3 发布：用于结构化文档提取的开源 4B 视觉语言模型",
+        "en": "NuExtract3: Open-Weight 4B VLM for Structured Document Extraction"
+      },
+      "summary": {
+        "zh": "Numind 发布了 NuExtract3，这是一个基于 Qwen3.5-4B 架构的 4B 参数开源视觉语言模型（VLM）。该模型采用 Apache-2.0 协议，专门针对结构化信息提取进行了优化，能够将图像和文本转换为 Markdown、JSON 或其他结构化格式。它在处理多页 PDF、收据和发票等复杂文档方面表现出色，为自托管环境提供了高质量的 OCR 和文档解析能力。",
+        "en": "Numind has released NuExtract3, an open-weight 4B Vision Language Model (VLM) based on the Qwen3.5-4B architecture. Released under the Apache-2.0 license, the model is specifically optimized for structured information extraction, converting images and text into Markdown, JSON, or other structured formats. It excels at processing complex documents such as multi-page PDFs, receipts, and invoices, making high-quality OCR and document parsing accessible for self-hosted environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tn8utn/nuextract3_released_openweight_4b_vlm_for/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "grok-0-5t-model-roadmap",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "马斯克宣布明年推出 0.5 万亿参数的 Grok 模型",
+        "en": "Elon Musk Announces 0.5T Parameter Grok Model for 2027"
+      },
+      "summary": {
+        "zh": "埃隆·马斯克宣布，xAI 计划明年发布一款参数量高达 0.5 万亿（500B）的 Grok 品牌模型。这延续了通过扩大开源模型规模来与闭源前沿模型竞争的趋势。该公告将这款即将推出的模型纳入了「Grok-3 开源」路线图，标志着 xAI 对大规模开源 AI 的承诺。此举可能会显著改变寻求高容量模型且不希望被供应商锁定的研究人员和企业的竞争格局。",
+        "en": "Elon Musk has announced that xAI plans to release a massive 0.5 trillion (500B) parameter model under the Grok brand next year. This follows the ongoing trend of scaling up open-weights models to compete with proprietary frontier models. The announcement places the upcoming model in the 'Grok-3 Open Source' roadmap, signaling xAI's commitment to large-scale open-source AI. This move could significantly shift the landscape for researchers and enterprises seeking high-capacity models without vendor lock-in."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tn31d8/next_year_were_getting_05t_model_from_grok/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "qwen36-v100-performance",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Qwen3.6 27B 在 V100 GPU 上实现 1000 TPS 吞吐量",
+        "en": "Qwen3.6 27B Hits 1000 TPS Throughput on NVIDIA V100 GPUs"
+      },
+      "summary": {
+        "zh": "社区针对 Qwen3.6 27B 模型在旧款 NVIDIA V100 GPU 上的基准测试显示了惊人的吞吐量：在 128 个并发请求下，总生成速度达到 1000 tps。在单用户场景（Batch 1）下，该模型在不使用多 Token 预测（MTP）的情况下，生成速度可达 80 tps，预填充处理速度高达 3000 tps。这些结果证明了 Qwen3.6 架构的高效性，以及在旧款企业级硬件上进行高密度部署的可行性。",
+        "en": "Community benchmarks for the Qwen3.6 27B model on legacy NVIDIA V100 GPUs show impressive throughput, reaching 1000 tokens per second (tps) with 128 concurrent requests. For single-user scenarios (batch size 1), the model achieves 80 tps for generation and a staggering 3000 tps for prefill/processing without using Multi-Token Prediction (MTP). These results demonstrate the high efficiency of the Qwen3.6 architecture and its viability for high-density deployment on older enterprise hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tmyln6/1000_tps_generation_on_qwen36_27b_with_v100s/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "mimo-v25-coder-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "MiMo-V2.5-coder 发布：高性能本地编程模型新选择",
+        "en": "MiMo-V2.5-coder Released as High-Performance Coding Alternative"
+      },
+      "summary": {
+        "zh": "MiMo-V2.5-coder 已发布，作为编程任务中 Qwen3.6 和 DeepSeek-V4 的高性能替代方案。该模型需要约 128GB 的显存或内存以发挥最佳性能，以其快速的推理速度和可靠的工具调用能力而著称。它主要面向需要强大本地代码助手来处理复杂逻辑和 API 交互的开发者。此次发布凸显了本地 LLM 生态系统在专业编程应用领域日益增长的多样性。",
+        "en": "The MiMo-V2.5-coder has been released as a high-performance alternative to Qwen3.6 and DeepSeek-V4 for programming tasks. Requiring approximately 128GB of VRAM/RAM for optimal performance, the model is noted for its fast inference speeds and reliable tool-calling capabilities. It targets developers who need a robust, local coding assistant capable of handling complex logic and API interactions. The release highlights the growing diversity in the local LLM ecosystem for specialized coding applications."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tn3455/mimov25coder/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "oscar-2bit-kv-quantization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "OSCAR：用于 2-bit KV 缓存量化的离线频谱协方差感知旋转技术",
+        "en": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache"
+      },
+      "summary": {
+        "zh": "研究人员推出了 OSCAR（离线频谱协方差感知旋转），这是一种用于 2-bit KV 缓存量化的新方法。该项目包含「RotationZoo」，这是一个预计算 K/V 旋转矩阵的仓库，能够以极小的性能损失实现 KV 缓存的极端压缩。通过利用频谱协方差感知旋转，OSCAR 显著降低了长上下文推理的内存占用，使大模型能够在显存有限的硬件上运行并保持精度。",
+        "en": "Researchers have introduced OSCAR (Offline Spectral Covariance-Aware Rotation), a novel method for 2-bit KV cache quantization. The project includes 'RotationZoo,' a repository of precomputed K/V rotation matrices that enable extreme compression of the KV cache with minimal performance degradation. By utilizing spectral covariance-aware rotation, OSCAR significantly reduces the memory footprint of long-context inference, allowing large models to run on hardware with limited VRAM while maintaining accuracy."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tn6v0r/oscar_rotationzoo_offline_spectral/",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "qwen36-agentic-performance",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Qwen3.6 35B 成为本地智能体工作流的首选模型",
+        "en": "Qwen3.6 35B Emerges as Top Choice for Local Agentic Workflows"
+      },
+      "summary": {
+        "zh": "LocalLLaMA 社区的用户测试表明，Qwen3.6 35B A3B 是目前本地智能体（Agent）工作流的领先模型。与 Gemma 4 和 GLM 4.7 Flash 相比，Qwen3.6 在工具调用和多轮推理中表现出卓越的稳定性，避免了同类规模模型中常见的「死循环」问题。即使在使用 IQ4_NL 量化版本时，该模型在复杂智能体任务中仍保持高可靠性，使其成为开发自主本地 AI 智能体的首选。",
+        "en": "User testing within the LocalLLaMA community suggests that Qwen3.6 35B A3B is currently the leading model for local agentic workflows. Compared to Gemma 4 and GLM 4.7 Flash, Qwen3.6 demonstrates superior stability in tool calling and multi-turn reasoning, avoiding the 'looping' issues common in other models of similar size. Even when using IQ4_NL quantizations, the model maintains high reliability for complex agent tasks, positioning it as a top choice for developers building autonomous local AI agents."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tnbz23/is_qwen36_current_king_for_local_agentic_use/",
+      "date": "2026-05-25"
+    }
+  ]
+}
