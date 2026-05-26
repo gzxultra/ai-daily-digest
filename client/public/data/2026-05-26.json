@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-26",
+  "dateLabel": {
+    "zh": "2026年5月26日",
+    "en": "May 26, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-26T17:59:25Z",
+    "elapsedSeconds": 192,
+    "rawArticles": 52,
+    "afterFilter": 45,
+    "afterDedup": 42,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 2,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 3,
+      "The Verge": 1
+    }
+  },
+  "news": [
+    {
+      "id": "ai-coding-quality-slow",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "利用 AI 提升代码质量而非单纯追求开发速度",
+        "en": "Using AI to Prioritize Code Quality Over Development Speed"
+      },
+      "summary": {
+        "zh": "Nolan Lawson 提出，开发者不应利用 AI 盲目追求编码速度，而应利用其探索更多边缘情况并优化架构，从而实现更高质量但速度较慢的产出。这种反直觉的方法挑战了「不惜代价追求效率」的叙事，强调 AI 应作为深度工作的推理伙伴，而非简单的自动补全工具。通过放慢速度，开发者可以利用大模型构建更健壮、更易维护的系统，而这些系统在以往手动设计时往往因过于耗时而被放弃。",
+        "en": "Nolan Lawson argues that instead of using AI to churn out code faster, developers should use it to explore more edge cases and improve architecture, leading to higher quality but slower output. This counter-intuitive approach challenges the productivity at all costs narrative by emphasizing AI as a reasoning partner for deep work rather than a simple autocomplete tool. By slowing down, developers can leverage LLMs to write more robust, maintainable systems that would be too time-consuming to design manually."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "pope-ai-encyclical",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "教皇利奥十四世发布首份关于 AI 伦理治理的通谕",
+        "en": "Pope Leo XIV Issues First Encyclical on Ethical AI Governance"
+      },
+      "summary": {
+        "zh": "教皇利奥十四世发布了他的首份通谕，重点关注人工智能的伦理问题，主张该技术必须为人类的共同利益服务。他警告称，AI 不应成为「少数权势者」巩固财富和影响力的工具，并呼吁建立以人类尊严为优先的全球监管体系。这标志着梵蒂冈在全​​球 AI 治理辩论中进行了一次重大的道德干预，强调社会公正应高于企业利润。",
+        "en": "Pope Leo XIV has issued his first encyclical focusing on the ethics of artificial intelligence, asserting that the technology must serve the common good of humanity. He warned against AI becoming a tool for the powerful few to consolidate wealth and influence, calling for global regulations that prioritize human dignity. This marks a significant moral intervention from the Vatican into the global AI governance debate, emphasizing social justice over corporate profit."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "uber-ai-spending-roi",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Uber 总裁质疑巨额 AI 投资的可持续性",
+        "en": "Uber President Questions Sustainability of Massive AI Investment"
+      },
+      "summary": {
+        "zh": "Uber 总裁对 AI 所需的巨额资本支出表示了日益增长的怀疑，称投资回报率（ROI）正变得越来越难以证明。随着计算资源和专业人才成本的飙升，大型科技公司面临着证明 AI 集成能带来直接盈利的巨大压力。这反映了随着生成式 AI 的最初炒作周期开始降温，市场正转向更广泛的财政务实主义。",
+        "en": "Uber's president expressed growing skepticism regarding the massive capital expenditures required for AI, stating that the return on investment (ROI) is becoming increasingly difficult to justify. As infrastructure costs for compute and specialized talent soar, major tech firms are facing intense pressure to prove that AI integration leads to direct profitability. This reflects a broader market shift toward fiscal pragmatism as the initial hype cycle for generative AI begins to cool."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "claude-macos-kernel-vuln",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Claude 发现 macOS 26.5 中的关键内核漏洞",
+        "en": "Claude Identifies Critical Kernel Vulnerability in macOS 26.5"
+      },
+      "summary": {
+        "zh": "在自动化安全研究中，Anthropic 的 Claude 模型发现了 macOS 26.5 中一个被标识为 CVE-2026-28952 的关键内核漏洞。这一发现突显了大语言模型在闭源操作系统自动化安全审计和复杂漏洞检测方面日益增强的能力。苹果公司已发布紧急补丁，但该事件强调了 AI 在网络安全中的双刃剑特性，以及它颠覆传统漏洞赏金计划的潜力。",
+        "en": "A critical kernel vulnerability in macOS 26.5, identified as CVE-2026-28952, was discovered using Anthropic's Claude model during automated security research. This discovery highlights the growing capability of LLMs in automated security auditing and complex exploit detection within closed-source operating systems. Apple has released an emergency patch, but the incident underscores the dual-use nature of AI in cybersecurity and its potential to disrupt traditional bug bounty programs."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://support.apple.com/en-us/127115",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "wave-portable-gpu-isa",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "WAVE：统一主要硬件厂商的新型便携式 GPU 指令集架构",
+        "en": "WAVE: A New Portable GPU ISA Unifying Major Hardware Vendors"
+      },
+      "summary": {
+        "zh": "一名开发者发布了 WAVE，这是一个便携式 GPU 指令集架构（ISA），旨在弥合 NVIDIA、AMD、Intel 和 Apple 硬件之间的鸿沟。在分析了 16 种微架构的 5000 多页文档后，作者确定了 11 个核心共同点来构建通用工具链。该项目旨在简化跨厂商的 GPU 编程，有望减少开发者对 CUDA 等私有框架的依赖，并促进硬件互操作性。",
+        "en": "A developer has released WAVE, a portable GPU Instruction Set Architecture (ISA) designed to bridge the gap between NVIDIA, AMD, Intel, and Apple hardware. After analyzing over 5,000 pages of documentation across 16 microarchitectures, the creator identified 11 core commonalities to build a universal toolchain. This project aims to simplify cross-vendor GPU programming, potentially reducing developer reliance on proprietary frameworks like CUDA and promoting hardware interoperability."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1to76tv/p_built_a_portable_gpu_isa_after_reading_too_many/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "metr-ai-benchmark-critique",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "纽约大学研究员揭露 METR AI 基准测试中的严重错误",
+        "en": "NYU Researcher Exposes Severe Errors in METR AI Benchmarks"
+      },
+      "summary": {
+        "zh": "纽约大学斯特恩学院的 Nathan Witkin 对 METR AI 时间线图表提出了严厉批评，该图表是评估 AI 能力和安全性的广泛引用的基准。报告声称，该基准包含复合缺陷和数据错误，导致其关于 AI 发展时间线的结论从根本上不可靠。这一批评使全球决策者目前用于评估 AI 生存风险以及通往 AGI 进展速度的指标受到了质疑。",
+        "en": "Nathan Witkin of NYU Stern has published a scathing critique of the METR AI time horizons graph, a widely cited benchmark for assessing AI capabilities and safety. The report claims the benchmark contains compounding flaws and data errors that make its conclusions about AI development timelines fundamentally unreliable. This critique calls into question the metrics currently used by global policy-makers to assess existential AI risks and the pace of progress toward AGI."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "reasoning-model-faithfulness-critique",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "架构性论证：推理模型为何无法实现「忠实推理」",
+        "en": "Architectural Argument Against Faithfulness in Reasoning Models"
+      },
+      "summary": {
+        "zh": "该文章从架构层面论证了当前的推理模型无法实现「忠实推理」（faithful inference），因为它们的推理过程和最终答案源自同一种计算操作。作者通过对 Lanham 和 Turpin 等人的实证研究进行批判，指出推理链条目前仅作为一种「影响」而非「约束」存在。文章对比了 AlphaProof 和 HRM 等不同架构，强调如果不在结构上分离推理与输出，大模型的推理本质上仍是高级模式匹配而非严谨的逻辑演绎。",
+        "en": "This essay argues that current reasoning models cannot perform truly faithful inference because their reasoning traces and final answers are generated through the same computational operation. By engaging with empirical critiques from Lanham and Turpin, the author highlights a fundamental architectural flaw where the 'thought process' is merely an influence rather than a strict constraint. This contrasts with architectures like AlphaProof or HRM, suggesting that without structural separation, LLM reasoning remains a sophisticated form of pattern matching rather than logical deduction."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1toahz3/verbosity_is_not_faithfulness_an_architectural/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "dcgan-microcontroller-riscv",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "纯 C 语言实现：在 RISC-V 微控制器上运行 DCGAN 推理",
+        "en": "DCGAN Inference Implemented on RISC-V Microcontroller in Pure C"
+      },
+      "summary": {
+        "zh": "开发者成功在双核 RISC-V 微控制器（CH32H417）上实现了 DCGAN 推理，采用纯 C 语言编写，输出结果与 PyTorch 参考值完全一致。该实现仅利用 512KB SRAM 运行 1260 万参数的模型，通过 int8 逐通道量化，在 26 秒内生成 64x64 像素的图像。这一成果证明了在不依赖 TFLite 或 CMSIS-NN 等专门库的情况下，在极低功耗硬件上运行复杂生成模型的可行性。",
+        "en": "A developer successfully implemented DCGAN inference on a dual-core RISC-V microcontroller (CH32H417) using pure C, achieving bit-identical results to PyTorch. The implementation manages a 12.6M parameter model within 512KB of SRAM, utilizing int8 per-channel quantization to generate 64x64 images in 26 seconds. This project demonstrates the feasibility of running complex generative models on extremely resource-constrained hardware without relying on specialized libraries like TFLite or CMSIS-NN."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tnhfxp/dcgan_inference_on_a_microcontroller_126m/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "china-ai-talent-travel-restrictions",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "中国限制阿里巴巴与 DeepSeek AI 人才出境",
+        "en": "China Restricts Overseas Travel for AI Talent at Alibaba and DeepSeek"
+      },
+      "summary": {
+        "zh": "据报道，中国正加强对阿里巴巴和 DeepSeek 等顶尖 AI 企业人才的出境限制。此举被视为在全球 AI 竞争加剧背景下，防止人才流失和保护核心知识产权的战略举措。行业分析人士担忧，此类限制可能会阻碍国际学术交流，并对源自中国的开源 AI 研究进度产生负面影响。",
+        "en": "Reports indicate that China is tightening overseas travel restrictions for top AI talent at major firms like Alibaba and DeepSeek. This move is seen as a strategic effort to prevent brain drain and protect sensitive intellectual property amidst intensifying global AI competition. Industry analysts worry that these constraints could hinder international academic exchange and slow down the progress of open-source AI research originating from China."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1to5fj5/china_clamps_down_on_overseas_travel_for_ai/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "tencent-hy-mt2-apache-license",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "腾讯 Hy-MT2 模型正式采用 Apache 2.0 开源协议",
+        "en": "Tencent Releases Hy-MT2 Under Apache License 2.0"
+      },
+      "summary": {
+        "zh": "腾讯正式将其 Hy-MT2 模型切换至 Apache License 2.0 开源协议，取代了此前限制较多的专有条款。这一转变赋予了开发者社区在商业化使用、修改和分发方面的极高自由度。预计此举将加速腾讯翻译及多语言技术在全球开源生态系统中的普及与应用。",
+        "en": "Tencent has officially transitioned its Hy-MT2 model to the Apache License 2.0, moving away from more restrictive proprietary terms. This shift provides the developer community with a highly permissive framework for commercial use, modification, and distribution. The move is expected to accelerate the adoption of Tencent's translation and multilingual technologies within the global open-source ecosystem."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1to6g1d/tencent_hymt2_is_now_under_apache_license_20/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "skillopt-markdown-optimization",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "SkillOpt：将 Markdown 技能文件视为可训练参数",
+        "en": "SkillOpt: Treating Markdown Skills as Trainable Parameters"
+      },
+      "summary": {
+        "zh": "SkillOpt 引入了一个形式化框架，将 Markdown 格式的技能文件视为智能体工作流中的「可训练参数」。该系统利用前沿模型提出受限的编辑建议（增加、删除或替换），并通过严格的验证集进行性能优化。只有能带来显著提升的修改才会被采纳，而被拒绝的尝试则转化为负面信号指导下一轮优化，从而实现了提示词工程（Prompt Engineering）的自动化。",
+        "en": "SkillOpt introduces a formalized framework that treats markdown skill files as trainable parameters within agentic workflows. By using a frontier model to propose bounded edits (add, delete, or replace), the system optimizes agent performance through a rigorous validation process. Only edits that show strict improvement on a held-out validation set are accepted, turning rejected attempts into negative signals for future optimization cycles, effectively automating the prompt engineering process."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1to1mey/skillopt_treats_markdown_skill_files_as_trainable/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "sundar-pichai-verge-interview",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Sundar Pichai 专访：谈 Gemini、AI 智能体与 Web 未来",
+        "en": "Sundar Pichai on Gemini, AI Agents, and the Future of the Web"
+      },
+      "summary": {
+        "zh": "在接受 The Verge 的深度专访中，谷歌 CEO Sundar Pichai 讨论了 I/O 大会后 Gemini 模型在谷歌生态中的战略整合。Pichai 谈到了搜索功能向 AI 驱动的「概览」模式的演进，以及这对开放网络经济模式的潜在影响。他强调了 AI 智能体在自动化复杂任务中的作用，并表示谷歌致力于在 AI 创新与内容创作者生态系统的健康发展之间保持平衡。",
+        "en": "In a comprehensive interview with The Verge, Google CEO Sundar Pichai discussed the strategic integration of Gemini models across Google's ecosystem following the I/O conference. Pichai addressed the evolution of Search toward AI-driven 'overviews' and the potential impact on the open web's economic model. He emphasized the role of AI agents in automating complex tasks and Google's commitment to maintaining a balance between AI innovation and the health of the content creator ecosystem."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
+      "date": "2026-05-26"
+    }
+  ]
+}
