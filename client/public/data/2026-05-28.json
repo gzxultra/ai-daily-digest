@@ -1,0 +1,255 @@
+{
+  "date": "2026-05-28",
+  "dateLabel": {
+    "zh": "2026年5月28日",
+    "en": "May 28, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-28T18:15:23Z",
+    "elapsedSeconds": 166,
+    "rawArticles": 58,
+    "afterFilter": 50,
+    "afterDedup": 47,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 2,
+      "Reddit": 3,
+      "r/MachineLearning": 1,
+      "r/LocalLLaMA": 3,
+      "The Verge": 2
+    }
+  },
+  "news": [
+    {
+      "id": "ai-spend-rationalization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "工程团队转向 AI 成本合理化管理",
+        "en": "Engineering Teams Shift Toward AI Cost Rationalization"
+      },
+      "summary": {
+        "zh": "工程部门正从「不惜一切代价搞 AI」转向严格的成本合理化。The Pragmatic Engineer 指出，企业正通过自上而下和自下而上的努力来削减 Token 开支，同时 Cursor 的数据也显示了开发者习惯的演变。值得注意的是，谷歌云（GCP）在无预警情况下暂停了一家月消费 200 万美元的客户，这预示着随着支出规模扩大，云服务商关系的不确定性也在增加。这一趋势标志着 AI 应用进入了优先考虑投资回报率（ROI）的成熟阶段。",
+        "en": "Engineering departments are shifting from experimental 'AI-at-any-cost' to rigorous cost rationalization. The Pragmatic Engineer highlights top-down and bottom-up efforts to curb token expenditures, alongside data from Cursor showing evolving developer habits. Notably, Google Cloud Platform (GCP) reportedly suspended a $2M/month customer without warning, signaling increased volatility in cloud-provider relationships as spend scales. This trend marks a maturation phase where ROI is prioritized over pure exploration."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-pulse-a-trend-of-trying-to-cut",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "youtube-ai-labeling",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "YouTube 实施 AI 生成内容自动标记机制",
+        "en": "YouTube Implements Automated AI Content Labeling"
+      },
+      "summary": {
+        "zh": "YouTube 宣布了一项新系统，将自动标记 AI 生成的内容，以增强观众透明度和创作者责任。在之前的披露要求基础上，该平台现在将使用自动检测工具来标记逼真的合成媒体。此举旨在解决生成式 AI 工具普及带来的深度伪造和虚假信息担忧。该政策旨在平衡创意创新与构建可信信息生态系统的需求，为其他社交媒体巨头树立了先例。",
+        "en": "YouTube has announced a new system to automatically label AI-generated content to enhance viewer transparency and creator accountability. Building on previous disclosure requirements, the platform will now use automated detection tools to flag realistic synthetic media. This move addresses growing concerns over deepfakes and misinformation as generative AI tools become mainstream. The policy aims to balance creative innovation with the need for a trustworthy information ecosystem, setting a precedent for other social media giants."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "claude-opus-4-8-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 发布 Claude Opus 4.8 增强推理能力",
+        "en": "Anthropic Releases Claude Opus 4.8 with Enhanced Reasoning"
+      },
+      "summary": {
+        "zh": "Anthropic 正式发布了其旗舰大语言模型的最新版本 Claude Opus 4.8。虽然具体的架构变化尚未完全公开，但此次更新重点提升了推理能力，并相比之前的 4.x 版本降低了延迟。早期基准测试显示，该模型在复杂编程任务和长文本检索准确性方面有显著改进。此次发布加剧了 Anthropic、OpenAI 和谷歌在高端前沿模型市场中的竞争。",
+        "en": "Anthropic has officially released Claude Opus 4.8, the latest iteration of its flagship large language model. While specific architectural changes were not fully detailed, the update focuses on enhanced reasoning capabilities and reduced latency compared to previous 4.x versions. Early benchmarks suggest significant improvements in complex coding tasks and long-context retrieval accuracy. This release intensifies the ongoing competition between Anthropic, OpenAI, and Google in the high-end frontier model market."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "monet-dataset-release",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "MONET：全新的 1 亿级高质量开源图像数据集",
+        "en": "MONET: A New 100M+ High-Quality Open Image Dataset"
+      },
+      "summary": {
+        "zh": "Jasper AI 发布了 MONET，这是一个包含 1.049 亿个高质量样本的大型开源图文数据集，采用 Apache 2.0 协议。该数据集通过先进的过滤技术从 29 亿张原始图像中精选而成，包含丰富的描述和元数据。发布内容还包括一份详细介绍策划过程的技术论文和三个配套模型。通过提供高质量、许可宽松的数据，MONET 旨在降低训练鲁棒多模态模型的门槛，同时规避抓取网页数据相关的法律风险。",
+        "en": "Jasper AI has released MONET, a massive open-source image-text dataset containing 104.9 million high-quality samples under the Apache 2.0 license. Refined from an initial pool of 2.9 billion images using advanced filtering techniques, the dataset includes rich captions and metadata. The release includes a technical paper detailing the curation process and three companion models. By providing high-quality, permissively licensed data, MONET aims to lower the barrier for training robust multimodal models without the legal risks associated with scraped web data."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "ai-cuda-kernel-failures",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AI 生成的 CUDA 内核在生产环境中出现故障",
+        "en": "AI-Generated CUDA Kernels Found to Fail in Production"
+      },
+      "summary": {
+        "zh": "一份关于 AI 生成 CUDA 内核的批判性报告显示，来自 NVIDIA SOL-ExecBench 的许多排名靠前的提交在生产环境中失效。研究人员测试了源自 DeepSeek 和 Qwen 等模型的内核，发现它们经常「静默损坏」训练和推理工作流。具体而言，一个融合了嵌入梯度和 RMSNorm 反向传播的内核未能保持数值稳定性，导致梯度损坏。这突显了 AI 辅助系统编程中的「最后一公里」可靠性差距，即语法正确的代码在真实硬件约束下可能会失效。",
+        "en": "A critical report on AI-generated CUDA kernels reveals that many top-ranked submissions from NVIDIA's SOL-ExecBench fail in production environments. Researchers tested kernels derived from models like DeepSeek and Qwen, finding that they often 'silently break' training and inference workflows. Specifically, a fused embedding-gradient and RMSNorm backward pass kernel failed to maintain numerical stability, leading to corrupted gradients. This highlights the 'last mile' reliability gap in AI-assisted systems programming, where syntactically correct code fails under real-world hardware constraints."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "wall-oss-vla-robotics",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Wall-OSS-0.5：具备零样本机器人评估能力的 4B VLA 模型",
+        "en": "Wall-OSS-0.5: 4B VLA Model with Zero-Shot Robot Eval"
+      },
+      "summary": {
+        "zh": "X Square Robot 推出了 Wall-OSS-0.5，这是一个拥有 40 亿参数的视觉-语言-动作（VLA）模型，采用了 Mixture-of-Transformers 布局。该模型基于 3B VLM 骨干网络并配备了专门的动作专家，其独特之处在于报告了在进行任何特定任务微调之前，在 17 个任务的真实机器人上的零样本表现。这种方法为预训练机器人基础模型的泛化能力提供了更透明的视角。该发布还包括开源训练代码，为日益增长的开源机器人研究做出了贡献。",
+        "en": "X Square Robot has introduced Wall-OSS-0.5, a 4-billion parameter Vision-Language-Action (VLA) model featuring a Mixture-of-Transformers layout. Built on a 3B VLM backbone with specialized action experts, the model distinguishes itself by reporting zero-shot performance on real robots across 17 tasks before any task-specific fine-tuning. This approach provides a more transparent look at the generalizability of pre-trained robotic foundations. The release includes open training code, contributing to the growing movement of open-source robotics research."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "agent-lifespan-engineering",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "AgingBench 发布：衡量已部署 AI 智能体的性能衰减",
+        "en": "AgingBench: Measuring the Performance Decay of Deployed AI Agents"
+      },
+      "summary": {
+        "zh": "一项新研究推出了 AgingBench，这是一个旨在衡量编程智能体在长期部署中表现的纵向基准测试。研究发现了一个反直觉的结果：将 Claude Code CLI 智能体从 Sonnet 4.6 升级到 Opus 4.7 后，PyTest 的通过率竟然下降了约 15%。这表明「智能体寿命工程」至关重要，因为模型更新可能会在针对旧版本优化的特定生产工作流中意外导致性能退化。",
+        "en": "A new research paper introduces AgingBench, a longitudinal benchmark designed to measure how coding agents perform over extended deployments. In a surprising finding, researchers observed that upgrading the Claude Code CLI agent from Sonnet 4.6 to Opus 4.7 actually resulted in a 15% drop in PyTest pass rates. This counterintuitive result suggests that 'Agent Lifespan Engineering' is critical, as newer model versions may inadvertently degrade performance in specific production workflows that were optimized for previous iterations."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "zai-zcube-network-architecture",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Zai 联合清华发布 ZCube 架构，大幅降低 GPU 集群网络成本",
+        "en": "Zai and Tsinghua Deploy ZCube to Slash GPU Cluster Networking Costs"
+      },
+      "summary": {
+        "zh": "Zai 在运行 GLM-5.1 编程推理的千卡 GPU 集群上，成功将标准 ROFT 网络架构替换为自主研发的 ZCube 系统。该架构由 Zai 与清华大学及 HarnetsAI 联合开发，生产数据显示其交换机和光模块成本降低了 33%。这一基础设施领域的突破表明，通过优化物理和逻辑网络层，可以显著提升大规模大模型推理集群的成本效益。",
+        "en": "Zai has successfully replaced the standard ROFT network architecture with a custom-built system called ZCube on a 1,000-GPU cluster running GLM-5.1 coding inference. Developed in collaboration with Tsinghua University and HarnetsAI, ZCube has delivered a 33% reduction in switch and optical module costs in production environments. This infrastructure breakthrough demonstrates how optimizing the physical and logical network layers can significantly improve the cost-efficiency of large-scale LLM inference clusters."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tq35a0/zai_replaced_the_network_architecture_running/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "liquid-ai-lfm2-5-8b",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "LiquidAI 发布 LFM2.5-8B-A1B，主打端侧设备部署",
+        "en": "LiquidAI Releases LFM2.5-8B-A1B Optimized for On-Device Use"
+      },
+      "summary": {
+        "zh": "LiquidAI 发布了 LFM2.5-8B-A1B，这是一款拥有 80 亿参数的新型混合架构模型，专为端侧部署设计。该模型基于 LFM2 架构，通过扩展预训练和强化学习，在个人助手任务和复杂工具链调用方面表现出色。「A1B」后缀强调了其极高的运行效率，通过 GGUF 量化，即使在低配硬件上也能流畅运行，旨在为现实生活中的应用提供动力。",
+        "en": "LiquidAI has unveiled LFM2.5-8B-A1B, a new 8-billion parameter hybrid model specifically designed for on-device deployment. Building on the LFM2 architecture, the model features extended pre-training and reinforcement learning to excel at personal assistant tasks and complex tool chaining. The 'A1B' designation highlights its efficiency, allowing it to run on consumer-grade hardware (referred to as 'potatoes') via GGUF quantization while maintaining high performance for real-life applications."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tq8a40/liquidailfm258ba1b_hugging_face/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "vllm-mcp-vulnerability",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "vLLM 及 MCP 核心框架发现安全漏洞",
+        "en": "Security Vulnerability Found in Framework Powering vLLM and MCP"
+      },
+      "summary": {
+        "zh": "在 vLLM、多种模型上下文协议 (MCP) 服务器以及其他主流 LLM 工具所使用的基础框架中发现了一个重大安全漏洞。该漏洞可能影响广泛的本地和生产 AI 环境，引发了关于未经授权访问或执行的担忧。建议开发者和系统管理员立即审计其部署环境，并在社区发布补丁后及时更新，以确保 AI 基础设施的安全。",
+        "en": "A significant security vulnerability has been discovered in a foundational framework utilized by vLLM, various Model Context Protocol (MCP) servers, and other popular LLM tools. The flaw could potentially impact a wide range of local and production AI environments, raising concerns about unauthorized access or execution. Developers and system administrators are advised to audit their deployments and apply necessary patches as the community works to secure the affected infrastructure."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tpp2th/vulnerability_found_in_framework_used_by_vllm/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "ios-27-siri-redesign",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "iOS 27 渲染图曝光：Siri 将迎来类 ChatGPT 式重大改版",
+        "en": "iOS 27 Renders Reveal ChatGPT-Inspired Siri Overhaul"
+      },
+      "summary": {
+        "zh": "据彭博社报道，iOS 27 的渲染图暗示苹果正计划对 Siri 进行大规模重构，使其外观和体验更接近 ChatGPT。新界面据称采用了「Liquid Glass」美学设计和以聊天为中心的布局，摆脱了传统的纯语音交互模式。这些变化反映了苹果将高级生成式 AI 深度集成到 iPhone 核心用户体验中的战略，旨在将 Siri 转变为功能更强、支持多模态的个人智能体。",
+        "en": "Leaked renders for iOS 27, reported by Bloomberg, suggest that Apple is planning a massive redesign of Siri to make it look and feel more like ChatGPT. The new interface reportedly features a 'Liquid Glass' aesthetic and a chat-centric layout, moving away from the traditional voice-only interaction. These changes reflect Apple's strategy to deeply integrate advanced generative AI into the iPhone's core user experience, transforming Siri into a more capable and multimodal personal agent."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/938915/ios-27-siri-renders-bloomberg",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "cnn-perplexity-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "CNN 起诉 Perplexity，指控其侵犯版权并绕过付费墙",
+        "en": "CNN Sues Perplexity Over Copyright and Paywall Bypassing"
+      },
+      "summary": {
+        "zh": "CNN 已在纽约法院对 AI 初创公司 Perplexity 提起诉讼，指控该公司的 AI 工具「逐字」抄袭其新闻文章。诉状还指出，Perplexity 的「回答引擎」和 Comet 浏览器允许用户绕过 CNN 的订阅付费墙访问受限内容。这场法律斗争凸显了主流媒体出版商与 AI 公司之间在版权数据使用及数字订阅模式受损问题上日益加剧的冲突。",
+        "en": "CNN has filed a lawsuit against AI startup Perplexity in a New York court, alleging that the company's AI tools generate 'verbatim' copies of its news articles. The lawsuit also claims that Perplexity's 'answer engine' and Comet browser allow users to access content that is normally locked behind CNN's subscription paywalls. This legal battle highlights the intensifying conflict between major media publishers and AI companies over the use of copyrighted data and the potential disruption of digital subscription models."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit",
+      "date": "2026-05-28"
+    }
+  ]
+}
