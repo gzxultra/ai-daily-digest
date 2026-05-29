@@ -1,0 +1,254 @@
+{
+  "date": "2026-05-29",
+  "dateLabel": {
+    "zh": "2026年5月29日",
+    "en": "May 29, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-29T18:16:20Z",
+    "elapsedSeconds": 192,
+    "rawArticles": 40,
+    "afterFilter": 34,
+    "afterDedup": 31,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 8,
+      "The Verge AI": 1,
+      "Ars Technica": 1,
+      "Google AI Blog": 1,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "llm-fact-check-disagreement",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "顶尖大模型在现实世界事实核查中存在显著分歧",
+        "en": "Frontier LLMs Show Significant Disagreement on Real-World Fact-Checks"
+      },
+      "summary": {
+        "zh": "一项最新研究揭示了 GPT-4 和 Claude 3 等顶尖大模型在进行现实世界事实核查时存在显著差异。尽管这些模型能力先进，但在面对相同的事实查询时经常给出相互矛盾的答案，这凸显了「幻觉」问题的持久挑战以及 AI 领域缺乏统一事实标准的现状。该研究强调了在没有交叉验证的情况下，仅依赖单一模型进行自动化核查任务所面临的风险。",
+        "en": "A new study reveals significant discrepancies among frontier LLMs like GPT-4 and Claude 3 when performing real-world fact-checks. Despite their advanced capabilities, these models often provide conflicting answers to the same factual queries, highlighting the persistent challenge of hallucinations and the lack of a unified ground truth in AI. This research underscores the risks of relying solely on a single model for automated verification tasks without cross-referencing."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://lenz.io/research/llm-disagreement",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "claude-code-hidden-configs",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "源码深度解析揭示 Claude Code 隐藏配置选项",
+        "en": "Deep Dive Reveals Undocumented Configuration Options in Claude Code"
+      },
+      "summary": {
+        "zh": "对 Claude Code 源代码的深入分析揭示了许多官方文档未提及的隐藏配置选项。这些设置允许开发者更精细地调整工具的行为、性能和集成能力。通过探索底层代码库，社区正在发现如何针对特定的企业环境和复杂的开发工作流优化 Anthropic 的这款编程助手，从而提升开发效率。",
+        "en": "An in-depth analysis of the Claude Code source code has uncovered a variety of undocumented configuration settings that go beyond the official documentation. These hidden options allow developers to fine-tune the tool's behavior, performance, and integration capabilities more granularly. By exploring the underlying codebase, the community is discovering how to optimize Anthropic's coding assistant for specific enterprise environments and complex development workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "robot-startup-airbnb-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "旧金山初创公司因在 Airbnb 秘密测试机器人遭起诉",
+        "en": "SF Startup Sued for Unauthorized Robot Testing in Airbnb Rentals"
+      },
+      "summary": {
+        "zh": "一家旧金山机器人初创公司因涉嫌在 Airbnb 房产中进行未经授权的机器人测试而面临诉讼。诉状称，该公司秘密租用房屋来测试其硬件，导致严重的财产损失并「捣毁」了室内设施。此案引发了关于 AI 和机器人现实世界测试边界，以及初创公司在住宅空间运营的法律责任等关键伦理和法律问题。",
+        "en": "A San Francisco-based robotics startup is facing a lawsuit for allegedly conducting unauthorized testing of its robots within Airbnb properties. The legal complaint claims the company secretly rented homes to test its hardware, resulting in significant property damage and trashing the interiors. This case raises critical ethical and legal questions regarding the boundaries of real-world AI and robotics testing and the liability of startups operating in residential spaces."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "ai-job-apocalypse-walkback",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Altman 与 Amodei 修正 AI 引发「就业末日」的预言",
+        "en": "Altman and Amodei Soften Stance on AI-Driven Job Displacement"
+      },
+      "summary": {
+        "zh": "OpenAI 的 Sam Altman 和 Anthropic 的 Dario Amodei 正在显著放缓此前关于 AI 引发「就业末日」的警告。随着两家公司可能都在考虑首次公开募股（IPO），其言论已从激进的劳动力市场颠覆转向更具协作性的「人类-AI 增强」叙事。这一战略转型反映出，他们需要向监管机构和投资者保证生成式 AI 技术对长期经济稳定和社会影响的积极作用。",
+        "en": "OpenAI's Sam Altman and Anthropic's Dario Amodei are notably softening their previous warnings about an AI-driven jobs apocalypse. As both companies potentially eye initial public offerings (IPOs), their rhetoric has shifted from radical labor market disruption to a more collaborative human-AI augmentation narrative. This strategic pivot reflects the need to reassure regulators and investors about the long-term economic stability and societal impact of generative AI technologies."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "real-time-llm-inference-speed",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "推理技术突破：标准 GPU 实现每秒 3000 token 超高速推理",
+        "en": "Breakthrough Achieves 3,000 Tokens/s LLM Inference on Standard GPUs"
+      },
+      "summary": {
+        "zh": "LLM 推理技术取得重大突破，在标准消费级 GPU 上实现了每秒 3,000 个 token 的单请求推理速度。通过优化内存访问并利用新型量化技术，该方法显著降低了实时应用的延迟。这一进展是边缘计算和交互式 AI 的重要里程碑，使得开发者无需专门硬件即可更经济、高效地部署高性能语言模型。",
+        "en": "A breakthrough in LLM inference technology has achieved speeds of 3,000 tokens per second per request on standard consumer-grade GPUs. By optimizing memory access and utilizing novel quantization techniques, this approach significantly reduces latency for real-time applications. This development is a major milestone for edge computing and interactive AI, making high-performance language model deployment more accessible and cost-effective for developers without specialized hardware."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "ai-spending-roi-shock",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 成本高企引发美国企业界「价格冲击」",
+        "en": "Corporate America Faces Sticker Shock Over High AI Costs"
+      },
+      "summary": {
+        "zh": "随着生成式 AI 的最初热潮遭遇高昂的实施和订阅成本，美国企业界正经历「价格冲击」。许多企业发现投资回报（ROI）的实现速度慢于预期，导致其在 AI 支出上采取更谨慎的态度。这种转变正迫使 AI 供应商更好地证明其产品的实际业务价值和成本效益，因为各公司正在严格审查未来财年的技术预算。",
+        "en": "Corporate America is experiencing sticker shock as the initial excitement over generative AI meets the reality of high implementation and subscription costs. Many enterprises are finding that the return on investment (ROI) is slower to materialize than expected, leading to a more cautious approach to AI spending. This shift is forcing AI vendors to better demonstrate tangible business value and cost-efficiency as companies scrutinize their technology budgets for the coming fiscal years."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "claude-code-dynamic-workflows",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Anthropic 为 Claude Code 引入动态工作流",
+        "en": "Anthropic Introduces Dynamic Workflows in Claude Code Agent"
+      },
+      "summary": {
+        "zh": "Anthropic 为其终端 AI 编程助手 Claude Code 推出了「动态工作流」（Dynamic Workflows）。该更新允许智能体根据实时反馈和错误日志自主调整执行路径，而非遵循僵化的指令序列。通过实现实时计划优化，Claude Code 现在能够以更高的成功率处理复杂的多步重构和调试任务。这标志着 AI 从简单的代码补全向完全自主的智能体软件工程演进，由 AI 管理任务的整个生命周期。",
+        "en": "Anthropic has launched Dynamic Workflows for Claude Code, its terminal-based AI coding agent. This update allows the agent to autonomously adjust its execution path based on real-time feedback and error logs, rather than following a rigid sequence of commands. By enabling real-time plan refinement, Claude Code can now handle complex, multi-step refactoring and debugging tasks with significantly higher success rates. This represents a major shift from simple code completion to fully agentic software engineering where the AI manages the entire lifecycle of a task."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "iisc-eureka-machine-nature-ai",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "印度理工学院开发模拟自然问题求解的「尤里卡机器」",
+        "en": "IISc Develops Eureka Machine to Mimic Natural Problem Solving"
+      },
+      "summary": {
+        "zh": "印度理工学院（IISc）的研究人员展示了一台「尤里卡机器」（Eureka machine），旨在模拟自然认知过程进行科学发现。与依赖海量数据的传统深度学习不同，该系统利用物理原理来探索当前 AI 模型难以触及的解空间。该机器旨在弥合模式识别与复杂环境下的真实因果理解之间的鸿沟。这项研究通过模拟自然思维方式，可能会催生出在解决基础科学问题时对数据依赖性更低的高效 AI。",
+        "en": "Researchers at the Indian Institute of Science (IISc) have unveiled a Eureka machine designed to mimic natural cognitive processes for scientific discovery. Unlike traditional deep learning which relies on massive datasets, this system uses physical principles to explore solution spaces that current AI models find inaccessible. The machine aims to bridge the gap between pattern recognition and genuine causal understanding in complex environments. This research could lead to more efficient AI that requires less data to solve fundamental scientific problems by thinking like nature."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "shift-ai-free-cleaning-robot-data",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 初创公司提供免费家政服务以获取机器人训练数据",
+        "en": "Startup Offers Free Home Cleaning to Harvest Robot Training Data"
+      },
+      "summary": {
+        "zh": "AI 初创公司 Shift 推出了一种极具争议的商业模式：提供免费的专业家庭清洁服务，以换取记录整个过程的权利。该公司利用高清摄像头和传感器捕捉人类在吸尘、除尘等任务中的详细动作，用于训练未来的家用机器人。这一举措凸显了机器人导航家庭环境所需的「具身智能」高质量数据的严重短缺。虽然服务是免费的，但它引发了关于为了商业利益而对私人居住空间进行监控的重大隐私担忧。",
+        "en": "AI startup Shift has introduced a provocative business model: offering free professional home cleaning services in exchange for the right to record the entire process. The company uses high-definition cameras and sensors to capture detailed human movements during tasks like vacuuming and dusting to train future household robots. This initiative underscores the critical shortage of high-quality embodied AI data needed for robots to navigate domestic environments. While the service is free, it raises significant privacy concerns regarding the surveillance of private living spaces for commercial gain."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "jqwik-prompt-injection-sabotage",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "开发者通过提示词注入攻击「氛围程序员」导致数据删除",
+        "en": "Developer Sabotages Vibe Coders with Data-Nuking Prompt Injection"
+      },
+      "summary": {
+        "zh": "流行测试库 jqwik 的一名开发者故意在代码库中嵌入了提示词注入攻击，旨在破坏盲目依赖 AI 工具的「氛围程序员」（vibe coders）。隐藏指令会告知 AI 编程助手静默删除应用程序的输出，这可能导致不审核 AI 生成代码的开发者面临数据丢失。这一事件凸显了传统软件工程的严谨性与 LLM 编程助手快速普及之间日益增长的紧张关系，同时也对信任具有敏感环境写入权限的 AI 智能体所固有的安全漏洞发出了警告。",
+        "en": "A developer of the popular testing library jqwik has intentionally embedded a prompt injection attack into the codebase to sabotage vibe coders who rely blindly on AI tools. The hidden instruction tells AI coding agents to silently delete the application's output, potentially causing data loss for developers who do not review AI-generated code. This incident highlights the growing tension between traditional software engineering rigor and the rapid adoption of LLM-based coding assistants. It also serves as a warning about the security vulnerabilities inherent in trusting AI agents with write access to sensitive environments."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "google-gemini-omni-3-5-demos",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "谷歌展示 Gemini Omni 与 Gemini 3.5 的 11 个应用演示",
+        "en": "Google Showcases 11 Demos of Gemini Omni and Gemini 3.5"
+      },
+      "summary": {
+        "zh": "继 Google I/O 2026 发布会后，谷歌发布了 11 个全新的演示视频，展示了 Gemini Omni 和 Gemini 3.5 的实际应用。这些演示重点介绍了模型的低延迟多模态能力，包括实时语音交互、通过实时摄像头馈送进行视觉推理以及高级编码辅助。这些更新使谷歌生态系统成为 OpenAI GPT-4o 的直接竞争对手，专注于移动和 Web 平台的无缝集成。此次发布强调了在日常用户场景中的实用性和响应速度。",
+        "en": "Google has released 11 new demonstration videos showcasing the real-world applications of Gemini Omni and Gemini 3.5, following their announcement at Google I/O 2026. The demos highlight the models' low-latency multimodal capabilities, including real-time voice interaction, visual reasoning through live camera feeds, and advanced coding assistance. These updates position Google's ecosystem as a direct competitor to OpenAI's GPT-4o, focusing on seamless integration across mobile and web platforms. The release emphasizes practical utility and the speed of response in everyday user scenarios."
+      },
+      "source": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "pope-ai-encyclical-magnifica-humanitas",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "教皇发布 AI 通谕，宣称「技术绝非中立」",
+        "en": "Pope Issues AI Encyclical Declaring Technology is Never Neutral"
+      },
+      "summary": {
+        "zh": "教皇利奥十四世发布了一份名为《壮丽的人性》（Magnifica Humanitas）的里程碑式通谕，为人工智能时代提供了道德指南。该文件断言「技术绝非中立」，并呼吁全球团结一致，确保 AI 的发展将人类尊严置于利润或效率之上。它直接面向技术专家和政策制定者，敦促建立伦理框架以防止 AI 加剧社会不平等。这一干预标志着全球 AI 治理对话的一个重要时刻，为技术监管引入了精神和人文主义视角。",
+        "en": "Pope Leo XIV has issued a landmark encyclical titled Magnifica Humanitas (Magnificent Humanity), providing a moral compass for the age of artificial intelligence. The document asserts that technology is never neutral and calls for global solidarity to ensure AI development prioritizes human dignity over profit or efficiency. It addresses technologists and policymakers directly, urging the creation of ethical frameworks that prevent AI from exacerbating social inequality. This intervention marks a significant moment in the global discourse on AI governance, bringing a spiritual and humanist perspective to technical regulation."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "date": "2026-05-29"
+    }
+  ]
+}
