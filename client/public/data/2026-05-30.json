@@ -1,0 +1,253 @@
+{
+  "date": "2026-05-30",
+  "dateLabel": {
+    "zh": "2026年5月30日",
+    "en": "May 30, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-30T16:08:30Z",
+    "elapsedSeconds": 135,
+    "rawArticles": 53,
+    "afterFilter": 45,
+    "afterDedup": 40,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "Wall Street Journal": 1,
+      "TechCrunch": 1,
+      "Reddit r/LocalLLaMA": 4
+    }
+  },
+  "news": [
+    {
+      "id": "mistral-ai-now-summit",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Mistral AI Now 峰会核心要点回顾",
+        "en": "Key Takeaways from the Mistral AI Now Summit"
+      },
+      "summary": {
+        "zh": "Mistral AI 近期举办了「Now Summit」峰会，展示了其在权重开放模型生态和企业级 AI 解决方案方面的重大进展。会议强调了对效率的战略关注，并发布了针对特定行业场景的新微调功能。通过在闭源性能与开源易用性之间保持平衡，Mistral 继续将自己定位为欧洲对抗美国 AI 巨头的主要力量，并强调数据主权和本地化算力的重要性。",
+        "en": "Mistral AI recently held its 'Now Summit,' showcasing significant advancements in its open-weight model ecosystem and enterprise-grade AI solutions. The event highlighted a strategic focus on efficiency and the release of new fine-tuning capabilities designed for specialized industry use cases. By maintaining a balance between proprietary performance and open-source accessibility, Mistral continues to position itself as the primary European alternative to US-based AI giants, emphasizing data sovereignty and localized compute."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "anthropic-valuation-milestone",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 估值超越 OpenAI 登顶全球",
+        "en": "Anthropic Surpasses OpenAI in Market Valuation"
+      },
+      "summary": {
+        "zh": "在 AI 行业的一次历史性转变中，据报道 Anthropic 已超越 OpenAI 成为全球估值最高的 AI 初创公司。这一估值飙升紧随 Claude 4 系列模型的巨大成功，该系列在安全性和复杂推理方面树立了新标杆。投资者正越来越多地转向 Anthropic 的「宪法 AI」路线，在 OpenAI 近期经历领导层变动和战略调整后，将其视为更稳定、更适合企业级应用的替代方案。",
+        "en": "In a historic shift for the AI industry, Anthropic has reportedly surpassed OpenAI to become the world's most valuable AI startup. This valuation surge follows the massive success of the Claude 4 model family, which set new benchmarks in safety and complex reasoning. Investors are increasingly pivoting toward Anthropic's 'Constitutional AI' approach, viewing it as a more stable and enterprise-ready alternative following recent leadership transitions and strategic pivots at OpenAI."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "liquid-ai-8b-moe",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Liquid AI 发布基于 38 万亿 Token 训练的 8B MoE 模型",
+        "en": "Liquid AI Unveils 8B-A1B MoE Model Trained on 38T Tokens"
+      },
+      "summary": {
+        "zh": "Liquid AI 宣布推出 LFM 2.5 8B-A1B，这是一款基于惊人的 38 万亿 token 训练的混合专家（MoE）模型。该模型采用独特的液态基础模型架构，拥有 80 亿总参数，但推理时仅需激活 10 亿参数，极大地降低了计算成本。此次发布展示了其在长文本窗口任务和实时推理方面的卓越性能，挑战了传统 Transformer 架构在 100 亿参数以下级别的效率极限。",
+        "en": "Liquid AI has announced the LFM 2.5 8B-A1B, a Mixture-of-Experts (MoE) model trained on a staggering 38 trillion tokens. Utilizing the unique Liquid Foundation Model architecture, the model features 8 billion total parameters but only activates 1 billion during inference, drastically reducing computational costs. This release demonstrates superior performance in long-context window tasks and real-time reasoning, challenging the efficiency of traditional Transformer-based architectures in the sub-10B parameter class."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "tiny-vllm-release",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Tiny-vLLM：高性能 C++/CUDA 推理引擎发布",
+        "en": "Tiny-vLLM: High-Performance C++/CUDA Inference Engine"
+      },
+      "summary": {
+        "zh": "Tiny-vLLM 是一个全新的开源项目，提供完全由 C++ 和 CUDA 实现的高性能大模型推理引擎。它旨在作为重度依赖 Python 的 vLLM 的轻量级替代方案，专注于减少内存开销并最大化边缘设备部署的吞吐量。通过剥离非核心依赖，Tiny-vLLM 在 Llama 3 和 Mistral 等主流模型上实现了更快的冷启动速度和更高的资源利用率，非常适合高密度服务环境。",
+        "en": "Tiny-vLLM is a new open-source project providing a high-performance LLM inference engine implemented entirely in C++ and CUDA. It aims to offer a lightweight alternative to the Python-heavy vLLM, focusing on reducing memory overhead and maximizing throughput for deployment on edge devices. By stripping away non-essential dependencies, Tiny-vLLM achieves faster cold-start times and better resource utilization for popular models like Llama 3 and Mistral, making it ideal for high-density serving environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/jmaczan/tiny-vllm",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "shift-robot-training-data",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Shift 通过免费家政服务获取机器人训练数据",
+        "en": "Shift Offers Free Cleaning to Harvest Robot Training Data"
+      },
+      "summary": {
+        "zh": "AI 初创公司 Shift 推出了一种新颖的数据采集策略：通过提供免费的专业家政清洁服务，换取记录物理交互数据的权利。人类清洁工穿着专门的传感器套装并佩戴摄像头，以捕捉训练下一代通用家用机器人所需的高保真空间和触觉数据。此举凸显了业界对高质量、真实世界「具身智能」数据集的渴求，这类数据无法通过合成或从互联网抓取获得。",
+        "en": "AI startup Shift has introduced a novel data collection strategy by offering free professional home cleaning services in exchange for recording physical interaction data. Human cleaners wear specialized sensor suits and cameras to capture high-fidelity spatial and tactile data required to train the next generation of general-purpose household robots. This move highlights the growing desperation for high-quality, real-world 'embodied AI' datasets that cannot be synthesized or scraped from the internet."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "hy3-llm-mystery",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "神秘模型 Hy3 横扫 OpenRouter 排行榜",
+        "en": "Mysterious Hy3 Model Dominates OpenRouter Rankings"
+      },
+      "summary": {
+        "zh": "一款名为「Hy3」的神秘大语言模型意外登顶 OpenRouter 模型排行榜，表现超越了 GPT-4o 等行业领先模型。初步测试表明，Hy3 在复杂编程任务和逻辑演绎方面拥有卓越能力，但其开发者身份目前仍处于保密状态。AI 社区对此议论纷纷，猜测 Hy3 可能是某大型实验室的秘密发布，或者是某个资金充足的去中心化研究组织的突破性成果。",
+        "en": "A mysterious new large language model named 'Hy3' has unexpectedly claimed the top spot on the OpenRouter Model Rankings, outperforming industry leaders like GPT-4o. Early testing indicates that Hy3 possesses exceptional capabilities in complex coding tasks and logical deduction, though its developer remains anonymous. The AI community is buzzing with speculation that Hy3 could be a stealth release from a major lab or a breakthrough from a well-funded decentralized research collective."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "corporate-ai-rationing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "由于成本飙升，美国企业开始限制 AI 使用权限",
+        "en": "Corporate America Begins Rationing AI Access as Costs Surge"
+      },
+      "summary": {
+        "zh": "随着生成式 AI 的热潮转向长期运营现实，由于订阅和计算成本飙升，美国各大企业开始限制 AI 工具的使用。据《华尔街日报》报道，企业正在实施严格的使用配额，并将高价值用例置于普通员工访问之上。这一转变标志着 AI 采用过程中「不惜一切代价增长」阶段的结束，企业开始进入财政纪律阶段，迫使供应商更严格地证明投资回报率（ROI）。",
+        "en": "As the initial hype surrounding generative AI transitions into long-term operational reality, major American corporations are beginning to ration access to AI tools due to skyrocketing subscription and compute costs. A Wall Street Journal report highlights that companies are implementing strict usage quotas and prioritizing high-value use cases over general employee access. This shift marks a critical turning point where the 'growth at all costs' phase of AI adoption meets fiscal discipline, forcing vendors to justify ROI more rigorously."
+      },
+      "source": "Wall Street Journal",
+      "sourceUrl": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "robinhood-ai-trading",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Robinhood 推出支持 AI 智能体执行股票交易的 API",
+        "en": "Robinhood Launches API for AI Agents to Execute Stock Trades"
+      },
+      "summary": {
+        "zh": "Robinhood 正式推出了一项新功能，允许自主 AI 智能体通过专用 API 代表用户执行股票交易。此举将智能体工作流直接引入零售金融领域，使开发者能够构建由大语言模型驱动的高级自动化交易策略。虽然这为零售投资者提供了前所未有的自动化能力，但也引发了关于市场波动以及在没有人工直接干预下执行的「幻觉」交易法律责任的重大担忧。",
+        "en": "Robinhood has officially launched a new capability allowing autonomous AI agents to execute stock trades on behalf of users via a dedicated API. This move integrates agentic workflows directly into retail finance, enabling developers to build sophisticated automated trading strategies powered by LLMs. While it offers unprecedented automation for retail investors, it also raises significant concerns regarding market volatility and the legal liability of 'hallucinated' trades executed without direct human intervention."
+      },
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "qwen-36-performance-4060ti",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Qwen 3.6 在双 RTX 4060 Ti 配置下达到 125 tok/s 惊人速度",
+        "en": "Qwen 3.6 Hits 125 tok/s on Dual RTX 4060 Ti Setup"
+      },
+      "summary": {
+        "zh": "r/LocalLLaMA 社区的一位用户报告称，在双 NVIDIA RTX 4060 Ti 配置上运行 Qwen 3.6 q4xl 模型时，达到了惊人的每秒 125 个 token（tok/s）。该配置以不到 1000 美元的成本提供了 32GB 显存，功耗约为 300 瓦，性能显著优于 2026 年推出的更昂贵的迷你 PC。该基准测试证明了消费级多 GPU 配置在本地高速推理中的持续生命力，尤其是在配合最新的 CUDA 13.3 优化时。",
+        "en": "A user on r/LocalLLaMA reported achieving a remarkable 125 tokens per second (tok/s) running the Qwen 3.6 q4xl model on a dual NVIDIA RTX 4060 Ti setup. This configuration provides 32GB of VRAM for under $1,000 with a power draw of approximately 300 watts, significantly outperforming much more expensive 2026-era mini PCs. The benchmark demonstrates the continued viability of consumer-grade multi-GPU setups for high-speed local inference, especially when leveraging the latest CUDA 13.3 optimizations."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tryp2q/125_toks_for_qwen36_q4xl_on_2x_4060ti_is_insane/",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "gpu-spec-reality-check",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "硬件现实参考：对比 Mac 与 PC 在本地 LLM 运行中的表现",
+        "en": "Hardware Reality Check: Comparing Mac vs. PC for Local LLMs"
+      },
+      "summary": {
+        "zh": "一份关于现代 AI 硬件的全面技术对比在本地 LLM 社区引发了关于 Mac 与 PC 配置性价比的讨论。分析指出，虽然 Mac Studio 提供高统一内存，但其单位算力成本（$/TFLOP）和带宽指标通常落后于使用多显卡的组装 PC。该数据为买家提供了参考，强调了原始算力（FP16 TFLOPS）和内存带宽仍然是大规模本地模型推理的主要瓶颈。",
+        "en": "A comprehensive technical comparison of modern AI hardware has sparked debate in the local LLM community regarding the price-to-performance ratio of Mac vs. PC setups. The analysis highlights that while Mac Studio models offer high unified memory, their $/TFLOP and bandwidth metrics often lag behind custom PC builds using multiple GPUs. The data serves as a guide for buyers, emphasizing that raw compute (FP16 TFLOPS) and memory bandwidth remain the primary bottlenecks for large-scale local model inference."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1trkze4/i_compared_all_specs_of_the_major_gpusmachines/",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "pantheon-reasoning-27b",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Pantheon-Reasoning-27B：为角色扮演模型引入逻辑推理能力",
+        "en": "Pantheon-Reasoning-27B: Bringing Logic to Roleplay Models"
+      },
+      "summary": {
+        "zh": "开发者 Gryphe 在 Hugging Face 上发布了 Pantheon-Reasoning-27B，这是一个基于 Qwen 3.6 架构的新实验模型。该模型旨在将高级推理能力整合到广受欢迎的 Pantheon 角色扮演系列中，利用了包括此前 Codex 版本在内的多样化数据集。作为一个无审查的稠密模型，它代表了在将创意叙事生成与复杂多步交互场景所需的逻辑一致性相结合方面迈出的重要一步。",
+        "en": "Developer Gryphe has released Pantheon-Reasoning-27B, a new experimental model on Hugging Face based on the Qwen 3.6 architecture. This model aims to integrate advanced reasoning capabilities into the popular Pantheon roleplay series, utilizing a diverse dataset that includes elements from the previous Codex release. As an uncensored dense model, it represents a significant step in combining creative narrative generation with the logical consistency required for complex, multi-step interaction scenarios."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1trvo30/gryphepantheonreasoning27b_hugging_face/",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "prompt-injection-sabotage",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "开发者嵌入「删库」提示注入以对抗 AI 依赖型程序员",
+        "en": "Developer Embeds Data-Nuking Prompt Injections to Counter 'Vibe Coders'"
+      },
+      "summary": {
+        "zh": "在一次凸显传统软件工程与依赖 AI 的「氛围编程」（vibe coding）之间紧张关系的争议性事件中，据报道一名开发者在其代码库中嵌入了具有破坏性的提示注入指令。该注入旨在当 AI 助手在没有人工监督的情况下尝试重构或处理代码时触发破坏性操作。这一事件强调了自主编程智能体的安全风险，以及开发者在试图保护其作品免受未经核实的 AI 修改时可能面临的法律诉讼。",
+        "en": "In a controversial move highlighting the tension between traditional software engineering and AI-reliant 'vibe coding,' a developer reportedly embedded data-nuking prompt injections into their codebase. The injection is designed to trigger destructive actions if an AI assistant attempts to refactor or process the code without human oversight. This incident underscores the security risks of autonomous coding agents and the potential for legal battles as developers seek to protect their work from unverified AI modifications."
+      },
+      "source": "Reddit r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1trdnap/fed_up_with_vibe_coders_dev_sneaks_datanuking/",
+      "date": "2026-05-30"
+    }
+  ]
+}
