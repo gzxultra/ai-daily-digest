@@ -1,0 +1,253 @@
+{
+  "date": "2026-05-31",
+  "dateLabel": {
+    "zh": "2026年5月31日",
+    "en": "May 31, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-05-31T16:14:54Z",
+    "elapsedSeconds": 153,
+    "rawArticles": 41,
+    "afterFilter": 30,
+    "afterDedup": 28,
+    "dedupRemoved": 2,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "Reddit": 4,
+      "Simon Willison": 1,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "ai-job-grief-crisis",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 职业哀伤：席卷科技从业者的心理危机",
+        "en": "AI job grief: A psychological crisis hitting tech workers"
+      },
+      "summary": {
+        "zh": "科技行业正面临「AI 职业哀伤」危机，这是一种由于 AI 自动化核心专业任务而导致从业者产生深层失落感的心理现象。除了对失业的恐惧，这场危机还涉及职业身份的侵蚀以及人类专业知识被贬值的认知。分析指出，随着 AI 能力的扩展，科技部门必须应对快速替代带来的心理健康影响。这种转变要求在日益自动化的经济背景下，就人机协作和人类劳动内在价值建立新的社会契约。",
+        "en": "The tech industry is witnessing a surge in 'AI job grief,' a psychological phenomenon where workers experience profound loss as AI automates core professional tasks. Beyond simple unemployment fears, this crisis involves the erosion of professional identity and the perceived devaluation of human expertise. Analysts suggest that as AI capabilities expand, the tech sector must address the mental health implications of rapid displacement. This shift necessitates a new social contract regarding human-AI collaboration and the intrinsic value of human labor in an increasingly automated economy."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://jackmaguire.org/blog/ai-job-grief/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "datacenter-gpu-gaming-pc",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "开发者将 200 英镑的数据中心显卡接入游戏电脑",
+        "en": "Developer integrates £200 datacenter GPU into gaming PC"
+      },
+      "summary": {
+        "zh": "一位开发者成功将一块特斯拉 V100 数据中心显卡改装到标准游戏电脑中，成本仅约 200 英镑。该项目涉及定制散热方案和驱动程序修改，以克服企业级硬件缺乏视频输出和高散热需求的问题。这种「硬核改装」为获取 16GB 或 32GB HBM2 显存提供了一种极具性价比的途径，这对于运行大型本地大语言模型（LLM）至关重要。这反映了爱好者利用折旧企业硬件构建强大本地 AI 工作站的趋势。",
+        "en": "A hobbyist successfully repurposed a Tesla V100 datacenter GPU for use in a standard gaming PC for approximately £200. The project involved custom cooling solutions and driver modifications to bypass the lack of video output and high thermal demands of enterprise hardware. This hack provides a cost-effective way to access 16GB or 32GB of HBM2 VRAM, which is essential for running large local LLMs. It highlights a growing movement of enthusiasts leveraging depreciated enterprise hardware to build powerful local AI workstations on a budget."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.tymscar.com/posts/v100localllm/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "rsync-claude-commits",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Rsync 3.4.3 版本包含数百个 Claude AI 提交",
+        "en": "Rsync 3.4.3 release features hundreds of Claude AI commits"
+      },
+      "summary": {
+        "zh": "Rsync 3.4.3 版本的发布引起了广泛关注，因为其中包含了数百个由 Anthropic 的 Claude AI 生成或辅助的提交。这是迄今为止 AI 生成代码集成到基础开源工具中最显著的案例之一。虽然这展示了利用大模型进行维护和重构的效率提升，但也引发了开发者社区关于代码质量和安全审计的辩论。在关键基础设施维护中依赖 AI，标志着老旧项目软件工程工作流发生了重大转变。",
+        "en": "The release of Rsync 3.4.3 has drawn attention for containing hundreds of commits attributed to or assisted by Anthropic's Claude AI. This represents one of the most significant integrations of AI-generated code into a foundational open-source utility to date. While it demonstrates the efficiency gains of using LLMs for maintenance and refactoring, it also sparks debate within the developer community regarding code quality and security auditing. The reliance on AI for critical infrastructure maintenance marks a pivotal shift in software engineering workflows for legacy projects."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://mastodon.gamedev.place/@JeremiahFieldhaven/116654345332213390",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "ai-grifters-tiktok-shein",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "AI 虚假人格在 TikTok 上推销 Shein 廉价商品",
+        "en": "AI-generated personas used to sell Shein products on TikTok"
+      },
+      "summary": {
+        "zh": "诈骗者正越来越多地在 TikTok Shop 上利用 AI 生成的黑人形象来推销快时尚巨头 Shein 的低质量产品。这些「数字傀儡」旨在利用文化信任和审美趋势，同时规避真人网红的高昂成本。这种被称为新形式「数字涂黑脸」的行为，引发了关于代表性和消费者欺骗的严重伦理担忧。这凸显了社交电商平台监管的紧迫性，以及对 AI 生成商业内容制定更明确法规的需求。",
+        "en": "Scammers are increasingly using AI-generated Black personas on TikTok Shop to market low-quality products from fast-fashion giant Shein. These 'digital puppets' are designed to exploit cultural trust and aesthetic trends without the costs associated with human influencers. This practice, often labeled as a new form of 'digital blackface,' raises significant ethical concerns regarding representation and consumer deception. It highlights the urgent need for platform moderation and clearer regulations on AI-generated commercial content in social commerce."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "rotary-gpu-moe-vram",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Rotary GPU：在有限显存下运行大型 MoE 模型",
+        "en": "Rotary GPU: Running large MoE models on limited VRAM"
+      },
+      "summary": {
+        "zh": "一篇名为《Rotary GPU》的新研究论文提出了一种在显存有限的消费级硬件上执行大型混合专家（MoE）模型的新方法。该技术优化了系统内存与 GPU 显存之间专家权重的动态交换，从而最大限度地减少推理延迟。通过降低高参数模型的硬件门槛，这项研究有望显著推动先进 AI 能力的普及。初步结果显示，在内存受限的环境中，该方法比传统的卸载方式有显著的性能提升。",
+        "en": "A new research paper titled 'Rotary GPU' proposes a novel method for executing large Mixture-of-Experts (MoE) models on consumer-grade hardware with limited VRAM. The technique optimizes the dynamic swapping of expert weights between system RAM and GPU memory, minimizing latency during inference. By reducing the hardware barrier for high-parameter models, this research could significantly democratize access to advanced AI capabilities. Preliminary results show substantial performance improvements over traditional offloading methods in memory-constrained environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2605.29135",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "meta-ai-pendant-wearable",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "据传 Meta 正在开发用于环境辅助的 AI 吊坠",
+        "en": "Meta reportedly developing AI pendant for ambient assistance"
+      },
+      "summary": {
+        "zh": "据报道，Meta 正在开发一款可穿戴 AI 吊坠，表明其意图在蓬勃发展的「环境 AI」硬件市场中竞争。预计该设备将利用 Meta 的 Llama 系列模型，为用户提供实时语音辅助和多模态环境感知。此举紧随 Humane 和 Rabbit 等初创公司的类似尝试，但 Meta 拥有庞大的生态系统和深厚的 AI 研究底蕴。如果取得成功，这款吊坠可能会重新定义用户在传统屏幕界面之外与 AI 交互的方式，迈向后智能手机时代。",
+        "en": "Meta is reportedly developing a wearable AI pendant, signaling its intent to compete in the burgeoning 'ambient AI' hardware market. The device is expected to leverage Meta's Llama family of models to provide users with real-time voice assistance and multimodal environmental awareness. This move follows similar attempts by startups like Humane and Rabbit, but with the advantage of Meta's massive ecosystem and AI research depth. If successful, the pendant could redefine how users interact with AI outside of traditional screen-based interfaces, moving toward a post-smartphone era."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "stepfun-37-flash-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Stepfun 3.7 Flash 成为高效本地视觉大模型新宠",
+        "en": "Stepfun 3.7 Flash Emerges as High-Efficiency Local Vision-LLM"
+      },
+      "summary": {
+        "zh": "Stepfun 3.7 Flash 在本地大模型领域表现出色，其参数量仅为 GLM 5.1 的 25%，却内置了视觉能力。社区对官方 Q4_X_S 量化版本的测试显示，它在 3D 世界理解力上达到了 GLM 5.1 的 80% 左右，且在 RAM 占用方面极具优势。这使其成为硬件受限但需要多模态性能用户的首选，在有限的显存环境下提供了极具竞争力的推理质量。",
+        "en": "Stepfun 3.7 Flash has emerged as a high-efficiency contender in the local LLM space, offering built-in vision capabilities with only 25% of the parameters of GLM 5.1. Early community testing of the official Q4_X_S quantization shows it achieves approximately 80% of GLM 5.1's 3D world understanding while maintaining superior RAM efficiency. This model is being positioned as a top-tier choice for users with limited hardware who require multimodal performance without the overhead of massive parameter counts."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tss9nq/stepfun_37_flash_is_very_good/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "gemma-4-abliteration-benchmarks",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "13 种 Gemma 4 E2B 拒绝机制消除变体基准测试发布",
+        "en": "Benchmark Analysis of 13 Abliterated Gemma 4 E2B Variants"
+      },
+      "summary": {
+        "zh": "针对 13 种 Gemma 4 E2B 拒绝机制消除（abliterated）变体的基准测试揭示了安全性与能力权衡的关键数据。在 RTX 5090 上经过 44 小时测试，结果显示 coder3101 变体在实现 96% 攻击成功率（ASR）的同时，完全保留甚至提升了数学能力。相比之下，treadon 变体虽达到 100% ASR，但在 GSM8K 评分上下降了 3 分，凸显了模型「解禁」过程中的性能损耗风险。",
+        "en": "A comprehensive benchmark of 13 abliterated Gemma 4 E2B variants reveals critical data on safety-capability trade-offs, following 44 GPU hours of testing on an RTX 5090. The study found that coder3101's variant achieves a 96% Attack Success Rate (ASR) while fully preserving or even improving math capabilities. In contrast, the treadon variant reached 100% ASR but suffered a 3-point drop in GSM8K scores, highlighting how aggressive uncensoring can inadvertently degrade core model logic."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "dell-xps-nvidia-n1x",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "戴尔确认将推出搭载 NVIDIA N1X 芯片的 XPS 笔记本",
+        "en": "Dell Confirms XPS Laptop with NVIDIA N1X for Consumer AI"
+      },
+      "summary": {
+        "zh": "戴尔在 Computex 2026 上确认将推出搭载 NVIDIA N1X 芯片的 XPS 笔记本电脑。该设备被描述为面向消费者的 Windows 版 DGX Spark GB10，旨在将企业级 AI 计算能力引入便携式设备，目标直指本地大模型开发和高端推理需求。此举标志着 PC 市场的一个重大转变，制造商正竞相在消费级硬件上直接支持日益增长的本地 AI 工作负载。",
+        "en": "Dell has confirmed the upcoming release of an XPS laptop equipped with NVIDIA's N1X chip at Computex 2026, effectively bringing a consumer-grade version of the DGX Spark GB10 to Windows users. This hardware integration aims to provide enterprise-level AI compute power in a portable form factor, targeting local LLM development and high-end inference. The move signals a major shift in the PC market as manufacturers race to support increasingly demanding local AI workloads directly on consumer hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tsifgs/dell_confirms_xps_laptop_with_nvidia_n1x_at/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "flash-attention-rdna3-llamacpp",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 在 RDNA3 架构下实现 Flash Attention：显存占用降低 47%",
+        "en": "Flash Attention on RDNA3 Reduces KV VRAM by 47% in llama.cpp"
+      },
+      "summary": {
+        "zh": "针对 AMD RDNA3 架构的 llama.cpp Flash Attention 新实现显著提升了效率，相比标准 Vulkan f16 减少了 47% 的 KV 显存占用。该技术利用原生的 sudot4 点积指令将四个 8 位 K 值打包进 32 位格式，在 F16 K / q4_0 V 缓冲区上实现了近乎无损的质量。这一优化使得 AMD 显卡用户能够在不牺牲输出质量的前提下，运行规模大得多的上下文窗口。",
+        "en": "A new Flash Attention implementation for llama.cpp on AMD RDNA3 architecture achieves a 47% reduction in KV VRAM usage compared to standard Vulkan f16. By utilizing the native sudot4 dot-product instruction to pack four 8-bit K values into a single 32-bit format, the method maintains near-lossless quality on F16 K / q4_0 V buffers. This optimization allows AMD GPU users to run significantly larger context windows without the typical quality degradation associated with lossy KV quantization."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tss1ca/flash_attention_for_llamacpp_on_rdna3_47_less_kv/",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "containing-claude-security",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "跨产品集成中安全隔离 Claude 的架构策略",
+        "en": "Architectural Strategies for Containing Claude Across Products"
+      },
+      "summary": {
+        "zh": "Simon Willison 探讨了在不同软件产品集成中安全「隔离」Claude 的技术方法论。重点在于构建强大的沙箱环境和实施提示词注入防御，以确保模型的自主行为始终保持在安全参数内。对于正在构建 LLM 与敏感数据或外部 API 交互的复杂应用的开发者来说，这一分析至关重要，为可靠且安全的 AI 部署提供了框架。",
+        "en": "Simon Willison explores the technical methodologies required to securely contain Claude when integrated into various software products. The focus is on building robust sandboxing environments and implementing defenses against prompt injection to ensure the model's autonomous actions remain within safe parameters. This analysis is crucial for developers building complex applications where LLMs interact with sensitive data or external APIs, providing a framework for reliable and secure AI deployment."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "date": "2026-05-31"
+    },
+    {
+      "id": "latent-space-aie-workflows",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "AI 工作流中前线部署工程师（FDE）的兴起",
+        "en": "The Rise of Forward Deployed Engineers in AI Workflows"
+      },
+      "summary": {
+        "zh": "Latent Space 强调了 AI 行业向 AI 工程师（AIE）工作流中前线部署工程师（FDE）等专业角色的转变。随着市场重心从基础模型研究转向实际的企业应用，FDE 在根据特定业务需求定制智能体系统方面变得不可或缺。报告强调了这些角色如何重新定义软件工程生命周期，重点是将自主智能体集成到现有的企业基础设施中。",
+        "en": "Latent Space highlights a shift in the AI industry toward specialized roles like Forward Deployed Engineers (FDEs) within the AI Engineer (AIE) workflow. As the market moves from foundational model research to practical enterprise application, FDEs are becoming essential for tailoring agentic systems to specific business needs. The report emphasizes how these roles are redefining the software engineering lifecycle, focusing on the integration of autonomous agents into existing corporate infrastructures."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "date": "2026-05-31"
+    }
+  ]
+}
