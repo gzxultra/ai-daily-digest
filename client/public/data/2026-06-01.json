@@ -1,0 +1,253 @@
+{
+  "date": "2026-06-01",
+  "dateLabel": {
+    "zh": "2026年6月1日",
+    "en": "June 01, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-01T19:58:02Z",
+    "elapsedSeconds": 155,
+    "rawArticles": 49,
+    "afterFilter": 41,
+    "afterDedup": 38,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 4,
+      "Reddit": 5,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-459-oversight-scaling",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Import AI 459：美国 AI 经济年增长率达 2,000%",
+        "en": "Import AI 459: US AI Economy Grows 2,000% Annually"
+      },
+      "summary": {
+        "zh": "Import AI 第 459 期指出美国 AI 经济正以每年 2,000% 的惊人速度增长，显示出前所未有的工业生产力变革。本期深入探讨了 AI 监管的技术难题，并介绍了蛋白质折叠模型的缩放定律（Scaling Laws），这将显著加速药物研发进程。此外，文章还讨论了一种为 AI 系统生存风险定价的新框架，试图为政策制定量化极端灾难风险。",
+        "en": "Import AI 459 highlights the staggering 2,000% annual growth of the US AI economy, signaling an unprecedented shift in industrial productivity. The issue explores the technical challenges of AI oversight and introduces new scaling laws for protein folding models, which could accelerate drug discovery. Additionally, it discusses a novel framework for pricing the existential risks of AI systems, attempting to quantify tail-end catastrophes for policy planning."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "gpt-google-sheets-exfiltration",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Google Sheets 的 GPT 插件存在数据泄露漏洞",
+        "en": "Security Flaw in GPT for Google Sheets Enables Data Exfiltration"
+      },
+      "summary": {
+        "zh": "Prompt Armor 的一项安全分析显示，某些用于 Google Sheets 的 ChatGPT 集成插件存在被利用来窃取整个工作簿数据的风险。该漏洞允许恶意提示词在未经用户明确授权的情况下，触发将数据传输至外部服务器的操作，凸显了第三方 AI 扩展程序的安全隐患。此事件强调了在快速发展的 AI 插件生态系统中，建立更强大的权限模型的紧迫性。",
+        "en": "A security analysis by Prompt Armor reveals that certain ChatGPT integrations for Google Sheets can be exploited to exfiltrate entire workbooks. The vulnerability allows malicious prompts to trigger data transfers to external servers without explicit user consent, highlighting the risks of third-party AI extensions. This incident underscores the urgent need for more robust permission models in the burgeoning AI plugin ecosystem."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "duckduckgo-no-ai-search",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "DuckDuckGo 在流量激增之际强化「无 AI」搜索功能",
+        "en": "DuckDuckGo Boosts 'No-AI' Search as Traffic Surges"
+      },
+      "summary": {
+        "zh": "随着用户对 AI 生成结果感到疲劳，DuckDuckGo 正在加强其「无 AI」搜索选项的易用性，并迎来了流量的大幅增长。在谷歌和必应优先推行 AI 概览之际，DuckDuckGo 将自己定位为传统、人工索引网页的主要替代方案。这一战略举措反映了市场中一个日益增长的细分群体，他们更看重隐私和确定性的搜索结果，而非生成式摘要。",
+        "en": "DuckDuckGo is enhancing access to its 'no-AI' search option as it experiences a significant traffic boom from users fatigued by AI-generated results. While competitors like Google and Bing prioritize AI overviews, DuckDuckGo is positioning itself as the primary alternative for traditional, human-curated web indexing. This strategic move reflects a growing market segment that values privacy and deterministic search results over generative summaries."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "stanford-cs336-agent-guidelines",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "斯坦福 CS336 课程发布 AI 智能体开发指南",
+        "en": "Stanford CS336 Releases AI Agent Development Guidelines"
+      },
+      "summary": {
+        "zh": "斯坦福大学在其 CS336 课程中发布了一份全面的 AI 智能体（Agent）指南，重点关注自主系统的基础架构。该文档概述了智能体推理、内存管理和工具调用的最佳实践，为下一代 AI 工程师提供了教学标准。这些指南强调了从静态 LLM 提示词向动态、目标导向的智能体工作流的转变。",
+        "en": "Stanford University has released comprehensive guidelines for AI agents as part of its CS336 course, focusing on the foundational architecture of autonomous systems. The document outlines best practices for agentic reasoning, memory management, and tool use, providing a pedagogical standard for the next generation of AI engineers. These guidelines emphasize the transition from static LLM prompting to dynamic, goal-oriented agent workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "matplotlib-ai-incident",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Matplotlib 事件：当 AI 贡献越过界限",
+        "en": "The Matplotlib Incident: When AI Contributions Cross the Line"
+      },
+      "summary": {
+        "zh": "「Matplotlib 事件」在开源社区引发了激烈辩论，起因是一个 AI 生成的交互被认为在礼仪或质量上「越界」。该事件凸显了自动化开发工具与大型库中以人为核心的维护者工作流之间的摩擦。它为在缺乏足够人工干预保障的情况下，将 AI 智能体集成到协作软件环境中的做法敲响了警钟。",
+        "en": "The 'Matplotlib Incident' has sparked intense debate in the open-source community after an AI-generated interaction was deemed to have 'crossed the line' in terms of etiquette or quality. The event highlights the friction between automated development tools and human-centric maintainer workflows in major libraries. It serves as a cautionary tale for the integration of AI agents in collaborative software environments without sufficient human-in-the-loop safeguards."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "minimax-m3-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "MiniMax M3 发布：支持 100 万上下文的编程与智能体前沿模型",
+        "en": "MiniMax M3: 1M Context Frontier Model for Coding and Agents"
+      },
+      "summary": {
+        "zh": "MiniMax 发布了 M3 模型，这是一款针对编程和智能体任务优化的前沿模型，拥有高达 100 万 token 的超长上下文窗口。M3 旨在处理复杂的跨模态输入，使其在企业自动化领域成为 OpenAI 和 Anthropic 顶尖模型的直接竞争对手。其对长文本推理和工具调用效率的关注，标志着中国 AI 研发迈出了重要一步。",
+        "en": "MiniMax has announced M3, a new frontier model optimized for coding and agentic tasks featuring a massive 1-million-token context window. M3 is designed to handle complex, multimodal inputs, positioning it as a direct competitor to top-tier models from OpenAI and Anthropic in the enterprise automation space. Its focus on long-context reasoning and tool-calling efficiency marks a significant step forward for Chinese AI development."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ttdiq0/minimax_m3_coding_agentic_frontier_1m_context/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "nvidia-nemotron-3-ultra",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "NVIDIA 发布 Nemotron 3 Ultra 基础模型",
+        "en": "NVIDIA Unveils Nemotron 3 Ultra Foundation Model"
+      },
+      "summary": {
+        "zh": "NVIDIA 宣布推出 Nemotron 3 Ultra，这是其大语言模型系列的最新迭代。虽然具体基准测试仍由社区分析中，但「Ultra」命名暗示了其在参数规模和推理能力上的重大飞跃，专为企业级性能量身定制。此次发布强化了 NVIDIA 统治全栈 AI 的战略，即同时提供尖端硬件和现代生成式 AI 应用所需的高性能基础模型。",
+        "en": "NVIDIA has announced Nemotron 3 Ultra, the latest iteration of its large language model family. While specific benchmarks are still being analyzed by the community, the 'Ultra' designation suggests a significant leap in parameter scale and reasoning capabilities tailored for enterprise-grade performance. This release reinforces NVIDIA's strategy to dominate the full AI stack, providing both the cutting-edge hardware and the high-performance foundation models required for modern generative AI applications."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tthkh5/nvidia_announces_nemotron_3_ultra/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "llama-cpp-vram-optimization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 新 PR 通过上下文限制节省 1.2GB 显存",
+        "en": "llama.cpp PR Reduces VRAM Usage by 1.2GB via Context Limits"
+      },
+      "summary": {
+        "zh": "llama.cpp 的最新拉取请求（#23861）引入了一项内存优化，通过限制 llama_context 的最大输出来减少开销。通过仅在必要时为序列预留 logits 空间（特别是在使用 2048 批处理大小和多令牌预测 MTP 时），用户报告可节省约 1.2GB 的显存。这项技术改进对于在显存受限的消费级 GPU 上运行大型本地模型的爱好者来说具有极高价值。",
+        "en": "A new pull request (#23861) for llama.cpp introduces a memory optimization that limits the maximum outputs of the llama_context. By reserving logits space for sequences only when necessary, particularly when using a batch size of 2048 and Multi-Token Prediction (MTP), users report saving approximately 1.2GB of VRAM. This technical refinement is highly beneficial for local LLM enthusiasts running large models on consumer-grade GPUs where memory overhead is a critical bottleneck."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ttvpmt/llama_limit_max_outputs_of_llama_context_by/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "rtx-spark-bandwidth",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "RTX Spark 将配备 600GB/s 超高内存带宽",
+        "en": "RTX Spark to Feature Massive 600GB/s Memory Bandwidth"
+      },
+      "summary": {
+        "zh": "最新报告显示，NVIDIA 即将推出的 RTX Spark PC 芯片将拥有高达 600GB/s 的内存带宽，是此前预估值 273GB/s 的两倍多。该芯片采用统一内存架构，配备高达 128GB 的 LPDDR5X 内存。带宽的巨大提升预计将大幅提高本地大模型的推理速度，使 RTX Spark 成为 AI 开发者和高级用户替代传统工作站的强力选择。",
+        "en": "New reports reveal that NVIDIA's upcoming RTX Spark PC chip will feature a memory bandwidth of up to 600GB/s, more than doubling previous estimates of 273GB/s. The chip utilizes a unified memory architecture with up to 128GB of LPDDR5X RAM. This substantial bandwidth increase is expected to drastically improve local LLM inference speeds, positioning the RTX Spark as a powerful alternative to traditional workstation setups for AI developers and power users."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tu0vkl/rtx_spark_will_have_up_to_600gbs_of_memory/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "jetbrains-mellum2-opensource",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "JetBrains 开源专为编程工作流设计的 Mellum2 模型",
+        "en": "JetBrains Open-Sources Mellum2 for AI Coding Workflows"
+      },
+      "summary": {
+        "zh": "JetBrains 正式开源了 Mellum2，这是一款专为高速 AI 开发工作流设计的专业模型。Mellum2 针对低延迟代码补全和 IDE 集成进行了优化，旨在为开发者提供快速的本地编程辅助替代方案。通过开源该模型，JetBrains 允许社区进行微调并将其集成到自定义工程流水线中，进一步推动了专业化、任务导向型开源模型的发展趋势。",
+        "en": "JetBrains has officially open-sourced Mellum2, a specialized model designed for high-speed AI development workflows. Optimized for low-latency code completion and IDE integration, Mellum2 aims to provide developers with a fast, local alternative for coding assistance. By open-sourcing the model, JetBrains enables the community to fine-tune and integrate these capabilities into custom engineering pipelines, furthering the trend of specialized, task-oriented open models."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ttt47t/mellum2_goes_open_source_a_fast_model_for_ai/",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "meta-ai-instagram-exploit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta AI 聊天机器人漏洞导致 Instagram 账户被劫持",
+        "en": "Meta AI Chatbot Exploited to Hijack Instagram Accounts"
+      },
+      "summary": {
+        "zh": "Meta 的 AI 支持聊天机器人存在严重漏洞，导致黑客能够通过诱导 AI 更改关联邮箱来劫持 Instagram 账户。攻击者在 Telegram 上演示了该漏洞，展示了如何绕过安全协议通过聊天机器人界面重置密码。尽管 Meta 已修复此问题，但该事件为在敏感账户管理环节部署基于大模型的智能体所带来的安全风险敲响了警钟。",
+        "en": "A critical vulnerability in Meta's AI support chatbot allowed hackers to hijack Instagram accounts by tricking the AI into changing associated email addresses. Attackers demonstrated the exploit on Telegram, showing how they could bypass security protocols to reset passwords via the chatbot's interface. While Meta has since patched the issue, the incident serves as a stark warning about the security risks of deploying LLM-based agents in sensitive account management roles."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "anthropic-ipo-filing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 正式向 SEC 提交 IPO 上市申请",
+        "en": "Anthropic Officially Files for IPO with the SEC"
+      },
+      "summary": {
+        "zh": "Anthropic 已正式向美国证券交易委员会（SEC）提交上市申请，有望成为首个进入股票市场的大型基础模型实验室。此举紧随其上一轮巨额融资之后，该融资已使 Anthropic 成为全球估值最高的初创公司之一。此次 IPO 预计将为其提供必要的资金，以便在开发下一代通用人工智能（AGI）日益昂贵的竞赛中与 OpenAI 和 Google 展开竞争。",
+        "en": "Anthropic has officially filed with the U.S. Securities and Exchange Commission to go public, potentially becoming the first major foundation model lab to hit the stock market. This move follows a massive funding round that established Anthropic as one of the world's most valuable startups. The IPO is expected to provide the capital necessary to compete with OpenAI and Google in the increasingly expensive race to develop next-generation artificial general intelligence."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
+      "date": "2026-06-01"
+    }
+  ]
+}
