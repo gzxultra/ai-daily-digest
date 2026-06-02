@@ -1,0 +1,254 @@
+{
+  "date": "2026-06-02",
+  "dateLabel": {
+    "zh": "2026年6月2日",
+    "en": "June 02, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-02T18:44:10Z",
+    "elapsedSeconds": 166,
+    "rawArticles": 57,
+    "afterFilter": 51,
+    "afterDedup": 47,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 3,
+      "Reddit": 4,
+      "The Verge AI": 3,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "ai-agent-coding-quality",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "以慢打快：应对 AI 生成代码带来的技术债挑战",
+        "en": "Slowing Down to Speed Up: Managing AI-Generated Code Debt"
+      },
+      "summary": {
+        "zh": "开发者生成的代码量较半年前翻了一倍，但这导致了严重的质量、可靠性和技术债问题。文章指出，目前使用 AI Agent 时「快餐式」的产出不可持续，呼吁采取「以慢打快」的策略。核心观点是必须加强人工审核和架构完整性，而非单纯追求代码生成速度。在 AI 辅助编程普及的背景下，如何理性平衡产出效率与系统稳定性已成为工程团队的首要挑战。",
+        "en": "Developers are now generating code at twice the rate compared to late 2025, leading to a significant surge in technical debt and reliability issues. The article argues that the current 'move fast and break things' approach with AI agents is unsustainable for long-term software health. It suggests a 'slow down to speed up' strategy, emphasizing rigorous review and architectural integrity over raw output volume. This shift is critical as organizations struggle to manage the sheer quantity of AI-generated code without compromising system stability."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/ideas-slow-down-to-speed-up-when",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "florida-openai-lawsuit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "佛罗里达州起诉 OpenAI 及 Sam Altman，指控其存在系统性风险",
+        "en": "Florida Sues OpenAI and Sam Altman Over Systemic AI Risks"
+      },
+      "summary": {
+        "zh": "佛罗里达州正式起诉 OpenAI 及其首席执行官 Sam Altman，指控其 AI 模型存在系统性风险。该诉讼重点关注公共安全隐患，以及 GPT 系列模型在训练数据和安全协议方面的透明度缺失。这标志着美国州级政府对头部 AI 实验室的监管压力显著升级。此案的裁决结果可能为各州如何就 AI 造成的社会损害追究开发者责任设定重要先例。",
+        "en": "The State of Florida has filed a lawsuit against OpenAI and CEO Sam Altman, citing systemic risks associated with their artificial intelligence models. The legal action focuses on potential public safety hazards and the lack of transparency regarding the training data and safety protocols of GPT-series models. This marks a significant escalation in state-level regulatory pressure on major AI labs in the United States. The outcome could set a precedent for how individual states hold AI developers accountable for perceived societal harms."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "alphabet-80b-ai-raise",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Alphabet 宣布融资 800 亿美元，全力扩张 AI 基础设施与算力",
+        "en": "Alphabet Announces $80B Equity Raise for AI Infrastructure"
+      },
+      "summary": {
+        "zh": "Alphabet 宣布了一项高达 800 亿美元的大规模股权融资计划，专门用于扩展其 AI 基础设施和算力储备。这一史无前例的举措凸显了科技巨头之间日益激烈的「算力军备竞赛」，旨在为下一代基础模型锁定硬件和数据中心资源。这笔资金预计将投入自研芯片开发及全球基础设施扩建。投资者正密切关注这种股权稀释能否通过搜索和云服务中预期的 AI 业务增长来抵消。",
+        "en": "Alphabet has announced a massive $80 billion equity capital raise specifically dedicated to expanding its AI infrastructure and compute capabilities. This unprecedented move underscores the intensifying 'compute arms race' as tech giants scramble to secure the hardware and data center capacity needed for next-generation foundation models. The capital injection is expected to fund custom silicon development and global infrastructure scaling. Investors are closely watching how this dilution will be offset by projected AI-driven revenue growth in search and cloud services."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "meta-ai-bot-exploit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "黑客利用 Meta AI 支持机器人漏洞，大规模劫持 Instagram 账号",
+        "en": "Hackers Exploit Meta's AI Support Bot to Seize Instagram Accounts"
+      },
+      "summary": {
+        "zh": "安全研究人员发现，黑客成功利用 Meta 的 AI 支持机器人绕过安全协议，夺取了高价值 Instagram 账号的控制权。攻击者通过提示词注入和社交工程手段操纵机器人的逻辑，诱导其重置账号凭据。该事件凸显了在缺乏严格沙箱机制的情况下，将大语言模型集成到客户支持流程中的严重安全风险。Meta 目前已禁用相关功能，但此次泄露引发了业界对自动化账号恢复安全性的大范围担忧。",
+        "en": "Security researchers have discovered that hackers successfully exploited Meta's AI-powered support bot to bypass security protocols and seize control of high-value Instagram accounts. The vulnerability allowed attackers to manipulate the bot's logic through prompt injection and social engineering, tricking it into resetting account credentials. This incident highlights the critical security risks of integrating LLMs into customer support workflows without robust sandboxing. Meta has since disabled the specific bot features involved, but the breach raises concerns about the safety of automated account recovery."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "cvpr-2026-papers-with-code",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "PapersWithCode 网站重启：一站式浏览 CVPR 2026 最新论文",
+        "en": "PapersWithCode Revival: Browsing CVPR 2026 Research"
+      },
+      "summary": {
+        "zh": "来自 Hugging Face 的 Niels 宣布重启 paperswithcode.co 网站，为浏览 CVPR 2026 的最新研究提供中心化平台。该网站允许 AI 社区追踪计算机视觉、智能体等多个领域的最新技术（SOTA）基准。通过将研究论文与开源代码实现直接关联，该平台旨在加速研究的可复现性和协作创新。随着 AI 研究论文数量呈指数级增长，此类发现工具对于从业者高效获取前沿进展至关重要。",
+        "en": "Niels from Hugging Face has announced the revival of paperswithcode.co, providing a centralized platform to browse the latest CVPR 2026 research. The site allows the AI community to track state-of-the-art (SOTA) benchmarks across various domains, including computer vision and autonomous agents. By linking research papers directly to open-source implementations, the platform aims to accelerate reproducibility and collaborative innovation. This revival is particularly timely as the volume of AI research continues to grow exponentially, making discovery tools essential for practitioners."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "backprop-brain-alignment-study",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究发现反向传播训练仅需一个 Epoch 即可破坏脑部对齐",
+        "en": "Backpropagation Destroys Brain Alignment in One Epoch"
+      },
+      "summary": {
+        "zh": "一项最新研究发现，反向传播（BP）训练仅需一个 epoch 就会迅速破坏神经网络层与人类初级视觉皮层（V1）之间的对齐关系。研究利用 RSA 分析和 THINGS 数据集的 fMRI 数据，对比了 BP 与反馈对齐、预测编码等学习规则。结果显示，虽然未经训练的网络能自然匹配 V1 特征，但标准的深度学习优化会使表征偏离生物大脑模式。该研究挑战了当前 AI 训练方法的生物学合理性，并指出探索类脑学习规则的必要性。",
+        "en": "A new research paper reveals that backpropagation (BP) training rapidly destroys the alignment between neural network layers and the human primary visual cortex (V1) within a single epoch. Using Representational Similarity Analysis (RSA) and fMRI data from the THINGS dataset, the study compared BP against alternative learning rules like Feedback Alignment and Predictive Coding. The findings suggest that while untrained networks naturally mimic V1, standard deep learning optimization moves representations away from biological brain patterns. This research challenges the biological plausibility of current AI training methods."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "bonsai-image-4b-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "PrismML 发布超轻量 1-bit 与三值化 Bonsai Image 4B 模型",
+        "en": "PrismML Releases Ultra-Compact 1-bit and Ternary Bonsai Image 4B Models"
+      },
+      "summary": {
+        "zh": "PrismML 发布了 Bonsai Image 4B 模型，包含 1-bit 和 Ternary（三值）量化版本，专为本地设备优化。1-bit 版本仅占 0.93 GB 显存，Ternary 版本为 1.21 GB，大幅降低了扩散 Transformer (DiT) 架构的占用空间。这一突破使得在显存受限的消费级硬件上运行高质量图像生成成为可能。这标志着生成式 AI 向边缘计算迈出了重要一步，在极低资源下保持了强大的生成能力。",
+        "en": "PrismML has released Bonsai Image 4B, featuring 1-bit and Ternary quantization variants optimized for local devices. The 1-bit version occupies only 0.93 GB, while the Ternary version takes 1.21 GB, significantly reducing the footprint of Diffusion Transformer (DiT) models. This breakthrough enables high-quality image generation on consumer-grade hardware with limited VRAM. It represents a major step in bringing powerful generative AI to edge computing without sacrificing substantial performance."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tusnh5/1bit_bonsai_image_4b_and_ternary_bonsai_image_4b/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "llama-cpp-thinking-mode",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 新增「思考模式」切换功能，支持细粒度推理控制",
+        "en": "llama.cpp Adds Thinking Mode Toggle for Granular Reasoning Control"
+      },
+      "summary": {
+        "zh": "llama.cpp 的最新拉取请求（#23434）在 UI 中引入了「思考模式」切换功能，允许用户针对支持思维链的模型调整推理强度。该更新还改进了聊天表单的操作 UI，为管理模型推理提供了更细粒度的控制界面。这一功能对于在本地使用高级推理模型时优化性能和延迟至关重要。这体现了社区在提升本地 AI 交互透明度和可控性方面的持续努力。",
+        "en": "A new pull request for llama.cpp (#23434) introduces a Thinking mode toggle in the UI, allowing users to control reasoning effort levels for models supporting chain-of-thought. The update includes improvements to the Chat Form Add Action UI, providing a more granular interface for managing model inference. This feature is crucial for optimizing performance and latency when using advanced reasoning models locally. It reflects the community's push toward more transparent and controllable local AI interactions."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1turt87/ui_add_thinking_mode_toggle_with_reasoning_effort/",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "trump-ai-executive-order",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "特朗普签署行政命令，要求在 AI 模型发布前进行审查",
+        "en": "President Trump Signs Executive Order for Pre-Release AI Model Reviews"
+      },
+      "summary": {
+        "zh": "特朗普总统签署了一项行政命令，为 AI 公司建立了一个「自愿框架」，要求在公开发布前与联邦政府共享前沿模型。该倡议旨在加强关键基础设施的网络安全，并确保美国 AI 行业的安全创新。虽然该命令强调避免过度监管以防扼杀创新，但它标志着政府对高级 AI 系统监管的重要转向。此举反映了国家安全层面对于快速部署强大 AI 模型的日益关注。",
+        "en": "President Trump signed an executive order establishing a voluntary framework for AI companies to share frontier models with the federal government before public release. The initiative aims to enhance the cybersecurity of critical infrastructure and ensure secure innovation within the US AI industry. While the order emphasizes avoiding over-regulation that could stifle innovation, it marks a significant shift toward government oversight of advanced AI systems. This move reflects growing national security concerns regarding the rapid deployment of powerful AI models."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "microsoft-mai-thinking-1",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "微软在 Build 2026 发布首款旗舰推理模型 MAI-Thinking-1",
+        "en": "Microsoft Unveils MAI-Thinking-1 Flagship Reasoning Model at Build 2026"
+      },
+      "summary": {
+        "zh": "在 Build 2026 大会上，微软发布了其首款自主研发的旗舰推理模型 MAI-Thinking-1。此次发布标志着微软在近期重新谈判与 OpenAI 的合作协议后，开始减少对其依赖的战略转型。MAI-Thinking-1 旨在处理复杂的逻辑和多步问题求解，使微软在前沿模型领域成为直接竞争者。这一进展突显了科技巨头寻求 AI 技术栈垂直整合的行业趋势。",
+        "en": "At Build 2026, Microsoft unveiled MAI-Thinking-1, its first flagship in-house model designed for advanced reasoning. This launch signifies a strategic pivot as Microsoft reduces its reliance on OpenAI following a recent renegotiation of their partnership. MAI-Thinking-1 is built to handle complex logic and multi-step problem-solving, positioning Microsoft as a direct competitor in the frontier model space. The development underscores the industry trend of major tech giants seeking vertical integration of their AI stacks."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "microsoft-project-solara",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "微软发布 Project Solara：基于 Android 的 AI 智能体设备操作系统",
+        "en": "Microsoft Announces Project Solara: An Android-Based OS for AI Agent Gadgets"
+      },
+      "summary": {
+        "zh": "微软推出了 Project Solara，这是一个专门为 AI 智能体驱动的硬件设备设计的新型操作系统。与传统的 Windows 系统不同，Solara 基于 Android 构建，旨在为新一代「智能体设备」提供动力。微软展示了两款概念设备：桌面助手和可穿戴徽章，两者都侧重于主动式 AI 交互。此举表明了微软在 PC 之外，试图定义新兴 AI 硬件市场软件层的野心。",
+        "en": "Microsoft introduced Project Solara, a new operating system specifically designed for AI agent-driven hardware devices. Unlike traditional Windows systems, Solara is built on an Android foundation to power a new generation of agent gadgets. Microsoft showcased two concept devices: a desk-based assistant and a wearable badge, both focused on proactive AI interactions. This move signals Microsoft's ambition to define the software layer for the emerging AI hardware market beyond the PC."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "china-bci-brain-implant",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "中国批准全球首款侵入式脑机接口芯片临床应用",
+        "en": "China Approves World's First Invasive Brain-Computer Interface for Clinical Use"
+      },
+      "summary": {
+        "zh": "中国正式批准了首款侵入式脑机接口（BCI）芯片的临床应用，标志着其在神经技术领域的雄心迈出了重要一步。在此之前，相关试验已成功让患者通过神经信号控制外部设备。这一进展使中国在人类智能与 AI 融合的竞赛中，与 Neuralink 等西方公司展开直接竞争。此举突显了脑机接口研究的快速加速，及其在医疗康复和人类增强方面的潜在应用。",
+        "en": "China has officially approved its first invasive brain-computer interface (BCI) chip for clinical use, marking a major milestone in its neurotechnology ambitions. The approval follows successful trials where patients demonstrated the ability to control external devices through neural signals. This development places China in direct competition with Western firms like Neuralink in the race to merge human intelligence with AI. The move highlights the rapid acceleration of BCI research and its potential applications in medical rehabilitation and human enhancement."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
+      "date": "2026-06-02"
+    }
+  ]
+}
