@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-03",
+  "dateLabel": {
+    "zh": "2026年6月3日",
+    "en": "June 03, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-03T18:48:37Z",
+    "elapsedSeconds": 154,
+    "rawArticles": 60,
+    "afterFilter": 53,
+    "afterDedup": 49,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 1,
+      "Stanford Law": 1,
+      "Politico": 1,
+      "University of Toronto": 1,
+      "GitHub": 1,
+      "Simon Willison": 1,
+      "Reddit": 4,
+      "Hugging Face": 1,
+      "The Verge AI": 1
+    }
+  },
+  "news": [
+    {
+      "id": "gpu-vram-swap-linux",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "将 Nvidia GPU 显存用作 Linux 交换空间",
+        "en": "Use Nvidia GPU VRAM as Linux Swap Space"
+      },
+      "summary": {
+        "zh": "nbd-vram 项目允许 Linux 用户通过网络块设备（NBD）协议，将 Nvidia GPU 的高速显存（VRAM）用作系统交换空间。显存的带宽远高于传统的 NVMe SSD，可提供每秒数 GB 的读写速度，这对于系统内存不足但拥有大显存 GPU 的用户非常有用。该工具展示了 AI 时代对硬件资源的创意重用，特别是在本地模型运行中，内存管理已成为关键瓶颈。",
+        "en": "The nbd-vram project enables Linux users to utilize their Nvidia GPU's high-speed VRAM as system swap space via the Network Block Device (NBD) protocol. While VRAM is significantly faster than traditional NVMe SSDs, offering gigabytes per second of bandwidth, this approach is primarily beneficial for systems with excess GPU memory but limited system RAM. This tool highlights the creative repurposing of hardware in the AI era, where memory management is a critical bottleneck for local model execution."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/c0dejedi/nbd-vram",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "ai-vs-law-professors",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "斯坦福研究显示 AI 表现超越法学教授",
+        "en": "AI Outperforms Law Professors in Stanford Study"
+      },
+      "summary": {
+        "zh": "斯坦福法学院的一项突破性研究显示，先进的 AI 模型在特定的法律推理和文件分析任务中已超越人类法学教授。该研究利用一套标准化的法律考试和复杂的合同审查来基准测试性能，发现 AI 在准确性和一致性方面得分更高。这一结果预示着法律行业的转型，表明 AI 将很快从研究助手转变为高层法律战略的核心组成部分。",
+        "en": "A groundbreaking study from Stanford Law School reveals that advanced AI models now outperform human law professors in specific legal reasoning and document analysis tasks. The research utilized a standardized set of legal examinations and complex contract reviews to benchmark performance, finding that AI achieved higher accuracy and consistency. This result signals a transformative shift in the legal profession, suggesting that AI will soon move from a research assistant to a core component of high-level legal strategy."
+      },
+      "source": "Stanford Law",
+      "sourceUrl": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "trump-ai-executive-order",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "特朗普签署缩减版人工智能行政命令",
+        "en": "Trump Signs Downsized AI Executive Order"
+      },
+      "summary": {
+        "zh": "特朗普总统签署了一项修订后的人工智能行政命令，大幅缩减了之前的监管框架，转而采取「轻触式」监管。该命令优先考虑国家安全和全球竞争力，同时减少了对 AI 开发者的强制性报告要求。这一政策转变旨在加速国内创新并减轻科技公司的合规负担，但批评者对安全监管和伦理防线的削弱表示担忧。",
+        "en": "President Trump has signed a revised executive order on artificial intelligence, significantly scaling back previous regulatory frameworks in favor of a light-touch approach. The order prioritizes national security and global competitiveness while reducing mandatory reporting requirements for AI developers. This policy shift aims to accelerate domestic innovation and reduce the compliance burden on tech companies, though critics express concerns regarding safety oversight and ethical guardrails."
+      },
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "ai-worm-security-threat",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究人员演示可攻击联网设备的 AI 蠕虫",
+        "en": "Researchers Demonstrate AI Worm Targeting Online Devices"
+      },
+      "summary": {
+        "zh": "多伦多大学的研究人员展示了一种概念验证式的「AI 蠕虫」，它能通过利用大语言模型（LLM）集成中的漏洞，在联网设备间自主传播。该蠕虫利用对抗性提示词劫持 AI 智能体，使其能够在无需人工干预的情况下窃取数据或进一步扩散。这一发现强调了一个关键的新安全前沿，因为自主 AI 智能体的普及创造了一个巨大的、互连的攻击面。",
+        "en": "Researchers at the University of Toronto have demonstrated a proof-of-concept AI worm capable of autonomously spreading across internet-connected devices by exploiting vulnerabilities in Large Language Model (LLM) integrations. The worm uses adversarial prompts to hijack AI agents, allowing it to steal data or propagate further without human intervention. This discovery underscores a critical new security frontier, as the proliferation of autonomous AI agents creates a massive, interconnected attack surface."
+      },
+      "source": "University of Toronto",
+      "sourceUrl": "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "github-copilot-app-preview",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "GitHub 发布独立版 Copilot 应用",
+        "en": "GitHub Unveils Standalone Copilot App"
+      },
+      "summary": {
+        "zh": "GitHub 发布了独立版 GitHub Copilot App 的预览版，将其 AI 编程辅助功能从 IDE 扩展到了专门的桌面和移动环境。该应用旨在作为一个全面的 AI 工作空间，通过统一界面简化代码审查、文档生成和项目管理。通过将 Copilot 与代码编辑器解耦，GitHub 正将该工具定位为整个软件开发生命周期的中心枢纽，而不仅仅是一个补全引擎。",
+        "en": "GitHub has unveiled a preview of the standalone GitHub Copilot App, extending its AI-powered coding assistance beyond the IDE into a dedicated desktop and mobile environment. The app aims to serve as a comprehensive AI workspace, facilitating code reviews, documentation generation, and project management through a unified interface. By decoupling Copilot from the code editor, GitHub is positioning the tool as a central hub for the entire software development lifecycle, rather than just a completion engine."
+      },
+      "source": "GitHub",
+      "sourceUrl": "https://github.com/features/preview/github-app",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "uber-ai-usage-limit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Uber 设定每月 1500 美元 AI 使用上限",
+        "en": "Uber Sets $1,500 Monthly AI Usage Limit"
+      },
+      "summary": {
+        "zh": "Uber 为员工使用 AI 工具设定了每月 1500 美元的支出上限，行业分析师 Simon Willison 认为这是企业级 AI 定价的一个重要信号。这一上限反映了大规模使用高端 LLM Token 和专业 AI 服务所带来的巨大运营成本。随着各公司开始应对「AI 税」，Uber 的政策为大型组织如何管理将生成式 AI 集成到日常工作流中的经济现实提供了一个基准。",
+        "en": "Uber has implemented a $1,500 monthly spending limit per employee for AI tool usage, a move that industry analyst Simon Willison identifies as a significant signal for enterprise AI pricing. This cap reflects the substantial operational costs associated with high-end LLM tokens and specialized AI services at scale. As companies grapple with the AI tax, Uber's policy provides a benchmark for how large organizations might manage the economic realities of integrating generative AI into daily workflows."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "neurips-ai-detector-controversy",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "NeurIPS 2026 因使用未经校准的 AI 检测器引发争议",
+        "en": "NeurIPS 2026 Faces Backlash Over Uncalibrated AI Detectors"
+      },
+      "summary": {
+        "zh": "NeurIPS 2026 因在其立场论文（Position Paper）赛道中使用未经校准的商业 AI 检测器 Pangram 进行初筛拒稿而引发争议。研究人员指出，该赛道领导层依据黑盒指标判定论文违反 AI 使用政策，引发了学术界对同行评审公平性和透明度的广泛讨论。这一事件凸显了在维护学术诚信与当前 AI 检测工具不可靠性之间日益增长的矛盾，尤其是在高规格学术评审场景下。",
+        "en": "NeurIPS 2026 has come under fire for using Pangram, a proprietary and uncalibrated AI-text detector, to issue desk rejections in its Position Paper Track. Researchers report that submissions were rejected for alleged AI-policy violations based on black-box metrics, sparking a debate on the fairness and transparency of academic peer review. This incident highlights the growing tension between maintaining academic integrity and the inherent unreliability of current AI detection tools in high-stakes environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "minimax-sparse-attention",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "MiniMax 推出 MSA 架构，支持百万级上下文窗口",
+        "en": "MiniMax MSA Architecture Scales Context to 1M Tokens"
+      },
+      "summary": {
+        "zh": "MiniMax 推出了一种名为 MSA（MiniMax Sparse Attention）的新型注意力机制架构，旨在将上下文窗口原生扩展至 100 万 token。与通常会导致召回率下降的传统稀疏近似方法不同，MSA 在算子层级重构了内存访问模式，采用了「KV outer gather Q」方案。该技术绕过了标准的平方复杂度限制，为大语言模型处理超长文本提供了一种更高效、更稳健的路径，且不会牺牲检索质量。",
+        "en": "MiniMax has introduced a novel attention architecture called MiniMax Sparse Attention (MSA), designed to natively scale context windows to 1 million tokens. Unlike traditional sparse approximations that often suffer from recall degradation, MSA utilizes a 'KV outer gather Q' approach to restructure memory access patterns at the operator level. This innovation bypasses standard quadratic complexity, offering a more efficient and robust path for long-context processing in large language models without sacrificing retrieval quality."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "google-gemma-4-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google 发布 Gemma 4 系列多模态开源模型",
+        "en": "Google Releases Gemma 4 Multimodal Open Models"
+      },
+      "summary": {
+        "zh": "Google DeepMind 发布了 Gemma 4 系列开源权重多模态模型，包含 12B、E2B 和 E4B 等多种规格。该系列模型支持文本和图像输入，其中 12B 版本还支持音频输入，并具备高达 256K token 的上下文窗口。Gemma 4 延续了强大的多语言支持，提供预训练和指令微调两个版本，通过高性能的开放权重进一步巩固了 Google 在开源 AI 生态系统中的地位。",
+        "en": "Google DeepMind has released Gemma 4, a new family of open-weights multimodal models available in sizes including 12B, E2B, and E4B. The models support text and image inputs, with the 12B version extending support to audio, and feature a context window of up to 256K tokens. Gemma 4 maintains strong multilingual support and is available in both pre-trained and instruction-tuned variants, further strengthening Google's position in the open-source AI ecosystem with high-performance, accessible weights."
+      },
+      "source": "Hugging Face",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "ideogram-4-open-source",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Ideogram 4 图像生成模型正式开源",
+        "en": "Ideogram 4 Image Model Goes Open Source"
+      },
+      "summary": {
+        "zh": "Ideogram 正式开源了其最新的图像生成模型 Ideogram 4，该模型目前在 DesignArena 排行榜上名列前茅。Ideogram 4 以其卓越的排版渲染能力和写实的细节表现著称，此次开源允许开发者将高端设计能力集成到本地工作流中。这一举措标志着 Ideogram 的重大转型，从封闭的 API 模式转向了面向社区开放的框架，对开源图像生成领域的现有玩家构成了有力竞争。",
+        "en": "Ideogram has officially open-sourced Ideogram 4, its latest image generation model that currently holds the top rank on the DesignArena benchmark. Known for its superior typography rendering and photorealistic detail, the move to open-source allows developers to integrate high-end design capabilities into local workflows. This release marks a significant shift for Ideogram, moving from a closed API model to a community-accessible framework, challenging established players in the open-weights image generation space."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "microsoft-aion-slm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "微软发布 Aion 1.0 系列端侧小语言模型",
+        "en": "Microsoft Unveils Aion 1.0 On-Device Models"
+      },
+      "summary": {
+        "zh": "在 Microsoft Build 2026 大会上，微软发布了 Aion 1.0 Instruct 和 Aion 1.0 Plan，这是专为端侧性能优化的新一代小语言模型（SLM）。Aion 1.0 旨在比现有的 Windows 系统模型更小、更快、更高效，专门针对摘要生成、意图识别和文本改写等任务。这些模型体现了微软致力于将复杂的 AI 智能直接引入本地硬件，减少日常生产力任务对云端架构的依赖。",
+        "en": "At Microsoft Build 2026, Microsoft unveiled Aion 1.0 Instruct and Aion 1.0 Plan, a new generation of small language models (SLMs) optimized for on-device performance. Aion 1.0 is designed to be smaller, faster, and more efficient than previous Windows OS models, specifically targeting tasks like summarization, intent recognition, and rewriting. These models represent Microsoft's push to bring sophisticated AI intelligence directly to local hardware, reducing reliance on cloud infrastructure for everyday productivity tasks."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tvekng/microsoft_aion_10_instruct_and_aion_10_plan_models/",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "google-gemini-spark-agent",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Google Spark 智能体揭示 AI 实用性背后的隐私代价",
+        "en": "Google's 'Spark' Agent Reveals the Privacy Cost of AI Utility"
+      },
+      "summary": {
+        "zh": "Google 推出的基于 Gemini 的新型 AI 智能体「Spark」在早期上手评测中展示了前所未有的个性化和主动协作能力。该智能体能够通过生态系统数据调用用户家属姓名、宠物信息等个人细节，而无需用户显式输入。尽管 Spark 的功能极其强大，但其「令人恐惧」的准确性也引发了关于自主智能体时代 AI 实用性与用户隐私权衡的重大质疑，反映了 AI 深度介入个人数字生活的现状。",
+        "en": "Google's new Gemini-powered AI agent, 'Spark,' has demonstrated unprecedented levels of personalization and proactive assistance in early hands-on reviews. The agent can recall personal details like family members' names and pet information without explicit user input, drawing from broader ecosystem data. While highly effective, the 'scary' accuracy of Spark raises significant questions about the trade-off between AI utility and user privacy as agents become more deeply integrated into personal digital lives."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+      "date": "2026-06-03"
+    }
+  ]
+}
