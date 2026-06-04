@@ -1,0 +1,254 @@
+{
+  "date": "2026-06-04",
+  "dateLabel": {
+    "zh": "2026年6月4日",
+    "en": "June 04, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-04T17:49:16Z",
+    "elapsedSeconds": 164,
+    "rawArticles": 56,
+    "afterFilter": 53,
+    "afterDedup": 49,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 4,
+      "Reddit": 2,
+      "Reddit (r/LocalLLaMA)": 2,
+      "The Verge": 3,
+      "MIT Technology Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "berkeley-cs-ai-failure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "过度依赖 AI 导致伯克利计算机系不及格率飙升",
+        "en": "Failing Grades Soar in Berkeley CS Classes Amid AI Over-Reliance"
+      },
+      "summary": {
+        "zh": "加州大学伯克利分校（UC Berkeley）的报告显示，计算机科学专业的不及格率大幅上升，这归因于学生过度依赖 AI 工具以及由此导致的数学基础能力下降。教授们观察到，虽然学生能利用大模型生成代码，但在闭卷考试中却缺乏调试或调整代码的底层逻辑能力。这一趋势凸显了精英技术教育中日益严重的「能力断层」，迫使教育机构在生成式 AI 时代重新评估课程设计和考核方式。",
+        "en": "Reports from UC Berkeley indicate a significant spike in failing grades within Computer Science courses, attributed to over-reliance on AI tools and a resulting decline in fundamental math skills. Professors observe that while students can generate code using LLMs, they often lack the underlying logic to debug or adapt it, leading to poor performance in proctored exams. This trend highlights a growing 'competency gap' in elite technical education, forcing a re-evaluation of curriculum design and assessment methods in the age of generative AI."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "llm-hacking-vulnerable-app",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "研究员投入 1500 美元测试大模型自主攻击能力",
+        "en": "Researcher Spends $1,500 Testing LLM Autonomous Hacking Capabilities"
+      },
+      "summary": {
+        "zh": "一位独立安全研究员投入 1,500 美元的 API 额度，测试当前大模型是否能自主利用其构建的漏洞应用。实验表明，虽然模型在识别 SQL 注入等常见漏洞方面能力不断增强，但在处理需要持久状态管理的复杂多步攻击时仍显吃力。相对于成功率而言，高昂的成本表明 AI 驱动的渗透测试虽在进化，但在进行复杂的安全审计时，人工干预依然不可或缺。",
+        "en": "An independent security researcher spent $1,500 in API credits to test whether current LLMs could autonomously exploit a purpose-built vulnerable application. The experiment revealed that while models are increasingly capable of identifying common vulnerabilities like SQL injection, they still struggle with complex, multi-step exploits that require persistent state management. The high cost relative to success rates suggests that while AI-driven pentesting is evolving, human-in-the-loop remains essential for sophisticated security audits."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "anthropic-claude-containment",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 详解 Claude 的多层沙箱隔离策略",
+        "en": "Anthropic Details Multi-Layered Containment Strategy for Claude"
+      },
+      "summary": {
+        "zh": "Anthropic 详细介绍了其「隔离」Claude 的多层工程方法，确保模型生成的代码和工具调用行为始终处于沙箱环境中。该策略涉及使用 gVisor 等安全执行环境以及严格的网络隔离，以防止潜在的模型逃逸或对内部基础设施的未经授权访问。通过分享这些实践，Anthropic 旨在为 AI 安全性和可靠性设定标准，特别是针对那些部署与敏感数据交互的智能体系统的企业客户。",
+        "en": "Anthropic detailed its multi-layered engineering approach to 'containing' Claude, ensuring that model-generated code and tool-use actions remain sandboxed. The strategy involves using secure execution environments like gVisor and strict network isolation to prevent potential model escapes or unauthorized access to internal infrastructure. By sharing these practices, Anthropic aims to set a standard for AI safety and reliability, particularly for enterprise customers deploying agentic systems that interact with sensitive data."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "hyper-yc-agentic-dev",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Hyper 发布「企业大脑」助力智能体开发工作流",
+        "en": "Hyper Launches 'Company Brain' to Power Agentic Development"
+      },
+      "summary": {
+        "zh": "获 Y Combinator 支持的初创公司 Hyper (P26) 推出了「企业大脑」，旨在为智能编程工作流提供必要的上下文。该平台对公司的整个技术生态系统（包括代码库、文档和项目历史）进行索引，使 AI 智能体能够以更高的准确度执行复杂任务。这一举措反映了行业趋势正从通用的编程助手转向专门的、具备上下文感知能力的智能体，使其能在特定的企业环境中作为自主团队成员运行。",
+        "en": "Y Combinator-backed startup Hyper (P26) has launched a 'company brain' designed to provide the necessary context for agentic development workflows. The platform indexes a company's entire technical ecosystem—including codebases, documentation, and project history—to enable AI agents to perform complex tasks with higher accuracy. This move reflects a shift in the industry from generic coding assistants toward specialized, context-aware agents that can operate as autonomous team members within specific corporate environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48387095",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "on-policy-distillation-opd",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "在线策略蒸馏（OPD）成为 Qwen 与 GLM 的核心技术",
+        "en": "On-Policy Distillation Emerges as Key Technique for Qwen and GLM"
+      },
+      "summary": {
+        "zh": "在线策略蒸馏（On-policy distillation, OPD）已成为一种关键的后训练技术，为 Qwen 3.7 和 GLM-5.1 等前沿模型提供动力。与使用静态数据集的传统蒸馏不同，OPD 涉及学生模型根据教师模型对其自身生成输出的反馈进行学习，从而显著提升推理和对齐能力。该方法因其能在不需要海量新训练集的情况下，优化模型在数学和编程等复杂领域的表现，而在研究界备受关注。",
+        "en": "On-policy distillation (OPD) has emerged as a critical post-training technique, powering state-of-the-art models like Qwen 3.7 and GLM-5.1. Unlike traditional distillation which uses static datasets, OPD involves a student model learning from a teacher's feedback on the student's own generated outputs, significantly improving reasoning and alignment. This method is gaining traction in the research community for its ability to refine model performance in complex domains like mathematics and coding without requiring massive new training sets."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "huawei-kvarn-quantization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "华为开源 KVarN：实现 3-5 倍 KV 缓存压缩与推理加速",
+        "en": "Huawei Open-Sources KVarN: 3-5x KV-Cache Compression with Speed-Up"
+      },
+      "summary": {
+        "zh": "华为开源了 KVarN，这是一种新型 KV 缓存量化方法，在实现 3-5 倍压缩的同时提供了实际的推理加速。KVarN 采用 Apache 2.0 协议，可通过单个标志直接集成到 vLLM 中，且显著保持了推理性能，解决了量化通常会导致逻辑退化的痛点。这一发布对本地大模型社区意义重大，因为它大幅降低了在消费级和企业级硬件上处理长文本任务时的显存需求。",
+        "en": "Huawei has open-sourced KVarN, a novel KV-cache quantization method that achieves 3–5× compression while delivering actual inference speed-ups. Released under the Apache 2.0 license, KVarN integrates directly into vLLM with a single flag and notably maintains reasoning performance, addressing a common pitfall where quantization degrades logic. This release is significant for the local LLM community, as it drastically reduces VRAM requirements for long-context tasks on consumer and enterprise hardware alike."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "nvidia-nemotron-3-ultra-550b",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "NVIDIA 发布 Nemotron-3-Ultra-550B 混合架构大模型",
+        "en": "NVIDIA Releases Nemotron-3-Ultra-550B Hybrid MoE Model"
+      },
+      "summary": {
+        "zh": "NVIDIA 发布了 Nemotron-3-Ultra-550B，采用 LatentMoE 架构，融合了 Mamba-2、混合专家（MoE）与注意力机制。该模型总参数达 550B（激活参数 55B），支持 100 万 token 上下文，并利用多 Token 预测（MTP）提升效率。硬件门槛极高，需 8 块 GB200 或 16 块 H100 显卡。此举标志着混合架构在超大规模模型中的成功应用，并全面支持中文等多种语言，为企业级 AI 树立了新标杆。",
+        "en": "NVIDIA has introduced Nemotron-3-Ultra-550B, a massive model utilizing a LatentMoE architecture that combines Mamba-2, Mixture-of-Experts (MoE), and Attention mechanisms. It features 550B total parameters with 55B active, supporting a 1M token context length and Multi-Token Prediction (MTP) for enhanced efficiency. The hardware requirements are substantial, necessitating at least 8x GB200/B200 or 16x H100 GPUs. This release represents a major milestone in hybrid architecture scaling, offering robust support for multiple languages including Chinese and English."
+      },
+      "source": "Reddit (r/LocalLLaMA)",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1twla1k/nvidianvidianemotron3ultra550ba55bbf16_hugging/",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "google-gemma-4-local-benchmarks",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Gemma 4 12B 本地评测：性能直逼 26B 版本",
+        "en": "Gemma 4 12B Benchmarks Show Near-26B Performance on Local Hardware"
+      },
+      "summary": {
+        "zh": "社区对 Google Gemma 4 12B 与 26B 模型进行了本地评测，12B 版本展现出接近 26B 的性能。在 RTX 4090 上的测试显示，12B 模型仅需 9GB 显存，速度达 80 tok/s；而 26B-A4B 版本占用 15GB 显存，速度高达 138 tok/s。在编写复杂 HTML5 物理模拟代码的任务中，两款模型均表现出色。这证明了高效架构正让消费级硬件能够胜任更复杂的生成式 AI 任务。",
+        "en": "Community testing of Google's new Gemma 4 12B and 26B models on an RTX 4090 reveals high efficiency for local deployment. The 12B variant achieved 80 tok/s using only 9GB of VRAM, while the 26B-A4B version reached 138 tok/s with 15GB VRAM usage. Both models successfully completed complex coding tasks, such as generating physics-based HTML5 animations without external libraries. These results demonstrate that the 12B model offers a compelling performance-to-size ratio for users with limited local hardware resources."
+      },
+      "source": "Reddit (r/LocalLLaMA)",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1tw4tmf/new_google_gemma_4_12b_claims_near26b_performance/",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "tsmc-ai-capacity-struggle",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "台积电产能告急：即便在美扩产仍难满足 AI 需求",
+        "en": "TSMC Struggles to Meet Surging AI Demand Despite US Expansion"
+      },
+      "summary": {
+        "zh": "台积电（TSMC）首席执行官魏哲家表示，尽管正在美国扩建工厂，但公司仍难以满足美国客户对 AI 芯片的巨大需求。在股东大会上，魏哲家直言「产能有限，只能支持这么多」，凸显了全球 AI 算力供应链的极度紧张。目前，台积电正全力以赴提升产能，但供需缺口依然显著。这一瓶颈将直接影响 NVIDIA 等芯片设计商的交付周期，成为制约 AI 行业扩张的关键因素。",
+        "en": "TSMC CEO C.C. Wei stated that the company is currently unable to meet the overwhelming demand for AI chips from American customers. Despite ongoing efforts to build out manufacturing facilities in the US, Wei noted that capacity remains a significant bottleneck, saying 「we can only support so much.」 This supply-demand imbalance highlights the critical role of semiconductor manufacturing as the primary constraint on the growth of the AI industry. Major tech firms continue to compete for limited advanced node allocations to power their next-generation models."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "ai-bioweapon-regulatory-letter",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 行业领袖联名致信国会：严防 AI 辅助生物武器",
+        "en": "AI Leaders Urge Congress to Close Biosecurity Gaps"
+      },
+      "summary": {
+        "zh": "Anthropic 首席执行官 Dario Amodei 等 AI 行业领袖联名致信美国国会，呼吁加强针对 AI 辅助生物武器的监管。公开信指出，当前存在严重的生物安全漏洞，可能被利用来引发全球性大流行。这些竞争对手罕见地达成共识，要求立法者关闭相关技术缺口。此举反映了业界对 AI 潜在灾难性风险的深度担忧，并试图在政府层面推动更严格的安全护栏建设。",
+        "en": "Prominent AI industry figures, including Anthropic's Dario Amodei, have signed an open letter calling for tougher protections against AI-aided biological weapons. The letter warns US lawmakers of an 「alarming biosecurity gap」 that could potentially be exploited to trigger global pandemics. These rivals have unified to press for legislative rules that would make it harder for bad actors to use advanced AI models for pathogen development. This collective action underscores a growing industry consensus on the necessity of government-mandated safety guardrails for high-risk capabilities."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "amazon-proteus-language-robot",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "亚马逊升级 Proteus 机器人：支持自然语言人机交互",
+        "en": "Amazon Upgrades Proteus Warehouse Robot with Language Interaction"
+      },
+      "summary": {
+        "zh": "亚马逊推出了新一代 Proteus 全自主仓库机器人，其最大亮点是支持自然语言交互。与以往依赖代码指令不同，员工现在可以直接通过语言与机器人沟通，大幅降低了操作门槛。这是亚马逊推动仓库全面自动化、以机器人替代人工战略的重要一步。将语言模型集成到工业机器人中，展示了「具身智能」在物流领域的落地潜力，预示着未来人机协作将更加直观和高效。",
+        "en": "Amazon has announced a new version of its fully autonomous warehouse robot, Proteus, which now interacts with workers using natural language instead of code. This update aims to facilitate more intuitive human-robot collaboration as the company continues its pivot toward increased warehouse automation. By integrating language capabilities, Amazon is making its robotic workforce more accessible to human staff on the floor. This development reflects a broader trend of applying large language models to physical robotics to enhance operational efficiency and safety in industrial settings."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "trump-new-ai-executive-order",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "特朗普签署新 AI 行政令：聚焦产业促进与军事应用",
+        "en": "Trump Signs New AI Executive Order Focusing on Promotion and Defense"
+      },
+      "summary": {
+        "zh": "美国总统特朗普签署了一项新的 AI 行政命令，旨在废除前任政策并全面促进 AI 产业发展。该命令包含五个关键点，重点在于减少监管障碍、确保美国在 AI 领域的领先地位，并支持军事用途的 AI 创新，如用于作战的智能眼镜。这一政策转向标志着美国 AI 治理进入了「去监管、重竞争」的新阶段。此举将对全球 AI 技术竞赛和伦理监管格局产生深远影响。",
+        "en": "President Donald Trump has signed a new executive order on AI, replacing a previous version scrapped just weeks ago. The order outlines five key points focused on promoting AI development and maintaining American leadership in the sector. Notably, it includes provisions for AI-enhanced military technology, such as smart glasses for warfare, and emphasizes a shift toward deregulation to accelerate innovation. This policy pivot marks a significant change in the US government's approach to AI governance, prioritizing competitive speed and national security applications."
+      },
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/03/1138322/the-download-trump-ai-order-smart-glasses-warfare/",
+      "date": "2026-06-04"
+    }
+  ]
+}
