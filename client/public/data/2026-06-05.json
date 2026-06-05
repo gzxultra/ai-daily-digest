@@ -1,0 +1,255 @@
+{
+  "date": "2026-06-05",
+  "dateLabel": {
+    "zh": "2026年6月5日",
+    "en": "June 05, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-05T17:25:47Z",
+    "elapsedSeconds": 299,
+    "rawArticles": 55,
+    "afterFilter": 49,
+    "afterDedup": 44,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 5,
+      "Reddit": 1,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 2,
+      "The Verge AI": 1,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "anthropic-vuln-discovery-harness",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Anthropic 开源 AI 驱动的漏洞发现框架",
+        "en": "Anthropic Opens Framework for AI-Driven Vulnerability Discovery"
+      },
+      "summary": {
+        "zh": "Anthropic 开源了一个参考测试框架，旨在评估和提升 AI 发现软件漏洞的能力。该框架为测试大语言模型（LLM）在复杂代码库中识别安全漏洞的表现提供了一个标准化环境。通过发布此工具，Anthropic 旨在促进 AI 安全研究的协作生态，允许开发者对不同模型的找 Bug 能力进行基准测试。此举标志着 AI 的角色正在发生转变，不仅用于代码生成，还成为自动化安全审计流程中的关键环节。",
+        "en": "Anthropic has open-sourced a reference harness designed to evaluate and improve AI's capability in discovering software vulnerabilities. The framework provides a standardized environment for testing how large language models (LLMs) identify security flaws in complex codebases. By releasing this tool, Anthropic aims to foster a collaborative ecosystem for AI safety and security research, allowing developers to benchmark different models' bug-finding proficiency. This move highlights the shift toward using AI not just for code generation, but as a critical layer in the automated security auditing pipeline."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/anthropics/defending-code-reference-harness",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "anthropic-recursive-self-improvement",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Anthropic 详述 AI 递归自我改进的进展",
+        "en": "Anthropic Details Progress Toward Recursive AI Self-Improvement"
+      },
+      "summary": {
+        "zh": "Anthropic 发布了关于递归自我改进进展的重要报告，即利用 AI 模型来开发和优化下一代 AI。报告详细介绍了当前模型如何辅助数据合成、奖励建模和架构搜索，从而形成加速开发的反馈闭环。尽管「智能爆炸」的前景仍存争议，但 Anthropic 强调，随着这些系统在自身进化中变得更加自主，必须建立严格的安全护栏。这项研究标志着迈向具备高度能力、可自我进化的通用人工智能（AGI）的关键一步。",
+        "en": "Anthropic released a significant update on their progress toward recursive self-improvement, where AI models are used to develop and optimize subsequent generations of AI. The report details how current models are already assisting in data synthesis, reward modeling, and architectural search, creating a feedback loop that accelerates development. While the prospect of an 'intelligence explosion' remains a topic of debate, Anthropic emphasizes the need for rigorous safety guardrails as these systems become more autonomous in their own evolution. This research marks a pivotal step toward achieving highly capable, self-evolving artificial general intelligence."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "alibaba-open-code-review-cli",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "阿里巴巴发布开源 AI 代码评审命令行工具",
+        "en": "Alibaba Releases Open Code Review AI CLI Tool"
+      },
+      "summary": {
+        "zh": "阿里巴巴推出了「Open Code Review」，这是一个开源的命令行界面（CLI）工具，利用 AI 自动化代码审查流程。该工具可与现有的 Git 工作流集成，直接在终端内提供上下文反馈、识别潜在漏洞并建议性能优化。通过开源此工具，阿里巴巴降低了团队采用 AI 辅助开发实践的门槛，而无需依赖笨重的 IDE 插件。这一发布反映了模块化、以开发者为中心的 AI 工具日益增长的趋势，旨在提高大规模工程环境中的生产力。",
+        "en": "Alibaba has launched 'Open Code Review,' an open-source command-line interface (CLI) tool that leverages AI to automate the code review process. The tool integrates with existing Git workflows to provide contextual feedback, identify potential bugs, and suggest performance optimizations directly within the terminal. By open-sourcing this utility, Alibaba is lowering the barrier for teams to adopt AI-assisted development practices without relying on heavy IDE plugins. This release reflects the growing trend of modular, developer-centric AI tools designed to enhance productivity in large-scale engineering environments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/alibaba/open-code-review",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "south-korea-ai-image-censorship",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "韩国强制要求在线论坛实施 AI 图像扫描审查",
+        "en": "South Korea Mandates AI Image Scanning for Online Forums"
+      },
+      "summary": {
+        "zh": "韩国的一项新监管指令要求在线社区论坛实施 AI 驱动的审查工具，以扫描每一张上传的图片。该政策旨在打击非法内容的传播，包括深度伪造和非自愿影像，但引发了关于隐私和言论自由的激烈辩论。批评者认为，强制性的 AI 扫描可能导致过度审查，并建立起监控私人数字互动的监视基础设施。这一进展凸显了政府监管数字危害的努力与在 AI 普及时代保护用户隐私之间日益紧张的关系。",
+        "en": "A new regulatory mandate in South Korea requires online community forums to implement AI-powered censorship tools to scan every uploaded image. The policy aims to combat the spread of illegal content, including deepfakes and non-consensual imagery, but has sparked intense debate regarding privacy and freedom of expression. Critics argue that mandatory AI scanning could lead to over-censorship and create a surveillance infrastructure that monitors private digital interactions. This development underscores the increasing tension between government efforts to regulate digital harms and the preservation of user privacy in the age of ubiquitous AI."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "boxes-dev-cloud-ai-coding",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Boxes.dev：为 Claude Code 和 Codex 提供云端运行环境",
+        "en": "Boxes.dev: Cloud Infrastructure for Claude Code and Codex"
+      },
+      "summary": {
+        "zh": "Boxes.dev 作为一个专门的云平台出现，旨在托管 Claude Code 和 Codex 等 AI 编程智能体，将开发工作从本地环境转移到云端。该服务提供预配置且安全的「盒子」，允许 AI 智能体在沙箱环境中执行代码、运行测试并管理依赖项。这一基础设施解决了在本地机器上运行强大的智能体工作流时面临的安全和资源限制，为 AI 驱动的软件工程提供了可扩展的解决方案。该项目突显了向「智能体原生」开发环境的转变，即基础设施针对自主 AI 交互进行了优化。",
+        "en": "Boxes.dev has emerged as a specialized cloud platform designed to host AI coding agents like Claude Code and Codex, moving development away from local environments. The service provides pre-configured, secure 'boxes' that allow AI agents to execute code, run tests, and manage dependencies in a sandboxed environment. This infrastructure addresses the security and resource constraints of running powerful agentic workflows on local machines, offering a scalable solution for AI-driven software engineering. The project highlights the transition toward 'agent-native' development environments where the infrastructure is optimized for autonomous AI interaction."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://boxes.dev",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "openai-parameter-golf-agent-winner",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "自主智能体在 OpenAI 招聘竞赛中超越人类夺冠",
+        "en": "Autonomous Agent Outperforms Humans in OpenAI Hiring Competition"
+      },
+      "summary": {
+        "zh": "在自主系统的一个里程碑式结果中，一个 AI 研究智能体在 OpenAI 的「Parameter Golf」招聘竞赛中夺得头魁。该智能体在排行榜的 47 条合并记录中占据了 7 条，其表现是表现最出色的人类贡献者（3 条记录）的两倍多。这一事件标志着自主智能体首次在大型 AI 实验室举办的高难度技术竞赛中超越精英人类工程师。该智能体的成功表明，自主研究工作流正达到成熟水平，能够在专门的优化任务中与人类专家竞争并超越之。",
+        "en": "In a landmark result for autonomous systems, an AI research agent secured the top spot in OpenAI's 'Parameter Golf' hiring competition. The agent accounted for 7 out of 47 merged records on the leaderboard, more than doubling the performance of the most successful human contributor, who achieved 3 merges. This event marks one of the first instances where an autonomous agent has outperformed elite human engineers in a high-stakes technical competition hosted by a major AI lab. The success of the agent suggests that autonomous research workflows are reaching a level of maturity where they can compete with, and exceed, human expertise in specialized optimization tasks."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1txka8q/an_autonomous_research_agent_was_the_1/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "kvarn-kv-cache-quantization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "KVarN：通过方差归一化实现 4 倍压缩的 KV-Cache 量化技术",
+        "en": "KVarN: Variance-Normalized KV-Cache Quantization for 4x Compression"
+      },
+      "summary": {
+        "zh": "KVarN 是一种新型 KV-Cache 量化方法，通过在 K 和 V 矩阵的双轴上结合 Hadamard 旋转与方差归一化（Variance-Normalization）来实现。该方法在推理、代码生成和智能体等重解码场景下表现优异，可实现 3-4 倍的压缩率且几乎无损。这对于解决长文本推理中的内存带宽瓶颈、提升大模型在复杂任务中的推理效率具有重要意义。",
+        "en": "KVarN introduces a novel KV-Cache quantization method that combines Hadamard rotations with variance-normalization on both axes of the K and V matrices. The approach achieves 3-4x compression with virtually no loss in quality, making it particularly effective for decode-heavy tasks such as reasoning, code generation, and agentic workflows. By addressing memory bandwidth bottlenecks in long-context scenarios, KVarN enables more efficient test-time scaling for large language models."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "llm-reliability-library-unified",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "全新统一可靠性库通过优化技术将 LLM 推理成本降低 50%",
+        "en": "New Unified Library Cuts LLM Inference Costs by 50% via Reliability Techniques"
+      },
+      "summary": {
+        "zh": "开发者发布了一个开源的 LLM 可靠性库，集成了 28 种提升模型正确性的技术，如难度感知路由、集成学习和验证环节。该库通过优化推理资源分配，在保持输出质量的前提下将推理成本降低了一半。其「更改一行导入即可使用」的设计极大降低了开发者构建高可靠 AI 应用的门槛，适用于研究和企业内部评估场景。",
+        "en": "A new source-available library unifies 28 distinct LLM reliability techniques, including difficulty-aware routing, ensembling, and generator/critic refinement. The library allows developers to boost model correctness by spending extra inference cycles strategically, claiming to cut costs by half at matched quality levels. Its 'one import' adoption model simplifies the integration of complex communication-theoretic methods into existing production pipelines for research and internal evaluation."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1twtdob/we_built_a_sourceavailable_llm_reliability/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "gemma-4-qat-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google 发布支持量化感知训练的 Gemma 4 移动端优化模型",
+        "en": "Google Releases Gemma 4 with Quantization-Aware Training for Mobile"
+      },
+      "summary": {
+        "zh": "Google 发布了采用量化感知训练（QAT）的 Gemma 4 模型系列，涵盖 Q4_0 和移动端优化版本。Unsloth 的分析显示，通过 KL 散度评估，QAT 显著缩小了量化模型与全精度模型之间的性能差距。这一发布标志着 Google 在提供高性能、低占用模型方面取得进展，旨在确保边缘设备在模型压缩后仍能保持强大的推理能力。",
+        "en": "Google has launched Gemma 4 with Quantization-Aware Training (QAT), featuring specialized collections for 4-bit (Q4_0) and mobile-optimized deployments. Analysis from Unsloth using Kullback–Leibler divergence (KLD) indicates that QAT significantly minimizes the performance gap between compressed and full-precision models. This release marks a major step in Google's strategy to provide high-performance, small-footprint models that maintain reasoning capabilities on edge devices."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1txpeo0/gemma_4_with_quantizationaware_training/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "llamacpp-server-hot-swap",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "llama.cpp 服务器现支持 30 秒内完成模型热切换",
+        "en": "llama.cpp Server Enables Sub-30s Model Hot Swapping"
+      },
+      "summary": {
+        "zh": "llama.cpp 服务器现在支持在 30 秒内完成模型热切换，显著提升了本地 LLM 的使用体验。该功能已适配 Open WebUI 等前端，用户无需重启服务即可快速更换模型。相比以往漫长的 PyTorch 加载过程，这一改进极大优化了多模型测试与部署的效率，解决了本地部署中频繁切换模型的痛点。",
+        "en": "The llama.cpp server has introduced a robust model hot-swapping API that allows users to switch between different LLMs in under 30 seconds. This feature integrates seamlessly with popular frontends like Open WebUI and Hermes, eliminating the need for full server restarts or lengthy PyTorch loading sequences. The update significantly enhances the workflow for local LLM enthusiasts and developers who need to test multiple models rapidly without downtime."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1txmg8q/fyi_llamacpp_server_can_hot_swap_models_nowadays/",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "nvidia-ai-laptop-vision",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英伟达黄仁勋重新定义 AI 时代笔记本电脑",
+        "en": "Nvidia's Jensen Huang Redefines the Laptop for the AI Era"
+      },
+      "summary": {
+        "zh": "在开发者大会期间，英伟达 CEO 黄仁勋描绘了一种全新的 AI 笔记本电脑愿景，旨在支持持续的智能体交互。这种新型硬件将 AI 视为核心操作系统组件，而非单纯的应用程序。这一趋势表明，科技巨头正致力于构建一个从芯片到软件全面适配本地 AI 运行的生态系统，彻底改变用户的交互模式。",
+        "en": "During recent developer conferences, Nvidia CEO Jensen Huang articulated a vision for a new category of AI-native laptops designed to support continuous, agentic workflows. This shift emphasizes hardware optimized for local LLM execution and 'always-on' AI assistants that fundamentally change user interaction patterns. The industry is moving toward an ecosystem where AI is integrated as a core architectural component rather than just a software add-on."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "meta-ai-agent-security-breach",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta AI 助手漏洞导致 Instagram 账号遭大规模窃取",
+        "en": "Meta AI Agent Exploit Leads to Instagram Account Thefts"
+      },
+      "summary": {
+        "zh": "攻击者利用 Meta 的 AI 客服助手成功窃取了 Instagram 账号，甚至包括奥巴马时期的白宫休眠账号。攻击者仅通过诱导 AI 将账号关联至其控制的邮箱便完成了入侵，绕过了传统安全验证。此事件暴露出 AI 代理在拥有数据库写入权限时的巨大安全隐患，强调了在智能体系统中建立严格安全护栏的紧迫性。",
+        "en": "Attackers successfully exploited Meta's AI customer support agent to hijack Instagram accounts, including high-profile dormant accounts like the former Obama White House handle. By manipulating the agent into linking accounts to attacker-controlled email addresses, the exploit bypassed standard security protocols. This incident underscores the critical security risks associated with granting AI agents write-access to sensitive user databases without sufficient guardrails."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "date": "2026-06-05"
+    }
+  ]
+}
