@@ -1,0 +1,253 @@
+{
+  "date": "2026-06-08",
+  "dateLabel": {
+    "zh": "2026年6月8日",
+    "en": "June 08, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-08T18:00:01Z",
+    "elapsedSeconds": 194,
+    "rawArticles": 43,
+    "afterFilter": 35,
+    "afterDedup": 32,
+    "dedupRemoved": 3,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 2,
+      "Reddit": 7,
+      "The Verge AI": 2
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-reward-hacking",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Import AI 460：社会层面的奖励黑客攻击与强化学习无人机",
+        "en": "Import AI 460: Societal Reward Hacking and RL-Based Quadcopters"
+      },
+      "summary": {
+        "zh": "Jack Clark 在最新一期通讯中探讨了人类社会如何像网络环境一样被「奖励黑客」（reward-hacking）攻击，并引用了伦敦国王学院和复旦大学的研究。该研究揭示了优化者如何利用社会系统漏洞导致非预期后果。此外，文中还提到了 Anthropic 的 RSI 数据以及利用强化学习（RL）进行自主四旋翼无人机竞赛的重大进展，展示了 AI 在复杂物理和系统环境中的能力提升。",
+        "en": "Jack Clark's latest newsletter explores how human society can be 'reward-hacked' similarly to cyber environments, featuring research from King's College London and Fudan University. The issue highlights how optimizers can game societal systems, leading to unintended consequences. Additionally, it covers Anthropic's RSI data and significant progress in using Reinforcement Learning (RL) for autonomous quadcopter racing, demonstrating AI's growing capability in complex physical and systemic environments."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "deepseek-v4-pro-precision",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "DeepSeek V4 Pro 在精度基准测试中超越 GPT-5.5 Pro",
+        "en": "DeepSeek V4 Pro Surpasses GPT-5.5 Pro in Precision Benchmarks"
+      },
+      "summary": {
+        "zh": "据报道，DeepSeek V4 Pro 在精度指标上已超越 OpenAI 的 GPT-5.5 Pro，这标志着这家中国 AI 实验室取得重大里程碑。该消息在 Hacker News 上引发热议，预示着竞争格局可能发生转变，即中国专用模型在特定准确性任务上已能与美国顶尖模型抗衡甚至实现超越。这一进展凸显了行业正从单纯追求参数规模转向追求高保真输出和推理精度。",
+        "en": "DeepSeek V4 Pro has reportedly outperformed OpenAI's GPT-5.5 Pro in precision-focused metrics, marking a significant milestone for the Chinese AI lab. The news gained massive traction on Hacker News, signaling a potential shift in the competitive landscape where specialized Chinese models are rivaling or exceeding top-tier US models in specific accuracy tasks. This development underscores the industry's pivot from raw parameter scale to high-fidelity output and reasoning precision."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "sdsu-ai-surveillance",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "圣地亚哥州立大学在宿舍安装 1300 个 AI 摄像头且未告知学生",
+        "en": "SDSU Installs 1,300 AI Cameras in Dorms Without Student Consent"
+      },
+      "summary": {
+        "zh": "圣地亚哥州立大学（SDSU）因在校园内安装 1300 个 AI 摄像头（其中 330 个直接设在学生宿舍内）且未事先通知而遭到抵制。此举引发了关于隐私权和教育环境中生物识别监控伦理的激烈辩论。批评者认为，这种缺乏透明度的普遍监控损害了学生的信任，并为大学校园 AI 监控的常态化开了一个令人担忧的先例。",
+        "en": "San Diego State University (SDSU) has faced backlash after wiring its campus with 1,300 AI-powered cameras, including 330 placed directly inside student dormitories, without prior notification. The move has ignited a fierce debate over privacy rights and the ethics of biometric surveillance in educational settings. Critics argue that such pervasive monitoring without transparency undermines student trust and sets a concerning precedent for the normalization of AI surveillance on university campuses."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://reclaimthenet.org/sdsu-adds-1300-ai-cameras-330-in-student-dorms",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "arxiv-endorsement-ai-slop",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "ArXiv 严厉打击「AI 垃圾内容」与低质量研究投稿",
+        "en": "ArXiv Cracks Down on 'AI Slop' and Low-Quality Research Submissions"
+      },
+      "summary": {
+        "zh": "r/MachineLearning 上的一场热议质疑 ArXiv 是否应收紧背书制度，以应对 AI 生成的「垃圾内容」对学术诚信的冲击。ArXiv 目前正积极封禁上传低质量或自动化研究的账号，以维护平台声誉。研究人员被警告称，为陌生作者背书现在面临巨大的职业风险，因为社区正面临从 AI 增强的噪音中筛选有意义科学成果的严峻挑战。",
+        "en": "A viral discussion on r/MachineLearning questions whether ArXiv should tighten its endorsement system to maintain academic integrity against an influx of AI-generated 'slop.' ArXiv is actively banning accounts that upload low-quality or automated research to preserve the platform's reputation. Researchers are being cautioned that endorsing unknown authors now carries significant professional risk, as the community grapples with the challenge of filtering meaningful science from AI-augmented noise."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u03yot/should_arxiv_backtrack_endorsement_d/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "bm25-vs-embeddings-tool-selection",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "为何在智能体工具选择中 BM25 正在取代语义嵌入",
+        "en": "Why BM25 is Replacing Semantic Embeddings for Agent Tool Selection"
+      },
+      "summary": {
+        "zh": "一位开发者的回顾显示，在复杂的 AI 智能体工具选择中，语义嵌入和余弦相似度在生产环境下被证明是「极其危险」的。尽管在演示中表现尚可，但在管理超过 140 个 MCP 协议工具时，语义搜索的模糊性导致了错误的工具调用。该开发者转而使用经典的 BM25 关键词匹配算法，发现在精度要求极高的工具检索场景中，它比广泛的语义重叠更加可靠。",
+        "en": "A developer's retrospective reveals that semantic embeddings and cosine similarity proved 'actively dangerous' in production for selecting tools in complex AI agents. Despite working in demos, the fuzzy nature of semantic search led to incorrect tool calls when managing over 140 MCP-exposed tools. The developer switched back to the classic BM25 keyword-matching algorithm, finding it far more reliable for high-stakes tool retrieval where precision is more critical than broad semantic overlap."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u07tlm/why_i_stopped_using_semantic_embeddings_for_tool/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "xiaomi-mimo-1000tps",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "小米声称万亿参数 MoE 模型推理速度突破 1000 TPS",
+        "en": "Xiaomi Claims 1,000+ TPS on 1 Trillion Parameter MoE Model"
+      },
+      "summary": {
+        "zh": "小米发布了 MiMo-V2.5-Pro UltraSpeed，这是一个拥有 1 万亿参数的混合专家（MoE）模型，据称在标准 8-GPU 服务器上实现了超过 1000 TPS 的推理速度。这一性能之所以引人注目，是因为它并未依赖 Cerebras 或 Groq 等专用硬件。如果这些说法得到证实，这将代表推理优化领域的重大突破，允许在通用数据中心硬件上极速部署超大规模模型。",
+        "en": "Xiaomi has announced MiMo-V2.5-Pro UltraSpeed, a 1 trillion parameter Mixture-of-Experts (MoE) model that allegedly achieves over 1,000 tokens per second (TPS) on a standard 8-GPU server. This performance is notable because it does not rely on specialized hardware like Cerebras or Groq's LPUs. If these claims are verified, it would represent a massive breakthrough in inference optimization, allowing ultra-fast deployment of massive models on commodity data center hardware."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u0buhm/xiaomi_just_claimed_1000_tps_on_a_1t_model_using/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "luce-spark-moe-optimization",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Luce Spark 实现 16GB 显存运行 35B MoE 模型",
+        "en": "Luce Spark: Running 35B MoE Models on 16GB GPUs"
+      },
+      "summary": {
+        "zh": "Luce Spark 实现了本地 LLM 部署的突破，允许 35B 混合专家模型 (MoE) 在 16 GB 显存的消费级 GPU 上运行，且无需承受传统的卸载性能损失。通过仅在 GPU 上保留活动专家的技术（每个 token 仅路由到 256 个专家中的 8 个），Qwen3.6 35B-A3B 等模型的显存占用从 20.5 GiB 降至 13.3 GiB。这一优化使 RTX 3090 或 4080 等硬件能够高效运行高参数模型，显著降低了本地高质量推理的门槛。",
+        "en": "Luce Spark introduces a breakthrough in local LLM deployment by enabling 35B Mixture-of-Experts (MoE) models to run on consumer-grade 16 GB GPUs without the traditional offloading performance penalty. By utilizing a technique that keeps only active experts on the GPU—specifically routing to 8 out of 256 experts per token—models like Qwen3.6 35B-A3B saw VRAM usage drop from 20.5 GiB to just 13.3 GiB. This optimization allows high-parameter models to run efficiently on hardware like the RTX 3090 or 4080, significantly lowering the barrier for local high-quality inference."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u0b3cu/luce_spark_a_35b_moe_on_a_16_gb_gpu_without_the/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "unity-local-llm-game",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "独立开发者将本地 LLM 嵌入 Unity 游戏",
+        "en": "Indie Developer Bundles Local LLM into Unity Game"
+      },
+      "summary": {
+        "zh": "一位独立开发者成功将完全本地化的 LLM 集成到名为「Simulation Simulator」的 Unity 游戏中，无需联网或 API 密钥。游戏核心玩法围绕篝火对话模拟展开，玩家通过与 AI 角色进行自然对话来推动剧情，根据互动方式可达成五种独特结局。该项目展示了将生成式 AI 直接嵌入游戏二进制文件的可行性，为注重隐私、低延迟和涌现式叙事的游戏体验开辟了新路径。",
+        "en": "An independent developer has successfully integrated a fully local LLM into a Unity-based game titled 'Simulation Simulator,' removing the need for internet connectivity or API keys. The gameplay revolves around a campfire chat simulation where players interact naturally with an AI character, leading to five unique endings based on organic conversation. This project demonstrates the growing feasibility of embedding generative AI directly into game binaries for privacy-focused, low-latency, and emergent narrative experiences."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u0cpbm/i_bundled_a_fully_local_llm_inside_my_unity_game/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "open-env-consortium",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "OpenEnv 与 Hugging Face 及 PyTorch 达成开源协作",
+        "en": "OpenEnv Joins Forces with Hugging Face and PyTorch"
+      },
+      "summary": {
+        "zh": "用于创建终端和浏览器等智能体执行环境的工具 OpenEnv 已转向多组织治理模式，成员包括 Hugging Face、PyTorch、Unsloth 和 Modal 等。该协作委员会旨在标准化 AI 智能体与数字界面的交互方式，促进开源智能体训练生态系统的发展。通过汇集 Meta 和 Prime Intellect 等行业领导者的资源，该项目力求加速开发用于智能体评估和训练的可靠、可重复环境。",
+        "en": "OpenEnv, a tool for creating agentic execution environments such as terminals and browsers, has transitioned to a multi-organization governance model involving Hugging Face, PyTorch, Unsloth, and Modal. This collaborative committee aims to standardize how AI agents interact with digital interfaces, fostering an open-source ecosystem for training autonomous agents. By pooling resources from industry leaders like Meta and Prime Intellect, the project seeks to accelerate the development of reliable, reproducible environments for agentic evaluation and training."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u09ybx/openenv_is_now_owned_by_hf_torch_prime_intellect/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "nanoquant-binary-quantization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "NanoQuant：Transformer 模型的灵活二进制量化",
+        "en": "NanoQuant: Flexible Binary Quantization for Transformers"
+      },
+      "summary": {
+        "zh": "NanoQuant 的全新开源实现已发布，为稠密 Transformer 模型提供了一种灵活的二进制量化方法。该技术支持极高压缩率，包括每权重 2-bit、1-bit 甚至 0.5-bit，在尝试保持性能的同时显著减小了模型体积。这一实现为研究人员实验超低位宽权重提供了实用框架，对于在内存带宽受限的边缘设备上部署大规模模型至关重要。",
+        "en": "A new open-source implementation of NanoQuant has been released, offering a flexible binary quantization method for dense transformer models. The technique allows for extreme compression levels, including 2-bit, 1-bit, and even sub-1-bit (0.5-bit) per weight, significantly reducing model size while attempting to maintain performance. This implementation provides a practical framework for researchers to experiment with ultra-low-bitwidth weights, which is critical for deploying massive models on edge devices with limited memory bandwidth."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u0di9u/an_implementation_of_nanoquant_a_flexible_binary/",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "apple-wwdc-2026-siri-ai",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "苹果在 WWDC 发布下一代 Apple Intelligence 与新版 Siri",
+        "en": "Apple Unveils Next-Gen Apple Intelligence and Smarter Siri"
+      },
+      "summary": {
+        "zh": "在 WWDC 2026 上，苹果发布了下一代 Apple Intelligence 和经过重大改进的 Siri，旨在兑现两年前许下的 AI 承诺。此次更新引入了更深层次的个性化和跨应用智能功能，将 Siri 定位为更强大的主动式助手。在经历了一段内部挣扎并就之前的 AI 宣传达成 2.5 亿美元和解协议后，此次发布标志着苹果重新致力于在生成式 AI 领域追赶竞争对手，同时保持其标志性的端侧隐私关注。",
+        "en": "At WWDC 2026, Apple unveiled the next generation of Apple Intelligence and a significantly overhauled Siri, aiming to deliver on the AI promises made two years prior. The update introduces deeper personalization and cross-app intelligence, positioning Siri as a more capable proactive assistant. This launch follows a period of internal struggle and a $250 million settlement regarding previous AI claims, signaling Apple's renewed commitment to catching up with competitors in the generative AI space while maintaining its signature focus on on-device privacy."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "google-notebooklm-gemini-3-5",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Google 为 NotebookLM 升级 Gemini 3.5 模型",
+        "en": "Google Upgrades NotebookLM with Gemini 3.5"
+      },
+      "summary": {
+        "zh": "Google 对其 AI 驱动的笔记应用 NotebookLM 进行了重大更新，集成了 Gemini 3.5 模型以提升准确性和可靠性。此次更新引入了「云计算机」功能和改进的来源查找能力，使用户能够更有效地与其上传的文档和研究材料进行交互。自 2023 年推出以来，NotebookLM 已从简单的研究助手演变为复杂的综合信息处理工具，现在利用 Gemini 最新的推理能力来最大限度地减少幻觉。",
+        "en": "Google has updated its AI-powered note-taking app, NotebookLM, with the integration of the Gemini 3.5 model to enhance accuracy and reliability. The update introduces a 'cloud computer' feature and improved source-finding capabilities, allowing users to interact more effectively with their uploaded documents and research materials. Since its 2023 launch, NotebookLM has evolved from a simple research assistant into a sophisticated tool for synthesizing complex information, now leveraging Gemini's latest reasoning capabilities to minimize hallucinations."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "date": "2026-06-08"
+    }
+  ]
+}
