@@ -1,0 +1,255 @@
+{
+  "date": "2026-06-09",
+  "dateLabel": {
+    "zh": "2026年6月9日",
+    "en": "June 09, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-09T17:28:35Z",
+    "elapsedSeconds": 186,
+    "rawArticles": 53,
+    "afterFilter": 46,
+    "afterDedup": 42,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 4,
+      "Reddit": 1,
+      "r/LocalLLaMA": 4,
+      "The Verge AI": 1,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "software-engineering-market-2026",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "2026软件工程就业市场：AI实验室吸引力超越传统大厂",
+        "en": "State of Software Engineering Job Market 2026: AI Labs Over Big Tech"
+      },
+      "summary": {
+        "zh": "2026年软件工程市场报告显示，AI实验室的吸引力已全面超越传统科技巨头。数据显示，原生移动和前端开发岗位需求显著下降，而管理层正经历「大扁平化」改革以提升效率。这一结构性调整反映了行业向AI中心化开发和更精简组织架构的深度转型，AI工程化能力已成为衡量人才价值的新标准。",
+        "en": "The 2026 software engineering market shows a significant shift as AI labs now command higher prestige and talent attraction than traditional Big Tech firms. Data indicates a sharp decline in native mobile and frontend roles, while management layers are undergoing a 'great flattening' to increase efficiency. This restructuring reflects a broader industry pivot toward AI-centric development and leaner organizational structures, where specialized AI engineering skills are the new gold standard."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "apple-gemini-ai-architecture",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "苹果发布基于谷歌 Gemini 构建的新型 AI 架构",
+        "en": "Apple Unveils New AI Architecture Powered by Google Gemini"
+      },
+      "summary": {
+        "zh": "苹果正式发布了基于谷歌 Gemini 模型构建的新型 AI 架构，标志着两大科技巨头在智能手机领域的历史性合作。此举使苹果能够在保持其软硬件协同优势的同时，利用谷歌先进的大语言模型能力处理复杂任务。该架构将为苹果生态系统中的下一代 Siri 和生成式功能提供核心动力，预示着苹果长期以来坚持的「全自研」策略发生了重大转向。",
+        "en": "Apple has officially revealed a new AI architecture integrated with Google's Gemini models, marking a historic partnership in the smartphone industry. This move allows Apple to leverage Google's advanced LLM capabilities while maintaining its proprietary hardware-software optimization for on-device tasks. The collaboration aims to power next-generation Siri and generative features across the Apple ecosystem, signaling a major shift in Apple's historically insular development philosophy."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "microsoft-ai-tools-hack",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "微软开源工具遭入侵，AI 开发者密码面临泄露风险",
+        "en": "Microsoft Open Source Tools Compromised to Target AI Developers"
+      },
+      "summary": {
+        "zh": "针对微软开源工具的安全攻击导致大量 AI 开发者的凭据被盗。攻击者通过入侵广泛使用的代码库注入恶意代码，专门针对从事敏感模型训练管线的开发人员。这一事件凸显了 AI 开发供应链的脆弱性，随着开发者日益依赖共享开源基础设施进行大规模部署，加强安全协议已成为当务之急。",
+        "en": "A security breach targeting Microsoft's open-source tools has resulted in the theft of credentials belonging to numerous AI developers. Attackers compromised widely used repositories to inject malicious code, specifically targeting those working on sensitive model training pipelines. This incident underscores the urgent need for enhanced security protocols in the AI development supply chain as developers increasingly rely on shared open-source infrastructure for large-scale deployments."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "apple-core-ai-framework",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "苹果推出 Core AI 框架，强化设备端智能开发",
+        "en": "Apple Launches Core AI Framework for On-Device Intelligence"
+      },
+      "summary": {
+        "zh": "苹果发布了全新的 Core AI 框架文档，这是一套旨在简化 macOS 和 iOS 上 AI 模型集成的综合工具集。该框架为开发者提供了用于高效设备端推理的高级 API，并针对苹果最新的神经网络引擎进行了深度优化。此举是推动苹果开发者社区构建新一代注重隐私、无需持续联网的本地 AI 应用的关键一步。",
+        "en": "Apple has released the documentation for its new Core AI Framework, a comprehensive set of tools designed to streamline AI model integration on macOS and iOS. The framework provides developers with high-level APIs for efficient on-device inference, specifically optimized for Apple's latest Neural Engine. This release is a critical step in enabling a new wave of privacy-focused, local AI applications that do not require constant cloud connectivity."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://developer.apple.com/documentation/coreai/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "claude-fable-5-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 发布 Claude Fable 5 与 Mythos 5 模型",
+        "en": "Anthropic Releases Claude Fable 5 and Mythos 5 Models"
+      },
+      "summary": {
+        "zh": "Anthropic 宣布推出 Claude Fable 5 和 Mythos 5，这是其旗舰 AI 模型系列的最新迭代。与前代相比，这些模型在复杂推理、创意叙事和多模态理解方面表现出显著提升。此次发布旨在通过增强的安全护栏和更细腻的人机交互能力，在企业级应用和创意场景中与行业内的其他前沿模型展开直接竞争。",
+        "en": "Anthropic has announced the release of Claude Fable 5 and Mythos 5, the latest iterations of its flagship AI model family. These models demonstrate significant improvements in complex reasoning, creative storytelling, and multi-modal understanding compared to the previous generation. The release aims to compete directly with other frontier models by offering enhanced safety guardrails and more nuanced, human-like interaction capabilities for enterprise and creative use cases."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "china-v100-hardware-mod",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "中国民间出现定制单槽半高 V100 GPU，支持 NVLink",
+        "en": "Custom Single-Slot V100 GPUs with NVLink Emerge in China"
+      },
+      "summary": {
+        "zh": "据 Reddit 社区爆料，中国硬件爱好者正将 NVIDIA V100 GPU 改装为支持 NVLink 的单槽半高 PCIe 规格。这些定制化改装旨在将高性能计算能力塞入紧凑型服务器机箱，以满足本地大模型推理和训练需求。这种民间创新凸显了市场对高带宽硬件方案的持续渴求，以及在全球 GPU 供应受限背景下涌现的硬核工程能力。",
+        "en": "Hardware enthusiasts in China are reportedly repurposing NVIDIA V100 GPUs into single-slot, half-height PCIe form factors with functional NVLink support. These custom modifications are designed to fit high-performance compute power into compact server chassis for local LLM inference and training. This grassroots innovation highlights the persistent demand for high-bandwidth hardware solutions and the creative engineering emerging from global GPU supply constraints."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u16eyk/people_are_making_singleslot_half_height_pcie/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "apple-coreai-announcement",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "苹果发布 CoreAI：专为 Apple Silicon 优化的端侧推理引擎",
+        "en": "Apple Unveils CoreAI for Optimized On-Device Inference"
+      },
+      "summary": {
+        "zh": "苹果在 WWDC 2026 上发布了 CoreAI，这是专为 Apple Silicon 设计的下一代端侧推理引擎，旨在取代 CoreML。该引擎针对 iPhone 和 iPad 进行了深度优化，成为 MLX 和 llama.cpp 的原生替代方案。虽然目前仍需通过 Python 脚本进行权重转换，且支持的模型库尚在完善中，但其与硬件的深度集成预示着移动端本地大模型运行效率的重大提升。",
+        "en": "Apple introduced CoreAI at WWDC 2026, a next-generation on-device inference engine designed to succeed CoreML. Optimized specifically for Apple Silicon across iPhones and iPads, it positions itself as a native alternative to MLX and llama.cpp. While it currently requires a Python-based weight conversion process and supports a limited set of mid-2025 models, its deep hardware integration promises superior performance for local LLM execution on mobile devices."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "unsloth-gemma-4-qat-mtp",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Unsloth 发布采用 QAT 和 MTP 技术的优化版 Gemma 4 模型",
+        "en": "Unsloth Releases Optimized Gemma 4 Models with QAT and MTP"
+      },
+      "summary": {
+        "zh": "Unsloth 发布了谷歌 Gemma 4 系列（12B、26B 和 31B）的优化版本，采用了量化感知训练 (QAT) 和多 Token 预测 (MTP) 技术。这些模型以 GGUF 格式提供，包含高精度的 q8_0 变体。MTP 技术的引入显著提升了助手性能和推理速度，使其成为目前本地部署中最具效率的开源权重模型之一。",
+        "en": "Unsloth has released optimized versions of Google's Gemma 4 models (12B, 26B, and 31B) utilizing Quantization-Aware Training (QAT) and Multi-Token Prediction (MTP). These models are available in GGUF format, including high-precision q8_0 variants and larger quants. The integration of MTP significantly enhances assistant performance and reasoning speed, making these some of the most efficient open-weights models currently available for local deployment."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "cohere-north-mini-code",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Cohere 发布 North Mini Code 1.0 30B 编程模型",
+        "en": "Cohere Launches North Mini Code 1.0 30B Model"
+      },
+      "summary": {
+        "zh": "Cohere Labs 正式发布了 North Mini Code 1.0，这是一个拥有 30B 参数的编程专用模型。尽管其 28 分的综合分析得分落后于 Qwen 3.6 35B（43分），但在编程专项指标上达到了 33 分，表现出极强的竞争力。该模型体现了 Cohere 在开发工作流专用中型高效模型领域的持续发力，旨在平衡性能与资源消耗。",
+        "en": "Cohere Labs officially launched North Mini Code 1.0, a 30B parameter model specialized for programming tasks. While its general artificial analysis score of 28 lags behind Qwen 3.6 35B (43), its coding-specific index of 33 is highly competitive against its peers. The model represents Cohere's push into specialized, mid-sized efficient models designed to balance performance and resource requirements for developer workflows."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "rust-native-lfm-implementation",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "LFM2.5 的 Rust 原生 CPU 实现版本达到 37 t/s 解码速度",
+        "en": "Rust-Native CPU Implementation of LFM2.5 Achieves 37 t/s"
+      },
+      "summary": {
+        "zh": "一位社区开发者发布了 LFM2.5-8B-A1B 模型的 Rust 原生、仅限 CPU 的实现版本。在 Ryzen 7950x 处理器上，该引擎的解码速度达到了约 37 tokens/s，尽管 Prefill 预填充阶段仍待优化。该项目已作为 Cargo crate 发布，支持工具调用回调，展示了在不依赖 GPU 的情况下，利用消费级 CPU 实现高性能大模型推理的潜力。",
+        "en": "A community developer has released a Rust-native, CPU-only implementation of the LFM2.5-8B-A1B model. Running on a Ryzen 7950x, the engine achieves a decoding speed of approximately 37 tokens per second, though prefill optimization is still ongoing. The project, now available as a Cargo crate, includes support for tool-use callbacks and demonstrates the potential for high-performance LLM inference on consumer-grade CPUs without GPU dependency."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "suleyman-ai-job-comments",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "微软 AI 负责人澄清关于 AI 取代白领工作的言论",
+        "en": "Microsoft AI Chief Clarifies Stance on White-Collar Automation"
+      },
+      "summary": {
+        "zh": "微软 AI 首席执行官 Mustafa Suleyman 对其近期关于 AI 影响白领职业的言论进行了澄清。他强调，AI 的设计初衷是辅助而非取代律师、会计师等职位，主要通过自动化邮件撰写和数据整合等常规任务来提升效率。这一表态反映了行业将 AI 定位为「副驾驶」的普遍趋势，旨在缓解公众对失业问题的焦虑，同时推动企业端的普及。",
+        "en": "Microsoft AI CEO Mustafa Suleyman clarified his recent remarks regarding AI's impact on white-collar professions like law and accounting. He emphasized that AI is designed to assist rather than replace these roles by automating routine tasks such as email drafting and data synthesis. This pivot reflects a broader industry trend of framing AI as a 「copilot」 to mitigate public anxiety over job displacement while promoting enterprise adoption."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/946879/microsoft-mustafa-suleyman-ai-white-collar-jobs",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "hybrid-human-ai-enterprise",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "麻省理工科技评论：企业 AI 智能体采用率将激增 300%",
+        "en": "MIT Tech Review: AI Agent Adoption to Surge 300%"
+      },
+      "summary": {
+        "zh": "《麻省理工科技评论》指出，未来两年企业对 AI 智能体的采用率预计将激增 300%。与传统的自动化不同，这些智能体能够在多个工具和环境中自主协调复杂任务。领导团队目前正面临管理「人机混合劳动力」的挑战，这需要建立全新的管理框架，以监督那些运作日益独立的自主数字实体。",
+        "en": "MIT Technology Review highlights a projected 300% surge in AI agent adoption within enterprises over the next two years. Unlike traditional automation that requires manual input, these agents can autonomously coordinate complex tasks across multiple tools and environments. Leadership teams are now tasked with managing a 「hybrid human-AI workforce,」 requiring new management frameworks to oversee autonomous digital entities that operate with increasing independence."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "date": "2026-06-09"
+    }
+  ]
+}
