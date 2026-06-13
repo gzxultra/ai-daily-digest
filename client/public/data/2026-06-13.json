@@ -1,0 +1,253 @@
+{
+  "date": "2026-06-13",
+  "dateLabel": {
+    "zh": "2026年6月13日",
+    "en": "June 13, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-13T16:17:24Z",
+    "elapsedSeconds": 135,
+    "rawArticles": 39,
+    "afterFilter": 30,
+    "afterDedup": 22,
+    "dedupRemoved": 8,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "Reddit": 2,
+      "The Verge AI": 3,
+      "Simon Willison": 1
+    }
+  },
+  "news": [
+    {
+      "id": "open-source-ai-manifesto",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "开源 AI 必胜：防止技术垄断的战略宣言",
+        "en": "The Strategic Necessity of Open Source AI Dominance"
+      },
+      "summary": {
+        "zh": "一篇关于「开源 AI 必须获胜」的宣言在 Hacker News 上引发热议，获得超过 1300 个点赞。文章指出，开源 AI 是防止企业垄断智能、确保技术民主化的核心力量。讨论聚焦于闭源模型的「安全借口」与透明度需求之间的矛盾，认为只有开放权重才能推动长期创新，并防止科技巨头利用监管手段进行市场围剿，从而掌控计算资源的未来。",
+        "en": "A viral manifesto argues that open-source AI is essential for preventing corporate monopolization of intelligence. With over 1,300 points on Hacker News, the discussion highlights the tension between closed-source safety arguments and the democratic need for transparent, modifiable models. Proponents argue that only open weights can ensure long-term innovation and prevent regulatory capture by incumbent tech giants who seek to gatekeep the future of compute."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://opensourceaimustwin.com/?share=v2",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "reduce-ai-frontend-slop",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "减少 AI 生成前端代码「邋遢感」的实用策略",
+        "en": "Strategies to Mitigate Sloppiness in AI-Generated UI"
+      },
+      "summary": {
+        "zh": "本技术指南针对 AI 生成前端代码中常见的「邋遢」问题（如冗余 CSS 和逻辑不一致）提出了解决方案。作者介绍了通过特定提示词策略和后处理步骤来强制执行更整洁的架构和可访问性标准的方法。通过迭代反馈循环和严格的 Lint 约束来优化 LLM 输出，开发者可以显著减少 AI 辅助 UI 开发中产生的技术债。",
+        "en": "This technical guide addresses the sloppiness often found in AI-generated frontend code, such as redundant CSS and inconsistent component logic. It proposes specific prompting strategies and post-processing steps to enforce cleaner architecture and better accessibility standards. By refining the LLM's output through iterative feedback loops and strict linting constraints, developers can significantly reduce the technical debt typically associated with AI-assisted UI development."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "tensorzero-archived-after-funding",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "TensorZero 获 730 万美元融资后随即归档开源仓库",
+        "en": "AI Startup Archives Repo Immediately After $7.3M Seed Round"
+      },
+      "summary": {
+        "zh": "AI 基础设施初创公司 TensorZero 在获得 730 万美元种子轮融资后，一夜之间将其开源仓库归档，引发社区强烈反弹。此举再次激起了关于「开源核心」商业模式以及利用开源社区获取初期流量后转向闭源的道德争议。该事件为依赖风险投资支持的开源 AI 工具的开发者敲响了警钟，凸显了当前 AI 生态中商业利益与社区信任的冲突。",
+        "en": "TensorZero, an AI infrastructure startup, sparked community backlash after archiving its open-source repository immediately following a $7.3 million seed funding round. This move has reignited debates over open-core business models and the ethics of using open-source communities to build initial traction before pivoting to proprietary software. The incident serves as a cautionary tale for developers relying on VC-backed open-source tools in the rapidly evolving AI ecosystem."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/tensorzero/tensorzero",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "world-of-claudecraft-vibe-coding",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "World of ClaudeCraft：利用 Fable 5 氛围编程构建的网游",
+        "en": "MMORPG Built via Vibe Coding with Fable 5"
+      },
+      "summary": {
+        "zh": "《ClaudeCraft 世界》是一款利用 Fable 5 框架通过「氛围编程」（vibe coding）技术构建的大型多人在线角色扮演游戏。该项目展示了从手动编写语法到基于高层意图开发的转变，AI 根据自然语言描述处理复杂的网络逻辑和游戏机制。这一里程碑式的案例表明，随着智能体工作流的日益成熟，复杂软件工程的准入门槛正在迅速降低。",
+        "en": "World of ClaudeCraft is a functional MMORPG created using vibe coding techniques powered by the Fable 5 framework. The project demonstrates the shift from manual syntax writing to high-level intent-based development, where the AI handles complex game mechanics and networking logic based on natural language descriptions. This milestone suggests that the barrier to entry for complex software engineering is collapsing as agentic workflows become more sophisticated and reliable."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://worldofclaudecraft.com/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "paca-ai-jira-alternative",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Paca：专为人类与 AI 协作设计的轻量级项目管理工具",
+        "en": "Paca: A Lightweight Jira Alternative for Human-AI Teams"
+      },
+      "summary": {
+        "zh": "Paca 是一款轻量级项目管理工具，旨在作为 Jira 的替代方案，专门为「人机协作」场景进行了优化。它提供了一个流线型界面，允许 AI 智能体直接与任务积压和状态更新进行交互，而无需传统企业软件的沉重开销。通过将 AI 视为工作流中的一等公民，Paca 旨在降低管理人类与自主智能体混合团队时的协作摩擦。",
+        "en": "Paca is a new, lightweight project management tool designed as a Jira alternative specifically optimized for human-AI collaboration. It features a streamlined interface that allows AI agents to interact directly with task backlogs and status updates without the overhead of traditional enterprise software. By treating AI as a first-class citizen in the workflow, Paca aims to reduce the friction of managing hybrid teams where tasks are split between humans and autonomous agents."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Paca-AI/paca",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "hidden-state-probing-llm",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "别让 LLM 说话：通过探测隐藏状态获取真实意图",
+        "en": "Probing Hidden States Instead of Relying on LLM Text Output"
+      },
+      "summary": {
+        "zh": "该研究探索提出，开发者不应仅仅依赖文本生成，而应「探测」LLM 的隐藏状态以提取内部表示。通过分析中间层的向量空间，研究人员可以识别模型真实的「信念」或置信度，而这些信息在解码过程中往往会被掩盖。这种技术为检测幻觉和理解大语言模型的底层推理逻辑提供了一种比分析生成文本更可靠、更直接的方法。",
+        "en": "This research exploration suggests that instead of relying on text generation, developers should probe the hidden states of LLMs to extract internal representations. By analyzing the vector space of intermediate layers, researchers can identify the model's true beliefs or confidence levels, which are often obscured during the decoding process. This technique offers a more reliable way to detect hallucinations and understand the underlying reasoning of large language models without the noise of natural language."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "paddleocr-ncnn-cpp",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "基于 ncnn 的 PaddleOCR v3-v6 C++ 实现发布",
+        "en": "PaddleOCR v3-v6 implemented in C++ with ncnn"
+      },
+      "summary": {
+        "zh": "开发者发布了支持 PaddleOCR v3 至 v6 版本的 C++ 实现，并采用了 ncnn 推理框架。相比官方 Paddle C++ 运行时复杂的依赖和部署流程，该版本更加轻量且在特定任务中速度更快。这一改进显著降低了在边缘设备和跨平台系统中部署先进 OCR 模型的门槛，通过极简的依赖关系为工程实践提供了更高效的选择。",
+        "en": "A developer has released a high-performance C++ implementation of PaddleOCR supporting versions v3 through v6, utilizing the ncnn inference framework. By replacing the official Paddle C++ runtime, which is often criticized for its complex dependencies and deployment hurdles, this implementation offers a significantly lighter and faster alternative for production environments. This project simplifies the deployment of state-of-the-art OCR models on edge devices and cross-platform systems by minimizing external requirements."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "derivative-free-mnist-optimization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "无导数优化方法在 MNIST 神经网络中的应用研究",
+        "en": "Derivative-Free Neural Network Optimization for MNIST"
+      },
+      "summary": {
+        "zh": "研究人员利用 MDP（无导数优化方法）对 MNIST 图像分类神经网络进行了直接优化测试。该网络采用 784-32-10 架构，包含 25,450 个连续参数，在完全不使用反向传播或梯度信息的情况下完成了优化。这项实验探索了非梯度训练范式，对于处理不可微目标函数或梯度计算受限的硬件环境具有重要的理论与实践价值。",
+        "en": "Researchers conducted a direct optimization test on a neural network for MNIST classification using MDP, a Derivative-Free Optimization (DFO) method. The network, featuring a 784-32-10 architecture with 25,450 continuous parameters, was optimized entirely without the use of backpropagation or gradient information. This experiment explores alternative training paradigms that could be crucial for non-differentiable objectives or specialized hardware where gradient calculation is computationally inefficient or impossible."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u4fc16/derivativefree_neural_network_optimization_mnist/",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "anthropic-government-cutoff",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "受政府指令影响 Anthropic 关停 Fable 5 与 Mythos 5 访问",
+        "en": "Anthropic cuts off Fable 5 and Mythos 5 following government order"
+      },
+      "summary": {
+        "zh": "受美国政府国家安全指令要求，Anthropic 已紧急关停其 Fable 5 和 Mythos 5 模型的访问权限。该指令要求禁止所有外国实体访问，甚至限制了 Anthropic 内部员工的权限，导致公司最终对所有客户彻底断连。这一史无前例的举动凸显了前沿 AI 开发与国家安全政策之间日益剧烈的冲突，预示着国家监管进入新阶段。",
+        "en": "Anthropic has abruptly terminated access to its Fable 5 and Mythos 5 models following a national security order from the U.S. government. The mandate requires blocking access for all foreign nations and, significantly, even Anthropic's own employees, leading the company to shut down the models for all customers to ensure compliance. This unprecedented move highlights the intensifying intersection of frontier AI development and national security policy, signaling a new era of strict state oversight."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "apple-ios27-ai-photo-editing",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "苹果在 iOS 27 中引入原生 AI 照片编辑工具",
+        "en": "Apple introduces native AI photo editing in iOS 27"
+      },
+      "summary": {
+        "zh": "随着 iOS 27 的发布，苹果首次推出了原生 AI 照片编辑工具，涵盖重构构图、图像扩展及「消除」杂物等功能。尽管这些功能相比谷歌 Pixel 手机略显保守，但对于 iPhone 生态而言，这标志着生成式 AI 正式深度集成至全球最普及的相机应用中。该更新旨在为大众用户在创意灵活性与图像真实感之间取得平衡。",
+        "en": "With the release of iOS 27, Apple has introduced its first suite of native AI-powered photo editing tools, including features for reframing, extending images, and 「cleaning up」 unwanted elements. While these tools are described as more conservative compared to Google's Pixel features, they mark a major shift for the iPhone ecosystem by integrating generative AI directly into the world's most popular camera app. The update aims to balance creative flexibility with realistic output for mainstream users."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "hollywood-custom-ai-models",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "好莱坞转向使用定制化生成式 AI 模型进行创作",
+        "en": "Hollywood shifts toward custom-trained generative AI models"
+      },
+      "summary": {
+        "zh": "2026 年翠贝卡电影节的讨论表明，好莱坞 AI 创作的未来在于定制化模型，而非通用的生成式 AI。如《Dear Upstairs Neighbors》等项目采用了谷歌 Veo 和 Imagen 的定制版本，使创作者能保持风格一致性与艺术掌控力。这一趋势预示着影视行业正转向专业级、精调的 AI 工作流，以满足商业电影的高标准要求，而非简单的提示词生成。",
+        "en": "Discussions at Tribeca 2026 suggest that the future of AI in filmmaking lies in custom-trained models rather than generic 「vanilla」 generative AI. Projects like 「Dear Upstairs Neighbors」 utilized specialized builds of Google’s Veo and Imagen, allowing creators to maintain stylistic consistency and artistic control. This trend indicates a shift toward professional-grade, fine-tuned AI workflows that meet the high standards of commercial cinema, moving beyond simple prompt-based generation."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "openai-webrtc-document-context",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI WebRTC 音频会话新增文档上下文支持",
+        "en": "OpenAI WebRTC Audio Session adds document context support"
+      },
+      "summary": {
+        "zh": "OpenAI 更新了其 WebRTC 音频会话功能，新增了文档上下文支持，使模型能在实时语音交互中引用上传的文件。这一增强功能填补了多模态理解与低延迟通信之间的空白，实现了通过语音讨论复杂 PDF 等高级助手行为。该更新显著提升了实时 AI 在专业办公和教育场景中的实用价值，满足了基于数据的对话需求。",
+        "en": "OpenAI has updated its WebRTC Audio Session capabilities to include document context, allowing the model to reference uploaded files during real-time voice interactions. This enhancement bridges the gap between multimodal understanding and low-latency communication, enabling more sophisticated AI assistant behaviors like discussing complex PDFs via voice. The update significantly improves the utility of real-time AI for professional and educational use cases where data-grounded conversation is required."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
+      "date": "2026-06-13"
+    }
+  ]
+}
