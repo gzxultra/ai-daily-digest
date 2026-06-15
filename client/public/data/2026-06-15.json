@@ -1,0 +1,236 @@
+{
+  "date": "2026-06-15",
+  "dateLabel": {
+    "zh": "2026年6月15日",
+    "en": "June 15, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-15T19:06:55Z",
+    "elapsedSeconds": 151,
+    "rawArticles": 37,
+    "afterFilter": 31,
+    "afterDedup": 29,
+    "dedupRemoved": 2,
+    "finalStories": 11,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 4,
+      "Reddit": 1,
+      "The Verge AI": 3,
+      "MIT Tech Review": 1,
+      "Simon Willison": 1
+    }
+  },
+  "news": [
+    {
+      "id": "sequent-safety-startup",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "英国 AI 安全研究员因对齐进度滞后创立 Sequent",
+        "en": "UK AI Security Researchers Launch Sequent as Alignment Stalls"
+      },
+      "summary": {
+        "zh": "来自英国 AI 安全研究所的研究人员成立了名为 Sequent 的新安全初创公司，理由是当前的对齐工作「并未走上正轨」，难以应对前沿风险。Sequent 计划投资一系列资源匮乏的研究方向，旨在解决商业实验室可能忽视的基础安全漏洞。此举凸显了机构安全标准与商业 AI 快速发展之间日益扩大的分歧，强调了独立安全验证的必要性。",
+        "en": "Researchers from the UK AI Security Institute have launched Sequent, a new safety-focused startup, arguing that current alignment efforts are not on track to handle frontier risks. Sequent aims to pursue a portfolio of under-resourced research bets to address fundamental safety gaps that commercial labs may overlook. This move highlights a growing rift between institutional safety standards and the rapid pace of commercial AI development, emphasizing the need for independent safety verification."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "rio-llm-merge-controversy",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "里约热内卢「本土」大模型被指为模型合并产物",
+        "en": "Rio de Janeiro Homegrown LLM Exposed as Model Merge"
+      },
+      "summary": {
+        "zh": "里约热内卢备受瞩目的本土大模型 Nex-N2 陷入争议，GitHub 上的技术分析显示该模型疑似是现有开源模型的合并版本，而非原创。这一事件对宣称拥有「主权技术」的地区性 AI 项目的透明度和真实性提出了质疑。这反映了在模型合并技术日益复杂的今天，验证模型来源、防止「套壳」的难度正在显著增加。",
+        "en": "Rio de Janeiro's much-touted homegrown LLM, Nex-N2, has come under fire after technical analysis on GitHub suggested it is a merge of existing models rather than an original creation. The controversy raises significant questions about the transparency and authenticity of regional AI initiatives claiming sovereign technology. It underscores the increasing difficulty of verifying model provenance in an era where sophisticated model merging techniques can easily mask a model's true origins."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "claude-chemist-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Anthropic 成功将 Claude 训练为化学专家",
+        "en": "Anthropic Specialized Claude for Advanced Chemistry Tasks"
+      },
+      "summary": {
+        "zh": "Anthropic 发布的研究详细介绍了如何通过针对性微调和专门的提示工程，使 Claude 能够胜任高级化学任务。该研究表明，模型在预测化学性质和设计复杂合成路线方面的性能显著提升，超越了通用推理能力。这项研究标志着 AI 正在向领域专家模型转型，旨在协助进行高风险的科学发现和实验室自动化。",
+        "en": "Anthropic has published research detailing how Claude can be specialized for advanced chemistry tasks through targeted fine-tuning and specialized prompting. The study demonstrates significant performance gains in predicting chemical properties and designing complex synthesis routes, moving beyond general-purpose reasoning. This research signals a strategic shift toward domain-specific expert models that can assist in high-stakes scientific discovery and laboratory automation."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "euromesh-distributed-compute",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "EuroMesh 探索利用分布式算力训练欧洲前沿模型",
+        "en": "EuroMesh: Can Europe Train Frontier AI on Distributed Compute?"
+      },
+      "summary": {
+        "zh": "EuroMesh 项目正在探索通过整合欧洲大陆各地的分布式计算资源来训练前沿 AI 模型的可行性。该倡议旨在利用现有的主权基础设施，减少对美国中心化云服务商的依赖，并培育更具韧性的欧洲 AI 生态系统。其核心技术挑战在于如何在保持竞争性训练效率的同时，管理地理分散的数据中心之间的高延迟互连问题。",
+        "en": "The EuroMesh project explores the feasibility of training frontier AI models by aggregating distributed compute resources across the European continent. By leveraging existing sovereign infrastructure, the initiative seeks to reduce dependence on centralized US-based cloud providers and foster a resilient European AI ecosystem. The primary technical challenge involves managing high-latency interconnects between geographically dispersed data centers while maintaining competitive training efficiency."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/sammysltd/euromesh",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "india-uae-ai-sovereignty",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "印度与阿联酋联手打造主权 AI 基础设施",
+        "en": "India and UAE Partner to Build Sovereign AI Infrastructure"
+      },
+      "summary": {
+        "zh": "印度与阿联酋（包括 G42 和 Cerebras）建立了战略合作伙伴关系，共同建设主权 AI 基础设施，旨在绕过谷歌和微软等美国科技巨头的垄断。合作重点是开发本地化大模型，并部署针对地区语言和数据隐私法量身定制的大型计算集群。随着各国寻求通过「AI 主权」来掌控其技术和经济未来，这一伙伴关系代表了重大的地缘政治转变。",
+        "en": "India and the UAE have entered a strategic partnership involving G42 and Cerebras to build sovereign AI infrastructure, aiming to bypass the dominance of US tech giants like Google and Microsoft. The collaboration focuses on developing localized LLMs and deploying massive compute clusters tailored to regional languages and data privacy laws. This partnership represents a significant geopolitical shift as nations seek AI sovereignty to ensure control over their technological and economic futures."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "ai-model-name-priors",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "大语言模型在角色命名中表现出强烈的模型特定偏好",
+        "en": "LLMs Exhibit Strong Model-Specific Biases in Character Naming"
+      },
+      "summary": {
+        "zh": "研究人员发现，大语言模型对角色名称具有强烈的、随版本变化的先验偏好，例如 Claude 经常使用「Elena Vasquez」和「Marcus Chen」。这一现象是通过名为 CDD 的模型差异化方法发现的，这些命名模式可以作为识别生成文本来源模型的「指纹」。研究表明，这些偏差深深植根于训练数据分布中，并在模型迭代中保持一致。了解这些先验偏好对于改进 AI 检测工具以及分析模型如何内化社会和文化数据至关重要。",
+        "en": "Researchers have identified that large language models possess strong, version-specific priors for character names, such as Claude's frequent use of 'Elena Vasquez' and 'Marcus Chen'. Discovered through a model diffing method called CDD, these naming patterns act as a 'fingerprint' that can identify the source model of generated text. The study suggests these biases are deeply rooted in the training data distributions and remain consistent across model iterations. Understanding these priors is essential for improving AI detection tools and analyzing how models internalize social and cultural data."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u6mn3q/ai_language_models_have_favorite_names_and_we/",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "anthropic-white-house-ban",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "白宫禁止国外访问 Anthropic 的 Fable 5 和 Mythos 5 模型",
+        "en": "White House Blocks Foreign Access to Anthropic's Fable 5 and Mythos 5"
+      },
+      "summary": {
+        "zh": "6 月 12 日，美国政府发布命令，禁止国外访问 Anthropic 新发布的 Fable 5 和 Mythos 5 模型，而这两个模型仅在 6 月 9 日刚刚面世。Anthropic 此前声称这些模型的能力显著超过了以往任何可用系统，这立即引发了国家安全担忧。此次干预加剧了该 AI 实验室与五角大楼之间在模型安全和部署问题上已有的僵局。此举标志着政府在控制前沿 AI 能力出口以维持竞争优势方面采取了更加激进的立场。",
+        "en": "On June 12th, the U.S. government issued an order to block foreign access to Anthropic's newly released AI models, Fable 5 and Mythos 5, just days after their June 9th debut. Anthropic had claimed these models significantly exceed the capabilities of any previously available systems, prompting immediate national security concerns. This intervention escalates an existing standoff between the AI lab and the Pentagon over model safety and deployment. The move signals a more aggressive stance by the administration in controlling the export of frontier AI capabilities to maintain a competitive advantage."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "big-tech-ai-regulation-preemption",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "大型科技公司推动联邦 AI 监管预置权",
+        "en": "Big Tech Pushes for Federal Preemption in AI Regulation"
+      },
+      "summary": {
+        "zh": "大型科技公司的游说者正在华盛顿加大力度，试图在即将出台的 AI 立法中获得「预置权」（preemption），这将允许联邦法律凌驾于各州不同的监管规定之上。这一推动正值参议员 Marsha Blackburn 和 Chuck Schumer 领导的跨党派讨论之际，重点是通过 KOSA 法案关注儿童安全和在线隐私。行业领袖认为，碎片化的监管环境阻碍了创新并带来了合规难题。然而，消费者权益倡导者担心，联邦预置权设定的安全标准可能低于现有或拟议的州法律，从而削弱整体保护水平。",
+        "en": "Lobbyists for major technology companies are intensifying their efforts in Washington to secure 'preemption' in upcoming AI legislation, which would allow federal laws to override diverse state-level regulations. This push coincides with bipartisan discussions led by Senators Marsha Blackburn and Chuck Schumer focusing on child safety and online privacy via the KOSA act. Industry leaders argue that a fragmented regulatory landscape hinders innovation and creates compliance nightmares. However, consumer advocates worry that federal preemption might set a lower bar for safety than existing or proposed state laws, potentially weakening overall protections."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "china-mythos-access-leak",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "对中国获取访问权的担忧引发了 Anthropic 出口限制",
+        "en": "Fears of Chinese Access Triggered Anthropic Export Restrictions"
+      },
+      "summary": {
+        "zh": "最新报道显示，白宫限制 Anthropic Mythos 5 模型的决定是由于有情报称一个与中国相关的组织可能已经访问了该模型。美国官员担心，获取 Mythos 5 或 Fable 5 的访问权可能使外国对手能够逆向工程先进的模型架构，或利用其能力获取战略利益。这一事件突显了保护模型权重面临的极端困难以及全球 AI 军备竞赛的高风险。潜在的泄露已导致各界呼吁对开发前沿模型的实验室实施更严格的网络安全协议。",
+        "en": "New reports suggest the White House's decision to restrict Anthropic's Mythos 5 was driven by intelligence that a group linked to China may have already accessed the model. U.S. officials are concerned that access to Mythos 5 or Fable 5 could allow foreign adversaries to reverse-engineer advanced model architectures or exploit their capabilities for strategic gain. This incident underscores the extreme difficulty of securing model weights and the high stakes of the global AI arms race. The potential breach has led to calls for even stricter cybersecurity protocols for labs developing frontier models."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "bci-als-power-user",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "ALS 患者在使用三年后成为首位脑机接口高级用户",
+        "en": "ALS Patient Becomes First BCI Power User After Three Years of Use"
+      },
+      "summary": {
+        "zh": "患有肌萎缩侧索硬化症（ALS）且瘫痪的 Casey Harrell 在连续使用植入式脑机接口（BCI）近三年后，被公认为该技术的首位「高级用户」。自 2023 年初始研究阶段以来，Harrell 已累计使用该电极系统数千小时，将神经活动转化为口语语句。这一长期成功证明了侵入式 BCI 在现实世界中恢复沟通能力的耐用性和实用价值。从 Harrell 的广泛使用中收集的数据正为研究人员提供前所未有的见解，以了解如何在数年内维持和优化 BCI 的性能。",
+        "en": "Casey Harrell, a man living with ALS and paralysis, has been recognized as the first 'power user' of an implanted brain-computer interface (BCI) after nearly three years of continuous use. Since the initial 2023 research phase, Harrell has logged thousands of hours using the electrode-based system to translate his neural activity into spoken sentences. This long-term success demonstrates the durability and practical utility of invasive BCIs in real-world settings for restoring communication. The data gathered from Harrell's extensive use is providing researchers with unprecedented insights into how BCI performance can be maintained and optimized over several years."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "anthropic-internal-clashes",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "内部领导层冲突导致 Anthropic 服务中断",
+        "en": "Internal Leadership Clashes Linked to Anthropic Service Outages"
+      },
+      "summary": {
+        "zh": "有报道详细披露了 Anthropic 领导层内部严重的性格冲突，据称这些冲突导致了近期的模型服务中断。内部摩擦据称阻碍了运营效率，一些员工对基础设施和模型部署的管理表示沮丧。一位消息人士将这种情况描述为重大失败，在谈到对公司可靠性的影响时直言「他们害了我们」。这些内部斗争发生在一个危险时刻，此时 Anthropic 正面临严峻的监管压力和前沿 AI 市场的高风险竞争。",
+        "en": "Reports have surfaced detailing severe personality clashes within Anthropic's leadership that reportedly contributed to recent model outages. The internal friction has allegedly hampered operational efficiency, with some staff expressing frustration over the management of infrastructure and model deployments. One source described the situation as a significant failure, stating 'they screwed us' regarding the impact on the company's reliability. These internal struggles come at a precarious time as Anthropic navigates intense regulatory pressure and high-stakes competition in the frontier AI market."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+      "date": "2026-06-15"
+    }
+  ]
+}
