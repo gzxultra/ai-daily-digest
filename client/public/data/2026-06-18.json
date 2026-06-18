@@ -1,0 +1,256 @@
+{
+  "date": "2026-06-18",
+  "dateLabel": {
+    "zh": "2026年6月18日",
+    "en": "June 18, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-18T18:08:41Z",
+    "elapsedSeconds": 162,
+    "rawArticles": 55,
+    "afterFilter": 43,
+    "afterDedup": 37,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 4,
+      "The Verge AI": 3,
+      "Ars Technica": 1,
+      "Google AI Blog": 1,
+      "Simon Willison": 1,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "anthropic-fable-ban-spacex-cursor",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国禁售 Anthropic Fable 模型；SpaceX 收购 Cursor",
+        "en": "US Bans Anthropic's Fable Model; SpaceX Acquires Cursor"
+      },
+      "summary": {
+        "zh": "美国政府据报以国家安全风险为由禁用了 Anthropic 的最新尖端模型「Fable」，标志着 AI 主动遏制政策进入新阶段。与此同时，SpaceX 在筹备 IPO 之际收购了热门 AI 代码编辑器 Cursor，并同步推出了 GitHub 的竞争产品，引发行业巨震。这些动向表明 AI 开发基础设施正向与国防紧密相关的航空航天巨头集中。针对 Fable 的禁令特别指向其高级自主能力，而 SpaceX 对 Cursor 的收购则预示着工程人才与工具链重心的重大转移。",
+        "en": "The US government has reportedly banned Anthropic's latest frontier model, 'Fable,' citing significant national security risks, marking a new era of proactive AI containment. In a parallel industry shakeup, SpaceX has acquired the AI code editor Cursor as it prepares for an IPO, simultaneously launching a direct competitor to GitHub. These developments suggest a massive consolidation of AI development infrastructure within defense-linked aerospace giants. The ban on Fable specifically targets its advanced autonomous capabilities, while the SpaceX-Cursor deal signals a shift in where the future of engineering talent and tooling will reside."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "ai-branding-consumer-backlash",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "60% 美国消费者对品牌营销中的「AI」字样反感",
+        "en": "60% of US Consumers Repelled by 'AI' Branding"
+      },
+      "summary": {
+        "zh": "一份 2026 年的深度消费者研究显示，60% 的美国用户认为品牌营销中使用「AI」标签会降低购买欲望，表明市场疲劳度已达顶峰。消费者日益将该词与隐私侵犯、质量下降和企业炒作联系在一起，而非实际用途。这一转变正迫使产品团队转向「隐形 AI」策略，即利用机器学习增强功能，但不再将其作为核心营销卖点。数据凸显了硅谷对 AI 标签的痴迷与公众对可靠、以人为本产品的需求之间存在严重脱节。",
+        "en": "A comprehensive 2026 consumer study reveals that 60% of US users find the inclusion of 'AI' in brand messaging to be a turnoff, suggesting a peak in market fatigue. Consumers increasingly associate the term with privacy intrusion, lower quality, and corporate hype rather than genuine utility. This shift is forcing product teams to pivot toward 'invisible AI' strategies, where machine learning enhances features without being the primary marketing hook. The data highlights a growing disconnect between Silicon Valley's obsession with AI labels and the general public's desire for reliable, human-centric products."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://wpvip.com/future-of-the-web-2026/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "adam-open-source-ai-cad",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Adam：开源 AI 原生 CAD 建模平台",
+        "en": "Adam: An Open-Source AI-Native CAD Platform"
+      },
+      "summary": {
+        "zh": "YC W25 孵化项目 Adam 发布了一款开源 AI CAD 引擎，旨在用大模型驱动的几何生成取代传统的参数化建模。通过允许工程师用自然语言或代码描述机械约束和形状，Adam 显著加速了硬件的迭代设计过程。该平台直接集成到制造工作流中，确保 AI 生成的设计在物理上可行且精确。这一发布标志着将「Copilot」体验引入机械工程领域迈出了重要一步，以社区优先的模式挑战 SolidWorks 等传统闭源巨头。",
+        "en": "Adam (YC W25) has launched an open-source AI CAD engine designed to replace traditional parametric modeling with LLM-driven geometry generation. By allowing engineers to describe mechanical constraints and shapes in natural language or code, Adam significantly accelerates the iterative design process for hardware. The platform integrates directly with manufacturing workflows, ensuring that AI-generated designs remain physically viable and precise. This launch represents a major step in bringing the 'Copilot' experience to mechanical engineering, challenging established proprietary giants like SolidWorks with a community-first approach."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/Adam-CAD/CADAM",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "trex-execution-based-ai-reviewer",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "TREX：通过实际运行验证代码的 AI 审查器",
+        "en": "TREX: AI Code Reviewer That Validates via Execution"
+      },
+      "summary": {
+        "zh": "Greptile 发布了 TREX，这是一款超越静态分析、能实际运行所检查代码的 AI 审查工具。通过在沙箱环境中执行代码，TREX 可以识别出传统大模型审查器经常遗漏的运行时错误、逻辑缺陷和性能瓶颈。这种「执行优先」的方法为开发者提供了 Bug 的确凿证据而非推测性建议，极大地减少了 CI/CD 流水线中的误报。这标志着 AI 从被动助手向能够在软件开发生命周期中进行实证验证的自主智能体转变。",
+        "en": "Greptile has released TREX, an AI-powered code reviewer that goes beyond static analysis by actually executing the code it inspects. By running the code in a sandboxed environment, TREX can identify runtime errors, logic flaws, and performance bottlenecks that traditional LLM reviewers often miss. This 'execution-first' methodology provides developers with concrete proof of bugs rather than speculative suggestions, drastically reducing false positives in the CI/CD pipeline. It marks a transition from passive AI assistants to active agents capable of empirical verification within the software development lifecycle."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.greptile.com/blog/trex-code-execution",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "openai-ai-chemist-reaction-optimization",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "OpenAI 的「AI 化学家」攻克复杂药物反应难题",
+        "en": "OpenAI's AI Chemist Solves Complex Medicinal Reactions"
+      },
+      "summary": {
+        "zh": "OpenAI 研究人员成功应用专门的 AI 模型优化了药物化学中至关重要的挑战性化学反应。该系统将预测模型与自动化实验室反馈相结合，发现的反应条件在纯度和产量上均显著高于人工主导的实验。这一突破展示了 AI 掌握分子合成非线性复杂性的能力，有望缩短数年的药物研发周期。该项目凸显了 AI 研究正向高门槛的物理科学领域转型，在这些领域，精度和实验验证至关重要。",
+        "en": "OpenAI researchers have successfully applied specialized AI models to optimize challenging chemical reactions essential for medicinal chemistry. The system combined predictive modeling with automated lab feedback to discover reaction conditions that yield significantly higher purity and volume than human-led trials. This breakthrough demonstrates AI's ability to master the non-linear complexities of molecular synthesis, potentially shaving years off the drug discovery timeline. The project highlights a shift in AI research toward high-stakes physical sciences where precision and experimental validation are paramount."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://openai.com/index/ai-chemist-improves-reaction/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "amazon-data-center-whistleblower-retaliation",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚马逊工程师因倡议限制数据中心面临解雇",
+        "en": "Amazon Engineers Face Firing Over Data Center Advocacy"
+      },
+      "summary": {
+        "zh": "三名亚马逊软件工程师在西雅图市议会作证支持暂停新建数据中心后，正面临被解雇的风险。这些员工援引了环保诉求和保护政治言论的当地法律，但据报亚马逊仍以违反外部沟通政策为由启动了纪律处分。这一冲突凸显了大厂激进的 AI 基础设施扩张与员工要求的气候承诺之间日益加剧的紧张关系。该案件被视为 AI 行业快速增长背景下劳工权利与政治表达的一次关键博弈。",
+        "en": "Three Amazon software engineers are facing potential termination after testifying before the Seattle City Council in favor of a moratorium on new data centers. The employees cited environmental concerns and a local law protecting political speech, but Amazon has reportedly moved forward with disciplinary action for violating external communication policies. This conflict underscores the rising tension between Big Tech's aggressive AI infrastructure expansion and the climate commitments demanded by their workforce. The case is seen as a pivotal test for labor rights and political expression within the rapidly growing AI sector."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "adobe-creative-cloud-ai-assistants",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Adobe 为 Creative Cloud 全家桶推出对话式 AI 助手",
+        "en": "Adobe Launches Conversational AI Assistants Across Creative Cloud Suite"
+      },
+      "summary": {
+        "zh": "Adobe 正式为其旗舰级 Creative Cloud 应用（包括 Photoshop、Premiere Pro 和 Illustrator）推出了对话式 AI 助手的公开测试版。这些助手超越了简单的「生成式填充」功能，提供了一个基于聊天的界面，用于处理复杂的编辑任务、工作流自动化和跨应用协调。这一举措标志着创意行业的重大转变，即从基于工具的操作转向基于意图的设计编排，允许用户通过自然语言指令执行多步骤的创意流程。",
+        "en": "Adobe has officially launched a public beta for conversational AI assistants integrated across its flagship Creative Cloud applications, including Photoshop, Premiere Pro, and Illustrator. These assistants move beyond simple generative features like 'Generative Fill' to offer a chat-based interface for complex editing tasks, workflow automation, and cross-app coordination. This rollout represents a significant shift in the creative industry, transitioning from tool-based manipulation to intent-based design orchestration, allowing users to execute multi-step creative processes through natural language commands."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "midjourney-scanner-medical-hardware",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Midjourney 进军医疗硬件领域，推出超声扫描仪",
+        "en": "Midjourney Pivots to Medical Hardware with New Ultrasound Scanner"
+      },
+      "summary": {
+        "zh": "Midjourney 首席执行官 David Holz 揭晓了公司首款硬件产品「Midjourney 扫描仪」，标志着公司从艺术图像生成向医疗成像和实体康养领域的激进扩张。该扫描仪旨在生成高保真全身超声扫描图像，利用公司在生成式领域的专业知识进行医疗可视化。这一战略转型（还包括在旧金山开设实体水疗中心的计划）表明，Midjourney 正致力于将数字生成与物理健康诊断相结合的垂直集成 AI 应用。",
+        "en": "Midjourney CEO David Holz has unveiled the company's first hardware product, the 'Midjourney Scanner,' marking a radical expansion from artistic image generation into medical imaging and physical wellness. The scanner is designed to produce high-fidelity full-body ultrasound scans, leveraging the company's generative expertise for medical visualization. This strategic pivot, which includes plans for a physical spa in San Francisco, suggests a move toward vertically integrated AI applications that bridge the gap between digital generation and physical health diagnostics."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "dangerous-hacking-ai-inevitability",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "报告警告：具备自主黑客能力的 AI 模型崛起已不可避免",
+        "en": "Report Warns of Inevitable Rise in Autonomous Hacking AI Models"
+      },
+      "summary": {
+        "zh": "一份新报告强调了具备高级黑客攻击和自主利用能力的「危险」AI 模型出现的必然性。尽管有监管努力和安全护栏，但开源研究和算力的普及确保了能够识别并武器化零日漏洞的模型很快将成为常态。这一趋势迫使网络安全范式发生转变，随着复杂网络攻击的门槛不断降低，安全领域必须从被动补丁转向 AI 驱动的主动防御。",
+        "en": "A new report highlights the inevitable emergence of 'dangerous' AI models equipped with advanced hacking and autonomous exploitation capabilities. Despite regulatory efforts and safety guardrails, the proliferation of open-source research and compute power ensures that models capable of identifying and weaponizing zero-day vulnerabilities will soon become common. This trend forces a paradigm shift in cybersecurity, moving from reactive patching to AI-driven proactive defense as the barrier to entry for sophisticated cyberattacks continues to drop."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "google-amie-nature-research",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Google AMIE 在复杂疾病管理方面表现媲美人类医生",
+        "en": "Google's AMIE Matches Physicians in Complex Disease Management"
+      },
+      "summary": {
+        "zh": "Google Research 在《自然》杂志上发表的一项研究表明，其对话式 AI 系统 AMIE（清晰医疗智能探索者）在管理复杂疾病方面的表现已达到或超过初级保健医生。该研究侧重于诊断准确性和临床沟通，结果显示 AMIE 能有效梳理病史并建议管理方案。这一里程碑验证了 LLM 作为可扩展临床决策支持工具的潜力，尽管实际应用仍需经过严格的安全和伦理审查。",
+        "en": "Google Research has published a study in the journal 'Nature' demonstrating that its conversational AI system, AMIE (Articulate Medical Intelligence Explorer), matches or exceeds the performance of primary care physicians in managing complex medical conditions. The research focused on diagnostic accuracy and clinical communication, showing that AMIE can effectively navigate patient histories and suggest management plans. This milestone validates the potential for LLMs to serve as scalable clinical decision support tools, though real-world deployment remains subject to rigorous safety and ethical considerations."
+      },
+      "source": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "glm-5-2-open-weights-llm",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "智谱 AI 发布 GLM-5.2：目前最强纯文本开源权重模型",
+        "en": "GLM-5.2 Released as Leading Text-Only Open Weights Model"
+      },
+      "summary": {
+        "zh": "智谱 AI 发布了 GLM-5.2，该模型被认为是目前最强大的纯文本开源权重大型语言模型。它在标准基准测试中表现出色，在推理、编程和多语言理解方面足以媲美领先的闭源模型。通过优先采用纯文本架构，GLM-5.2 实现了极高的效率和专业化智能，为开发者社区构建复杂的智能体工作流提供了坚实基础，且无需承担多模态组件的额外开销。",
+        "en": "Zhipu AI has released GLM-5.2, which is being recognized as the most powerful text-only open weights large language model currently available. The model demonstrates exceptional performance across standard benchmarks, rivaling leading proprietary models in reasoning, coding, and multilingual understanding. By prioritizing a text-only architecture, GLM-5.2 achieves high efficiency and specialized intelligence, providing the developer community with a robust foundation for building sophisticated agentic workflows without the overhead of multimodal components."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "anjney-midha-outputmaxxing-interview",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "专访 Anjney Midha：探讨「产出最大化」与 AMP 秘密计划",
+        "en": "Anjney Midha Discusses 'Outputmaxxing' and the AMP Master Plan"
+      },
+      "summary": {
+        "zh": "在 Latent Space 的深度访谈中，传奇投资人 Anjney Midha 讨论了他的「产出最大化」（Outputmaxxing）哲学，以及他投资 Anthropic、Mistral 和 Black Forest Labs 背后的战略愿景。Midha 概述了「AMP」秘密主计划，重点关注 AI 如何通过专业化基础设施最大化人类的创意和技术产出。这次对话为理解驱动当前 AI 热潮的风险投资逻辑提供了罕见视角，强调了从通用模型向高实用性、产出导向型系统的转变。",
+        "en": "In a deep-dive interview with Latent Space, legendary investor Anjney Midha discusses his 'Outputmaxxing' philosophy and the strategic vision behind his investments in Anthropic, Mistral, and Black Forest Labs. Midha outlines the 'AMP' secret master plan, focusing on how AI can maximize human creative and technical output through specialized infrastructure. The conversation provides a rare look into the venture capital logic driving the current AI boom, emphasizing the shift from general-purpose models to high-utility, output-oriented systems."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/anj",
+      "date": "2026-06-18"
+    }
+  ]
+}
