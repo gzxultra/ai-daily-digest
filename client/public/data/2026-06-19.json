@@ -1,0 +1,253 @@
+{
+  "date": "2026-06-19",
+  "dateLabel": {
+    "zh": "2026年6月19日",
+    "en": "June 19, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-19T17:23:05Z",
+    "elapsedSeconds": 154,
+    "rawArticles": 37,
+    "afterFilter": 27,
+    "afterDedup": 22,
+    "dedupRemoved": 5,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 6,
+      "The Verge AI": 3,
+      "MIT Tech Review": 2,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "amazon-engineer-investigation",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚马逊调查批评 AI 数据中心扩张的工程师",
+        "en": "Amazon Probes Engineers Over AI Data Center Expansion Criticism"
+      },
+      "summary": {
+        "zh": "亚马逊据报道正在调查内部工程师，这些员工曾公开批评公司激进扩张以 AI 为核心的数据中心。争议焦点在于这些设施的环境影响和能源消耗，而这些设施对于训练大规模 AI 模型至关重要。这一内部摩擦凸显了大厂碳中和目标与生成式 AI 繁荣带来的巨大电力需求之间的矛盾。此次调查引发了人们对 AI 基础设施快速扩张背景下，员工言论自由和企业社会责任的担忧。",
+        "en": "Amazon is reportedly investigating internal engineers who publicly criticized the company's aggressive expansion of AI-focused data centers. The controversy centers on the environmental impact and energy consumption of these facilities, which are essential for training large-scale AI models. This internal friction highlights the growing tension between Big Tech's carbon neutrality goals and the massive power demands of the generative AI boom. The investigation raises concerns about employee speech and corporate accountability in the age of rapid AI infrastructure scaling."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "ace-specification-x86",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "x86 生态系统委员会发布 AI 计算扩展 (ACE) 规范",
+        "en": "x86 Ecosystem Board Unveils AI Compute Extensions (ACE) Spec"
+      },
+      "summary": {
+        "zh": "x86 生态系统咨询委员会发布了 AI 计算扩展（ACE）规范，这是一套旨在优化 x86 架构上 AI 工作负载的标准指令集。该倡议旨在统一 CPU 处理矩阵乘法和向量处理等 AI 任务的方式，减少不同硬件厂商之间的碎片化。通过提供通用框架，ACE 使开发者能够为边缘和数据中心 AI 应用编写更具移植性和高效的代码。此举被视为 x86 阵营对 ARM 和专用 NPU 在 AI 硬件市场日益占据主导地位的战略回应。",
+        "en": "The x86 Ecosystem Advisory Board has released the AI Compute Extensions (ACE) Specification, a standardized set of instructions designed to optimize AI workloads on x86 architectures. This initiative aims to unify how CPUs handle AI tasks like matrix multiplication and vector processing, reducing fragmentation across different hardware vendors. By providing a common framework, ACE enables developers to write more portable and efficient code for edge and data center AI applications. This move is seen as a strategic response to the rising dominance of ARM and specialized NPUs in the AI hardware market."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "gitlawb-agentic-git",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Gitlawb 推出专为 AI 智能体优化的 Git 平台",
+        "en": "Gitlawb Launches Git Platform Optimized for AI Agents"
+      },
+      "summary": {
+        "zh": "Gitlawb 推出了一款专为「智能体时代」设计的全新 Git 平台，在该时代，AI 智能体承担了大量的代码提交和审查工作。与专为人机交互设计的传统版本控制系统不同，该平台具有面向 LLM 智能体的原生 API、自动冲突解决以及针对非人类参与者的细粒度权限管理。该系统旨在通过将 AI 智能体视为开发生命周期中的一等公民，来简化 CI/CD 流程。这一转变反映了行业向完全自主软件工程工作流迈进的趋势。",
+        "en": "Gitlawb has introduced a new Git platform specifically architected for the 'agentic era,' where AI agents perform a significant portion of code commits and reviews. Unlike traditional version control systems designed for human interaction, this platform features native APIs for LLM agents, automated conflict resolution, and granular permissioning for non-human actors. The system aims to streamline the CI/CD pipeline by treating AI agents as first-class citizens in the development lifecycle. This shift reflects the industry's move toward fully autonomous software engineering workflows."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://gitlawb.com/node",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "meta-ai-product-lead-departure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Meta 「AI 办公」产品负责人宣布离职",
+        "en": "Meta's Head of 'AI for Work' Product Departs Company"
+      },
+      "summary": {
+        "zh": "Meta 负责「AI 办公」转型计划的产品负责人即将离职，这标志着其企业 AI 战略发生了重大领导层变动。该高管负责将生成式 AI 工具集成到 Meta 的内部工作流以及 Workplace 等外部业务产品中。此次离职正值 Meta 继续将其重点转向开源 Llama 模型和面向消费者的 AI 功能之际。这一变动可能预示着 Meta 在与微软和谷歌等对手竞争企业 AI 市场时，正在重新调整其业务架构。",
+        "en": "Meta's head of product for its 'AI for Work' transformation initiative is departing the company, marking a significant leadership change in its enterprise AI strategy. The executive was responsible for integrating generative AI tools into Meta's internal workflows and external business products like Workplace. This exit comes as Meta continues to pivot its focus toward open-source Llama models and consumer-facing AI features. The departure may signal a reorganization of how Meta approaches the competitive enterprise AI market against rivals like Microsoft and Google."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/world/meta-head-product-ai-work-transformation-is-leaving-company-2026-06-17/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "glm-5-2-open-weights",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "GLM-5.2 发布：或为目前最强纯文本开源大模型",
+        "en": "GLM-5.2 Released as Leading Open Weights Text LLM"
+      },
+      "summary": {
+        "zh": "GLM-5.2 正式发布，被誉为目前最强大的纯文本开源权重大型语言模型。该模型由智谱 AI 团队开发，在推理、编程和多语言理解方面表现出卓越性能，足以媲美同等规模的闭源模型。其发布增强了开源权重生态系统，为开发者提供了用于本地部署和微调的高性能替代方案。该模型的成功凸显了中国 AI 实验室在全球 LLM 领域中的快速进步。",
+        "en": "GLM-5.2 has been released and is being hailed as potentially the most powerful text-only open weights large language model currently available. Developed by the Zhipu AI team, the model demonstrates exceptional performance in reasoning, coding, and multilingual understanding, rivaling proprietary models of similar scale. Its release strengthens the open-weights ecosystem, providing developers with a high-performance alternative for local deployment and fine-tuning. The model's success highlights the rapid advancement of Chinese AI labs in the global LLM landscape."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/17/glm-52/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "uber-lyft-ai-pricing",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "《消费者报告》批评 Uber 和 Lyft 的 AI 驱动定价机制",
+        "en": "Consumer Reports Critiques AI-Driven Pricing by Uber and Lyft"
+      },
+      "summary": {
+        "zh": "《消费者报告》的一份新报告指出，Uber 和 Lyft 正越来越多地利用复杂的 AI 算法对行程实施动态和个性化定价。调查发现，同一路线存在显著的价格差异，并识别出实际上并未降低消费者成本的「虚假折扣」。虽然这些公司声称 AI 优化了供需关系，但批评者认为这些「黑箱」算法导致了价格歧视且缺乏透明度。这一审查加剧了监管机构对零工经济中 AI 驱动的算法定价日益增长的压力。",
+        "en": "A new report from Consumer Reports highlights how Uber and Lyft are increasingly utilizing sophisticated AI algorithms to implement dynamic and personalized pricing for rides. The investigation found significant price discrepancies for the same routes and identified 'fake discounts' that do not actually lower the cost for consumers. While the companies claim AI optimizes supply and demand, critics argue these 'black box' algorithms lead to price discrimination and lack of transparency. This scrutiny adds to the growing regulatory pressure on AI-driven algorithmic pricing in the gig economy."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.consumerreports.org/money/questionable-business-practices/uber-lyft-different-prices-for-same-ride-and-fake-discounts-a1093538909/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "altman-film-dropped",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "亚马逊 MGM 放弃制作 Sam Altman 传记电影",
+        "en": "Amazon MGM Drops Sam Altman Biopic Artificial"
+      },
+      "summary": {
+        "zh": "亚马逊 MGM 已停止制作由卢卡·瓜达尼诺执导、安德鲁·加菲尔德主演的电影《Artificial》。该片原计划记录 2023 年 Sam Altman 被解雇又复职的戏剧性五天，项目已筹备近一年。此次项目搁浅反映了影视行业在刻画尚在发展的科技巨头争议时的谨慎态度，以及 OpenAI 领导层叙事背后的复杂公关风险与法律挑战。",
+        "en": "Amazon MGM has reportedly halted production on Artificial, a high-profile film directed by Luca Guadagnino about OpenAI CEO Sam Altman. The project, which had been in development for a year, was set to star Andrew Garfield as Altman and Monica Barbaro as CTO Mira Murati, focusing on the chaotic five-day period in 2023 involving Altman's brief ousting. The cancellation highlights the challenges of dramatizing the ongoing and volatile history of AI leadership while the industry remains in a state of flux."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "barret-zoph-openai-exit",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 企业级 AI 主管 Barret Zoph 再次离职",
+        "en": "Enterprise AI Head Barret Zoph Departs OpenAI Again"
+      },
+      "summary": {
+        "zh": "OpenAI 企业级 AI 销售主管 Barret Zoph 在回归仅五个月后再次离职。他此前曾离开 OpenAI 加入由前 CTO Mira Murati 创立的 Thinking Machines Lab，随后被挖回负责领导 OpenAI 的企业业务扩张。Zoph 的快速离职凸显了顶尖 AI 实验室在从研究向商业化转型过程中，核心人才流失与领导层变动的持续动荡。",
+        "en": "Barret Zoph, OpenAI's head of enterprise AI sales, has left the company just five months after his high-profile return in January 2026. Zoph had previously departed to serve as CTO of Mira Murati's Thinking Machines Lab before being recruited back to lead OpenAI's commercial push into the enterprise sector. His rapid second exit signals continued leadership instability and intense talent competition among top-tier AI labs as they pivot toward aggressive monetization strategies."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "anthropic-fable-5-regulation",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic Fable 5 发布引发监管与政策风暴",
+        "en": "Anthropic Fable 5 Release Sparks Regulatory Conflict"
+      },
+      "summary": {
+        "zh": "Anthropic 发布新模型 Fable 5 后引发了关于 AI 安全与政府干预的激烈辩论。据报道，特朗普政府在对该模型能力表示担忧后向公司施压，甚至涉及五角大楼的介入，导致该模型面临监管限制。这一事件凸显了前沿模型快速部署与缺乏明确「危险」AI 监管框架之间的矛盾，以及政治力量对 AI 实验室决策日益增长的影响。",
+        "en": "The release of Anthropic's latest model, Fable 5, has triggered a significant confrontation between the AI lab and the Trump administration over national security concerns. Following the model's public debut, reports suggest the Pentagon and federal regulators intervened due to the model's advanced capabilities, leading to discussions about a potential ban. This incident serves as a critical case study in the lack of clear frameworks for determining when an AI model becomes too dangerous for public access."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "subquadratic-llm-bottleneck",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "初创公司 Subquadratic 声称突破 LLM 算力瓶颈",
+        "en": "Startup Subquadratic Claims Breakthrough in LLM Scaling"
+      },
+      "summary": {
+        "zh": "迈阿密初创公司 Subquadratic 声称解决了困扰大语言模型（LLM）近十年的数学瓶颈，重点针对注意力机制的平方级缩放问题。尽管最初受到质疑，该公司已开始提供技术证据支持其高效计算的说法。如果得到证实，这项突破将显著降低训练和运行长文本 AI 模型的成本与能耗，打破当前大模型对海量算力的依赖。",
+        "en": "Miami-based startup Subquadratic has emerged from stealth claiming to have solved the quadratic scaling bottleneck that has limited Large Language Models for nearly a decade. By optimizing the mathematical foundations of attention mechanisms, the company aims to significantly reduce the compute resources required for long-context processing. While initially met with skepticism, the startup has begun providing technical documentation to validate its claims, which could potentially reshape the economics of AI training."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "bci-trials-als-success",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "脑机接口临床试验取得长期突破性进展",
+        "en": "Brain-Computer Interface Trials Show Long-Term Success"
+      },
+      "summary": {
+        "zh": "脑机接口（BCI）技术正迎来里程碑，ALS 患者 Casey Harrell 的长期临床试验取得显著成效。Harrell 在瘫痪且无法言语的情况下，已使用该植入设备近三年进行交流。这些试验的成功标志着 BCI 正在从实验室原型转向针对严重神经系统疾病的可行医疗干预手段，展现了该技术在医疗临床应用中的高可靠性与潜力。",
+        "en": "New clinical data highlights the success of brain-computer interface (BCI) implants, specifically focusing on ALS patient Casey Harrell, who has used the device for nearly three years. Harrell, who is paralyzed and non-verbal, has become a power user of the technology, enabling coherent communication through neural signals. The longevity and reliability of this trial mark a pivotal shift for BCIs from experimental laboratory curiosities to viable medical solutions for severe neurological impairments."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "midjourney-medical-launch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Midjourney Medical 发布：生成式 AI 进军器官扫描",
+        "en": "Midjourney Medical: Generative AI Enters Organ Scanning"
+      },
+      "summary": {
+        "zh": "独立 AI 实验室 Midjourney 发布了其第二个主要产品线 Midjourney Medical，旨在变革诊断影像。该工具声称能让用户像「踩体重秤一样简单地扫描器官」，利用其在生成式 AI 领域的深厚积累进行医学可视化。这标志着这家自筹资金的实验室正从创意艺术领域跨越到监管严格且高风险的医疗健康领域，尝试颠覆传统医疗影像诊断流程。",
+        "en": "Midjourney, the prominent bootstrapped AI lab, has announced its second major product: Midjourney Medical. The platform aims to simplify diagnostic imaging, claiming to allow users to scan internal organs with the ease of stepping on a scale. By applying its generative expertise to medical visualization, Midjourney is attempting to disrupt the healthcare sector. This move represents a significant diversification for the company, moving beyond creative arts into high-stakes medical diagnostics."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
+      "date": "2026-06-19"
+    }
+  ]
+}
