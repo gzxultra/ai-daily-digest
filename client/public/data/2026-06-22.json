@@ -1,0 +1,255 @@
+{
+  "date": "2026-06-22",
+  "dateLabel": {
+    "zh": "2026年6月22日",
+    "en": "June 22, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-22T18:50:24Z",
+    "elapsedSeconds": 136,
+    "rawArticles": 34,
+    "afterFilter": 27,
+    "afterDedup": 21,
+    "dedupRemoved": 6,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 5,
+      "Tech Policy Press": 1,
+      "Reddit r/MachineLearning": 3,
+      "The Verge": 1,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-superpersuasion-asi",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "研究显示 AI 说服力已超越人类专家",
+        "en": "AI Out-Persuades Human Experts in New Study"
+      },
+      "summary": {
+        "zh": "Import AI 第 462 期重点介绍了牛津大学、英国 AI 安全研究所和斯坦福大学的最新研究，结果显示 AI 系统在受控环境下比人类专家更具说服力。该简报还深入探讨了自我维持 AI 系统的概念以及通往人工超级智能 (ASI) 的各种演进路径。这种转变预示着 AI 驱动的影响力可能会重塑未来的政治和社会话语，因此建立稳健的安全框架和监管机制以应对「超强说服力」带来的风险变得至关重要。",
+        "en": "Import AI 462 highlights research from Oxford and Stanford showing AI systems are now reliably more persuasive than human experts in controlled settings. The newsletter also explores the concept of self-sustaining AI systems and the theoretical paths toward Artificial Superintelligence (ASI). This shift suggests a future where AI-driven influence could reshape political and social discourse, necessitating robust safety frameworks and regulatory oversight to manage the risks of superpersuasion."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "claude-identity-verification",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 为 Claude 引入身份验证机制",
+        "en": "Anthropic Implements Identity Verification for Claude"
+      },
+      "summary": {
+        "zh": "Anthropic 为 Claude 用户引入了身份验证要求，在开发者社区引发了关于隐私和可访问性的广泛讨论。此举旨在遏制平台滥用行为，并遵守针对高能力 AI 模型不断演变的国际监管标准。然而，批评者认为这为敏感地区的用户制造了使用障碍，并引发了对用户数据中心化和隐私泄露的担忧。这一政策转变标志着 AI 实验室在管理用户身份和责任归属方面进入了新阶段。",
+        "en": "Anthropic has introduced identity verification requirements for Claude users, sparking significant debate within the developer community regarding privacy and accessibility. The move aims to curb platform abuse and comply with evolving regulatory standards for high-capacity AI models. However, critics argue this creates barriers for users in sensitive regions and raises concerns about the centralization of user data. This policy shift marks a turning point in how AI labs manage user identity and accountability."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "apertus-sovereign-ai",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Apertus 发布旨在支持主权 AI 的开放模型",
+        "en": "Apertus Launches Open Model for Sovereign AI"
+      },
+      "summary": {
+        "zh": "Apertus 作为一个开放基础模型项目正式启动，专门旨在支持「主权 AI」，允许国家和组织保持对其数据和基础设施的完全控制。通过提供开放权重模型，Apertus 旨在减少对美国专有 AI 巨头的依赖，并培育更多元化的生态系统。该项目反映了全球范围内本地化、透明化和自主化 AI 开发的日益增长趋势，将数字主权置于中心化控制之上。",
+        "en": "Apertus has launched as an open foundation model initiative specifically designed to support Sovereign AI, allowing nations and organizations to maintain control over their data and infrastructure. By providing open-weight models, Apertus aims to reduce dependency on proprietary US-based AI giants and foster a more diverse ecosystem. This project reflects a growing global trend toward localized, transparent, and autonomous AI development that prioritizes digital sovereignty over centralized control."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://apertvs.ai/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "claude-code-thinking-authenticity",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Claude Code 思考过程输出的真实性引发质疑",
+        "en": "Questions Raised Over Claude Code's Thinking Output"
+      },
+      "summary": {
+        "zh": "对 Claude Code「扩展思考」功能的一项技术分析表明，显示的文本可能并非模型内部推理过程的真实实时呈现。作者指出，输出内容似乎是为了优化用户体验而经过后期处理或模拟的，而非原始的思维链。这引发了关于智能体工作流透明度的关键疑问，以及 AI 系统是否可能向用户呈现经过「净化」后的逻辑版本，而非其实际的计算步骤。",
+        "en": "A technical analysis of Claude Code's Extended Thinking feature suggests that the displayed text may not be an authentic, real-time representation of the model's internal reasoning process. The author argues that the output appears post-processed or simulated for user experience rather than being a raw chain-of-thought. This raises critical questions about transparency in agentic workflows and the potential for AI systems to present a sanitized version of their logic to users rather than their actual computational steps."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "qwen3-local-fine-tuning",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "微调 Qwen 3:0.6B 实现高效本地任务分类",
+        "en": "Fine-Tuning Qwen 3:0.6B for Local Task Efficiency"
+      },
+      "summary": {
+        "zh": "开发者报告称，在针对问题分类等特定任务微调超小型 Qwen 3:0.6B 模型时取得了显著成效。尽管参数量极小，该模型证明了高度专业化的本地 LLM 在特定领域内可以媲美参数量大得多的模型，同时保持了极低的延迟和极高的隐私性。这一趋势凸显了在边缘计算和特定企业应用中，「小模型优先」策略的可行性，尤其是在效率和数据本地化至上的场景下。",
+        "en": "Developers have reported successful results fine-tuning the ultra-compact Qwen 3:0.6B model for specific tasks like question categorization. Despite its small parameter count, the model demonstrates that highly specialized local LLMs can rival much larger models in narrow domains while maintaining extremely low latency and high privacy. This trend highlights the increasing viability of small-model-first strategies for edge computing and specific enterprise applications where efficiency and data locality are paramount."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "recall-claude-code-memory",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Recall：为 Claude Code 增加本地项目记忆能力",
+        "en": "Recall: Adding Local Project Memory to Claude Code"
+      },
+      "summary": {
+        "zh": "Recall 是一款全新的开源工具，旨在为 Claude Code 提供本地项目记忆，有效解决了 AI 编程智能体的上下文窗口限制。通过索引本地文件和历史交互，它允许 Claude 在无需手动重新上传的情况下，保持对复杂代码库的持久理解。这一增强显著提升了大规模软件工程项目中智能体工作流的效率，使代码生成和调试过程更加连贯且具备上下文感知能力。",
+        "en": "Recall is a new open-source tool designed to provide local project memory for Claude Code, addressing the context window limitations of AI coding agents. By indexing local files and previous interactions, it allows Claude to maintain a persistent understanding of complex codebases without manual re-uploading. This enhancement significantly improves the efficiency of agentic workflows in large-scale software engineering projects, enabling more coherent and context-aware code generation and debugging."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/raiyanyahya/recall",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "tech-workers-ai-resistance",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "技术员工组织起来抵制硅谷激进的 AI 推进",
+        "en": "Tech Workers Organize Against Silicon Valley's Aggressive AI Push"
+      },
+      "summary": {
+        "zh": "硅谷技术员工正日益组织起来，抵制激进的 AI 集成推进，理由是伦理风险和劳动力流失。Tech Policy Press 指出，这一运动反映了企业领导层的市场速度目标与员工对安全及长期社会影响担忧之间日益加剧的内部摩擦。这一趋势表明技术劳动力动态正在发生转变，工程师们要求对他们所创造的技术如何部署拥有更多监督权。",
+        "en": "Tech employees in Silicon Valley are increasingly organizing to resist the aggressive push for AI integration, citing ethical risks and labor displacement. This movement, highlighted by Tech Policy Press, reflects a growing internal friction between corporate leadership's speed-to-market goals and workers' concerns over safety and long-term societal impact. The trend suggests a shift in tech labor dynamics where engineers demand more oversight on how their creations are deployed."
+      },
+      "source": "Tech Policy Press",
+      "sourceUrl": "https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "papers-with-code-revival",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Hugging Face 重启 Papers with Code 迎接新研究时代",
+        "en": "Hugging Face Revives Papers with Code for the New Age of Research"
+      },
+      "summary": {
+        "zh": "Hugging Face 的 Niels 宣布对 Papers with Code 平台进行重大更新，旨在响应 Ilya Sutskever 提出的「研究时代」愿景。此次更新引入了增强的发现功能，旨在帮助研究人员在行业寻求超越 Transformer 架构的下一次突破时，更有效地相互借鉴。此举进一步巩固了 Hugging Face 作为开源 AI 协作和可重复研究中心枢纽的地位。",
+        "en": "Niels from Hugging Face announced a major revival of the Papers with Code platform, aligning with Ilya Sutskever's vision of a new 'age of research.' The update introduces enhanced discovery features designed to help researchers build upon each other's work more effectively as the industry seeks the next breakthrough beyond the Transformer architecture. This move reinforces Hugging Face's role as the central hub for open-source AI collaboration and reproducible research."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "matrix-recurrent-units-update",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "矩阵循环单元成为高效的线性时间 Attention 替代方案",
+        "en": "Matrix Recurrent Units Emerge as Efficient Linear-Time Attention Alternative"
+      },
+      "summary": {
+        "zh": "矩阵循环单元（MRU）的重大更新提出了一种新型线性时间序列架构，作为标准 Attention 机制的有效替代方案。通过将嵌入转换为输入状态矩阵并在序列维度上执行累积乘法，MRU 实现了高效处理，且没有传统 Transformer 的二次复杂度。该研究突显了行业在寻找更高效的长上下文序列处理方法方面所做的持续努力。",
+        "en": "A significant update to Matrix Recurrent Units (MRU) presents a novel linear-time sequence architecture as a viable alternative to the standard Attention mechanism. By transforming embeddings into input state matrices and performing cumulative multiplication across sequence dimensions, MRU achieves high efficiency without the quadratic complexity of traditional Transformers. This research highlights the ongoing industry effort to find more computationally efficient ways to handle long-context sequences."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "weightslab-data-centric-debugging",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "WeightsLab 更新引入神经网络实时以数据为中心的调试功能",
+        "en": "WeightsLab Revamp Introduces Live Data-Centric Debugging for Neural Nets"
+      },
+      "summary": {
+        "zh": "WeightsLab 发布了重大更新，专注于神经网络训练中的以数据为中心的调试，允许团队暂停运行并检查实时损失信号。该工具旨在模型性能受损前捕捉标签错误、类别不平衡和异常值等数据质量问题。作为一款开源的 PyTorch 原生工具，它通过将重点从模型架构转向数据完整性，解决了机器学习生命周期中的一个关键瓶颈。",
+        "en": "WeightsLab has released a major revamp focusing on data-centric debugging for neural network training, allowing teams to pause runs and inspect live loss signals. The tool is designed to catch data-quality issues like mislabels, class imbalances, and outliers before they compromise model performance. As an open-source, PyTorch-native utility, it addresses a critical bottleneck in the ML lifecycle by shifting focus from model architecture to data integrity."
+      },
+      "source": "Reddit r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ubwcat/datacentric_debugging_for_teams_training_neural/",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "atlantic-music-training-database",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "《大西洋月刊》推出 AI 音乐训练数据可搜索数据库",
+        "en": "The Atlantic Launches Searchable Database of AI Music Training Data"
+      },
+      "summary": {
+        "zh": "《大西洋月刊》推出了一个可搜索的数据库，揭露了用于训练 AI 音乐模型的四个海量数据集，其中两个分别包含 1200 万和 900 万条曲目。记者 Alex Reisner 的这一举措为不透明的 AI 训练数据领域带来了前所未有的透明度，允许艺术家核实其作品是否在未经许可的情况下被使用。此举加剧了生成式 AI 时代关于版权侵权的法律和伦理辩论。",
+        "en": "The Atlantic has launched a searchable database revealing four massive datasets used to train AI music models, including two containing 12 million and 9 million tracks respectively. This initiative by reporter Alex Reisner brings unprecedented transparency to the opaque world of AI training data, allowing artists to verify if their work was used without consent. The move intensifies the ongoing legal and ethical debate regarding copyright infringement in the generative AI era."
+      },
+      "source": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "anthropic-government-feud",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 因新型 Mythos AI 模型面临监管压力",
+        "en": "Anthropic Faces Regulatory Tension Over New Mythos AI Model"
+      },
+      "summary": {
+        "zh": "Anthropic 在 4 月发布「Mythos」AI 模型后，目前正陷入与美国政府的高风险纠纷中。冲突的核心在于监管审查和国家安全担忧，突显了私人 AI 实验室与联邦安全指令之间的紧张关系。这场纠纷是 AI 公司在政府寻求加强对前沿模型开发控制的情况下，能保留多少自主权的一个关键测试案例。",
+        "en": "Anthropic is currently embroiled in a high-stakes dispute with the US government following the release of its 'Mythos' AI model in April. The conflict centers on regulatory oversight and national security concerns, highlighting the tension between private AI labs and federal safety mandates. This feud serves as a critical test case for how much autonomy AI companies will retain as the government seeks tighter control over frontier model development."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "date": "2026-06-22"
+    }
+  ]
+}
