@@ -1,0 +1,255 @@
+{
+  "date": "2026-06-25",
+  "dateLabel": {
+    "zh": "2026年6月25日",
+    "en": "June 25, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-25T17:15:11Z",
+    "elapsedSeconds": 156,
+    "rawArticles": 46,
+    "afterFilter": 35,
+    "afterDedup": 25,
+    "dedupRemoved": 10,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 3,
+      "Reddit": 3,
+      "The Verge AI": 3,
+      "MIT Tech Review": 1,
+      "Latent Space": 1
+    }
+  },
+  "news": [
+    {
+      "id": "neetcode-tech-interviews-ai-era",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "NeetCode 谈 AI 时代深厚技术功底的重要性",
+        "en": "NeetCode on the Persistence of Deep Expertise in the AI Era"
+      },
+      "summary": {
+        "zh": "知名技术博主 NeetCode（Navdeep Singh）分享了从大厂工程师到创业者的转型经历，并深入探讨了技术面试的演变。他指出，尽管 AI 编程助手已普及，但深厚的算法基础和系统设计能力仍是顶尖工程师的核心竞争力。访谈揭示了行业的一种新趋势：企业正在提高对基础问题解决能力的考核标准，以筛选掉过度依赖 AI 的候选人。这一转变强调了 AI 虽然能提升速度，但无法取代构建复杂系统所需的架构直觉。",
+        "en": "Navdeep Singh, known as NeetCode, discusses the evolution of technical hiring and his transition from Big Tech to a startup founder. Despite the ubiquity of AI coding assistants, he argues that deep algorithmic knowledge and system design skills remain the primary differentiators for elite engineers. The interview highlights a growing industry trend where companies are raising the bar for fundamental problem-solving to filter out candidates who over-rely on AI tools. This shift emphasizes that while AI improves speed, it does not replace the architectural intuition required for complex systems."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/tech-interviews-with-neetcode",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "anthropic-alibaba-model-extraction",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 指控阿里巴巴非法提取 Claude 模型能力",
+        "en": "Anthropic Accuses Alibaba of Illicit Claude Model Extraction"
+      },
+      "summary": {
+        "zh": "Anthropic 正式指控阿里巴巴非法提取其 Claude AI 模型的能力，引发了关于模型知识产权保护的广泛讨论。指控暗示阿里巴巴可能利用复杂的蒸馏或提示词技术，为其自有模型复制 Claude 的推理模式。此事件凸显了全球 AI 军备竞赛中日益加剧的紧张局势，以及通过公开 API 防止「模型抓取」在技术上的难度。它提出了关于利用一个 AI 的输出训练另一个 AI 的法律边界问题，这在国际法中目前仍处于灰色地带。",
+        "en": "Anthropic has formally accused Alibaba of illicitly extracting capabilities from its Claude AI models, sparking a significant debate on Hacker News regarding model IP protection. The allegation suggests that Alibaba may have used sophisticated distillation or prompting techniques to replicate Claude's reasoning patterns for its own models. This incident underscores the escalating tensions in the global AI arms race and the technical difficulty of preventing 'model scraping' via public APIs. It raises critical questions about the legal boundaries of using one AI's output to train another, a practice that remains a gray area in international law."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "ford-rehires-engineers-ai-failure",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 无法替代专家经验，福特重新聘用 350 名工程师",
+        "en": "Ford Rehires 350 Engineers After AI Fails to Replace Human Expertise"
+      },
+      "summary": {
+        "zh": "福特汽车在一次雄心勃勃的 AI 自动化项目失败后，重新聘请了 350 名质量检测员和工程师。公司发现，虽然 AI 可以识别表面缺陷，但无法指导初级员工，也无法捕捉资深工程师微妙的决策逻辑。这一举动凸显了企业在过度追求自动化而忽视人力资本流失时产生的「专业知识断层」。福特的案例为工业界敲响了警钟，证明了 AI 目前在处理高风险质量控制时，仍缺乏必要的教学能力和上下文深度。",
+        "en": "Ford Motor Co. is rehiring 350 quality inspectors and engineers after an ambitious AI automation project failed to preserve critical institutional knowledge. The company found that while AI could identify surface-level defects, it failed to mentor junior staff or capture the nuanced decision-making logic of veteran engineers. This retreat highlights the 'expertise gap' created when organizations over-automate without considering the long-term loss of human capital. The move serves as a cautionary tale for the industrial sector, proving that AI currently lacks the pedagogical and contextual depth required for high-stakes quality control."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "open-source-ai-global-necessity",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "开源 AI 成为全球公平发展的唯一出路",
+        "en": "Open-Source AI Emerges as the Only Path for Global Equity"
+      },
+      "summary": {
+        "zh": "一份最新的行业分析指出，开源 AI 是全球大多数地区避免永久性数字鸿沟的关键。少数科技巨头的封闭模型造成了许多国家和中小企业在财务和战略上难以承受的依赖。通过开放模型权重和训练方法，开源项目允许进行本地化定制和语言适配，而这些往往被封闭模型所忽视。这一运动正作为数字主权的地缘政治需求获得关注，确保 AI 的红利不会仅局限于少数几家硅谷公司。",
+        "en": "A new industry analysis argues that open-source AI is essential for the majority of the world to avoid a permanent digital divide. Proprietary models from a few tech giants create dependencies that many nations and smaller enterprises cannot sustain financially or strategically. By providing access to model weights and training methodologies, open-source initiatives allow for local customization and linguistic adaptation that closed models often ignore. This movement is gaining traction as a geopolitical necessity for digital sovereignty, ensuring that AI benefits are distributed beyond a handful of Silicon Valley firms."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "mujoco-gpu-vision-rl-simulator",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "新型 MuJoCo 衍生模拟器实现原生 GPU 视觉强化学习",
+        "en": "New MuJoCo-Derived Simulator Enables Native GPU Vision RL"
+      },
+      "summary": {
+        "zh": "一位开发者发布了一款基于 MuJoCo 衍生的模拟器，旨在克服传统物理引擎在强化学习中受限于 CPU 的瓶颈。与标准 MuJoCo 不同，该工具支持在 GPU 上原生运行高保真视觉训练，实现了环境的大规模并行化。这一技术突破解决了视觉强化学习中的数据瓶颈问题，即渲染速度往往限制了训练规模。通过支持数千个并发模拟，该项目显著缩短了训练复杂机器人任务和自主导航智能体所需的时间。",
+        "en": "A developer has released a MuJoCo-derived simulator designed to overcome the CPU-bound limitations of traditional physics engines for Reinforcement Learning. Unlike standard MuJoCo, this tool runs high-fidelity vision-based training natively on the GPU, allowing for massive parallelization of environments. This technical breakthrough addresses the data bottleneck in vision RL, where rendering speeds often limit the scale of training. By enabling thousands of simultaneous simulations, the project significantly reduces the time required to train agents for complex robotic tasks and autonomous navigation."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1uemrch/mujoco_derived_simulator_for_high_fidelity_vision/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "superhuman-generals-io-rl-agent",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "自博弈强化学习智能体在 Generals.io 中达到超人类水平",
+        "en": "Self-Play RL Agent Achieves Superhuman Rank in Generals.io"
+      },
+      "summary": {
+        "zh": "一位独立研究员为策略游戏 Generals.io 开发了一个强化学习智能体，并成功登顶人类 1v1 排行榜首位。该项目采用了一个多阶段训练流程，包括从人类对战回放中进行行为克隆，随后进行自博弈强化学习和复杂的奖励塑形。这一成就的显著之处在于，它在没有大型 AI 实验室巨量计算资源的情况下，攻克了一款部分可观测的策略游戏。该智能体的成功证明了精细化的强化学习技术仍能在复杂的竞争环境中拓展战略决策的边界。",
+        "en": "An independent researcher has developed an RL agent for the strategy game Generals.io that reached the #1 spot on the human 1v1 leaderboard. The project utilized a multi-stage training pipeline involving behavior cloning from human replays, followed by self-play reinforcement learning and sophisticated reward shaping. This achievement is notable for mastering a partially-observable strategy game without the massive compute resources of major AI labs. The success of the agent demonstrates that refined RL techniques can still push the boundaries of strategic decision-making in complex, competitive environments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1uei2yg/i_made_a_superhuman_generalsio_agent_with/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "hdd-rope-positional-embedding",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "HDD-RoPE：高维动态旋转位置嵌入技术发布",
+        "en": "HDD-RoPE: High Dimensional Dynamic Rotary Positional Embedding Introduced"
+      },
+      "summary": {
+        "zh": "开发者推出了一种名为高维动态旋转位置嵌入（HDD-RoPE）的新方法，利用累积矩阵乘积作为位置嵌入的核心。在 TinyStories 数据集上的测试结果显示，与标准 RoPE 相比，该方法在验证损失方面表现优异。这一创新为 Transformer 模型处理序列位置提供了更具动态性和可扩展性的方案，有望在提升长文本处理性能和模型效率方面取得重大突破。",
+        "en": "A new positional embedding method called High Dimensional, Dynamic Rotary Positional Embedding (HDD-RoPE) has been introduced, utilizing cumulative matrix products as its core. Tested on the TinyStories dataset, the method demonstrated excellent validation loss improvements compared to standard RoPE. This innovation allows for more dynamic and scalable handling of sequence positions in transformer models, potentially offering a significant breakthrough for long-context performance and model efficiency."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1uelcm9/high_dimensional_dynamic_rotary_positional/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "meta-creator-studio-ai-relaunch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Meta 将 Creator Studio 重塑为独立 AI 助手应用",
+        "en": "Meta Relaunches Creator Studio as Standalone AI Companion App"
+      },
+      "summary": {
+        "zh": "Meta 重新推出了 Creator Studio 平台，并将其转型为一款独立的 AI 助手应用，而原服务已于 2023 年关闭。这款重塑后的应用充当创作者的增长顾问，利用 AI 提供受众互动见解，并指导如何在 Facebook 上实现粉丝增长。此举凸显了 Meta 将生成式 AI 直接整合进创作者工作流的战略，旨在维持其相对于 TikTok 等对手的平台竞争力。",
+        "en": "Meta has revived its Creator Studio platform, reimagining it as a standalone AI companion app three years after the original service was shuttered. The new app functions as a growth consultant for creators, using AI to provide specific strategies for audience engagement and scaling on Facebook. This move highlights Meta's strategy to integrate generative AI directly into the creator workflow to maintain platform competitiveness against rivals like TikTok."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "rep-luna-ai-legislation-denial",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美众议员否认使用 AI 起草国防法案正文",
+        "en": "Congresswoman Denies Using AI to Draft Defense Bill Text"
+      },
+      "summary": {
+        "zh": "美国众议员安娜·保利娜·卢娜（Anna Paulina Luna）否认了有关使用 AI 起草 2027 年国防授权法案（NDAA）修正案正文的指控。虽然她承认幕僚曾使用 Anthropic 的 Claude 对摘要进行「拼写检查」，但她强调「绝不会使用 AI 起草任何立法文件」。这一争议凸显了公众和政界对大模型在立法过程中所扮演角色的关注，以及政府工作中 AI 辅助边界的讨论。",
+        "en": "Representative Anna Paulina Luna (R-FL) has denied allegations that AI was used to draft the text of a major defense bill amendment for the 2027 NDAA. While admitting her staff used Anthropic's Claude for 'spellcheck' on an amendment summary, she emphasized that 'NO Legislation is ever drafted with AI.' The controversy highlights growing public and political scrutiny over the role of LLMs in the legislative process and the boundaries of AI-assisted government work."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "bores-lasher-ai-proxy-war",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Anthropic 与 OpenAI 的政治代理人战争以平局告终",
+        "en": "Anthropic-OpenAI Political Proxy War Ends in Draw"
+      },
+      "summary": {
+        "zh": "纽约州第 12 选区的国会初选落下帷幕，这场耗资 2700 万美元、被视为 Anthropic 与 OpenAI 利益集团之间「代理人战争」的竞选，随着 Alex Bores 向 Micah Lasher 认输而告终。Bores 作为亲技术的现任议员，是 AI 行业相关政治献金的主要受惠者。选举结果反映了 AI 实验室在塑造美国政治领导层和未来监管环境方面巨大的财力投入及日益增长的影响力。",
+        "en": "The $27 million congressional primary in New York's 12th District, characterized as a proxy war between interests aligned with Anthropic and OpenAI, ended as Alex Bores conceded to Micah Lasher. Bores, a tech-forward incumbent, was a major recipient of AI industry-linked political spending. The outcome reflects the massive financial stakes and increasing influence of AI labs in shaping US political leadership and future regulatory environments."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "ibm-sub-1nm-chip-breakthrough",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "IBM 发布亚 1 纳米芯片技术，延长摩尔定律寿命",
+        "en": "IBM Unveils Sub-1nm Chip Technology to Extend Moore's Law"
+      },
+      "summary": {
+        "zh": "IBM 展示了一款采用亚 1 纳米（sub-1nm）技术的原型芯片，在指甲盖大小的区域内集成了约 1000 亿个晶体管。这一突破将 IBM 2021 年发布的 2 纳米技术晶体管密度提高了一倍，有望将摩尔定律的寿命再延长十年。该设计承诺在计算速度和能效方面实现重大飞跃，对于满足下一代 AI 模型巨大的算力需求至关重要。",
+        "en": "IBM has unveiled a prototype chip featuring sub-1nm technology, packing approximately 100 billion transistors onto a fingernail-sized area. This breakthrough doubles the transistor density of IBM's 2021 state-of-the-art 2nm technology, potentially extending Moore's Law for another decade. The design promises significant leaps in computing speed and energy efficiency, which are critical for meeting the massive compute demands of next-generation AI models."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "meta-harness-summer-evaluation",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "元评测之夏：统一 AI 评估框架的崛起",
+        "en": "Meta-Harness Summer: The Rise of Unified AI Evaluation"
+      },
+      "summary": {
+        "zh": "AI 行业正进入「元评测之夏」，即从单一评估框架转向聚合多个基准测试的统一系统。这一趋势旨在通过构建「框架之上的框架」来解决目前大模型评估碎片化的问题。其目标是为模型在不同任务中的表现提供更稳健、标准化的度量衡，从而简化开发者的基准测试流程，并在竞争模型之间提供更清晰的对比。",
+        "en": "The AI industry is entering 'Meta-Harness Summer,' a shift toward unified evaluation systems that aggregate multiple benchmarks into a single framework. This trend addresses the current fragmentation in LLM evaluation by creating a 'harness of harnesses.' It aims to provide more robust, standardized metrics for model performance across diverse tasks, simplifying the benchmarking process for developers and providing clearer comparisons between competing models."
+      },
+      "source": "Latent Space",
+      "sourceUrl": "https://www.latent.space/p/ainews-its-meta-harness-summer",
+      "date": "2026-06-25"
+    }
+  ]
+}
