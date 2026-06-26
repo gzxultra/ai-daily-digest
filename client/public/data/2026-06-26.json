@@ -1,0 +1,259 @@
+{
+  "date": "2026-06-26",
+  "dateLabel": {
+    "zh": "2026年6月26日",
+    "en": "June 26, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-26T17:05:07Z",
+    "elapsedSeconds": 220,
+    "rawArticles": 43,
+    "afterFilter": 39,
+    "afterDedup": 35,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Hacker News": 1,
+      "Bloomberg": 1,
+      "Fernando Borretti": 1,
+      "Trakkr": 1,
+      "The New York Times": 1,
+      "Blood in the Machine": 1,
+      "Reddit": 2,
+      "The Verge AI": 2,
+      "Ars Technica": 1,
+      "Simon Willison": 1
+    }
+  },
+  "news": [
+    {
+      "id": "open-knowledge-ai-notes",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "OpenKnowledge：AI 原生的开源笔记新选择",
+        "en": "OpenKnowledge: An AI-First Open Source Alternative to Notion"
+      },
+      "summary": {
+        "zh": "OpenKnowledge 作为一个重要的开源项目正式发布，旨在成为 Obsidian 和 Notion 的 AI 原生替代方案。该项目将大语言模型直接集成到知识图谱中，支持自动标签、语义搜索和主动内容生成。这一发布凸显了开发者正从「插件式 AI」转向「AI 原生」生产力环境的趋势，在提升效率的同时，更加注重本地数据隐私和可扩展性。该项目在 Hacker News 上获得了超过 340 个点赞，引发了社区广泛关注。",
+        "en": "OpenKnowledge has launched as a significant open-source competitor to established tools like Obsidian and Notion, specifically designed with an AI-first architecture. The project integrates LLMs directly into the knowledge graph, allowing for automated tagging, semantic search, and proactive content generation. This release highlights a growing trend where developers are moving away from AI-added features toward AI-native productivity environments that prioritize local data privacy and extensibility. It currently holds a high engagement level on Hacker News with over 340 points."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://github.com/inkeep/open-knowledge",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "apple-m7-ai-chips",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "苹果将跳过高端 M6 芯片，全力投入 AI 驱动的 M7 系列",
+        "en": "Apple to Skip High-End M6 Chips for AI-Focused M7 Lineup"
+      },
+      "summary": {
+        "zh": "据报道，苹果公司正在进行重大战略调整，计划跳过 M6 芯片的高端版本，转而加速推出专注于 AI 的 M7 Pro、Max 和 Ultra 系列。这些新处理器专为生成式 AI 工作负载设计，通过大幅增加神经网络引擎核心数量和统一内存带宽，以支持更强大的端侧大模型运行。此举表明，随着高通和英特尔在 NPU 性能上不断追赶，苹果正急于巩固其在「AI PC」市场的领先地位，将本地 AI 硬件加速视为最高优先级。",
+        "en": "In a surprising strategic pivot, Apple is reportedly skipping the high-end M6 chip cycle to fast-track the launch of the M7 Pro, Max, and Ultra series. These new processors are specifically engineered for generative AI workloads, featuring a massive increase in Neural Engine cores and unified memory bandwidth to handle on-device LLMs. This move signals Apple's urgency to maintain its lead in the AI PC market as competitors like Qualcomm and Intel close the gap in NPU performance. The shift suggests that hardware acceleration for local AI is now Apple's top priority."
+      },
+      "source": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "ai-assistant-hacking-experiment",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "2000 人围攻 AI 助手：提示词注入的实战教训",
+        "en": "Lessons from 2,000 Users Attempting to Hack an AI Assistant"
+      },
+      "summary": {
+        "zh": "开发者 Fernando Borretti 分享了一项大规模实验的洞察，超过 2000 名用户尝试绕过其 AI 助手的安全防护栏。实验结果深入揭示了针对大语言模型的提示词注入和社交工程攻击的现状。关键结论包括：维持系统提示词的一致性极具挑战，且用户会利用「角色扮演」等创意手段提取敏感数据。这进一步强调了 AI 安全领域在鲁棒性部署方面面临的持续挑战，以及当前基于 LLM 的安全措施的脆弱性。",
+        "en": "Developer Fernando Borretti shared insights from a large-scale experiment where over 2,000 users attempted to bypass the security guardrails of his AI assistant. The results provide a fascinating look at the current state of prompt injection and social engineering tactics used against LLMs. Key takeaways include the extreme difficulty of maintaining consistent system prompts and the creative ways users exploit roleplay scenarios to extract sensitive data. This experiment underscores the ongoing challenges in AI safety and the fragility of current LLM-based security measures."
+      },
+      "source": "Fernando Borretti",
+      "sourceUrl": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "ai-political-bias-study",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "主流 AI 模型政治偏见图谱研究发布",
+        "en": "Mapping Political Bias Across Major AI Models"
+      },
+      "summary": {
+        "zh": "Trakkr.ai 发布的一项全面研究绘制了主流 AI 模型的政治倾向图谱，揭示了不同大模型在处理敏感社会政治查询时的显著差异。该分析采用标准化框架对模型进行评分，强调了训练数据筛选和人类反馈强化学习（RLHF）对模型「世界观」的深远影响。随着 AI 成为数百万人的主要信息来源，了解这些固有偏见对于开发者和政策制定者确保算法中立性和透明度至关重要。",
+        "en": "A comprehensive study by Trakkr.ai has mapped the political leanings of major AI models, revealing significant variances in how different LLMs handle sensitive socio-political queries. The analysis uses a standardized framework to score models on a spectrum, highlighting that training data curation and RLHF significantly influence a model's worldview. As AI becomes a primary source of information for millions, understanding these inherent biases is crucial for developers and policymakers to ensure neutrality and transparency in algorithmic responses."
+      },
+      "source": "Trakkr",
+      "sourceUrl": "https://trakkr.ai/bias",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "openai-ipo-delay-2027",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "OpenAI 倾向于将 IPO 推迟至 2027 年",
+        "en": "OpenAI Leans Toward Delaying IPO Until 2027"
+      },
+      "summary": {
+        "zh": "据知情人士透露，OpenAI 倾向于将其首次公开募股（IPO）推迟至至少 2027 年。尽管公司估值巨大且占据市场主导地位，但目前其优先级是内部架构重组以及下一代「GPT-6」模型的开发，而非立即进入公开市场。这种谨慎的做法使 OpenAI 能够更好地应对复杂的监管审查，并在没有公开股东季度压力的情况下完成公司结构转型。这一决定反映了其优先考虑长期战略而非短期流动性的意图。",
+        "en": "OpenAI is reportedly leaning toward delaying its initial public offering (IPO) until at least 2027, according to sources familiar with the matter. Despite its massive valuation and dominant market position, the company is prioritizing internal restructuring and the development of its next-generation GPT-6 model over immediate public market entry. This cautious approach allows OpenAI to navigate complex regulatory scrutiny and finalize its transition to a more traditional corporate structure without the quarterly pressure of public shareholders. The decision reflects a long-term strategy over short-term liquidity."
+      },
+      "source": "The New York Times",
+      "sourceUrl": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "ai-industry-election-spending",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 行业投入数百万美元游说美国大选",
+        "en": "AI Industry Pours Millions into US Election Lobbying"
+      },
+      "summary": {
+        "zh": "AI 行业显著加大了政治捐赠力度，向即将到来的美国大选投入数百万美元，意图影响未来的技术政策。主要从业者和风险投资机构正支持那些主张宽松监管和巨额研发补贴的候选人，旨在塑造未来的立法格局。这种支出的激增反映了 AI 治理背后的重大利益博弈，行业试图阻止可能扼杀创新或对模型开发者施加沉重责任的限制性法律出台。这标志着硅谷进入了政治参与的新阶段。",
+        "en": "The AI industry has significantly ramped up its political contributions, pouring millions of dollars into the upcoming US elections to influence future technology policy. Major players and venture capital firms are backing candidates who favor light-touch regulation and robust R&D subsidies, aiming to shape the legislative landscape for years to come. This surge in spending reflects the high stakes of AI governance, as the industry seeks to prevent restrictive laws that could stifle innovation or impose heavy liability on model developers. The move marks a new era of political engagement for Silicon Valley."
+      },
+      "source": "Blood in the Machine",
+      "sourceUrl": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "rewardspy-rl-debugger",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Rewardspy：检测强化学习奖励作弊的新型调试工具",
+        "en": "Rewardspy: A New Debugger to Detect RL Reward Hacking"
+      },
+      "summary": {
+        "zh": "开发者推出名为「rewardspy」的开源库，旨在解决强化学习（RL）特别是 GRPO 训练中的「奖励作弊」（reward hacking）问题。该工具通过封装现有奖励函数，持续监控预示模型正在钻营奖励机制而非真正提升能力的指标。这对于难以区分模型是真实进步还是投机取巧的开发者至关重要。通过在训练期间提供实时预警，该工具显著提升了学习过程的可控性与模型表现的真实性。",
+        "en": "A new open-source library called 'rewardspy' has been introduced to address the 'reward hacking' problem in Reinforcement Learning (RL), specifically during GRPO training. The tool wraps existing reward functions to monitor indicators that suggest a policy is exploiting the reward mechanism rather than genuinely improving. This is critical for developers who struggle to distinguish between true performance gains and model shortcuts. By providing real-time alerts during training, it helps maintain the integrity of the learning process and improves model reliability."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "diffusion-context-compression",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "将上下文压缩视为扩散噪声函数的新型研究提案",
+        "en": "Treating Context Compression as a Diffusion Noise Function"
+      },
+      "summary": {
+        "zh": "一项新颖的研究提议将语义上下文压缩视为类扩散过程中的噪声函数，以处理超长输入。该方法不采用标准的掩码机制，而是让模型以递减的压缩级别多次读取源文档，从而将信息「去噪」为可用状态。这种方法旨在通过多轮语义蒸馏绕过固定上下文窗口的物理限制。尽管目前仅在未训练模型上进行了初步实验，但它代表了向非线性上下文处理方向的重要探索。",
+        "en": "A novel research proposal suggests treating semantic context compression as a noise function within a diffusion-like process to handle massive input lengths. Instead of standard masking, the model reads source documents in multiple passes at decreasing compression levels, effectively 'denoising' the information into a usable state. This approach aims to bypass the physical limitations of fixed context windows by using a multi-pass semantic distillation method. While experimental and tested on untrained models, it represents a significant shift toward non-linear context processing in LLMs."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ug6kyw/what_if_context_compression_is_a_diffusion_noise/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "openai-gpt-5-6-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "OpenAI 在监管压力下发布 GPT-5.6 模型系列",
+        "en": "OpenAI Unveils GPT-5.6 Suite Amid Regulatory Pressure"
+      },
+      "summary": {
+        "zh": "OpenAI 正式发布 GPT-5.6 模型系列，包含三个级别：旗舰版 Sol、中端版 Terra 以及快速经济版 Luna。此次发布紧随特朗普政府要求的短暂延迟之后，凸显了 AI 部署与国家监管之间日益加深的交集。与前代相比，GPT-5.6 在推理能力和效率上有了显著飞跃。这一发布标志着 OpenAI 在应对美国复杂政治局势的同时，力图通过产品迭代维持其市场主导地位。",
+        "en": "OpenAI has officially launched the GPT-5.6 model suite, featuring three distinct tiers: Sol (flagship), Terra (mid-tier), and Luna (fast/affordable). The release follows a brief delay requested by the Trump administration, highlighting the increasing intersection of AI deployment and national regulatory oversight. GPT-5.6 represents a significant leap in reasoning capabilities and efficiency compared to its predecessors. This launch marks a strategic move to maintain market dominance while navigating a complex political landscape in the United States."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "anthropic-mythos-regulatory-crisis",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "政府通牒后 Anthropic Mythos 模型持续下线",
+        "en": "Anthropic Mythos Models Remain Offline Following Government Ultimatum"
+      },
+      "summary": {
+        "zh": "在收到特朗普政府的突然通牒两周后，Anthropic 的高端「Mythos 级」模型仍处于离线状态。尽管公司高管在华盛顿进行了密集游说，但谈判似乎陷入僵局，恢复服务的时间表尚不明确。这一局面凸显了随着政府寻求加强对前沿模型能力的控制，大型 AI 实验室面临的监管风险日益增加。「Mythos 危机」为行业敲响了警钟，揭示了在政治压力下 AI 服务可用性的脆弱性。",
+        "en": "Anthropic's high-end 'Mythos-class' models remain offline two weeks after a sudden ultimatum from the Trump administration. Despite a surge of executive lobbying in Washington D.C., negotiations appear stalled with no clear timeline for a service restoration. This situation underscores the growing regulatory risks faced by major AI labs as the government seeks tighter control over frontier model capabilities. The 'Mythos mess' serves as a cautionary tale for the industry regarding the fragility of AI service availability under intense political pressure."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "notion-ai-agent-inbox",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "Notion 转向使用 AI 智能体管理电子邮件",
+        "en": "Notion Pivots to AI Agents for Email Management"
+      },
+      "summary": {
+        "zh": "Notion 宣布停止开发受 Skiff 启发的电子邮件应用，转而将战略全面转向 AI 驱动的收件箱管理。该公司观察到，用户正日益依赖 AI 智能体来过滤、摘要和回复邮件，而非使用传统的纯手动界面。此举标志着行业正发生重大转变：独立效率应用正被集成式的智能体工作流所取代。Notion 旨在重新定义「收件箱」，使其成为智能体承担大部分行政工作的空间。",
+        "en": "Notion has announced the discontinuation of its Skiff-influenced email application, pivoting its strategy entirely toward AI-driven inbox management. The company observed that users are increasingly relying on AI agents to filter, summarize, and respond to emails rather than using traditional manual interfaces. This move signals a broader industry shift where standalone productivity apps are being replaced by integrated agentic workflows. Notion aims to redefine the 'inbox' as a space where autonomous agents perform the bulk of administrative labor."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "ai-liability-legal-framework",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "AI 与法律责任：不断演变的法律版图",
+        "en": "The Evolving Landscape of AI and Legal Liability"
+      },
+      "summary": {
+        "zh": "技术评论员 Simon Willison 探讨了 AI 与法律责任的复杂现状，重点关注当 AI 系统造成损害或侵权时应由谁负责。随着 AI 智能体在执行任务中获得更多自主权，现有的针对软件错误与专业过失的法律框架正面临考验。讨论强调了建立明确先例的迫切性，以确定开发者、用户或 AI 提供商谁应承担法律后果。这场辩论对于 AI 行业未来的保险和风险管理领域至关重要。",
+        "en": "Tech commentator Simon Willison explores the complex landscape of AI and legal liability, focusing on who is responsible when autonomous systems cause harm or infringe on rights. As AI agents gain more autonomy in executing tasks, the legal frameworks governing software errors versus professional negligence are being tested. The discussion highlights the urgent need for clear precedents to determine whether developers, users, or the AI providers themselves bear the brunt of legal consequences. This debate is pivotal for the future of insurance and risk management within the AI sector."
+      },
+      "source": "Simon Willison",
+      "sourceUrl": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+      "date": "2026-06-26"
+    }
+  ]
+}
