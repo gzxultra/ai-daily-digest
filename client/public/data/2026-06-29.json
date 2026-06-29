@@ -1,0 +1,254 @@
+{
+  "date": "2026-06-29",
+  "dateLabel": {
+    "zh": "2026年6月29日",
+    "en": "June 29, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-06-29T17:42:09Z",
+    "elapsedSeconds": 179,
+    "rawArticles": 37,
+    "afterFilter": 30,
+    "afterDedup": 26,
+    "dedupRemoved": 4,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "Import AI": 1,
+      "Hacker News": 5,
+      "Reddit": 2,
+      "The Verge AI": 3,
+      "MIT Tech Review": 1
+    }
+  },
+  "news": [
+    {
+      "id": "import-ai-463-robotics-cluster",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "NVIDIA 机器人自我进化与中国万卡 GPU 集群",
+        "en": "NVIDIA Robotics Self-Improvement and China's 10k GPU Cluster"
+      },
+      "summary": {
+        "zh": "NVIDIA 为现实世界机器人建立了一个初步的自我改进闭环，允许智能体自主优化物理交互。同时，报告显示中国已建成一个万卡规模的 GPU 集群，表明尽管面临出口管制，其基础设施规模仍在持续扩大。本期通讯还包含一篇感人至深的散文，探讨了从人类主导时代向合成智能时代过渡的深远影响，以及人类在自动化推理世界中的地位变迁。",
+        "en": "NVIDIA has implemented a crude but effective self-improvement loop for real-world robotics, allowing agents to refine their physical interactions autonomously. Additionally, reports surface of a massive 10,000-unit GPU cluster in China, signaling continued infrastructure scaling despite international export controls. The newsletter also features a poignant essay reflecting on the transition from the human-centric era to one increasingly dominated by synthetic intelligence and automated reasoning."
+      },
+      "source": "Import AI",
+      "sourceUrl": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "glm-5-2-beats-claude",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "智谱 GLM 5.2 在网络安全基准测试中超越 Claude",
+        "en": "GLM 5.2 Surpasses Claude in Cybersecurity Benchmarks"
+      },
+      "summary": {
+        "zh": "智谱 AI 的最新模型 GLM 5.2 在特定的网络安全和编程基准测试中超越了 Anthropic 的 Claude。这一里程碑凸显了中国顶级大语言模型在专业技术领域与西方同行之间性能差距的快速缩小。测试重点关注漏洞检测和复杂代码分析，GLM 在这些领域表现出了更卓越的推理能力，且误报率低于同类模型，展示了其在工程化场景下的潜力。",
+        "en": "Zhipu AI's latest model, GLM 5.2, has reportedly surpassed Anthropic's Claude in specific cybersecurity and coding benchmarks. This milestone highlights the rapid narrowing of the performance gap between top-tier Chinese large language models and their Western counterparts in specialized technical domains. The benchmarks specifically focused on vulnerability detection and complex code analysis, areas where GLM demonstrated superior reasoning and lower false-positive rates compared to its peers."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "brown-university-ai-fraud",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "布朗大学爆发大规模 AI 辅助考试作弊丑闻",
+        "en": "Mass AI-Assisted Cheating Scandal Rocks Brown University"
+      },
+      "summary": {
+        "zh": "布朗大学的一位教授公开谴责了最近一次考试中普遍存在的 AI 辅助作弊行为，引发了关于学术诚信的全美讨论。该事件涉及班级中很大一部分学生使用大模型生成答案，成功绕过了传统的监考手段，凸显了现有 AI 检测软件的局限性。这一案例强调了在生成式 AI 成为学生普及工具的背景下，教育机构迫切需要重新思考和设计评估策略。",
+        "en": "A professor at Brown University has publicly denounced widespread AI-assisted fraud during a recent examination, sparking a national debate on academic integrity. The incident involved a significant portion of the class using LLMs to generate answers, bypassing traditional proctoring methods and highlighting the limitations of current AI detection software. This case underscores the urgent need for educational institutions to rethink assessment strategies as generative AI becomes an ubiquitous tool for students."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "tidal-ai-policy-release",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Tidal 发布针对 AI 生成内容的新政策",
+        "en": "Tidal Establishes New Policy for AI-Generated Content"
+      },
+      "summary": {
+        "zh": "音乐流媒体平台 Tidal 正式发布了其 AI 政策，旨在平衡技术创新与艺术家权益保护。该政策规定了使用版权材料进行 AI 训练的严格准则，并要求对平台上的所有合成内容进行明确标注。此举反映了创意产业的一个更广泛趋势：面对未经授权的生成式 AI 模仿，平台必须建立明确界限，以保护人类创作者的经济利益和艺术声誉。",
+        "en": "Music streaming platform Tidal has officially released its AI policy, aiming to balance technological innovation with the protection of artist rights. The policy outlines strict guidelines regarding the use of copyrighted material for AI training and mandates the clear labeling of synthetic content on the platform. This move reflects a broader industry trend where creative platforms are forced to establish clear boundaries against unauthorized generative AI mimicry and protect the economic interests of human creators."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://tidal.com/ai-policy",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "ai-financial-risk-warning",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "央行行长警告 AI 热潮可能引发全球金融崩溃",
+        "en": "Central Bankers Warn AI Boom Could Trigger Financial Crash"
+      },
+      "summary": {
+        "zh": "各国央行行长发出严厉警告，称当前的 AI 投资热潮可能引发全球金融危机。他们担心市场集中度过高、AI 驱动的交易算法缺乏透明度，以及同步自动化抛售可能导致的「闪崩」风险。该警告表明，私人投资者目前低估了 AI 集成金融市场所带来的系统性风险，这种盲目乐观可能导致泡沫破裂，进而威胁到全球经济的整体稳定。",
+        "en": "Central bankers have issued a stark warning that the current AI investment boom could trigger a global financial crisis. They cite concerns over extreme market concentration, the opacity of AI-driven trading algorithms, and the potential for 'flash crashes' caused by synchronized automated selling. The warning suggests that the systemic risks posed by AI-integrated financial markets are currently undervalued by private investors, potentially leading to a bubble that threatens broader economic stability."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "ford-rehires-engineers-ai-limits",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "AI 表现不及预期，福特重新聘请资深工程师",
+        "en": "Ford Rehires Veteran Engineers as AI Limits Surface"
+      },
+      "summary": {
+        "zh": "福特汽车公司已开始重新聘请资深的「白胡子」工程师，因为他们发现 AI 驱动的设计和模拟工具在复杂的现实场景中表现不及预期。虽然 AI 擅长优化特定参数，但在机械系统的细微集成和需要人类直觉的长期可靠性测试方面却显得力不从心。这一转变凸显了重工业界日益清晰的认识：在涉及高风险的物理工程和安全关键系统领域，人类的专业知识仍然不可或缺。",
+        "en": "Ford Motor Company has begun rehiring veteran 'gray beard' engineers after finding that AI-driven design and simulation tools fell short of expectations in complex real-world scenarios. While AI excelled at optimizing specific parameters, it struggled with the nuanced integration of mechanical systems and long-term reliability testing that requires human intuition. This shift highlights a growing realization in heavy industry that human expertise remains indispensable for high-stakes physical engineering and safety-critical systems."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "cerebras-openai-capacity-crunch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Cerebras 与 OpenAI 达成大单，传初创公司 API 等待名单遭冻结",
+        "en": "Cerebras-OpenAI Deal Reportedly Freezes API Waitlist for Startups"
+      },
+      "summary": {
+        "zh": "开发者社区报告显示，Cerebras 与 OpenAI 达成的大规模容量交易实际上冻结了其他 API 用户的等待名单。对于需要高吞吐量、低延迟推理（每秒 1k-2k token）的实时应用初创公司而言，他们发现自己被排除在 Cerebras 的专用硬件之外。这凸显了一个日益增长的趋势：计算即服务提供商正优先考虑「巨头」合同，而非更广泛的生态系统。这可能会抑制那些依赖特定推理速度而非大规模训练集群的小型 AI 公司的创新。",
+        "en": "Reports from the developer community indicate that a massive capacity deal between Cerebras and OpenAI has effectively frozen the waitlist for other API users. Small startups requiring high-throughput, low-latency inference (1k-2k tokens/second) for real-time applications are finding themselves locked out of Cerebras's specialized hardware. This highlights a growing trend where compute-as-a-service providers prioritize 'whale' contracts over the broader ecosystem, potentially stifling innovation among smaller AI firms that rely on specialized inference speeds rather than massive training clusters."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "google-agentic-peer-reviewer",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "Google 智能体审稿人完成 ICML/STOC 万篇论文评审",
+        "en": "Google's AI Peer-Reviewer Evaluates 10,000 Papers at ICML/STOC"
+      },
+      "summary": {
+        "zh": "Google 发布了一项正式研究论文，详细介绍了其智能体 AI 审稿人。该系统在 ICML 和 STOC 会议上评估了约 10,000 篇论文，实现了 30 分钟的快速周转，并在捕捉数学错误方面比标准零样本提示提高了 34%。这一里程碑为大规模 AI 自动化科学评审设定了重要先例，在缓解人类审稿人日益沉重负担的同时，也引发了关于学术验证未来以及自动化评估中潜在系统性偏见的讨论。",
+        "en": "Google has released a formal research paper detailing its agentic AI peer-reviewer, which was deployed to evaluate approximately 10,000 papers at ICML and STOC conferences. The system achieved a 30-minute turnaround time and demonstrated a 34% improvement in catching mathematical errors compared to standard zero-shot prompting. This milestone sets a significant precedent for AI-automated scientific review at scale, addressing the growing burden on human reviewers while raising questions about the future of academic validation and the potential for systemic bias in automated assessments."
+      },
+      "source": "Reddit",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "health-location-data-protection-act",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国立法者提议禁止 AI 公司出售用户健康数据",
+        "en": "US Lawmakers Propose Ban on AI Companies Selling Health Data"
+      },
+      "summary": {
+        "zh": "参议员 Elizabeth Warren 和众议员 Mary Gay Scanlon 正在推出针对 AI 时代更新的《健康与位置数据保护法案》。该提案旨在禁止数据经纪人出售美国人的敏感健康和位置信息，包括用户自愿与 ChatGPT 或 Claude 等 AI 聊天机器人分享的数据。随着 AI 模型越来越多地充当个人「知己」，该立法旨在堵住允许科技公司将亲密用户交互货币化的漏洞，标志着联邦 AI 隐私监管和消费者保护迈出了关键一步。",
+        "en": "Senator Elizabeth Warren and Representative Mary Gay Scanlon are introducing an updated version of the Health and Location Data Protection Act specifically targeting the AI era. The proposal seeks to ban data brokers from selling Americans' sensitive health and location information, including data voluntarily shared with AI chatbots like ChatGPT or Claude. As AI models increasingly act as personal confidants, this legislation aims to close loopholes that allow tech companies to monetize intimate user interactions, marking a critical step in federal AI privacy regulation and consumer protection."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "suno-spark-incubator-program",
+      "category": {
+        "zh": "社区精选",
+        "en": "Community Picks",
+        "color": "#f59e0b"
+      },
+      "title": {
+        "zh": "Suno 推出 Spark 孵化器计划，旨在吸纳独立艺术家数据",
+        "en": "Suno Launches Spark Incubator to Bridge AI and Independent Artists"
+      },
+      "summary": {
+        "zh": "AI 音乐平台 Suno 推出了名为「Spark」的孵化器计划，旨在通过资助、指导和营销支持独立且未签约的艺术家。虽然 Suno 主要以其生成式音乐功能闻名，但此举标志着其野心：从单纯的创作工具转型为流媒体目的地和人才发掘中心。然而，该计划要求艺术家将其数据提供给 Suno 的「AI 机器」，这引发了关于人类创作者与基于其作品训练的生成模型之间共生但又充满争议的关系的复杂问题。",
+        "en": "AI music platform Suno has launched 'Spark,' an incubator program designed to support independent, unsigned artists through grants, mentorship, and marketing. While Suno is primarily known for its generative music capabilities, this move signals an ambition to transition from a creative tool to a mainstream streaming destination and talent discovery hub. However, the program requires artists to provide their data to Suno's 'AI machine,' raising complex questions about the symbiotic yet controversial relationship between human creators and the generative models trained on their output."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "chatgpt-logs-evidence-trial",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "ChatGPT 对话记录被用作重大纵火案审判证据",
+        "en": "ChatGPT Logs Used as Key Evidence in Major Arson Trial"
+      },
+      "summary": {
+        "zh": "在一项具有里程碑意义的法律进展中，检察官在 Jonathan Rinderknecht 的纵火案审判中将 ChatGPT 对话记录作为关键证据。被告被控引发了 2025 年毁灭性的 Palisades 大火。记录显示，被告在事件发生前曾利用 AI 生成火焰图像，并询问了有关火灾行为的特定问题。此案凸显了 AI 交互历史作为刑事调查中「数字足迹」的日益重要的作用，并对用户隐私、法庭上 AI 数据的可发现性以及 AI 辅助意图的法律效力产生了重大影响。",
+        "en": "In a landmark legal development, prosecutors used ChatGPT conversation logs as key evidence in the arson trial of Jonathan Rinderknecht, accused of starting the devastating 2025 Palisades fire. The logs revealed that the defendant had used the AI to generate images of fire and asked specific questions about fire behavior prior to the incident. This case underscores the growing role of AI interaction history as a 'digital footprint' in criminal investigations, highlighting significant implications for user privacy, the discoverability of AI data in court, and the legal weight of AI-assisted intent."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "agent-confidence-enterprise-roi",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "2026 年成为企业级智能体 AI 投资回报率的拐点之年",
+        "en": "2026 Named Inflection Year for Enterprise Agentic AI ROI"
+      },
+      "summary": {
+        "zh": "企业 AI 投资在 2026 年正达到关键拐点，各组织正将重点从实验性试点转向战略对齐和可衡量的投资回报率（ROI）。根据 Gartner 和《麻省理工科技评论》的分析，行业正转向「智能体 AI」来驱动财务成果，因为这些自主系统可以执行复杂的流程，而不仅仅是生成文本。当前的技术前沿聚焦于「智能体信心」——即 AI 系统可靠执行业务关键任务的能力——这被视为衡量大规模企业 AI 部署成功与否的首要指标。",
+        "en": "Enterprise AI investment is reaching a critical inflection point in 2026, with organizations shifting focus from experimental pilots to strategic alignment and measurable ROI. According to Gartner and MIT Technology Review, the industry is moving toward 'agentic AI' to drive financial outcomes, as these autonomous systems can execute complex workflows rather than just generating text. The current technical frontier focuses on 'agent confidence'—the ability of AI systems to reliably perform business-critical tasks—which is now seen as the primary metric for determining the success of large-scale corporate AI deployments."
+      },
+      "source": "MIT Tech Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+      "date": "2026-06-29"
+    }
+  ]
+}
