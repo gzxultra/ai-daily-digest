@@ -1,0 +1,255 @@
+{
+  "date": "2026-07-01",
+  "dateLabel": {
+    "zh": "2026年7月1日",
+    "en": "July 01, 2026"
+  },
+  "crawlLog": {
+    "fetchedAt": "2026-07-01T17:21:58Z",
+    "elapsedSeconds": 178,
+    "rawArticles": 62,
+    "afterFilter": 51,
+    "afterDedup": 44,
+    "dedupRemoved": 7,
+    "finalStories": 12,
+    "model": "gemini-3-flash-preview",
+    "sourceBreakdown": {
+      "The Pragmatic Engineer": 1,
+      "Hacker News": 5,
+      "r/MachineLearning": 2,
+      "r/LocalLLaMA": 2,
+      "The Verge AI": 1,
+      "Ars Technica": 1
+    }
+  },
+  "news": [
+    {
+      "id": "pragmatic-engineer-ai-lab-visit",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "深入 AI 实验室：向云端智能体转型的行业趋势",
+        "en": "Inside the AI Labs: The Shift Toward Cloud-Based Agents"
+      },
+      "summary": {
+        "zh": "Gergely Orosz 深入调研了 OpenAI、Anthropic 和 Cursor 的内部运作，揭示了软件工程领域的重大转向。行业正朝着在云端运行的「自主代理」和超越简单代码补全的「编程框架」发展。这些迹象表明，AI 集成的下一阶段将侧重于端到端的任务执行，而不仅仅是辅助人类开发人员。这种转变将从根本上改变软件开发的生产力模型，使 AI 从辅助工具进化为能够独立处理复杂工程任务的实体。",
+        "en": "Gergely Orosz provides a deep dive into the internal operations of OpenAI, Anthropic, and Cursor, highlighting a pivotal shift in software engineering. The industry is moving toward 'cloud-based agents' that operate autonomously and 'coding harnesses' that extend AI capabilities beyond simple text completion. These developments suggest that the next phase of AI integration will focus on end-to-end task execution rather than just assisting human developers, fundamentally altering the software development lifecycle."
+      },
+      "source": "The Pragmatic Engineer",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/impressions-from-visiting-openai",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "claude-sonnet-5-launch",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 发布 Claude Sonnet 5 引发社区热议",
+        "en": "Anthropic Releases Claude Sonnet 5 to High Community Acclaim"
+      },
+      "summary": {
+        "zh": "Anthropic 正式发布了 Claude Sonnet 5，这是其平衡型中端模型的最新迭代，在 Hacker News 上获得了超过 1200 点的高热度。虽然初始公告未详细列出所有基准测试数据，但该模型预计将在推理能力和处理速度之间提供更优的平衡。此次发布进一步巩固了 Anthropic 在企业和开发者市场中对抗 OpenAI GPT 系列的竞争地位，特别吸引那些在追求高性能智能的同时对延迟有严格要求的开发者。",
+        "en": "Anthropic has officially released Claude Sonnet 5, the latest iteration of its mid-tier model, generating significant buzz on Hacker News with over 1,200 points. While specific benchmarks were not detailed in the initial announcement, the model is expected to offer a superior balance of reasoning capabilities and processing speed. This release reinforces Anthropic's competitive position against OpenAI's GPT series, targeting developers who require high-performance intelligence without the latency of flagship-tier models."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "anthropic-export-controls-lifted",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "美国取消 Claude Fable 5 与 Mythos 5 的出口管制",
+        "en": "US Lifts Export Controls on Claude Fable 5 and Mythos 5"
+      },
+      "summary": {
+        "zh": "美国商务部在一项重大监管动态中取消了对 Anthropic 高端模型 Claude Fable 5 和 Mythos 5 的出口管制。此举允许这些先进的 AI 系统在更广泛的国际市场中部署和访问。该决定反映了政府在 AI 安全策略以及国家安全与商业竞争力平衡方面的潜在转变。这一政策松绑可能会加速受监管行业在全球范围内对先进 AI 技术的采用，并对国际 AI 竞争格局产生深远影响。",
+        "en": "In a major regulatory development, the US Department of Commerce has lifted export controls on Anthropic's high-end models, Claude Fable 5 and Mythos 5. This move allows these advanced AI systems to be deployed and accessed in a broader range of international markets. The decision reflects a potential shift in government strategy regarding AI safety and the balance between national security and commercial competitiveness, potentially accelerating global AI adoption in regulated sectors."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "claude-science-release",
+      "category": {
+        "zh": "模型与 API",
+        "en": "Models & APIs",
+        "color": "#6366f1"
+      },
+      "title": {
+        "zh": "Anthropic 推出面向专业研究的 Claude Science",
+        "en": "Anthropic Launches Claude Science for Specialized Research"
+      },
+      "summary": {
+        "zh": "Anthropic 推出了「Claude Science」，这是一个专门为辅助科学发现和复杂数据分析而设计的新产品线。该工具旨在为研究人员提供专门的推理能力，用于假设生成、文献综述和数学建模。该产品在 Hacker News 上获得了 548 点关注，标志着大模型供应商为核心模型创建特定领域版本的趋势日益增强，旨在通过精准的功能定制来占领高价值的专业科研市场。",
+        "en": "Anthropic has introduced 'Claude Science,' a new product vertical specifically designed to assist in scientific discovery and complex data analysis. The tool aims to provide researchers with specialized reasoning capabilities for hypothesis generation, literature review, and mathematical modeling. With 548 points on Hacker News, the launch signals a growing trend of LLM providers creating domain-specific versions of their core models to capture high-value professional markets."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://claude.com/product/claude-science",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "godot-bans-ai-code",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "Godot 引擎宣布禁止 AI 编写的代码贡献",
+        "en": "Godot Engine Bans AI-Authored Code Contributions"
+      },
+      "summary": {
+        "zh": "开源游戏引擎 Godot 宣布了一项严格政策，不再接受 AI 编写的代码贡献。维护者表示，过度依赖 AI 的用户往往缺乏对生成代码的深度理解，难以提供长期维护或修复复杂漏洞。这一决定凸显了开源社区内部关于开发速度与代码库完整性之间权衡的日益激烈的争论。它反映了核心开发者对「黑盒」代码可能带来的技术债的警惕，强调了人类对底层逻辑理解的重要性。",
+        "en": "The open-source game engine Godot has announced a strict policy against accepting AI-authored code contributions. Maintainers cited concerns that heavy users of AI often lack a deep enough understanding of the generated code to provide long-term maintenance or fix complex bugs. This decision highlights a growing debate within the open-source community regarding the trade-offs between development speed and the long-term integrity and maintainability of the codebase."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "claude-code-spyware-allegations",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Claude Code 隐藏遥测指控引发隐私担忧",
+        "en": "Allegations of Hidden Telemetry in Claude Code Spark Privacy Concerns"
+      },
+      "summary": {
+        "zh": "社交媒体上出现了关于 Anthropic 的 Claude Code 工具中嵌入了隐藏的「类间谍软件」代码的指控。虽然该报告在 Hacker News 上仅获得 55 点关注，但它引发了关于 AI 开发工具中遥测和数据隐私的激烈讨论。如果这些指控属实，可能会严重损害开发者对 Anthropic 生态系统的信任，并引发对 AI 工具如何监控用户行为以及数据收集透明度的更高要求。",
+        "en": "Allegations have surfaced regarding hidden, 'spyware-like' code embedded within Anthropic's Claude Code tool. While the report currently has limited traction on Hacker News with 55 points, it has sparked intense discussion about telemetry and data privacy in AI-integrated development environments. If verified, these claims could significantly damage developer trust in Anthropic's ecosystem and prompt calls for greater transparency in how AI tools monitor user behavior."
+      },
+      "source": "Hacker News",
+      "sourceUrl": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "moth-retrieval-graph-free-rag",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "MOTHRAG：无需图谱的多跳检索性能超越 GraphRAG",
+        "en": "MOTHRAG: Graph-Free Multi-Hop Retrieval Outperforms GraphRAG"
+      },
+      "summary": {
+        "zh": "MOTHRAG 是一个新的开源多跳 RAG 框架，它消除了对预构建知识图谱的需求。通过使用查询时编排而非离线索引，它解决了 GraphRAG 和 HippoRAG 等系统常见的「数据陈旧」问题。HotpotQA 的基准测试显示，该框架在性能上超越了传统的基于图的系统，同时显著降低了频繁数据更新带来的计算开销和 LLM 成本。",
+        "en": "MOTHRAG is a new open-source multi-hop RAG framework that eliminates the need for pre-built knowledge graphs. By using query-time orchestration instead of offline indexing, it solves the stale data problem common in systems like GraphRAG and HippoRAG. Benchmarks on HotpotQA show it outperforms traditional graph-based systems while significantly reducing the computational overhead and LLM costs associated with frequent data updates."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "system-level-prompt-injection-mitigation",
+      "category": {
+        "zh": "研究与论文",
+        "en": "Research & Papers",
+        "color": "#ec4899"
+      },
+      "title": {
+        "zh": "结构化防御：在智能体中分离指令与数据通道",
+        "en": "Structural Defense: Separating Instruction and Data Channels in Agents"
+      },
+      "summary": {
+        "zh": "一种新的系统级方法通过在架构上分离 LLM 智能体的指令和数据通道来解决提示注入问题。与传统的输入过滤或模型对齐不同，该方法将指令和外部数据视为不同的流，以防止恶意数据被误读为命令。这种结构性缓解措施对于模型需要与不可信外部数据源和工具交互的智能体工作流尤为重要。",
+        "en": "A new system-level approach addresses prompt injection by architecturally separating instruction and data channels in LLM agents. Unlike traditional input filtering or model alignment, this method treats instructions and external data as distinct streams to prevent malicious data from being interpreted as commands. This structural mitigation is particularly critical for agentic workflows where models interact with untrusted external sources and tools."
+      },
+      "source": "r/MachineLearning",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1ukgwk1/a_systemlevel_approach_to_prompt_injection/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "swe-rebench-leaderboard-update-2026",
+      "category": {
+        "zh": "智能编程工作流",
+        "en": "Agentic Workflows",
+        "color": "#0ea5e9"
+      },
+      "title": {
+        "zh": "SWE-rebench 更新：Claude Opus 4.8 以 56.5% 成功率领跑",
+        "en": "SWE-rebench Update: Claude Opus 4.8 Leads with 56.5% Success Rate"
+      },
+      "summary": {
+        "zh": "SWE-rebench 排行榜已更新，加入了多个下一代模型，展示了自主软件工程领域的显著进展。Claude Opus 4.8 xhigh 目前以 56.5% 的成功率领跑，紧随其后的是 GLM-5.2（51.1%）和 Gemini 3.5 Flash（49.5%）。此次更新还引入了全新的 UI，以便更好地比较 Qwen 3.6 和 DeepSeek-V4 Pro 等模型在 Token 使用量和效率方面的表现。",
+        "en": "The SWE-rebench leaderboard has been updated with several next-generation models, showing significant progress in autonomous software engineering. Claude Opus 4.8 xhigh currently leads the pack with a 56.5% success rate, followed by GLM-5.2 at 51.1% and Gemini 3.5 Flash at 49.5%. The update also introduces a revamped UI to better compare token usage and efficiency across models like Qwen 3.6 and DeepSeek-V4 Pro."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uknx14/swerebench_leaderboard_update_glm52_qwen3627b/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "audiocpp-vibevoice-inference-benchmark",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "audio.cpp 助力 VibeVoice 1.5B 实现 4.08 倍实时推理速度",
+        "en": "audio.cpp Achieves 4.08x Real-Time Speed with VibeVoice 1.5B"
+      },
+      "summary": {
+        "zh": "audio.cpp 项目发布了对 VibeVoice 1.5B 的支持，利用原生 C++/ggml 运行时实现了突破性的本地推理速度。在 RTX 5090 上，该系统仅用 22.95 分钟就处理了 93.6 分钟的播客，实现了 4.08 倍的实时加速。该实现在无需量化的情况下比标准 Python 运行时快 2.86 倍，使长文本语音合成在本地硬件上更具可行性。",
+        "en": "The audio.cpp project has released support for VibeVoice 1.5B, achieving record-breaking local inference speeds using a native C++/ggml runtime. On an RTX 5090, the system processed a 93.6-minute podcast in just 22.95 minutes, representing a 4.08x real-time speedup. This implementation is 2.86x faster than standard Python-based runtimes without requiring quantization, making long-form TTS more viable for local hardware."
+      },
+      "source": "r/LocalLLaMA",
+      "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1uk7khq/audiocpp_vibevoice_15b_released_90min_podcast_in/",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "netflix-ai-gene-wilder-voice",
+      "category": {
+        "zh": "行业与政策",
+        "en": "Industry & Policy",
+        "color": "#8b5cf6"
+      },
+      "title": {
+        "zh": "Netflix 使用 AI 技术在旺卡真人秀中重现吉恩·怀尔德的声音",
+        "en": "Netflix Uses AI to Resurrect Gene Wilder's Voice for Wonka Show"
+      },
+      "summary": {
+        "zh": "Netflix 确认在其即将推出的真人秀竞赛节目《旺卡的金票》中使用 AI 生成的吉恩·怀尔德（Gene Wilder）的声音。虽然节目布景是实景拍摄，但旁白采用了与这位已故演员遗产委员会合作开发的 AI 音频克隆技术。此举凸显了娱乐界「数字复活」日益增长的趋势，并引发了关于已故艺人 AI 表演的伦理和授权问题的持续讨论。",
+        "en": "Netflix has confirmed the use of an AI-generated version of Gene Wilder's voice for its upcoming reality competition, 'Wonka's The Golden Ticket.' While the production sets are physical, the voiceover utilizes AI audio cloning technology developed in collaboration with the late actor's estate. This move highlights the growing trend of 'digital resurrection' in entertainment and raises ongoing questions regarding the ethics and licensing of posthumous AI performances."
+      },
+      "source": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "ai-browser-dream-world-attack",
+      "category": {
+        "zh": "工程与工具",
+        "en": "Engineering & Tools",
+        "color": "#10b981"
+      },
+      "title": {
+        "zh": "新型「梦境世界」攻击可绕过 AI 浏览器安全防护",
+        "en": "New 'Dream World' Attack Bypasses AI Browser Guardrails"
+      },
+      "summary": {
+        "zh": "安全研究人员在集成 AI 的浏览器中发现了一个新漏洞，允许攻击者将 LLM 诱导进入「梦境世界」，从而绕过安全防护栏。通过提供简单的矛盾输入（例如坚持 2 + 2 = 5），攻击者可以破坏模型的逻辑一致性，直到其执行被禁止的指令。这一漏洞强调了赋予 LLM 对浏览器环境和敏感用户数据直接控制权的固有风险。",
+        "en": "Security researchers have identified a new vulnerability in AI-integrated browsers that allows attackers to lull LLMs into a 'dream world' where safety guardrails are bypassed. By providing simple contradictory inputs, such as insisting that 2 + 2 = 5, attackers can degrade the model's logical consistency until it follows forbidden instructions. This exploit underscores the inherent risks of granting LLMs direct control over browser environments and sensitive user data."
+      },
+      "source": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "date": "2026-07-01"
+    }
+  ]
+}
